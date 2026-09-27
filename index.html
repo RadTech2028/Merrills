@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Positioning Lab | Radiography Practice</title>
+<meta name="description" content="Practice radiographic positioning by anatomy group, central ray, purpose, and image evaluation.">
+<link rel="icon" href="./favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="./styles.css">
+<script defer src="./app.js"></script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<aside class="sidebar">
+ <a class="brand" href="./"><img src="./favicon.svg" alt="" width="42" height="42"><span>Positioning<span class="brand-light">LAB</span></span></a>
+ <div class="sidebar-label">YOUR STUDY SPACE</div>
+ <nav aria-label="Main navigation">
+ <button class="nav active" data-view="practice"><span aria-hidden="true">⊞</span> Practice</button>
+ <button class="nav" data-view="browse"><span aria-hidden="true">▤</span> Question bank</button>
+ <button class="nav" data-view="builder"><span aria-hidden="true">＋</span> Question builder</button>
+ </nav>
+ <div class="sidebar-bottom"><span class="edition">RT / 2028</span><p>One projection at a time.</p><small>Based on your Merrill’s study guides.<br>Independent student resource.</small></div>
+</aside>
+<div class="workspace">
+<header class="topbar"><span>RADIOGRAPHIC POSITIONING</span><span class="pill">Sample bank <b id="bank-count">…</b></span></header>
+<main id="main" tabindex="-1">
+<div id="loading" role="status" class="notice">Loading your question bank…</div>
+<div id="app" hidden>
+<section id="practice-view">
+ <div class="page-heading"><div class="eyebrow">PRACTICE / SESSION SETUP</div><h1>Know your positioning.</h1><p>Choose your anatomy. Focus on what you need to remember.</p></div>
+ <div class="setup-layout">
+  <div>
+   <div class="section-line"><h2><span class="step">01</span> Choose anatomy</h2><button class="text-button" id="toggle-groups">Select all</button></div>
+   <div id="group-grid" class="group-grid"></div>
+   <div class="section-line second"><h2><span class="step">02</span> Set your focus</h2></div>
+   <div id="focus-list" class="chips"></div>
+   <label class="checkline"><input type="checkbox" id="images-only"> Image questions only <span class="muted" id="image-count"></span></label>
+   <div class="sample-note"><span class="note-icon" aria-hidden="true">i</span><p><strong>A small bank to try things out.</strong> These sample questions come from Connor’s supplied guides. More projections and images can be added as you go.</p></div>
+  </div>
+  <aside class="session-card">
+   <div class="eyebrow">YOUR SESSION</div><div class="match-count"><strong id="match-count">0</strong><span>matching questions</span></div>
+   <hr><label for="session-mode">Study mode</label><select id="session-mode"><option value="practice">Practice · feedback after each answer</option><option value="exam">Test · feedback at the end</option><option value="cards">Flashcards · reveal & self-check</option></select>
+   <label for="session-size">Number of questions</label><select id="session-size"><option value="10">10 questions</option><option value="20">20 questions</option><option value="50">50 questions</option><option value="all">All matching questions</option></select>
+   <label class="checkline"><input type="checkbox" id="shuffle" checked> Shuffle questions & answers</label>
+   <button class="primary start" id="start">Start practice <span aria-hidden="true">→</span></button>
+   <p id="session-hint" class="small muted"></p>
+   <div class="card-footer">No timer. Room to think.</div>
+  </aside>
+ </div>
+</section>
+<section id="quiz-view" hidden></section>
+<section id="results-view" hidden></section>
+<section id="browse-view" hidden>
+ <div class="page-heading"><div class="eyebrow">REFERENCE / QUESTION BANK</div><h1>See what’s in the bank.</h1><p>Search a projection, question, or answer. Open a question to study it.</p></div>
+ <div class="bank-tools"><input id="bank-search" type="search" placeholder="Search questions or projections…" aria-label="Search question bank"><select id="bank-group" aria-label="Filter anatomy group"></select><select id="bank-topic" aria-label="Filter topic"></select></div>
+ <div class="section-line"><p id="browse-count" class="muted"></p><button id="bank-more" class="text-button" hidden>Show 50 more</button></div><div id="bank-list"></div>
+</section>
+<section id="builder-view" hidden>
+ <div class="page-heading"><div class="eyebrow">CREATE / QUESTION BUILDER</div><h1>Build the next question.</h1><p>Create questions, attach images, and export a ready-to-use question file.</p></div>
+ <div class="notice">Drafts stay in this browser. Export your file, then upload it to your website to share with classmates. This page does not edit the live bank.</div>
+ <div class="builder-layout">
+ <form id="builder-form" class="panel">
+ <div class="form-row"><div><label for="draft-group">Anatomy group</label><select id="draft-group"></select></div><div><label for="draft-type">Question type</label><select id="draft-type"><option value="mcq">Multiple choice</option><option value="short">Short answer</option></select></div></div>
+ <div class="form-row"><div><label for="draft-projection">Projection / method</label><input id="draft-projection" required placeholder="e.g., AP axial foot"></div><div><label for="draft-topic">Focus</label><select id="draft-topic"></select></div></div>
+ <label for="draft-prompt">Question</label><textarea id="draft-prompt" rows="3" required placeholder="Where is the central ray directed?"></textarea>
+ <div id="options-fields"><label for="draft-options">Choices · one per line</label><textarea id="draft-options" rows="4" placeholder="First choice&#10;Second choice&#10;Third choice&#10;Fourth choice"></textarea></div>
+ <label for="draft-answer">Correct answer <span class="muted small">(match one choice exactly)</span></label><input id="draft-answer" required>
+ <div id="aliases-fields" hidden><label for="draft-aliases">Other accepted answers · one per line</label><textarea id="draft-aliases" rows="2"></textarea></div>
+ <label for="draft-explanation">Explanation</label><textarea id="draft-explanation" required rows="2"></textarea>
+ <label for="draft-source">Source / page reference</label><input id="draft-source" placeholder="Guide title · projection · page">
+ <fieldset><legend>Optional image</legend><p class="small muted">Use a local path for a published image, or embed a JPG, PNG, or WebP. Maximum upload: 5 MB.</p>
+ <label for="draft-image-path">Image path or HTTPS URL</label><input id="draft-image-path" placeholder="images/shoulder/ap-external.jpg">
+ <label for="draft-image-file">Or upload an image</label><input type="file" id="draft-image-file" accept="image/jpeg,image/png,image/webp">
+ <label for="draft-image-alt">Image description</label><input id="draft-image-alt" placeholder="Describe the image without giving away the answer">
+ <label for="draft-image-caption">Caption (optional)</label><input id="draft-image-caption">
+ <img id="draft-image-preview" class="draft-preview" alt="Uploaded question image preview" hidden>
+ <button type="button" id="remove-image" class="text-button">Clear image</button></fieldset>
+ <p id="builder-message" role="status"></p>
+ <div class="actions"><button type="submit" class="primary" id="save-draft">Add to draft bank</button><button type="button" id="cancel-edit" hidden>Cancel edit</button></div>
+ </form>
+ <aside class="panel draft-panel"><div class="section-line"><h2>Draft bank</h2><span class="pill" id="draft-count">0</span></div><p class="small muted">Exports the selected anatomy group. Import an existing group file to add to it.</p>
+ <div class="actions vertical"><button id="export-drafts" class="primary">Export group JSON</button><button id="preview-drafts">Try this draft group</button><label class="file-button" for="import-drafts">Import question JSON</label><input id="import-drafts" type="file" accept=".json,application/json" hidden></div>
+ <p id="draft-status" role="status" class="small"></p><div id="draft-list"></div>
+ <details class="help"><summary>How to publish your questions</summary><ol><li>Export the group’s JSON file.</li><li>Put it in your website’s <code>data/</code> folder, replacing the matching file. Import the existing file first if you want to keep its questions.</li><li>For a new group, add its name and file path to <code>data/groups.json</code>.</li><li>Upload separate image files to <code>images/</code>. Embedded uploads need no separate image file.</li><li>Commit the changes in GitHub. They appear when GitHub Pages finishes deploying.</li></ol></details>
+ </aside></div>
+</section>
+</div>
+<footer class="footer">POSITIONING LAB <span>Study aid · Sample content follows supplied guides; not independently verified against Merrill’s.</span></footer>
+</main></div>
+<dialog id="image-dialog"><button id="close-image">Close image ×</button><img id="large-image" alt=""></dialog>
+</body></html>

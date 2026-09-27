@@ -1,0 +1,26 @@
+[
+  {
+    "id": "hands",
+    "name": "Hands & digits",
+    "description": "Fingers \u00b7 Thumb \u00b7 Hand",
+    "file": "data/hands.json"
+  },
+  {
+    "id": "wrist",
+    "name": "Wrist, forearm & elbow",
+    "description": "Wrist \u00b7 Forearm \u00b7 Elbow",
+    "file": "data/wrist.json"
+  },
+  {
+    "id": "shoulder",
+    "name": "Shoulder girdle & humerus",
+    "description": "Humerus \u00b7 Shoulder \u00b7 Clavicle \u00b7 Scapula \u00b7 AC joints",
+    "file": "data/shoulder.json"
+  },
+  {
+    "id": "lower",
+    "name": "Lower extremity",
+    "description": "Toes \u00b7 Foot \u00b7 Ankle \u00b7 Calcaneus \u00b7 Lower leg",
+    "file": "data/lower.json"
+  }
+]

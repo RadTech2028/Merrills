@@ -1,0 +1,82 @@
+[
+  {
+    "id": "lower-001",
+    "projection": "AP axial foot",
+    "topic": "central-ray",
+    "type": "mcq",
+    "prompt": "Which CR direction is used for the AP axial foot in your guide?",
+    "options": [
+      "10° toward the heel, entering the base of the third metatarsal",
+      "10° toward the toes, entering the first MTP joint",
+      "Perpendicular to the first metatarsal head",
+      "40° cephalad, entering the ankle joint"
+    ],
+    "answer": "10° toward the heel, entering the base of the third metatarsal",
+    "explanation": "The AP axial foot uses a 10° angle toward the heel, centered at the base of the third metatarsal.",
+    "source": "Connor Kelly · supplied guide · AP axial foot"
+  },
+  {
+    "id": "lower-002",
+    "projection": "AP oblique foot, medial rotation",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "Which is a characteristic finding for the medial oblique foot?",
+    "options": [
+      "Cuboid in profile and sinus tarsi well shown",
+      "First and second metatarsals free of superimposition",
+      "All metatarsal heads superimposed",
+      "Navicular with less foreshortening than the lateral oblique"
+    ],
+    "answer": "Cuboid in profile and sinus tarsi well shown",
+    "explanation": "The guide identifies the cuboid in profile, the sinus tarsi, and the third through fifth metatarsals free of superimposition.",
+    "source": "Connor Kelly · supplied guide · AP oblique foot, medial rotation"
+  },
+  {
+    "id": "lower-003",
+    "projection": "Lateral toes",
+    "topic": "central-ray",
+    "type": "short",
+    "prompt": "Where is the CR centered for a lateral projection of the great toe?",
+    "answer": "IP joint of the great toe",
+    "explanation": "The great toe has one IP joint; the lateral projection is centered there.",
+    "source": "Connor Kelly · supplied guide · Lateral toes",
+    "acceptedAnswers": [
+      "IP joint",
+      "Interphalangeal joint",
+      "Interphalangeal joint of the great toe",
+      "Great toe IP joint"
+    ]
+  },
+  {
+    "id": "lower-004",
+    "projection": "Tangential sesamoids",
+    "topic": "purpose",
+    "type": "mcq",
+    "prompt": "What should the tangential sesamoid projection demonstrate?",
+    "options": [
+      "Sesamoids free of superimposition by the first metatarsal",
+      "An open ankle mortise",
+      "The cuboid in profile",
+      "Superimposed metatarsal heads"
+    ],
+    "answer": "Sesamoids free of superimposition by the first metatarsal",
+    "explanation": "The tangential projection shows the sesamoids free of the first metatarsal.",
+    "source": "Connor Kelly · supplied guide · Tangential sesamoids"
+  },
+  {
+    "id": "lower-005",
+    "projection": "AP oblique foot, lateral rotation",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "Which feature favors the lateral oblique foot over the medial oblique?",
+    "options": [
+      "Navicular seen with less foreshortening",
+      "Cuboid in full profile",
+      "Third through fifth metatarsals completely free of overlap",
+      "All metatarsal heads superimposed"
+    ],
+    "answer": "Navicular seen with less foreshortening",
+    "explanation": "The guide states that the lateral oblique shows the navicular with less foreshortening.",
+    "source": "Connor Kelly · supplied guide · AP oblique foot, lateral rotation"
+  }
+]

@@ -1,0 +1,82 @@
+[
+  {
+    "id": "shoulder-001",
+    "projection": "AP shoulder",
+    "topic": "central-ray",
+    "type": "mcq",
+    "prompt": "Where is the CR centered for the AP shoulder rotations in your guide?",
+    "options": [
+      "1 inch inferior to the coracoid process",
+      "Midshaft of the clavicle",
+      "Midpoint of the humerus",
+      "Superior angle of the scapula"
+    ],
+    "answer": "1 inch inferior to the coracoid process",
+    "explanation": "The AP external, neutral, and internal rotations use a perpendicular CR 1 inch inferior to the coracoid process.",
+    "source": "Connor Kelly · supplied guide · AP shoulder"
+  },
+  {
+    "id": "shoulder-002",
+    "projection": "AP shoulder, external rotation",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "What is the key tubercle appearance with external rotation of the humerus?",
+    "options": [
+      "Greater tubercle in profile laterally",
+      "Lesser tubercle in profile medially",
+      "Greater tubercle completely superimposed on the humeral head",
+      "Both tubercles in full profile"
+    ],
+    "answer": "Greater tubercle in profile laterally",
+    "explanation": "External rotation places the greater tubercle in profile on the lateral aspect.",
+    "source": "Connor Kelly · supplied guide · AP shoulder, external rotation"
+  },
+  {
+    "id": "shoulder-003",
+    "projection": "AP shoulder, internal rotation",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "Which tubercle appears in profile medially with internal rotation?",
+    "options": [
+      "Lesser tubercle",
+      "Greater tubercle",
+      "Deltoid tuberosity",
+      "Radial tuberosity"
+    ],
+    "answer": "Lesser tubercle",
+    "explanation": "The lesser tubercle is in profile medially; the greater tubercle is superimposed on the humeral head.",
+    "source": "Connor Kelly · supplied guide · AP shoulder, internal rotation"
+  },
+  {
+    "id": "shoulder-004",
+    "projection": "Grashey method",
+    "topic": "purpose",
+    "type": "mcq",
+    "prompt": "Which joint space is the Grashey method intended to open?",
+    "options": [
+      "Scapulohumeral joint",
+      "Acromioclavicular joint",
+      "Sternoclavicular joint",
+      "Humeroulnar joint"
+    ],
+    "answer": "Scapulohumeral joint",
+    "explanation": "The AP oblique Grashey method demonstrates the glenoid cavity in profile and opens the scapulohumeral joint space.",
+    "source": "Connor Kelly · supplied guide · Grashey method"
+  },
+  {
+    "id": "shoulder-005",
+    "projection": "Grashey method",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "How far is the body initially rotated toward the affected side for the Grashey method?",
+    "options": [
+      "35–45°",
+      "10–15°",
+      "60–70°",
+      "90°"
+    ],
+    "answer": "35–45°",
+    "explanation": "Rotate 35–45° toward the affected side and adjust until the scapula is parallel to the IR.",
+    "source": "Connor Kelly · supplied guide · Grashey method"
+  }
+]

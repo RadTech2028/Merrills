@@ -1,0 +1,82 @@
+[
+  {
+    "id": "wrist-001",
+    "projection": "PA wrist",
+    "topic": "central-ray",
+    "type": "mcq",
+    "prompt": "Where is the perpendicular CR centered for a PA wrist?",
+    "options": [
+      "Midcarpal area",
+      "Third MCP joint",
+      "Radial head",
+      "Midpoint of the forearm"
+    ],
+    "answer": "Midcarpal area",
+    "explanation": "The PA wrist CR is centered at the midcarpal area.",
+    "source": "Connor Kelly · supplied guide · PA wrist"
+  },
+  {
+    "id": "wrist-002",
+    "projection": "AP forearm",
+    "topic": "central-ray",
+    "type": "mcq",
+    "prompt": "Where is the perpendicular CR centered for an AP forearm?",
+    "options": [
+      "Midpoint of the forearm",
+      "Elbow joint",
+      "Midcarpal area",
+      "Radial styloid"
+    ],
+    "answer": "Midpoint of the forearm",
+    "explanation": "The CR is perpendicular to the midpoint of the forearm.",
+    "source": "Connor Kelly · supplied guide · AP forearm"
+  },
+  {
+    "id": "wrist-003",
+    "projection": "AP oblique elbow, medial rotation",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "Which structure is shown in profile on an AP oblique elbow with medial rotation?",
+    "options": [
+      "Coronoid process",
+      "Radial tuberosity free of the ulna",
+      "Scaphoid",
+      "Greater tubercle"
+    ],
+    "answer": "Coronoid process",
+    "explanation": "The coronoid process appears in profile with 45° medial rotation.",
+    "source": "Connor Kelly · supplied guide · AP oblique elbow, medial rotation"
+  },
+  {
+    "id": "wrist-004",
+    "projection": "AP oblique elbow, lateral rotation",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "Which finding identifies a properly positioned AP oblique elbow with lateral rotation?",
+    "options": [
+      "Radial head, neck, and tuberosity free of the ulna",
+      "Coronoid process in profile",
+      "Fully superimposed humeral epicondyles",
+      "Olecranon process in the olecranon fossa"
+    ],
+    "answer": "Radial head, neck, and tuberosity free of the ulna",
+    "explanation": "Lateral rotation projects the radial head, neck, and tuberosity free of the ulna.",
+    "source": "Connor Kelly · supplied guide · AP oblique elbow, lateral rotation"
+  },
+  {
+    "id": "wrist-005",
+    "projection": "Coyle method, radial head",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "For the radial head Coyle method, how is the elbow flexed?",
+    "options": [
+      "90°",
+      "80°",
+      "45°",
+      "Fully extended"
+    ],
+    "answer": "90°",
+    "explanation": "The radial head Coyle method uses 90° elbow flexion with the CR angled 45° toward the shoulder.",
+    "source": "Connor Kelly · supplied guide · Coyle method, radial head"
+  }
+]

@@ -1,0 +1,103 @@
+[
+  {
+    "id": "hands-001",
+    "projection": "PA digits 2–5",
+    "topic": "central-ray",
+    "type": "mcq",
+    "prompt": "Where is the CR centered for a PA projection of an individual digit (2–5)?",
+    "options": [
+      "PIP joint of the affected digit",
+      "Third MCP joint",
+      "DIP joint of the affected digit",
+      "First CMC joint"
+    ],
+    "answer": "PIP joint of the affected digit",
+    "explanation": "The perpendicular CR is centered at the PIP joint of the affected digit.",
+    "source": "Connor Kelly · supplied guide · PA digits 2–5"
+  },
+  {
+    "id": "hands-002",
+    "projection": "PA hand",
+    "topic": "central-ray",
+    "type": "mcq",
+    "prompt": "Where is the CR centered for a PA hand?",
+    "options": [
+      "Third MCP joint",
+      "Third PIP joint",
+      "Midcarpal area",
+      "First CMC joint"
+    ],
+    "answer": "Third MCP joint",
+    "explanation": "The CR is perpendicular to the third MCP joint.",
+    "source": "Connor Kelly · supplied guide · PA hand"
+  },
+  {
+    "id": "hands-003",
+    "projection": "PA oblique hand",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "What angle do the MCP joints form with the IR for a PA oblique hand?",
+    "options": [
+      "45°",
+      "15°",
+      "30°",
+      "90°"
+    ],
+    "answer": "45°",
+    "explanation": "The guide uses a 45° obliquity; a wedge supports the extended digits.",
+    "source": "Connor Kelly · supplied guide · PA oblique hand"
+  },
+  {
+    "id": "hands-004",
+    "projection": "Robert method",
+    "topic": "purpose",
+    "type": "mcq",
+    "prompt": "The Robert method is used to demonstrate which articulation?",
+    "options": [
+      "First CMC joint",
+      "First MCP joint",
+      "Distal radioulnar joint",
+      "Second MCP joint"
+    ],
+    "answer": "First CMC joint",
+    "explanation": "The Robert method demonstrates the first CMC joint, including arthritic changes, fractures, and displacement.",
+    "source": "Connor Kelly · supplied guide · Robert method"
+  },
+  {
+    "id": "hands-005",
+    "projection": "PA hand",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "Which finding supports a PA hand without rotation?",
+    "options": [
+      "Equal concavity on both sides of the metacarpal and phalangeal bodies",
+      "Superimposed metacarpal heads",
+      "Markedly unequal soft tissue widths",
+      "Complete overlap of the digits"
+    ],
+    "answer": "Equal concavity on both sides of the metacarpal and phalangeal bodies",
+    "explanation": "Equal concavity and equal soft tissue widths on both sides support absence of rotation.",
+    "source": "Connor Kelly · supplied guide · PA hand"
+  },
+  {
+    "id": "hands-006",
+    "projection": "PA oblique hand",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "This schematic shows a 45° relationship to the IR. Which hand projection uses this obliquity?",
+    "options": [
+      "PA oblique hand",
+      "PA hand",
+      "True lateral hand",
+      "AP thumb"
+    ],
+    "answer": "PA oblique hand",
+    "explanation": "The PA oblique hand places the MCP joints at 45° to the IR. This is an angle schematic, not an anatomical image.",
+    "source": "Connor Kelly · Hands & Digits · PA Oblique Hand",
+    "image": {
+      "src": "images/angle-45.svg",
+      "alt": "A horizontal image receptor and a reference plane at 45 degrees.",
+      "caption": "Angle schematic · image-question example"
+    }
+  }
+]
