@@ -13,7 +13,9 @@
     ],
     "answer": "PIP joint of the affected digit",
     "explanation": "The perpendicular CR is centered at the PIP joint of the affected digit.",
-    "source": "Connor Kelly · supplied guide · PA digits 2–5"
+    "source": "Positioning practice · PA digits 2–5",
+    "part": "digits",
+    "projectionId": "digits-pa"
   },
   {
     "id": "hands-002",
@@ -29,7 +31,9 @@
     ],
     "answer": "Third MCP joint",
     "explanation": "The CR is perpendicular to the third MCP joint.",
-    "source": "Connor Kelly · supplied guide · PA hand"
+    "source": "Positioning practice · PA hand",
+    "part": "hand",
+    "projectionId": "hand-pa"
   },
   {
     "id": "hands-003",
@@ -44,8 +48,10 @@
       "90°"
     ],
     "answer": "45°",
-    "explanation": "The guide uses a 45° obliquity; a wedge supports the extended digits.",
-    "source": "Connor Kelly · supplied guide · PA oblique hand"
+    "explanation": "This projection uses a 45° obliquity; a wedge supports the extended digits.",
+    "source": "Positioning practice · PA oblique hand",
+    "part": "hand",
+    "projectionId": "hand-obl"
   },
   {
     "id": "hands-004",
@@ -61,7 +67,9 @@
     ],
     "answer": "First CMC joint",
     "explanation": "The Robert method demonstrates the first CMC joint, including arthritic changes, fractures, and displacement.",
-    "source": "Connor Kelly · supplied guide · Robert method"
+    "source": "Positioning practice · Robert method",
+    "part": "thumb",
+    "projectionId": "thumb-robert"
   },
   {
     "id": "hands-005",
@@ -77,7 +85,9 @@
     ],
     "answer": "Equal concavity on both sides of the metacarpal and phalangeal bodies",
     "explanation": "Equal concavity and equal soft tissue widths on both sides support absence of rotation.",
-    "source": "Connor Kelly · supplied guide · PA hand"
+    "source": "Positioning practice · PA hand",
+    "part": "hand",
+    "projectionId": "hand-pa"
   },
   {
     "id": "hands-006",
@@ -93,11 +103,13 @@
     ],
     "answer": "PA oblique hand",
     "explanation": "The PA oblique hand places the MCP joints at 45° to the IR. This is an angle schematic, not an anatomical image.",
-    "source": "Connor Kelly · Hands & Digits · PA Oblique Hand",
+    "source": "Positioning practice · PA oblique hand",
     "image": {
       "src": "images/angle-45.svg",
       "alt": "A horizontal image receptor and a reference plane at 45 degrees.",
       "caption": "Angle schematic · image-question example"
-    }
+    },
+    "part": "hand",
+    "projectionId": "hand-obl"
   }
 ]

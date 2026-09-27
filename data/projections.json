@@ -1,0 +1,992 @@
+[
+  {
+    "id": "digits",
+    "name": "Digits 2–5",
+    "group": "hands",
+    "kind": "projection",
+    "views": [
+      {
+        "id": "digits-pa",
+        "orientation": "PA",
+        "label": "PA digits 2–5",
+        "detail": ""
+      },
+      {
+        "id": "digits-obl",
+        "orientation": "Oblique",
+        "label": "PA oblique digits 2–5",
+        "detail": ""
+      },
+      {
+        "id": "digits-lat",
+        "orientation": "Lateral",
+        "label": "Lateral digits 2–5",
+        "detail": ""
+      }
+    ]
+  },
+  {
+    "id": "thumb",
+    "name": "Thumb / first digit",
+    "group": "hands",
+    "kind": "projection",
+    "views": [
+      {
+        "id": "thumb-ap",
+        "orientation": "AP",
+        "label": "AP thumb",
+        "detail": ""
+      },
+      {
+        "id": "thumb-pa",
+        "orientation": "PA",
+        "label": "PA thumb",
+        "detail": ""
+      },
+      {
+        "id": "thumb-lat",
+        "orientation": "Lateral",
+        "label": "Lateral thumb",
+        "detail": ""
+      },
+      {
+        "id": "thumb-obl",
+        "orientation": "Oblique",
+        "label": "PA oblique thumb",
+        "detail": ""
+      },
+      {
+        "id": "thumb-robert",
+        "orientation": "AP",
+        "label": "Robert method · first CMC",
+        "detail": ""
+      },
+      {
+        "id": "thumb-burman",
+        "orientation": "Oblique",
+        "label": "Burman method · first CMC",
+        "detail": ""
+      },
+      {
+        "id": "thumb-folio",
+        "orientation": "AP",
+        "label": "Folio method · first MCP",
+        "detail": ""
+      }
+    ]
+  },
+  {
+    "id": "hand",
+    "name": "Hand",
+    "group": "hands",
+    "kind": "projection",
+    "views": [
+      {
+        "id": "hand-pa",
+        "orientation": "PA",
+        "label": "PA hand",
+        "detail": ""
+      },
+      {
+        "id": "hand-obl",
+        "orientation": "Oblique",
+        "label": "PA oblique hand · 45°",
+        "detail": ""
+      },
+      {
+        "id": "hand-lat",
+        "orientation": "Lateral",
+        "label": "Lateral hand",
+        "detail": ""
+      },
+      {
+        "id": "hand-fan",
+        "orientation": "Lateral",
+        "label": "Fan lateral hand",
+        "detail": ""
+      },
+      {
+        "id": "hand-flex",
+        "orientation": "Lateral",
+        "label": "Lateral hand in flexion",
+        "detail": ""
+      },
+      {
+        "id": "hand-norgaard",
+        "orientation": "Oblique",
+        "label": "Norgaard method · bilateral AP oblique",
+        "detail": ""
+      }
+    ]
+  },
+  {
+    "id": "wrist",
+    "name": "Wrist / carpals",
+    "group": "wrist",
+    "kind": "projection",
+    "views": [
+      {
+        "id": "wrist-pa",
+        "orientation": "PA",
+        "label": "PA wrist",
+        "detail": ""
+      },
+      {
+        "id": "wrist-ap",
+        "orientation": "AP",
+        "label": "AP wrist",
+        "detail": ""
+      },
+      {
+        "id": "wrist-lat",
+        "orientation": "Lateral",
+        "label": "Lateral wrist",
+        "detail": ""
+      },
+      {
+        "id": "wrist-pa-obl",
+        "orientation": "Oblique",
+        "label": "PA oblique wrist · lateral rotation",
+        "detail": ""
+      },
+      {
+        "id": "wrist-ap-obl",
+        "orientation": "Oblique",
+        "label": "AP oblique wrist · medial rotation",
+        "detail": ""
+      },
+      {
+        "id": "wrist-ulnar",
+        "orientation": "PA",
+        "label": "PA wrist · ulnar deviation",
+        "detail": ""
+      },
+      {
+        "id": "wrist-radial",
+        "orientation": "PA",
+        "label": "PA wrist · radial deviation",
+        "detail": ""
+      },
+      {
+        "id": "wrist-stecher",
+        "orientation": "Axial",
+        "label": "Stecher method · scaphoid",
+        "detail": ""
+      },
+      {
+        "id": "wrist-gaynor",
+        "orientation": "Tangential",
+        "label": "Gaynor-Hart method · carpal canal",
+        "detail": ""
+      }
+    ]
+  },
+  {
+    "id": "forearm",
+    "name": "Forearm",
+    "group": "wrist",
+    "kind": "projection",
+    "views": [
+      {
+        "id": "forearm-ap",
+        "orientation": "AP",
+        "label": "AP forearm",
+        "detail": ""
+      },
+      {
+        "id": "forearm-lat",
+        "orientation": "Lateral",
+        "label": "Lateral forearm",
+        "detail": ""
+      }
+    ]
+  },
+  {
+    "id": "elbow",
+    "name": "Elbow",
+    "group": "wrist",
+    "kind": "projection",
+    "views": [
+      {
+        "id": "elbow-ap",
+        "orientation": "AP",
+        "label": "AP elbow",
+        "detail": ""
+      },
+      {
+        "id": "elbow-lat",
+        "orientation": "Lateral",
+        "label": "Lateral elbow",
+        "detail": ""
+      },
+      {
+        "id": "elbow-med",
+        "orientation": "Oblique",
+        "label": "AP oblique elbow · medial rotation",
+        "detail": ""
+      },
+      {
+        "id": "elbow-ext",
+        "orientation": "Oblique",
+        "label": "AP oblique elbow · lateral rotation",
+        "detail": ""
+      },
+      {
+        "id": "elbow-partial-humerus",
+        "orientation": "AP",
+        "label": "AP partial flexion · distal humerus",
+        "detail": ""
+      },
+      {
+        "id": "elbow-partial-forearm",
+        "orientation": "AP",
+        "label": "AP partial flexion · proximal forearm",
+        "detail": ""
+      },
+      {
+        "id": "elbow-coyle-radial",
+        "orientation": "Axial",
+        "label": "Coyle method · radial head",
+        "detail": "90° elbow flexion; CR 45° toward shoulder."
+      },
+      {
+        "id": "elbow-coyle-coronoid",
+        "orientation": "Axial",
+        "label": "Coyle method · coronoid process",
+        "detail": "80° elbow flexion; CR 45° away from shoulder."
+      }
+    ]
+  },
+  {
+    "id": "humerus",
+    "name": "Humerus",
+    "group": "shoulder",
+    "kind": "projection",
+    "views": [
+      {
+        "id": "humerus-ap-up",
+        "orientation": "AP",
+        "label": "AP humerus · upright",
+        "detail": ""
+      },
+      {
+        "id": "humerus-ap-rec",
+        "orientation": "AP",
+        "label": "AP humerus · recumbent",
+        "detail": ""
+      },
+      {
+        "id": "humerus-lat-up",
+        "orientation": "Lateral",
+        "label": "Lateral humerus · upright",
+        "detail": ""
+      },
+      {
+        "id": "humerus-lat-rec",
+        "orientation": "Lateral",
+        "label": "Lateral humerus · recumbent",
+        "detail": ""
+      },
+      {
+        "id": "humerus-trauma",
+        "orientation": "Lateral",
+        "label": "Trauma lateral · distal humerus",
+        "detail": ""
+      }
+    ]
+  },
+  {
+    "id": "shoulder",
+    "name": "Shoulder",
+    "group": "shoulder",
+    "kind": "projection",
+    "views": [
+      {
+        "id": "shoulder-external",
+        "orientation": "AP",
+        "label": "AP shoulder · external rotation",
+        "detail": ""
+      },
+      {
+        "id": "shoulder-neutral",
+        "orientation": "AP",
+        "label": "AP shoulder · neutral rotation",
+        "detail": ""
+      },
+      {
+        "id": "shoulder-internal",
+        "orientation": "AP",
+        "label": "AP shoulder · internal rotation",
+        "detail": ""
+      },
+      {
+        "id": "shoulder-grashey",
+        "orientation": "Oblique",
+        "label": "Grashey method · AP oblique",
+        "detail": ""
+      },
+      {
+        "id": "shoulder-y",
+        "orientation": "Oblique",
+        "label": "Scapular Y · PA oblique",
+        "detail": ""
+      },
+      {
+        "id": "shoulder-lawrence",
+        "orientation": "Lateral",
+        "label": "Lawrence method · transthoracic lateral",
+        "detail": ""
+      }
+    ]
+  },
+  {
+    "id": "clavicle",
+    "name": "Clavicle",
+    "group": "shoulder",
+    "kind": "projection",
+    "views": [
+      {
+        "id": "clavicle-ap",
+        "orientation": "AP",
+        "label": "AP clavicle",
+        "detail": ""
+      },
+      {
+        "id": "clavicle-ap-axial",
+        "orientation": "Axial",
+        "label": "AP axial clavicle",
+        "detail": ""
+      },
+      {
+        "id": "clavicle-pa",
+        "orientation": "PA",
+        "label": "PA clavicle",
+        "detail": ""
+      },
+      {
+        "id": "clavicle-pa-axial",
+        "orientation": "Axial",
+        "label": "PA axial clavicle",
+        "detail": ""
+      }
+    ]
+  },
+  {
+    "id": "scapula",
+    "name": "Scapula",
+    "group": "shoulder",
+    "kind": "projection",
+    "views": [
+      {
+        "id": "scapula-ap",
+        "orientation": "AP",
+        "label": "AP scapula",
+        "detail": ""
+      },
+      {
+        "id": "scapula-lat",
+        "orientation": "Lateral",
+        "label": "Lateral scapula",
+        "detail": ""
+      },
+      {
+        "id": "scapula-obl",
+        "orientation": "Oblique",
+        "label": "AP oblique scapula",
+        "detail": ""
+      }
+    ]
+  },
+  {
+    "id": "ac",
+    "name": "AC joints",
+    "group": "shoulder",
+    "kind": "projection",
+    "views": [
+      {
+        "id": "ac-pearson",
+        "orientation": "AP",
+        "label": "Pearson method · bilateral AC joints",
+        "detail": ""
+      }
+    ]
+  },
+  {
+    "id": "toes",
+    "name": "Toes / sesamoids",
+    "group": "lower",
+    "kind": "projection",
+    "views": [
+      {
+        "id": "toes-ap",
+        "orientation": "AP",
+        "label": "AP toes",
+        "detail": ""
+      },
+      {
+        "id": "toes-axial",
+        "orientation": "Axial",
+        "label": "AP axial toes",
+        "detail": ""
+      },
+      {
+        "id": "toes-pa",
+        "orientation": "PA",
+        "label": "PA toes",
+        "detail": ""
+      },
+      {
+        "id": "toes-obl",
+        "orientation": "Oblique",
+        "label": "AP oblique toes",
+        "detail": ""
+      },
+      {
+        "id": "toes-lat",
+        "orientation": "Lateral",
+        "label": "Lateral toes",
+        "detail": ""
+      },
+      {
+        "id": "toes-lewis",
+        "orientation": "Tangential",
+        "label": "Lewis method · sesamoids",
+        "detail": ""
+      },
+      {
+        "id": "toes-holly",
+        "orientation": "Tangential",
+        "label": "Holly method · sesamoids",
+        "detail": ""
+      }
+    ]
+  },
+  {
+    "id": "foot",
+    "name": "Foot",
+    "group": "lower",
+    "kind": "projection",
+    "views": [
+      {
+        "id": "foot-ap",
+        "orientation": "AP",
+        "label": "AP foot",
+        "detail": ""
+      },
+      {
+        "id": "foot-axial",
+        "orientation": "Axial",
+        "label": "AP axial foot",
+        "detail": ""
+      },
+      {
+        "id": "foot-med",
+        "orientation": "Oblique",
+        "label": "AP oblique foot · medial rotation",
+        "detail": ""
+      },
+      {
+        "id": "foot-ext",
+        "orientation": "Oblique",
+        "label": "AP oblique foot · lateral rotation",
+        "detail": ""
+      },
+      {
+        "id": "foot-lat",
+        "orientation": "Lateral",
+        "label": "Lateral foot",
+        "detail": ""
+      },
+      {
+        "id": "foot-arch",
+        "orientation": "Lateral",
+        "label": "Weight-bearing lateral · longitudinal arch",
+        "detail": ""
+      },
+      {
+        "id": "foot-wb",
+        "orientation": "Axial",
+        "label": "Weight-bearing AP axial foot",
+        "detail": ""
+      },
+      {
+        "id": "foot-composite",
+        "orientation": "Axial",
+        "label": "Weight-bearing AP axial · composite",
+        "detail": ""
+      }
+    ]
+  },
+  {
+    "id": "ankle",
+    "name": "Ankle",
+    "group": "lower",
+    "kind": "projection",
+    "views": [
+      {
+        "id": "ankle-ap",
+        "orientation": "AP",
+        "label": "AP ankle",
+        "detail": ""
+      },
+      {
+        "id": "ankle-lat",
+        "orientation": "Lateral",
+        "label": "Lateral ankle",
+        "detail": ""
+      },
+      {
+        "id": "ankle-med45",
+        "orientation": "Oblique",
+        "label": "AP oblique ankle · 45° medial rotation",
+        "detail": "45° medial rotation. CR perpendicular, midway between malleoli. Distinct from mortise."
+      },
+      {
+        "id": "ankle-mortise",
+        "orientation": "Oblique",
+        "label": "Mortise · AP oblique ankle · 15–20° medial rotation",
+        "detail": "15–20° medial rotation; intermalleolar plane parallel to IR. CR perpendicular, midway between malleoli."
+      },
+      {
+        "id": "ankle-stress",
+        "orientation": "AP",
+        "label": "AP ankle · stress study",
+        "detail": ""
+      },
+      {
+        "id": "ankle-wb-ap",
+        "orientation": "AP",
+        "label": "Weight-bearing AP ankle",
+        "detail": ""
+      },
+      {
+        "id": "ankle-wb-lat",
+        "orientation": "Lateral",
+        "label": "Weight-bearing lateral ankle",
+        "detail": ""
+      }
+    ]
+  },
+  {
+    "id": "calcaneus",
+    "name": "Calcaneus",
+    "group": "lower",
+    "kind": "projection",
+    "views": [
+      {
+        "id": "calcaneus-axial",
+        "orientation": "Axial",
+        "label": "Plantodorsal axial calcaneus",
+        "detail": ""
+      },
+      {
+        "id": "calcaneus-lat",
+        "orientation": "Lateral",
+        "label": "Lateral calcaneus",
+        "detail": ""
+      }
+    ]
+  },
+  {
+    "id": "leg",
+    "name": "Lower leg / tibia & fibula",
+    "group": "lower",
+    "kind": "projection",
+    "views": [
+      {
+        "id": "leg-ap",
+        "orientation": "AP",
+        "label": "AP lower leg",
+        "detail": ""
+      },
+      {
+        "id": "leg-lat",
+        "orientation": "Lateral",
+        "label": "Lateral lower leg",
+        "detail": ""
+      }
+    ]
+  },
+  {
+    "id": "knee",
+    "name": "Knee",
+    "group": "proximal-lower",
+    "kind": "projection",
+    "views": [
+      {
+        "id": "knee-ap",
+        "orientation": "AP",
+        "label": "AP knee",
+        "detail": ""
+      },
+      {
+        "id": "knee-lat",
+        "orientation": "Lateral",
+        "label": "Lateral knee",
+        "detail": ""
+      },
+      {
+        "id": "knee-med",
+        "orientation": "Oblique",
+        "label": "AP oblique knee · medial rotation",
+        "detail": ""
+      },
+      {
+        "id": "knee-ext",
+        "orientation": "Oblique",
+        "label": "AP oblique knee · lateral rotation",
+        "detail": ""
+      }
+    ]
+  },
+  {
+    "id": "patella",
+    "name": "Patella",
+    "group": "proximal-lower",
+    "kind": "projection",
+    "views": [
+      {
+        "id": "patella-pa",
+        "orientation": "PA",
+        "label": "PA patella",
+        "detail": ""
+      },
+      {
+        "id": "patella-lat",
+        "orientation": "Lateral",
+        "label": "Lateral patella",
+        "detail": ""
+      },
+      {
+        "id": "patella-tangential",
+        "orientation": "Tangential",
+        "label": "Tangential patella",
+        "detail": ""
+      }
+    ]
+  },
+  {
+    "id": "femur",
+    "name": "Femur",
+    "group": "proximal-lower",
+    "kind": "projection",
+    "views": [
+      {
+        "id": "femur-ap",
+        "orientation": "AP",
+        "label": "AP femur",
+        "detail": ""
+      },
+      {
+        "id": "femur-lat",
+        "orientation": "Lateral",
+        "label": "Lateral femur",
+        "detail": ""
+      }
+    ]
+  },
+  {
+    "id": "hip",
+    "name": "Hip",
+    "group": "proximal-lower",
+    "kind": "projection",
+    "views": [
+      {
+        "id": "hip-ap",
+        "orientation": "AP",
+        "label": "AP hip",
+        "detail": ""
+      },
+      {
+        "id": "hip-frog",
+        "orientation": "Oblique",
+        "label": "Modified Cleaves method · unilateral frog-leg",
+        "detail": ""
+      },
+      {
+        "id": "hip-axiolateral",
+        "orientation": "Lateral",
+        "label": "Danelius-Miller method · axiolateral hip",
+        "detail": ""
+      }
+    ]
+  },
+  {
+    "id": "pelvis",
+    "name": "Pelvis",
+    "group": "proximal-lower",
+    "kind": "projection",
+    "views": [
+      {
+        "id": "pelvis-ap",
+        "orientation": "AP",
+        "label": "AP pelvis",
+        "detail": ""
+      },
+      {
+        "id": "pelvis-cleaves",
+        "orientation": "Oblique",
+        "label": "Modified Cleaves method · bilateral frog-leg",
+        "detail": ""
+      }
+    ]
+  },
+  {
+    "id": "chest",
+    "name": "Chest",
+    "group": "chest-abdomen",
+    "kind": "projection",
+    "views": [
+      {
+        "id": "chest-pa",
+        "orientation": "PA",
+        "label": "PA chest",
+        "detail": ""
+      },
+      {
+        "id": "chest-ap",
+        "orientation": "AP",
+        "label": "AP chest",
+        "detail": ""
+      },
+      {
+        "id": "chest-lat",
+        "orientation": "Lateral",
+        "label": "Left lateral chest",
+        "detail": ""
+      },
+      {
+        "id": "chest-decub",
+        "orientation": "AP",
+        "label": "AP chest · lateral decubitus",
+        "detail": ""
+      },
+      {
+        "id": "chest-lordotic",
+        "orientation": "Axial",
+        "label": "AP axial lordotic chest",
+        "detail": ""
+      }
+    ]
+  },
+  {
+    "id": "neck",
+    "name": "Soft tissue neck",
+    "group": "chest-abdomen",
+    "kind": "projection",
+    "views": [
+      {
+        "id": "neck-ap",
+        "orientation": "AP",
+        "label": "AP soft tissue neck",
+        "detail": ""
+      },
+      {
+        "id": "neck-lat",
+        "orientation": "Lateral",
+        "label": "Lateral soft tissue neck",
+        "detail": ""
+      }
+    ]
+  },
+  {
+    "id": "abdomen",
+    "name": "Abdomen",
+    "group": "chest-abdomen",
+    "kind": "projection",
+    "views": [
+      {
+        "id": "abdomen-supine",
+        "orientation": "AP",
+        "label": "AP supine abdomen · KUB",
+        "detail": ""
+      },
+      {
+        "id": "abdomen-upright",
+        "orientation": "AP",
+        "label": "AP upright abdomen",
+        "detail": ""
+      },
+      {
+        "id": "abdomen-decub",
+        "orientation": "AP",
+        "label": "AP abdomen · left lateral decubitus",
+        "detail": ""
+      }
+    ]
+  },
+  {
+    "id": "terminology",
+    "name": "Anatomical terminology",
+    "group": "foundations",
+    "kind": "topic",
+    "views": [
+      {
+        "id": "terminology-0",
+        "orientation": "Topic",
+        "label": "Anatomical position",
+        "detail": ""
+      },
+      {
+        "id": "terminology-1",
+        "orientation": "Topic",
+        "label": "Directional terms",
+        "detail": ""
+      },
+      {
+        "id": "terminology-2",
+        "orientation": "Topic",
+        "label": "Body planes",
+        "detail": ""
+      },
+      {
+        "id": "terminology-3",
+        "orientation": "Topic",
+        "label": "Body cavities",
+        "detail": ""
+      }
+    ]
+  },
+  {
+    "id": "positions",
+    "name": "Positioning fundamentals",
+    "group": "foundations",
+    "kind": "topic",
+    "views": [
+      {
+        "id": "positions-0",
+        "orientation": "Topic",
+        "label": "Positions and projections",
+        "detail": ""
+      },
+      {
+        "id": "positions-1",
+        "orientation": "Topic",
+        "label": "Body movements",
+        "detail": ""
+      },
+      {
+        "id": "positions-2",
+        "orientation": "Topic",
+        "label": "Surface landmarks",
+        "detail": ""
+      },
+      {
+        "id": "positions-3",
+        "orientation": "Topic",
+        "label": "Image orientation",
+        "detail": ""
+      }
+    ]
+  },
+  {
+    "id": "bone-disease",
+    "name": "Bone & joint disease",
+    "group": "pathology",
+    "kind": "topic",
+    "views": [
+      {
+        "id": "bone-disease-osteoporosis",
+        "orientation": "Topic",
+        "label": "Osteoporosis",
+        "detail": ""
+      },
+      {
+        "id": "bone-disease-arthritis",
+        "orientation": "Topic",
+        "label": "Arthritis",
+        "detail": ""
+      },
+      {
+        "id": "bone-disease-osteomyelitis",
+        "orientation": "Topic",
+        "label": "Osteomyelitis",
+        "detail": ""
+      }
+    ]
+  },
+  {
+    "id": "other-disease",
+    "name": "Other pathology",
+    "group": "pathology",
+    "kind": "topic",
+    "views": [
+      {
+        "id": "other-disease-general",
+        "orientation": "Topic",
+        "label": "General disease / pathology",
+        "detail": ""
+      }
+    ]
+  },
+  {
+    "id": "fractures",
+    "name": "Fractures",
+    "group": "trauma",
+    "kind": "topic",
+    "views": [
+      {
+        "id": "fractures-boxer",
+        "orientation": "Topic",
+        "label": "Boxer’s fracture",
+        "detail": ""
+      },
+      {
+        "id": "fractures-colles",
+        "orientation": "Topic",
+        "label": "Colles fracture",
+        "detail": ""
+      },
+      {
+        "id": "fractures-smith",
+        "orientation": "Topic",
+        "label": "Smith fracture",
+        "detail": ""
+      },
+      {
+        "id": "fractures-bennett",
+        "orientation": "Topic",
+        "label": "Bennett fracture",
+        "detail": ""
+      },
+      {
+        "id": "fractures-general",
+        "orientation": "Topic",
+        "label": "Fracture terminology",
+        "detail": ""
+      }
+    ]
+  },
+  {
+    "id": "dislocation",
+    "name": "Dislocations & soft tissue injury",
+    "group": "trauma",
+    "kind": "topic",
+    "views": [
+      {
+        "id": "dislocation-dislocation",
+        "orientation": "Topic",
+        "label": "Dislocation",
+        "detail": ""
+      },
+      {
+        "id": "dislocation-subluxation",
+        "orientation": "Topic",
+        "label": "Subluxation",
+        "detail": ""
+      },
+      {
+        "id": "dislocation-sprain",
+        "orientation": "Topic",
+        "label": "Sprain",
+        "detail": ""
+      },
+      {
+        "id": "dislocation-strain",
+        "orientation": "Topic",
+        "label": "Strain",
+        "detail": ""
+      }
+    ]
+  }
+]

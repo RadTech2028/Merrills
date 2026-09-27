@@ -4,7 +4,7 @@
     "projection": "AP shoulder",
     "topic": "central-ray",
     "type": "mcq",
-    "prompt": "Where is the CR centered for the AP shoulder rotations in your guide?",
+    "prompt": "Where is the CR centered for the AP shoulder rotations?",
     "options": [
       "1 inch inferior to the coracoid process",
       "Midshaft of the clavicle",
@@ -13,7 +13,7 @@
     ],
     "answer": "1 inch inferior to the coracoid process",
     "explanation": "The AP external, neutral, and internal rotations use a perpendicular CR 1 inch inferior to the coracoid process.",
-    "source": "Connor Kelly · supplied guide · AP shoulder"
+    "source": "Positioning practice · AP shoulder"
   },
   {
     "id": "shoulder-002",
@@ -29,7 +29,9 @@
     ],
     "answer": "Greater tubercle in profile laterally",
     "explanation": "External rotation places the greater tubercle in profile on the lateral aspect.",
-    "source": "Connor Kelly · supplied guide · AP shoulder, external rotation"
+    "source": "Positioning practice · AP shoulder, external rotation",
+    "part": "shoulder",
+    "projectionId": "shoulder-external"
   },
   {
     "id": "shoulder-003",
@@ -45,7 +47,9 @@
     ],
     "answer": "Lesser tubercle",
     "explanation": "The lesser tubercle is in profile medially; the greater tubercle is superimposed on the humeral head.",
-    "source": "Connor Kelly · supplied guide · AP shoulder, internal rotation"
+    "source": "Positioning practice · AP shoulder, internal rotation",
+    "part": "shoulder",
+    "projectionId": "shoulder-internal"
   },
   {
     "id": "shoulder-004",
@@ -61,7 +65,9 @@
     ],
     "answer": "Scapulohumeral joint",
     "explanation": "The AP oblique Grashey method demonstrates the glenoid cavity in profile and opens the scapulohumeral joint space.",
-    "source": "Connor Kelly · supplied guide · Grashey method"
+    "source": "Positioning practice · Grashey method",
+    "part": "shoulder",
+    "projectionId": "shoulder-grashey"
   },
   {
     "id": "shoulder-005",
@@ -77,6 +83,8 @@
     ],
     "answer": "35–45°",
     "explanation": "Rotate 35–45° toward the affected side and adjust until the scapula is parallel to the IR.",
-    "source": "Connor Kelly · supplied guide · Grashey method"
+    "source": "Positioning practice · Grashey method",
+    "part": "shoulder",
+    "projectionId": "shoulder-grashey"
   }
 ]

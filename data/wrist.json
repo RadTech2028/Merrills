@@ -13,7 +13,9 @@
     ],
     "answer": "Midcarpal area",
     "explanation": "The PA wrist CR is centered at the midcarpal area.",
-    "source": "Connor Kelly · supplied guide · PA wrist"
+    "source": "Positioning practice · PA wrist",
+    "part": "wrist",
+    "projectionId": "wrist-pa"
   },
   {
     "id": "wrist-002",
@@ -29,7 +31,9 @@
     ],
     "answer": "Midpoint of the forearm",
     "explanation": "The CR is perpendicular to the midpoint of the forearm.",
-    "source": "Connor Kelly · supplied guide · AP forearm"
+    "source": "Positioning practice · AP forearm",
+    "part": "forearm",
+    "projectionId": "forearm-ap"
   },
   {
     "id": "wrist-003",
@@ -45,7 +49,9 @@
     ],
     "answer": "Coronoid process",
     "explanation": "The coronoid process appears in profile with 45° medial rotation.",
-    "source": "Connor Kelly · supplied guide · AP oblique elbow, medial rotation"
+    "source": "Positioning practice · AP oblique elbow, medial rotation",
+    "part": "elbow",
+    "projectionId": "elbow-med"
   },
   {
     "id": "wrist-004",
@@ -61,7 +67,9 @@
     ],
     "answer": "Radial head, neck, and tuberosity free of the ulna",
     "explanation": "Lateral rotation projects the radial head, neck, and tuberosity free of the ulna.",
-    "source": "Connor Kelly · supplied guide · AP oblique elbow, lateral rotation"
+    "source": "Positioning practice · AP oblique elbow, lateral rotation",
+    "part": "elbow",
+    "projectionId": "elbow-ext"
   },
   {
     "id": "wrist-005",
@@ -77,6 +85,8 @@
     ],
     "answer": "90°",
     "explanation": "The radial head Coyle method uses 90° elbow flexion with the CR angled 45° toward the shoulder.",
-    "source": "Connor Kelly · supplied guide · Coyle method, radial head"
+    "source": "Positioning practice · Coyle method, radial head",
+    "part": "elbow",
+    "projectionId": "elbow-coyle-radial"
   }
 ]
