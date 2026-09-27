@@ -1,68 +1,125 @@
 # Positioning Lab
 
-Positioning Lab is a small study site for radiography students. It is meant to be used alongside class notes and your positioning textbook.
+Positioning Lab is a browser-based study tool for radiography students learning radiographic positioning, anatomy, central ray placement, and image evaluation.
 
-## Adding it to GitHub Pages
+The site is designed to supplement course material and positioning textbooks with customizable practice sessions, tests, and flashcards.
 
-Download and unzip the folder. If you already have a GitHub Pages repository, create a folder named `positioning` and put the contents of this folder inside it. Make sure `index.html` is directly inside `positioning`, with the `data` and `images` folders beside it.
+## Features
 
-After committing the files, the site should be available at:
+* Multiple-choice and short-answer questions
+* Standard practice, test, and flashcard modes
+* Study sessions filtered by body part, projection, and focus
+* Optional timed sessions
+* Custom question builder
+* Personal question collections
+* Image-supported questions
+* Import and export support for question banks
+* Browser-based local storage for personal questions
+* Expandable shared question bank
 
-`https://your-username.github.io/your-repository/positioning/`
+## Study Modes
 
-If you are putting it in a new repository, place the contents at the top level instead and turn on GitHub Pages for that repository.
+### Practice
 
-Do not open `index.html` by double-clicking it while testing on your computer. The question files need to be loaded through a web server. One simple option is:
+Work through questions with the selected categories and study focuses.
+
+### Test
+
+Complete a question set as a test, with an optional time limit.
+
+### Flashcards
+
+Review material using flashcards during a study session.
+
+Cards marked **Study again** return later in the session. Cards marked **Got it** are removed from the current session.
+
+## Question Builder
+
+The built-in **Question Builder** can be used to create custom study material.
+
+Questions can be organized by:
+
+* Category
+* Focus
+* Body part
+* Projection family
+* Projection or named method
+
+Multiple-choice questions support custom answer choices and a designated correct answer. Short-answer questions and image-based questions are also supported.
+
+Custom questions are stored locally in the browser under **My Questions** and remain separate from the shared question bank.
+
+Personal question collections can be transferred or preserved using the backup and export tools.
+
+## Question Bank
+
+Shared questions are stored as JSON files in the `data` directory. Category files correspond to the study areas available from the main page.
+
+The included question bank serves as a base that can be expanded as additional material is added.
+
+### Data Files
+
+`groups.json` defines the main study categories.
+
+`focuses.json` defines the available study focuses.
+
+`projections.json` defines body parts, projection families, projections, and named methods available throughout the site.
+
+Individual category JSON files contain the corresponding question banks.
+
+## Images
+
+Question images can be stored in the `images` directory and referenced by their relative path. Images may also be embedded directly in custom questions.
+
+Only appropriately de-identified images that are permitted for educational use should be included.
+
+## Project Structure
 
 ```text
+positioning/
+├── index.html
+├── data/
+│   ├── groups.json
+│   ├── focuses.json
+│   ├── projections.json
+│   └── ...
+├── images/
+│   └── ...
+└── README.md
+```
+
+## Local Development
+
+Positioning Lab loads question data from external JSON files and should be run through a local web server rather than directly from the filesystem.
+
+For example:
+
+```bash
 python3 -m http.server 8000
 ```
 
-Then open `http://localhost:8000`.
+The site will then be available at:
 
-## Using the site
+```text
+http://localhost:8000
+```
 
-Choose the areas you want to study, select the kind of information you want to focus on, and start a session. You can work through questions normally, take a test, or use flashcards.
+## GitHub Pages
 
-Flashcards that you mark “Study again” return later in the same session. They leave the session after you mark them “Got it.” You can also set a time limit before starting.
+Positioning Lab is compatible with GitHub Pages and other static hosting services. No server-side application or database is required.
 
-The question bank that comes with this download is only a starting point. The empty sections are there so more material can be added later.
+All site files can be hosted from the repository root or from a subdirectory within an existing GitHub Pages site.
 
-## Making your own questions
+## Contributing Content
 
-Use **Question builder** to make questions for yourself. First choose the category, focus, body part, and projection family. The next menu will show the available projections and named methods for that part. For example, the ankle list keeps the 45° medial oblique separate from the 15–20° mortise view.
+The shared question bank can be expanded by importing an existing category into the Question Builder, adding or modifying questions, and exporting the updated category JSON.
 
-For multiple-choice questions, type the choices and select the circle beside the correct answer. You can also make short-answer questions and attach an image.
+Because category exports contain the complete category question bank, the current category should be imported before making additions to avoid unintentionally replacing existing questions.
 
-Saved questions appear under **My questions**. They are saved in the browser on that computer, so they are separate from the shared questions and are not automatically sent to anyone else. Use **Export full backup** if you want to keep a copy or move your questions to another computer.
+New categories, focuses, body parts, projection families, and named methods can be added through the corresponding files in the `data` directory. Each entry should use a unique ID.
 
-You can copy a question from the program bank into your personal collection and edit the copy. This is useful when you want to add a better explanation, an image, or wording that makes more sense to you.
+Views with meaningfully different positioning or central-ray requirements should remain separate entries.
 
-## Adding questions for everyone
+## Educational Use
 
-Questions that should be part of the shared website are stored in the JSON files inside `data`. The file names match the categories shown on the home page.
-
-The easiest workflow is:
-
-1. Import the current category file into the builder.
-2. Add or edit the questions.
-3. Export that category.
-4. Replace the old category file in the repository with the exported file.
-5. Commit the change to GitHub.
-
-The exported file replaces the whole category, so importing the current file first prevents older questions from being lost.
-
-Images can be kept in the `images` folder and referenced by their path, or embedded directly when creating a question. Remove patient identifiers and only use images you are allowed to share.
-
-## Adding categories and projection choices
-
-New categories and focuses can be added from the builder for personal use. To add them to the shared site, edit the matching files in `data`:
-
-- `groups.json` controls the main categories.
-- `focuses.json` controls the focus options.
-- `projections.json` controls the body parts, projection families, named methods, and the choices shown in the builder.
-- The individual category JSON files contain the questions.
-
-Give each new category, focus, body part, and projection a unique ID. Keep separate entries when the positioning or central ray makes two views meaningfully different.
-
-The included material is a starter resource. Check questions against the textbook edition and the procedures used in your program before publishing them for everyone.
+Positioning Lab is intended as a supplemental study resource for radiography students. Positioning procedures, central-ray requirements, anatomy demonstrations, and evaluation criteria should be verified against the textbook edition and procedures used by the student's radiography program.
