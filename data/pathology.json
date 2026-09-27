@@ -1,1 +1,1314 @@
-[]
+[
+  {
+    "id": "pathology-001",
+    "projection": "Aspiration/foreign body",
+    "topic": "pathology",
+    "type": "mcq",
+    "prompt": "Which condition matches this definition: Inspiration of foreign material into the airway?",
+    "options": [
+      "Aspiration/foreign body",
+      "Pulmonary edema",
+      "Epiglottitis",
+      "Bronchiectasis"
+    ],
+    "answer": "Aspiration/foreign body",
+    "explanation": "Aspiration/foreign body: Inspiration of foreign material into the airway.",
+    "source": "Merrill's · Pathology terminology"
+  },
+  {
+    "id": "pathology-002",
+    "projection": "Atelectasis",
+    "topic": "pathology",
+    "type": "mcq",
+    "prompt": "Which condition matches this definition: Collapse of all or part of the lung?",
+    "options": [
+      "Atelectasis",
+      "Pleural effusion",
+      "Asbestosis",
+      "Aspiration pneumonia"
+    ],
+    "answer": "Atelectasis",
+    "explanation": "Atelectasis: Collapse of all or part of the lung.",
+    "source": "Merrill's · Pathology terminology"
+  },
+  {
+    "id": "pathology-003",
+    "projection": "Bronchiectasis",
+    "topic": "pathology",
+    "type": "mcq",
+    "prompt": "Which condition matches this definition: Chronic dilation of the bronchi and bronchioles associated with secondary infection?",
+    "options": [
+      "Anthracosis or coal miner lung or black lung",
+      "Bronchiectasis",
+      "Tuberculosis",
+      "Silicosis"
+    ],
+    "answer": "Bronchiectasis",
+    "explanation": "Bronchiectasis: Chronic dilation of the bronchi and bronchioles associated with secondary infection.",
+    "source": "Merrill's · Pathology terminology"
+  },
+  {
+    "id": "pathology-004",
+    "projection": "Bronchitis",
+    "topic": "pathology",
+    "type": "mcq",
+    "prompt": "Which condition matches this definition: Inflammation of the bronchi?",
+    "options": [
+      "Pneumothorax",
+      "Bronchitis",
+      "Pleural effusion",
+      "Chronic obstructive pulmonary disease"
+    ],
+    "answer": "Bronchitis",
+    "explanation": "Bronchitis: Inflammation of the bronchi.",
+    "source": "Merrill's · Pathology terminology"
+  },
+  {
+    "id": "pathology-005",
+    "projection": "Chronic obstructive pulmonary disease",
+    "topic": "pathology",
+    "type": "mcq",
+    "prompt": "Which condition matches this definition: Chronic condition of persistent obstruction of bronchial airflow?",
+    "options": [
+      "Anthracosis or coal miner lung or black lung",
+      "Hyaline membrane disease or respiratory distress syndrome",
+      "Silicosis",
+      "Chronic obstructive pulmonary disease"
+    ],
+    "answer": "Chronic obstructive pulmonary disease",
+    "explanation": "Chronic obstructive pulmonary disease: Chronic condition of persistent obstruction of bronchial airflow.",
+    "source": "Merrill's · Pathology terminology"
+  },
+  {
+    "id": "pathology-006",
+    "projection": "Cystic fibrosis",
+    "topic": "pathology",
+    "type": "mcq",
+    "prompt": "Which condition matches this definition: Disorder associated with widespread dysfunction of the exocrine glands, abnormal secretion of sweat and saliva, and accumulation of thick mucus in the lungs?",
+    "options": [
+      "Atelectasis",
+      "Fungal disease",
+      "Tuberculosis",
+      "Cystic fibrosis"
+    ],
+    "answer": "Cystic fibrosis",
+    "explanation": "Cystic fibrosis: Disorder associated with widespread dysfunction of the exocrine glands, abnormal secretion of sweat and saliva, and accumulation of thick mucus in the lungs.",
+    "source": "Merrill's · Pathology terminology"
+  },
+  {
+    "id": "pathology-007",
+    "projection": "Emphysema",
+    "topic": "pathology",
+    "type": "mcq",
+    "prompt": "Which condition matches this definition: Destructive and obstructive airway changes leading to an increased volume of air in the lungs?",
+    "options": [
+      "Aspiration pneumonia",
+      "Atelectasis",
+      "Emphysema",
+      "Cystic fibrosis"
+    ],
+    "answer": "Emphysema",
+    "explanation": "Emphysema: Destructive and obstructive airway changes leading to an increased volume of air in the lungs.",
+    "source": "Merrill's · Pathology terminology"
+  },
+  {
+    "id": "pathology-008",
+    "projection": "Epiglottitis",
+    "topic": "pathology",
+    "type": "mcq",
+    "prompt": "Which condition matches this definition: Inflammation of the epiglottis?",
+    "options": [
+      "Pneumoconiosis",
+      "Epiglottitis",
+      "Sarcoidosis",
+      "Asbestosis"
+    ],
+    "answer": "Epiglottitis",
+    "explanation": "Epiglottitis: Inflammation of the epiglottis.",
+    "source": "Merrill's · Pathology terminology"
+  },
+  {
+    "id": "pathology-009",
+    "projection": "Fungal disease",
+    "topic": "pathology",
+    "type": "mcq",
+    "prompt": "Which condition matches this definition: Inflammation of the lung caused by a fungal organism?",
+    "options": [
+      "Fungal disease",
+      "Aspiration/foreign body",
+      "Anthracosis or coal miner lung or black lung",
+      "Cystic fibrosis"
+    ],
+    "answer": "Fungal disease",
+    "explanation": "Fungal disease: Inflammation of the lung caused by a fungal organism.",
+    "source": "Merrill's · Pathology terminology"
+  },
+  {
+    "id": "pathology-010",
+    "projection": "Histoplasmosis",
+    "topic": "pathology",
+    "type": "mcq",
+    "prompt": "Which condition matches this definition: Infection caused by the yeast-like organism Histoplasma capsulatum?",
+    "options": [
+      "Histoplasmosis",
+      "Epiglottitis",
+      "Aspiration pneumonia",
+      "Lobar or bacterial pneumonia"
+    ],
+    "answer": "Histoplasmosis",
+    "explanation": "Histoplasmosis: Infection caused by the yeast-like organism Histoplasma capsulatum.",
+    "source": "Merrill's · Pathology terminology"
+  },
+  {
+    "id": "pathology-011",
+    "projection": "Granulomatous disease",
+    "topic": "pathology",
+    "type": "mcq",
+    "prompt": "Which condition matches this definition: Condition of the lung marked by formation of granulomas?",
+    "options": [
+      "Aspiration/foreign body",
+      "Fungal disease",
+      "Tuberculosis",
+      "Granulomatous disease"
+    ],
+    "answer": "Granulomatous disease",
+    "explanation": "Granulomatous disease: Condition of the lung marked by formation of granulomas.",
+    "source": "Merrill's · Pathology terminology"
+  },
+  {
+    "id": "pathology-012",
+    "projection": "Sarcoidosis",
+    "topic": "pathology",
+    "type": "mcq",
+    "prompt": "Which condition matches this definition: Condition of unknown origin often associated with pulmonary fibrosis?",
+    "options": [
+      "Cystic fibrosis",
+      "Chronic obstructive pulmonary disease",
+      "Granulomatous disease",
+      "Sarcoidosis"
+    ],
+    "answer": "Sarcoidosis",
+    "explanation": "Sarcoidosis: Condition of unknown origin often associated with pulmonary fibrosis.",
+    "source": "Merrill's · Pathology terminology"
+  },
+  {
+    "id": "pathology-013",
+    "projection": "Tuberculosis",
+    "topic": "pathology",
+    "type": "mcq",
+    "prompt": "Which condition matches this definition: Chronic infection of the lung caused by the tubercle bacillus?",
+    "options": [
+      "Tuberculosis",
+      "Anthracosis or coal miner lung or black lung",
+      "Fungal disease",
+      "Pulmonary edema"
+    ],
+    "answer": "Tuberculosis",
+    "explanation": "Tuberculosis: Chronic infection of the lung caused by the tubercle bacillus.",
+    "source": "Merrill's · Pathology terminology"
+  },
+  {
+    "id": "pathology-014",
+    "projection": "Hyaline membrane disease or respiratory distress syndrome",
+    "topic": "pathology",
+    "type": "mcq",
+    "prompt": "Which condition matches this definition: Under-aeration of the lungs caused by lack of surfactant?",
+    "options": [
+      "Hyaline membrane disease or respiratory distress syndrome",
+      "Aspiration/foreign body",
+      "Asbestosis",
+      "Epiglottitis"
+    ],
+    "answer": "Hyaline membrane disease or respiratory distress syndrome",
+    "explanation": "Hyaline membrane disease or respiratory distress syndrome: Under-aeration of the lungs caused by lack of surfactant.",
+    "source": "Merrill's · Pathology terminology"
+  },
+  {
+    "id": "pathology-015",
+    "projection": "Metastasis",
+    "topic": "pathology",
+    "type": "mcq",
+    "prompt": "Which condition matches this definition: Transfer of a cancerous lesion from one area to another?",
+    "options": [
+      "Ewing sarcoma",
+      "Osteoarthritis or degenerative joint disease",
+      "Bone cyst",
+      "Metastasis"
+    ],
+    "answer": "Metastasis",
+    "explanation": "Metastasis: Transfer of a cancerous lesion from one area to another.",
+    "source": "Merrill's · Pathology terminology"
+  },
+  {
+    "id": "pathology-016",
+    "projection": "Pleural effusion",
+    "topic": "pathology",
+    "type": "mcq",
+    "prompt": "Which condition matches this definition: Collection of fluid in the pleural cavity?",
+    "options": [
+      "Pneumothorax",
+      "Sarcoidosis",
+      "Pleural effusion",
+      "Tuberculosis"
+    ],
+    "answer": "Pleural effusion",
+    "explanation": "Pleural effusion: Collection of fluid in the pleural cavity.",
+    "source": "Merrill's · Pathology terminology"
+  },
+  {
+    "id": "pathology-017",
+    "projection": "Pneumoconiosis",
+    "topic": "pathology",
+    "type": "mcq",
+    "prompt": "Which condition matches this definition: Lung diseases resulting from inhalation of industrial substances?",
+    "options": [
+      "Hyaline membrane disease or respiratory distress syndrome",
+      "Pneumoconiosis",
+      "Anthracosis or coal miner lung or black lung",
+      "Interstitial or viral pneumonia (pneumonitis)"
+    ],
+    "answer": "Pneumoconiosis",
+    "explanation": "Pneumoconiosis: Lung diseases resulting from inhalation of industrial substances.",
+    "source": "Merrill's · Pathology terminology"
+  },
+  {
+    "id": "pathology-018",
+    "projection": "Anthracosis or coal miner lung or black lung",
+    "topic": "pathology",
+    "type": "mcq",
+    "prompt": "Which condition matches this definition: Inflammation caused by inhalation of coal dust (anthracite)?",
+    "options": [
+      "Interstitial or viral pneumonia (pneumonitis)",
+      "Tuberculosis",
+      "Pulmonary edema",
+      "Anthracosis or coal miner lung or black lung"
+    ],
+    "answer": "Anthracosis or coal miner lung or black lung",
+    "explanation": "Anthracosis or coal miner lung or black lung: Inflammation caused by inhalation of coal dust (anthracite).",
+    "source": "Merrill's · Pathology terminology"
+  },
+  {
+    "id": "pathology-019",
+    "projection": "Asbestosis",
+    "topic": "pathology",
+    "type": "mcq",
+    "prompt": "Which condition matches this definition: Inflammation caused by inhalation of asbestos?",
+    "options": [
+      "Emphysema",
+      "Granulomatous disease",
+      "Asbestosis",
+      "Atelectasis"
+    ],
+    "answer": "Asbestosis",
+    "explanation": "Asbestosis: Inflammation caused by inhalation of asbestos.",
+    "source": "Merrill's · Pathology terminology"
+  },
+  {
+    "id": "pathology-020",
+    "projection": "Silicosis",
+    "topic": "pathology",
+    "type": "mcq",
+    "prompt": "Which condition matches this definition: Inflammation caused by inhalation of silicon dioxide?",
+    "options": [
+      "Aspiration/foreign body",
+      "Bronchitis",
+      "Pleural effusion",
+      "Silicosis"
+    ],
+    "answer": "Silicosis",
+    "explanation": "Silicosis: Inflammation caused by inhalation of silicon dioxide.",
+    "source": "Merrill's · Pathology terminology"
+  },
+  {
+    "id": "pathology-021",
+    "projection": "Pneumonia",
+    "topic": "pathology",
+    "type": "mcq",
+    "prompt": "Which condition matches this definition: Acute infection in the lung parenchyma?",
+    "options": [
+      "Anthracosis or coal miner lung or black lung",
+      "Silicosis",
+      "Pneumonia",
+      "Cystic fibrosis"
+    ],
+    "answer": "Pneumonia",
+    "explanation": "Pneumonia: Acute infection in the lung parenchyma.",
+    "source": "Merrill's · Pathology terminology"
+  },
+  {
+    "id": "pathology-022",
+    "projection": "Aspiration pneumonia",
+    "topic": "pathology",
+    "type": "mcq",
+    "prompt": "Which condition matches this definition: Pneumonia caused by aspiration of foreign particles?",
+    "options": [
+      "Aspiration pneumonia",
+      "Hyaline membrane disease or respiratory distress syndrome",
+      "Chronic obstructive pulmonary disease",
+      "Pneumonia"
+    ],
+    "answer": "Aspiration pneumonia",
+    "explanation": "Aspiration pneumonia: Pneumonia caused by aspiration of foreign particles.",
+    "source": "Merrill's · Pathology terminology"
+  },
+  {
+    "id": "pathology-023",
+    "projection": "Interstitial or viral pneumonia (pneumonitis)",
+    "topic": "pathology",
+    "type": "mcq",
+    "prompt": "Which condition matches this definition: Pneumonia caused by a virus and involving the alveolar walls and interstitial structures?",
+    "options": [
+      "Pleural effusion",
+      "Lobular pneumonia or bronchopneumonia",
+      "Pneumoconiosis",
+      "Interstitial or viral pneumonia (pneumonitis)"
+    ],
+    "answer": "Interstitial or viral pneumonia (pneumonitis)",
+    "explanation": "Interstitial or viral pneumonia (pneumonitis): Pneumonia caused by a virus and involving the alveolar walls and interstitial structures.",
+    "source": "Merrill's · Pathology terminology"
+  },
+  {
+    "id": "pathology-024",
+    "projection": "Lobar or bacterial pneumonia",
+    "topic": "pathology",
+    "type": "mcq",
+    "prompt": "Which condition matches this definition: Pneumonia involving the alveoli of an entire lobe without involving the bronchi?",
+    "options": [
+      "Pneumoconiosis",
+      "Aspiration/foreign body",
+      "Lobar or bacterial pneumonia",
+      "Tuberculosis"
+    ],
+    "answer": "Lobar or bacterial pneumonia",
+    "explanation": "Lobar or bacterial pneumonia: Pneumonia involving the alveoli of an entire lobe without involving the bronchi.",
+    "source": "Merrill's · Pathology terminology"
+  },
+  {
+    "id": "pathology-025",
+    "projection": "Lobular pneumonia or bronchopneumonia",
+    "topic": "pathology",
+    "type": "mcq",
+    "prompt": "Which condition matches this definition: Pneumonia involving the bronchi and scattered throughout the lung?",
+    "options": [
+      "Lobular pneumonia or bronchopneumonia",
+      "Emphysema",
+      "Sarcoidosis",
+      "Atelectasis"
+    ],
+    "answer": "Lobular pneumonia or bronchopneumonia",
+    "explanation": "Lobular pneumonia or bronchopneumonia: Pneumonia involving the bronchi and scattered throughout the lung.",
+    "source": "Merrill's · Pathology terminology"
+  },
+  {
+    "id": "pathology-026",
+    "projection": "Pneumothorax",
+    "topic": "pathology",
+    "type": "mcq",
+    "prompt": "Which condition matches this definition: Accumulation of air in the pleural cavity resulting in collapse of the lung?",
+    "options": [
+      "Aspiration/foreign body",
+      "Pneumoconiosis",
+      "Fungal disease",
+      "Pneumothorax"
+    ],
+    "answer": "Pneumothorax",
+    "explanation": "Pneumothorax: Accumulation of air in the pleural cavity resulting in collapse of the lung.",
+    "source": "Merrill's · Pathology terminology"
+  },
+  {
+    "id": "pathology-027",
+    "projection": "Pulmonary edema",
+    "topic": "pathology",
+    "type": "mcq",
+    "prompt": "Which condition matches this definition: Replacement of air with fluid in the lung interstitium and alveoli?",
+    "options": [
+      "Bronchitis",
+      "Bronchiectasis",
+      "Aspiration/foreign body",
+      "Pulmonary edema"
+    ],
+    "answer": "Pulmonary edema",
+    "explanation": "Pulmonary edema: Replacement of air with fluid in the lung interstitium and alveoli.",
+    "source": "Merrill's · Pathology terminology"
+  },
+  {
+    "id": "pathology-028",
+    "projection": "Tumor",
+    "topic": "pathology",
+    "type": "mcq",
+    "prompt": "Which condition matches this definition: New tissue growth where cell proliferation is uncontrolled?",
+    "options": [
+      "Tumor",
+      "Rheumatoid arthritis",
+      "Joint effusion",
+      "Fracture"
+    ],
+    "answer": "Tumor",
+    "explanation": "Tumor: New tissue growth where cell proliferation is uncontrolled.",
+    "source": "Merrill's · Pathology terminology"
+  },
+  {
+    "id": "pathology-029",
+    "projection": "Abdominal aortic aneurysm (AAA)",
+    "topic": "pathology",
+    "type": "mcq",
+    "prompt": "Which condition matches this definition: Localized dilation of the abdominal aorta?",
+    "options": [
+      "Metastasis",
+      "Bowel obstruction",
+      "Ileus",
+      "Abdominal aortic aneurysm (AAA)"
+    ],
+    "answer": "Abdominal aortic aneurysm (AAA)",
+    "explanation": "Abdominal aortic aneurysm (AAA): Localized dilation of the abdominal aorta.",
+    "source": "Merrill's · Pathology terminology"
+  },
+  {
+    "id": "pathology-030",
+    "projection": "Ascites",
+    "topic": "pathology",
+    "type": "mcq",
+    "prompt": "Which condition matches this definition: Fluid accumulation in the peritoneal cavity?",
+    "options": [
+      "Abdominal aortic aneurysm (AAA)",
+      "Bowel obstruction",
+      "Ascites",
+      "Pneumoperitoneum"
+    ],
+    "answer": "Ascites",
+    "explanation": "Ascites: Fluid accumulation in the peritoneal cavity.",
+    "source": "Merrill's · Pathology terminology"
+  },
+  {
+    "id": "pathology-031",
+    "projection": "Bowel obstruction",
+    "topic": "pathology",
+    "type": "mcq",
+    "prompt": "Which condition matches this definition: Blockage of the bowel lumen?",
+    "options": [
+      "Bowel obstruction",
+      "Abdominal aortic aneurysm (AAA)",
+      "Metastasis",
+      "Tumor"
+    ],
+    "answer": "Bowel obstruction",
+    "explanation": "Bowel obstruction: Blockage of the bowel lumen.",
+    "source": "Merrill's · Pathology terminology"
+  },
+  {
+    "id": "pathology-032",
+    "projection": "Ileus",
+    "topic": "pathology",
+    "type": "mcq",
+    "prompt": "Which condition matches this definition: Failure of bowel peristalsis?",
+    "options": [
+      "Tumor",
+      "Pneumoperitoneum",
+      "Ileus",
+      "Metastasis"
+    ],
+    "answer": "Ileus",
+    "explanation": "Ileus: Failure of bowel peristalsis.",
+    "source": "Merrill's · Pathology terminology"
+  },
+  {
+    "id": "pathology-033",
+    "projection": "Pneumoperitoneum",
+    "topic": "pathology",
+    "type": "mcq",
+    "prompt": "Which condition matches this definition: Presence of air in the peritoneal cavity?",
+    "options": [
+      "Ascites",
+      "Bowel obstruction",
+      "Tumor",
+      "Pneumoperitoneum"
+    ],
+    "answer": "Pneumoperitoneum",
+    "explanation": "Pneumoperitoneum: Presence of air in the peritoneal cavity.",
+    "source": "Merrill's · Pathology terminology"
+  },
+  {
+    "id": "pathology-034",
+    "projection": "Bone cyst",
+    "topic": "pathology",
+    "type": "mcq",
+    "prompt": "Which condition matches this definition: Fluid-filled cyst with a wall of fibrous tissue?",
+    "options": [
+      "Osgood–Schlatter disease",
+      "Tendinitis",
+      "Bone cyst",
+      "Dislocation"
+    ],
+    "answer": "Bone cyst",
+    "explanation": "Bone cyst: Fluid-filled cyst with a wall of fibrous tissue.",
+    "source": "Merrill's · Pathology terminology"
+  },
+  {
+    "id": "pathology-035",
+    "projection": "Bursitis",
+    "topic": "pathology",
+    "type": "mcq",
+    "prompt": "Which condition matches this definition: Inflammation of the bursa?",
+    "options": [
+      "Bursitis",
+      "Joint effusion",
+      "Congenital clubfoot",
+      "Fracture"
+    ],
+    "answer": "Bursitis",
+    "explanation": "Bursitis: Inflammation of the bursa.",
+    "source": "Merrill's · Pathology terminology"
+  },
+  {
+    "id": "pathology-036",
+    "projection": "Dislocation",
+    "topic": "pathology",
+    "type": "mcq",
+    "prompt": "Which condition matches this definition: Displacement of a bone from the joint space?",
+    "options": [
+      "Osteomalacia or rickets",
+      "Dislocation",
+      "Congenital clubfoot",
+      "Subluxation"
+    ],
+    "answer": "Dislocation",
+    "explanation": "Dislocation: Displacement of a bone from the joint space.",
+    "source": "Merrill's · Pathology terminology"
+  },
+  {
+    "id": "pathology-037",
+    "projection": "Fracture",
+    "topic": "pathology",
+    "type": "mcq",
+    "prompt": "Which condition matches this definition: Disruption in the continuity of bone?",
+    "options": [
+      "Osteopetrosis",
+      "Dislocation",
+      "Tendinitis",
+      "Fracture"
+    ],
+    "answer": "Fracture",
+    "explanation": "Fracture: Disruption in the continuity of bone.",
+    "source": "Merrill's · Pathology terminology"
+  },
+  {
+    "id": "pathology-038",
+    "projection": "Bennett fracture",
+    "topic": "pathology",
+    "type": "mcq",
+    "prompt": "Which condition matches this definition: Fracture at the base of the first metacarpal?",
+    "options": [
+      "Hill-Sachs defect",
+      "Bennett fracture",
+      "Colles fracture",
+      "Jefferson fracture"
+    ],
+    "answer": "Bennett fracture",
+    "explanation": "Bennett fracture: Fracture at the base of the first metacarpal.",
+    "source": "Merrill's · Pathology terminology"
+  },
+  {
+    "id": "pathology-039",
+    "projection": "Boxer fracture",
+    "topic": "pathology",
+    "type": "mcq",
+    "prompt": "Which condition matches this definition: Fracture of the fifth metacarpal neck?",
+    "options": [
+      "Smith fracture",
+      "Torus or buckle fracture",
+      "Boxer fracture",
+      "Jefferson fracture"
+    ],
+    "answer": "Boxer fracture",
+    "explanation": "Boxer fracture: Fracture of the fifth metacarpal neck.",
+    "source": "Merrill's · Pathology terminology"
+  },
+  {
+    "id": "pathology-040",
+    "projection": "Colles fracture",
+    "topic": "pathology",
+    "type": "mcq",
+    "prompt": "Which condition matches this definition: Fracture of the distal radius with posterior (dorsal) displacement?",
+    "options": [
+      "Colles fracture",
+      "Hill-Sachs defect",
+      "Smith fracture",
+      "Torus or buckle fracture"
+    ],
+    "answer": "Colles fracture",
+    "explanation": "Colles fracture: Fracture of the distal radius with posterior (dorsal) displacement.",
+    "source": "Merrill's · Pathology terminology"
+  },
+  {
+    "id": "pathology-041",
+    "projection": "Smith fracture",
+    "topic": "pathology",
+    "type": "mcq",
+    "prompt": "Which condition matches this definition: Fracture of the distal radius with anterior (palmar) displacement?",
+    "options": [
+      "Colles fracture",
+      "Jefferson fracture",
+      "Clay shoveler’s fracture",
+      "Smith fracture"
+    ],
+    "answer": "Smith fracture",
+    "explanation": "Smith fracture: Fracture of the distal radius with anterior (palmar) displacement.",
+    "source": "Merrill's · Pathology terminology"
+  },
+  {
+    "id": "pathology-042",
+    "projection": "Torus or buckle fracture",
+    "topic": "pathology",
+    "type": "mcq",
+    "prompt": "Which condition matches this definition: Impacted fracture with bulging of the periosteum?",
+    "options": [
+      "Torus or buckle fracture",
+      "Pott fracture",
+      "Colles fracture",
+      "Smith fracture"
+    ],
+    "answer": "Torus or buckle fracture",
+    "explanation": "Torus or buckle fracture: Impacted fracture with bulging of the periosteum.",
+    "source": "Merrill's · Pathology terminology"
+  },
+  {
+    "id": "pathology-043",
+    "projection": "Gout",
+    "topic": "pathology",
+    "type": "mcq",
+    "prompt": "Which condition matches this definition: Hereditary form of arthritis in which uric acid is deposited in joints?",
+    "options": [
+      "Gout",
+      "Osteomalacia or rickets",
+      "Osteopetrosis",
+      "Osteoarthritis or degenerative joint disease"
+    ],
+    "answer": "Gout",
+    "explanation": "Gout: Hereditary form of arthritis in which uric acid is deposited in joints.",
+    "source": "Merrill's · Pathology terminology"
+  },
+  {
+    "id": "pathology-044",
+    "projection": "Joint effusion",
+    "topic": "pathology",
+    "type": "mcq",
+    "prompt": "Which condition matches this definition: Accumulation of fluid in a joint associated with an underlying condition?",
+    "options": [
+      "Osteoarthritis or degenerative joint disease",
+      "Osteopetrosis",
+      "Osgood–Schlatter disease",
+      "Joint effusion"
+    ],
+    "answer": "Joint effusion",
+    "explanation": "Joint effusion: Accumulation of fluid in a joint associated with an underlying condition.",
+    "source": "Merrill's · Pathology terminology"
+  },
+  {
+    "id": "pathology-045",
+    "projection": "Osteoarthritis or degenerative joint disease",
+    "topic": "pathology",
+    "type": "mcq",
+    "prompt": "Which condition matches this definition: Form of arthritis marked by progressive cartilage deterioration in synovial joints and vertebrae?",
+    "options": [
+      "Bursitis",
+      "Tendinitis",
+      "Osteomalacia or rickets",
+      "Osteoarthritis or degenerative joint disease"
+    ],
+    "answer": "Osteoarthritis or degenerative joint disease",
+    "explanation": "Osteoarthritis or degenerative joint disease: Form of arthritis marked by progressive cartilage deterioration in synovial joints and vertebrae.",
+    "source": "Merrill's · Pathology terminology"
+  },
+  {
+    "id": "pathology-046",
+    "projection": "Osteomyelitis",
+    "topic": "pathology",
+    "type": "mcq",
+    "prompt": "Which condition matches this definition: Inflammation of bone due to a pyogenic infection?",
+    "options": [
+      "Paget disease",
+      "Rheumatoid arthritis",
+      "Congenital clubfoot",
+      "Osteomyelitis"
+    ],
+    "answer": "Osteomyelitis",
+    "explanation": "Osteomyelitis: Inflammation of bone due to a pyogenic infection.",
+    "source": "Merrill's · Pathology terminology"
+  },
+  {
+    "id": "pathology-047",
+    "projection": "Osteopetrosis",
+    "topic": "pathology",
+    "type": "mcq",
+    "prompt": "Which condition matches this definition: Increased density of atypically soft bone?",
+    "options": [
+      "Dislocation",
+      "Osteopetrosis",
+      "Gout",
+      "Osteoarthritis or degenerative joint disease"
+    ],
+    "answer": "Osteopetrosis",
+    "explanation": "Osteopetrosis: Increased density of atypically soft bone.",
+    "source": "Merrill's · Pathology terminology"
+  },
+  {
+    "id": "pathology-048",
+    "projection": "Osteoporosis",
+    "topic": "pathology",
+    "type": "mcq",
+    "prompt": "Which condition matches this definition: Loss of bone density?",
+    "options": [
+      "Osteoporosis",
+      "Dislocation",
+      "Osteopetrosis",
+      "Gout"
+    ],
+    "answer": "Osteoporosis",
+    "explanation": "Osteoporosis: Loss of bone density.",
+    "source": "Merrill's · Pathology terminology"
+  },
+  {
+    "id": "pathology-049",
+    "projection": "Rheumatoid arthritis",
+    "topic": "pathology",
+    "type": "mcq",
+    "prompt": "Which condition matches this definition: Chronic, systemic, inflammatory collagen disease?",
+    "options": [
+      "Congenital clubfoot",
+      "Bone cyst",
+      "Rheumatoid arthritis",
+      "Paget disease"
+    ],
+    "answer": "Rheumatoid arthritis",
+    "explanation": "Rheumatoid arthritis: Chronic, systemic, inflammatory collagen disease.",
+    "source": "Merrill's · Pathology terminology"
+  },
+  {
+    "id": "pathology-050",
+    "projection": "Chondrosarcoma",
+    "topic": "pathology",
+    "type": "mcq",
+    "prompt": "Which condition matches this definition: Malignant tumor arising from cartilage cells?",
+    "options": [
+      "Multiple myeloma",
+      "Chondrosarcoma",
+      "Osteoid osteoma",
+      "Osteochondroma or exostosis"
+    ],
+    "answer": "Chondrosarcoma",
+    "explanation": "Chondrosarcoma: Malignant tumor arising from cartilage cells.",
+    "source": "Merrill's · Pathology terminology"
+  },
+  {
+    "id": "pathology-051",
+    "projection": "Enchondroma",
+    "topic": "pathology",
+    "type": "mcq",
+    "prompt": "Which condition matches this definition: Benign tumor consisting of cartilage?",
+    "options": [
+      "Ewing sarcoma",
+      "Chondrosarcoma",
+      "Osteosarcoma",
+      "Enchondroma"
+    ],
+    "answer": "Enchondroma",
+    "explanation": "Enchondroma: Benign tumor consisting of cartilage.",
+    "source": "Merrill's · Pathology terminology"
+  },
+  {
+    "id": "pathology-052",
+    "projection": "Ewing sarcoma",
+    "topic": "pathology",
+    "type": "mcq",
+    "prompt": "Which condition matches this definition: Malignant tumor of bone arising in medullary tissue?",
+    "options": [
+      "Osteosarcoma",
+      "Tumor",
+      "Ewing sarcoma",
+      "Enchondroma"
+    ],
+    "answer": "Ewing sarcoma",
+    "explanation": "Ewing sarcoma: Malignant tumor of bone arising in medullary tissue.",
+    "source": "Merrill's · Pathology terminology"
+  },
+  {
+    "id": "pathology-053",
+    "projection": "Osteosarcoma",
+    "topic": "pathology",
+    "type": "mcq",
+    "prompt": "Which condition matches this definition: Malignant, primary tumor of bone with bone or cartilage formation?",
+    "options": [
+      "Tumor",
+      "Osteoid osteoma",
+      "Osteosarcoma",
+      "Metastasis"
+    ],
+    "answer": "Osteosarcoma",
+    "explanation": "Osteosarcoma: Malignant, primary tumor of bone with bone or cartilage formation.",
+    "source": "Merrill's · Pathology terminology"
+  },
+  {
+    "id": "pathology-054",
+    "projection": "Hill-Sachs defect",
+    "topic": "pathology",
+    "type": "mcq",
+    "prompt": "Which condition matches this definition: Impacted fracture of the posterolateral aspect of the humeral head with dislocation?",
+    "options": [
+      "Bennett fracture",
+      "Hill-Sachs defect",
+      "Boxer fracture",
+      "Compression fracture"
+    ],
+    "answer": "Hill-Sachs defect",
+    "explanation": "Hill-Sachs defect: Impacted fracture of the posterolateral aspect of the humeral head with dislocation.",
+    "source": "Merrill's · Pathology terminology"
+  },
+  {
+    "id": "pathology-055",
+    "projection": "Tendinitis",
+    "topic": "pathology",
+    "type": "mcq",
+    "prompt": "Which condition matches this definition: Inflammation of the tendon and tendon-muscle attachment?",
+    "options": [
+      "Dislocation",
+      "Joint effusion",
+      "Tendinitis",
+      "Bursitis"
+    ],
+    "answer": "Tendinitis",
+    "explanation": "Tendinitis: Inflammation of the tendon and tendon-muscle attachment.",
+    "source": "Merrill's · Pathology terminology"
+  },
+  {
+    "id": "pathology-056",
+    "projection": "Congenital clubfoot",
+    "topic": "pathology",
+    "type": "mcq",
+    "prompt": "Which condition matches this definition: Abnormal twisting of the foot, usually inward and downward?",
+    "options": [
+      "Congenital clubfoot",
+      "Bursitis",
+      "Dislocation",
+      "Osteomalacia or rickets"
+    ],
+    "answer": "Congenital clubfoot",
+    "explanation": "Congenital clubfoot: Abnormal twisting of the foot, usually inward and downward.",
+    "source": "Merrill's · Pathology terminology"
+  },
+  {
+    "id": "pathology-057",
+    "projection": "Pott fracture",
+    "topic": "pathology",
+    "type": "mcq",
+    "prompt": "Which condition matches this definition: Avulsion fracture of the medial malleolus with loss of the ankle mortise?",
+    "options": [
+      "Colles fracture",
+      "Compression fracture",
+      "Jefferson fracture",
+      "Pott fracture"
+    ],
+    "answer": "Pott fracture",
+    "explanation": "Pott fracture: Avulsion fracture of the medial malleolus with loss of the ankle mortise.",
+    "source": "Merrill's · Pathology terminology"
+  },
+  {
+    "id": "pathology-058",
+    "projection": "Jones fracture",
+    "topic": "pathology",
+    "type": "mcq",
+    "prompt": "Which condition matches this definition: Avulsion fracture of the base of the fifth metatarsal?",
+    "options": [
+      "Colles fracture",
+      "Jones fracture",
+      "Torus or buckle fracture",
+      "Hangman’s fracture"
+    ],
+    "answer": "Jones fracture",
+    "explanation": "Jones fracture: Avulsion fracture of the base of the fifth metatarsal.",
+    "source": "Merrill's · Pathology terminology"
+  },
+  {
+    "id": "pathology-059",
+    "projection": "Osgood–Schlatter disease",
+    "topic": "pathology",
+    "type": "mcq",
+    "prompt": "Which condition matches this definition: Incomplete separation or avulsion of the tibial tuberosity?",
+    "options": [
+      "Subluxation",
+      "Osteopetrosis",
+      "Osgood–Schlatter disease",
+      "Bone cyst"
+    ],
+    "answer": "Osgood–Schlatter disease",
+    "explanation": "Osgood–Schlatter disease: Incomplete separation or avulsion of the tibial tuberosity.",
+    "source": "Merrill's · Pathology terminology"
+  },
+  {
+    "id": "pathology-060",
+    "projection": "Osteomalacia or rickets",
+    "topic": "pathology",
+    "type": "mcq",
+    "prompt": "Which condition matches this definition: Softening of the bones due to vitamin D deficiency?",
+    "options": [
+      "Fracture",
+      "Osteomalacia or rickets",
+      "Bone cyst",
+      "Osteomyelitis"
+    ],
+    "answer": "Osteomalacia or rickets",
+    "explanation": "Osteomalacia or rickets: Softening of the bones due to vitamin D deficiency.",
+    "source": "Merrill's · Pathology terminology"
+  },
+  {
+    "id": "pathology-061",
+    "projection": "Paget disease",
+    "topic": "pathology",
+    "type": "mcq",
+    "prompt": "Which condition matches this definition: Chronic metabolic disease of bone marked by weakened, deformed, and thickened bone that fractures easily?",
+    "options": [
+      "Dislocation",
+      "Rheumatoid arthritis",
+      "Joint effusion",
+      "Paget disease"
+    ],
+    "answer": "Paget disease",
+    "explanation": "Paget disease: Chronic metabolic disease of bone marked by weakened, deformed, and thickened bone that fractures easily.",
+    "source": "Merrill's · Pathology terminology"
+  },
+  {
+    "id": "pathology-062",
+    "projection": "Osteochondroma or exostosis",
+    "topic": "pathology",
+    "type": "mcq",
+    "prompt": "Which condition matches this definition: Benign bone tumor projection with a cartilaginous cap?",
+    "options": [
+      "Osteosarcoma",
+      "Osteochondroma or exostosis",
+      "Ewing sarcoma",
+      "Enchondroma"
+    ],
+    "answer": "Osteochondroma or exostosis",
+    "explanation": "Osteochondroma or exostosis: Benign bone tumor projection with a cartilaginous cap.",
+    "source": "Merrill's · Pathology terminology"
+  },
+  {
+    "id": "pathology-063",
+    "projection": "Osteoclastoma or giant cell tumor",
+    "topic": "pathology",
+    "type": "mcq",
+    "prompt": "Which condition matches this definition: Lucent lesion in the metaphysis, usually at the distal femur?",
+    "options": [
+      "Ewing sarcoma",
+      "Osteosarcoma",
+      "Osteoid osteoma",
+      "Osteoclastoma or giant cell tumor"
+    ],
+    "answer": "Osteoclastoma or giant cell tumor",
+    "explanation": "Osteoclastoma or giant cell tumor: Lucent lesion in the metaphysis, usually at the distal femur.",
+    "source": "Merrill's · Pathology terminology"
+  },
+  {
+    "id": "pathology-064",
+    "projection": "Osteoid osteoma",
+    "topic": "pathology",
+    "type": "mcq",
+    "prompt": "Which condition matches this definition: Benign lesion of cortical bone?",
+    "options": [
+      "Ewing sarcoma",
+      "Osteosarcoma",
+      "Osteoid osteoma",
+      "Chondrosarcoma"
+    ],
+    "answer": "Osteoid osteoma",
+    "explanation": "Osteoid osteoma: Benign lesion of cortical bone.",
+    "source": "Merrill's · Pathology terminology"
+  },
+  {
+    "id": "pathology-065",
+    "projection": "Ankylosing spondylitis",
+    "topic": "pathology",
+    "type": "mcq",
+    "prompt": "Which condition matches this definition: Rheumatoid arthritis variant involving the sacroiliac joints and spine?",
+    "options": [
+      "Scheuermann disease or adolescent kyphosis",
+      "Ankylosing spondylitis",
+      "Rheumatoid arthritis",
+      "Subluxation"
+    ],
+    "answer": "Ankylosing spondylitis",
+    "explanation": "Ankylosing spondylitis: Rheumatoid arthritis variant involving the sacroiliac joints and spine.",
+    "source": "Merrill's · Pathology terminology"
+  },
+  {
+    "id": "pathology-066",
+    "projection": "Congenital hip dysplasia",
+    "topic": "pathology",
+    "type": "mcq",
+    "prompt": "Which condition matches this definition: Malformation of the acetabulum causing displacement of the femoral head?",
+    "options": [
+      "Lordosis",
+      "Scheuermann disease or adolescent kyphosis",
+      "Spondylolysis",
+      "Congenital hip dysplasia"
+    ],
+    "answer": "Congenital hip dysplasia",
+    "explanation": "Congenital hip dysplasia: Malformation of the acetabulum causing displacement of the femoral head.",
+    "source": "Merrill's · Pathology terminology"
+  },
+  {
+    "id": "pathology-067",
+    "projection": "Legg-Calvé-Perthes disease",
+    "topic": "pathology",
+    "type": "mcq",
+    "prompt": "Which condition matches this definition: Flattening of the femoral head due to vascular interruption?",
+    "options": [
+      "Congenital hip dysplasia",
+      "Kyphosis",
+      "Legg-Calvé-Perthes disease",
+      "Ankylosing spondylitis"
+    ],
+    "answer": "Legg-Calvé-Perthes disease",
+    "explanation": "Legg-Calvé-Perthes disease: Flattening of the femoral head due to vascular interruption.",
+    "source": "Merrill's · Pathology terminology"
+  },
+  {
+    "id": "pathology-068",
+    "projection": "Slipped epiphysis",
+    "topic": "pathology",
+    "type": "mcq",
+    "prompt": "Which condition matches this definition: Proximal portion of the femur dislocated from the distal portion at the proximal epiphysis?",
+    "options": [
+      "Kyphosis",
+      "Lordosis",
+      "Osgood–Schlatter disease",
+      "Slipped epiphysis"
+    ],
+    "answer": "Slipped epiphysis",
+    "explanation": "Slipped epiphysis: Proximal portion of the femur dislocated from the distal portion at the proximal epiphysis.",
+    "source": "Merrill's · Pathology terminology"
+  },
+  {
+    "id": "pathology-069",
+    "projection": "Multiple myeloma",
+    "topic": "pathology",
+    "type": "mcq",
+    "prompt": "Which condition matches this definition: Malignant neoplasm of plasma cells involving the bone marrow and causing destruction of bone?",
+    "options": [
+      "Ewing sarcoma",
+      "Osteochondroma or exostosis",
+      "Osteoclastoma or giant cell tumor",
+      "Multiple myeloma"
+    ],
+    "answer": "Multiple myeloma",
+    "explanation": "Multiple myeloma: Malignant neoplasm of plasma cells involving the bone marrow and causing destruction of bone.",
+    "source": "Merrill's · Pathology terminology"
+  },
+  {
+    "id": "pathology-070",
+    "projection": "Clay shoveler’s fracture",
+    "topic": "pathology",
+    "type": "mcq",
+    "prompt": "Which condition matches this definition: Avulsion fracture of the spinous process in the lower cervical and upper thoracic region?",
+    "options": [
+      "Clay shoveler’s fracture",
+      "Hangman’s fracture",
+      "Torus or buckle fracture",
+      "Colles fracture"
+    ],
+    "answer": "Clay shoveler’s fracture",
+    "explanation": "Clay shoveler’s fracture: Avulsion fracture of the spinous process in the lower cervical and upper thoracic region.",
+    "source": "Merrill's · Pathology terminology"
+  },
+  {
+    "id": "pathology-071",
+    "projection": "Compression fracture",
+    "topic": "pathology",
+    "type": "mcq",
+    "prompt": "Which condition matches this definition: Fracture that causes compaction of bone and a decrease in length or width?",
+    "options": [
+      "Torus or buckle fracture",
+      "Compression fracture",
+      "Pott fracture",
+      "Hangman’s fracture"
+    ],
+    "answer": "Compression fracture",
+    "explanation": "Compression fracture: Fracture that causes compaction of bone and a decrease in length or width.",
+    "source": "Merrill's · Pathology terminology"
+  },
+  {
+    "id": "pathology-072",
+    "projection": "Hangman’s fracture",
+    "topic": "pathology",
+    "type": "mcq",
+    "prompt": "Which condition matches this definition: Fracture of the anterior arch of C2 owing to hyperextension?",
+    "options": [
+      "Clay shoveler’s fracture",
+      "Torus or buckle fracture",
+      "Smith fracture",
+      "Hangman’s fracture"
+    ],
+    "answer": "Hangman’s fracture",
+    "explanation": "Hangman’s fracture: Fracture of the anterior arch of C2 owing to hyperextension.",
+    "source": "Merrill's · Pathology terminology"
+  },
+  {
+    "id": "pathology-073",
+    "projection": "Jefferson fracture",
+    "topic": "pathology",
+    "type": "mcq",
+    "prompt": "Which condition matches this definition: Comminuted fracture of the ring of C1?",
+    "options": [
+      "Clay shoveler’s fracture",
+      "Jefferson fracture",
+      "Jones fracture",
+      "Colles fracture"
+    ],
+    "answer": "Jefferson fracture",
+    "explanation": "Jefferson fracture: Comminuted fracture of the ring of C1.",
+    "source": "Merrill's · Pathology terminology"
+  },
+  {
+    "id": "pathology-074",
+    "projection": "Herniated nucleus pulposus",
+    "topic": "pathology",
+    "type": "mcq",
+    "prompt": "Which condition matches this definition: Rupture or prolapse of the nucleus pulposus into the spinal canal?",
+    "options": [
+      "Osteopetrosis",
+      "Herniated nucleus pulposus",
+      "Paget disease",
+      "Bone cyst"
+    ],
+    "answer": "Herniated nucleus pulposus",
+    "explanation": "Herniated nucleus pulposus: Rupture or prolapse of the nucleus pulposus into the spinal canal.",
+    "source": "Merrill's · Pathology terminology"
+  },
+  {
+    "id": "pathology-075",
+    "projection": "Kyphosis",
+    "topic": "pathology",
+    "type": "mcq",
+    "prompt": "Which condition matches this definition: Abnormally increased anterior concavity (posterior convexity) in the thoracic curvature?",
+    "options": [
+      "Kyphosis",
+      "Herniated nucleus pulposus",
+      "Spondylolisthesis",
+      "Bursitis"
+    ],
+    "answer": "Kyphosis",
+    "explanation": "Kyphosis: Abnormally increased anterior concavity (posterior convexity) in the thoracic curvature.",
+    "source": "Merrill's · Pathology terminology"
+  },
+  {
+    "id": "pathology-076",
+    "projection": "Lordosis",
+    "topic": "pathology",
+    "type": "mcq",
+    "prompt": "Which condition matches this definition: Abnormally increased anterior convexity (posterior concavity) of the cervical and lumbar spine?",
+    "options": [
+      "Jefferson fracture",
+      "Scoliosis",
+      "Herniated nucleus pulposus",
+      "Lordosis"
+    ],
+    "answer": "Lordosis",
+    "explanation": "Lordosis: Abnormally increased anterior convexity (posterior concavity) of the cervical and lumbar spine.",
+    "source": "Merrill's · Pathology terminology"
+  },
+  {
+    "id": "pathology-077",
+    "projection": "Scheuermann disease or adolescent kyphosis",
+    "topic": "pathology",
+    "type": "mcq",
+    "prompt": "Which condition matches this definition: Kyphosis with onset in adolescence?",
+    "options": [
+      "Osteoporosis",
+      "Scheuermann disease or adolescent kyphosis",
+      "Herniated nucleus pulposus",
+      "Spondylolysis"
+    ],
+    "answer": "Scheuermann disease or adolescent kyphosis",
+    "explanation": "Scheuermann disease or adolescent kyphosis: Kyphosis with onset in adolescence.",
+    "source": "Merrill's · Pathology terminology"
+  },
+  {
+    "id": "pathology-078",
+    "projection": "Scoliosis",
+    "topic": "pathology",
+    "type": "mcq",
+    "prompt": "Which condition matches this definition: Lateral deviation of the spine with possible vertebral rotation?",
+    "options": [
+      "Lordosis",
+      "Scheuermann disease or adolescent kyphosis",
+      "Dislocation",
+      "Scoliosis"
+    ],
+    "answer": "Scoliosis",
+    "explanation": "Scoliosis: Lateral deviation of the spine with possible vertebral rotation.",
+    "source": "Merrill's · Pathology terminology"
+  },
+  {
+    "id": "pathology-079",
+    "projection": "Spina bifida",
+    "topic": "pathology",
+    "type": "mcq",
+    "prompt": "Which condition matches this definition: Failure of the posterior encasement of the spinal cord to close?",
+    "options": [
+      "Tendinitis",
+      "Spina bifida",
+      "Fracture",
+      "Joint effusion"
+    ],
+    "answer": "Spina bifida",
+    "explanation": "Spina bifida: Failure of the posterior encasement of the spinal cord to close.",
+    "source": "Merrill's · Pathology terminology"
+  },
+  {
+    "id": "pathology-080",
+    "projection": "Spondylolisthesis",
+    "topic": "pathology",
+    "type": "mcq",
+    "prompt": "Which condition matches this definition: Forward displacement of a vertebra over a lower vertebra, usually L5–S1?",
+    "options": [
+      "Fracture",
+      "Spondylolisthesis",
+      "Paget disease",
+      "Joint effusion"
+    ],
+    "answer": "Spondylolisthesis",
+    "explanation": "Spondylolisthesis: Forward displacement of a vertebra over a lower vertebra, usually L5–S1.",
+    "source": "Merrill's · Pathology terminology"
+  },
+  {
+    "id": "pathology-081",
+    "projection": "Spondylolysis",
+    "topic": "pathology",
+    "type": "mcq",
+    "prompt": "Which condition matches this definition: Breaking down of the vertebra?",
+    "options": [
+      "Paget disease",
+      "Spondylolysis",
+      "Compression fracture",
+      "Fracture"
+    ],
+    "answer": "Spondylolysis",
+    "explanation": "Spondylolysis: Breaking down of the vertebra.",
+    "source": "Merrill's · Pathology terminology"
+  },
+  {
+    "id": "pathology-082",
+    "projection": "Subluxation",
+    "topic": "pathology",
+    "type": "mcq",
+    "prompt": "Which condition matches this definition: Incomplete or partial dislocation?",
+    "options": [
+      "Subluxation",
+      "Paget disease",
+      "Congenital clubfoot",
+      "Osteoarthritis or degenerative joint disease"
+    ],
+    "answer": "Subluxation",
+    "explanation": "Subluxation: Incomplete or partial dislocation.",
+    "source": "Merrill's · Pathology terminology"
+  }
+]
