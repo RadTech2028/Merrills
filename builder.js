@@ -156,7 +156,7 @@ $('import-drafts').onchange=async()=>{
  catch(e){$('draft-status').textContent='Import failed: '+e.message;}finally{$('import-drafts').value='';}
 };
 $('personal-new').onclick=()=>{resetForm();showView('builder');};
-$('personal-study').onclick=()=>{$('session-source').value='personal';selected=new Set(groups.map(g=>g.id));focus=new Set(Object.keys(TOPICS));$('images-only').checked=false;refreshControls();showView('practice');};
+$('personal-study').onclick=()=>{$('session-source').value='personal';selected=new Set(groups.map(g=>g.id));focus=new Set(Object.keys(TOPICS));$('images-only').checked=false;$('no-images-only').checked=false;refreshControls();showView('practice');};
 ['personal-search','personal-group'].forEach(id=>$(id).addEventListener(id==='personal-search'?'input':'change',()=>{personalLimit=50;renderPersonal();}));
 $('personal-more').onclick=()=>{personalLimit+=50;renderPersonal();};
 $('backup-export').onclick=()=>{downloadJSON({version:2,groups:groups.map(({id,name,description})=>({id,name,description})),focuses:TOPICS,questions:drafts.map(q=>({...cleanQuestion(q),group:q.group}))},'positioning-personal-backup.json');$('personal-status').textContent='Full backup exported, including your questions, embedded images, categories, and focuses. Separate image-path files must be copied separately.';};

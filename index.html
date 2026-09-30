@@ -5,7 +5,7 @@
 <title>Positioning Lab | Radiography Practice</title>
 <meta name="description" content="Practice radiographic positioning by anatomy group, central ray, purpose, and image evaluation.">
 <link rel="icon" href="./favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="./styles.css">
-<script defer src="./app.js"></script><script defer src="./builder.js"></script>
+<script defer src="./app.js?v=session-options-20260930"></script><script defer src="./builder.js?v=session-options-20260930"></script>
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
@@ -34,12 +34,14 @@
    <div class="section-line second"><h2><span class="step">02</span> Set your focus</h2></div>
    <div id="focus-list" class="chips"></div>
    <label class="checkline"><input type="checkbox" id="images-only"> Image questions only <span class="muted" id="image-count"></span></label>
+   <label class="checkline"><input type="checkbox" id="no-images-only"> No image questions only <span class="muted" id="no-image-count"></span></label>
    <div class="sample-note"><span class="note-icon" aria-hidden="true">i</span><p><strong>Notice a bug or want to request a feature?</strong> Email me any suggestions at ck73@sunyorange.edu</p></div>
   </div>
   <aside class="session-card">
    <div class="eyebrow">YOUR SESSION</div><div class="match-count"><strong id="match-count">0</strong><span>matching questions</span></div>
    <hr><label for="session-source">Question source</label><select id="session-source"><option value="program">Program bank</option><option value="personal">My questions</option><option value="both">Program + my questions</option></select><label for="session-mode">Study mode</label><select id="session-mode"><option value="practice">Practice · feedback after each answer</option><option value="exam">Test · feedback at the end</option><option value="cards">Flashcards · reveal & self-check</option></select>
-   <label for="session-size">Number of questions</label><select id="session-size"><option value="10">10 questions</option><option value="20">20 questions</option><option value="50">50 questions</option><option value="all">All matching questions</option></select>
+   <label for="session-size">Number of questions</label><select id="session-size"><option value="10">10 questions</option><option value="20">20 questions</option><option value="50">50 questions</option><option value="custom">Choose my own number</option><option value="all">All matching questions</option></select>
+   <div id="custom-size-settings" hidden><label for="custom-session-size">How many questions?</label><input id="custom-session-size" type="number" min="1" step="1" value="25" inputmode="numeric" aria-describedby="session-hint"></div>
    <label class="checkline"><input type="checkbox" id="shuffle" checked> Shuffle questions & answers</label>
    <label class="checkline"><input type="checkbox" id="timer-enabled"> Set a session timer</label><div id="timer-settings" hidden><label for="timer-minutes">Minutes (1–180)</label><input id="timer-minutes" type="number" min="1" max="180" value="10"><p class="small muted">The session ends when time runs out, including while this tab is in the background.</p></div><button class="primary start" id="start">Start practice <span aria-hidden="true">→</span></button>
    <p id="session-hint" class="small muted"></p>

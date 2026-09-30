@@ -83,12 +83,23 @@ function showView(view){
  if(view==='browse')renderBank();if(view==='personal')renderPersonal();if(view==='builder')renderDrafts();
  window.scrollTo({top:0});$('main').focus({preventScroll:true});
 }
-function matching(){return poolFor($('session-source').value).filter(q=>selected.has(q.group)&&focus.has(q.topic)&&(!$('images-only').checked||q.image));}
+function matching(){return poolFor($('session-source').value).filter(q=>selected.has(q.group)&&focus.has(q.topic)&&(!$('images-only').checked||q.image)&&(!$('no-images-only').checked||!q.image));}
+function sessionLimit(available){
+ if($('session-size').value==='all')return available;
+ const requested=Number($('session-size').value==='custom'?$('custom-session-size').value:$('session-size').value);
+ return Number.isSafeInteger(requested)&&requested>0?Math.min(available,requested):null;
+}
 function updateSetup(){
- const n=matching().length;$('match-count').textContent=n;$('start').disabled=!n;
- const count=$('session-size').value==='all'?n:Math.min(n,Number($('session-size').value));
- $('session-hint').textContent=n?'You’ll study '+count+' question'+(count===1?'':'s')+'.':'No questions match. Try another source, category, or focus.';
- $('image-count').textContent='('+poolFor($('session-source').value).filter(q=>selected.has(q.group)&&focus.has(q.topic)&&q.image).length+' available)';
+ const n=matching().length,count=sessionLimit(n),custom=$('session-size').value==='custom';
+ $('custom-size-settings').hidden=!custom;
+ $('custom-session-size').setAttribute('aria-invalid',String(custom&&count===null));
+ $('match-count').textContent=n;$('start').disabled=!n||count===null;
+ const requested=Number(custom?$('custom-session-size').value:$('session-size').value);
+ $('session-hint').textContent=count===null?'Enter a whole number of questions greater than zero.':!n?'No questions match. Try another source, category, focus, or image filter.':requested>n?'Only '+n+' matching question'+(n===1?' is':'s are')+' available. You’ll study all '+n+'.':'You’ll study '+count+' question'+(count===1?'':'s')+'.';
+ const eligible=poolFor($('session-source').value).filter(q=>selected.has(q.group)&&focus.has(q.topic));
+ const imageCount=eligible.filter(q=>q.image).length;
+ $('image-count').textContent='('+imageCount+' available)';
+ $('no-image-count').textContent='('+(eligible.length-imageCount)+' available)';
  $('toggle-groups').textContent=selected.size===groups.length?'Clear all':'Select all';
  $('start').firstChild.textContent=({practice:'Start practice ',exam:'Start test ',cards:'Start flashcards '})[$('session-mode').value];
 }
@@ -180,13 +191,17 @@ document.querySelectorAll('[data-view]').forEach(b=>b.onclick=()=>{if(session&&!
 $('group-grid').onchange=e=>{if(e.target.checked)selected.add(e.target.value);else selected.delete(e.target.value);updateSetup();};
 $('focus-list').onchange=e=>{if(e.target.checked)focus.add(e.target.value);else focus.delete(e.target.value);updateSetup();};
 $('toggle-groups').onclick=()=>{selected=selected.size===groups.length?new Set():new Set(groups.map(g=>g.id));renderGroups();updateSetup();};
-['session-size','session-mode','images-only'].forEach(id=>$(id).onchange=updateSetup);
+['session-size','session-mode'].forEach(id=>$(id).onchange=updateSetup);
+$('custom-session-size').oninput=updateSetup;
+['images-only','no-images-only'].forEach((id,index,ids)=>$(id).onchange=()=>{if($(id).checked)$(ids[1-index]).checked=false;updateSetup();});
 $('session-source').onchange=()=>{renderGroups();updateSetup();};
 $('timer-enabled').onchange=()=>$('timer-settings').hidden=!$('timer-enabled').checked;
 $('start').onclick=()=>{
  const minutes=$('timer-enabled').checked?Number($('timer-minutes').value):0;
  if($('timer-enabled').checked&&(!Number.isFinite(minutes)||minutes<1||minutes>180||!Number.isInteger(minutes))){$('session-hint').textContent='Choose a whole number of minutes between 1 and 180.';return;}
- const pool=matching();startSession(pool,$('session-mode').value,$('session-size').value==='all'?pool.length:Number($('session-size').value),$('shuffle').checked,'practice',minutes);
+ const pool=matching(),limit=sessionLimit(pool.length);
+ if(limit===null||!pool.length){updateSetup();return;}
+ startSession(pool,$('session-mode').value,limit,$('shuffle').checked,'practice',minutes);
 };
 ['bank-search','bank-group','bank-topic','bank-source'].forEach(id=>$(id).addEventListener(id==='bank-search'?'input':'change',()=>{browseLimit=50;renderBank();}));
 $('bank-more').onclick=()=>{browseLimit+=50;renderBank();};
