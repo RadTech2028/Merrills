@@ -102,7 +102,7 @@ function renderPersonal(){
  $('personal-study').disabled=!drafts.length;$('backup-export').disabled=!drafts.length&&!customGroups.length&&!Object.keys(customTopics).length;
  $('personal-list').innerHTML=found.length?found.slice(0,personalLimit).map(q=>'<div class="personal-item"><div style="flex:1;min-width:0">'+questionDetail(personalQuestion(q))+'</div><div class="actions"><button data-edit="'+esc(q.id)+'" data-group="'+esc(q.group)+'">Edit</button><button data-delete="'+esc(q.id)+'" data-group="'+esc(q.group)+'">Delete</button></div></div>').join(''):'<div class="empty">No personal questions yet for these filters. Create one or copy a program question to start.</div>';
  $('personal-list').querySelectorAll('[data-edit]').forEach(b=>b.onclick=()=>editDraft(b.dataset.edit,b.dataset.group));
- $('personal-list').querySelectorAll('[data-delete]').forEach(b=>b.onclick=()=>deleteDraft(b.dataset.delete,b.dataset.group));wireImages($('personal-list'));
+ $('personal-list').querySelectorAll('[data-delete]').forEach(b=>b.onclick=()=>deleteDraft(b.dataset.delete,b.dataset.group));wireImages($('personal-list'));Progress.wire($('personal-list'),found.slice(0,personalLimit).map(personalQuestion));
 }
 function downloadJSON(data,name){const url=URL.createObjectURL(new Blob([JSON.stringify(data,null,2)],{type:'application/json'}));const a=document.createElement('a');a.href=url;a.download=name;a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);}
 function metadataForUnknown(list){
@@ -151,15 +151,15 @@ $('preview-drafts').onclick=()=>{const qs=drafts.filter(q=>q.group===$('draft-gr
 $('export-drafts').onclick=()=>{const qs=drafts.filter(q=>q.group===$('draft-group').value);downloadJSON(qs.map(cleanQuestion),$('draft-group').value+'.json');$('draft-status').textContent='Exported '+qs.length+' questions. This category file replaces a published file when uploaded.';};
 $('import-drafts').onchange=async()=>{
  const file=$('import-drafts').files[0];if(!file)return;
- try{const data=await readImport(file);if(!Array.isArray(data))throw new Error('Use Restore backup in My questions for a full backup. This importer accepts a category question array.');
+ try{const data=await readImport(file);if(!Array.isArray(data))throw new Error('Use Restore questions in My questions for a question backup. This importer accepts a category question array.');
  const qs=validateQuestions(data).map(q=>({...cleanQuestion(q),group:$('draft-group').value}));if(!mergeQuestions(qs))return;const saved=applyImported();$('draft-status').textContent='Imported '+qs.length+' questions into this personal category.'+(saved?'':' '+storageWarning);}
  catch(e){$('draft-status').textContent='Import failed: '+e.message;}finally{$('import-drafts').value='';}
 };
 $('personal-new').onclick=()=>{resetForm();showView('builder');};
-$('personal-study').onclick=()=>{$('session-source').value='personal';selected=new Set(groups.map(g=>g.id));focus=new Set(Object.keys(TOPICS));$('images-only').checked=false;$('no-images-only').checked=false;refreshControls();showView('practice');};
+$('personal-study').onclick=()=>{$('session-source').value='personal';selected=new Set(groups.map(g=>g.id));focus=new Set(Object.keys(TOPICS));$('images-only').checked=false;$('no-images-only').checked=false;$('study-filter').value='all';refreshControls();showView('practice');};
 ['personal-search','personal-group'].forEach(id=>$(id).addEventListener(id==='personal-search'?'input':'change',()=>{personalLimit=50;renderPersonal();}));
 $('personal-more').onclick=()=>{personalLimit+=50;renderPersonal();};
-$('backup-export').onclick=()=>{downloadJSON({version:2,groups:groups.map(({id,name,description})=>({id,name,description})),focuses:TOPICS,questions:drafts.map(q=>({...cleanQuestion(q),group:q.group}))},'positioning-personal-backup.json');$('personal-status').textContent='Full backup exported, including your questions, embedded images, categories, and focuses. Separate image-path files must be copied separately.';};
+$('backup-export').onclick=()=>{downloadJSON({version:2,groups:groups.map(({id,name,description})=>({id,name,description})),focuses:TOPICS,questions:drafts.map(q=>({...cleanQuestion(q),group:q.group}))},'positioning-personal-backup.json');$('personal-status').textContent='Question backup exported, including your questions, embedded images, categories, and focuses. Separate image-path files must be copied separately.';};
 $('backup-import').onchange=async()=>{
  const file=$('backup-import').files[0];if(!file)return;
  try{

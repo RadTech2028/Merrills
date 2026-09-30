@@ -1,0 +1,10 @@
+.card-progress{display:flex;align-items:end;gap:12px;flex-wrap:wrap;margin:18px 0;padding:14px;background:#f3f6fc;border-radius:9px}
+.card-progress label{margin:0;font-size:.8rem;min-width:150px}
+.card-progress select{margin-top:5px}
+.card-progress .small{flex-basis:100%;line-height:1.6}
+.card-bookmark[aria-pressed=true]{background:#e5eefc;border-color:#7296ce;color:#16428a}
+.progress-tools{display:grid;grid-template-columns:2fr 1fr 1fr;gap:12px;margin:22px 0}
+.progress-backup{margin:20px 0}
+#progress-warning{margin-bottom:20px}
+#setup-progress{line-height:1.6}
+@media(max-width:650px){.progress-tools{grid-template-columns:1fr}.card-progress{align-items:stretch}.card-progress label{flex:1}.progress-backup .actions>*{flex:1}}
