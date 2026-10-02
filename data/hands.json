@@ -1,46 +1,784 @@
 [
   {
     "id": "hands-001",
+    "part": "digits",
+    "projectionId": "digits-pa",
     "projection": "PA digits 2–5",
     "topic": "central-ray",
     "type": "mcq",
-    "prompt": "Where is the CR centered for a PA projection of an individual digit (2–5)?",
+    "prompt": "Where is the CR centered for a PA projection of digits 2–5?",
     "options": [
       "PIP joint of the affected digit",
-      "Third MCP joint",
+      "MCP joint of the affected digit",
       "DIP joint of the affected digit",
-      "First CMC joint"
+      "Base of the adjoining metacarpal"
     ],
     "answer": "PIP joint of the affected digit",
-    "explanation": "The perpendicular CR is centered at the PIP joint of the affected digit.",
-    "source": "Positioning practice · PA digits 2–5",
-    "part": "digits",
-    "projectionId": "digits-pa"
+    "explanation": "The PA digit projection uses a perpendicular CR centered at the PIP joint of the affected digit.",
+    "source": "Positioning practice · PA digits 2–5"
   },
   {
     "id": "hands-002",
-    "projection": "PA hand",
-    "topic": "central-ray",
+    "part": "digits",
+    "projectionId": "digits-pa",
+    "projection": "PA digits 2–5",
+    "topic": "positioning",
     "type": "mcq",
-    "prompt": "Where is the CR centered for a PA hand?",
+    "prompt": "How should the affected digit be positioned for a PA projection?",
     "options": [
-      "Third MCP joint",
-      "Third PIP joint",
-      "Midcarpal area",
-      "First CMC joint"
+      "Extended with the palmar surface on the IR",
+      "Flexed with the dorsal surface on the IR",
+      "Extended in a true lateral position",
+      "Rotated 45° laterally"
     ],
-    "answer": "Third MCP joint",
-    "explanation": "The CR is perpendicular to the third MCP joint.",
-    "source": "Positioning practice · PA hand",
-    "part": "hand",
-    "projectionId": "hand-pa"
+    "answer": "Extended with the palmar surface on the IR",
+    "explanation": "The affected digit is extended with its palmar surface down on the IR.",
+    "source": "Positioning practice · PA digits 2–5"
   },
   {
     "id": "hands-003",
-    "projection": "PA oblique hand",
+    "part": "digits",
+    "projectionId": "digits-pa",
+    "projection": "PA digits 2–5",
     "topic": "positioning",
     "type": "mcq",
-    "prompt": "What angle do the MCP joints form with the IR for a PA oblique hand?",
+    "prompt": "Why are the digits slightly separated for a PA digit projection?",
+    "options": [
+      "To prevent soft-tissue overlap from adjacent digits",
+      "To superimpose the phalanges",
+      "To open the first CMC joint",
+      "To place the fingernail in profile"
+    ],
+    "answer": "To prevent soft-tissue overlap from adjacent digits",
+    "explanation": "Slight separation helps prevent adjacent digits from overlapping the anatomy of interest.",
+    "source": "Positioning practice · PA digits 2–5"
+  },
+  {
+    "id": "hands-004",
+    "part": "digits",
+    "projectionId": "digits-pa",
+    "projection": "PA digits 2–5",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "Which finding best indicates that a PA digit is not rotated?",
+    "options": [
+      "Equal concavity and soft-tissue width on both sides of the phalanges",
+      "Fingernail seen in profile",
+      "Concavity only on the elevated side",
+      "Superimposition of the proximal phalanx by an adjacent digit"
+    ],
+    "answer": "Equal concavity and soft-tissue width on both sides of the phalanges",
+    "explanation": "A nonrotated PA digit should show equal concavity and an equal amount of soft tissue on both sides.",
+    "source": "Positioning practice · PA digits 2–5"
+  },
+  {
+    "id": "hands-005",
+    "part": "digits",
+    "projectionId": "digits-pa",
+    "projection": "PA digits 2–5",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "Where should the fingernail appear on a correctly positioned PA digit, if visible?",
+    "options": [
+      "Centered over the distal phalanx",
+      "In profile along the side of the distal phalanx",
+      "Over the PIP joint",
+      "Superimposed on the adjoining digit"
+    ],
+    "answer": "Centered over the distal phalanx",
+    "explanation": "A centered fingernail supports a nonrotated PA position.",
+    "source": "Positioning practice · PA digits 2–5"
+  },
+  {
+    "id": "hands-006",
+    "part": "digits",
+    "projectionId": "digits-pa",
+    "projection": "PA digits 2–5",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "Which joint spaces should be open on a properly positioned PA digit?",
+    "options": [
+      "IP and MCP joints",
+      "CMC joint only",
+      "MCP and CMC joints only",
+      "DIP joint only"
+    ],
+    "answer": "IP and MCP joints",
+    "explanation": "The guide lists open IP and MCP joint spaces as evaluation criteria.",
+    "source": "Positioning practice · PA digits 2–5"
+  },
+  {
+    "id": "hands-007",
+    "part": "digits",
+    "projectionId": "digits-pa",
+    "projection": "PA digits 2–5",
+    "topic": "anatomy",
+    "type": "mcq",
+    "prompt": "What anatomy must be included on a PA digit image?",
+    "options": [
+      "The entire affected digit through the distal portion of the adjoining metacarpal",
+      "Only the phalanges",
+      "The entire hand through the distal radius and ulna",
+      "Only the PIP joint"
+    ],
+    "answer": "The entire affected digit through the distal portion of the adjoining metacarpal",
+    "explanation": "Coverage extends from the fingertip through the distal portion of the adjoining metacarpal.",
+    "source": "Positioning practice · PA digits 2–5"
+  },
+  {
+    "id": "hands-008",
+    "part": "digits",
+    "projectionId": "digits-pa",
+    "projection": "PA digits 2–5",
+    "topic": "ir-collimation",
+    "type": "mcq",
+    "prompt": "How should a PA digit be collimated?",
+    "options": [
+      "1 inch on all sides of the digit and 1 inch proximal to the MCP joint",
+      "2 inches on all sides of the entire hand",
+      "1 inch around the PIP joint only",
+      "1 inch proximal to the wrist joint only"
+    ],
+    "answer": "1 inch on all sides of the digit and 1 inch proximal to the MCP joint",
+    "explanation": "The guide specifies 1 inch on all sides and 1 inch proximal to the MCP joint.",
+    "source": "Positioning practice · PA digits 2–5"
+  },
+  {
+    "id": "hands-009",
+    "part": "digits",
+    "projectionId": "digits-pa",
+    "projection": "PA digits 2–5",
+    "topic": "anatomy",
+    "type": "mcq",
+    "prompt": "Which projection is demonstrated in this radiograph?",
+    "options": [
+      "PA digit",
+      "Lateral digit",
+      "PA oblique digit",
+      "AP thumb"
+    ],
+    "answer": "PA digit",
+    "explanation": "The image demonstrates a PA projection of a digit.",
+    "source": "Positioning practice · PA digits 2–5",
+    "image": {
+      "src": "images/PA third digitxray.png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Radiograph"
+    }
+  },
+  {
+    "id": "hands-010",
+    "part": "digits",
+    "projectionId": "digits-pa",
+    "projection": "PA digits 2–5",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "Which finding would best confirm correct positioning on this PA digit radiograph?",
+    "options": [
+      "Equal concavity of the phalanges on both sides",
+      "Fingernail in profile",
+      "45° rotation of the digit",
+      "Overlap of the proximal phalanx by an adjacent digit"
+    ],
+    "answer": "Equal concavity of the phalanges on both sides",
+    "explanation": "Equal concavity supports a nonrotated PA digit.",
+    "source": "Positioning practice · PA digits 2–5",
+    "image": {
+      "src": "images/PA third digitxray.png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Radiograph"
+    }
+  },
+  {
+    "id": "hands-011",
+    "part": "digits",
+    "projectionId": "digits-pa",
+    "projection": "PA digits 2–5",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "The positioning image shows PA views of which digits?",
+    "options": [
+      "Second and third digits",
+      "First and second digits",
+      "Third and fourth digits",
+      "Fourth and fifth digits"
+    ],
+    "answer": "Second and third digits",
+    "explanation": "The supplied image file contains PA positioning for the second and third digits.",
+    "source": "Positioning practice · PA digits 2–5",
+    "image": {
+      "src": "images/(A) PA second digit. (B) PA third digit..png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Positioning image"
+    }
+  },
+  {
+    "id": "hands-012",
+    "part": "digits",
+    "projectionId": "digits-pa",
+    "projection": "PA digits 2–5",
+    "topic": "central-ray",
+    "type": "mcq",
+    "prompt": "For the PA digit positions shown, where should the CR be directed?",
+    "options": [
+      "PIP joint of the affected digit",
+      "DIP joint of the affected digit",
+      "MCP joint of the affected digit",
+      "Third MCP joint of the hand"
+    ],
+    "answer": "PIP joint of the affected digit",
+    "explanation": "All PA projections of digits 2–5 in the guide use a perpendicular CR at the affected PIP joint.",
+    "source": "Positioning practice · PA digits 2–5",
+    "image": {
+      "src": "images/(A) PA second digit. (B) PA third digit..png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Positioning image"
+    }
+  },
+  {
+    "id": "hands-013",
+    "part": "digits",
+    "projectionId": "digits-pa",
+    "projection": "PA digits 2–5",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "Which principle applies to the PA fifth digit positioning shown?",
+    "options": [
+      "The palmar surface of the affected digit is placed on the IR",
+      "The digit is supported at 45°",
+      "The fingernail must be in profile",
+      "The medial surface of the digit rests on the IR"
+    ],
+    "answer": "The palmar surface of the affected digit is placed on the IR",
+    "explanation": "PA digits are positioned with the palmar surface down on the IR.",
+    "source": "Positioning practice · PA digits 2–5",
+    "image": {
+      "src": "images/PA fifth digit..png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Positioning image"
+    }
+  },
+  {
+    "id": "hands-014",
+    "part": "digits",
+    "projectionId": "digits-pa",
+    "projection": "PA digits 2–5",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "Which feature is required for the PA fourth digit shown?",
+    "options": [
+      "Slight separation from adjacent digits",
+      "45° lateral rotation",
+      "True lateral placement",
+      "Extreme medial rotation of the hand"
+    ],
+    "answer": "Slight separation from adjacent digits",
+    "explanation": "The guide calls for digits to be slightly separated on PA digit projections.",
+    "source": "Positioning practice · PA digits 2–5",
+    "image": {
+      "src": "images/PA fourth digit..png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Positioning image"
+    }
+  },
+  {
+    "id": "hands-015",
+    "part": "digits",
+    "projectionId": "digits-lat",
+    "projection": "Lateral digits 2–5",
+    "topic": "central-ray",
+    "type": "mcq",
+    "prompt": "Where is the CR centered for a lateral projection of digits 2–5?",
+    "options": [
+      "PIP joint of the affected digit",
+      "MCP joint",
+      "DIP joint",
+      "CMC joint"
+    ],
+    "answer": "PIP joint of the affected digit",
+    "explanation": "The lateral digit projection uses a perpendicular CR at the PIP joint.",
+    "source": "Positioning practice · Lateral digits 2–5"
+  },
+  {
+    "id": "hands-016",
+    "part": "digits",
+    "projectionId": "digits-lat",
+    "projection": "Lateral digits 2–5",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "Which digits are positioned with their lateral surface resting on the IR?",
+    "options": [
+      "Second and third",
+      "Third and fourth",
+      "Fourth and fifth",
+      "Second and fifth"
+    ],
+    "answer": "Second and third",
+    "explanation": "The guide places digits 2 and 3 on their lateral surface.",
+    "source": "Positioning practice · Lateral digits 2–5"
+  },
+  {
+    "id": "hands-017",
+    "part": "digits",
+    "projectionId": "digits-lat",
+    "projection": "Lateral digits 2–5",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "Which digits are positioned with their medial surface resting on the IR?",
+    "options": [
+      "Fourth and fifth",
+      "Second and third",
+      "Second and fifth",
+      "Third and fourth"
+    ],
+    "answer": "Fourth and fifth",
+    "explanation": "The guide places digits 4 and 5 on their medial surface.",
+    "source": "Positioning practice · Lateral digits 2–5"
+  },
+  {
+    "id": "hands-018",
+    "part": "digits",
+    "projectionId": "digits-lat",
+    "projection": "Lateral digits 2–5",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "Which digits may need adhesive tape for support because they are elevated?",
+    "options": [
+      "Third and fourth",
+      "Second and third",
+      "Fourth and fifth",
+      "Second and fifth"
+    ],
+    "answer": "Third and fourth",
+    "explanation": "The third and fourth digits may require adhesive tape for support.",
+    "source": "Positioning practice · Lateral digits 2–5"
+  },
+  {
+    "id": "hands-019",
+    "part": "digits",
+    "projectionId": "digits-lat",
+    "projection": "Lateral digits 2–5",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "Which finding is most characteristic of a true lateral digit?",
+    "options": [
+      "Fingernail in profile",
+      "Equal soft tissue on both sides",
+      "Concavity only on the elevated side",
+      "Fingernail centered over the distal phalanx"
+    ],
+    "answer": "Fingernail in profile",
+    "explanation": "A fingernail in profile is a key indicator of a true lateral digit.",
+    "source": "Positioning practice · Lateral digits 2–5"
+  },
+  {
+    "id": "hands-020",
+    "part": "digits",
+    "projectionId": "digits-lat",
+    "projection": "Lateral digits 2–5",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "Which phalangeal contour indicates a true lateral digit?",
+    "options": [
+      "Concave anterior surfaces of the phalanges",
+      "Equal concavity on both sides",
+      "Convex elevated side only",
+      "Complete superimposition of all phalanges"
+    ],
+    "answer": "Concave anterior surfaces of the phalanges",
+    "explanation": "The guide lists concave anterior phalangeal surfaces as a sign of no rotation.",
+    "source": "Positioning practice · Lateral digits 2–5"
+  },
+  {
+    "id": "hands-021",
+    "part": "digits",
+    "projectionId": "digits-lat",
+    "projection": "Lateral digits 2–5",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "What should be free of superimposition by adjacent digits on a lateral digit image?",
+    "options": [
+      "Proximal phalanx and MCP joint",
+      "Only the distal phalanx",
+      "Only the DIP joint",
+      "The adjoining metacarpal base"
+    ],
+    "answer": "Proximal phalanx and MCP joint",
+    "explanation": "The proximal phalanx and MCP joint should not be superimposed by adjacent digits.",
+    "source": "Positioning practice · Lateral digits 2–5"
+  },
+  {
+    "id": "hands-022",
+    "part": "digits",
+    "projectionId": "digits-lat",
+    "projection": "Lateral digits 2–5",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "Which joint spaces should be open on a correctly positioned lateral digit?",
+    "options": [
+      "IP joint spaces",
+      "CMC joints only",
+      "MCP and CMC only",
+      "Radiocarpal joint"
+    ],
+    "answer": "IP joint spaces",
+    "explanation": "The guide specifically lists open IP joint spaces.",
+    "source": "Positioning practice · Lateral digits 2–5"
+  },
+  {
+    "id": "hands-023",
+    "part": "digits",
+    "projectionId": "digits-lat",
+    "projection": "Lateral digits 2–5",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "What is done with the digits that are not being examined during a lateral digit projection?",
+    "options": [
+      "They are closed and held with the thumb",
+      "They are spread widely apart",
+      "They are all taped to the IR",
+      "They are rotated 45°"
+    ],
+    "answer": "They are closed and held with the thumb",
+    "explanation": "The remaining digits are closed and held out of the way with the thumb.",
+    "source": "Positioning practice · Lateral digits 2–5"
+  },
+  {
+    "id": "hands-024",
+    "part": "digits",
+    "projectionId": "digits-lat",
+    "projection": "Lateral digits 2–5",
+    "topic": "anatomy",
+    "type": "mcq",
+    "prompt": "What anatomy should a lateral digit image include?",
+    "options": [
+      "Fingertip through the distal portion of the adjoining metacarpal",
+      "Only the distal and middle phalanges",
+      "Entire hand through the wrist",
+      "Only the MCP joint"
+    ],
+    "answer": "Fingertip through the distal portion of the adjoining metacarpal",
+    "explanation": "The entire affected digit and distal portion of the adjoining metacarpal must be included.",
+    "source": "Positioning practice · Lateral digits 2–5"
+  },
+  {
+    "id": "hands-025",
+    "part": "digits",
+    "projectionId": "digits-lat",
+    "projection": "Lateral digits 2–5",
+    "topic": "anatomy",
+    "type": "mcq",
+    "prompt": "Which projection is demonstrated on this radiograph?",
+    "options": [
+      "Lateral third digit",
+      "PA third digit",
+      "PA oblique third digit",
+      "AP thumb"
+    ],
+    "answer": "Lateral third digit",
+    "explanation": "The radiograph demonstrates the third digit in a lateral projection.",
+    "source": "Positioning practice · Lateral digits 2–5",
+    "image": {
+      "src": "images/Lateral third digit.xray.png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Radiograph"
+    }
+  },
+  {
+    "id": "hands-026",
+    "part": "digits",
+    "projectionId": "digits-lat",
+    "projection": "Lateral digits 2–5",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "Which criterion should be checked first when judging rotation on this lateral third digit radiograph?",
+    "options": [
+      "Fingernail in profile",
+      "Equal concavity on both sides",
+      "45° separation of the digit",
+      "Open MCP and CMC joints"
+    ],
+    "answer": "Fingernail in profile",
+    "explanation": "A fingernail in profile is a key lateral-position indicator.",
+    "source": "Positioning practice · Lateral digits 2–5",
+    "image": {
+      "src": "images/Lateral third digit.xray.png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Radiograph"
+    }
+  },
+  {
+    "id": "hands-027",
+    "part": "digits",
+    "projectionId": "digits-lat",
+    "projection": "Lateral digits 2–5",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "Why is adhesive tape used in the positioning shown for the lateral third digit?",
+    "options": [
+      "To support the elevated digit",
+      "To force the digit into 45° rotation",
+      "To center the CR",
+      "To immobilize the wrist only"
+    ],
+    "answer": "To support the elevated digit",
+    "explanation": "The guide specifically uses adhesive tape to support elevated third and fourth digits.",
+    "source": "Positioning practice · Lateral digits 2–5",
+    "image": {
+      "src": "images/Lateral third digit (adhesive tape)..png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Positioning image"
+    }
+  },
+  {
+    "id": "hands-028",
+    "part": "digits",
+    "projectionId": "digits-lat",
+    "projection": "Lateral digits 2–5",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "For the lateral second digit shown, which surface should rest on the IR?",
+    "options": [
+      "Lateral surface",
+      "Medial surface",
+      "Palmar surface",
+      "Dorsal surface"
+    ],
+    "answer": "Lateral surface",
+    "explanation": "Digits 2 and 3 are positioned on their lateral surfaces.",
+    "source": "Positioning practice · Lateral digits 2–5",
+    "image": {
+      "src": "images/Lateral second digit..png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Positioning image"
+    }
+  },
+  {
+    "id": "hands-029",
+    "part": "digits",
+    "projectionId": "digits-lat",
+    "projection": "Lateral digits 2–5",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "For the lateral fifth digit shown, which surface should rest on the IR?",
+    "options": [
+      "Medial surface",
+      "Lateral surface",
+      "Palmar surface",
+      "Dorsal surface"
+    ],
+    "answer": "Medial surface",
+    "explanation": "Digits 4 and 5 are positioned on their medial surfaces.",
+    "source": "Positioning practice · Lateral digits 2–5",
+    "image": {
+      "src": "images/Lateral fifth digit..png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Positioning image"
+    }
+  },
+  {
+    "id": "hands-030",
+    "part": "digits",
+    "projectionId": "digits-lat",
+    "projection": "Lateral digits 2–5",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "What is the purpose of the tongue blade in this lateral fourth digit setup?",
+    "options": [
+      "To support and isolate the affected digit",
+      "To angle the CR toward the wrist",
+      "To create 45° rotation of the hand",
+      "To position the thumb AP"
+    ],
+    "answer": "To support and isolate the affected digit",
+    "explanation": "The lateral digit must be supported and kept free of superimposition by adjacent digits.",
+    "source": "Positioning practice · Lateral digits 2–5",
+    "image": {
+      "src": "images/Lateral fourth digit (tongue blade)..png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Positioning image"
+    }
+  },
+  {
+    "id": "hands-031",
+    "part": "digits",
+    "projectionId": "digits-obl",
+    "projection": "PA oblique digits 2–5",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "How much rotation is used for a PA oblique projection of digits 2–5?",
+    "options": [
+      "45° lateral rotation",
+      "15° medial rotation",
+      "30° medial rotation",
+      "90° lateral rotation"
+    ],
+    "answer": "45° lateral rotation",
+    "explanation": "The hand is rotated laterally until the affected digit is supported at 45°.",
+    "source": "Positioning practice · PA oblique digits 2–5"
+  },
+  {
+    "id": "hands-032",
+    "part": "digits",
+    "projectionId": "digits-obl",
+    "projection": "PA oblique digits 2–5",
+    "topic": "central-ray",
+    "type": "mcq",
+    "prompt": "Where is the CR centered for a PA oblique digit?",
+    "options": [
+      "PIP joint of the affected digit",
+      "MCP joint of the affected digit",
+      "DIP joint",
+      "Third MCP joint"
+    ],
+    "answer": "PIP joint of the affected digit",
+    "explanation": "The CR remains perpendicular to the affected PIP joint.",
+    "source": "Positioning practice · PA oblique digits 2–5"
+  },
+  {
+    "id": "hands-033",
+    "part": "digits",
+    "projectionId": "digits-obl",
+    "projection": "PA oblique digits 2–5",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "What is the starting position for a PA oblique digit?",
+    "options": [
+      "Forearm on the table with the hand pronated and palm on the IR",
+      "Hand in a true lateral position",
+      "Arm internally rotated with the thumb down",
+      "Both hands half-supinated"
+    ],
+    "answer": "Forearm on the table with the hand pronated and palm on the IR",
+    "explanation": "The PA oblique begins with the hand pronated and palm on the IR.",
+    "source": "Positioning practice · PA oblique digits 2–5"
+  },
+  {
+    "id": "hands-034",
+    "part": "digits",
+    "projectionId": "digits-obl",
+    "projection": "PA oblique digits 2–5",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "Which finding best indicates correct 45° rotation on a PA oblique digit?",
+    "options": [
+      "Concavity on the elevated side of the phalangeal bodies",
+      "Equal concavity on both sides",
+      "Fingernail in profile",
+      "Complete superimposition of the proximal phalanx"
+    ],
+    "answer": "Concavity on the elevated side of the phalangeal bodies",
+    "explanation": "The guide uses concavity of the elevated side as the indicator of proper 45° rotation.",
+    "source": "Positioning practice · PA oblique digits 2–5"
+  },
+  {
+    "id": "hands-035",
+    "part": "digits",
+    "projectionId": "digits-obl",
+    "projection": "PA oblique digits 2–5",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "Which structures should not be superimposed by adjacent digits on a PA oblique digit?",
+    "options": [
+      "Proximal phalanx and MCP joint",
+      "Only the distal phalanx",
+      "Only the DIP joint",
+      "The carpal bones"
+    ],
+    "answer": "Proximal phalanx and MCP joint",
+    "explanation": "The proximal phalanx and MCP joint should remain free of adjacent-digit superimposition.",
+    "source": "Positioning practice · PA oblique digits 2–5"
+  },
+  {
+    "id": "hands-036",
+    "part": "digits",
+    "projectionId": "digits-obl",
+    "projection": "PA oblique digits 2–5",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "Which joint spaces should be open on a PA oblique digit image?",
+    "options": [
+      "IP and MCP joints",
+      "CMC joints only",
+      "Radiocarpal joint only",
+      "DIP joint only"
+    ],
+    "answer": "IP and MCP joints",
+    "explanation": "The guide lists open IP and MCP joint spaces.",
+    "source": "Positioning practice · PA oblique digits 2–5"
+  },
+  {
+    "id": "hands-037",
+    "part": "digits",
+    "projectionId": "digits-obl",
+    "projection": "PA oblique digits 2–5",
+    "topic": "ir-collimation",
+    "type": "mcq",
+    "prompt": "How should a PA oblique digit be collimated?",
+    "options": [
+      "1 inch on all sides and 1 inch proximal to the MCP joint",
+      "1 inch around the PIP only",
+      "2 inches around the entire hand",
+      "1 inch proximal to the wrist only"
+    ],
+    "answer": "1 inch on all sides and 1 inch proximal to the MCP joint",
+    "explanation": "The same digit collimation is used for the PA oblique projection.",
+    "source": "Positioning practice · PA oblique digits 2–5"
+  },
+  {
+    "id": "hands-038",
+    "part": "digits",
+    "projectionId": "digits-obl",
+    "projection": "PA oblique digits 2–5",
+    "topic": "anatomy",
+    "type": "mcq",
+    "prompt": "Which projection is demonstrated on this radiograph?",
+    "options": [
+      "PA oblique second digit",
+      "PA second digit",
+      "Lateral second digit",
+      "AP thumb"
+    ],
+    "answer": "PA oblique second digit",
+    "explanation": "The radiograph demonstrates a PA oblique projection of the second digit.",
+    "source": "Positioning practice · PA oblique digits 2–5",
+    "image": {
+      "src": "images/PA oblique second digit.xray.png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Radiograph"
+    }
+  },
+  {
+    "id": "hands-039",
+    "part": "digits",
+    "projectionId": "digits-obl",
+    "projection": "PA oblique digits 2–5",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "Which feature should be present on this PA oblique second digit radiograph?",
+    "options": [
+      "Concavity on the elevated side of the phalangeal bodies",
+      "Fingernail in strict profile",
+      "Equal concavity on both sides",
+      "Complete MCP superimposition by an adjacent digit"
+    ],
+    "answer": "Concavity on the elevated side of the phalangeal bodies",
+    "explanation": "That contour indicates the intended 45° oblique rotation.",
+    "source": "Positioning practice · PA oblique digits 2–5",
+    "image": {
+      "src": "images/PA oblique second digit.xray.png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Radiograph"
+    }
+  },
+  {
+    "id": "hands-040",
+    "part": "digits",
+    "projectionId": "digits-obl",
+    "projection": "PA oblique digits 2–5",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "What angle should the digit be supported at in this PA oblique second digit setup?",
     "options": [
       "45°",
       "15°",
@@ -48,68 +786,2407 @@
       "90°"
     ],
     "answer": "45°",
-    "explanation": "This projection uses a 45° obliquity; a wedge supports the extended digits.",
-    "source": "Positioning practice · PA oblique hand",
-    "part": "hand",
-    "projectionId": "hand-obl"
+    "explanation": "The PA oblique digit is supported at 45°.",
+    "source": "Positioning practice · PA oblique digits 2–5",
+    "image": {
+      "src": "images/PA oblique second digit..png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Positioning image"
+    }
   },
   {
-    "id": "hands-004",
-    "projection": "Robert method",
+    "id": "hands-041",
+    "part": "digits",
+    "projectionId": "digits-obl",
+    "projection": "PA oblique digits 2–5",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "Which projection is being positioned in this image?",
+    "options": [
+      "PA oblique third digit",
+      "Lateral third digit",
+      "PA third digit",
+      "AP thumb"
+    ],
+    "answer": "PA oblique third digit",
+    "explanation": "The hand and digit are positioned for a 45° PA oblique projection.",
+    "source": "Positioning practice · PA oblique digits 2–5",
+    "image": {
+      "src": "images/PA oblique third digit..png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Positioning image"
+    }
+  },
+  {
+    "id": "hands-042",
+    "part": "digits",
+    "projectionId": "digits-obl",
+    "projection": "PA oblique digits 2–5",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "Which projection is being positioned in this image?",
+    "options": [
+      "PA oblique fourth digit",
+      "PA fourth digit",
+      "Lateral fourth digit",
+      "Lateral hand"
+    ],
+    "answer": "PA oblique fourth digit",
+    "explanation": "The image demonstrates the PA oblique position of the fourth digit.",
+    "source": "Positioning practice · PA oblique digits 2–5",
+    "image": {
+      "src": "images/PA oblique fourth digit..png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Positioning image"
+    }
+  },
+  {
+    "id": "hands-043",
+    "part": "digits",
+    "projectionId": "digits-obl",
+    "projection": "PA oblique digits 2–5",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "Which projection is being positioned in this image?",
+    "options": [
+      "PA oblique fifth digit",
+      "PA fifth digit",
+      "Lateral fifth digit",
+      "PA hand"
+    ],
+    "answer": "PA oblique fifth digit",
+    "explanation": "The image demonstrates the PA oblique position of the fifth digit.",
+    "source": "Positioning practice · PA oblique digits 2–5",
+    "image": {
+      "src": "images/PA oblique fifth digit..png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Positioning image"
+    }
+  },
+  {
+    "id": "hands-044",
+    "part": "thumb",
+    "projectionId": "thumb-ap",
+    "projection": "AP thumb",
+    "topic": "central-ray",
+    "type": "mcq",
+    "prompt": "Where is the CR centered for an AP projection of the first digit?",
+    "options": [
+      "MCP joint of the first digit",
+      "PIP joint",
+      "First CMC joint",
+      "Distal phalanx"
+    ],
+    "answer": "MCP joint of the first digit",
+    "explanation": "The AP thumb uses a perpendicular CR centered at the first MCP joint.",
+    "source": "Positioning practice · AP thumb"
+  },
+  {
+    "id": "hands-045",
+    "part": "thumb",
+    "projectionId": "thumb-ap",
+    "projection": "AP thumb",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "How is the patient's arm positioned for the AP thumb?",
+    "options": [
+      "Internally rotated",
+      "Externally rotated",
+      "Half-supinated",
+      "Neutral with palm flat"
+    ],
+    "answer": "Internally rotated",
+    "explanation": "The patient is positioned with the arm internally rotated.",
+    "source": "Positioning practice · AP thumb"
+  },
+  {
+    "id": "hands-046",
+    "part": "thumb",
+    "projectionId": "thumb-ap",
+    "projection": "AP thumb",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "What hand position is used to place the thumb AP?",
+    "options": [
+      "Extreme medial rotation",
+      "45° lateral rotation",
+      "True lateral hand position",
+      "Half-supination"
+    ],
+    "answer": "Extreme medial rotation",
+    "explanation": "The hand is placed in extreme medial rotation for the AP first digit.",
+    "source": "Positioning practice · AP thumb"
+  },
+  {
+    "id": "hands-047",
+    "part": "thumb",
+    "projectionId": "thumb-ap",
+    "projection": "AP thumb",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "How should the long axis of the thumb relate to the IR?",
+    "options": [
+      "Parallel with the long axis of the IR",
+      "Perpendicular to the long axis of the IR",
+      "45° to the IR",
+      "No specific alignment is required"
+    ],
+    "answer": "Parallel with the long axis of the IR",
+    "explanation": "The long axis of the thumb is centered parallel to the long axis of the IR.",
+    "source": "Positioning practice · AP thumb"
+  },
+  {
+    "id": "hands-048",
+    "part": "thumb",
+    "projectionId": "thumb-ap",
+    "projection": "AP thumb",
+    "topic": "anatomy",
+    "type": "mcq",
+    "prompt": "What anatomy should be included on an AP thumb image?",
+    "options": [
+      "Distal tip of the thumb through the trapezium",
+      "Thumb through the distal radius and ulna",
+      "Only the first metacarpal",
+      "Only the IP and MCP joints"
+    ],
+    "answer": "Distal tip of the thumb through the trapezium",
+    "explanation": "The guide requires the entire thumb through the trapezium.",
+    "source": "Positioning practice · AP thumb"
+  },
+  {
+    "id": "hands-049",
+    "part": "thumb",
+    "projectionId": "thumb-ap",
+    "projection": "AP thumb",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "Which combination indicates no rotation of an AP thumb?",
+    "options": [
+      "Equal soft tissue on both sides and centered thumbnail",
+      "Thumbnail in profile and anterior concavity",
+      "Concavity only on the elevated side",
+      "Superimposed IP and MCP joints"
+    ],
+    "answer": "Equal soft tissue on both sides and centered thumbnail",
+    "explanation": "Equal soft tissue and a centered thumbnail support a nonrotated AP position.",
+    "source": "Positioning practice · AP thumb"
+  },
+  {
+    "id": "hands-050",
+    "part": "thumb",
+    "projectionId": "thumb-ap",
+    "projection": "AP thumb",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "Which joint spaces should be open on an AP thumb?",
+    "options": [
+      "IP and MCP joints",
+      "CMC joint only",
+      "MCP and CMC only",
+      "Radiocarpal joint"
+    ],
+    "answer": "IP and MCP joints",
+    "explanation": "The guide lists open IP and MCP joint spaces without bony overlap.",
+    "source": "Positioning practice · AP thumb"
+  },
+  {
+    "id": "hands-051",
+    "part": "thumb",
+    "projectionId": "thumb-ap",
+    "projection": "AP thumb",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "What soft-tissue relationship is expected on an AP thumb?",
+    "options": [
+      "Palm soft tissue overlaps the midshaft of the first metacarpal",
+      "Palm soft tissue should not overlap the first metacarpal at all",
+      "Thumb soft tissue should overlap the second metacarpal",
+      "No soft tissue should project over the metacarpals"
+    ],
+    "answer": "Palm soft tissue overlaps the midshaft of the first metacarpal",
+    "explanation": "The guide specifically notes overlap of the palm soft-tissue profile over the midshaft of the first metacarpal.",
+    "source": "Positioning practice · AP thumb"
+  },
+  {
+    "id": "hands-052",
+    "part": "thumb",
+    "projectionId": "thumb-ap",
+    "projection": "AP thumb",
+    "topic": "anatomy",
+    "type": "mcq",
+    "prompt": "Which projection is being positioned in this image?",
+    "options": [
+      "AP thumb",
+      "PA thumb",
+      "Lateral thumb",
+      "Robert method"
+    ],
+    "answer": "AP thumb",
+    "explanation": "The image demonstrates positioning for the AP first digit.",
+    "source": "Positioning practice · AP thumb",
+    "image": {
+      "src": "images/AP first digit..png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Positioning image"
+    }
+  },
+  {
+    "id": "hands-053",
+    "part": "thumb",
+    "projectionId": "thumb-ap",
+    "projection": "AP thumb",
+    "topic": "central-ray",
+    "type": "mcq",
+    "prompt": "Where should the CR be directed for the thumb position shown?",
+    "options": [
+      "First MCP joint",
+      "First CMC joint",
+      "PIP joint",
+      "Third MCP joint"
+    ],
+    "answer": "First MCP joint",
+    "explanation": "The AP first digit uses a perpendicular CR at the MCP joint.",
+    "source": "Positioning practice · AP thumb",
+    "image": {
+      "src": "images/AP first digit..png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Positioning image"
+    }
+  },
+  {
+    "id": "hands-054",
+    "part": "thumb",
+    "projectionId": "thumb-pa",
+    "projection": "PA thumb",
+    "topic": "central-ray",
+    "type": "mcq",
+    "prompt": "Where is the CR centered for a PA projection of the first digit?",
+    "options": [
+      "MCP joint of the first digit",
+      "First CMC joint",
+      "IP joint",
+      "Second MCP joint"
+    ],
+    "answer": "MCP joint of the first digit",
+    "explanation": "The PA thumb uses a perpendicular CR at the first MCP joint.",
+    "source": "Positioning practice · PA thumb"
+  },
+  {
+    "id": "hands-055",
+    "part": "thumb",
+    "projectionId": "thumb-pa",
+    "projection": "PA thumb",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "How is the hand positioned for the PA thumb?",
+    "options": [
+      "In a lateral position with the thumb elevated and abducted",
+      "Flat palm-down on the IR",
+      "Extreme medial rotation",
+      "Half-supinated with both hands together"
+    ],
+    "answer": "In a lateral position with the thumb elevated and abducted",
+    "explanation": "The hand is lateral and the first digit is supported in an elevated, abducted position.",
+    "source": "Positioning practice · PA thumb"
+  },
+  {
+    "id": "hands-056",
+    "part": "thumb",
+    "projectionId": "thumb-pa",
+    "projection": "PA thumb",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "Which surface of the thumb should be parallel with the IR for the PA projection?",
+    "options": [
+      "Dorsal surface",
+      "Palmar surface",
+      "Medial surface",
+      "Lateral surface"
+    ],
+    "answer": "Dorsal surface",
+    "explanation": "The guide states that the dorsal surface of the first digit is parallel with the IR.",
+    "source": "Positioning practice · PA thumb"
+  },
+  {
+    "id": "hands-057",
+    "part": "thumb",
+    "projectionId": "thumb-pa",
+    "projection": "PA thumb",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "How does the PA thumb compare with the AP thumb in magnification?",
+    "options": [
+      "The PA thumb is more magnified",
+      "The AP thumb is more magnified",
+      "They are always equally magnified",
+      "Magnification is eliminated in the PA view"
+    ],
+    "answer": "The PA thumb is more magnified",
+    "explanation": "The guide notes increased magnification because the elevated PA thumb has increased OID.",
+    "source": "Positioning practice · PA thumb"
+  },
+  {
+    "id": "hands-058",
+    "part": "thumb",
+    "projectionId": "thumb-pa",
+    "projection": "PA thumb",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "Which finding supports no rotation of a PA thumb?",
+    "options": [
+      "Equal soft tissue on both sides and centered thumbnail",
+      "Thumbnail in profile",
+      "Concavity only on the elevated side",
+      "Metacarpals completely superimposed"
+    ],
+    "answer": "Equal soft tissue on both sides and centered thumbnail",
+    "explanation": "These are listed nonrotation criteria for the first digit.",
+    "source": "Positioning practice · PA thumb"
+  },
+  {
+    "id": "hands-059",
+    "part": "thumb",
+    "projectionId": "thumb-pa",
+    "projection": "PA thumb",
+    "topic": "anatomy",
+    "type": "mcq",
+    "prompt": "What anatomy should be included on the PA thumb?",
+    "options": [
+      "Distal tip of the thumb through the trapezium",
+      "Thumb through the distal radius",
+      "Only the first MCP joint",
+      "Only the first metacarpal"
+    ],
+    "answer": "Distal tip of the thumb through the trapezium",
+    "explanation": "The entire thumb through the trapezium must be demonstrated.",
+    "source": "Positioning practice · PA thumb"
+  },
+  {
+    "id": "hands-060",
+    "part": "thumb",
+    "projectionId": "thumb-pa",
+    "projection": "PA thumb",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "Which projection is being positioned in this image?",
+    "options": [
+      "PA thumb",
+      "AP thumb",
+      "Lateral thumb",
+      "PA oblique thumb"
+    ],
+    "answer": "PA thumb",
+    "explanation": "The supported first digit is positioned for the PA projection.",
+    "source": "Positioning practice · PA thumb",
+    "image": {
+      "src": "images/PA first digit (tongue blade)..png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Positioning image"
+    }
+  },
+  {
+    "id": "hands-061",
+    "part": "thumb",
+    "projectionId": "thumb-pa",
+    "projection": "PA thumb",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "Why is a support used under the thumb in this PA positioning image?",
+    "options": [
+      "To keep the elevated, abducted thumb positioned with its dorsal surface parallel to the IR",
+      "To rotate the thumb 45°",
+      "To eliminate all OID",
+      "To position the thumb in a true lateral"
+    ],
+    "answer": "To keep the elevated, abducted thumb positioned with its dorsal surface parallel to the IR",
+    "explanation": "The PA thumb requires support because the digit is elevated from the IR.",
+    "source": "Positioning practice · PA thumb",
+    "image": {
+      "src": "images/PA first digit (tongue blade)..png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Positioning image"
+    }
+  },
+  {
+    "id": "hands-062",
+    "part": "thumb",
+    "projectionId": "thumb-lat",
+    "projection": "Lateral thumb",
+    "topic": "central-ray",
+    "type": "mcq",
+    "prompt": "Where is the CR centered for a lateral thumb?",
+    "options": [
+      "MCP joint of the first digit",
+      "First CMC joint",
+      "IP joint",
+      "Second MCP joint"
+    ],
+    "answer": "MCP joint of the first digit",
+    "explanation": "The lateral thumb uses a perpendicular CR centered at the MCP joint.",
+    "source": "Positioning practice · Lateral thumb"
+  },
+  {
+    "id": "hands-063",
+    "part": "thumb",
+    "projectionId": "thumb-lat",
+    "projection": "Lateral thumb",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "What hand position is used to obtain a lateral thumb?",
+    "options": [
+      "Natural arched hand with palm down and fingers flexed",
+      "Extreme medial rotation",
+      "Palm flat with fingers extended",
+      "Both hands half-supinated"
+    ],
+    "answer": "Natural arched hand with palm down and fingers flexed",
+    "explanation": "The hand is naturally arched with the fingers flexed until the first digit is truly lateral.",
+    "source": "Positioning practice · Lateral thumb"
+  },
+  {
+    "id": "hands-064",
+    "part": "thumb",
+    "projectionId": "thumb-lat",
+    "projection": "Lateral thumb",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "Which finding best indicates a true lateral thumb?",
+    "options": [
+      "Thumbnail in profile",
+      "Thumbnail centered over the distal phalanx",
+      "Equal soft tissue on both sides",
+      "Concavity of the elevated side only"
+    ],
+    "answer": "Thumbnail in profile",
+    "explanation": "A thumbnail in profile supports a true lateral first digit.",
+    "source": "Positioning practice · Lateral thumb"
+  },
+  {
+    "id": "hands-065",
+    "part": "thumb",
+    "projectionId": "thumb-lat",
+    "projection": "Lateral thumb",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "Which contour is expected on a true lateral thumb?",
+    "options": [
+      "Concave anterior surface of the proximal phalanx and metacarpal",
+      "Equal concavity on both sides",
+      "Convex anterior surfaces",
+      "No visible phalangeal concavity"
+    ],
+    "answer": "Concave anterior surface of the proximal phalanx and metacarpal",
+    "explanation": "The guide lists a concave anterior surface of the proximal phalanx and metacarpal.",
+    "source": "Positioning practice · Lateral thumb"
+  },
+  {
+    "id": "hands-066",
+    "part": "thumb",
+    "projectionId": "thumb-lat",
+    "projection": "Lateral thumb",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "Which joint spaces should be open on a lateral thumb?",
+    "options": [
+      "IP and MCP joints",
+      "CMC only",
+      "MCP and CMC only",
+      "Radiocarpal joint"
+    ],
+    "answer": "IP and MCP joints",
+    "explanation": "The IP and MCP joint spaces should be open without bony overlap.",
+    "source": "Positioning practice · Lateral thumb"
+  },
+  {
+    "id": "hands-067",
+    "part": "thumb",
+    "projectionId": "thumb-lat",
+    "projection": "Lateral thumb",
+    "topic": "anatomy",
+    "type": "mcq",
+    "prompt": "What anatomy should be included on a lateral thumb?",
+    "options": [
+      "Distal tip of thumb through the trapezium",
+      "Only the thumb phalanges",
+      "Thumb through the distal radius",
+      "Only the first metacarpal"
+    ],
+    "answer": "Distal tip of thumb through the trapezium",
+    "explanation": "Coverage extends from the distal thumb through the trapezium.",
+    "source": "Positioning practice · Lateral thumb"
+  },
+  {
+    "id": "hands-068",
+    "part": "thumb",
+    "projectionId": "thumb-lat",
+    "projection": "Lateral thumb",
+    "topic": "anatomy",
+    "type": "mcq",
+    "prompt": "Which projection is shown in this positioning image?",
+    "options": [
+      "Lateral thumb",
+      "AP thumb",
+      "PA thumb",
+      "Robert method"
+    ],
+    "answer": "Lateral thumb",
+    "explanation": "The hand is arched to place the first digit in a true lateral position.",
+    "source": "Positioning practice · Lateral thumb",
+    "image": {
+      "src": "images/Lateral first digit..png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Positioning image"
+    }
+  },
+  {
+    "id": "hands-069",
+    "part": "thumb",
+    "projectionId": "thumb-lat",
+    "projection": "Lateral thumb",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "Which feature should be visible if the lateral thumb shown is positioned correctly?",
+    "options": [
+      "Thumbnail in profile",
+      "Thumbnail centered over the distal phalanx",
+      "45° oblique concavity",
+      "Complete superimposition of the thumb on the palm"
+    ],
+    "answer": "Thumbnail in profile",
+    "explanation": "The thumbnail should appear in profile on a true lateral thumb.",
+    "source": "Positioning practice · Lateral thumb",
+    "image": {
+      "src": "images/Lateral first digit..png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Positioning image"
+    }
+  },
+  {
+    "id": "hands-070",
+    "part": "thumb",
+    "projectionId": "thumb-obl",
+    "projection": "PA oblique thumb",
+    "topic": "central-ray",
+    "type": "mcq",
+    "prompt": "Where is the CR centered for a PA oblique thumb?",
+    "options": [
+      "MCP joint of the first digit",
+      "First CMC joint",
+      "IP joint",
+      "Third MCP joint"
+    ],
+    "answer": "MCP joint of the first digit",
+    "explanation": "The PA oblique thumb uses a perpendicular CR at the MCP joint.",
+    "source": "Positioning practice · PA oblique thumb"
+  },
+  {
+    "id": "hands-071",
+    "part": "thumb",
+    "projectionId": "thumb-obl",
+    "projection": "PA oblique thumb",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "What should be done with the thumb for a PA oblique projection?",
+    "options": [
+      "Abduct the thumb with the palm resting on the IR",
+      "Flex the thumb into the palm",
+      "Place the thumbnail directly against the IR",
+      "Place both hands half-supinated"
+    ],
+    "answer": "Abduct the thumb with the palm resting on the IR",
+    "explanation": "The thumb is abducted while the palmar surface of the hand rests on the IR.",
+    "source": "Positioning practice · PA oblique thumb"
+  },
+  {
+    "id": "hands-072",
+    "part": "thumb",
+    "projectionId": "thumb-obl",
+    "projection": "PA oblique thumb",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "What additional hand movement is used for the PA oblique thumb?",
+    "options": [
+      "Slight ulnar deviation",
+      "Extreme radial deviation",
+      "45° medial rotation",
+      "Full wrist flexion"
+    ],
+    "answer": "Slight ulnar deviation",
+    "explanation": "The guide calls for slight ulnar deviation.",
+    "source": "Positioning practice · PA oblique thumb"
+  },
+  {
+    "id": "hands-073",
+    "part": "thumb",
+    "projectionId": "thumb-obl",
+    "projection": "PA oblique thumb",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "Which feature indicates proper oblique rotation of the thumb?",
+    "options": [
+      "Concave surface of the elevated side of the proximal phalanx and metacarpal",
+      "Equal concavity on both sides",
+      "Thumbnail in strict profile",
+      "Complete superimposition of the first metacarpal"
+    ],
+    "answer": "Concave surface of the elevated side of the proximal phalanx and metacarpal",
+    "explanation": "This contour is the guide's indicator of proper PA oblique rotation.",
+    "source": "Positioning practice · PA oblique thumb"
+  },
+  {
+    "id": "hands-074",
+    "part": "thumb",
+    "projectionId": "thumb-obl",
+    "projection": "PA oblique thumb",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "Which joint spaces should be open on a PA oblique thumb?",
+    "options": [
+      "IP and MCP joints",
+      "CMC only",
+      "MCP and CMC only",
+      "Radiocarpal joint"
+    ],
+    "answer": "IP and MCP joints",
+    "explanation": "The guide lists open IP and MCP joint spaces without overlap.",
+    "source": "Positioning practice · PA oblique thumb"
+  },
+  {
+    "id": "hands-075",
+    "part": "thumb",
+    "projectionId": "thumb-obl",
+    "projection": "PA oblique thumb",
+    "topic": "anatomy",
+    "type": "mcq",
+    "prompt": "What anatomy is demonstrated on a PA oblique thumb?",
+    "options": [
+      "Thumb and first metacarpal including the trapezium",
+      "Only the thumb phalanges",
+      "Entire hand and distal forearm",
+      "Only the first CMC joint"
+    ],
+    "answer": "Thumb and first metacarpal including the trapezium",
+    "explanation": "The oblique projection includes the thumb, first metacarpal, and trapezium.",
+    "source": "Positioning practice · PA oblique thumb"
+  },
+  {
+    "id": "hands-076",
+    "part": "thumb",
+    "projectionId": "thumb-obl",
+    "projection": "PA oblique thumb",
+    "topic": "anatomy",
+    "type": "mcq",
+    "prompt": "Which projection is shown in this positioning image?",
+    "options": [
+      "PA oblique thumb",
+      "PA thumb",
+      "AP thumb",
+      "Lateral thumb"
+    ],
+    "answer": "PA oblique thumb",
+    "explanation": "The image demonstrates the abducted first digit in PA oblique position.",
+    "source": "Positioning practice · PA oblique thumb",
+    "image": {
+      "src": "images/PA oblique first digit..png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Positioning image"
+    }
+  },
+  {
+    "id": "hands-077",
+    "part": "thumb",
+    "projectionId": "thumb-obl",
+    "projection": "PA oblique thumb",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "Which positioning adjustment is expected in the image shown?",
+    "options": [
+      "Slight ulnar deviation of the hand",
+      "Extreme radial deviation",
+      "Thumb flexed into the palm",
+      "Hand in a true lateral position"
+    ],
+    "answer": "Slight ulnar deviation of the hand",
+    "explanation": "Slight ulnar deviation is part of the PA oblique first-digit setup.",
+    "source": "Positioning practice · PA oblique thumb",
+    "image": {
+      "src": "images/PA oblique first digit..png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Positioning image"
+    }
+  },
+  {
+    "id": "hands-078",
+    "part": "thumb",
+    "projectionId": "thumb-robert",
+    "projection": "Robert method · first CMC",
     "topic": "purpose",
     "type": "mcq",
-    "prompt": "The Robert method is used to demonstrate which articulation?",
+    "prompt": "What is the Robert method primarily designed to demonstrate?",
+    "options": [
+      "First CMC joint",
+      "First MCP joint under stress",
+      "Second through fifth MCP joints",
+      "Carpal canal"
+    ],
+    "answer": "First CMC joint",
+    "explanation": "The Robert method is a dedicated first CMC joint projection.",
+    "source": "Positioning practice · Robert method"
+  },
+  {
+    "id": "hands-079",
+    "part": "thumb",
+    "projectionId": "thumb-robert",
+    "projection": "Robert method · first CMC",
+    "topic": "purpose",
+    "type": "mcq",
+    "prompt": "Which condition is specifically listed as an indication for the Robert method?",
+    "options": [
+      "Bennett fracture",
+      "Boxer's fracture",
+      "Colles fracture",
+      "Jones fracture"
+    ],
+    "answer": "Bennett fracture",
+    "explanation": "The guide lists Bennett fracture among the indications for the Robert method.",
+    "source": "Positioning practice · Robert method"
+  },
+  {
+    "id": "hands-080",
+    "part": "thumb",
+    "projectionId": "thumb-robert",
+    "projection": "Robert method · first CMC",
+    "topic": "central-ray",
+    "type": "mcq",
+    "prompt": "Where is the CR directed for the standard Robert method?",
+    "options": [
+      "Perpendicular to the first CMC joint",
+      "15° proximally to the first MCP joint",
+      "45° toward the elbow",
+      "Perpendicular to the first MCP joint"
+    ],
+    "answer": "Perpendicular to the first CMC joint",
+    "explanation": "The standard Robert method uses a perpendicular CR at the first CMC joint.",
+    "source": "Positioning practice · Robert method"
+  },
+  {
+    "id": "hands-081",
+    "part": "thumb",
+    "projectionId": "thumb-robert",
+    "projection": "Robert method · first CMC",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "Why must the shoulder, elbow, and wrist remain on the same plane for the Robert method?",
+    "options": [
+      "To prevent elevation of the carpals and closing of the first CMC joint",
+      "To increase OID of the thumb",
+      "To place the thumb in a lateral position",
+      "To superimpose the first and second metacarpals"
+    ],
+    "answer": "To prevent elevation of the carpals and closing of the first CMC joint",
+    "explanation": "The guide warns that misalignment can elevate the carpal bones and close the first CMC joint.",
+    "source": "Positioning practice · Robert method"
+  },
+  {
+    "id": "hands-082",
+    "part": "thumb",
+    "projectionId": "thumb-robert",
+    "projection": "Robert method · first CMC",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "Which surface of the thumb is placed on the IR for the Robert method?",
+    "options": [
+      "Posterior aspect with the thumbnail down",
+      "Palmar surface with the thumbnail up",
+      "Lateral surface with the nail in profile",
+      "Medial surface with the thumb flexed"
+    ],
+    "answer": "Posterior aspect with the thumbnail down",
+    "explanation": "The arm is internally rotated and the posterior aspect of the thumb is placed on the IR.",
+    "source": "Positioning practice · Robert method"
+  },
+  {
+    "id": "hands-083",
+    "part": "thumb",
+    "projectionId": "thumb-robert",
+    "projection": "Robert method · first CMC",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "What should be avoided when hyperextending the hand for the Robert method?",
+    "options": [
+      "Making the thumb oblique",
+      "Abducting the thumb",
+      "Centering the CMC joint",
+      "Keeping the extremity straight"
+    ],
+    "answer": "Making the thumb oblique",
+    "explanation": "The guide specifically says to ensure the thumb is not oblique.",
+    "source": "Positioning practice · Robert method"
+  },
+  {
+    "id": "hands-084",
+    "part": "thumb",
+    "projectionId": "thumb-robert",
+    "projection": "Robert method · first CMC",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "Which finding is essential on a satisfactory Robert-method image?",
+    "options": [
+      "First CMC joint free of superimposition",
+      "First MCP joint under bilateral stress",
+      "Metacarpals completely superimposed",
+      "Thumb seen in lateral profile"
+    ],
+    "answer": "First CMC joint free of superimposition",
+    "explanation": "The first CMC joint should be free of superimposition from the hand or other bony elements.",
+    "source": "Positioning practice · Robert method"
+  },
+  {
+    "id": "hands-085",
+    "part": "thumb",
+    "projectionId": "thumb-robert",
+    "projection": "Robert method · first CMC",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "How should the base of the first metacarpal appear on the Robert method?",
+    "options": [
+      "In convex profile",
+      "In concave profile",
+      "Completely superimposed by the trapezium",
+      "Foreshortened"
+    ],
+    "answer": "In convex profile",
+    "explanation": "The base of the first metacarpal should be demonstrated in convex profile.",
+    "source": "Positioning practice · Robert method"
+  },
+  {
+    "id": "hands-086",
+    "part": "thumb",
+    "projectionId": "thumb-robert",
+    "projection": "Robert method · first CMC",
+    "topic": "anatomy",
+    "type": "mcq",
+    "prompt": "Which carpal bone should be demonstrated on the Robert method?",
+    "options": [
+      "Trapezium",
+      "Scaphoid only",
+      "Pisiform",
+      "Hamate"
+    ],
+    "answer": "Trapezium",
+    "explanation": "The trapezium is a key structure demonstrated with the first CMC joint.",
+    "source": "Positioning practice · Robert method"
+  },
+  {
+    "id": "hands-087",
+    "part": "thumb",
+    "projectionId": "thumb-robert",
+    "projection": "Robert method · first CMC",
+    "topic": "anatomy",
+    "type": "mcq",
+    "prompt": "Which method is shown in this positioning image?",
+    "options": [
+      "Robert method",
+      "Burman method",
+      "Folio method",
+      "PA oblique thumb"
+    ],
+    "answer": "Robert method",
+    "explanation": "The supplied image demonstrates the Robert first-CMC positioning.",
+    "source": "Positioning practice · Robert method",
+    "image": {
+      "src": "images/Robert CMC method.png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Positioning image"
+    }
+  },
+  {
+    "id": "hands-088",
+    "part": "thumb",
+    "projectionId": "thumb-robert",
+    "projection": "Robert method · first CMC",
+    "topic": "central-ray",
+    "type": "mcq",
+    "prompt": "Where should the standard Robert-method CR be centered for the positioning shown?",
     "options": [
       "First CMC joint",
       "First MCP joint",
-      "Distal radioulnar joint",
-      "Second MCP joint"
+      "Second MCP joint",
+      "PIP joint"
     ],
     "answer": "First CMC joint",
-    "explanation": "The Robert method demonstrates the first CMC joint, including arthritic changes, fractures, and displacement.",
+    "explanation": "The standard Robert method centers perpendicularly to the first CMC joint.",
     "source": "Positioning practice · Robert method",
-    "part": "thumb",
-    "projectionId": "thumb-robert"
+    "image": {
+      "src": "images/Robert CMC method.png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Positioning image"
+    }
   },
   {
-    "id": "hands-005",
+    "id": "hands-089",
+    "part": "thumb",
+    "projectionId": "thumb-burman",
+    "projection": "Burman method · first CMC",
+    "topic": "purpose",
+    "type": "mcq",
+    "prompt": "What is the purpose of the Burman method?",
+    "options": [
+      "To obtain a clearer image of the first CMC joint than the standard AP projection",
+      "To evaluate UCL rupture",
+      "To show rheumatoid changes in both hands",
+      "To localize a foreign body in the hand"
+    ],
+    "answer": "To obtain a clearer image of the first CMC joint than the standard AP projection",
+    "explanation": "The Burman method is intended to provide a clearer first-CMC image when wrist hyperextension is not contraindicated.",
+    "source": "Positioning practice · Burman method"
+  },
+  {
+    "id": "hands-090",
+    "part": "thumb",
+    "projectionId": "thumb-burman",
+    "projection": "Burman method · first CMC",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "What patient limitation would make the Burman method unsuitable?",
+    "options": [
+      "Contraindication to wrist hyperextension",
+      "Inability to abduct the second digit",
+      "Inability to pronate the forearm",
+      "Inability to flex the elbow 90°"
+    ],
+    "answer": "Contraindication to wrist hyperextension",
+    "explanation": "The guide states that the method is used only if wrist hyperextension is not contraindicated.",
+    "source": "Positioning practice · Burman method"
+  },
+  {
+    "id": "hands-091",
+    "part": "thumb",
+    "projectionId": "thumb-burman",
+    "projection": "Burman method · first CMC",
+    "topic": "central-ray",
+    "type": "mcq",
+    "prompt": "What CR is used for the Burman method?",
+    "options": [
+      "45° toward the elbow through the first CMC joint",
+      "Perpendicular to the first MCP joint",
+      "15° distally through the first CMC joint",
+      "Perpendicular to the third MCP joint"
+    ],
+    "answer": "45° toward the elbow through the first CMC joint",
+    "explanation": "The Burman method directs the CR through the first CMC joint at 45° toward the elbow.",
+    "source": "Positioning practice · Burman method"
+  },
+  {
+    "id": "hands-092",
+    "part": "thumb",
+    "projectionId": "thumb-burman",
+    "projection": "Burman method · first CMC",
+    "topic": "ir-collimation",
+    "type": "mcq",
+    "prompt": "What SID is used for the Burman method in the guide?",
+    "options": [
+      "18 inches",
+      "40 inches",
+      "48 inches",
+      "72 inches"
+    ],
+    "answer": "18 inches",
+    "explanation": "The guide specifies an 18-inch SID for the Burman method.",
+    "source": "Positioning practice · Burman method"
+  },
+  {
+    "id": "hands-093",
+    "part": "thumb",
+    "projectionId": "thumb-burman",
+    "projection": "Burman method · first CMC",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "How is the hand positioned for the Burman method?",
+    "options": [
+      "Hyperextended, internally rotated, with the thumb abducted flat on the IR",
+      "Flat PA with fingers slightly spread",
+      "Half-supinated on 45° sponges",
+      "Natural arch with fingers flexed"
+    ],
+    "answer": "Hyperextended, internally rotated, with the thumb abducted flat on the IR",
+    "explanation": "The method uses hand hyperextension, internal rotation, and thumb abduction.",
+    "source": "Positioning practice · Burman method"
+  },
+  {
+    "id": "hands-094",
+    "part": "thumb",
+    "projectionId": "thumb-burman",
+    "projection": "Burman method · first CMC",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "How should the trapezium appear on the Burman method?",
+    "options": [
+      "In concave profile",
+      "In convex profile",
+      "Completely superimposed",
+      "Foreshortened"
+    ],
+    "answer": "In concave profile",
+    "explanation": "The trapezium should be demonstrated in concave profile.",
+    "source": "Positioning practice · Burman method"
+  },
+  {
+    "id": "hands-095",
+    "part": "thumb",
+    "projectionId": "thumb-burman",
+    "projection": "Burman method · first CMC",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "How should the base of the first metacarpal appear on the Burman method?",
+    "options": [
+      "In convex profile",
+      "In concave profile",
+      "Superimposed by the second metacarpal",
+      "In a true lateral position"
+    ],
+    "answer": "In convex profile",
+    "explanation": "The guide lists a convex profile of the first-metacarpal base.",
+    "source": "Positioning practice · Burman method"
+  },
+  {
+    "id": "hands-096",
+    "part": "thumb",
+    "projectionId": "thumb-burman",
+    "projection": "Burman method · first CMC",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "What relationship should the first CMC joint have to adjacent carpals on a satisfactory Burman image?",
+    "options": [
+      "Unobscured by adjacent carpals",
+      "Completely superimposed by adjacent carpals",
+      "Only partially visible",
+      "Closed by carpal elevation"
+    ],
+    "answer": "Unobscured by adjacent carpals",
+    "explanation": "The first CMC joint should be unobscured by adjacent carpal bones.",
+    "source": "Positioning practice · Burman method"
+  },
+  {
+    "id": "hands-097",
+    "part": "thumb",
+    "projectionId": "thumb-burman",
+    "projection": "Burman method · first CMC",
+    "topic": "anatomy",
+    "type": "mcq",
+    "prompt": "Which method is shown in this positioning image?",
+    "options": [
+      "Burman method",
+      "Robert method",
+      "Folio method",
+      "PA oblique thumb"
+    ],
+    "answer": "Burman method",
+    "explanation": "The image demonstrates the hyperextended Burman first-CMC positioning.",
+    "source": "Positioning practice · Burman method",
+    "image": {
+      "src": "images/Burman method..png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Positioning image"
+    }
+  },
+  {
+    "id": "hands-098",
+    "part": "thumb",
+    "projectionId": "thumb-burman",
+    "projection": "Burman method · first CMC",
+    "topic": "central-ray",
+    "type": "mcq",
+    "prompt": "Which CR should be used for the positioning shown?",
+    "options": [
+      "45° toward the elbow through the first CMC joint",
+      "Perpendicular to the first MCP joint",
+      "15° proximally to the third MCP joint",
+      "Perpendicular to the PIP joint"
+    ],
+    "answer": "45° toward the elbow through the first CMC joint",
+    "explanation": "The Burman method uses a 45° CR toward the elbow through the first CMC joint.",
+    "source": "Positioning practice · Burman method",
+    "image": {
+      "src": "images/Burman method..png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Positioning image"
+    }
+  },
+  {
+    "id": "hands-099",
+    "part": "thumb",
+    "projectionId": "thumb-folio",
+    "projection": "Folio method · first MCP",
+    "topic": "purpose",
+    "type": "mcq",
+    "prompt": "What injury is the Folio method used to evaluate?",
+    "options": [
+      "Ulnar collateral ligament rupture of the thumb MCP joint",
+      "Bennett fracture of the first CMC joint",
+      "Rheumatoid arthritis of the proximal phalanges",
+      "Metacarpal fracture displacement"
+    ],
+    "answer": "Ulnar collateral ligament rupture of the thumb MCP joint",
+    "explanation": "The Folio method is used to diagnose UCL rupture at the thumb MCP joint.",
+    "source": "Positioning practice · Folio method"
+  },
+  {
+    "id": "hands-100",
+    "part": "thumb",
+    "projectionId": "thumb-folio",
+    "projection": "Folio method · first MCP",
+    "topic": "pathology",
+    "type": "mcq",
+    "prompt": "What is another name for the injury evaluated with the Folio method?",
+    "options": [
+      "Skier's thumb",
+      "Gamekeeper's wrist",
+      "Boxer's fracture",
+      "Mallet finger"
+    ],
+    "answer": "Skier's thumb",
+    "explanation": "The guide identifies UCL rupture of the thumb MCP joint as Skier's thumb.",
+    "source": "Positioning practice · Folio method"
+  },
+  {
+    "id": "hands-101",
+    "part": "thumb",
+    "projectionId": "thumb-folio",
+    "projection": "Folio method · first MCP",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "What is wrapped around the distal portions of both thumbs for the Folio method?",
+    "options": [
+      "A rubber band",
+      "Adhesive tape only",
+      "A sandbag strap",
+      "A gauze roll around the wrists"
+    ],
+    "answer": "A rubber band",
+    "explanation": "A rubber band is tightly wrapped around the distal portions of both thumbs.",
+    "source": "Positioning practice · Folio method"
+  },
+  {
+    "id": "hands-102",
+    "part": "thumb",
+    "projectionId": "thumb-folio",
+    "projection": "Folio method · first MCP",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "Where is medical tape placed for the Folio method?",
+    "options": [
+      "Between the bodies of the first metacarpals",
+      "Across the distal phalanges",
+      "Around both wrists",
+      "Across the second and third metacarpals"
+    ],
+    "answer": "Between the bodies of the first metacarpals",
+    "explanation": "The guide places medical tape between the bodies of the first metacarpals.",
+    "source": "Positioning practice · Folio method"
+  },
+  {
+    "id": "hands-103",
+    "part": "thumb",
+    "projectionId": "thumb-folio",
+    "projection": "Folio method · first MCP",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "How are the thumbs kept in a PA position during the Folio method?",
+    "options": [
+      "Keep the thumbnails parallel to the IR",
+      "Keep the thumbnails perpendicular to the IR",
+      "Flex both thumbs into the palms",
+      "Rotate both hands 45°"
+    ],
+    "answer": "Keep the thumbnails parallel to the IR",
+    "explanation": "Parallel thumbnails help maintain the thumbs in PA projection.",
+    "source": "Positioning practice · Folio method"
+  },
+  {
+    "id": "hands-104",
+    "part": "thumb",
+    "projectionId": "thumb-folio",
+    "projection": "Folio method · first MCP",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "What does the patient do immediately before the Folio exposure?",
+    "options": [
+      "Pulls the thumbs apart and holds",
+      "Pushes the thumbs together",
+      "Flexes both wrists",
+      "Rotates both hands into a lateral position"
+    ],
+    "answer": "Pulls the thumbs apart and holds",
+    "explanation": "The patient is instructed to pull the thumbs apart and hold before exposure.",
+    "source": "Positioning practice · Folio method"
+  },
+  {
+    "id": "hands-105",
+    "part": "thumb",
+    "projectionId": "thumb-folio",
+    "projection": "Folio method · first MCP",
+    "topic": "central-ray",
+    "type": "mcq",
+    "prompt": "Where is the CR centered for the Folio method?",
+    "options": [
+      "Midway between both hands at the level of the MCP joints",
+      "At the first CMC joint of the affected hand",
+      "At the third MCP joint of one hand",
+      "At the PIP joint of the affected thumb"
+    ],
+    "answer": "Midway between both hands at the level of the MCP joints",
+    "explanation": "The Folio method uses a perpendicular CR midway between the hands at MCP level.",
+    "source": "Positioning practice · Folio method"
+  },
+  {
+    "id": "hands-106",
+    "part": "thumb",
+    "projectionId": "thumb-folio",
+    "projection": "Folio method · first MCP",
+    "topic": "anatomy",
+    "type": "mcq",
+    "prompt": "What does the Folio method demonstrate bilaterally?",
+    "options": [
+      "MCP joints and MCP angles",
+      "First CMC joints only",
+      "Carpal canals",
+      "Distal radioulnar joints"
+    ],
+    "answer": "MCP joints and MCP angles",
+    "explanation": "The guide lists bilateral MCP joints and MCP angles as the structures shown.",
+    "source": "Positioning practice · Folio method"
+  },
+  {
+    "id": "hands-107",
+    "part": "thumb",
+    "projectionId": "thumb-folio",
+    "projection": "Folio method · first MCP",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "Which finding is required on a satisfactory Folio image?",
+    "options": [
+      "Thumbs in PA projection without rotation",
+      "Thumbs in true lateral projection",
+      "First metacarpals completely superimposed",
+      "Only one MCP joint centered"
+    ],
+    "answer": "Thumbs in PA projection without rotation",
+    "explanation": "Both thumbs should be PA without rotation.",
+    "source": "Positioning practice · Folio method"
+  },
+  {
+    "id": "hands-108",
+    "part": "hand",
+    "projectionId": "hand-pa",
+    "projection": "PA hand",
+    "topic": "central-ray",
+    "type": "mcq",
+    "prompt": "Where is the CR centered for a PA hand?",
+    "options": [
+      "Third MCP joint",
+      "Second MCP joint",
+      "Fifth MCP joint",
+      "Midcarpal area"
+    ],
+    "answer": "Third MCP joint",
+    "explanation": "The PA hand uses a perpendicular CR centered at the third MCP joint.",
+    "source": "Positioning practice · PA hand"
+  },
+  {
+    "id": "hands-109",
+    "part": "hand",
+    "projectionId": "hand-pa",
+    "projection": "PA hand",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "How should the hand be positioned for a PA hand projection?",
+    "options": [
+      "Palmar surface down on the IR",
+      "Dorsal surface down on the IR",
+      "Hand rotated 45° laterally",
+      "Ulnar side down"
+    ],
+    "answer": "Palmar surface down on the IR",
+    "explanation": "The forearm rests on the table with the palmar surface of the hand on the IR.",
+    "source": "Positioning practice · PA hand"
+  },
+  {
+    "id": "hands-110",
+    "part": "hand",
+    "projectionId": "hand-pa",
+    "projection": "PA hand",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "How should the long axis of the IR be aligned for a PA hand?",
+    "options": [
+      "Parallel with the long axis of the hand and forearm",
+      "Perpendicular to the long axis of the hand",
+      "45° to the hand",
+      "Parallel only to the thumb"
+    ],
+    "answer": "Parallel with the long axis of the hand and forearm",
+    "explanation": "The IR midline is aligned with the long axis of the hand and forearm.",
+    "source": "Positioning practice · PA hand"
+  },
+  {
+    "id": "hands-111",
+    "part": "hand",
+    "projectionId": "hand-pa",
     "projection": "PA hand",
     "topic": "evaluation",
     "type": "mcq",
-    "prompt": "Which finding supports a PA hand without rotation?",
+    "prompt": "Which finding indicates that the PA hand is not rotated?",
     "options": [
-      "Equal concavity on both sides of the metacarpal and phalangeal bodies",
-      "Superimposed metacarpal heads",
-      "Markedly unequal soft tissue widths",
-      "Complete overlap of the digits"
+      "Equal concavity of the metacarpal and phalangeal bodies on both sides",
+      "Greatest separation between the second and third digits",
+      "Metacarpals completely superimposed",
+      "Fingernails in profile"
     ],
-    "answer": "Equal concavity on both sides of the metacarpal and phalangeal bodies",
-    "explanation": "Equal concavity and equal soft tissue widths on both sides support absence of rotation.",
-    "source": "Positioning practice · PA hand",
-    "part": "hand",
-    "projectionId": "hand-pa"
+    "answer": "Equal concavity of the metacarpal and phalangeal bodies on both sides",
+    "explanation": "Equal concavity of the metacarpal and phalangeal bodies supports no rotation.",
+    "source": "Positioning practice · PA hand"
   },
   {
-    "id": "hands-006",
-    "projection": "PA oblique hand",
+    "id": "hands-112",
+    "part": "hand",
+    "projectionId": "hand-pa",
+    "projection": "PA hand",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "What should the finger soft tissues show on a properly positioned PA hand?",
+    "options": [
+      "Slight separation without overlap",
+      "Complete superimposition",
+      "Overlap only between digits 2 and 3",
+      "Overlap only at the distal phalanges"
+    ],
+    "answer": "Slight separation without overlap",
+    "explanation": "The digits are spread slightly so their soft tissues do not overlap.",
+    "source": "Positioning practice · PA hand"
+  },
+  {
+    "id": "hands-113",
+    "part": "hand",
+    "projectionId": "hand-pa",
+    "projection": "PA hand",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "What do open MCP and IP joints indicate on a PA hand?",
+    "options": [
+      "The hand was placed flat on the IR",
+      "The hand was rotated 45°",
+      "The hand was positioned laterally",
+      "The thumb was hyperextended"
+    ],
+    "answer": "The hand was placed flat on the IR",
+    "explanation": "Open MCP and IP joints indicate that the hand is flat against the IR.",
+    "source": "Positioning practice · PA hand"
+  },
+  {
+    "id": "hands-114",
+    "part": "hand",
+    "projectionId": "hand-pa",
+    "projection": "PA hand",
+    "topic": "anatomy",
+    "type": "mcq",
+    "prompt": "What coverage is required on a PA hand?",
+    "options": [
+      "Fingertips through the distal radius and ulna",
+      "Fingertips through the MCP joints only",
+      "Metacarpals only",
+      "Carpals through the midforearm only"
+    ],
+    "answer": "Fingertips through the distal radius and ulna",
+    "explanation": "The PA hand should include the fingertips through the distal radius and ulna.",
+    "source": "Positioning practice · PA hand"
+  },
+  {
+    "id": "hands-115",
+    "part": "hand",
+    "projectionId": "hand-pa",
+    "projection": "PA hand",
+    "topic": "ir-collimation",
+    "type": "mcq",
+    "prompt": "How far proximal to the ulnar styloid should PA hand collimation extend?",
+    "options": [
+      "1 inch",
+      "2 inches",
+      "3 inches",
+      "Only to the wrist crease"
+    ],
+    "answer": "1 inch",
+    "explanation": "The guide specifies 1 inch proximal to the ulnar styloid.",
+    "source": "Positioning practice · PA hand"
+  },
+  {
+    "id": "hands-116",
+    "part": "hand",
+    "projectionId": "hand-pa",
+    "projection": "PA hand",
+    "topic": "anatomy",
+    "type": "mcq",
+    "prompt": "Which projection is shown in this combined positioning/radiograph image?",
+    "options": [
+      "PA hand",
+      "PA oblique hand",
+      "Lateral hand",
+      "Norgaard method"
+    ],
+    "answer": "PA hand",
+    "explanation": "The image demonstrates patient positioning and the resulting PA hand.",
+    "source": "Positioning practice · PA hand",
+    "image": {
+      "src": "images/(A) Patient seated at the end of the table for PA hand. (B) PA hand..png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Positioning image"
+    }
+  },
+  {
+    "id": "hands-117",
+    "part": "hand",
+    "projectionId": "hand-pa",
+    "projection": "PA hand",
+    "topic": "central-ray",
+    "type": "mcq",
+    "prompt": "Where should the CR be directed for the hand position shown?",
+    "options": [
+      "Third MCP joint",
+      "Second MCP joint",
+      "Fifth MCP joint",
+      "First CMC joint"
+    ],
+    "answer": "Third MCP joint",
+    "explanation": "The PA hand is centered at the third MCP joint.",
+    "source": "Positioning practice · PA hand",
+    "image": {
+      "src": "images/(A) Patient seated at the end of the table for PA hand. (B) PA hand..png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Positioning image"
+    }
+  },
+  {
+    "id": "hands-118",
+    "part": "hand",
+    "projectionId": "hand-obl",
+    "projection": "PA oblique hand · 45°",
     "topic": "positioning",
     "type": "mcq",
-    "prompt": "This schematic shows a 45° relationship to the IR. Which hand projection uses this obliquity?",
+    "prompt": "How much rotation is used for a PA oblique hand?",
+    "options": [
+      "45°",
+      "15°",
+      "30°",
+      "60°"
+    ],
+    "answer": "45°",
+    "explanation": "The MCP joints are positioned at a 45° angle to the IR.",
+    "source": "Positioning practice · PA oblique hand"
+  },
+  {
+    "id": "hands-119",
+    "part": "hand",
+    "projectionId": "hand-obl",
+    "projection": "PA oblique hand · 45°",
+    "topic": "central-ray",
+    "type": "mcq",
+    "prompt": "Where is the CR centered for a PA oblique hand?",
+    "options": [
+      "Third MCP joint",
+      "Second MCP joint",
+      "Fifth MCP joint",
+      "Midcarpal area"
+    ],
+    "answer": "Third MCP joint",
+    "explanation": "The CR is perpendicular to the third MCP joint.",
+    "source": "Positioning practice · PA oblique hand"
+  },
+  {
+    "id": "hands-120",
+    "part": "hand",
+    "projectionId": "hand-obl",
+    "projection": "PA oblique hand · 45°",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "Why is a 45° foam wedge used under the fingers for the PA oblique hand?",
+    "options": [
+      "To keep the digits extended and help demonstrate open IP joints",
+      "To flex the fingers and superimpose the phalanges",
+      "To increase magnification",
+      "To position the hand in a true lateral"
+    ],
+    "answer": "To keep the digits extended and help demonstrate open IP joints",
+    "explanation": "Keeping the digits extended and parallel with the IR helps open the IP joints.",
+    "source": "Positioning practice · PA oblique hand"
+  },
+  {
+    "id": "hands-121",
+    "part": "hand",
+    "projectionId": "hand-obl",
+    "projection": "PA oblique hand · 45°",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "Which digits should have the greatest separation on a correctly positioned PA oblique hand?",
+    "options": [
+      "Second and third",
+      "Third and fourth",
+      "Fourth and fifth",
+      "First and second"
+    ],
+    "answer": "Second and third",
+    "explanation": "The guide states that the second and third digits have the greatest separation.",
+    "source": "Positioning practice · PA oblique hand"
+  },
+  {
+    "id": "hands-122",
+    "part": "hand",
+    "projectionId": "hand-obl",
+    "projection": "PA oblique hand · 45°",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "How does separation change between metacarpal bodies 2–5 on a PA oblique hand?",
+    "options": [
+      "It decreases progressively",
+      "It increases progressively",
+      "It remains equal",
+      "They are all completely superimposed"
+    ],
+    "answer": "It decreases progressively",
+    "explanation": "The guide describes decreasing separation between metacarpal bodies 2 through 5.",
+    "source": "Positioning practice · PA oblique hand"
+  },
+  {
+    "id": "hands-123",
+    "part": "hand",
+    "projectionId": "hand-obl",
+    "projection": "PA oblique hand · 45°",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "Which metacarpal bases and heads should show partial superimposition on a PA oblique hand?",
+    "options": [
+      "Third, fourth, and fifth",
+      "First and second only",
+      "Second and third only",
+      "All five completely"
+    ],
+    "answer": "Third, fourth, and fifth",
+    "explanation": "Partial superimposition of the third, fourth, and fifth metacarpal bases and heads is expected.",
+    "source": "Positioning practice · PA oblique hand"
+  },
+  {
+    "id": "hands-124",
+    "part": "hand",
+    "projectionId": "hand-obl",
+    "projection": "PA oblique hand · 45°",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "Which joint should be open on a PA oblique hand regardless of finger support?",
+    "options": [
+      "MCP joints",
+      "CMC joints only",
+      "Radiocarpal joint only",
+      "Distal radioulnar joint"
+    ],
+    "answer": "MCP joints",
+    "explanation": "The guide lists open MCP joints as an evaluation criterion.",
+    "source": "Positioning practice · PA oblique hand"
+  },
+  {
+    "id": "hands-125",
+    "part": "hand",
+    "projectionId": "hand-obl",
+    "projection": "PA oblique hand · 45°",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "When will the IP joints appear open on a PA oblique hand?",
+    "options": [
+      "When the digits are parallel to the IR",
+      "When the digits are flexed sharply",
+      "When the hand is rotated 90°",
+      "When the thumb is superimposed over the second digit"
+    ],
+    "answer": "When the digits are parallel to the IR",
+    "explanation": "The guide states that IP joints are open when the digits are parallel with the IR.",
+    "source": "Positioning practice · PA oblique hand"
+  },
+  {
+    "id": "hands-126",
+    "part": "hand",
+    "projectionId": "hand-obl",
+    "projection": "PA oblique hand · 45°",
+    "topic": "anatomy",
+    "type": "mcq",
+    "prompt": "What anatomy should be included on a PA oblique hand image?",
+    "options": [
+      "Fingertips through the distal radius and ulna",
+      "Only the metacarpals",
+      "Only the phalanges",
+      "MCP joints through the midforearm"
+    ],
+    "answer": "Fingertips through the distal radius and ulna",
+    "explanation": "The oblique hand includes the entire hand and distal radius and ulna.",
+    "source": "Positioning practice · PA oblique hand"
+  },
+  {
+    "id": "hands-127",
+    "part": "hand",
+    "projectionId": "hand-obl",
+    "projection": "PA oblique hand · 45°",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "Which projection is being positioned in this image?",
     "options": [
       "PA oblique hand",
       "PA hand",
-      "True lateral hand",
-      "AP thumb"
+      "Fan lateral hand",
+      "Norgaard method"
     ],
     "answer": "PA oblique hand",
-    "explanation": "The PA oblique hand places the MCP joints at 45° to the IR. This is an angle schematic, not an anatomical image.",
+    "explanation": "The image demonstrates a 45° PA oblique hand position.",
     "source": "Positioning practice · PA oblique hand",
     "image": {
-      "src": "images/angle-45.svg",
-      "alt": "A horizontal image receptor and a reference plane at 45 degrees.",
-      "caption": "Angle schematic · image-question example"
-    },
+      "src": "images/PA oblique hand to show joint spaces..png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Positioning image"
+    }
+  },
+  {
+    "id": "hands-128",
     "part": "hand",
-    "projectionId": "hand-obl"
+    "projectionId": "hand-obl",
+    "projection": "PA oblique hand · 45°",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "Which feature should be produced by the positioning shown?",
+    "options": [
+      "Open IP joints when the digits are kept parallel to the IR",
+      "Complete superimposition of all phalanges",
+      "Fingernails in profile",
+      "First CMC joint free of all carpal overlap"
+    ],
+    "answer": "Open IP joints when the digits are kept parallel to the IR",
+    "explanation": "Supporting the digits in extension helps demonstrate open IP joints.",
+    "source": "Positioning practice · PA oblique hand",
+    "image": {
+      "src": "images/PA oblique hand to show joint spaces..png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Positioning image"
+    }
+  },
+  {
+    "id": "hands-129",
+    "part": "hand",
+    "projectionId": "hand-lat",
+    "projection": "Lateral hand",
+    "topic": "purpose",
+    "type": "mcq",
+    "prompt": "What is a customary lateral hand useful for?",
+    "options": [
+      "Localizing foreign bodies and assessing metacarpal fracture displacement",
+      "Evaluating the first CMC joint only",
+      "Diagnosing rheumatoid arthritis",
+      "Testing thumb UCL rupture"
+    ],
+    "answer": "Localizing foreign bodies and assessing metacarpal fracture displacement",
+    "explanation": "The guide lists foreign-body localization and metacarpal fracture displacement as uses of the lateral hand.",
+    "source": "Positioning practice · Lateral hand"
+  },
+  {
+    "id": "hands-130",
+    "part": "hand",
+    "projectionId": "hand-lat",
+    "projection": "Lateral hand",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "How should the palmar surface be oriented for a true lateral hand?",
+    "options": [
+      "Perpendicular to the IR",
+      "Parallel with the IR",
+      "45° to the IR",
+      "Flat against the IR"
+    ],
+    "answer": "Perpendicular to the IR",
+    "explanation": "The palmar surface is placed perpendicular to the IR.",
+    "source": "Positioning practice · Lateral hand"
+  },
+  {
+    "id": "hands-131",
+    "part": "hand",
+    "projectionId": "hand-lat",
+    "projection": "Lateral hand",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "How should the first digit be positioned for a routine lateral hand?",
+    "options": [
+      "At a right angle to the palm",
+      "Flexed into the palm",
+      "Superimposed over the second digit",
+      "Parallel with the metacarpals"
+    ],
+    "answer": "At a right angle to the palm",
+    "explanation": "The first digit is adjusted to a right angle to the palm.",
+    "source": "Positioning practice · Lateral hand"
+  },
+  {
+    "id": "hands-132",
+    "part": "hand",
+    "projectionId": "hand-lat",
+    "projection": "Lateral hand",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "Which structures should be superimposed on a routine lateral hand?",
+    "options": [
+      "Metacarpals and distal radius/ulna",
+      "All phalanges and metacarpals in a fan",
+      "Second and third metacarpals only",
+      "First CMC and first MCP joints"
+    ],
+    "answer": "Metacarpals and distal radius/ulna",
+    "explanation": "A true lateral hand shows superimposed metacarpals and distal radius and ulna.",
+    "source": "Positioning practice · Lateral hand"
+  },
+  {
+    "id": "hands-133",
+    "part": "hand",
+    "projectionId": "hand-lat",
+    "projection": "Lateral hand",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "What should be true of the thumb on a lateral hand image?",
+    "options": [
+      "Free of motion and superimposition",
+      "Completely superimposed over the second metacarpal",
+      "Flexed into the palm",
+      "Hidden behind the phalanges"
+    ],
+    "answer": "Free of motion and superimposition",
+    "explanation": "The thumb should be free of motion and superimposition.",
+    "source": "Positioning practice · Lateral hand"
+  },
+  {
+    "id": "hands-134",
+    "part": "hand",
+    "projectionId": "hand-lat",
+    "projection": "Lateral hand",
+    "topic": "anatomy",
+    "type": "mcq",
+    "prompt": "What coverage is required for a lateral hand?",
+    "options": [
+      "Fingertips through the distal radius and ulna",
+      "Fingertips through the MCP joints only",
+      "Metacarpals only",
+      "Wrist only"
+    ],
+    "answer": "Fingertips through the distal radius and ulna",
+    "explanation": "The hand image should include the fingertips through the distal radius and ulna.",
+    "source": "Positioning practice · Lateral hand"
+  },
+  {
+    "id": "hands-135",
+    "part": "hand",
+    "projectionId": "hand-lat",
+    "projection": "Lateral hand",
+    "topic": "central-ray",
+    "type": "mcq",
+    "prompt": "For the mediolateral lateral hand described in the guide, where is the CR centered?",
+    "options": [
+      "Fifth MCP joint",
+      "Second MCP joint",
+      "Third MCP joint",
+      "First CMC joint"
+    ],
+    "answer": "Fifth MCP joint",
+    "explanation": "The guide lists the mediolateral CR at the fifth MCP joint.",
+    "source": "Positioning practice · Lateral hand"
+  },
+  {
+    "id": "hands-136",
+    "part": "hand",
+    "projectionId": "hand-lat",
+    "projection": "Lateral hand",
+    "topic": "anatomy",
+    "type": "mcq",
+    "prompt": "Which projection is demonstrated on this radiograph?",
+    "options": [
+      "Lateral hand",
+      "PA hand",
+      "PA oblique hand",
+      "Fan lateral hand"
+    ],
+    "answer": "Lateral hand",
+    "explanation": "The radiograph demonstrates a routine lateral hand.",
+    "source": "Positioning practice · Lateral hand",
+    "image": {
+      "src": "images/Lateral hand.xray.png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Radiograph"
+    }
+  },
+  {
+    "id": "hands-137",
+    "part": "hand",
+    "projectionId": "hand-lat",
+    "projection": "Lateral hand",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "Which relationship should be present on this routine lateral hand radiograph?",
+    "options": [
+      "Superimposed metacarpals",
+      "Widely separated metacarpals",
+      "Second and third metacarpals free of overlap",
+      "Open first CMC joint without adjacent carpals"
+    ],
+    "answer": "Superimposed metacarpals",
+    "explanation": "Superimposed metacarpals are expected on a true routine lateral hand.",
+    "source": "Positioning practice · Lateral hand",
+    "image": {
+      "src": "images/Lateral hand.xray.png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Radiograph"
+    }
+  },
+  {
+    "id": "hands-138",
+    "part": "hand",
+    "projectionId": "hand-fan",
+    "projection": "Fan lateral hand",
+    "topic": "purpose",
+    "type": "mcq",
+    "prompt": "What is the main advantage of the fan lateral hand over the routine lateral hand?",
+    "options": [
+      "It eliminates superimposition of most phalanges",
+      "It opens the first CMC joint",
+      "It demonstrates the hand under stress",
+      "It superimposes all digits more completely"
+    ],
+    "answer": "It eliminates superimposition of most phalanges",
+    "explanation": "The fan lateral separates the digits so almost all individual phalanges are demonstrated.",
+    "source": "Positioning practice · Fan lateral hand"
+  },
+  {
+    "id": "hands-139",
+    "part": "hand",
+    "projectionId": "hand-fan",
+    "projection": "Fan lateral hand",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "How are the digits positioned for a fan lateral hand?",
+    "options": [
+      "On a sponge wedge",
+      "Flat together on the IR",
+      "Flexed into the palm",
+      "Half-supinated on two sponges"
+    ],
+    "answer": "On a sponge wedge",
+    "explanation": "The fan lateral places the digits on a sponge wedge.",
+    "source": "Positioning practice · Fan lateral hand"
+  },
+  {
+    "id": "hands-140",
+    "part": "hand",
+    "projectionId": "hand-fan",
+    "projection": "Fan lateral hand",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "How is the thumb positioned for a fan lateral hand?",
+    "options": [
+      "Abducted and placed on the sponge",
+      "Flexed into the palm",
+      "Superimposed over the second digit",
+      "Placed under the hand"
+    ],
+    "answer": "Abducted and placed on the sponge",
+    "explanation": "The thumb is abducted and placed on the sponge.",
+    "source": "Positioning practice · Fan lateral hand"
+  },
+  {
+    "id": "hands-141",
+    "part": "hand",
+    "projectionId": "hand-fan",
+    "projection": "Fan lateral hand",
+    "topic": "central-ray",
+    "type": "mcq",
+    "prompt": "Where is the CR centered for the fan lateral hand as described in the guide?",
+    "options": [
+      "Second MCP joint",
+      "Fifth MCP joint",
+      "Third MCP joint",
+      "First CMC joint"
+    ],
+    "answer": "Second MCP joint",
+    "explanation": "The guide lists a perpendicular CR at the second MCP joint for the lateromedial fan lateral.",
+    "source": "Positioning practice · Fan lateral hand"
+  },
+  {
+    "id": "hands-142",
+    "part": "hand",
+    "projectionId": "hand-fan",
+    "projection": "Fan lateral hand",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "Which structures remain superimposed on a fan lateral hand?",
+    "options": [
+      "Most proximal phalanges and the metacarpals",
+      "All distal phalanges",
+      "All phalanges",
+      "No structures at all"
+    ],
+    "answer": "Most proximal phalanges and the metacarpals",
+    "explanation": "The fan lateral separates most phalanges, but the metacarpals and most proximal phalanges remain superimposed.",
+    "source": "Positioning practice · Fan lateral hand"
+  },
+  {
+    "id": "hands-143",
+    "part": "hand",
+    "projectionId": "hand-fan",
+    "projection": "Fan lateral hand",
+    "topic": "anatomy",
+    "type": "mcq",
+    "prompt": "Which projection is being positioned in this image?",
+    "options": [
+      "Fan lateral hand",
+      "Routine lateral hand",
+      "PA oblique hand",
+      "Lateral hand in flexion"
+    ],
+    "answer": "Fan lateral hand",
+    "explanation": "The digits are spread over a support to create the fan lateral.",
+    "source": "Positioning practice · Fan lateral hand",
+    "image": {
+      "src": "images/Fan lateral hand..png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Positioning image"
+    }
+  },
+  {
+    "id": "hands-144",
+    "part": "hand",
+    "projectionId": "hand-fan",
+    "projection": "Fan lateral hand",
+    "topic": "anatomy",
+    "type": "mcq",
+    "prompt": "Which projection is demonstrated on this radiograph?",
+    "options": [
+      "Fan lateral hand",
+      "Routine lateral hand",
+      "PA hand",
+      "Norgaard method"
+    ],
+    "answer": "Fan lateral hand",
+    "explanation": "The radiograph demonstrates the separated phalanges characteristic of the fan lateral.",
+    "source": "Positioning practice · Fan lateral hand",
+    "image": {
+      "src": "images/Fan lateral hand.xray.png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Radiograph"
+    }
+  },
+  {
+    "id": "hands-145",
+    "part": "hand",
+    "projectionId": "hand-fan",
+    "projection": "Fan lateral hand",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "Which finding best distinguishes this fan lateral radiograph from a routine lateral hand?",
+    "options": [
+      "Most phalanges are separated rather than superimposed",
+      "All metacarpals are separated",
+      "The first CMC joint is isolated",
+      "The hand is in a PA position"
+    ],
+    "answer": "Most phalanges are separated rather than superimposed",
+    "explanation": "The fan lateral eliminates superimposition of most phalanges while the metacarpals remain superimposed.",
+    "source": "Positioning practice · Fan lateral hand",
+    "image": {
+      "src": "images/Fan lateral hand.xray.png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Radiograph"
+    }
+  },
+  {
+    "id": "hands-146",
+    "part": "hand",
+    "projectionId": "hand-flex",
+    "projection": "Lateral hand in flexion",
+    "topic": "purpose",
+    "type": "mcq",
+    "prompt": "When is the lateral hand in flexion used?",
+    "options": [
+      "When a hand injury prevents the patient from extending the fingers",
+      "When the first CMC joint needs to be isolated",
+      "When bilateral rheumatoid changes are suspected",
+      "When testing thumb UCL rupture"
+    ],
+    "answer": "When a hand injury prevents the patient from extending the fingers",
+    "explanation": "The flexion lateral is used when injury prevents finger extension.",
+    "source": "Positioning practice · Lateral hand in flexion"
+  },
+  {
+    "id": "hands-147",
+    "part": "hand",
+    "projectionId": "hand-flex",
+    "projection": "Lateral hand in flexion",
+    "topic": "central-ray",
+    "type": "mcq",
+    "prompt": "Where is the CR centered for the lateral hand in flexion?",
+    "options": [
+      "Second MCP joint",
+      "Fifth MCP joint",
+      "Third MCP joint",
+      "First CMC joint"
+    ],
+    "answer": "Second MCP joint",
+    "explanation": "The guide uses a perpendicular CR at the second MCP joint.",
+    "source": "Positioning practice · Lateral hand in flexion"
+  },
+  {
+    "id": "hands-148",
+    "part": "hand",
+    "projectionId": "hand-flex",
+    "projection": "Lateral hand in flexion",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "Which side of the hand rests on the IR for the lateral hand in flexion?",
+    "options": [
+      "Ulnar side",
+      "Radial side",
+      "Palmar surface",
+      "Dorsal surface"
+    ],
+    "answer": "Ulnar side",
+    "explanation": "The hand is placed ulnar side down on the IR.",
+    "source": "Positioning practice · Lateral hand in flexion"
+  },
+  {
+    "id": "hands-149",
+    "part": "hand",
+    "projectionId": "hand-flex",
+    "projection": "Lateral hand in flexion",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "How should the digits be positioned for the flexion lateral?",
+    "options": [
+      "Relaxed to maintain the natural arch of the hand",
+      "Fully extended and separated",
+      "Supported at 45°",
+      "Pulled apart with a rubber band"
+    ],
+    "answer": "Relaxed to maintain the natural arch of the hand",
+    "explanation": "The patient relaxes the digits to maintain their naturally flexed position.",
+    "source": "Positioning practice · Lateral hand in flexion"
+  },
+  {
+    "id": "hands-150",
+    "part": "hand",
+    "projectionId": "hand-flex",
+    "projection": "Lateral hand in flexion",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "Which structures should be superimposed on a properly positioned flexion lateral?",
+    "options": [
+      "Phalanges and metacarpals",
+      "Second and third digits only",
+      "First and second metacarpals only",
+      "All carpal bones and thumb"
+    ],
+    "answer": "Phalanges and metacarpals",
+    "explanation": "The guide lists superimposition of the phalanges and metacarpals.",
+    "source": "Positioning practice · Lateral hand in flexion"
+  },
+  {
+    "id": "hands-151",
+    "part": "hand",
+    "projectionId": "hand-flex",
+    "projection": "Lateral hand in flexion",
+    "topic": "purpose",
+    "type": "mcq",
+    "prompt": "What fracture information can the lateral hand in flexion demonstrate?",
+    "options": [
+      "Anterior or posterior displacement of metacarpal fractures",
+      "Only nondisplaced phalangeal fractures",
+      "Bennett fracture alignment only",
+      "Distal radius angulation only"
+    ],
+    "answer": "Anterior or posterior displacement of metacarpal fractures",
+    "explanation": "The view can demonstrate anterior/posterior displacement in metacarpal fractures.",
+    "source": "Positioning practice · Lateral hand in flexion"
+  },
+  {
+    "id": "hands-152",
+    "part": "hand",
+    "projectionId": "hand-flex",
+    "projection": "Lateral hand in flexion",
+    "topic": "anatomy",
+    "type": "mcq",
+    "prompt": "Which projection is being positioned in this image?",
+    "options": [
+      "Lateral hand in flexion",
+      "Fan lateral hand",
+      "PA oblique hand",
+      "Routine PA hand"
+    ],
+    "answer": "Lateral hand in flexion",
+    "explanation": "The image demonstrates the naturally flexed lateral hand position.",
+    "source": "Positioning practice · Lateral hand in flexion",
+    "image": {
+      "src": "images/Lateral hand in flexion..png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Positioning image"
+    }
+  },
+  {
+    "id": "hands-153",
+    "part": "hand",
+    "projectionId": "hand-flex",
+    "projection": "Lateral hand in flexion",
+    "topic": "anatomy",
+    "type": "mcq",
+    "prompt": "Which projection is demonstrated on this radiograph?",
+    "options": [
+      "Lateral hand in flexion",
+      "Fan lateral hand",
+      "PA hand",
+      "PA oblique hand"
+    ],
+    "answer": "Lateral hand in flexion",
+    "explanation": "The radiograph demonstrates the hand in its normally flexed lateral position.",
+    "source": "Positioning practice · Lateral hand in flexion",
+    "image": {
+      "src": "images/Lateral hand in flexion.xray.png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Radiograph"
+    }
+  },
+  {
+    "id": "hands-154",
+    "part": "hand",
+    "projectionId": "hand-flex",
+    "projection": "Lateral hand in flexion",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "Which finding should be present on this flexion lateral radiograph?",
+    "options": [
+      "Superimposed phalanges and metacarpals",
+      "Separated phalanges in a fan",
+      "Open first CMC joint free of carpals",
+      "Second and third metacarpals widely separated"
+    ],
+    "answer": "Superimposed phalanges and metacarpals",
+    "explanation": "The flexion lateral should show superimposed phalanges and metacarpals.",
+    "source": "Positioning practice · Lateral hand in flexion",
+    "image": {
+      "src": "images/Lateral hand in flexion.xray.png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Radiograph"
+    }
+  },
+  {
+    "id": "hands-155",
+    "part": "hand",
+    "projectionId": "hand-norgaard",
+    "projection": "Norgaard method · bilateral AP oblique",
+    "topic": "purpose",
+    "type": "mcq",
+    "prompt": "What condition is the Norgaard method designed to evaluate?",
+    "options": [
+      "Rheumatoid arthritis",
+      "Osteoporosis only",
+      "Bennett fracture",
+      "Thumb UCL rupture"
+    ],
+    "answer": "Rheumatoid arthritis",
+    "explanation": "The Norgaard method is used to detect rheumatoid changes in the hands.",
+    "source": "Positioning practice · Norgaard method"
+  },
+  {
+    "id": "hands-156",
+    "part": "hand",
+    "projectionId": "hand-norgaard",
+    "projection": "Norgaard method · bilateral AP oblique",
+    "topic": "anatomy",
+    "type": "mcq",
+    "prompt": "Where are the rheumatoid changes of interest located in the Norgaard method?",
+    "options": [
+      "Dorsoradial aspects of the bases of the second through fifth proximal phalanges",
+      "Palmar surfaces of the distal phalanges",
+      "First CMC joints only",
+      "Distal radius and ulna only"
+    ],
+    "answer": "Dorsoradial aspects of the bases of the second through fifth proximal phalanges",
+    "explanation": "The guide identifies the dorsoradial proximal phalangeal bases of digits 2–5.",
+    "source": "Positioning practice · Norgaard method"
+  },
+  {
+    "id": "hands-157",
+    "part": "hand",
+    "projectionId": "hand-norgaard",
+    "projection": "Norgaard method · bilateral AP oblique",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "How are the hands positioned for the Norgaard method?",
+    "options": [
+      "Both hands half-supinated",
+      "Both hands fully pronated",
+      "Both hands in true lateral",
+      "One hand AP and one hand PA"
+    ],
+    "answer": "Both hands half-supinated",
+    "explanation": "The Norgaard method uses a bilateral half-supinated position.",
+    "source": "Positioning practice · Norgaard method"
+  },
+  {
+    "id": "hands-158",
+    "part": "hand",
+    "projectionId": "hand-norgaard",
+    "projection": "Norgaard method · bilateral AP oblique",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "What supports are used to maintain the Norgaard position?",
+    "options": [
+      "Two 45° radiolucent sponges",
+      "One 15° wedge",
+      "No support",
+      "Two sandbags over the palms"
+    ],
+    "answer": "Two 45° radiolucent sponges",
+    "explanation": "Each hand rests against a 45° radiolucent sponge.",
+    "source": "Positioning practice · Norgaard method"
+  },
+  {
+    "id": "hands-159",
+    "part": "hand",
+    "projectionId": "hand-norgaard",
+    "projection": "Norgaard method · bilateral AP oblique",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "Why are the thumbs slightly abducted for the Norgaard method?",
+    "options": [
+      "To avoid superimposition over the second MCP joints",
+      "To open the first CMC joints",
+      "To put the thumbnails in profile",
+      "To increase magnification"
+    ],
+    "answer": "To avoid superimposition over the second MCP joints",
+    "explanation": "Slight thumb abduction prevents overlap over the second MCP joints.",
+    "source": "Positioning practice · Norgaard method"
+  },
+  {
+    "id": "hands-160",
+    "part": "hand",
+    "projectionId": "hand-norgaard",
+    "projection": "Norgaard method · bilateral AP oblique",
+    "topic": "central-ray",
+    "type": "mcq",
+    "prompt": "Where is the CR centered for the Norgaard method?",
+    "options": [
+      "Midway between both hands at the level of the MCP joints",
+      "At the third MCP joint of one hand",
+      "At the first CMC joint",
+      "At the wrist joint"
+    ],
+    "answer": "Midway between both hands at the level of the MCP joints",
+    "explanation": "The CR is perpendicular midway between the hands at MCP level.",
+    "source": "Positioning practice · Norgaard method"
+  },
+  {
+    "id": "hands-161",
+    "part": "hand",
+    "projectionId": "hand-norgaard",
+    "projection": "Norgaard method · bilateral AP oblique",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "Which structures should be free of superimposition on a satisfactory Norgaard image?",
+    "options": [
+      "Metacarpal heads and proximal phalangeal bases",
+      "All carpal bones",
+      "All metacarpal shafts",
+      "Distal radius and ulna"
+    ],
+    "answer": "Metacarpal heads and proximal phalangeal bases",
+    "explanation": "The guide lists these structures as free of superimposition.",
+    "source": "Positioning practice · Norgaard method"
+  },
+  {
+    "id": "hands-162",
+    "part": "hand",
+    "projectionId": "hand-norgaard",
+    "projection": "Norgaard method · bilateral AP oblique",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "What rheumatoid change should be sought on a Norgaard image?",
+    "options": [
+      "Symmetric slight bone erosions with underlying demineralization",
+      "Complete cortical thickening without erosion",
+      "Isolated first-CMC dislocation",
+      "Metacarpal fracture displacement"
+    ],
+    "answer": "Symmetric slight bone erosions with underlying demineralization",
+    "explanation": "The guide specifically calls for symmetric slight erosions with underlying demineralization.",
+    "source": "Positioning practice · Norgaard method"
+  },
+  {
+    "id": "hands-163",
+    "part": "hand",
+    "projectionId": "hand-norgaard",
+    "projection": "Norgaard method · bilateral AP oblique",
+    "topic": "anatomy",
+    "type": "mcq",
+    "prompt": "What coverage is required for the Norgaard method?",
+    "options": [
+      "Both hands from the carpal area through the fingertips",
+      "Only the MCP joints",
+      "Only digits 2–5",
+      "Both forearms through the elbows"
+    ],
+    "answer": "Both hands from the carpal area through the fingertips",
+    "explanation": "The evaluation criteria require both hands from the carpal area through the digit tips.",
+    "source": "Positioning practice · Norgaard method"
+  },
+  {
+    "id": "hands-164",
+    "part": "hand",
+    "projectionId": "hand-norgaard",
+    "projection": "Norgaard method · bilateral AP oblique",
+    "topic": "anatomy",
+    "type": "mcq",
+    "prompt": "Which method is being positioned in this image?",
+    "options": [
+      "Norgaard method",
+      "PA oblique hand",
+      "Folio method",
+      "Fan lateral hand"
+    ],
+    "answer": "Norgaard method",
+    "explanation": "The image demonstrates the bilateral half-supinated AP oblique hand position.",
+    "source": "Positioning practice · Norgaard method",
+    "image": {
+      "src": "images/AP oblique hands, semisupinated position..png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Positioning image"
+    }
+  },
+  {
+    "id": "hands-165",
+    "part": "hand",
+    "projectionId": "hand-norgaard",
+    "projection": "Norgaard method · bilateral AP oblique",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "What angle of support is used for each hand in the positioning shown?",
+    "options": [
+      "45°",
+      "15°",
+      "30°",
+      "90°"
+    ],
+    "answer": "45°",
+    "explanation": "The Norgaard method uses 45° radiolucent sponges behind each hand.",
+    "source": "Positioning practice · Norgaard method",
+    "image": {
+      "src": "images/AP oblique hands, semisupinated position..png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Positioning image"
+    }
   }
 ]
