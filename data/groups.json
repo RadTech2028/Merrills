@@ -2,55 +2,49 @@
   {
     "id": "hands",
     "name": "Hands & digits",
-    "description": "Fingers \u00b7 Thumb \u00b7 Hand",
+    "description": "Fingers · Thumb · Hand",
     "file": "data/hands.json"
   },
   {
     "id": "wrist",
     "name": "Wrist, forearm & elbow",
-    "description": "Wrist \u00b7 Forearm \u00b7 Elbow",
+    "description": "Wrist · Forearm · Elbow",
     "file": "data/wrist.json"
   },
   {
     "id": "shoulder",
     "name": "Shoulder girdle & humerus",
-    "description": "Humerus \u00b7 Shoulder \u00b7 Clavicle \u00b7 Scapula \u00b7 AC joints",
+    "description": "Humerus · Shoulder · Clavicle · Scapula · AC joints",
     "file": "data/shoulder.json"
   },
   {
     "id": "lower",
     "name": "Lower extremity",
-    "description": "Toes \u00b7 Foot \u00b7 Ankle \u00b7 Calcaneus \u00b7 Lower leg",
+    "description": "Toes · Sesamoids · Foot · Ankle · Calcaneus · Lower leg",
     "file": "data/lower.json"
   },
   {
     "id": "proximal-lower",
     "name": "Knee, patella, femur, hip & pelvis",
-    "description": "Knee \u00b7 Patella \u00b7 Femur \u00b7 Hip \u00b7 Pelvis",
+    "description": "Knee · Patella · Femur · Hip · Pelvis",
     "file": "data/proximal-lower.json"
   },
   {
     "id": "chest-abdomen",
     "name": "Chest, neck & abdomen",
-    "description": "Chest \u00b7 Soft tissue neck \u00b7 Abdomen",
+    "description": "Chest · Soft tissue neck · Abdomen",
     "file": "data/chest-abdomen.json"
   },
   {
     "id": "foundations",
     "name": "General anatomy & positioning",
-    "description": "Anatomical terms \u00b7 Planes \u00b7 Positions \u00b7 Movement \u00b7 Chapters 1\u20132",
+    "description": "Anatomical terms · Planes · Positions · Movement · Chapters 1–2",
     "file": "data/foundations.json"
   },
   {
     "id": "pathology",
     "name": "Diseases & pathology",
-    "description": "Osteoporosis \u00b7 Arthritis \u00b7 Bone disease",
+    "description": "Respiratory · Abdomen · Bone & joints · Tumors · Fractures · Developmental · Spine",
     "file": "data/pathology.json"
-  },
-  {
-    "id": "trauma",
-    "name": "Injuries & trauma",
-    "description": "Fractures \u00b7 Dislocations \u00b7 Soft tissue injury",
-    "file": "data/trauma.json"
   }
 ]

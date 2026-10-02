@@ -1,0 +1,28 @@
+Upload the contents of this folder into the top level of your existing Merrills repository. Replace matching files and keep the data folder in place.
+
+Replace:
+  index.html
+  app.js
+  builder.js
+  progress.js
+  progress.css
+  data/groups.json
+  data/projections.json
+  data/lower.json
+  data/pathology.json
+
+Add:
+  catalog.js
+
+Keep your existing styles.css, favicon, images folder, and other question files.
+The old data/trauma.json is no longer loaded. You can leave that unused file in the repository or delete it.
+
+The two supplied banks contain 125 lower-extremity questions and 82 pathology questions. Their question IDs, question wording, answers, and all 26 image references are preserved. Only their category-routing metadata was changed.
+
+Open “Choose parts / topics” below a category to choose its subcategories. The category checkbox selects or clears all of its parts. Filters also appear in the question bank, My questions, and My progress.
+
+Progress bars show the share of cards manually marked Learned. A correct answer still updates smart review, but does not automatically mark a card Learned. Click the Learned button again to return it to Learning.
+
+Old Confident marks display as Learned. Old Unmarked, Learning, and Needs practice marks display as Learning. Existing answers and bookmarks remain available. Progress and question backups still work; custom subcategories are included in question backups.
+
+QUESTION-FORMAT.md explains how to organize future questions and add subcategories.

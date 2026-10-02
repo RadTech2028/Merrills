@@ -413,7 +413,7 @@
   },
   {
     "id": "toes",
-    "name": "Toes / sesamoids",
+    "name": "Toes",
     "group": "lower",
     "kind": "projection",
     "views": [
@@ -446,7 +446,15 @@
         "orientation": "Lateral",
         "label": "Lateral toes",
         "detail": ""
-      },
+      }
+    ]
+  },
+  {
+    "id": "sesamoids",
+    "name": "Sesamoids",
+    "group": "lower",
+    "kind": "projection",
+    "views": [
       {
         "id": "toes-lewis",
         "orientation": "Tangential",
@@ -457,6 +465,12 @@
         "id": "toes-holly",
         "orientation": "Tangential",
         "label": "Holly method · sesamoids",
+        "detail": ""
+      },
+      {
+        "id": "sesamoids-tangential",
+        "orientation": "Tangential",
+        "label": "Tangential sesamoids",
         "detail": ""
       }
     ]
@@ -880,111 +894,549 @@
     ]
   },
   {
-    "id": "bone-disease",
-    "name": "Bone & joint disease",
+    "id": "respiratory",
+    "name": "Chest & respiratory conditions",
     "group": "pathology",
     "kind": "topic",
     "views": [
       {
-        "id": "bone-disease-osteoporosis",
+        "id": "pathology-001-term",
+        "orientation": "Topic",
+        "label": "Aspiration/foreign body",
+        "detail": ""
+      },
+      {
+        "id": "pathology-002-term",
+        "orientation": "Topic",
+        "label": "Atelectasis",
+        "detail": ""
+      },
+      {
+        "id": "pathology-003-term",
+        "orientation": "Topic",
+        "label": "Bronchiectasis",
+        "detail": ""
+      },
+      {
+        "id": "pathology-004-term",
+        "orientation": "Topic",
+        "label": "Bronchitis",
+        "detail": ""
+      },
+      {
+        "id": "pathology-005-term",
+        "orientation": "Topic",
+        "label": "Chronic obstructive pulmonary disease",
+        "detail": ""
+      },
+      {
+        "id": "pathology-006-term",
+        "orientation": "Topic",
+        "label": "Cystic fibrosis",
+        "detail": ""
+      },
+      {
+        "id": "pathology-007-term",
+        "orientation": "Topic",
+        "label": "Emphysema",
+        "detail": ""
+      },
+      {
+        "id": "pathology-008-term",
+        "orientation": "Topic",
+        "label": "Epiglottitis",
+        "detail": ""
+      },
+      {
+        "id": "pathology-009-term",
+        "orientation": "Topic",
+        "label": "Fungal disease",
+        "detail": ""
+      },
+      {
+        "id": "pathology-010-term",
+        "orientation": "Topic",
+        "label": "Histoplasmosis",
+        "detail": ""
+      },
+      {
+        "id": "pathology-011-term",
+        "orientation": "Topic",
+        "label": "Granulomatous disease",
+        "detail": ""
+      },
+      {
+        "id": "pathology-012-term",
+        "orientation": "Topic",
+        "label": "Sarcoidosis",
+        "detail": ""
+      },
+      {
+        "id": "pathology-013-term",
+        "orientation": "Topic",
+        "label": "Tuberculosis",
+        "detail": ""
+      },
+      {
+        "id": "pathology-014-term",
+        "orientation": "Topic",
+        "label": "Hyaline membrane disease or respiratory distress syndrome",
+        "detail": ""
+      },
+      {
+        "id": "pathology-016-term",
+        "orientation": "Topic",
+        "label": "Pleural effusion",
+        "detail": ""
+      },
+      {
+        "id": "pathology-017-term",
+        "orientation": "Topic",
+        "label": "Pneumoconiosis",
+        "detail": ""
+      },
+      {
+        "id": "pathology-018-term",
+        "orientation": "Topic",
+        "label": "Anthracosis or coal miner lung or black lung",
+        "detail": ""
+      },
+      {
+        "id": "pathology-019-term",
+        "orientation": "Topic",
+        "label": "Asbestosis",
+        "detail": ""
+      },
+      {
+        "id": "pathology-020-term",
+        "orientation": "Topic",
+        "label": "Silicosis",
+        "detail": ""
+      },
+      {
+        "id": "pathology-021-term",
+        "orientation": "Topic",
+        "label": "Pneumonia",
+        "detail": ""
+      },
+      {
+        "id": "pathology-022-term",
+        "orientation": "Topic",
+        "label": "Aspiration pneumonia",
+        "detail": ""
+      },
+      {
+        "id": "pathology-023-term",
+        "orientation": "Topic",
+        "label": "Interstitial or viral pneumonia (pneumonitis)",
+        "detail": ""
+      },
+      {
+        "id": "pathology-024-term",
+        "orientation": "Topic",
+        "label": "Lobar or bacterial pneumonia",
+        "detail": ""
+      },
+      {
+        "id": "pathology-025-term",
+        "orientation": "Topic",
+        "label": "Lobular pneumonia or bronchopneumonia",
+        "detail": ""
+      },
+      {
+        "id": "pathology-026-term",
+        "orientation": "Topic",
+        "label": "Pneumothorax",
+        "detail": ""
+      },
+      {
+        "id": "pathology-027-term",
+        "orientation": "Topic",
+        "label": "Pulmonary edema",
+        "detail": ""
+      }
+    ]
+  },
+  {
+    "id": "abdominal",
+    "name": "Abdominal conditions",
+    "group": "pathology",
+    "kind": "topic",
+    "views": [
+      {
+        "id": "pathology-029-term",
+        "orientation": "Topic",
+        "label": "Abdominal aortic aneurysm (AAA)",
+        "detail": ""
+      },
+      {
+        "id": "pathology-030-term",
+        "orientation": "Topic",
+        "label": "Ascites",
+        "detail": ""
+      },
+      {
+        "id": "pathology-031-term",
+        "orientation": "Topic",
+        "label": "Bowel obstruction",
+        "detail": ""
+      },
+      {
+        "id": "pathology-032-term",
+        "orientation": "Topic",
+        "label": "Ileus",
+        "detail": ""
+      },
+      {
+        "id": "pathology-033-term",
+        "orientation": "Topic",
+        "label": "Pneumoperitoneum",
+        "detail": ""
+      }
+    ]
+  },
+  {
+    "id": "bone-joint",
+    "name": "Bone, joint & soft tissue conditions",
+    "group": "pathology",
+    "kind": "topic",
+    "views": [
+      {
+        "id": "pathology-034-term",
+        "orientation": "Topic",
+        "label": "Bone cyst",
+        "detail": ""
+      },
+      {
+        "id": "pathology-035-term",
+        "orientation": "Topic",
+        "label": "Bursitis",
+        "detail": ""
+      },
+      {
+        "id": "pathology-043-term",
+        "orientation": "Topic",
+        "label": "Gout",
+        "detail": ""
+      },
+      {
+        "id": "pathology-044-term",
+        "orientation": "Topic",
+        "label": "Joint effusion",
+        "detail": ""
+      },
+      {
+        "id": "pathology-045-term",
+        "orientation": "Topic",
+        "label": "Osteoarthritis or degenerative joint disease",
+        "detail": ""
+      },
+      {
+        "id": "pathology-046-term",
+        "orientation": "Topic",
+        "label": "Osteomyelitis",
+        "detail": ""
+      },
+      {
+        "id": "pathology-047-term",
+        "orientation": "Topic",
+        "label": "Osteopetrosis",
+        "detail": ""
+      },
+      {
+        "id": "pathology-048-term",
         "orientation": "Topic",
         "label": "Osteoporosis",
         "detail": ""
       },
       {
-        "id": "bone-disease-arthritis",
+        "id": "pathology-049-term",
         "orientation": "Topic",
-        "label": "Arthritis",
+        "label": "Rheumatoid arthritis",
         "detail": ""
       },
       {
-        "id": "bone-disease-osteomyelitis",
+        "id": "pathology-055-term",
         "orientation": "Topic",
-        "label": "Osteomyelitis",
+        "label": "Tendinitis",
+        "detail": ""
+      },
+      {
+        "id": "pathology-060-term",
+        "orientation": "Topic",
+        "label": "Osteomalacia or rickets",
+        "detail": ""
+      },
+      {
+        "id": "pathology-061-term",
+        "orientation": "Topic",
+        "label": "Paget disease",
         "detail": ""
       }
     ]
   },
   {
-    "id": "other-disease",
-    "name": "Other pathology",
+    "id": "tumors",
+    "name": "Tumors & neoplasms",
     "group": "pathology",
     "kind": "topic",
     "views": [
       {
-        "id": "other-disease-general",
+        "id": "pathology-015-term",
         "orientation": "Topic",
-        "label": "General disease / pathology",
+        "label": "Metastasis",
+        "detail": ""
+      },
+      {
+        "id": "pathology-028-term",
+        "orientation": "Topic",
+        "label": "Tumor",
+        "detail": ""
+      },
+      {
+        "id": "pathology-050-term",
+        "orientation": "Topic",
+        "label": "Chondrosarcoma",
+        "detail": ""
+      },
+      {
+        "id": "pathology-051-term",
+        "orientation": "Topic",
+        "label": "Enchondroma",
+        "detail": ""
+      },
+      {
+        "id": "pathology-052-term",
+        "orientation": "Topic",
+        "label": "Ewing sarcoma",
+        "detail": ""
+      },
+      {
+        "id": "pathology-053-term",
+        "orientation": "Topic",
+        "label": "Osteosarcoma",
+        "detail": ""
+      },
+      {
+        "id": "pathology-062-term",
+        "orientation": "Topic",
+        "label": "Osteochondroma or exostosis",
+        "detail": ""
+      },
+      {
+        "id": "pathology-063-term",
+        "orientation": "Topic",
+        "label": "Osteoclastoma or giant cell tumor",
+        "detail": ""
+      },
+      {
+        "id": "pathology-064-term",
+        "orientation": "Topic",
+        "label": "Osteoid osteoma",
+        "detail": ""
+      },
+      {
+        "id": "pathology-069-term",
+        "orientation": "Topic",
+        "label": "Multiple myeloma",
         "detail": ""
       }
     ]
   },
   {
-    "id": "fractures",
-    "name": "Fractures",
-    "group": "trauma",
+    "id": "fractures-dislocations",
+    "name": "Fractures & dislocations",
+    "group": "pathology",
     "kind": "topic",
     "views": [
       {
-        "id": "fractures-boxer",
-        "orientation": "Topic",
-        "label": "Boxer’s fracture",
-        "detail": ""
-      },
-      {
-        "id": "fractures-colles",
-        "orientation": "Topic",
-        "label": "Colles fracture",
-        "detail": ""
-      },
-      {
-        "id": "fractures-smith",
-        "orientation": "Topic",
-        "label": "Smith fracture",
-        "detail": ""
-      },
-      {
-        "id": "fractures-bennett",
-        "orientation": "Topic",
-        "label": "Bennett fracture",
-        "detail": ""
-      },
-      {
-        "id": "fractures-general",
-        "orientation": "Topic",
-        "label": "Fracture terminology",
-        "detail": ""
-      }
-    ]
-  },
-  {
-    "id": "dislocation",
-    "name": "Dislocations & soft tissue injury",
-    "group": "trauma",
-    "kind": "topic",
-    "views": [
-      {
-        "id": "dislocation-dislocation",
+        "id": "pathology-036-term",
         "orientation": "Topic",
         "label": "Dislocation",
         "detail": ""
       },
       {
-        "id": "dislocation-subluxation",
+        "id": "pathology-037-term",
+        "orientation": "Topic",
+        "label": "Fracture",
+        "detail": ""
+      },
+      {
+        "id": "pathology-038-term",
+        "orientation": "Topic",
+        "label": "Bennett fracture",
+        "detail": ""
+      },
+      {
+        "id": "pathology-039-term",
+        "orientation": "Topic",
+        "label": "Boxer fracture",
+        "detail": ""
+      },
+      {
+        "id": "pathology-040-term",
+        "orientation": "Topic",
+        "label": "Colles fracture",
+        "detail": ""
+      },
+      {
+        "id": "pathology-041-term",
+        "orientation": "Topic",
+        "label": "Smith fracture",
+        "detail": ""
+      },
+      {
+        "id": "pathology-042-term",
+        "orientation": "Topic",
+        "label": "Torus or buckle fracture",
+        "detail": ""
+      },
+      {
+        "id": "pathology-054-term",
+        "orientation": "Topic",
+        "label": "Hill-Sachs defect",
+        "detail": ""
+      },
+      {
+        "id": "pathology-057-term",
+        "orientation": "Topic",
+        "label": "Pott fracture",
+        "detail": ""
+      },
+      {
+        "id": "pathology-058-term",
+        "orientation": "Topic",
+        "label": "Jones fracture",
+        "detail": ""
+      },
+      {
+        "id": "pathology-070-term",
+        "orientation": "Topic",
+        "label": "Clay shoveler’s fracture",
+        "detail": ""
+      },
+      {
+        "id": "pathology-071-term",
+        "orientation": "Topic",
+        "label": "Compression fracture",
+        "detail": ""
+      },
+      {
+        "id": "pathology-072-term",
+        "orientation": "Topic",
+        "label": "Hangman’s fracture",
+        "detail": ""
+      },
+      {
+        "id": "pathology-073-term",
+        "orientation": "Topic",
+        "label": "Jefferson fracture",
+        "detail": ""
+      },
+      {
+        "id": "pathology-082-term",
         "orientation": "Topic",
         "label": "Subluxation",
         "detail": ""
-      },
+      }
+    ]
+  },
+  {
+    "id": "developmental",
+    "name": "Developmental & childhood conditions",
+    "group": "pathology",
+    "kind": "topic",
+    "views": [
       {
-        "id": "dislocation-sprain",
+        "id": "pathology-056-term",
         "orientation": "Topic",
-        "label": "Sprain",
+        "label": "Congenital clubfoot",
         "detail": ""
       },
       {
-        "id": "dislocation-strain",
+        "id": "pathology-059-term",
         "orientation": "Topic",
-        "label": "Strain",
+        "label": "Osgood–Schlatter disease",
+        "detail": ""
+      },
+      {
+        "id": "pathology-066-term",
+        "orientation": "Topic",
+        "label": "Congenital hip dysplasia",
+        "detail": ""
+      },
+      {
+        "id": "pathology-067-term",
+        "orientation": "Topic",
+        "label": "Legg-Calvé-Perthes disease",
+        "detail": ""
+      },
+      {
+        "id": "pathology-068-term",
+        "orientation": "Topic",
+        "label": "Slipped epiphysis",
+        "detail": ""
+      }
+    ]
+  },
+  {
+    "id": "spine",
+    "name": "Spinal conditions",
+    "group": "pathology",
+    "kind": "topic",
+    "views": [
+      {
+        "id": "pathology-065-term",
+        "orientation": "Topic",
+        "label": "Ankylosing spondylitis",
+        "detail": ""
+      },
+      {
+        "id": "pathology-074-term",
+        "orientation": "Topic",
+        "label": "Herniated nucleus pulposus",
+        "detail": ""
+      },
+      {
+        "id": "pathology-075-term",
+        "orientation": "Topic",
+        "label": "Kyphosis",
+        "detail": ""
+      },
+      {
+        "id": "pathology-076-term",
+        "orientation": "Topic",
+        "label": "Lordosis",
+        "detail": ""
+      },
+      {
+        "id": "pathology-077-term",
+        "orientation": "Topic",
+        "label": "Scheuermann disease or adolescent kyphosis",
+        "detail": ""
+      },
+      {
+        "id": "pathology-078-term",
+        "orientation": "Topic",
+        "label": "Scoliosis",
+        "detail": ""
+      },
+      {
+        "id": "pathology-079-term",
+        "orientation": "Topic",
+        "label": "Spina bifida",
+        "detail": ""
+      },
+      {
+        "id": "pathology-080-term",
+        "orientation": "Topic",
+        "label": "Spondylolisthesis",
+        "detail": ""
+      },
+      {
+        "id": "pathology-081-term",
+        "orientation": "Topic",
+        "label": "Spondylolysis",
         "detail": ""
       }
     ]

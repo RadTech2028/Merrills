@@ -8,3 +8,30 @@
 #progress-warning{margin-bottom:20px}
 #setup-progress{line-height:1.6}
 @media(max-width:650px){.progress-tools{grid-template-columns:1fr}.card-progress{align-items:stretch}.card-progress label{flex:1}.progress-backup .actions>*{flex:1}}
+/* Category selection and progress remain compact on phones. */
+.category-select{display:flex;flex-direction:column;gap:10px;cursor:default}
+.category-heading{display:flex;align-items:center;gap:10px;margin:0;cursor:pointer}
+.category-heading strong{flex:1}.category-heading input{order:3;flex:none}
+.category-select details{border-top:1px solid var(--line);padding-top:12px;margin-top:auto}
+.category-select summary{font-size:.8rem;font-weight:600;line-height:1.7}
+.category-select summary .muted{white-space:nowrap;margin-left:6px}
+.part-choices{display:flex;flex-direction:column;gap:4px;margin-top:10px}
+.part-choices label{display:flex;align-items:center;gap:9px;padding:9px 5px;margin:0;font-size:.83rem;cursor:pointer;min-height:42px}
+.part-choices label span{flex:1}.part-choices label small{font-variant-numeric:tabular-nums;color:var(--muted)}
+.part-choices input,.category-heading input{width:18px;height:18px;accent-color:var(--blue)}
+.category-progress-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin:24px 0}
+.category-progress-card{background:white;border:1px solid var(--line);border-radius:14px;padding:20px;min-width:0}
+.category-progress-title{display:flex;align-items:start;justify-content:space-between;gap:16px;margin-bottom:16px}
+.category-progress-title h2{font-size:1rem;line-height:1.4;margin:0}
+.category-progress-title strong{color:var(--teal);font-size:1.4rem;font-variant-numeric:tabular-nums}
+.learning-meter{height:10px;background:#edf0f5;border-radius:20px;overflow:hidden}
+.learning-meter span{height:100%;display:block;background:linear-gradient(90deg,#328baf,#228971);border-radius:20px}
+.category-progress-card p{font-size:.8rem;color:var(--muted);margin:12px 0 16px}
+.category-progress-card summary{font-size:.8rem;color:var(--blue)}
+.part-progress-list{list-style:none;margin:12px 0 0;padding:0}
+.part-progress-list li{display:flex;justify-content:space-between;gap:12px;padding:8px 0;font-size:.8rem;border-top:1px solid var(--line)}
+.part-progress-list li span:last-child{white-space:nowrap;font-variant-numeric:tabular-nums;color:var(--muted)}
+.card-learned{min-height:44px}.card-learned[aria-pressed=true]{background:#e9f5ef;border-color:#78ae97;color:#17604c}
+.bank-tools{grid-template-columns:repeat(auto-fit,minmax(150px,1fr))}
+.progress-tools{grid-template-columns:repeat(2,minmax(0,1fr))}
+@media(max-width:650px){.category-progress-grid,.progress-tools,.bank-tools{grid-template-columns:1fr}.category-progress-card{padding:16px}.card-progress button{flex:1;font-size:.85rem}}

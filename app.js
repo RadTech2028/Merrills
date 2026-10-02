@@ -5,7 +5,7 @@ const newId=()=>Array.from(crypto.getRandomValues(new Uint8Array(16)),b=>b.toStr
 const normalize=s=>String(s).normalize('NFKC').trim().toLocaleLowerCase().replace(/\s+/g,' ');
 const shuffle=list=>{const a=[...list];for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;};
 const safeImage=s=>typeof s==='string'&&(/^data:image\/(png|jpeg|webp);base64,[a-z\d+/=\s]+$/i.test(s)||/^https:\/\//i.test(s)||(!/^[a-z][a-z\d+.-]*:|^\/\/|[\\<>]/i.test(s)&&!!s.trim()));
-let TOPICS={},groups=[],baseGroups=[],baseTopics={},parts=[],bank=[],drafts=[],customGroups=[],customTopics={},selected=new Set(),focus=new Set(),session=null,timerHandle=null,browseLimit=50,personalLimit=50,failedGroups=[],storageWarning='';
+let TOPICS={},groups=[],baseGroups=[],baseTopics={},parts=[],bank=[],drafts=[],customGroups=[],customParts=[],customTopics={},selected=new Set(),focus=new Set(),session=null,timerHandle=null,browseLimit=50,personalLimit=50,failedGroups=[],storageWarning='';
 const optionHTML=(obj,all)=>(all?'<option value="">'+esc(all)+'</option>':'')+Object.entries(obj).map(([v,t])=>'<option value="'+esc(v)+'">'+esc(t)+'</option>').join('');
 const groupOptions=all=>optionHTML(Object.fromEntries(groups.map(g=>[g.id,g.name])),all);
 const labelTopic=id=>TOPICS[id]||id;
@@ -20,6 +20,8 @@ function validateQuestions(data){
   if(seen.has(q.id))throw new Error(at+'duplicate ID '+q.id);seen.add(q.id);
   if(!['mcq','short'].includes(q.type))throw new Error(at+'type must be mcq or short.');
   if(q.type==='mcq'&&(!Array.isArray(q.options)||q.options.length<2||q.options.length>8||q.options.some(o=>typeof o!=='string'||!o.trim())||new Set(q.options.map(normalize)).size!==q.options.length||!q.options.includes(q.answer)))throw new Error(at+'enter 2–8 unique choices and select a correct answer.');
+  if(q.part!==undefined&&(typeof q.part!=='string'||!q.part.trim()))throw new Error(at+'part must be a subcategory ID.');
+  if(q.projectionId!==undefined&&typeof q.projectionId!=='string')throw new Error(at+'projectionId must be text.');
   if(q.acceptedAnswers&&(!Array.isArray(q.acceptedAnswers)||q.acceptedAnswers.some(a=>typeof a!=='string')))throw new Error(at+'acceptedAnswers must contain text values.');
   if(q.image&&(!safeImage(q.image.src)||typeof q.image.alt!=='string'||!q.image.alt.trim()))throw new Error(at+'an image needs a safe path and a description.');
  }
@@ -36,15 +38,17 @@ async function getJSON(path){const r=await fetch(path,{cache:'no-cache'});if(!r.
 function personalQuestion(q){return {...q,origin:'personal'};}
 function poolFor(source){return source==='personal'?drafts.map(personalQuestion):source==='both'?[...bank,...drafts.map(personalQuestion)]:bank;}
 function refreshCatalogs(){
+ Catalog.migratePersonal();
  groups=[...baseGroups,...customGroups.filter(g=>!baseGroups.some(b=>b.id===g.id))];TOPICS={...baseTopics,...customTopics};
  for(const q of drafts){
   if(!groups.some(g=>g.id===q.group)){const g={id:q.group,name:q.group,description:'Personal category'};customGroups.push(g);groups.push(g);}
   if(!TOPICS[q.topic]){TOPICS[q.topic]=q.topic.replace(/-/g,' ');customTopics[q.topic]=TOPICS[q.topic];}
  }
  for(const q of bank)if(!TOPICS[q.topic])TOPICS[q.topic]=q.topic.replace(/-/g,' ');
+ Catalog.rebuild();
 }
 function persistPersonal(){
- try{localStorage.setItem('positioning-personal-v2',JSON.stringify({version:2,questions:drafts,groups:customGroups,focuses:customTopics}));storageWarning='';return true;}
+ try{localStorage.setItem('positioning-personal-v2',JSON.stringify({version:2,questions:drafts,groups:customGroups,subcategories:customParts,focuses:customTopics}));storageWarning='';return true;}
  catch{storageWarning='Browser storage is full or unavailable. Changes remain for this visit. Export a full backup now to keep them.';['personal-status','draft-status','builder-message'].forEach(id=>$(id).textContent=storageWarning);return false;}
 }
 async function init(){
@@ -56,7 +60,7 @@ async function init(){
   loaded.forEach((r,i)=>{if(r.status==='fulfilled')bank.push(...r.value);else failedGroups.push(baseGroups[i].name+': '+r.reason.message);});
   try{
    const saved=localStorage.getItem('positioning-personal-v2');
-   if(saved){const d=JSON.parse(saved);validatePersonal(d.questions);validateMetadata(d.groups||[],d.focuses||{});drafts=d.questions;customGroups=d.groups||[];customTopics=d.focuses||{};}
+   if(saved){const d=JSON.parse(saved);validatePersonal(d.questions);validateMetadata(d.groups||[],d.focuses||{});drafts=d.questions;customGroups=d.groups||[];customTopics=d.focuses||{};Catalog.validate(d.subcategories||[]);customParts=d.subcategories||[];}
    else{const old=JSON.parse(localStorage.getItem('positioning-drafts-v1')||'[]');validatePersonal(old);drafts=old;if(old.length)persistPersonal();}
   }catch(e){storageWarning='Saved personal data could not be read. Your stored copy has not been deleted. Restore an exported backup. '+e.message;$('personal-status').textContent=storageWarning;}
   refreshCatalogs();selected=new Set(groups.map(g=>g.id));focus=new Set(Object.keys(TOPICS));
@@ -67,23 +71,20 @@ async function init(){
 }
 function refill(id,html){const old=$(id).value;$(id).innerHTML=html;if([...$(id).options].some(o=>o.value===old))$(id).value=old;}
 function refreshControls(){
- $('bank-count').textContent=bank.length;
+ Catalog.sync();$('bank-count').textContent=bank.length;
  for(const id of ['bank-group','personal-group'])refill(id,groupOptions('All categories'));
  refill('draft-group',groupOptions());refill('bank-topic',optionHTML(TOPICS,'All focuses'));refill('draft-topic',optionHTML(TOPICS));
  $('focus-list').innerHTML=Object.entries(TOPICS).map(([id,name])=>'<label class="chip"><input type="checkbox" value="'+esc(id)+'" '+(focus.has(id)?'checked':'')+'>'+esc(name)+'</label>').join('');
  renderGroups();updateSetup();renderBank();
 }
-function renderGroups(){
- const pool=poolFor($('session-source').value);
- $('group-grid').innerHTML=groups.map((g,i)=>{const n=pool.filter(q=>q.group===g.id).length;return '<label class="group-card"><div class="group-top"><span class="group-number">'+String(i+1).padStart(2,'0')+'</span><input type="checkbox" value="'+esc(g.id)+'" '+(selected.has(g.id)?'checked':'')+' aria-label="'+esc(g.name)+'"></div><strong>'+esc(g.name)+'</strong><small>'+esc(g.description||'Personal category')+'</small><span class="count '+(!n?'empty-count':'')+'">'+(n?n+' questions':'Ready for questions')+'</span></label>';}).join('');
-}
+function renderGroups(){Catalog.renderGroups();}
 function showView(view){
  ['practice','quiz','results','browse','personal','builder','progress'].forEach(v=>$(v+'-view').hidden=v!==view);
  document.querySelectorAll('[data-view]').forEach(b=>{b.classList.toggle('active',b.dataset.view===view);b.setAttribute('aria-current',b.dataset.view===view?'page':'false');});
  if(view==='practice')updateSetup();if(view==='progress')Progress.render();if(view==='browse')renderBank();if(view==='personal')renderPersonal();if(view==='builder')renderDrafts();
  window.scrollTo({top:0});$('main').focus({preventScroll:true});
 }
-function matching(){return poolFor($('session-source').value).filter(q=>selected.has(q.group)&&focus.has(q.topic)&&(!$('images-only').checked||q.image)&&(!$('no-images-only').checked||!q.image)&&Progress.matches(q,$('study-filter').value));}
+function matching(){return poolFor($('session-source').value).filter(q=>Catalog.include(q)&&focus.has(q.topic)&&(!$('images-only').checked||q.image)&&(!$('no-images-only').checked||!q.image)&&Progress.matches(q,$('study-filter').value));}
 function sessionLimit(available){
  if($('session-size').value==='all')return available;
  const requested=Number($('session-size').value==='custom'?$('custom-session-size').value:$('session-size').value);
@@ -97,11 +98,11 @@ function updateSetup(){
  $('match-count').textContent=n;$('start').disabled=!n||count===null;
  const requested=Number(custom?$('custom-session-size').value:$('session-size').value);
  $('session-hint').textContent=count===null?'Enter a whole number of questions greater than zero.':!n?'No questions match. Try another source, category, focus, or image filter.':requested>n?'Only '+n+' matching question'+(n===1?' is':'s are')+' available. You’ll study all '+n+'.':'You’ll study '+count+' question'+(count===1?'':'s')+'.';
- const eligible=poolFor($('session-source').value).filter(q=>selected.has(q.group)&&focus.has(q.topic));
+ const eligible=poolFor($('session-source').value).filter(q=>Catalog.include(q)&&focus.has(q.topic));
  const imageCount=eligible.filter(q=>q.image).length;
  $('image-count').textContent='('+imageCount+' available)';
  $('no-image-count').textContent='('+(eligible.length-imageCount)+' available)';
- $('toggle-groups').textContent=selected.size===groups.length?'Clear all':'Select all';
+ $('toggle-groups').textContent=Catalog.fullySelected()?'Clear all':'Select all';
  $('start').firstChild.textContent=({practice:'Start practice ',exam:'Start test ',cards:'Start flashcards '})[$('session-mode').value];
 }
 function stopTimer(){if(timerHandle!==null)clearInterval(timerHandle);timerHandle=null;}
@@ -185,20 +186,21 @@ function renderResults(){
  renderResultReview();$('result-review-more').onclick=()=>{session.reviewLimit=(session.reviewLimit||50)+50;renderResultReview();};
 }
 function questionDetail(q,allowCopy=false){
- return '<details class="review-item"><summary>'+esc(q.prompt)+'<span class="origin-badge">'+(q.origin==='program'?'Program':'Personal')+'</span></summary><p class="small muted">'+esc(q.projection)+' · '+esc(labelTopic(q.topic))+(q.customProjection?' · Custom':'')+'</p>'+imageHTML(q)+'<p><strong>Answer:</strong> '+esc(q.answer)+'</p><p>'+esc(q.explanation)+'</p><p class="small muted">'+esc(q.source||'')+'</p>'+Progress.controls(q)+(allowCopy&&q.origin==='program'?'<button class="copy-program" data-key="'+esc(questionKey(q))+'">Copy to My questions</button>':'')+'</details>';
+ return '<details class="review-item"><summary>'+esc(q.prompt)+'<span class="origin-badge">'+(q.origin==='program'?'Program':'Personal')+'</span></summary><p class="small muted">'+esc(Catalog.label(q))+' · '+esc(q.projection)+' · '+esc(labelTopic(q.topic))+(q.customProjection?' · Custom':'')+'</p>'+imageHTML(q)+'<p><strong>Answer:</strong> '+esc(q.answer)+'</p><p>'+esc(q.explanation)+'</p><p class="small muted">'+esc(q.source||'')+'</p>'+Progress.controls(q)+(allowCopy&&q.origin==='program'?'<button class="copy-program" data-key="'+esc(questionKey(q))+'">Copy to My questions</button>':'')+'</details>';
 }
 function renderBank(){
+ Catalog.refillFilter('bank-part',$('bank-group').value);
  const search=normalize($('bank-search').value),g=$('bank-group').value,t=$('bank-topic').value;
- const found=poolFor($('bank-source').value).filter(q=>(!g||q.group===g)&&(!t||q.topic===t)&&(!search||normalize([q.prompt,q.projection,q.answer,q.explanation].join(' ')).includes(search))&&Progress.matches(q,$('bank-progress').value));
+ const found=poolFor($('bank-source').value).filter(q=>(!g||q.group===g)&&(!t||q.topic===t)&&(!search||normalize([q.prompt,q.projection,q.answer,q.explanation].join(' ')).includes(search))&&Catalog.matches(q,$('bank-part').value)&&Progress.matches(q,$('bank-progress').value));
  $('browse-count').textContent=found.length+' questions · showing '+Math.min(browseLimit,found.length);$('bank-more').hidden=found.length<=browseLimit;
  $('bank-list').innerHTML=found.length?found.slice(0,browseLimit).map(q=>questionDetail(q,true)).join(''):'<div class="empty">No questions match these filters.</div>';wireImages($('bank-list'));Progress.wire($('bank-list'),found.slice(0,browseLimit));
  $('bank-list').querySelectorAll('.copy-program').forEach(btn=>btn.onclick=()=>{const q=bank.find(q=>questionKey(q)===btn.dataset.key);if(!q)return;const copy={...cleanQuestion(q),group:q.group,id:'q-'+newId()};drafts.push(copy);persistPersonal();refreshPersonalUI();btn.textContent='Copied to My questions';btn.disabled=true;});
 }
 function refreshPersonalUI(){refreshCatalogs();renderGroups();updateSetup();renderDrafts();renderPersonal();}
 document.querySelectorAll('[data-view]').forEach(b=>b.onclick=()=>{if(session&&!session.finished&&!confirm('Leave this session? Saved answers and card marks will be kept; the unfinished session will end.'))return;stopTimer();session=null;showView(b.dataset.view);});
-$('group-grid').onchange=e=>{if(e.target.checked)selected.add(e.target.value);else selected.delete(e.target.value);updateSetup();};
+$('group-grid').onchange=e=>Catalog.change(e.target);
 $('focus-list').onchange=e=>{if(e.target.checked)focus.add(e.target.value);else focus.delete(e.target.value);updateSetup();};
-$('toggle-groups').onclick=()=>{selected=selected.size===groups.length?new Set():new Set(groups.map(g=>g.id));renderGroups();updateSetup();};
+$('toggle-groups').onclick=()=>{Catalog.all(!Catalog.fullySelected());renderGroups();updateSetup();};
 ['session-size','session-mode'].forEach(id=>$(id).onchange=updateSetup);
 $('custom-session-size').oninput=updateSetup;
 ['images-only','no-images-only'].forEach((id,index,ids)=>$(id).onchange=()=>{if($(id).checked)$(ids[1-index]).checked=false;updateSetup();});
@@ -211,7 +213,7 @@ $('start').onclick=()=>{
  if(limit===null||!pool.length){updateSetup();return;}
  startSession(pool,$('session-mode').value,limit,$('shuffle').checked,'practice',minutes);
 };
-['bank-search','bank-group','bank-topic','bank-source'].forEach(id=>$(id).addEventListener(id==='bank-search'?'input':'change',()=>{browseLimit=50;renderBank();}));
+['bank-search','bank-group','bank-part','bank-topic','bank-source'].forEach(id=>$(id).addEventListener(id==='bank-search'?'input':'change',()=>{browseLimit=50;renderBank();}));
 $('bank-more').onclick=()=>{browseLimit+=50;renderBank();};
 $('close-image').onclick=()=>$('image-dialog').close();
 document.addEventListener('visibilitychange',updateTimer);

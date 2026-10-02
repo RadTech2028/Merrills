@@ -7,7 +7,7 @@ function validateMetadata(gs,ts){
  for(const g of gs){if(!g||typeof g.id!=='string'||!/^[a-z0-9-]+$/.test(g.id)||typeof g.name!=='string'||!g.name.trim()||ids.has(g.id)||names.has(normalize(g.name)))throw new Error('Categories need unique IDs and names.');ids.add(g.id);names.add(normalize(g.name));}
  for(const [id,name] of Object.entries(ts))if(!/^[a-z0-9-]+$/.test(id)||typeof name!=='string'||!name.trim())throw new Error('Invalid focus name or ID.');
 }
-function availableParts(){return parts.filter(p=>p.group===$('draft-group').value);}
+function availableParts(){return Catalog.forGroup($('draft-group').value);}
 function syncParts(preferred){
  const ps=availableParts();$('draft-part').innerHTML=optionHTML(Object.fromEntries(ps.map(p=>[p.id,p.name])));
  if(!ps.length)$('draft-part').innerHTML='<option value="">General / unlisted subject</option>';
@@ -15,25 +15,26 @@ function syncParts(preferred){
  syncFamilies();if(!ps.length){$('custom-projection').checked=true;syncCustom();}
 }
 function syncFamilies(preferred){
- const part=parts.find(p=>p.id===$('draft-part').value);
+ const part=availableParts().find(p=>p.id===$('draft-part').value);
  const families=[...new Set((part?.views||[]).map(v=>v.orientation))];
+ $('projection-family-field').hidden=part?.kind==='topic';
  $('draft-orientation').innerHTML=optionHTML(Object.fromEntries(families.map(f=>[f,f])),'All families');
  if(preferred&&families.includes(preferred))$('draft-orientation').value=preferred;
  $('draft-orientation').disabled=part?.kind==='topic'||!part;
  syncProjections();
 }
 function syncProjections(preferred){
- const p=parts.find(p=>p.id===$('draft-part').value),family=$('draft-orientation').value;
+ const p=availableParts().find(p=>p.id===$('draft-part').value),family=$('draft-orientation').value;
  const views=(p?.views||[]).filter(v=>!family||v.orientation===family);
  $('draft-projection-select').innerHTML=optionHTML(Object.fromEntries(views.map(v=>[v.id,v.label])));
- if(!views.length)$('draft-projection-select').innerHTML='<option value="">No standard choices for this category</option>';
+ if(!views.length){$('draft-projection-select').innerHTML='<option value="">Enter a topic below</option>';$('custom-projection').checked=true;}
  if(views.some(v=>v.id===preferred))$('draft-projection-select').value=preferred;
  projectionDetail();syncCustom();
 }
-function projectionDetail(){const p=parts.find(p=>p.id===$('draft-part').value),v=p?.views.find(v=>v.id===$('draft-projection-select').value);$('projection-detail').textContent=v?.detail||'';}
+function projectionDetail(){const p=availableParts().find(p=>p.id===$('draft-part').value),v=p?.views.find(v=>v.id===$('draft-projection-select').value);$('projection-detail').textContent=v?.detail||'';}
 function syncCustom(){
  const custom=$('custom-projection').checked;$('custom-projection-fields').hidden=!custom;$('draft-projection').required=custom;
- $('draft-projection-select').disabled=custom;$('draft-orientation').disabled=custom||parts.find(p=>p.id===$('draft-part').value)?.kind==='topic'||!$('draft-part').value;
+ $('draft-projection-select').disabled=custom;$('draft-orientation').disabled=custom||availableParts().find(p=>p.id===$('draft-part').value)?.kind==='topic'||!$('draft-part').value;
 }
 function choices(){return [...$('choice-editor').querySelectorAll('.choice-row')].map(row=>({text:row.querySelector('input[type=text]').value,correct:row.querySelector('input[type=radio]').checked}));}
 function renderChoices(rows){
@@ -51,14 +52,14 @@ function resetForm(){
  renderChoices(Array.from({length:4},()=>({text:'',correct:false})));syncParts();syncType();
 }
 function selectedProjection(){
- const group=$('draft-group').value,part=parts.find(p=>p.id===$('draft-part').value);
+ const group=$('draft-group').value,part=availableParts().find(p=>p.id===$('draft-part').value);
  if($('custom-projection').checked){
   const label=$('draft-projection').value.trim();if(!label)throw new Error('Enter a custom projection or topic name.');
   // Exact standard names reuse the canonical ID instead of making a duplicate.
   for(const p of availableParts()){const view=p.views.find(v=>normalize(v.label)===normalize(label));if(view)return {projection:view.label,part:p.id,projectionId:view.id,customProjection:false};}
-  return {projection:label,part:part?.id||'',customProjection:true};
+  if(!part)throw new Error('Choose a subcategory first.');return {projection:label,part:part.id,customProjection:true};
  }
- const view=part?.views.find(v=>v.id===$('draft-projection-select').value);
+ const view=part?.views?.find(v=>v.id===$('draft-projection-select').value);
  if(!view||part.group!==group)throw new Error('Select a body part and a projection, or choose an unlisted topic.');
  return {projection:view.label,part:part.id,projectionId:view.id,customProjection:false};
 }
@@ -67,6 +68,7 @@ function buildDraft(){
  if(q.type==='mcq'){const rows=choices();if(rows.some(r=>!r.text.trim()))throw new Error('Fill in each choice or remove unused choices.');const answer=rows.find(r=>r.correct);if(!answer)throw new Error('Select the circle beside the correct answer.');q.options=rows.map(r=>r.text.trim());q.answer=answer.text.trim();}
  else{q.answer=$('draft-answer').value.trim();q.acceptedAnswers=$('draft-aliases').value.split('\n').map(s=>s.trim()).filter(Boolean);}
  const src=uploadImage||$('draft-image-path').value.trim();if(src)q.image={src,alt:$('draft-image-alt').value.trim(),caption:$('draft-image-caption').value.trim()};
+ if(editId){const previous=drafts.find(d=>d.id===editId&&d.group===editGroup);if(previous?.legacyGroup){q.legacyGroup=previous.legacyGroup;q.legacyId=previous.legacyId;}}
  validateQuestions([q]);return q;
 }
 function editDraft(id,g){
@@ -74,11 +76,11 @@ function editDraft(id,g){
  $('draft-group').value=g;resetForm();editId=id;editGroup=g;
  for(const k of ['type','topic','prompt','answer','explanation','source'])$('draft-'+k).value=q[k]||'';
  $('draft-aliases').value=(q.acceptedAnswers||[]).join('\n');if(q.options)renderChoices(q.options.map(text=>({text,correct:text===q.answer})));
- let p=parts.find(p=>p.group===g&&p.views.some(v=>v.id===q.projectionId));
+ let p=availableParts().find(p=>p.views?.some(v=>v.id===q.projectionId));
  let v=p?.views.find(v=>v.id===q.projectionId);
- if(!p)for(const candidate of parts.filter(p=>p.group===g)){const match=candidate.views.find(v=>normalize(v.label)===normalize(q.projection));if(match){p=candidate;v=match;break;}}
+ if(!p)for(const candidate of availableParts()){const match=candidate.views.find(v=>normalize(v.label)===normalize(q.projection));if(match){p=candidate;v=match;break;}}
  if(p){$('custom-projection').checked=false;syncParts(p.id);syncFamilies(v.orientation);syncProjections(v.id);}
- else{$('custom-projection').checked=true;$('draft-projection').value=q.projection;syncCustom();}
+ else{syncParts(Catalog.part(q));$('custom-projection').checked=true;$('draft-projection').value=q.projection;syncCustom();}
  uploadImage=q.image?.src?.startsWith('data:')?q.image.src:'';
  $('draft-image-path').value=uploadImage?'':q.image?.src||'';$('draft-image-alt').value=q.image?.alt||'';$('draft-image-caption').value=q.image?.caption||'';
  $('draft-image-preview').hidden=!q.image;if(q.image){$('draft-image-preview').src=q.image.src;document.querySelector('.image-settings').open=true;}
@@ -96,10 +98,11 @@ function renderDrafts(){
  $('draft-list').querySelectorAll('[data-delete]').forEach(b=>b.onclick=()=>deleteDraft(b.dataset.delete,g));
 }
 function renderPersonal(){
+ Catalog.refillFilter('personal-part',$('personal-group').value);
  const s=normalize($('personal-search').value),g=$('personal-group').value;
- const found=drafts.filter(q=>(!g||q.group===g)&&(!s||normalize([q.prompt,q.projection,q.answer].join(' ')).includes(s)));
+ const found=drafts.filter(q=>(!g||q.group===g)&&Catalog.matches(q,$('personal-part').value)&&(!s||normalize([q.prompt,q.projection,q.answer].join(' ')).includes(s)));
  $('personal-count').textContent=found.length+' personal questions · '+drafts.length+' saved in total';$('personal-more').hidden=found.length<=personalLimit;
- $('personal-study').disabled=!drafts.length;$('backup-export').disabled=!drafts.length&&!customGroups.length&&!Object.keys(customTopics).length;
+ $('personal-study').disabled=!drafts.length;$('backup-export').disabled=!drafts.length&&!customGroups.length&&!customParts.length&&!Object.keys(customTopics).length;
  $('personal-list').innerHTML=found.length?found.slice(0,personalLimit).map(q=>'<div class="personal-item"><div style="flex:1;min-width:0">'+questionDetail(personalQuestion(q))+'</div><div class="actions"><button data-edit="'+esc(q.id)+'" data-group="'+esc(q.group)+'">Edit</button><button data-delete="'+esc(q.id)+'" data-group="'+esc(q.group)+'">Delete</button></div></div>').join(''):'<div class="empty">No personal questions yet for these filters. Create one or copy a program question to start.</div>';
  $('personal-list').querySelectorAll('[data-edit]').forEach(b=>b.onclick=()=>editDraft(b.dataset.edit,b.dataset.group));
  $('personal-list').querySelectorAll('[data-delete]').forEach(b=>b.onclick=()=>deleteDraft(b.dataset.delete,b.dataset.group));wireImages($('personal-list'));Progress.wire($('personal-list'),found.slice(0,personalLimit).map(personalQuestion));
@@ -121,10 +124,10 @@ async function readImport(file){
  return JSON.parse(await file.text());
 }
 function applyImported(){
- metadataForUnknown(drafts);refreshCatalogs();groups.forEach(g=>selected.add(g.id));Object.keys(TOPICS).forEach(t=>focus.add(t));refreshControls();syncParts();refreshPersonalUI();return persistPersonal();
+ metadataForUnknown(drafts);refreshCatalogs();Catalog.all();Object.keys(TOPICS).forEach(t=>focus.add(t));refreshControls();syncParts();refreshPersonalUI();return persistPersonal();
 }
 $('draft-group').onchange=()=>{if(editId){editId=null;editGroup=null;$('save-draft').textContent='Save to My questions';$('cancel-edit').hidden=true;$('builder-message').textContent='Saving in this category creates a new question; the original stays in its category.';}$('custom-projection').checked=false;syncParts();renderDrafts();};
-$('draft-part').onchange=()=>{if(availableParts().length)$('custom-projection').checked=false;syncFamilies();};
+$('draft-part').onchange=()=>{$('custom-projection').checked=false;syncFamilies();};
 $('draft-orientation').onchange=()=>syncProjections();
 $('draft-projection-select').onchange=projectionDetail;
 $('custom-projection').onchange=syncCustom;
@@ -156,16 +159,17 @@ $('import-drafts').onchange=async()=>{
  catch(e){$('draft-status').textContent='Import failed: '+e.message;}finally{$('import-drafts').value='';}
 };
 $('personal-new').onclick=()=>{resetForm();showView('builder');};
-$('personal-study').onclick=()=>{$('session-source').value='personal';selected=new Set(groups.map(g=>g.id));focus=new Set(Object.keys(TOPICS));$('images-only').checked=false;$('no-images-only').checked=false;$('study-filter').value='all';refreshControls();showView('practice');};
-['personal-search','personal-group'].forEach(id=>$(id).addEventListener(id==='personal-search'?'input':'change',()=>{personalLimit=50;renderPersonal();}));
+$('personal-study').onclick=()=>{$('session-source').value='personal';Catalog.all();focus=new Set(Object.keys(TOPICS));$('images-only').checked=false;$('no-images-only').checked=false;$('study-filter').value='all';refreshControls();showView('practice');};
+['personal-search','personal-group','personal-part'].forEach(id=>$(id).addEventListener(id==='personal-search'?'input':'change',()=>{personalLimit=50;renderPersonal();}));
 $('personal-more').onclick=()=>{personalLimit+=50;renderPersonal();};
-$('backup-export').onclick=()=>{downloadJSON({version:2,groups:groups.map(({id,name,description})=>({id,name,description})),focuses:TOPICS,questions:drafts.map(q=>({...cleanQuestion(q),group:q.group}))},'positioning-personal-backup.json');$('personal-status').textContent='Question backup exported, including your questions, embedded images, categories, and focuses. Separate image-path files must be copied separately.';};
+$('backup-export').onclick=()=>{downloadJSON({version:2,groups:groups.map(({id,name,description})=>({id,name,description})),focuses:TOPICS,subcategories:customParts,questions:drafts.map(q=>({...cleanQuestion(q),group:q.group}))},'positioning-personal-backup.json');$('personal-status').textContent='Question backup exported, including your questions, embedded images, categories, subcategories, and focuses. Separate image-path files must be copied separately.';};
 $('backup-import').onchange=async()=>{
  const file=$('backup-import').files[0];if(!file)return;
  try{
   const d=await readImport(file);if(d.version!==2)throw new Error('Choose a version 2 personal backup.');
-  validateMetadata(d.groups,d.focuses);validatePersonal(d.questions);
+  validateMetadata(d.groups,d.focuses);validatePersonal(d.questions);Catalog.validate(d.subcategories||[]);
   if(!mergeQuestions(d.questions.map(q=>({...cleanQuestion(q),group:q.group}))))return;
+  for(const p of d.subcategories||[]){const i=customParts.findIndex(x=>x.group===p.group&&x.id===p.id);const clean={id:p.id,name:p.name,group:p.group,kind:'topic',views:[]};if(i>=0)customParts[i]=clean;else customParts.push(clean);}
   for(const g of d.groups)if(!baseGroups.some(b=>b.id===g.id)){const i=customGroups.findIndex(c=>c.id===g.id);if(i>=0)customGroups[i]=g;else customGroups.push(g);}
   for(const [id,name] of Object.entries(d.focuses))if(!baseTopics[id])customTopics[id]=name;
   const saved=applyImported();$('personal-status').textContent='Restored '+d.questions.length+' questions. Other personal questions were kept.'+(saved?'':' '+storageWarning);
@@ -181,4 +185,5 @@ $('add-focus').onclick=()=>{
  const duplicate=Object.entries(TOPICS).find(([,label])=>normalize(label)===normalize(name));if(duplicate){$('draft-topic').value=duplicate[0];$('catalog-status').textContent='That focus already exists. Selected it for you.';return;}
  const id='personal-'+newId();customTopics[id]=name;focus.add(id);refreshCatalogs();refreshControls();$('draft-topic').value=id;const saved=persistPersonal();$('new-focus-name').value='';$('catalog-status').textContent='Focus added.'+(saved?'':' '+storageWarning);
 };
+$('add-part').onclick=Catalog.add;
 init();

@@ -1,6 +1,8 @@
 [
   {
     "id": "lower-001",
+    "part": "toes",
+    "projectionId": "toes-ap",
     "projection": "AP toes",
     "topic": "central-ray",
     "type": "mcq",
@@ -13,12 +15,12 @@
     ],
     "answer": "Third MTP joint",
     "explanation": "The AP toes projection uses a perpendicular CR centered at the third MTP joint.",
-    "source": "Positioning practice · AP toes",
-    "part": "toes",
-    "projectionId": "toes-ap"
+    "source": "Positioning practice · AP toes"
   },
   {
     "id": "lower-002",
+    "part": "toes",
+    "projectionId": "toes-axial",
     "projection": "AP axial toes",
     "topic": "central-ray",
     "type": "mcq",
@@ -31,12 +33,12 @@
     ],
     "answer": "15° posteriorly",
     "explanation": "The AP axial toes projection adds a 15° posterior CR angle.",
-    "source": "Positioning practice · AP axial toes",
-    "part": "toes",
-    "projectionId": "toes-axial"
+    "source": "Positioning practice · AP axial toes"
   },
   {
     "id": "lower-003",
+    "part": "toes",
+    "projectionId": "toes-axial",
     "projection": "AP axial toes",
     "topic": "evaluation",
     "type": "mcq",
@@ -49,12 +51,12 @@
     ],
     "answer": "Open IP and MTP joint spaces",
     "explanation": "The axial angle improves demonstration of the IP and MTP joint spaces.",
-    "source": "Positioning practice · AP axial toes",
-    "part": "toes",
-    "projectionId": "toes-axial"
+    "source": "Positioning practice · AP axial toes"
   },
   {
     "id": "lower-004",
+    "part": "toes",
+    "projectionId": "toes-ap",
     "projection": "AP toes",
     "topic": "evaluation",
     "type": "mcq",
@@ -67,12 +69,12 @@
     ],
     "answer": "Equal soft-tissue width and midshaft concavity on both sides",
     "explanation": "Equal soft-tissue width and midshaft concavity on both sides support a nonrotated AP position.",
-    "source": "Positioning practice · AP toes",
-    "part": "toes",
-    "projectionId": "toes-ap"
+    "source": "Positioning practice · AP toes"
   },
   {
     "id": "lower-005",
+    "part": "toes",
+    "projectionId": "toes-axial",
     "projection": "AP axial toes",
     "topic": "anatomy",
     "type": "mcq",
@@ -86,8 +88,6 @@
     "answer": "AP axial toes",
     "explanation": "The image demonstrates positioning for the AP axial toes projection.",
     "source": "Positioning practice · AP axial toes",
-    "part": "toes",
-    "projectionId": "toes-axial",
     "image": {
       "src": "images/AP Axial Toes.png",
       "alt": "Positioning image showing the toes and central ray setup.",
@@ -96,6 +96,8 @@
   },
   {
     "id": "lower-006",
+    "part": "toes",
+    "projectionId": "toes-pa",
     "projection": "PA toes",
     "topic": "purpose",
     "type": "mcq",
@@ -108,12 +110,12 @@
     ],
     "answer": "Natural beam divergence helps open the joint spaces",
     "explanation": "The guide notes that natural beam divergence helps demonstrate the IP joint spaces on the PA toes projection.",
-    "source": "Positioning practice · PA toes",
-    "part": "toes",
-    "projectionId": "toes-pa"
+    "source": "Positioning practice · PA toes"
   },
   {
     "id": "lower-007",
+    "part": "toes",
+    "projectionId": "toes-pa",
     "projection": "PA toes",
     "topic": "positioning",
     "type": "mcq",
@@ -126,12 +128,12 @@
     ],
     "answer": "Prone with the dorsal aspect of the toes against the IR",
     "explanation": "For the PA toes projection, the patient lies prone with the dorsal aspect of the toes in contact with the IR.",
-    "source": "Positioning practice · PA toes",
-    "part": "toes",
-    "projectionId": "toes-pa"
+    "source": "Positioning practice · PA toes"
   },
   {
     "id": "lower-008",
+    "part": "toes",
+    "projectionId": "toes-pa",
     "projection": "PA toes",
     "topic": "positioning",
     "type": "mcq",
@@ -145,8 +147,6 @@
     "answer": "The patient is prone with the dorsal toes against the IR",
     "explanation": "PA toes are positioned prone with the dorsal aspect of the toes against the IR.",
     "source": "Positioning practice · PA toes",
-    "part": "toes",
-    "projectionId": "toes-pa",
     "image": {
       "src": "images/PA Toes.png",
       "alt": "Positioning image of the toes with the dorsal surface against the image receptor.",
@@ -155,6 +155,8 @@
   },
   {
     "id": "lower-009",
+    "part": "toes",
+    "projectionId": "toes-obl",
     "projection": "AP oblique toes",
     "topic": "positioning",
     "type": "mcq",
@@ -167,12 +169,12 @@
     ],
     "answer": "30–45°",
     "explanation": "The lower leg and foot are medially rotated 30–45° for the AP oblique toes projection.",
-    "source": "Positioning practice · AP oblique toes",
-    "part": "toes",
-    "projectionId": "toes-obl"
+    "source": "Positioning practice · AP oblique toes"
   },
   {
     "id": "lower-010",
+    "part": "toes",
+    "projectionId": "toes-obl",
     "projection": "AP oblique toes",
     "topic": "evaluation",
     "type": "mcq",
@@ -185,12 +187,12 @@
     ],
     "answer": "Greater soft tissue and concavity on the elevated side",
     "explanation": "Proper oblique rotation produces more soft tissue and concavity on the elevated side.",
-    "source": "Positioning practice · AP oblique toes",
-    "part": "toes",
-    "projectionId": "toes-obl"
+    "source": "Positioning practice · AP oblique toes"
   },
   {
     "id": "lower-011",
+    "part": "toes",
+    "projectionId": "toes-obl",
     "projection": "AP oblique toes",
     "topic": "evaluation",
     "type": "mcq",
@@ -203,12 +205,12 @@
     ],
     "answer": "First",
     "explanation": "The guide notes that the first MTP joint is not always open on the AP oblique toes projection.",
-    "source": "Positioning practice · AP oblique toes",
-    "part": "toes",
-    "projectionId": "toes-obl"
+    "source": "Positioning practice · AP oblique toes"
   },
   {
     "id": "lower-012",
+    "part": "toes",
+    "projectionId": "toes-obl",
     "projection": "AP oblique toes",
     "topic": "anatomy",
     "type": "mcq",
@@ -222,8 +224,6 @@
     "answer": "AP oblique toes",
     "explanation": "The image demonstrates medial rotation for the AP oblique toes projection.",
     "source": "Positioning practice · AP oblique toes",
-    "part": "toes",
-    "projectionId": "toes-obl",
     "image": {
       "src": "images/AP oblique toes, medial rotation..png",
       "alt": "Positioning image showing an obliquely rotated foot and toes.",
@@ -232,6 +232,8 @@
   },
   {
     "id": "lower-013",
+    "part": "toes",
+    "projectionId": "toes-obl",
     "projection": "AP oblique toes",
     "topic": "anatomy",
     "type": "mcq",
@@ -245,8 +247,6 @@
     "answer": "AP oblique toes",
     "explanation": "The radiograph demonstrates an AP oblique projection of the toes.",
     "source": "Positioning practice · AP oblique toes",
-    "part": "toes",
-    "projectionId": "toes-obl",
     "image": {
       "src": "images/AP oblique toes xray.png",
       "alt": "Radiograph of the toes.",
@@ -255,6 +255,8 @@
   },
   {
     "id": "lower-014",
+    "part": "toes",
+    "projectionId": "toes-lat",
     "projection": "Lateral toes",
     "topic": "central-ray",
     "type": "mcq",
@@ -267,12 +269,12 @@
     ],
     "answer": "IP joint of the great toe",
     "explanation": "The great toe has one IP joint, and the CR is centered there for the lateral projection.",
-    "source": "Positioning practice · Lateral toes",
-    "part": "toes",
-    "projectionId": "toes-lat"
+    "source": "Positioning practice · Lateral toes"
   },
   {
     "id": "lower-015",
+    "part": "toes",
+    "projectionId": "toes-lat",
     "projection": "Lateral toes",
     "topic": "central-ray",
     "type": "mcq",
@@ -285,12 +287,12 @@
     ],
     "answer": "Proximal IP joint",
     "explanation": "For the lesser toes, the lateral projection is centered at the proximal IP joint.",
-    "source": "Positioning practice · Lateral toes",
-    "part": "toes",
-    "projectionId": "toes-lat"
+    "source": "Positioning practice · Lateral toes"
   },
   {
     "id": "lower-016",
+    "part": "toes",
+    "projectionId": "toes-lat",
     "projection": "Lateral toes",
     "topic": "evaluation",
     "type": "mcq",
@@ -303,12 +305,12 @@
     ],
     "answer": "Toenail in profile",
     "explanation": "A toenail in profile is an evaluation criterion for a true lateral toe.",
-    "source": "Positioning practice · Lateral toes",
-    "part": "toes",
-    "projectionId": "toes-lat"
+    "source": "Positioning practice · Lateral toes"
   },
   {
     "id": "lower-017",
+    "part": "toes",
+    "projectionId": "toes-lat",
     "projection": "Lateral toes",
     "topic": "evaluation",
     "type": "mcq",
@@ -321,12 +323,12 @@
     ],
     "answer": "The entire toe free of superimposition from adjacent toes",
     "explanation": "The examined toe should be isolated from adjacent toes, with the proximal phalanx included.",
-    "source": "Positioning practice · Lateral toes",
-    "part": "toes",
-    "projectionId": "toes-lat"
+    "source": "Positioning practice · Lateral toes"
   },
   {
     "id": "lower-018",
+    "part": "toes",
+    "projectionId": "toes-lat",
     "projection": "Lateral toes",
     "topic": "positioning",
     "type": "mcq",
@@ -339,12 +341,12 @@
     ],
     "answer": "Unaffected side",
     "explanation": "For the first and second toes, the patient is placed on the unaffected side with the IR under the medial side of the foot.",
-    "source": "Positioning practice · Lateral toes",
-    "part": "toes",
-    "projectionId": "toes-lat"
+    "source": "Positioning practice · Lateral toes"
   },
   {
     "id": "lower-019",
+    "part": "toes",
+    "projectionId": "toes-lat",
     "projection": "Lateral toes",
     "topic": "positioning",
     "type": "mcq",
@@ -357,12 +359,12 @@
     ],
     "answer": "Affected side",
     "explanation": "For the third through fifth toes, the patient is placed on the affected side with the IR under the lateral side of the foot.",
-    "source": "Positioning practice · Lateral toes",
-    "part": "toes",
-    "projectionId": "toes-lat"
+    "source": "Positioning practice · Lateral toes"
   },
   {
     "id": "lower-020",
+    "part": "toes",
+    "projectionId": "toes-lat",
     "projection": "Lateral toes",
     "topic": "evaluation",
     "type": "mcq",
@@ -376,8 +378,6 @@
     "answer": "Toenail in profile and open IP joint",
     "explanation": "A correct lateral great toe should show the toenail in profile and the IP joint open.",
     "source": "Positioning practice · Lateral toes",
-    "part": "toes",
-    "projectionId": "toes-lat",
     "image": {
       "src": "images/Lateral great toe xray.png",
       "alt": "Lateral radiograph of the great toe.",
@@ -386,6 +386,8 @@
   },
   {
     "id": "lower-021",
+    "part": "toes",
+    "projectionId": "toes-lat",
     "projection": "Lateral toes",
     "topic": "positioning",
     "type": "mcq",
@@ -399,8 +401,6 @@
     "answer": "Lateral side",
     "explanation": "The third through fifth toes are positioned with the patient on the affected side and the IR under the lateral side of the foot.",
     "source": "Positioning practice · Lateral toes",
-    "part": "toes",
-    "projectionId": "toes-lat",
     "image": {
       "src": "images/Lateral fifth toe..png",
       "alt": "Positioning image of a toe in lateral position.",
@@ -409,6 +409,8 @@
   },
   {
     "id": "lower-022",
+    "part": "sesamoids",
+    "projectionId": "toes-lewis",
     "projection": "Lewis method · sesamoids",
     "topic": "evaluation",
     "type": "mcq",
@@ -421,12 +423,12 @@
     ],
     "answer": "Sesamoids free of the first metatarsal",
     "explanation": "Tangential sesamoid projections should demonstrate the sesamoids free of any portion of the first metatarsal.",
-    "source": "Positioning practice · Tangential sesamoids",
-    "part": "toes",
-    "projectionId": "toes-lewis"
+    "source": "Positioning practice · Tangential sesamoids"
   },
   {
     "id": "lower-023",
+    "part": "sesamoids",
+    "projectionId": "toes-lewis",
     "projection": "Lewis method · sesamoids",
     "topic": "positioning",
     "type": "mcq",
@@ -439,12 +441,12 @@
     ],
     "answer": "Prone",
     "explanation": "The Lewis method is performed with the patient prone.",
-    "source": "Positioning practice · Lewis method",
-    "part": "toes",
-    "projectionId": "toes-lewis"
+    "source": "Positioning practice · Lewis method"
   },
   {
     "id": "lower-024",
+    "part": "sesamoids",
+    "projectionId": "toes-holly",
     "projection": "Holly method · sesamoids",
     "topic": "positioning",
     "type": "mcq",
@@ -457,12 +459,12 @@
     ],
     "answer": "Sitting with the heel on the table",
     "explanation": "The Holly method is performed seated with the heel on the table and the foot hyperflexed.",
-    "source": "Positioning practice · Holly method",
-    "part": "toes",
-    "projectionId": "toes-holly"
+    "source": "Positioning practice · Holly method"
   },
   {
     "id": "lower-025",
+    "part": "sesamoids",
+    "projectionId": "toes-lewis",
     "projection": "Lewis method · sesamoids",
     "topic": "positioning",
     "type": "mcq",
@@ -475,12 +477,12 @@
     ],
     "answer": "Rested on the table in dorsiflexion",
     "explanation": "The guide positions the great toe on the table in dorsiflexion for the Lewis method.",
-    "source": "Positioning practice · Lewis method",
-    "part": "toes",
-    "projectionId": "toes-lewis"
+    "source": "Positioning practice · Lewis method"
   },
   {
     "id": "lower-026",
+    "part": "sesamoids",
+    "projectionId": "toes-holly",
     "projection": "Holly method · sesamoids",
     "topic": "positioning",
     "type": "mcq",
@@ -493,12 +495,12 @@
     ],
     "answer": "75°",
     "explanation": "The Holly method positions the plantar surface approximately 75° to the IR.",
-    "source": "Positioning practice · Holly method",
-    "part": "toes",
-    "projectionId": "toes-holly"
+    "source": "Positioning practice · Holly method"
   },
   {
     "id": "lower-027",
+    "part": "sesamoids",
+    "projectionId": "toes-holly",
     "projection": "Holly method · sesamoids",
     "topic": "central-ray",
     "type": "mcq",
@@ -511,12 +513,12 @@
     ],
     "answer": "First metatarsal head",
     "explanation": "The Holly method uses a perpendicular CR directed to the first metatarsal head.",
-    "source": "Positioning practice · Holly method",
-    "part": "toes",
-    "projectionId": "toes-holly"
+    "source": "Positioning practice · Holly method"
   },
   {
     "id": "lower-028",
+    "part": "sesamoids",
+    "projectionId": "sesamoids-tangential",
     "projection": "Tangential sesamoids",
     "topic": "ir-collimation",
     "type": "mcq",
@@ -529,12 +531,12 @@
     ],
     "answer": "3 × 3 inches",
     "explanation": "The guide lists a 3 × 3 inch collimation field for the tangential sesamoid projections.",
-    "source": "Positioning practice · Tangential sesamoids",
-    "part": "toes",
-    "projectionId": "toes-lewis"
+    "source": "Positioning practice · Tangential sesamoids"
   },
   {
     "id": "lower-029",
+    "part": "sesamoids",
+    "projectionId": "toes-holly",
     "projection": "Holly method · sesamoids",
     "topic": "anatomy",
     "type": "mcq",
@@ -548,8 +550,6 @@
     "answer": "Holly method",
     "explanation": "The image demonstrates positioning for the Holly tangential sesamoid method.",
     "source": "Positioning practice · Holly method",
-    "part": "toes",
-    "projectionId": "toes-holly",
     "image": {
       "src": "images/Tangential sesamoids; Holly method..png",
       "alt": "Positioning image for a tangential sesamoid examination.",
@@ -558,6 +558,8 @@
   },
   {
     "id": "lower-030",
+    "part": "sesamoids",
+    "projectionId": "toes-lewis",
     "projection": "Lewis method · sesamoids",
     "topic": "evaluation",
     "type": "mcq",
@@ -571,8 +573,6 @@
     "answer": "The sesamoids should be free of the first metatarsal",
     "explanation": "A satisfactory tangential sesamoid image shows the sesamoids free of the first metatarsal.",
     "source": "Positioning practice · Lewis method",
-    "part": "toes",
-    "projectionId": "toes-lewis",
     "image": {
       "src": "images/Tangential sesamoids; Lewis method with toes against the IR xray.png",
       "alt": "Tangential radiograph of the first metatarsal head and sesamoids.",
@@ -581,6 +581,8 @@
   },
   {
     "id": "lower-031",
+    "part": "foot",
+    "projectionId": "foot-ap",
     "projection": "AP foot",
     "topic": "central-ray",
     "type": "mcq",
@@ -593,12 +595,12 @@
     ],
     "answer": "Base of the third metatarsal",
     "explanation": "The routine AP foot uses a perpendicular CR centered at the base of the third metatarsal.",
-    "source": "Positioning practice · AP foot",
-    "part": "foot",
-    "projectionId": "foot-ap"
+    "source": "Positioning practice · AP foot"
   },
   {
     "id": "lower-032",
+    "part": "foot",
+    "projectionId": "foot-axial",
     "projection": "AP axial foot",
     "topic": "central-ray",
     "type": "mcq",
@@ -611,12 +613,12 @@
     ],
     "answer": "10° toward the heel at the base of the third metatarsal",
     "explanation": "The AP axial foot uses a 10° angle toward the heel, centered at the base of the third metatarsal.",
-    "source": "Positioning practice · AP axial foot",
-    "part": "foot",
-    "projectionId": "foot-axial"
+    "source": "Positioning practice · AP axial foot"
   },
   {
     "id": "lower-033",
+    "part": "foot",
+    "projectionId": "foot-axial",
     "projection": "AP axial foot",
     "topic": "central-ray",
     "type": "mcq",
@@ -629,12 +631,12 @@
     ],
     "answer": "The axial uses a 10° heelward angle instead of a perpendicular CR",
     "explanation": "Both center at the base of the third metatarsal, but the AP axial uses a 10° heelward angle.",
-    "source": "Positioning practice · AP and AP axial foot",
-    "part": "foot",
-    "projectionId": "foot-axial"
+    "source": "Positioning practice · AP and AP axial foot"
   },
   {
     "id": "lower-034",
+    "part": "foot",
+    "projectionId": "foot-axial",
     "projection": "AP axial foot",
     "topic": "evaluation",
     "type": "mcq",
@@ -647,12 +649,12 @@
     ],
     "answer": "AP axial foot",
     "explanation": "The AP axial foot improves demonstration of the IP, MTP, and TMT joint spaces.",
-    "source": "Positioning practice · AP axial foot",
-    "part": "foot",
-    "projectionId": "foot-axial"
+    "source": "Positioning practice · AP axial foot"
   },
   {
     "id": "lower-035",
+    "part": "foot",
+    "projectionId": "foot-ap",
     "projection": "AP foot",
     "topic": "evaluation",
     "type": "mcq",
@@ -665,12 +667,12 @@
     ],
     "answer": "Equal spacing between the second through fourth metatarsals",
     "explanation": "Equal spacing between the second through fourth metatarsals is an AP foot evaluation criterion.",
-    "source": "Positioning practice · AP foot",
-    "part": "foot",
-    "projectionId": "foot-ap"
+    "source": "Positioning practice · AP foot"
   },
   {
     "id": "lower-036",
+    "part": "foot",
+    "projectionId": "foot-ap",
     "projection": "AP foot",
     "topic": "evaluation",
     "type": "mcq",
@@ -683,12 +685,12 @@
     ],
     "answer": "Second through fifth",
     "explanation": "The AP foot normally demonstrates overlap of the second through fifth metatarsal bases.",
-    "source": "Positioning practice · AP foot",
-    "part": "foot",
-    "projectionId": "foot-ap"
+    "source": "Positioning practice · AP foot"
   },
   {
     "id": "lower-037",
+    "part": "foot",
+    "projectionId": "foot-ap",
     "projection": "AP foot",
     "topic": "evaluation",
     "type": "mcq",
@@ -701,12 +703,12 @@
     ],
     "answer": "Between the medial and intermediate cuneiforms",
     "explanation": "The guide lists an open joint space between the medial and intermediate cuneiforms.",
-    "source": "Positioning practice · AP foot",
-    "part": "foot",
-    "projectionId": "foot-ap"
+    "source": "Positioning practice · AP foot"
   },
   {
     "id": "lower-038",
+    "part": "foot",
+    "projectionId": "foot-ap",
     "projection": "AP foot",
     "topic": "anatomy",
     "type": "mcq",
@@ -720,8 +722,6 @@
     "answer": "AP foot",
     "explanation": "The image demonstrates the AP foot with a perpendicular CR.",
     "source": "Positioning practice · AP foot",
-    "part": "foot",
-    "projectionId": "foot-ap",
     "image": {
       "src": "images/AP foot with perpendicular CR..png",
       "alt": "Positioning image of the foot with a perpendicular central ray.",
@@ -730,6 +730,8 @@
   },
   {
     "id": "lower-039",
+    "part": "foot",
+    "projectionId": "foot-axial",
     "projection": "AP axial foot",
     "topic": "central-ray",
     "type": "mcq",
@@ -743,8 +745,6 @@
     "answer": "Base of the third metatarsal",
     "explanation": "The AP axial foot uses a 10° heelward CR entering at the base of the third metatarsal.",
     "source": "Positioning practice · AP axial foot",
-    "part": "foot",
-    "projectionId": "foot-axial",
     "image": {
       "src": "images/AP axial foot with posterior angulation of 10 degrees..png",
       "alt": "Positioning image of the foot with an angled central ray.",
@@ -753,6 +753,8 @@
   },
   {
     "id": "lower-040",
+    "part": "foot",
+    "projectionId": "foot-med",
     "projection": "AP oblique foot · medial rotation",
     "topic": "positioning",
     "type": "mcq",
@@ -765,12 +767,12 @@
     ],
     "answer": "30°",
     "explanation": "The foot is rotated medially until the plantar surface forms a 30° angle with the IR plane.",
-    "source": "Positioning practice · AP oblique foot, medial rotation",
-    "part": "foot",
-    "projectionId": "foot-med"
+    "source": "Positioning practice · AP oblique foot, medial rotation"
   },
   {
     "id": "lower-041",
+    "part": "foot",
+    "projectionId": "foot-med",
     "projection": "AP oblique foot · medial rotation",
     "topic": "central-ray",
     "type": "mcq",
@@ -783,12 +785,12 @@
     ],
     "answer": "Base of the third metatarsal",
     "explanation": "The CR is perpendicular and centered at the base of the third metatarsal.",
-    "source": "Positioning practice · AP oblique foot, medial rotation",
-    "part": "foot",
-    "projectionId": "foot-med"
+    "source": "Positioning practice · AP oblique foot, medial rotation"
   },
   {
     "id": "lower-042",
+    "part": "foot",
+    "projectionId": "foot-med",
     "projection": "AP oblique foot · medial rotation",
     "topic": "evaluation",
     "type": "mcq",
@@ -801,12 +803,12 @@
     ],
     "answer": "Cuboid in profile and sinus tarsi well shown",
     "explanation": "The medial oblique foot demonstrates the cuboid in profile and the sinus tarsi well.",
-    "source": "Positioning practice · AP oblique foot, medial rotation",
-    "part": "foot",
-    "projectionId": "foot-med"
+    "source": "Positioning practice · AP oblique foot, medial rotation"
   },
   {
     "id": "lower-043",
+    "part": "foot",
+    "projectionId": "foot-med",
     "projection": "AP oblique foot · medial rotation",
     "topic": "evaluation",
     "type": "mcq",
@@ -819,12 +821,12 @@
     ],
     "answer": "Third through fifth",
     "explanation": "Proper medial rotation demonstrates the third through fifth metatarsals free of superimposition.",
-    "source": "Positioning practice · AP oblique foot, medial rotation",
-    "part": "foot",
-    "projectionId": "foot-med"
+    "source": "Positioning practice · AP oblique foot, medial rotation"
   },
   {
     "id": "lower-044",
+    "part": "foot",
+    "projectionId": "foot-med",
     "projection": "AP oblique foot · medial rotation",
     "topic": "evaluation",
     "type": "mcq",
@@ -837,12 +839,12 @@
     ],
     "answer": "Fifth metatarsal tuberosity",
     "explanation": "The tuberosity of the fifth metatarsal is among the structures evaluated on the medial oblique foot.",
-    "source": "Positioning practice · AP oblique foot, medial rotation",
-    "part": "foot",
-    "projectionId": "foot-med"
+    "source": "Positioning practice · AP oblique foot, medial rotation"
   },
   {
     "id": "lower-045",
+    "part": "foot",
+    "projectionId": "foot-med",
     "projection": "AP oblique foot · medial rotation",
     "topic": "positioning",
     "type": "mcq",
@@ -856,8 +858,6 @@
     "answer": "30° medially",
     "explanation": "The AP oblique foot with medial rotation uses approximately 30° of medial rotation.",
     "source": "Positioning practice · AP oblique foot, medial rotation",
-    "part": "foot",
-    "projectionId": "foot-med",
     "image": {
       "src": "images/AP oblique foot, medial rotation..png",
       "alt": "Positioning image of an obliquely rotated foot.",
@@ -866,6 +866,8 @@
   },
   {
     "id": "lower-046",
+    "part": "foot",
+    "projectionId": "foot-ext",
     "projection": "AP oblique foot · lateral rotation",
     "topic": "purpose",
     "type": "mcq",
@@ -878,12 +880,12 @@
     ],
     "answer": "Navicular with less foreshortening",
     "explanation": "The lateral oblique foot shows the navicular with less foreshortening than the medial oblique.",
-    "source": "Positioning practice · AP oblique foot, lateral rotation",
-    "part": "foot",
-    "projectionId": "foot-ext"
+    "source": "Positioning practice · AP oblique foot, lateral rotation"
   },
   {
     "id": "lower-047",
+    "part": "foot",
+    "projectionId": "foot-ext",
     "projection": "AP oblique foot · lateral rotation",
     "topic": "evaluation",
     "type": "mcq",
@@ -896,12 +898,12 @@
     ],
     "answer": "First and second",
     "explanation": "The lateral oblique foot demonstrates the first and second metatarsals free of superimposition.",
-    "source": "Positioning practice · AP oblique foot, lateral rotation",
-    "part": "foot",
-    "projectionId": "foot-ext"
+    "source": "Positioning practice · AP oblique foot, lateral rotation"
   },
   {
     "id": "lower-048",
+    "part": "foot",
+    "projectionId": "foot-ext",
     "projection": "AP oblique foot · lateral rotation",
     "topic": "evaluation",
     "type": "mcq",
@@ -914,12 +916,12 @@
     ],
     "answer": "Medial and intermediate cuneiforms",
     "explanation": "The guide lists minimal superimposition between the medial and intermediate cuneiforms.",
-    "source": "Positioning practice · AP oblique foot, lateral rotation",
-    "part": "foot",
-    "projectionId": "foot-ext"
+    "source": "Positioning practice · AP oblique foot, lateral rotation"
   },
   {
     "id": "lower-049",
+    "part": "foot",
+    "projectionId": "foot-ext",
     "projection": "AP oblique foot · lateral rotation",
     "topic": "evaluation",
     "type": "mcq",
@@ -932,12 +934,12 @@
     ],
     "answer": "Medial oblique → cuboid profile; lateral oblique → navicular less foreshortened",
     "explanation": "The medial oblique emphasizes the cuboid and sinus tarsi, while the lateral oblique reduces navicular foreshortening.",
-    "source": "Positioning practice · AP oblique foot comparison",
-    "part": "foot",
-    "projectionId": "foot-ext"
+    "source": "Positioning practice · AP oblique foot comparison"
   },
   {
     "id": "lower-050",
+    "part": "foot",
+    "projectionId": "foot-ext",
     "projection": "AP oblique foot · lateral rotation",
     "topic": "evaluation",
     "type": "mcq",
@@ -951,8 +953,6 @@
     "answer": "First and second metatarsals free of superimposition",
     "explanation": "The lateral oblique foot demonstrates the first and second metatarsals relatively free of superimposition.",
     "source": "Positioning practice · AP oblique foot, lateral rotation",
-    "part": "foot",
-    "projectionId": "foot-ext",
     "image": {
       "src": "images/AP oblique foot, lateral rotation.png",
       "alt": "Positioning image of an obliquely rotated foot.",
@@ -961,6 +961,8 @@
   },
   {
     "id": "lower-051",
+    "part": "foot",
+    "projectionId": "foot-med",
     "projection": "AP oblique foot · medial rotation",
     "topic": "pathology",
     "type": "mcq",
@@ -974,8 +976,6 @@
     "answer": "Tuberosity/base of the fifth metatarsal",
     "explanation": "The proximal fifth metatarsal region is demonstrated on the oblique foot and should be carefully evaluated.",
     "source": "Positioning practice · AP oblique foot",
-    "part": "foot",
-    "projectionId": "foot-med",
     "image": {
       "src": "images/AP Oblique Jones Fracture xray.png",
       "alt": "Oblique radiograph of the foot.",
@@ -984,6 +984,8 @@
   },
   {
     "id": "lower-052",
+    "part": "foot",
+    "projectionId": "foot-lat",
     "projection": "Lateral foot",
     "topic": "positioning",
     "type": "mcq",
@@ -996,12 +998,12 @@
     ],
     "answer": "90°",
     "explanation": "The lateral foot is dorsiflexed to approximately a right angle with the lower leg.",
-    "source": "Positioning practice · Lateral foot",
-    "part": "foot",
-    "projectionId": "foot-lat"
+    "source": "Positioning practice · Lateral foot"
   },
   {
     "id": "lower-053",
+    "part": "foot",
+    "projectionId": "foot-lat",
     "projection": "Lateral foot",
     "topic": "central-ray",
     "type": "mcq",
@@ -1014,12 +1016,12 @@
     ],
     "answer": "Medial surface at the base of the first metatarsal",
     "explanation": "The lateral foot uses a perpendicular CR entering the medial surface at the base of the first metatarsal.",
-    "source": "Positioning practice · Lateral foot",
-    "part": "foot",
-    "projectionId": "foot-lat"
+    "source": "Positioning practice · Lateral foot"
   },
   {
     "id": "lower-054",
+    "part": "foot",
+    "projectionId": "foot-lat",
     "projection": "Lateral foot",
     "topic": "positioning",
     "type": "mcq",
@@ -1032,12 +1034,12 @@
     ],
     "answer": "Medial",
     "explanation": "The medial surface of the foot should be parallel with the IR for the mediolateral foot.",
-    "source": "Positioning practice · Lateral foot",
-    "part": "foot",
-    "projectionId": "foot-lat"
+    "source": "Positioning practice · Lateral foot"
   },
   {
     "id": "lower-055",
+    "part": "foot",
+    "projectionId": "foot-lat",
     "projection": "Lateral foot",
     "topic": "positioning",
     "type": "mcq",
@@ -1050,12 +1052,12 @@
     ],
     "answer": "The heel should not touch the IR",
     "explanation": "The guide specifies that the heel should not touch the IR.",
-    "source": "Positioning practice · Lateral foot",
-    "part": "foot",
-    "projectionId": "foot-lat"
+    "source": "Positioning practice · Lateral foot"
   },
   {
     "id": "lower-056",
+    "part": "foot",
+    "projectionId": "foot-lat",
     "projection": "Lateral foot",
     "topic": "evaluation",
     "type": "mcq",
@@ -1068,12 +1070,12 @@
     ],
     "answer": "Plantar surfaces of the metatarsal heads superimposed",
     "explanation": "Superimposition of the plantar surfaces of the metatarsal heads is an evaluation criterion for the lateral foot.",
-    "source": "Positioning practice · Lateral foot",
-    "part": "foot",
-    "projectionId": "foot-lat"
+    "source": "Positioning practice · Lateral foot"
   },
   {
     "id": "lower-057",
+    "part": "foot",
+    "projectionId": "foot-lat",
     "projection": "Lateral foot",
     "topic": "evaluation",
     "type": "mcq",
@@ -1086,12 +1088,12 @@
     ],
     "answer": "Overlapping the posterior portion of the tibia",
     "explanation": "A proper lateral foot shows the fibula overlapping the posterior portion of the tibia.",
-    "source": "Positioning practice · Lateral foot",
-    "part": "foot",
-    "projectionId": "foot-lat"
+    "source": "Positioning practice · Lateral foot"
   },
   {
     "id": "lower-058",
+    "part": "foot",
+    "projectionId": "foot-lat",
     "projection": "Lateral foot",
     "topic": "anatomy",
     "type": "mcq",
@@ -1105,8 +1107,6 @@
     "answer": "Lateral mediolateral foot",
     "explanation": "The image demonstrates the mediolateral lateral foot position.",
     "source": "Positioning practice · Lateral foot",
-    "part": "foot",
-    "projectionId": "foot-lat",
     "image": {
       "src": "images/Lateral foot..png",
       "alt": "Positioning image of the foot in a lateral position.",
@@ -1115,6 +1115,8 @@
   },
   {
     "id": "lower-059",
+    "part": "foot",
+    "projectionId": "foot-lat",
     "projection": "Lateral foot",
     "topic": "evaluation",
     "type": "mcq",
@@ -1128,8 +1130,6 @@
     "answer": "Insufficient dorsiflexion of the foot",
     "explanation": "The foot was not dorsiflexed enough to form the intended right angle with the lower leg.",
     "source": "Positioning practice · Lateral foot",
-    "part": "foot",
-    "projectionId": "foot-lat",
     "image": {
       "src": "images/Lateral (mediolateral foot) with foot not dorsiflexed completely. xray.png",
       "alt": "Lateral foot radiograph demonstrating a positioning error.",
@@ -1138,6 +1138,8 @@
   },
   {
     "id": "lower-060",
+    "part": "foot",
+    "projectionId": "foot-lat",
     "projection": "Lateral foot",
     "topic": "evaluation",
     "type": "mcq",
@@ -1151,8 +1153,6 @@
     "answer": "The foot should form approximately a 90° angle with the lower leg",
     "explanation": "A lateral foot should be dorsiflexed to approximately 90° with the lower leg.",
     "source": "Positioning practice · Lateral foot",
-    "part": "foot",
-    "projectionId": "foot-lat",
     "image": {
       "src": "images/Lateral (mediolateral foot) with foot not dorsiflexed completely. xray.png",
       "alt": "Lateral foot radiograph demonstrating a positioning error.",
@@ -1161,6 +1161,8 @@
   },
   {
     "id": "lower-061",
+    "part": "foot",
+    "projectionId": "foot-arch",
     "projection": "Weight-bearing lateral · longitudinal arch",
     "topic": "purpose",
     "type": "mcq",
@@ -1173,12 +1175,12 @@
     ],
     "answer": "Structural status of the longitudinal arch under load",
     "explanation": "The weight-bearing lateral projection demonstrates the structural status of the longitudinal arch under load.",
-    "source": "Positioning practice · Longitudinal arch",
-    "part": "foot",
-    "projectionId": "foot-arch"
+    "source": "Positioning practice · Longitudinal arch"
   },
   {
     "id": "lower-062",
+    "part": "foot",
+    "projectionId": "foot-arch",
     "projection": "Weight-bearing lateral · longitudinal arch",
     "topic": "positioning",
     "type": "mcq",
@@ -1191,12 +1193,12 @@
     ],
     "answer": "Equally between both feet",
     "explanation": "The patient stands naturally with weight equally distributed between both feet.",
-    "source": "Positioning practice · Longitudinal arch",
-    "part": "foot",
-    "projectionId": "foot-arch"
+    "source": "Positioning practice · Longitudinal arch"
   },
   {
     "id": "lower-063",
+    "part": "foot",
+    "projectionId": "foot-arch",
     "projection": "Weight-bearing lateral · longitudinal arch",
     "topic": "central-ray",
     "type": "mcq",
@@ -1209,12 +1211,12 @@
     ],
     "answer": "Just above the base of the third metatarsal",
     "explanation": "The CR is perpendicular to a point just above the base of the third metatarsal.",
-    "source": "Positioning practice · Longitudinal arch",
-    "part": "foot",
-    "projectionId": "foot-arch"
+    "source": "Positioning practice · Longitudinal arch"
   },
   {
     "id": "lower-064",
+    "part": "foot",
+    "projectionId": "foot-wb",
     "projection": "Weight-bearing AP axial foot",
     "topic": "central-ray",
     "type": "mcq",
@@ -1227,12 +1229,12 @@
     ],
     "answer": "10° toward the heels between the feet",
     "explanation": "The weight-bearing AP axial feet use a 10° angle toward the heels between the feet.",
-    "source": "Positioning practice · Weight-bearing AP axial foot",
-    "part": "foot",
-    "projectionId": "foot-wb"
+    "source": "Positioning practice · Weight-bearing AP axial foot"
   },
   {
     "id": "lower-065",
+    "part": "foot",
+    "projectionId": "foot-wb",
     "projection": "Weight-bearing AP axial foot",
     "topic": "central-ray",
     "type": "mcq",
@@ -1245,12 +1247,12 @@
     ],
     "answer": "Base of the third metatarsal",
     "explanation": "The CR is leveled at the base of the third metatarsal.",
-    "source": "Positioning practice · Weight-bearing AP axial foot",
-    "part": "foot",
-    "projectionId": "foot-wb"
+    "source": "Positioning practice · Weight-bearing AP axial foot"
   },
   {
     "id": "lower-066",
+    "part": "foot",
+    "projectionId": "foot-wb",
     "projection": "Weight-bearing AP axial foot",
     "topic": "evaluation",
     "type": "mcq",
@@ -1263,12 +1265,12 @@
     ],
     "answer": "Both feet centered on one image",
     "explanation": "The guide specifies that both feet should be centered on one image.",
-    "source": "Positioning practice · Weight-bearing AP axial foot",
-    "part": "foot",
-    "projectionId": "foot-wb"
+    "source": "Positioning practice · Weight-bearing AP axial foot"
   },
   {
     "id": "lower-067",
+    "part": "foot",
+    "projectionId": "foot-composite",
     "projection": "Weight-bearing AP axial · composite",
     "topic": "positioning",
     "type": "mcq",
@@ -1281,12 +1283,12 @@
     ],
     "answer": "In front of the patient",
     "explanation": "The first composite exposure is made with the tube in front.",
-    "source": "Positioning practice · Weight-bearing AP axial composite",
-    "part": "foot",
-    "projectionId": "foot-composite"
+    "source": "Positioning practice · Weight-bearing AP axial composite"
   },
   {
     "id": "lower-068",
+    "part": "foot",
+    "projectionId": "foot-composite",
     "projection": "Weight-bearing AP axial · composite",
     "topic": "central-ray",
     "type": "mcq",
@@ -1299,12 +1301,12 @@
     ],
     "answer": "15° posterior",
     "explanation": "The first exposure uses a 15° posterior angulation at the base of the third metatarsal.",
-    "source": "Positioning practice · Weight-bearing AP axial composite",
-    "part": "foot",
-    "projectionId": "foot-composite"
+    "source": "Positioning practice · Weight-bearing AP axial composite"
   },
   {
     "id": "lower-069",
+    "part": "foot",
+    "projectionId": "foot-composite",
     "projection": "Weight-bearing AP axial · composite",
     "topic": "central-ray",
     "type": "mcq",
@@ -1317,12 +1319,12 @@
     ],
     "answer": "25° anterior",
     "explanation": "The second exposure uses a 25° anterior angulation at the posterior surface of the ankle.",
-    "source": "Positioning practice · Weight-bearing AP axial composite",
-    "part": "foot",
-    "projectionId": "foot-composite"
+    "source": "Positioning practice · Weight-bearing AP axial composite"
   },
   {
     "id": "lower-070",
+    "part": "foot",
+    "projectionId": "foot-composite",
     "projection": "Weight-bearing AP axial · composite",
     "topic": "purpose",
     "type": "mcq",
@@ -1335,12 +1337,12 @@
     ],
     "answer": "To prevent the leg shadow from superimposing the ankle and hindfoot anatomy",
     "explanation": "The two-step positioning helps keep the leg shadow from obscuring the ankle and hindfoot.",
-    "source": "Positioning practice · Weight-bearing AP axial composite",
-    "part": "foot",
-    "projectionId": "foot-composite"
+    "source": "Positioning practice · Weight-bearing AP axial composite"
   },
   {
     "id": "lower-071",
+    "part": "calcaneus",
+    "projectionId": "calcaneus-axial",
     "projection": "Plantodorsal axial calcaneus",
     "topic": "central-ray",
     "type": "mcq",
@@ -1353,12 +1355,12 @@
     ],
     "answer": "40° cephalad",
     "explanation": "The plantodorsal axial calcaneus uses a 40° cephalad CR.",
-    "source": "Positioning practice · Plantodorsal axial calcaneus",
-    "part": "calcaneus",
-    "projectionId": "calcaneus-axial"
+    "source": "Positioning practice · Plantodorsal axial calcaneus"
   },
   {
     "id": "lower-072",
+    "part": "calcaneus",
+    "projectionId": "calcaneus-axial",
     "projection": "Plantodorsal axial calcaneus",
     "topic": "central-ray",
     "type": "mcq",
@@ -1371,12 +1373,12 @@
     ],
     "answer": "Base of the third metatarsal",
     "explanation": "The 40° cephalad CR enters at the base of the third metatarsal.",
-    "source": "Positioning practice · Plantodorsal axial calcaneus",
-    "part": "calcaneus",
-    "projectionId": "calcaneus-axial"
+    "source": "Positioning practice · Plantodorsal axial calcaneus"
   },
   {
     "id": "lower-073",
+    "part": "calcaneus",
+    "projectionId": "calcaneus-axial",
     "projection": "Plantodorsal axial calcaneus",
     "topic": "evaluation",
     "type": "mcq",
@@ -1389,12 +1391,12 @@
     ],
     "answer": "Sustentaculum tali",
     "explanation": "The sustentaculum tali should be demonstrated in profile on the medial side.",
-    "source": "Positioning practice · Plantodorsal axial calcaneus",
-    "part": "calcaneus",
-    "projectionId": "calcaneus-axial"
+    "source": "Positioning practice · Plantodorsal axial calcaneus"
   },
   {
     "id": "lower-074",
+    "part": "calcaneus",
+    "projectionId": "calcaneus-axial",
     "projection": "Plantodorsal axial calcaneus",
     "topic": "evaluation",
     "type": "mcq",
@@ -1407,12 +1409,12 @@
     ],
     "answer": "First and fifth metatarsals not visible on either side",
     "explanation": "The guide uses absence of the first and fifth metatarsals on either side as an indicator of no calcaneal rotation.",
-    "source": "Positioning practice · Plantodorsal axial calcaneus",
-    "part": "calcaneus",
-    "projectionId": "calcaneus-axial"
+    "source": "Positioning practice · Plantodorsal axial calcaneus"
   },
   {
     "id": "lower-075",
+    "part": "calcaneus",
+    "projectionId": "calcaneus-axial",
     "projection": "Plantodorsal axial calcaneus",
     "topic": "central-ray",
     "type": "mcq",
@@ -1426,8 +1428,6 @@
     "answer": "40° cephalad",
     "explanation": "The image shows positioning for the plantodorsal axial calcaneus, which uses a 40° cephalad CR.",
     "source": "Positioning practice · Plantodorsal axial calcaneus",
-    "part": "calcaneus",
-    "projectionId": "calcaneus-axial",
     "image": {
       "src": "images/Axial (plantodorsal) calcaneus..png",
       "alt": "Positioning image for an axial calcaneus examination.",
@@ -1436,6 +1436,8 @@
   },
   {
     "id": "lower-076",
+    "part": "calcaneus",
+    "projectionId": "calcaneus-lat",
     "projection": "Lateral calcaneus",
     "topic": "central-ray",
     "type": "mcq",
@@ -1448,12 +1450,12 @@
     ],
     "answer": "One inch distal to the medial malleolus",
     "explanation": "The lateral calcaneus uses a perpendicular CR approximately 1 inch distal to the medial malleolus.",
-    "source": "Positioning practice · Lateral calcaneus",
-    "part": "calcaneus",
-    "projectionId": "calcaneus-lat"
+    "source": "Positioning practice · Lateral calcaneus"
   },
   {
     "id": "lower-077",
+    "part": "calcaneus",
+    "projectionId": "calcaneus-lat",
     "projection": "Lateral calcaneus",
     "topic": "evaluation",
     "type": "mcq",
@@ -1466,12 +1468,12 @@
     ],
     "answer": "Sinus tarsi",
     "explanation": "The sinus tarsi should be open on a properly positioned lateral calcaneus.",
-    "source": "Positioning practice · Lateral calcaneus",
-    "part": "calcaneus",
-    "projectionId": "calcaneus-lat"
+    "source": "Positioning practice · Lateral calcaneus"
   },
   {
     "id": "lower-078",
+    "part": "calcaneus",
+    "projectionId": "calcaneus-lat",
     "projection": "Lateral calcaneus",
     "topic": "evaluation",
     "type": "mcq",
@@ -1484,12 +1486,12 @@
     ],
     "answer": "Calcaneocuboid and talonavicular",
     "explanation": "The guide lists open calcaneocuboid and talonavicular joints as evaluation criteria.",
-    "source": "Positioning practice · Lateral calcaneus",
-    "part": "calcaneus",
-    "projectionId": "calcaneus-lat"
+    "source": "Positioning practice · Lateral calcaneus"
   },
   {
     "id": "lower-079",
+    "part": "calcaneus",
+    "projectionId": "calcaneus-lat",
     "projection": "Lateral calcaneus",
     "topic": "evaluation",
     "type": "mcq",
@@ -1502,12 +1504,12 @@
     ],
     "answer": "In profile",
     "explanation": "The calcaneal tuberosity should be demonstrated in profile.",
-    "source": "Positioning practice · Lateral calcaneus",
-    "part": "calcaneus",
-    "projectionId": "calcaneus-lat"
+    "source": "Positioning practice · Lateral calcaneus"
   },
   {
     "id": "lower-080",
+    "part": "calcaneus",
+    "projectionId": "calcaneus-lat",
     "projection": "Lateral calcaneus",
     "topic": "anatomy",
     "type": "mcq",
@@ -1521,8 +1523,6 @@
     "answer": "Lateral calcaneus",
     "explanation": "The image demonstrates positioning for the lateral calcaneus.",
     "source": "Positioning practice · Lateral calcaneus",
-    "part": "calcaneus",
-    "projectionId": "calcaneus-lat",
     "image": {
       "src": "images/Lateral calcaneus..png",
       "alt": "Positioning image of the heel in a lateral position.",
@@ -1531,6 +1531,8 @@
   },
   {
     "id": "lower-081",
+    "part": "ankle",
+    "projectionId": "ankle-ap",
     "projection": "AP ankle",
     "topic": "central-ray",
     "type": "mcq",
@@ -1543,12 +1545,12 @@
     ],
     "answer": "Midway between the malleoli",
     "explanation": "The AP ankle uses a perpendicular CR centered midway between the malleoli.",
-    "source": "Positioning practice · AP ankle",
-    "part": "ankle",
-    "projectionId": "ankle-ap"
+    "source": "Positioning practice · AP ankle"
   },
   {
     "id": "lower-082",
+    "part": "ankle",
+    "projectionId": "ankle-ap",
     "projection": "AP ankle",
     "topic": "evaluation",
     "type": "mcq",
@@ -1561,12 +1563,12 @@
     ],
     "answer": "Normal overlap",
     "explanation": "The AP ankle normally demonstrates overlap at the distal tibiofibular articulation.",
-    "source": "Positioning practice · AP ankle",
-    "part": "ankle",
-    "projectionId": "ankle-ap"
+    "source": "Positioning practice · AP ankle"
   },
   {
     "id": "lower-083",
+    "part": "ankle",
+    "projectionId": "ankle-ap",
     "projection": "AP ankle",
     "topic": "evaluation",
     "type": "mcq",
@@ -1579,12 +1581,12 @@
     ],
     "answer": "Slightly superimposed over the fibula",
     "explanation": "The anterior tubercle should be slightly superimposed over the fibula on the AP ankle.",
-    "source": "Positioning practice · AP ankle",
-    "part": "ankle",
-    "projectionId": "ankle-ap"
+    "source": "Positioning practice · AP ankle"
   },
   {
     "id": "lower-084",
+    "part": "ankle",
+    "projectionId": "ankle-ap",
     "projection": "AP ankle",
     "topic": "evaluation",
     "type": "mcq",
@@ -1597,12 +1599,12 @@
     ],
     "answer": "Talus slightly overlaps the distal fibula",
     "explanation": "The guide notes slight overlap of the talus and distal fibula on the AP ankle.",
-    "source": "Positioning practice · AP ankle",
-    "part": "ankle",
-    "projectionId": "ankle-ap"
+    "source": "Positioning practice · AP ankle"
   },
   {
     "id": "lower-085",
+    "part": "ankle",
+    "projectionId": "ankle-ap",
     "projection": "AP ankle",
     "topic": "central-ray",
     "type": "mcq",
@@ -1616,8 +1618,6 @@
     "answer": "Midway between the malleoli",
     "explanation": "The image shows an AP ankle, centered midway between the malleoli.",
     "source": "Positioning practice · AP ankle",
-    "part": "ankle",
-    "projectionId": "ankle-ap",
     "image": {
       "src": "images/AP ankle..png",
       "alt": "Positioning image of an ankle in an AP position.",
@@ -1626,6 +1626,8 @@
   },
   {
     "id": "lower-086",
+    "part": "ankle",
+    "projectionId": "ankle-lat",
     "projection": "Lateral ankle",
     "topic": "central-ray",
     "type": "mcq",
@@ -1638,12 +1640,12 @@
     ],
     "answer": "Medial malleolus",
     "explanation": "The mediolateral ankle uses a perpendicular CR entering at the medial malleolus.",
-    "source": "Positioning practice · Lateral ankle",
-    "part": "ankle",
-    "projectionId": "ankle-lat"
+    "source": "Positioning practice · Lateral ankle"
   },
   {
     "id": "lower-087",
+    "part": "ankle",
+    "projectionId": "ankle-lat",
     "projection": "Lateral ankle",
     "topic": "evaluation",
     "type": "mcq",
@@ -1656,12 +1658,12 @@
     ],
     "answer": "Medial and lateral talar domes superimposed",
     "explanation": "Superimposition of the medial and lateral talar domes supports a true lateral ankle.",
-    "source": "Positioning practice · Lateral ankle",
-    "part": "ankle",
-    "projectionId": "ankle-lat"
+    "source": "Positioning practice · Lateral ankle"
   },
   {
     "id": "lower-088",
+    "part": "ankle",
+    "projectionId": "ankle-lat",
     "projection": "Lateral ankle",
     "topic": "evaluation",
     "type": "mcq",
@@ -1674,12 +1676,12 @@
     ],
     "answer": "Over the posterior half of the tibia",
     "explanation": "The fibula should overlap the posterior half of the tibia.",
-    "source": "Positioning practice · Lateral ankle",
-    "part": "ankle",
-    "projectionId": "ankle-lat"
+    "source": "Positioning practice · Lateral ankle"
   },
   {
     "id": "lower-089",
+    "part": "ankle",
+    "projectionId": "ankle-lat",
     "projection": "Lateral ankle",
     "topic": "pathology",
     "type": "mcq",
@@ -1692,12 +1694,12 @@
     ],
     "answer": "To evaluate for a Jones fracture",
     "explanation": "The guide notes that the fifth metatarsal base and tuberosity should be checked for a Jones fracture.",
-    "source": "Positioning practice · Lateral ankle",
-    "part": "ankle",
-    "projectionId": "ankle-lat"
+    "source": "Positioning practice · Lateral ankle"
   },
   {
     "id": "lower-090",
+    "part": "ankle",
+    "projectionId": "ankle-lat",
     "projection": "Lateral ankle",
     "topic": "anatomy",
     "type": "mcq",
@@ -1711,8 +1713,6 @@
     "answer": "Lateral ankle",
     "explanation": "The image demonstrates a mediolateral ankle position.",
     "source": "Positioning practice · Lateral ankle",
-    "part": "ankle",
-    "projectionId": "ankle-lat",
     "image": {
       "src": "images/Lateral ankle, mediolateral..png",
       "alt": "Positioning image of an ankle in a lateral position.",
@@ -1721,6 +1721,8 @@
   },
   {
     "id": "lower-091",
+    "part": "ankle",
+    "projectionId": "ankle-med45",
     "projection": "AP oblique ankle · 45° medial rotation",
     "topic": "positioning",
     "type": "mcq",
@@ -1733,12 +1735,12 @@
     ],
     "answer": "45°",
     "explanation": "The AP oblique ankle uses 45° of medial rotation.",
-    "source": "Positioning practice · AP oblique ankle, 45° medial rotation",
-    "part": "ankle",
-    "projectionId": "ankle-med45"
+    "source": "Positioning practice · AP oblique ankle, 45° medial rotation"
   },
   {
     "id": "lower-092",
+    "part": "ankle",
+    "projectionId": "ankle-med45",
     "projection": "AP oblique ankle · 45° medial rotation",
     "topic": "purpose",
     "type": "mcq",
@@ -1751,12 +1753,12 @@
     ],
     "answer": "Distal tibiofibular articulation",
     "explanation": "The 45° medial oblique ankle demonstrates the distal tibiofibular articulation open.",
-    "source": "Positioning practice · AP oblique ankle, 45° medial rotation",
-    "part": "ankle",
-    "projectionId": "ankle-med45"
+    "source": "Positioning practice · AP oblique ankle, 45° medial rotation"
   },
   {
     "id": "lower-093",
+    "part": "ankle",
+    "projectionId": "ankle-med45",
     "projection": "AP oblique ankle · 45° medial rotation",
     "topic": "positioning",
     "type": "mcq",
@@ -1769,12 +1771,12 @@
     ],
     "answer": "Internally rotate the leg and foot together",
     "explanation": "The leg and foot are internally rotated together to the 45° oblique position.",
-    "source": "Positioning practice · AP oblique ankle, 45° medial rotation",
-    "part": "ankle",
-    "projectionId": "ankle-med45"
+    "source": "Positioning practice · AP oblique ankle, 45° medial rotation"
   },
   {
     "id": "lower-094",
+    "part": "ankle",
+    "projectionId": "ankle-med45",
     "projection": "AP oblique ankle · 45° medial rotation",
     "topic": "purpose",
     "type": "mcq",
@@ -1788,8 +1790,6 @@
     "answer": "Open distal tibiofibular articulation",
     "explanation": "The 45° medial oblique ankle is used to open the distal tibiofibular articulation.",
     "source": "Positioning practice · AP oblique ankle, 45° medial rotation",
-    "part": "ankle",
-    "projectionId": "ankle-med45",
     "image": {
       "src": "images/AP oblique ankle, 45-degree medial rotation..png",
       "alt": "Positioning image of an ankle rotated medially.",
@@ -1798,6 +1798,8 @@
   },
   {
     "id": "lower-095",
+    "part": "ankle",
+    "projectionId": "ankle-mortise",
     "projection": "Mortise · AP oblique ankle · 15–20° medial rotation",
     "topic": "positioning",
     "type": "mcq",
@@ -1810,12 +1812,12 @@
     ],
     "answer": "15–20°",
     "explanation": "The ankle mortise uses 15–20° of medial rotation.",
-    "source": "Positioning practice · Mortise ankle",
-    "part": "ankle",
-    "projectionId": "ankle-mortise"
+    "source": "Positioning practice · Mortise ankle"
   },
   {
     "id": "lower-096",
+    "part": "ankle",
+    "projectionId": "ankle-mortise",
     "projection": "Mortise · AP oblique ankle · 15–20° medial rotation",
     "topic": "positioning",
     "type": "mcq",
@@ -1828,12 +1830,12 @@
     ],
     "answer": "Parallel with the IR",
     "explanation": "The entire leg and foot are rotated until the intermalleolar plane is parallel with the IR.",
-    "source": "Positioning practice · Mortise ankle",
-    "part": "ankle",
-    "projectionId": "ankle-mortise"
+    "source": "Positioning practice · Mortise ankle"
   },
   {
     "id": "lower-097",
+    "part": "ankle",
+    "projectionId": "ankle-mortise",
     "projection": "Mortise · AP oblique ankle · 15–20° medial rotation",
     "topic": "evaluation",
     "type": "mcq",
@@ -1846,12 +1848,12 @@
     ],
     "answer": "All three sides of the ankle mortise",
     "explanation": "The mortise projection should demonstrate all three sides of the ankle mortise.",
-    "source": "Positioning practice · Mortise ankle",
-    "part": "ankle",
-    "projectionId": "ankle-mortise"
+    "source": "Positioning practice · Mortise ankle"
   },
   {
     "id": "lower-098",
+    "part": "ankle",
+    "projectionId": "ankle-mortise",
     "projection": "Mortise · AP oblique ankle · 15–20° medial rotation",
     "topic": "evaluation",
     "type": "mcq",
@@ -1864,12 +1866,12 @@
     ],
     "answer": "No overlap of the anterior tibial tubercle",
     "explanation": "The mortise should show no overlap of the anterior tubercle of the tibia.",
-    "source": "Positioning practice · Mortise ankle",
-    "part": "ankle",
-    "projectionId": "ankle-mortise"
+    "source": "Positioning practice · Mortise ankle"
   },
   {
     "id": "lower-099",
+    "part": "ankle",
+    "projectionId": "ankle-mortise",
     "projection": "Mortise · AP oblique ankle · 15–20° medial rotation",
     "topic": "evaluation",
     "type": "mcq",
@@ -1882,12 +1884,12 @@
     ],
     "answer": "The superolateral talus should not overlap the fibula",
     "explanation": "A proper mortise shows no overlap of the superolateral talus with the fibula.",
-    "source": "Positioning practice · Mortise ankle",
-    "part": "ankle",
-    "projectionId": "ankle-mortise"
+    "source": "Positioning practice · Mortise ankle"
   },
   {
     "id": "lower-100",
+    "part": "ankle",
+    "projectionId": "ankle-mortise",
     "projection": "Mortise · AP oblique ankle · 15–20° medial rotation",
     "topic": "anatomy",
     "type": "mcq",
@@ -1901,8 +1903,6 @@
     "answer": "Mortise ankle",
     "explanation": "The image demonstrates the ankle mortise position using 15–20° medial rotation.",
     "source": "Positioning practice · Mortise ankle",
-    "part": "ankle",
-    "projectionId": "ankle-mortise",
     "image": {
       "src": "images/Mortise AP oblique ankle, 15- to 20-degree medial rotation to show ankle mortise joint..png",
       "alt": "Positioning image of an ankle with slight medial rotation.",
@@ -1911,6 +1911,8 @@
   },
   {
     "id": "lower-101",
+    "part": "ankle",
+    "projectionId": "ankle-mortise",
     "projection": "Mortise · AP oblique ankle · 15–20° medial rotation",
     "topic": "positioning",
     "type": "mcq",
@@ -1923,12 +1925,12 @@
     ],
     "answer": "Mortise 15–20°; oblique 45°",
     "explanation": "The mortise uses 15–20° of medial rotation, while the distinct medial oblique uses 45°.",
-    "source": "Positioning practice · Ankle oblique comparison",
-    "part": "ankle",
-    "projectionId": "ankle-mortise"
+    "source": "Positioning practice · Ankle oblique comparison"
   },
   {
     "id": "lower-102",
+    "part": "ankle",
+    "projectionId": "ankle-mortise",
     "projection": "Mortise · AP oblique ankle · 15–20° medial rotation",
     "topic": "evaluation",
     "type": "mcq",
@@ -1941,12 +1943,12 @@
     ],
     "answer": "45° oblique → distal tibiofibular articulation; mortise → three-sided ankle mortise",
     "explanation": "The 45° medial oblique opens the distal tibiofibular articulation, while the mortise opens the ankle mortise.",
-    "source": "Positioning practice · Ankle oblique comparison",
-    "part": "ankle",
-    "projectionId": "ankle-mortise"
+    "source": "Positioning practice · Ankle oblique comparison"
   },
   {
     "id": "lower-103",
+    "part": "ankle",
+    "projectionId": "ankle-stress",
     "projection": "AP ankle · stress study",
     "topic": "purpose",
     "type": "mcq",
@@ -1959,12 +1961,12 @@
     ],
     "answer": "To detect ligamentous injury after inversion or eversion trauma",
     "explanation": "Stress studies are obtained after inversion or eversion injury to detect ligamentous tears.",
-    "source": "Positioning practice · AP ankle stress study",
-    "part": "ankle",
-    "projectionId": "ankle-stress"
+    "source": "Positioning practice · AP ankle stress study"
   },
   {
     "id": "lower-104",
+    "part": "ankle",
+    "projectionId": "ankle-stress",
     "projection": "AP ankle · stress study",
     "topic": "pathology",
     "type": "mcq",
@@ -1977,12 +1979,12 @@
     ],
     "answer": "Widening of the joint space",
     "explanation": "The guide states that widening of the joint space indicates ligament rupture.",
-    "source": "Positioning practice · AP ankle stress study",
-    "part": "ankle",
-    "projectionId": "ankle-stress"
+    "source": "Positioning practice · AP ankle stress study"
   },
   {
     "id": "lower-105",
+    "part": "ankle",
+    "projectionId": "ankle-stress",
     "projection": "AP ankle · stress study",
     "topic": "positioning",
     "type": "mcq",
@@ -1995,12 +1997,12 @@
     ],
     "answer": "Into extreme inversion or eversion stress as tolerated",
     "explanation": "The foot is turned into extreme stress and held there if the position is not too painful.",
-    "source": "Positioning practice · AP ankle stress study",
-    "part": "ankle",
-    "projectionId": "ankle-stress"
+    "source": "Positioning practice · AP ankle stress study"
   },
   {
     "id": "lower-106",
+    "part": "ankle",
+    "projectionId": "ankle-wb-ap",
     "projection": "Weight-bearing AP ankle",
     "topic": "positioning",
     "type": "mcq",
@@ -2013,12 +2015,12 @@
     ],
     "answer": "Pointing straight ahead",
     "explanation": "For the weight-bearing AP ankle, the toes point straight ahead with the heels against the IR.",
-    "source": "Positioning practice · Weight-bearing AP ankle",
-    "part": "ankle",
-    "projectionId": "ankle-wb-ap"
+    "source": "Positioning practice · Weight-bearing AP ankle"
   },
   {
     "id": "lower-107",
+    "part": "ankle",
+    "projectionId": "ankle-wb-ap",
     "projection": "Weight-bearing AP ankle",
     "topic": "evaluation",
     "type": "mcq",
@@ -2031,12 +2033,12 @@
     ],
     "answer": "Medial mortise open and lateral mortise closed",
     "explanation": "The guide lists an open medial mortise and closed lateral mortise for the weight-bearing AP ankle.",
-    "source": "Positioning practice · Weight-bearing AP ankle",
-    "part": "ankle",
-    "projectionId": "ankle-wb-ap"
+    "source": "Positioning practice · Weight-bearing AP ankle"
   },
   {
     "id": "lower-108",
+    "part": "ankle",
+    "projectionId": "ankle-wb-ap",
     "projection": "Weight-bearing AP ankle",
     "topic": "anatomy",
     "type": "mcq",
@@ -2049,12 +2051,12 @@
     ],
     "answer": "Both ankle joints with weight bearing",
     "explanation": "The weight-bearing AP projection demonstrates both ankle joints and the distal tibia and fibula under load.",
-    "source": "Positioning practice · Weight-bearing AP ankle",
-    "part": "ankle",
-    "projectionId": "ankle-wb-ap"
+    "source": "Positioning practice · Weight-bearing AP ankle"
   },
   {
     "id": "lower-109",
+    "part": "ankle",
+    "projectionId": "ankle-wb-lat",
     "projection": "Weight-bearing lateral ankle",
     "topic": "positioning",
     "type": "mcq",
@@ -2067,12 +2069,12 @@
     ],
     "answer": "Superimposed",
     "explanation": "The malleoli should be superimposed and perpendicular to the IR.",
-    "source": "Positioning practice · Weight-bearing lateral ankle",
-    "part": "ankle",
-    "projectionId": "ankle-wb-lat"
+    "source": "Positioning practice · Weight-bearing lateral ankle"
   },
   {
     "id": "lower-110",
+    "part": "ankle",
+    "projectionId": "ankle-wb-lat",
     "projection": "Weight-bearing lateral ankle",
     "topic": "central-ray",
     "type": "mcq",
@@ -2085,12 +2087,12 @@
     ],
     "answer": "Medial malleolus",
     "explanation": "For the mediolateral weight-bearing ankle, the CR enters at the medial malleolus.",
-    "source": "Positioning practice · Weight-bearing lateral ankle",
-    "part": "ankle",
-    "projectionId": "ankle-wb-lat"
+    "source": "Positioning practice · Weight-bearing lateral ankle"
   },
   {
     "id": "lower-111",
+    "part": "ankle",
+    "projectionId": "ankle-wb-lat",
     "projection": "Weight-bearing lateral ankle",
     "topic": "central-ray",
     "type": "mcq",
@@ -2103,12 +2105,12 @@
     ],
     "answer": "Lateral malleolus",
     "explanation": "For the lateromedial weight-bearing ankle, the CR enters at the lateral malleolus.",
-    "source": "Positioning practice · Weight-bearing lateral ankle",
-    "part": "ankle",
-    "projectionId": "ankle-wb-lat"
+    "source": "Positioning practice · Weight-bearing lateral ankle"
   },
   {
     "id": "lower-112",
+    "part": "leg",
+    "projectionId": "leg-ap",
     "projection": "AP lower leg",
     "topic": "central-ray",
     "type": "mcq",
@@ -2121,12 +2123,12 @@
     ],
     "answer": "Center of the leg",
     "explanation": "The AP lower leg uses a perpendicular CR centered to the center of the leg.",
-    "source": "Positioning practice · AP lower leg",
-    "part": "leg",
-    "projectionId": "leg-ap"
+    "source": "Positioning practice · AP lower leg"
   },
   {
     "id": "lower-113",
+    "part": "leg",
+    "projectionId": "leg-ap",
     "projection": "AP lower leg",
     "topic": "anatomy",
     "type": "mcq",
@@ -2139,12 +2141,12 @@
     ],
     "answer": "Knee and ankle",
     "explanation": "The ankle and knee joints must be included on one or more images.",
-    "source": "Positioning practice · AP lower leg",
-    "part": "leg",
-    "projectionId": "leg-ap"
+    "source": "Positioning practice · AP lower leg"
   },
   {
     "id": "lower-114",
+    "part": "leg",
+    "projectionId": "leg-ap",
     "projection": "AP lower leg",
     "topic": "positioning",
     "type": "mcq",
@@ -2157,12 +2159,12 @@
     ],
     "answer": "Parallel with the IR",
     "explanation": "The femoral condyles should be parallel with the IR for the AP lower leg.",
-    "source": "Positioning practice · AP lower leg",
-    "part": "leg",
-    "projectionId": "leg-ap"
+    "source": "Positioning practice · AP lower leg"
   },
   {
     "id": "lower-115",
+    "part": "leg",
+    "projectionId": "leg-ap",
     "projection": "AP lower leg",
     "topic": "evaluation",
     "type": "mcq",
@@ -2175,12 +2177,12 @@
     ],
     "answer": "Free of tibial superimposition",
     "explanation": "The fibular midshaft should be free of tibial superimposition.",
-    "source": "Positioning practice · AP lower leg",
-    "part": "leg",
-    "projectionId": "leg-ap"
+    "source": "Positioning practice · AP lower leg"
   },
   {
     "id": "lower-116",
+    "part": "leg",
+    "projectionId": "leg-ap",
     "projection": "AP lower leg",
     "topic": "evaluation",
     "type": "mcq",
@@ -2193,12 +2195,12 @@
     ],
     "answer": "Moderately overlapped",
     "explanation": "The guide lists moderate overlap of the proximal and distal tibiofibular articulations.",
-    "source": "Positioning practice · AP lower leg",
-    "part": "leg",
-    "projectionId": "leg-ap"
+    "source": "Positioning practice · AP lower leg"
   },
   {
     "id": "lower-117",
+    "part": "leg",
+    "projectionId": "leg-ap",
     "projection": "AP lower leg",
     "topic": "anatomy",
     "type": "mcq",
@@ -2212,8 +2214,6 @@
     "answer": "AP lower leg",
     "explanation": "The image demonstrates positioning for the AP tibia and fibula.",
     "source": "Positioning practice · AP lower leg",
-    "part": "leg",
-    "projectionId": "leg-ap",
     "image": {
       "src": "images/AP tibia and fibula..png",
       "alt": "Positioning image of the tibia and fibula.",
@@ -2222,6 +2222,8 @@
   },
   {
     "id": "lower-118",
+    "part": "leg",
+    "projectionId": "leg-lat",
     "projection": "Lateral lower leg",
     "topic": "positioning",
     "type": "mcq",
@@ -2234,12 +2236,12 @@
     ],
     "answer": "Perpendicular to the IR",
     "explanation": "The patella should be perpendicular to the IR for the lateral lower leg.",
-    "source": "Positioning practice · Lateral lower leg",
-    "part": "leg",
-    "projectionId": "leg-lat"
+    "source": "Positioning practice · Lateral lower leg"
   },
   {
     "id": "lower-119",
+    "part": "leg",
+    "projectionId": "leg-lat",
     "projection": "Lateral lower leg",
     "topic": "central-ray",
     "type": "mcq",
@@ -2252,12 +2254,12 @@
     ],
     "answer": "Midpoint of the leg",
     "explanation": "The lateral lower leg uses a perpendicular CR centered to the midpoint of the leg.",
-    "source": "Positioning practice · Lateral lower leg",
-    "part": "leg",
-    "projectionId": "leg-lat"
+    "source": "Positioning practice · Lateral lower leg"
   },
   {
     "id": "lower-120",
+    "part": "leg",
+    "projectionId": "leg-lat",
     "projection": "Lateral lower leg",
     "topic": "evaluation",
     "type": "mcq",
@@ -2270,12 +2272,12 @@
     ],
     "answer": "Superimposed over the posterior half of the tibia",
     "explanation": "A true lateral lower leg shows the distal fibula superimposed over the posterior half of the tibia.",
-    "source": "Positioning practice · Lateral lower leg",
-    "part": "leg",
-    "projectionId": "leg-lat"
+    "source": "Positioning practice · Lateral lower leg"
   },
   {
     "id": "lower-121",
+    "part": "leg",
+    "projectionId": "leg-lat",
     "projection": "Lateral lower leg",
     "topic": "evaluation",
     "type": "mcq",
@@ -2288,12 +2290,12 @@
     ],
     "answer": "Slight overlap of the tibia on the fibular head",
     "explanation": "The guide lists slight overlap of the tibia on the proximal fibular head.",
-    "source": "Positioning practice · Lateral lower leg",
-    "part": "leg",
-    "projectionId": "leg-lat"
+    "source": "Positioning practice · Lateral lower leg"
   },
   {
     "id": "lower-122",
+    "part": "leg",
+    "projectionId": "leg-lat",
     "projection": "Lateral lower leg",
     "topic": "evaluation",
     "type": "mcq",
@@ -2306,12 +2308,12 @@
     ],
     "answer": "Moderately separated",
     "explanation": "The tibial and fibular bodies should demonstrate moderate separation on a true lateral.",
-    "source": "Positioning practice · Lateral lower leg",
-    "part": "leg",
-    "projectionId": "leg-lat"
+    "source": "Positioning practice · Lateral lower leg"
   },
   {
     "id": "lower-123",
+    "part": "leg",
+    "projectionId": "leg-lat",
     "projection": "Lateral lower leg",
     "topic": "positioning",
     "type": "mcq",
@@ -2325,8 +2327,6 @@
     "answer": "Patella perpendicular to the IR",
     "explanation": "The lateral lower leg is positioned with the patella perpendicular to the IR.",
     "source": "Positioning practice · Lateral lower leg",
-    "part": "leg",
-    "projectionId": "leg-lat",
     "image": {
       "src": "images/Lateral tibia and fibula.png",
       "alt": "Positioning image of the lower leg in a lateral position.",
@@ -2335,6 +2335,8 @@
   },
   {
     "id": "lower-124",
+    "part": "leg",
+    "projectionId": "leg-lat",
     "projection": "Lateral lower leg",
     "topic": "evaluation",
     "type": "mcq",
@@ -2348,8 +2350,6 @@
     "answer": "Distal fibula projected over the posterior half of the tibia",
     "explanation": "The distal fibula should be superimposed over the posterior half of the tibia on a proper lateral.",
     "source": "Positioning practice · Lateral lower leg",
-    "part": "leg",
-    "projectionId": "leg-lat",
     "image": {
       "src": "images/Lateral TibFib xray.png",
       "alt": "Lateral radiograph of the tibia and fibula.",
@@ -2358,6 +2358,8 @@
   },
   {
     "id": "lower-125",
+    "part": "leg",
+    "projectionId": "leg-lat",
     "projection": "Lateral lower leg",
     "topic": "anatomy",
     "type": "mcq",
@@ -2371,8 +2373,6 @@
     "answer": "Knee and ankle",
     "explanation": "The entire lower leg examination must include both the knee and ankle joints.",
     "source": "Positioning practice · Lower leg",
-    "part": "leg",
-    "projectionId": "leg-lat",
     "image": {
       "src": "images/Lateral TibFib xray.png",
       "alt": "Lateral radiograph of the tibia and fibula.",

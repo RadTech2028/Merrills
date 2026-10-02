@@ -5,8 +5,8 @@
 <title>Positioning Lab | Radiography Practice</title>
 <meta name="description" content="Practice radiographic positioning by anatomy group, central ray, purpose, and image evaluation.">
 <link rel="icon" href="./favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="./styles.css">
-<link rel="stylesheet" href="./progress.css?v=1">
-<script defer src="./app.js?v=progress-1"></script><script defer src="./progress.js?v=1"></script><script defer src="./builder.js?v=progress-1"></script>
+<link rel="stylesheet" href="./progress.css?v=subcategories-2">
+<script defer src="./app.js?v=subcategories-2"></script><script defer src="./catalog.js?v=2"></script><script defer src="./progress.js?v=subcategories-2"></script><script defer src="./builder.js?v=subcategories-2"></script>
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
@@ -29,7 +29,7 @@
 <div id="app" hidden>
 <div id="progress-warning" class="notice error" role="status" hidden></div>
 <section id="practice-view">
- <div class="page-heading"><div class="eyebrow">PRACTICE / SESSION SETUP</div><h1>Know your positioning.</h1><p>Choose your categories. Focus on what you need to remember.</p></div>
+ <div class="page-heading"><div class="eyebrow">PRACTICE / SESSION SETUP</div><h1>Know your positioning.</h1><p>Choose a category, then open “Choose parts / topics” to narrow your session.</p></div>
  <div class="setup-layout">
   <div>
    <div class="section-line"><h2><span class="step">01</span> Choose categories</h2><button class="text-button" id="toggle-groups">Select all</button></div>
@@ -61,19 +61,21 @@
 <section id="progress-view" hidden>
  <div class="page-heading"><div class="eyebrow">STUDY / SAVED IN THIS BROWSER</div><h1>My progress.</h1><p>Keep track of what you’ve studied and choose what needs another look.</p></div>
  <p id="progress-summary" class="notice"></p>
+ <p class="small muted">Category totals include the program bank and your personal questions.</p>
+ <div id="category-progress" class="category-progress-grid" aria-label="Progress by category"></div>
  <details class="panel progress-backup"><summary>Back up or restore progress</summary>
  <p>Progress saves automatically in this browser. It does not sync to another device. Export a backup before clearing browser data or changing devices. Anyone using this same browser profile shares this history.</p>
  <div class="actions"><button id="progress-export">Export progress</button><label class="file-button" for="progress-import">Restore progress</label><input id="progress-import" type="file" accept=".json,application/json" hidden></div>
  <p class="small muted">Restoring merges histories and keeps the newer record for each card. Progress backups contain marks and statistics. Back up personal questions separately in My questions.</p>
  <p id="progress-storage" class="small muted"></p><p id="progress-status" role="status"></p>
  </details>
- <p class="small muted">Card states are yours to set; answering a question does not change them. “Got it” flashcards count as self-assessed correct answers. Changing a question’s wording or answer starts fresh statistics while keeping your marks.</p>
- <div class="progress-tools"><input id="progress-search" type="search" placeholder="Search questions…" aria-label="Search progress"><select id="progress-group" aria-label="Progress category"></select><select id="progress-filter" aria-label="Progress card filter"></select></div>
+ <p class="small muted">Click “Mark learned” when you feel ready, or switch a card back to Learning. Progress bars count cards you marked Learned; correct answers alone do not mark a card learned. “Got it” flashcards count as self-assessed correct answers. Changing a question’s wording or answer starts fresh statistics while keeping your marks.</p>
+ <div class="progress-tools"><input id="progress-search" type="search" placeholder="Search questions…" aria-label="Search progress"><select id="progress-group" aria-label="Progress category"></select><select id="progress-part" aria-label="Progress subcategory"></select><select id="progress-filter" aria-label="Progress card filter"></select></div>
  <p id="progress-count" class="muted"></p><div id="progress-list"></div><button id="progress-more" hidden>Show 30 more</button>
 </section>
 <section id="browse-view" hidden>
  <div class="page-heading"><div class="eyebrow">REFERENCE / QUESTION BANK</div><h1>See what’s in the bank.</h1><p>Search a projection, question, or answer. Open a question to study it.</p></div>
- <div class="bank-tools"><input id="bank-search" type="search" placeholder="Search questions or projections…" aria-label="Search question bank"><select id="bank-source" aria-label="Question source"><option value="program">Program bank</option><option value="personal">My questions</option><option value="both">All questions</option></select><select id="bank-group" aria-label="Filter anatomy group"></select><select id="bank-topic" aria-label="Filter topic"></select></div>
+ <div class="bank-tools"><input id="bank-search" type="search" placeholder="Search questions or projections…" aria-label="Search question bank"><select id="bank-source" aria-label="Question source"><option value="program">Program bank</option><option value="personal">My questions</option><option value="both">All questions</option></select><select id="bank-group" aria-label="Filter anatomy group"></select><select id="bank-part" aria-label="Filter subcategory"></select><select id="bank-topic" aria-label="Filter topic"></select></div>
  <label for="bank-progress">Card status</label><select id="bank-progress"></select>
  <div class="section-line"><p id="browse-count" class="muted"></p><button id="bank-more" class="text-button" hidden>Show 50 more</button></div><div id="bank-list"></div>
 </section>
@@ -82,16 +84,16 @@
  <div class="notice">Questions and custom categories are saved in this browser on this device. Export a backup to move them to another computer or protect them before clearing browser data.</div>
  <div class="actions"><button id="personal-new" class="primary">Create a question</button><button id="personal-study">Practice my questions</button><button id="backup-export">Export question backup</button><label class="file-button" for="backup-import">Restore questions</label><input type="file" id="backup-import" accept=".json,application/json" hidden></div>
  <p id="personal-status" role="status"></p>
- <div class="bank-tools"><input id="personal-search" type="search" aria-label="Search personal questions" placeholder="Search my questions…"><select id="personal-group" aria-label="Personal category filter"></select></div>
+ <div class="bank-tools"><input id="personal-search" type="search" aria-label="Search personal questions" placeholder="Search my questions…"><select id="personal-group" aria-label="Personal category filter"></select><select id="personal-part" aria-label="Personal subcategory filter"></select></div>
  <p id="personal-count" class="muted"></p><div id="personal-list"></div><button id="personal-more" hidden>Show 50 more</button>
 </section>
 <section id="builder-view" hidden>
- <div class="page-heading"><div class="eyebrow">CREATE / QUESTION BUILDER</div><h1>Build the next question.</h1><p>Choose a subject, write your question, then save it to My questions.</p></div>
+ <div class="page-heading"><div class="eyebrow">CREATE / QUESTION BUILDER</div><h1>Build the next question.</h1><p>Choose a category and subcategory, then a projection or topic. Write your question and save it to My questions.</p></div>
  <div class="builder-layout">
  <form id="builder-form" class="panel">
  <h2 class="builder-step"><span class="step">01</span> Choose what to study</h2>
  <div class="form-row"><div><label for="draft-group">Category</label><select id="draft-group"></select></div><div><label for="draft-topic">Focus</label><select id="draft-topic"></select></div></div>
- <div class="form-row"><div><label for="draft-part">Body part / subject</label><select id="draft-part"></select></div><div><label for="draft-orientation">Projection family</label><select id="draft-orientation"></select></div></div>
+ <div class="form-row"><div><label for="draft-part">Subcategory / body part</label><select id="draft-part"></select></div><div id="projection-family-field"><label for="draft-orientation">Projection family</label><select id="draft-orientation"></select></div></div>
  <label for="draft-projection-select">Projection / named method / topic</label><select id="draft-projection-select"></select>
  <p id="projection-detail" class="projection-detail"></p>
  <label class="checkline"><input type="checkbox" id="custom-projection"> Enter an unlisted projection or topic</label>
@@ -118,11 +120,12 @@
  <aside class="panel draft-panel"><div class="section-line"><h2>Personal draft bank</h2><span class="pill" id="draft-count">0</span></div><p class="small muted">Questions saved in the selected category on this device.</p>
  <div class="actions vertical"><button id="preview-drafts" class="primary">Practice this category</button><button id="export-drafts">Export category JSON</button><label class="file-button" for="import-drafts">Import question JSON</label><input id="import-drafts" type="file" accept=".json,application/json" hidden></div>
  <p id="draft-status" role="status" class="small"></p><div id="draft-list"></div>
- <details class="help"><summary>Add a category or focus</summary>
+ <details class="help"><summary>Add a category, subcategory or focus</summary>
  <label for="new-group-name">New category name</label><input id="new-group-name" placeholder="e.g., Spine"><button type="button" id="add-group">Add category</button>
+ <label for="new-part-name">New subcategory in the selected category</label><input id="new-part-name" placeholder="e.g., Toes or Respiratory conditions"><button type="button" id="add-part">Add subcategory</button>
  <label for="new-focus-name">New focus name</label><input id="new-focus-name" placeholder="e.g., Respiration"><button type="button" id="add-focus">Add focus</button>
- <p id="catalog-status" role="status"></p><p class="small muted">Custom categories and focuses are personal. Question backups include them. The program catalog can also be expanded through its data files.</p></details>
- <details class="help"><summary>Publish questions for everyone</summary><ol><li>Import the existing category JSON first if you want to keep its published questions.</li><li>Export the category, then upload the JSON into your website’s data folder.</li><li>Register new categories and focuses in groups.json and focuses.json.</li><li>Commit changes in GitHub to publish.</li></ol><p>Publishing replaces the entire category file. A personal backup can instead be imported into another browser without changing the website.</p></details>
+ <p id="catalog-status" role="status"></p><p class="small muted">Custom categories, subcategories and focuses are personal. Question backups include them. The program catalog can also be expanded through its data files.</p></details>
+ <details class="help"><summary>Publish questions for everyone</summary><ol><li>Import the existing category JSON first if you want to keep its published questions.</li><li>Export the category, then upload the JSON into your website’s data folder.</li><li>Register categories in groups.json, subcategories and their projections/topics in projections.json, and focuses in focuses.json.</li><li>Commit changes in GitHub to publish.</li></ol><p>Publishing replaces the entire category file. A personal backup can instead be imported into another browser without changing the website.</p></details>
  </aside></div>
 </section>
 </div>

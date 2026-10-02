@@ -1,6 +1,8 @@
 [
   {
     "id": "pathology-001",
+    "part": "respiratory",
+    "projectionId": "pathology-001-term",
     "projection": "Aspiration/foreign body",
     "topic": "pathology",
     "type": "mcq",
@@ -17,6 +19,8 @@
   },
   {
     "id": "pathology-002",
+    "part": "respiratory",
+    "projectionId": "pathology-002-term",
     "projection": "Atelectasis",
     "topic": "pathology",
     "type": "mcq",
@@ -33,6 +37,8 @@
   },
   {
     "id": "pathology-003",
+    "part": "respiratory",
+    "projectionId": "pathology-003-term",
     "projection": "Bronchiectasis",
     "topic": "pathology",
     "type": "mcq",
@@ -49,6 +55,8 @@
   },
   {
     "id": "pathology-004",
+    "part": "respiratory",
+    "projectionId": "pathology-004-term",
     "projection": "Bronchitis",
     "topic": "pathology",
     "type": "mcq",
@@ -65,6 +73,8 @@
   },
   {
     "id": "pathology-005",
+    "part": "respiratory",
+    "projectionId": "pathology-005-term",
     "projection": "Chronic obstructive pulmonary disease",
     "topic": "pathology",
     "type": "mcq",
@@ -81,6 +91,8 @@
   },
   {
     "id": "pathology-006",
+    "part": "respiratory",
+    "projectionId": "pathology-006-term",
     "projection": "Cystic fibrosis",
     "topic": "pathology",
     "type": "mcq",
@@ -97,6 +109,8 @@
   },
   {
     "id": "pathology-007",
+    "part": "respiratory",
+    "projectionId": "pathology-007-term",
     "projection": "Emphysema",
     "topic": "pathology",
     "type": "mcq",
@@ -113,6 +127,8 @@
   },
   {
     "id": "pathology-008",
+    "part": "respiratory",
+    "projectionId": "pathology-008-term",
     "projection": "Epiglottitis",
     "topic": "pathology",
     "type": "mcq",
@@ -129,6 +145,8 @@
   },
   {
     "id": "pathology-009",
+    "part": "respiratory",
+    "projectionId": "pathology-009-term",
     "projection": "Fungal disease",
     "topic": "pathology",
     "type": "mcq",
@@ -145,6 +163,8 @@
   },
   {
     "id": "pathology-010",
+    "part": "respiratory",
+    "projectionId": "pathology-010-term",
     "projection": "Histoplasmosis",
     "topic": "pathology",
     "type": "mcq",
@@ -161,6 +181,8 @@
   },
   {
     "id": "pathology-011",
+    "part": "respiratory",
+    "projectionId": "pathology-011-term",
     "projection": "Granulomatous disease",
     "topic": "pathology",
     "type": "mcq",
@@ -177,6 +199,8 @@
   },
   {
     "id": "pathology-012",
+    "part": "respiratory",
+    "projectionId": "pathology-012-term",
     "projection": "Sarcoidosis",
     "topic": "pathology",
     "type": "mcq",
@@ -193,6 +217,8 @@
   },
   {
     "id": "pathology-013",
+    "part": "respiratory",
+    "projectionId": "pathology-013-term",
     "projection": "Tuberculosis",
     "topic": "pathology",
     "type": "mcq",
@@ -209,6 +235,8 @@
   },
   {
     "id": "pathology-014",
+    "part": "respiratory",
+    "projectionId": "pathology-014-term",
     "projection": "Hyaline membrane disease or respiratory distress syndrome",
     "topic": "pathology",
     "type": "mcq",
@@ -225,6 +253,8 @@
   },
   {
     "id": "pathology-015",
+    "part": "tumors",
+    "projectionId": "pathology-015-term",
     "projection": "Metastasis",
     "topic": "pathology",
     "type": "mcq",
@@ -241,6 +271,8 @@
   },
   {
     "id": "pathology-016",
+    "part": "respiratory",
+    "projectionId": "pathology-016-term",
     "projection": "Pleural effusion",
     "topic": "pathology",
     "type": "mcq",
@@ -257,6 +289,8 @@
   },
   {
     "id": "pathology-017",
+    "part": "respiratory",
+    "projectionId": "pathology-017-term",
     "projection": "Pneumoconiosis",
     "topic": "pathology",
     "type": "mcq",
@@ -273,6 +307,8 @@
   },
   {
     "id": "pathology-018",
+    "part": "respiratory",
+    "projectionId": "pathology-018-term",
     "projection": "Anthracosis or coal miner lung or black lung",
     "topic": "pathology",
     "type": "mcq",
@@ -289,6 +325,8 @@
   },
   {
     "id": "pathology-019",
+    "part": "respiratory",
+    "projectionId": "pathology-019-term",
     "projection": "Asbestosis",
     "topic": "pathology",
     "type": "mcq",
@@ -305,6 +343,8 @@
   },
   {
     "id": "pathology-020",
+    "part": "respiratory",
+    "projectionId": "pathology-020-term",
     "projection": "Silicosis",
     "topic": "pathology",
     "type": "mcq",
@@ -321,6 +361,8 @@
   },
   {
     "id": "pathology-021",
+    "part": "respiratory",
+    "projectionId": "pathology-021-term",
     "projection": "Pneumonia",
     "topic": "pathology",
     "type": "mcq",
@@ -337,6 +379,8 @@
   },
   {
     "id": "pathology-022",
+    "part": "respiratory",
+    "projectionId": "pathology-022-term",
     "projection": "Aspiration pneumonia",
     "topic": "pathology",
     "type": "mcq",
@@ -353,6 +397,8 @@
   },
   {
     "id": "pathology-023",
+    "part": "respiratory",
+    "projectionId": "pathology-023-term",
     "projection": "Interstitial or viral pneumonia (pneumonitis)",
     "topic": "pathology",
     "type": "mcq",
@@ -369,6 +415,8 @@
   },
   {
     "id": "pathology-024",
+    "part": "respiratory",
+    "projectionId": "pathology-024-term",
     "projection": "Lobar or bacterial pneumonia",
     "topic": "pathology",
     "type": "mcq",
@@ -385,6 +433,8 @@
   },
   {
     "id": "pathology-025",
+    "part": "respiratory",
+    "projectionId": "pathology-025-term",
     "projection": "Lobular pneumonia or bronchopneumonia",
     "topic": "pathology",
     "type": "mcq",
@@ -401,6 +451,8 @@
   },
   {
     "id": "pathology-026",
+    "part": "respiratory",
+    "projectionId": "pathology-026-term",
     "projection": "Pneumothorax",
     "topic": "pathology",
     "type": "mcq",
@@ -417,6 +469,8 @@
   },
   {
     "id": "pathology-027",
+    "part": "respiratory",
+    "projectionId": "pathology-027-term",
     "projection": "Pulmonary edema",
     "topic": "pathology",
     "type": "mcq",
@@ -433,6 +487,8 @@
   },
   {
     "id": "pathology-028",
+    "part": "tumors",
+    "projectionId": "pathology-028-term",
     "projection": "Tumor",
     "topic": "pathology",
     "type": "mcq",
@@ -449,6 +505,8 @@
   },
   {
     "id": "pathology-029",
+    "part": "abdominal",
+    "projectionId": "pathology-029-term",
     "projection": "Abdominal aortic aneurysm (AAA)",
     "topic": "pathology",
     "type": "mcq",
@@ -465,6 +523,8 @@
   },
   {
     "id": "pathology-030",
+    "part": "abdominal",
+    "projectionId": "pathology-030-term",
     "projection": "Ascites",
     "topic": "pathology",
     "type": "mcq",
@@ -481,6 +541,8 @@
   },
   {
     "id": "pathology-031",
+    "part": "abdominal",
+    "projectionId": "pathology-031-term",
     "projection": "Bowel obstruction",
     "topic": "pathology",
     "type": "mcq",
@@ -497,6 +559,8 @@
   },
   {
     "id": "pathology-032",
+    "part": "abdominal",
+    "projectionId": "pathology-032-term",
     "projection": "Ileus",
     "topic": "pathology",
     "type": "mcq",
@@ -513,6 +577,8 @@
   },
   {
     "id": "pathology-033",
+    "part": "abdominal",
+    "projectionId": "pathology-033-term",
     "projection": "Pneumoperitoneum",
     "topic": "pathology",
     "type": "mcq",
@@ -529,6 +595,8 @@
   },
   {
     "id": "pathology-034",
+    "part": "bone-joint",
+    "projectionId": "pathology-034-term",
     "projection": "Bone cyst",
     "topic": "pathology",
     "type": "mcq",
@@ -545,6 +613,8 @@
   },
   {
     "id": "pathology-035",
+    "part": "bone-joint",
+    "projectionId": "pathology-035-term",
     "projection": "Bursitis",
     "topic": "pathology",
     "type": "mcq",
@@ -561,6 +631,8 @@
   },
   {
     "id": "pathology-036",
+    "part": "fractures-dislocations",
+    "projectionId": "pathology-036-term",
     "projection": "Dislocation",
     "topic": "pathology",
     "type": "mcq",
@@ -577,6 +649,8 @@
   },
   {
     "id": "pathology-037",
+    "part": "fractures-dislocations",
+    "projectionId": "pathology-037-term",
     "projection": "Fracture",
     "topic": "pathology",
     "type": "mcq",
@@ -593,6 +667,8 @@
   },
   {
     "id": "pathology-038",
+    "part": "fractures-dislocations",
+    "projectionId": "pathology-038-term",
     "projection": "Bennett fracture",
     "topic": "pathology",
     "type": "mcq",
@@ -609,6 +685,8 @@
   },
   {
     "id": "pathology-039",
+    "part": "fractures-dislocations",
+    "projectionId": "pathology-039-term",
     "projection": "Boxer fracture",
     "topic": "pathology",
     "type": "mcq",
@@ -625,6 +703,8 @@
   },
   {
     "id": "pathology-040",
+    "part": "fractures-dislocations",
+    "projectionId": "pathology-040-term",
     "projection": "Colles fracture",
     "topic": "pathology",
     "type": "mcq",
@@ -641,6 +721,8 @@
   },
   {
     "id": "pathology-041",
+    "part": "fractures-dislocations",
+    "projectionId": "pathology-041-term",
     "projection": "Smith fracture",
     "topic": "pathology",
     "type": "mcq",
@@ -657,6 +739,8 @@
   },
   {
     "id": "pathology-042",
+    "part": "fractures-dislocations",
+    "projectionId": "pathology-042-term",
     "projection": "Torus or buckle fracture",
     "topic": "pathology",
     "type": "mcq",
@@ -673,6 +757,8 @@
   },
   {
     "id": "pathology-043",
+    "part": "bone-joint",
+    "projectionId": "pathology-043-term",
     "projection": "Gout",
     "topic": "pathology",
     "type": "mcq",
@@ -689,6 +775,8 @@
   },
   {
     "id": "pathology-044",
+    "part": "bone-joint",
+    "projectionId": "pathology-044-term",
     "projection": "Joint effusion",
     "topic": "pathology",
     "type": "mcq",
@@ -705,6 +793,8 @@
   },
   {
     "id": "pathology-045",
+    "part": "bone-joint",
+    "projectionId": "pathology-045-term",
     "projection": "Osteoarthritis or degenerative joint disease",
     "topic": "pathology",
     "type": "mcq",
@@ -721,6 +811,8 @@
   },
   {
     "id": "pathology-046",
+    "part": "bone-joint",
+    "projectionId": "pathology-046-term",
     "projection": "Osteomyelitis",
     "topic": "pathology",
     "type": "mcq",
@@ -737,6 +829,8 @@
   },
   {
     "id": "pathology-047",
+    "part": "bone-joint",
+    "projectionId": "pathology-047-term",
     "projection": "Osteopetrosis",
     "topic": "pathology",
     "type": "mcq",
@@ -753,6 +847,8 @@
   },
   {
     "id": "pathology-048",
+    "part": "bone-joint",
+    "projectionId": "pathology-048-term",
     "projection": "Osteoporosis",
     "topic": "pathology",
     "type": "mcq",
@@ -769,6 +865,8 @@
   },
   {
     "id": "pathology-049",
+    "part": "bone-joint",
+    "projectionId": "pathology-049-term",
     "projection": "Rheumatoid arthritis",
     "topic": "pathology",
     "type": "mcq",
@@ -785,6 +883,8 @@
   },
   {
     "id": "pathology-050",
+    "part": "tumors",
+    "projectionId": "pathology-050-term",
     "projection": "Chondrosarcoma",
     "topic": "pathology",
     "type": "mcq",
@@ -801,6 +901,8 @@
   },
   {
     "id": "pathology-051",
+    "part": "tumors",
+    "projectionId": "pathology-051-term",
     "projection": "Enchondroma",
     "topic": "pathology",
     "type": "mcq",
@@ -817,6 +919,8 @@
   },
   {
     "id": "pathology-052",
+    "part": "tumors",
+    "projectionId": "pathology-052-term",
     "projection": "Ewing sarcoma",
     "topic": "pathology",
     "type": "mcq",
@@ -833,6 +937,8 @@
   },
   {
     "id": "pathology-053",
+    "part": "tumors",
+    "projectionId": "pathology-053-term",
     "projection": "Osteosarcoma",
     "topic": "pathology",
     "type": "mcq",
@@ -849,6 +955,8 @@
   },
   {
     "id": "pathology-054",
+    "part": "fractures-dislocations",
+    "projectionId": "pathology-054-term",
     "projection": "Hill-Sachs defect",
     "topic": "pathology",
     "type": "mcq",
@@ -865,6 +973,8 @@
   },
   {
     "id": "pathology-055",
+    "part": "bone-joint",
+    "projectionId": "pathology-055-term",
     "projection": "Tendinitis",
     "topic": "pathology",
     "type": "mcq",
@@ -881,6 +991,8 @@
   },
   {
     "id": "pathology-056",
+    "part": "developmental",
+    "projectionId": "pathology-056-term",
     "projection": "Congenital clubfoot",
     "topic": "pathology",
     "type": "mcq",
@@ -897,6 +1009,8 @@
   },
   {
     "id": "pathology-057",
+    "part": "fractures-dislocations",
+    "projectionId": "pathology-057-term",
     "projection": "Pott fracture",
     "topic": "pathology",
     "type": "mcq",
@@ -913,6 +1027,8 @@
   },
   {
     "id": "pathology-058",
+    "part": "fractures-dislocations",
+    "projectionId": "pathology-058-term",
     "projection": "Jones fracture",
     "topic": "pathology",
     "type": "mcq",
@@ -929,6 +1045,8 @@
   },
   {
     "id": "pathology-059",
+    "part": "developmental",
+    "projectionId": "pathology-059-term",
     "projection": "Osgood–Schlatter disease",
     "topic": "pathology",
     "type": "mcq",
@@ -945,6 +1063,8 @@
   },
   {
     "id": "pathology-060",
+    "part": "bone-joint",
+    "projectionId": "pathology-060-term",
     "projection": "Osteomalacia or rickets",
     "topic": "pathology",
     "type": "mcq",
@@ -961,6 +1081,8 @@
   },
   {
     "id": "pathology-061",
+    "part": "bone-joint",
+    "projectionId": "pathology-061-term",
     "projection": "Paget disease",
     "topic": "pathology",
     "type": "mcq",
@@ -977,6 +1099,8 @@
   },
   {
     "id": "pathology-062",
+    "part": "tumors",
+    "projectionId": "pathology-062-term",
     "projection": "Osteochondroma or exostosis",
     "topic": "pathology",
     "type": "mcq",
@@ -993,6 +1117,8 @@
   },
   {
     "id": "pathology-063",
+    "part": "tumors",
+    "projectionId": "pathology-063-term",
     "projection": "Osteoclastoma or giant cell tumor",
     "topic": "pathology",
     "type": "mcq",
@@ -1009,6 +1135,8 @@
   },
   {
     "id": "pathology-064",
+    "part": "tumors",
+    "projectionId": "pathology-064-term",
     "projection": "Osteoid osteoma",
     "topic": "pathology",
     "type": "mcq",
@@ -1025,6 +1153,8 @@
   },
   {
     "id": "pathology-065",
+    "part": "spine",
+    "projectionId": "pathology-065-term",
     "projection": "Ankylosing spondylitis",
     "topic": "pathology",
     "type": "mcq",
@@ -1041,6 +1171,8 @@
   },
   {
     "id": "pathology-066",
+    "part": "developmental",
+    "projectionId": "pathology-066-term",
     "projection": "Congenital hip dysplasia",
     "topic": "pathology",
     "type": "mcq",
@@ -1057,6 +1189,8 @@
   },
   {
     "id": "pathology-067",
+    "part": "developmental",
+    "projectionId": "pathology-067-term",
     "projection": "Legg-Calvé-Perthes disease",
     "topic": "pathology",
     "type": "mcq",
@@ -1073,6 +1207,8 @@
   },
   {
     "id": "pathology-068",
+    "part": "developmental",
+    "projectionId": "pathology-068-term",
     "projection": "Slipped epiphysis",
     "topic": "pathology",
     "type": "mcq",
@@ -1089,6 +1225,8 @@
   },
   {
     "id": "pathology-069",
+    "part": "tumors",
+    "projectionId": "pathology-069-term",
     "projection": "Multiple myeloma",
     "topic": "pathology",
     "type": "mcq",
@@ -1105,6 +1243,8 @@
   },
   {
     "id": "pathology-070",
+    "part": "fractures-dislocations",
+    "projectionId": "pathology-070-term",
     "projection": "Clay shoveler’s fracture",
     "topic": "pathology",
     "type": "mcq",
@@ -1121,6 +1261,8 @@
   },
   {
     "id": "pathology-071",
+    "part": "fractures-dislocations",
+    "projectionId": "pathology-071-term",
     "projection": "Compression fracture",
     "topic": "pathology",
     "type": "mcq",
@@ -1137,6 +1279,8 @@
   },
   {
     "id": "pathology-072",
+    "part": "fractures-dislocations",
+    "projectionId": "pathology-072-term",
     "projection": "Hangman’s fracture",
     "topic": "pathology",
     "type": "mcq",
@@ -1153,6 +1297,8 @@
   },
   {
     "id": "pathology-073",
+    "part": "fractures-dislocations",
+    "projectionId": "pathology-073-term",
     "projection": "Jefferson fracture",
     "topic": "pathology",
     "type": "mcq",
@@ -1169,6 +1315,8 @@
   },
   {
     "id": "pathology-074",
+    "part": "spine",
+    "projectionId": "pathology-074-term",
     "projection": "Herniated nucleus pulposus",
     "topic": "pathology",
     "type": "mcq",
@@ -1185,6 +1333,8 @@
   },
   {
     "id": "pathology-075",
+    "part": "spine",
+    "projectionId": "pathology-075-term",
     "projection": "Kyphosis",
     "topic": "pathology",
     "type": "mcq",
@@ -1201,6 +1351,8 @@
   },
   {
     "id": "pathology-076",
+    "part": "spine",
+    "projectionId": "pathology-076-term",
     "projection": "Lordosis",
     "topic": "pathology",
     "type": "mcq",
@@ -1217,6 +1369,8 @@
   },
   {
     "id": "pathology-077",
+    "part": "spine",
+    "projectionId": "pathology-077-term",
     "projection": "Scheuermann disease or adolescent kyphosis",
     "topic": "pathology",
     "type": "mcq",
@@ -1233,6 +1387,8 @@
   },
   {
     "id": "pathology-078",
+    "part": "spine",
+    "projectionId": "pathology-078-term",
     "projection": "Scoliosis",
     "topic": "pathology",
     "type": "mcq",
@@ -1249,6 +1405,8 @@
   },
   {
     "id": "pathology-079",
+    "part": "spine",
+    "projectionId": "pathology-079-term",
     "projection": "Spina bifida",
     "topic": "pathology",
     "type": "mcq",
@@ -1265,6 +1423,8 @@
   },
   {
     "id": "pathology-080",
+    "part": "spine",
+    "projectionId": "pathology-080-term",
     "projection": "Spondylolisthesis",
     "topic": "pathology",
     "type": "mcq",
@@ -1281,6 +1441,8 @@
   },
   {
     "id": "pathology-081",
+    "part": "spine",
+    "projectionId": "pathology-081-term",
     "projection": "Spondylolysis",
     "topic": "pathology",
     "type": "mcq",
@@ -1297,6 +1459,8 @@
   },
   {
     "id": "pathology-082",
+    "part": "fractures-dislocations",
+    "projectionId": "pathology-082-term",
     "projection": "Subluxation",
     "topic": "pathology",
     "type": "mcq",

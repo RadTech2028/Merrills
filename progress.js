@@ -2,7 +2,9 @@
 // Compact per-question rows. No question text, answers, images, or attempt log is stored.
 // [attempts, correct, lastSeen, localDay, correctStreakToday, outcome, state, bookmark, updated, contentHash]
 const Progress=(()=>{
- const states=['Unmarked','Learning','Needs practice','Confident'];
+ // Keep v1 stored codes for backup compatibility: 1 = Learning, 3 = Learned.
+ const states=['Learning','Learning','Learning','Learned'];
+ const state=r=>r[6]===3?3:1;
  const prefix='positioning-progress-v1:'+location.pathname.replace(/\/?(?:index\.html)?$/,'/')+':';
  const MAX_BYTES=2*1024*1024,MAX_ROWS=15000;
  const rows=new Map(),sizes=new Map(),dirty=new Set(),hashes=new WeakMap();
@@ -22,8 +24,8 @@ const Progress=(()=>{
  function validRow(r){
   return Array.isArray(r)&&r.length===10&&r.every(n=>Number.isSafeInteger(n)&&n>=0)&&r[1]<=r[0]&&r[4]<=r[1]&&r[5]<=2&&r[6]<states.length&&r[7]<=1&&r[9]<=4294967295&&r[0]<=1000000000&&r[2]<=8640000000000000&&r[8]<=8640000000000000;
  }
- function blank(q,previous){return [0,0,0,0,0,0,previous?.[6]||0,previous?.[7]||0,0,hash(q)];}
- function get(q){const r=rows.get(key(q));return r&&r[9]===hash(q)?r:blank(q,r);}
+ function blank(q,previous){return [0,0,0,0,0,0,previous?.[6]===3?3:1,previous?.[7]||0,0,hash(q)];}
+ function get(q){const r=rows.get(key(q))||(q.legacyGroup?rows.get(JSON.stringify([q.origin||'personal',q.legacyGroup,q.legacyId||q.id])):null);return r&&r[9]===hash(q)?r:blank(q,r);}
  function warn(message){warning=message;const el=$('progress-warning');if(el){el.hidden=!message;el.textContent=message;}}
  function acceptStored(k,raw){
   const old=sizes.get(k)||0;bytes-=old;sizes.delete(k);
@@ -71,12 +73,13 @@ const Progress=(()=>{
   if(filter==='attempted')return r[0]>0;
   if(filter==='bookmarked')return !!r[7];
   if(filter==='missed')return r[0]>0&&r[5]!==1;
-  if(/^state-[0-3]$/.test(filter))return r[6]===Number(filter.slice(6));
+  if(filter==='learning')return state(r)===1;
+  if(filter==='learned')return state(r)===3;
   return true;
  }
  function weight(q,now=Date.now()){
   const r=get(q);let w=!r[0]?5:r[5]!==1?7:2;
-  w*=[1,1.3,2,0.7][r[6]];
+  w*=state(r)===3?0.7:1.3;
   if(r[3]===day(now)&&r[4])w*=Math.pow(0.15,Math.min(3,r[4]));
   if(r[2]&&now-r[2]>=0&&now-r[2]<120000)w*=0.65;
   return w;
@@ -86,10 +89,10 @@ const Progress=(()=>{
   if(smart)return unique.map(q=>({q,rank:-Math.log(Math.max(Number.MIN_VALUE,Math.random()))/weight(q,now)})).sort((a,b)=>a.rank-b.rank).slice(0,limit).map(x=>x.q);
   return (doShuffle?shuffle(unique):unique).slice(0,limit);
  }
- function options(){return '<option value="all">All cards</option><option value="unseen">Not studied yet</option><option value="missed">Last missed / skipped</option><option value="bookmarked">Bookmarked</option>'+states.map((s,i)=>'<option value="state-'+i+'">'+s+'</option>').join('');}
+ function options(){return '<option value="all">All cards</option><option value="learning">Learning</option><option value="learned">Learned</option><option value="unseen">Not studied yet</option><option value="missed">Last missed / skipped</option><option value="bookmarked">Bookmarked</option>';}
  function controls(q,showStats=true){
-  const r=get(q),k=esc(key(q));
-  return '<div class="card-progress" data-progress-key="'+k+'"><label>Card state<select class="card-state" aria-label="Card state">'+states.map((s,i)=>'<option value="'+i+'" '+(r[6]===i?'selected':'')+'>'+s+'</option>').join('')+'</select></label><button type="button" class="card-bookmark" aria-pressed="'+!!r[7]+'">'+(r[7]?'Bookmarked':'Bookmark')+'</button>'+(showStats?'<span class="small muted">'+(r[0]?r[1]+' / '+r[0]+' correct or “Got it” · Last studied '+new Date(r[2]).toLocaleDateString():'Not studied yet')+'</span>':'')+'</div>';
+  const r=get(q),k=esc(key(q)),learned=state(r)===3;
+  return '<div class="card-progress" data-progress-key="'+k+'"><button type="button" class="card-learned" aria-label="Mark card learned" aria-pressed="'+learned+'">'+(learned?'Learned ✓':'Learning · Mark learned')+'</button><button type="button" class="card-bookmark" aria-pressed="'+!!r[7]+'">'+(r[7]?'Bookmarked':'Bookmark')+'</button>'+(showStats?'<span class="small muted">'+(r[0]?r[1]+' / '+r[0]+' correct or “Got it” · Last studied '+new Date(r[2]).toLocaleDateString():'Not studied yet')+'</span>':'')+'</div>';
  }
  function refreshAfterMark(){
   if(!$('progress-view').hidden)renderSummary();
@@ -99,29 +102,39 @@ const Progress=(()=>{
   const lookup=new Map(questions.map(q=>[key(q),q]));
   root.querySelectorAll('[data-progress-key]').forEach(el=>{
    const q=lookup.get(el.dataset.progressKey);if(!q)return;
-   const select=el.querySelector('.card-state'),button=el.querySelector('.card-bookmark');
-   select.onchange=()=>{const r=latest(q);r[6]=Number(select.value);r[8]=Date.now();save(key(q),r);refreshAfterMark();};
+   const learned=el.querySelector('.card-learned'),button=el.querySelector('.card-bookmark');
+   learned.onclick=()=>{const r=latest(q);r[6]=state(r)===3?1:3;r[8]=Date.now();save(key(q),r);learned.textContent=r[6]===3?'Learned ✓':'Learning · Mark learned';learned.setAttribute('aria-pressed',String(r[6]===3));refreshAfterMark();};
    button.onclick=()=>{const r=latest(q);r[7]=r[7]?0:1;r[8]=Date.now();save(key(q),r);button.textContent=r[7]?'Bookmarked':'Bookmark';button.setAttribute('aria-pressed',String(!!r[7]));refreshAfterMark();};
   });
  }
  function summary(pool){
-  let studied=0,today=0,bookmarks=0,needs=0;
-  for(const q of pool){const r=get(q);if(r[0])studied++;if(r[0]&&r[3]===day())today++;if(r[7])bookmarks++;if(r[6]===2)needs++;}
-  return {studied,today,bookmarks,needs};
+  let studied=0,today=0,bookmarks=0,learned=0;
+  for(const q of pool){const r=get(q);if(r[0])studied++;if(r[0]&&r[3]===day())today++;if(r[7])bookmarks++;if(state(r)===3)learned++;}
+  return {studied,today,bookmarks,learned};
  }
  function setup(){
-  const pool=poolFor($('session-source').value).filter(q=>selected.has(q.group)&&focus.has(q.topic)&&(!$('images-only').checked||q.image)&&(!$('no-images-only').checked||!q.image));
-  const s=summary(pool);$('setup-progress').textContent=s.studied+' of '+pool.length+' studied · '+s.today+' studied today · '+s.needs+' marked Needs practice';
+  const pool=poolFor($('session-source').value).filter(q=>Catalog.include(q)&&focus.has(q.topic)&&(!$('images-only').checked||q.image)&&(!$('no-images-only').checked||!q.image));
+  const s=summary(pool);$('setup-progress').textContent=s.studied+' of '+pool.length+' studied · '+s.today+' studied today · '+s.learned+' learned';
+ }
+ function renderCategoryBars(pool){
+  const byGroup=new Map(groups.map(g=>[g.id,[]]));for(const q of pool)byGroup.get(q.group)?.push(q);
+  $('category-progress').innerHTML=groups.map(g=>{
+   const questions=byGroup.get(g.id)||[],s=summary(questions),total=questions.length,percent=total?Math.round(s.learned/total*100):0;
+   const perPart=new Map(Catalog.forGroup(g.id).map(p=>[p.id,{name:p.name,total:0,learned:0}]));
+   for(const q of questions){const item=perPart.get(Catalog.part(q));if(item){item.total++;if(state(get(q))===3)item.learned++;}}
+   return '<article class="category-progress-card"><div class="category-progress-title"><h2>'+esc(g.name)+'</h2><strong>'+(total?percent+'%':'—')+'</strong></div><div class="learning-meter" role="progressbar" aria-label="'+esc(g.name)+' learned" aria-valuemin="0" aria-valuemax="100" aria-valuenow="'+percent+'"><span style="width:'+percent+'%"></span></div><p>'+(total?s.learned+' of '+total+' learned · '+s.studied+' studied':'No questions yet')+'</p><details><summary>By part / topic</summary><ul class="part-progress-list">'+[...perPart.values()].map(p=>'<li><span>'+esc(p.name)+'</span><span>'+p.learned+' / '+p.total+'</span></li>').join('')+'</ul></details></article>';
+  }).join('');
  }
  function renderSummary(){
   const pool=poolFor('both'),s=summary(pool);
-  $('progress-summary').textContent=s.studied+' of '+pool.length+' questions studied · '+s.today+' today · '+s.bookmarks+' bookmarked · '+s.needs+' marked Needs practice';
+  renderCategoryBars(pool);
+  $('progress-summary').textContent=s.studied+' of '+pool.length+' questions studied · '+s.today+' today · '+s.bookmarks+' bookmarked · '+s.learned+' learned';
   $('progress-storage').textContent='Progress uses about '+Math.ceil(bytes/1024)+' KB of the 2 MB progress limit. '+rows.size+' compact records. Question images and personal question backups are separate.';
  }
  function render(){
-  const pool=poolFor('both');renderSummary();refill('progress-group',groupOptions('All categories'));
+  const pool=poolFor('both');renderSummary();refill('progress-group',groupOptions('All categories'));Catalog.refillFilter('progress-part',$('progress-group').value);
   const group=$('progress-group').value,filter=$('progress-filter').value,search=normalize($('progress-search').value);
-  const found=pool.filter(q=>(!group||q.group===group)&&matches(q,filter)&&(!search||normalize(q.prompt+' '+q.projection).includes(search))).sort((a,b)=>get(b)[8]-get(a)[8]);
+  const found=pool.filter(q=>(!group||q.group===group)&&Catalog.matches(q,$('progress-part').value)&&matches(q,filter)&&(!search||normalize(q.prompt+' '+q.projection).includes(search))).sort((a,b)=>get(b)[8]-get(a)[8]);
   $('progress-count').textContent=found.length+' questions · showing '+Math.min(listLimit,found.length);$('progress-more').hidden=found.length<=listLimit;
   $('progress-list').innerHTML=found.slice(0,listLimit).map(q=>questionDetail(q)).join('')||'<p class="empty">No cards match these filters.</p>';
   wireImages($('progress-list'));wire($('progress-list'),found.slice(0,listLimit));
@@ -156,7 +169,7 @@ const Progress=(()=>{
   for(const id of ['study-filter','bank-progress','progress-filter'])$(id).innerHTML=options();
   $('study-filter').onchange=updateSetup;
   $('bank-progress').onchange=()=>{browseLimit=50;renderBank();};
-  ['progress-group','progress-filter','progress-search'].forEach(id=>$(id).addEventListener(id==='progress-search'?'input':'change',()=>{listLimit=30;render();}));
+  ['progress-group','progress-part','progress-filter','progress-search'].forEach(id=>$(id).addEventListener(id==='progress-search'?'input':'change',()=>{listLimit=30;render();}));
   $('progress-more').onclick=()=>{listLimit+=30;render();};
   $('progress-export').onclick=()=>{downloadJSON(backup(),'positioning-progress-'+day()+'.json');$('progress-status').textContent='Progress backup exported. Use the question backup in My questions to save personal question content too.';};
   $('progress-import').onchange=async()=>{
