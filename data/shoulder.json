@@ -168,7 +168,7 @@
     "projection": "AP humerus · upright",
     "topic": "positioning",
     "type": "mcq",
-    "prompt": "Based on the positioning shown, how should the hand be positioned for an upright AP humerus?",
+    "prompt": "How should the hand be positioned in the setup shown?",
     "options": [
       "Supinated",
       "Pronated",
@@ -358,7 +358,7 @@
     "projection": "Lateral humerus · upright",
     "topic": "positioning",
     "type": "mcq",
-    "prompt": "Based on the positioning shown, how is the arm rotated for an upright lateral humerus?",
+    "prompt": "How should the arm be rotated in the setup shown?",
     "options": [
       "Internally",
       "Externally",
@@ -838,7 +838,7 @@
     "projection": "Trauma lateral · distal humerus",
     "topic": "positioning",
     "type": "mcq",
-    "prompt": "Using the positioning shown, where should the IR be placed for the trauma lateral humerus?",
+    "prompt": "Where should the IR be placed in the setup shown?",
     "options": [
       "Close to the axilla",
       "At the wrist",
@@ -1005,7 +1005,7 @@
     "projection": "AP shoulder · external rotation",
     "topic": "positioning",
     "type": "mcq",
-    "prompt": "Based on the positioning shown, how is the hand positioned for AP shoulder external rotation?",
+    "prompt": "How should the hand be positioned in the setup shown?",
     "options": [
       "Supinated",
       "Pronated",
@@ -1182,7 +1182,7 @@
     "projection": "AP shoulder · neutral rotation",
     "topic": "positioning",
     "type": "mcq",
-    "prompt": "Using the positioning shown, where does the patient's palm rest for neutral shoulder rotation?",
+    "prompt": "Where should the patient's palm rest in the setup shown?",
     "options": [
       "Against the thigh",
       "On the posterior hip",
@@ -1354,7 +1354,7 @@
     "projection": "AP shoulder · internal rotation",
     "topic": "positioning",
     "type": "mcq",
-    "prompt": "Based on the positioning shown, how is the arm positioned for AP shoulder internal rotation?",
+    "prompt": "How should the arm and hand be positioned in the setup shown?",
     "options": [
       "Flex elbow, internally rotate arm, and place back of hand on hip",
       "Supinate hand with elbow extended",
@@ -1585,7 +1585,7 @@
     "projection": "Grashey method · AP oblique",
     "topic": "positioning",
     "type": "mcq",
-    "prompt": "Based on the positioning shown, how much is the body rotated for the Grashey method?",
+    "prompt": "How much should the body be rotated in the setup shown?",
     "options": [
       "35–45° toward the affected side",
       "45–60° away from the affected side",
@@ -1608,7 +1608,7 @@
     "projection": "Grashey method · AP oblique",
     "topic": "positioning",
     "type": "mcq",
-    "prompt": "Using the positioning shown, what is the goal of the body rotation in the Grashey method?",
+    "prompt": "What is the purpose of the body rotation shown?",
     "options": [
       "Place the scapula parallel with the IR",
       "Place the scapula perpendicular to the IR",
@@ -1852,7 +1852,7 @@
     "projection": "Lawrence method · transthoracic lateral",
     "topic": "positioning",
     "type": "mcq",
-    "prompt": "Using the positioning shown, what is done with the uninjured arm for the Lawrence method?",
+    "prompt": "What should be done with the uninjured arm in the setup shown?",
     "options": [
       "Raise it and rest the forearm on the head",
       "Place it behind the back",
@@ -1875,7 +1875,7 @@
     "projection": "Lawrence method · transthoracic lateral",
     "topic": "positioning",
     "type": "mcq",
-    "prompt": "Using the positioning shown, where is the IR centered for the Lawrence method?",
+    "prompt": "Where should the IR be centered in the setup shown?",
     "options": [
       "Surgical neck of the humerus",
       "Coracoid process",
@@ -2083,7 +2083,7 @@
     "projection": "Scapular Y · PA oblique",
     "topic": "positioning",
     "type": "mcq",
-    "prompt": "Based on the positioning shown, how much is the patient rotated for a Scapular Y?",
+    "prompt": "How much should the patient be rotated in the setup shown?",
     "options": [
       "45–60°",
       "35–45°",
@@ -2106,7 +2106,7 @@
     "projection": "Scapular Y · PA oblique",
     "topic": "evaluation",
     "type": "mcq",
-    "prompt": "When evaluating the image produced from this setup, what relationship should the humeral head have to the glenoid cavity on a normal Scapular Y?",
+    "prompt": "When evaluating the image produced from this setup, what relationship should the humeral head have to the glenoid cavity on a normal this setup?",
     "options": [
       "Superimposed",
       "Completely separated",
@@ -2350,7 +2350,7 @@
     "projection": "Pearson method · bilateral AC joints",
     "topic": "positioning",
     "type": "mcq",
-    "prompt": "Based on the positioning shown, how should the patient's weight be distributed for the Pearson method?",
+    "prompt": "How should the patient's weight be distributed in the setup shown?",
     "options": [
       "Equally on both feet",
       "Entirely on the affected side",
@@ -2481,7 +2481,7 @@
     "projection": "AP clavicle",
     "topic": "positioning",
     "type": "mcq",
-    "prompt": "Based on the positioning shown, how should the shoulders be positioned for an AP clavicle?",
+    "prompt": "How should the shoulders be positioned in the setup shown?",
     "options": [
       "In the same horizontal plane",
       "One shoulder elevated",
@@ -2743,7 +2743,7 @@
     "projection": "AP axial clavicle",
     "topic": "positioning",
     "type": "mcq",
-    "prompt": "Using the positioning shown, what patient orientation is used for an AP axial clavicle?",
+    "prompt": "How should the patient be oriented relative to the IR in the setup shown?",
     "options": [
       "Back against the IR",
       "Anterior chest against the IR",
@@ -2897,7 +2897,7 @@
     "projection": "PA clavicle",
     "topic": "positioning",
     "type": "mcq",
-    "prompt": "Based on the positioning shown, how is the patient oriented for a PA clavicle?",
+    "prompt": "How should the patient be oriented relative to the IR in the setup shown?",
     "options": [
       "Anterior chest against the IR",
       "Back against the IR",
@@ -3069,7 +3069,7 @@
     "projection": "PA axial clavicle",
     "topic": "positioning",
     "type": "mcq",
-    "prompt": "Using the positioning shown, what breathing instruction is used for a PA axial clavicle?",
+    "prompt": "What breathing instruction is required for the setup shown?",
     "options": [
       "Suspend at end of full inspiration",
       "Suspend at end expiration",
@@ -3236,7 +3236,7 @@
     "projection": "AP scapula",
     "topic": "positioning",
     "type": "mcq",
-    "prompt": "Based on the positioning shown, how far is the arm abducted for an AP scapula?",
+    "prompt": "How far should the arm be abducted in the setup shown?",
     "options": [
       "90°",
       "45°",

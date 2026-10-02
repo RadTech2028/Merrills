@@ -801,7 +801,7 @@
     "projection": "PA oblique digits 2–5",
     "topic": "positioning",
     "type": "mcq",
-    "prompt": "Based on the positioning shown, how much rotation is used for a PA oblique projection of digits 2–5?",
+    "prompt": "How much rotation is used in the positioning shown?",
     "options": [
       "45° lateral rotation",
       "15° medial rotation",
@@ -824,7 +824,7 @@
     "projection": "PA oblique digits 2–5",
     "topic": "positioning",
     "type": "mcq",
-    "prompt": "Using the positioning shown, what is the starting position for a PA oblique digit?",
+    "prompt": "Using the positioning shown, what is the starting position in this setup?",
     "options": [
       "Forearm on the table with the hand pronated and palm on the IR",
       "Hand in a true lateral position",
@@ -847,7 +847,7 @@
     "projection": "PA oblique digits 2–5",
     "topic": "central-ray",
     "type": "mcq",
-    "prompt": "Using the positioning shown, where is the CR centered for a PA oblique digit?",
+    "prompt": "Where should the CR be centered for the positioning shown?",
     "options": [
       "PIP joint of the affected digit",
       "MCP joint of the affected digit",
@@ -1014,7 +1014,7 @@
     "projection": "AP thumb",
     "topic": "positioning",
     "type": "mcq",
-    "prompt": "Based on the positioning shown, how is the patient's arm positioned for the AP thumb?",
+    "prompt": "How should the patient's arm be positioned in the setup shown?",
     "options": [
       "Internally rotated",
       "Externally rotated",
@@ -1168,7 +1168,7 @@
     "projection": "PA thumb",
     "topic": "positioning",
     "type": "mcq",
-    "prompt": "Based on the positioning shown, how is the hand positioned for the PA thumb?",
+    "prompt": "How should the hand and thumb be positioned in the setup shown?",
     "options": [
       "In a lateral position with the thumb elevated and abducted",
       "Flat palm-down on the IR",
@@ -1322,7 +1322,7 @@
     "projection": "Lateral thumb",
     "topic": "positioning",
     "type": "mcq",
-    "prompt": "Using the positioning shown, what hand position is used to obtain a lateral thumb?",
+    "prompt": "What hand position is used in the setup shown?",
     "options": [
       "Natural arched hand with palm down and fingers flexed",
       "Extreme medial rotation",
@@ -1476,7 +1476,7 @@
     "projection": "PA oblique thumb",
     "topic": "positioning",
     "type": "mcq",
-    "prompt": "Using the positioning shown, what should be done with the thumb for a PA oblique projection?",
+    "prompt": "What should be done with the thumb in the setup shown?",
     "options": [
       "Abduct the thumb with the palm resting on the IR",
       "Flex the thumb into the palm",
@@ -1684,7 +1684,7 @@
     "projection": "Robert method · first CMC",
     "topic": "positioning",
     "type": "mcq",
-    "prompt": "Based on the positioning shown, why must the shoulder, elbow, and wrist remain on the same plane for the Robert method?",
+    "prompt": "Why must the shoulder, elbow, and wrist remain on the same plane in this setup?",
     "options": [
       "To prevent elevation of the carpals and closing of the first CMC joint",
       "To increase OID of the thumb",
@@ -2226,7 +2226,7 @@
     "projection": "PA hand",
     "topic": "positioning",
     "type": "mcq",
-    "prompt": "Based on the positioning shown, how should the hand be positioned for a PA hand projection?",
+    "prompt": "How should the hand be positioned in the setup shown?",
     "options": [
       "Palmar surface down on the IR",
       "Dorsal surface down on the IR",
@@ -2606,7 +2606,7 @@
     "projection": "Lateral hand",
     "topic": "evaluation",
     "type": "mcq",
-    "prompt": "When evaluating the image produced from this setup, which structures should be superimposed on a routine lateral hand?",
+    "prompt": "When evaluating the image produced from this setup, which structures should be superimposed on a routine this setup?",
     "options": [
       "Metacarpals and distal radius/ulna",
       "All phalanges and metacarpals in a fan",
@@ -2742,7 +2742,7 @@
     "projection": "Fan lateral hand",
     "topic": "positioning",
     "type": "mcq",
-    "prompt": "Based on the positioning shown, how are the digits positioned for a fan lateral hand?",
+    "prompt": "How should the digits be supported in the setup shown?",
     "options": [
       "On a sponge wedge",
       "Flat together on the IR",
@@ -2765,7 +2765,7 @@
     "projection": "Fan lateral hand",
     "topic": "evaluation",
     "type": "mcq",
-    "prompt": "When evaluating the image produced from this setup, which structures remain superimposed on a fan lateral hand?",
+    "prompt": "When evaluating the image produced from this setup, which structures remain superimposed on a this setup?",
     "options": [
       "Most proximal phalanges and the metacarpals",
       "All distal phalanges",
@@ -2919,7 +2919,7 @@
     "projection": "Lateral hand in flexion",
     "topic": "positioning",
     "type": "mcq",
-    "prompt": "Based on the positioning shown, which side of the hand rests on the IR for the lateral hand in flexion?",
+    "prompt": "Which side of the hand should rest on the IR in the setup shown?",
     "options": [
       "Ulnar side",
       "Radial side",
@@ -3150,7 +3150,7 @@
     "projection": "Norgaard method · bilateral AP oblique",
     "topic": "positioning",
     "type": "mcq",
-    "prompt": "Based on the positioning shown, how are the hands positioned for the Norgaard method?",
+    "prompt": "How should both hands be positioned in the setup shown?",
     "options": [
       "Both hands half-supinated",
       "Both hands fully pronated",

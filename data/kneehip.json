@@ -186,7 +186,7 @@
     "projection": "AP knee",
     "topic": "positioning",
     "type": "mcq",
-    "prompt": "Based on the positioning shown, how should the femoral epicondyles be oriented for an AP knee?",
+    "prompt": "How should the femoral epicondyles be oriented in the setup shown?",
     "options": [
       "Parallel with the IR",
       "Perpendicular to the IR",
@@ -376,7 +376,7 @@
     "projection": "PA knee",
     "topic": "positioning",
     "type": "mcq",
-    "prompt": "Using the positioning shown, what patient position is used for a PA knee?",
+    "prompt": "What patient position is demonstrated in the setup shown?",
     "options": [
       "Prone",
       "Supine",
@@ -566,7 +566,7 @@
     "projection": "Lateral knee",
     "topic": "positioning",
     "type": "mcq",
-    "prompt": "Based on the positioning shown, how much is the knee flexed for a routine lateral knee?",
+    "prompt": "How much is the knee flexed in the setup shown?",
     "options": [
       "20–30°",
       "5–10°",
@@ -738,7 +738,7 @@
     "projection": "AP weight-bearing knee",
     "topic": "positioning",
     "type": "mcq",
-    "prompt": "Based on the positioning shown, how are the knees positioned for an AP weight-bearing knee?",
+    "prompt": "How should the knees be positioned in the setup shown?",
     "options": [
       "Fully extended",
       "Flexed 45°",
@@ -905,7 +905,7 @@
     "projection": "Rosenberg method · PA weight-bearing knee",
     "topic": "positioning",
     "type": "mcq",
-    "prompt": "Which positioning description best matches the image shown?",
+    "prompt": "How much should the knees be flexed in the setup shown?",
     "options": [
       "PA projection with knees flexed 45°",
       "AP bilateral weight-bearing knees",
@@ -1018,7 +1018,7 @@
     "projection": "AP oblique knee · lateral rotation",
     "topic": "positioning",
     "type": "mcq",
-    "prompt": "Based on the positioning shown, how much external rotation is used?",
+    "prompt": "How much external rotation is used in the setup shown?",
     "options": [
       "45°",
       "15°",
@@ -1154,7 +1154,7 @@
     "projection": "AP oblique knee · medial rotation",
     "topic": "positioning",
     "type": "mcq",
-    "prompt": "Based on the positioning shown, how much internal rotation is used?",
+    "prompt": "How much internal rotation is used in the setup shown?",
     "options": [
       "45°",
       "15°",
@@ -1362,7 +1362,7 @@
     "projection": "Holmblad method · intercondylar fossa",
     "topic": "positioning",
     "type": "mcq",
-    "prompt": "Based on the positioning shown, how much is the knee flexed for the Holmblad method · intercondylar fossa?",
+    "prompt": "How much is the knee flexed in the setup shown?",
     "options": [
       "70° from full extension",
       "40°",
@@ -1385,7 +1385,7 @@
     "projection": "Holmblad method · intercondylar fossa",
     "topic": "evaluation",
     "type": "mcq",
-    "prompt": "When evaluating the image produced from this setup, what should be open for the Holmblad method · intercondylar fossa?",
+    "prompt": "Which spaces should be open on a correctly positioned image from this setup?",
     "options": [
       "Intercondylar fossa and knee joint",
       "Only patellofemoral joint",
@@ -1873,7 +1873,7 @@
     "projection": "PA patella",
     "topic": "positioning",
     "type": "mcq",
-    "prompt": "Based on the positioning shown, how is the patient positioned for a PA patella?",
+    "prompt": "What patient position is demonstrated in the setup shown?",
     "options": [
       "Prone",
       "Supine",
@@ -2022,7 +2022,7 @@
     "projection": "Lateral patella",
     "topic": "positioning",
     "type": "mcq",
-    "prompt": "Based on the positioning shown, how much should the knee be flexed for a lateral patella?",
+    "prompt": "How much should the knee be flexed in the setup shown?",
     "options": [
       "5–10°",
       "20–30°",
@@ -2564,7 +2564,7 @@
     "projection": "Settegast method · patella & patellofemoral joint",
     "topic": "central-ray",
     "type": "mcq",
-    "prompt": "Using the positioning shown, where is the CR directed?",
+    "prompt": "Where should the CR be directed in the setup shown?",
     "options": [
       "Through the patellofemoral joint",
       "At the midpopliteal area",
@@ -2749,7 +2749,7 @@
     "projection": "AP femur",
     "topic": "positioning",
     "type": "mcq",
-    "prompt": "Based on the positioning shown, how should the distal femur be positioned for an AP projection?",
+    "prompt": "How should the distal femur be positioned in the setup shown?",
     "options": [
       "Epicondyles parallel with the IR",
       "Epicondyles perpendicular to the IR",
@@ -3016,7 +3016,7 @@
     "projection": "Lateral femur",
     "topic": "positioning",
     "type": "mcq",
-    "prompt": "Based on the positioning shown, how much is the knee flexed for a distal lateral femur?",
+    "prompt": "How much should the knee be flexed in the setup shown?",
     "options": [
       "45°",
       "20–30°",
@@ -3661,7 +3661,7 @@
     "projection": "AP pelvis",
     "topic": "positioning",
     "type": "mcq",
-    "prompt": "Based on the positioning shown, how should the MSP be positioned for an AP pelvis?",
+    "prompt": "How should the MSP be positioned in the setup shown?",
     "options": [
       "Centered",
       "Rotated toward the affected side",
@@ -3915,7 +3915,7 @@
     "projection": "Modified Cleaves method · bilateral",
     "topic": "positioning",
     "type": "mcq",
-    "prompt": "Based on the positioning shown, how are the hips and knees positioned for the bilateral Modified Cleaves method?",
+    "prompt": "How should the hips and knees be positioned in the setup shown?",
     "options": [
       "Flexed with soles together",
       "Fully extended",
@@ -3992,7 +3992,7 @@
     "projection": "Modified Cleaves method · unilateral",
     "topic": "positioning",
     "type": "mcq",
-    "prompt": "Based on the positioning shown, how is the affected leg positioned for a unilateral Modified Cleaves method?",
+    "prompt": "How should the affected leg be positioned in the setup shown?",
     "options": [
       "Affected foot against the opposite knee with the thigh abducted 45°",
       "Affected leg internally rotated 15–20° and extended",
@@ -4177,7 +4177,7 @@
     "projection": "AP hip",
     "topic": "positioning",
     "type": "mcq",
-    "prompt": "Based on the positioning shown, how much is the leg internally rotated for a routine AP hip when not contraindicated?",
+    "prompt": "How much should the leg be internally rotated in the setup shown?",
     "options": [
       "15–20°",
       "10–15°",
@@ -4331,7 +4331,7 @@
     "projection": "Lauenstein method · hip",
     "topic": "positioning",
     "type": "mcq",
-    "prompt": "Based on the positioning shown, how is the body adjusted?",
+    "prompt": "How should the body be adjusted in the setup shown?",
     "options": [
       "Rotate slightly toward the affected side",
       "Rotate 45° away from the affected side",
@@ -4593,7 +4593,7 @@
     "projection": "Danelius-Miller method · axiolateral hip",
     "topic": "positioning",
     "type": "mcq",
-    "prompt": "Using the positioning shown, what is done with the unaffected thigh?",
+    "prompt": "What should be done with the unaffected thigh in the setup shown?",
     "options": [
       "Elevated vertically and supported clear of the beam",
       "Internally rotated 15–20° on the table",
@@ -4796,7 +4796,7 @@
     "projection": "Judet method · acetabulum",
     "topic": "positioning",
     "type": "mcq",
-    "prompt": "Based on the positioning shown, how much posterior obliquity is used?",
+    "prompt": "How much posterior obliquity is used in the setup shown?",
     "options": [
       "45°",
       "15–20°",
@@ -5004,7 +5004,7 @@
     "projection": "Taylor method · AP axial outlet",
     "topic": "positioning",
     "type": "mcq",
-    "prompt": "Based on the positioning shown, how should the MSP and ASISs be positioned?",
+    "prompt": "How should the MSP and ASISs be positioned in the setup shown?",
     "options": [
       "MSP centered with ASISs equidistant from the table",
       "MSP rotated 45°",
@@ -5027,7 +5027,7 @@
     "projection": "Taylor method · AP axial outlet",
     "topic": "central-ray",
     "type": "mcq",
-    "prompt": "For a female patient, which CR angle is appropriate for the projection demonstrated here?",
+    "prompt": "For a female patient, which CR angle is appropriate for the setup shown?",
     "options": [
       "30–45° cephalad",
       "20–35° cephalad",
@@ -5212,7 +5212,7 @@
     "projection": "Bridgman method · superoinferior axial inlet",
     "topic": "positioning",
     "type": "mcq",
-    "prompt": "Based on the positioning shown, how is the pelvis positioned?",
+    "prompt": "How should the pelvis be positioned in the setup shown?",
     "options": [
       "Supine with MSP centered and no rotation",
       "Prone in 45° oblique",
@@ -5235,7 +5235,7 @@
     "projection": "Bridgman method · superoinferior axial inlet",
     "topic": "positioning",
     "type": "mcq",
-    "prompt": "Using the positioning shown, where is the IR centered?",
+    "prompt": "Where should the IR be centered in the setup shown?",
     "options": [
       "At the greater trochanters",
       "At the ASIS",

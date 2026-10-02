@@ -186,7 +186,7 @@
     "projection": "PA wrist",
     "topic": "positioning",
     "type": "mcq",
-    "prompt": "Based on the positioning shown, why is the patient's hand slightly arched at the MCP joints for a PA wrist?",
+    "prompt": "Why is the patient's hand slightly arched at the MCP joints in the setup shown?",
     "options": [
       "To place the carpals in close contact with the IR",
       "To open the first CMC joint",
@@ -376,7 +376,7 @@
     "projection": "AP wrist",
     "topic": "positioning",
     "type": "mcq",
-    "prompt": "Based on the positioning shown, how is the forearm positioned for an AP wrist?",
+    "prompt": "How should the forearm be positioned in the setup shown?",
     "options": [
       "Supinated",
       "Pronated",
@@ -589,7 +589,7 @@
     "projection": "Lateral wrist",
     "topic": "positioning",
     "type": "mcq",
-    "prompt": "Based on the positioning shown, how much should the elbow be flexed for the lateral wrist?",
+    "prompt": "How much should the elbow be flexed in the setup shown?",
     "options": [
       "90°",
       "45°",
@@ -756,7 +756,7 @@
     "projection": "PA oblique wrist · lateral rotation",
     "topic": "positioning",
     "type": "mcq",
-    "prompt": "Based on the positioning shown, how much lateral rotation is used for the PA oblique wrist?",
+    "prompt": "How much lateral rotation is used in the setup shown?",
     "options": [
       "About 45°",
       "15°",
@@ -910,7 +910,7 @@
     "projection": "AP oblique wrist · medial rotation",
     "topic": "positioning",
     "type": "mcq",
-    "prompt": "Based on the positioning shown, how much medial rotation is used for the AP oblique wrist?",
+    "prompt": "How much medial rotation is used in the setup shown?",
     "options": [
       "About 45°",
       "15°",
@@ -1082,7 +1082,7 @@
     "projection": "PA wrist · ulnar deviation",
     "topic": "positioning",
     "type": "mcq",
-    "prompt": "Based on the positioning shown, how is the hand moved to obtain ulnar deviation?",
+    "prompt": "How should the hand be moved in the setup shown?",
     "options": [
       "Turned outward without moving the forearm",
       "Turned medially without moving the forearm",
@@ -1236,7 +1236,7 @@
     "projection": "PA wrist · radial deviation",
     "topic": "positioning",
     "type": "mcq",
-    "prompt": "Based on the positioning shown, how is the hand moved for radial deviation?",
+    "prompt": "How should the hand be moved in the setup shown?",
     "options": [
       "Turned medially without moving the forearm",
       "Turned outward without moving the forearm",
@@ -1426,7 +1426,7 @@
     "projection": "Stecher method · scaphoid",
     "topic": "positioning",
     "type": "mcq",
-    "prompt": "Based on the positioning shown, how much is the IR elevated in the standard Stecher method described in the guide?",
+    "prompt": "How much is the IR elevated in the setup shown?",
     "options": [
       "20°",
       "10°",
@@ -1670,7 +1670,7 @@
     "projection": "Gaynor-Hart method · carpal canal",
     "topic": "positioning",
     "type": "mcq",
-    "prompt": "Using the positioning shown, what wrist position is required for the inferosuperior Gaynor-Hart method?",
+    "prompt": "What wrist position is required in the setup shown?",
     "options": [
       "Hyperextension",
       "Full flexion",
@@ -1716,7 +1716,7 @@
     "projection": "Gaynor-Hart method · carpal canal",
     "topic": "positioning",
     "type": "mcq",
-    "prompt": "Based on the positioning shown, why is the hand rotated slightly toward the radial side in the inferosuperior Gaynor-Hart method?",
+    "prompt": "Why is the hand rotated slightly toward the radial side in the setup shown?",
     "options": [
       "To prevent superimposition of the hamate and pisiform shadows",
       "To elongate the scaphoid",
@@ -1919,7 +1919,7 @@
     "projection": "AP forearm",
     "topic": "positioning",
     "type": "mcq",
-    "prompt": "Based on the positioning shown, how should the hand be positioned for an AP forearm?",
+    "prompt": "How should the hand be positioned in the setup shown?",
     "options": [
       "Supinated",
       "Pronated",
@@ -2145,7 +2145,7 @@
     "projection": "Lateral forearm",
     "topic": "positioning",
     "type": "mcq",
-    "prompt": "Based on the positioning shown, how much is the elbow flexed for a lateral forearm?",
+    "prompt": "How much is the elbow flexed in the setup shown?",
     "options": [
       "90°",
       "45°",
@@ -2353,7 +2353,7 @@
     "projection": "AP elbow",
     "topic": "positioning",
     "type": "mcq",
-    "prompt": "Based on the positioning shown, how should the hand be positioned for an AP elbow?",
+    "prompt": "How should the hand be positioned in the setup shown?",
     "options": [
       "Supinated",
       "Pronated",
@@ -2543,7 +2543,7 @@
     "projection": "Lateral elbow",
     "topic": "evaluation",
     "type": "mcq",
-    "prompt": "When evaluating the image produced from this setup, which bony landmarks should be superimposed on a true lateral elbow?",
+    "prompt": "When evaluating the image produced from this setup, which bony landmarks should be superimposed on a true this setup?",
     "options": [
       "Humeral epicondyles",
       "Radial head and ulna completely",
@@ -2589,7 +2589,7 @@
     "projection": "Lateral elbow",
     "topic": "positioning",
     "type": "mcq",
-    "prompt": "Based on the positioning shown, how much should the elbow be flexed for a routine lateral elbow?",
+    "prompt": "How much should the elbow be flexed in the setup shown?",
     "options": [
       "90°",
       "30–35°",
@@ -2797,7 +2797,7 @@
     "projection": "AP oblique elbow · medial rotation",
     "topic": "positioning",
     "type": "mcq",
-    "prompt": "Based on the positioning shown, how much medial rotation is used for the AP oblique elbow?",
+    "prompt": "How much medial rotation is used in the setup shown?",
     "options": [
       "45°",
       "15°",
@@ -2969,7 +2969,7 @@
     "projection": "AP oblique elbow · lateral rotation",
     "topic": "positioning",
     "type": "mcq",
-    "prompt": "Based on the positioning shown, how much lateral rotation is used for the AP oblique elbow?",
+    "prompt": "How much lateral rotation is used in the setup shown?",
     "options": [
       "45°",
       "15°",
@@ -3159,7 +3159,7 @@
     "projection": "AP partial flexion · distal humerus",
     "topic": "positioning",
     "type": "mcq",
-    "prompt": "Using the positioning shown, where is the IR centered for the distal-humerus partial-flexion view?",
+    "prompt": "Where should the IR be centered in the setup shown?",
     "options": [
       "Condyloid area of the humerus",
       "Midshaft forearm",
@@ -3344,7 +3344,7 @@
     "projection": "AP partial flexion · proximal forearm",
     "topic": "positioning",
     "type": "mcq",
-    "prompt": "Based on the positioning shown, how should the hand be positioned if possible for the proximal-forearm partial-flexion view?",
+    "prompt": "How should the hand be positioned, if possible, in the setup shown?",
     "options": [
       "Supinated",
       "Pronated",
