@@ -100,7 +100,7 @@
     "projection": "Emphysema",
     "topic": "pathology",
     "type": "mcq",
-    "prompt": "Which condition matches this definition: Destructive and obstructive airway changes leading to an increased volume of air in the lungs?",
+    "prompt": "Which condition matches this definition: Destruction of alveolar walls with enlargement of air spaces and air trapping?",
     "options": [
       "Aspiration pneumonia",
       "Atelectasis",
@@ -108,8 +108,8 @@
       "Cystic fibrosis"
     ],
     "answer": "Emphysema",
-    "explanation": "Emphysema: Destructive and obstructive airway changes leading to an increased volume of air in the lungs.",
-    "source": "Merrill's · Pathology terminology"
+    "explanation": "Emphysema: Destruction of alveolar walls with enlargement of air spaces and air trapping.",
+    "source": "NHLBI · COPD · https://www.nhlbi.nih.gov/health/copd"
   },
   {
     "id": "pathology-008",
@@ -164,11 +164,11 @@
     "projection": "Granulomatous disease",
     "topic": "pathology",
     "type": "mcq",
-    "prompt": "Which condition matches this definition: Condition of the lung marked by formation of granulomas?",
+    "prompt": "Which broad disease category describes conditions characterized by granuloma formation in the lungs?",
     "options": [
       "Aspiration/foreign body",
-      "Fungal disease",
-      "Tuberculosis",
+      "Pleural effusion",
+      "Pneumothorax",
       "Granulomatous disease"
     ],
     "answer": "Granulomatous disease",
@@ -180,16 +180,16 @@
     "projection": "Sarcoidosis",
     "topic": "pathology",
     "type": "mcq",
-    "prompt": "Which condition matches this definition: Condition of unknown origin often associated with pulmonary fibrosis?",
+    "prompt": "Which condition matches this definition: Inflammatory disease of unknown exact cause that forms granulomas, commonly in the lungs and chest lymph nodes?",
     "options": [
       "Cystic fibrosis",
       "Chronic obstructive pulmonary disease",
-      "Granulomatous disease",
+      "Pleural effusion",
       "Sarcoidosis"
     ],
     "answer": "Sarcoidosis",
-    "explanation": "Sarcoidosis: Condition of unknown origin often associated with pulmonary fibrosis.",
-    "source": "Merrill's · Pathology terminology"
+    "explanation": "Sarcoidosis: Inflammatory disease of unknown exact cause that forms granulomas, commonly in the lungs and chest lymph nodes.",
+    "source": "NHLBI · Sarcoidosis · https://www.nhlbi.nih.gov/health/sarcoidosis"
   },
   {
     "id": "pathology-013",
@@ -212,7 +212,7 @@
     "projection": "Hyaline membrane disease or respiratory distress syndrome",
     "topic": "pathology",
     "type": "mcq",
-    "prompt": "Which condition matches this definition: Under-aeration of the lungs caused by lack of surfactant?",
+    "prompt": "Which condition matches this definition: Respiratory distress in a newborn, especially a premature infant, due to insufficient surfactant and poorly expanded lungs?",
     "options": [
       "Hyaline membrane disease or respiratory distress syndrome",
       "Aspiration/foreign body",
@@ -220,7 +220,7 @@
       "Epiglottitis"
     ],
     "answer": "Hyaline membrane disease or respiratory distress syndrome",
-    "explanation": "Hyaline membrane disease or respiratory distress syndrome: Under-aeration of the lungs caused by lack of surfactant.",
+    "explanation": "Hyaline membrane disease or respiratory distress syndrome: Respiratory distress in a newborn, especially a premature infant, due to insufficient surfactant and poorly expanded lungs.",
     "source": "Merrill's · Pathology terminology"
   },
   {
@@ -260,11 +260,11 @@
     "projection": "Pneumoconiosis",
     "topic": "pathology",
     "type": "mcq",
-    "prompt": "Which condition matches this definition: Lung diseases resulting from inhalation of industrial substances?",
+    "prompt": "Which umbrella term describes lung diseases caused by inhaled mineral or industrial dusts?",
     "options": [
       "Hyaline membrane disease or respiratory distress syndrome",
       "Pneumoconiosis",
-      "Anthracosis or coal miner lung or black lung",
+      "Pulmonary edema",
       "Interstitial or viral pneumonia (pneumonitis)"
     ],
     "answer": "Pneumoconiosis",
@@ -292,7 +292,7 @@
     "projection": "Asbestosis",
     "topic": "pathology",
     "type": "mcq",
-    "prompt": "Which condition matches this definition: Inflammation caused by inhalation of asbestos?",
+    "prompt": "Which condition matches this definition: Scarring of lung tissue caused by inhaled asbestos fibers?",
     "options": [
       "Emphysema",
       "Granulomatous disease",
@@ -300,15 +300,15 @@
       "Atelectasis"
     ],
     "answer": "Asbestosis",
-    "explanation": "Asbestosis: Inflammation caused by inhalation of asbestos.",
-    "source": "Merrill's · Pathology terminology"
+    "explanation": "Asbestosis: Scarring of lung tissue caused by inhaled asbestos fibers.",
+    "source": "CDC/ATSDR · Health Effects of Asbestos · https://atsdr.cdc.gov/asbestos/health-effects/index.html"
   },
   {
     "id": "pathology-020",
     "projection": "Silicosis",
     "topic": "pathology",
     "type": "mcq",
-    "prompt": "Which condition matches this definition: Inflammation caused by inhalation of silicon dioxide?",
+    "prompt": "Which condition matches this definition: Lung inflammation and scarring caused by inhaled crystalline silica?",
     "options": [
       "Aspiration/foreign body",
       "Bronchitis",
@@ -316,8 +316,8 @@
       "Silicosis"
     ],
     "answer": "Silicosis",
-    "explanation": "Silicosis: Inflammation caused by inhalation of silicon dioxide.",
-    "source": "Merrill's · Pathology terminology"
+    "explanation": "Silicosis: Lung inflammation and scarring caused by inhaled crystalline silica.",
+    "source": "CDC/NIOSH · Silicosis · https://www.cdc.gov/niosh/silica/symptoms/index.html"
   },
   {
     "id": "pathology-021",
@@ -345,7 +345,7 @@
       "Aspiration pneumonia",
       "Hyaline membrane disease or respiratory distress syndrome",
       "Chronic obstructive pulmonary disease",
-      "Pneumonia"
+      "Pleural effusion"
     ],
     "answer": "Aspiration pneumonia",
     "explanation": "Aspiration pneumonia: Pneumonia caused by aspiration of foreign particles.",
@@ -532,7 +532,7 @@
     "projection": "Bone cyst",
     "topic": "pathology",
     "type": "mcq",
-    "prompt": "Which condition matches this definition: Fluid-filled cyst with a wall of fibrous tissue?",
+    "prompt": "Which condition matches this definition: A fluid-filled cavity within a bone, typically lined by fibrous tissue?",
     "options": [
       "Osgood–Schlatter disease",
       "Tendinitis",
@@ -540,7 +540,7 @@
       "Dislocation"
     ],
     "answer": "Bone cyst",
-    "explanation": "Bone cyst: Fluid-filled cyst with a wall of fibrous tissue.",
+    "explanation": "Bone cyst: A fluid-filled cavity within a bone, typically lined by fibrous tissue.",
     "source": "Merrill's · Pathology terminology"
   },
   {
@@ -564,7 +564,7 @@
     "projection": "Dislocation",
     "topic": "pathology",
     "type": "mcq",
-    "prompt": "Which condition matches this definition: Displacement of a bone from the joint space?",
+    "prompt": "Which condition matches this definition: Complete loss of the normal contact between the articular surfaces of a joint?",
     "options": [
       "Osteomalacia or rickets",
       "Dislocation",
@@ -572,7 +572,7 @@
       "Subluxation"
     ],
     "answer": "Dislocation",
-    "explanation": "Dislocation: Displacement of a bone from the joint space.",
+    "explanation": "Dislocation: Complete loss of the normal contact between the articular surfaces of a joint.",
     "source": "Merrill's · Pathology terminology"
   },
   {
@@ -596,7 +596,7 @@
     "projection": "Bennett fracture",
     "topic": "pathology",
     "type": "mcq",
-    "prompt": "Which condition matches this definition: Fracture at the base of the first metacarpal?",
+    "prompt": "Which condition matches this definition: An intra-articular fracture at the base of the first metacarpal involving the first CMC joint?",
     "options": [
       "Hill-Sachs defect",
       "Bennett fracture",
@@ -604,8 +604,8 @@
       "Jefferson fracture"
     ],
     "answer": "Bennett fracture",
-    "explanation": "Bennett fracture: Fracture at the base of the first metacarpal.",
-    "source": "Merrill's · Pathology terminology"
+    "explanation": "Bennett fracture: An intra-articular fracture at the base of the first metacarpal involving the first CMC joint.",
+    "source": "AAOS · Thumb Fractures · https://www.orthoinfo.org/diseases--conditions/thumb-fractures"
   },
   {
     "id": "pathology-039",
@@ -660,7 +660,7 @@
     "projection": "Torus or buckle fracture",
     "topic": "pathology",
     "type": "mcq",
-    "prompt": "Which condition matches this definition: Impacted fracture with bulging of the periosteum?",
+    "prompt": "Which condition matches this definition: An incomplete compression injury that buckles the bone cortex, commonly in children?",
     "options": [
       "Torus or buckle fracture",
       "Pott fracture",
@@ -668,15 +668,15 @@
       "Smith fracture"
     ],
     "answer": "Torus or buckle fracture",
-    "explanation": "Torus or buckle fracture: Impacted fracture with bulging of the periosteum.",
-    "source": "Merrill's · Pathology terminology"
+    "explanation": "Torus or buckle fracture: An incomplete compression injury that buckles the bone cortex, commonly in children.",
+    "source": "AAOS · Forearm Fractures in Children · https://www.orthoinfo.org/diseases--conditions/forearm-fractures-in-children/"
   },
   {
     "id": "pathology-043",
     "projection": "Gout",
     "topic": "pathology",
     "type": "mcq",
-    "prompt": "Which condition matches this definition: Hereditary form of arthritis in which uric acid is deposited in joints?",
+    "prompt": "Which condition matches this definition: Inflammatory arthritis caused by deposition of urate crystals in joints?",
     "options": [
       "Gout",
       "Osteomalacia or rickets",
@@ -684,8 +684,8 @@
       "Osteoarthritis or degenerative joint disease"
     ],
     "answer": "Gout",
-    "explanation": "Gout: Hereditary form of arthritis in which uric acid is deposited in joints.",
-    "source": "Merrill's · Pathology terminology"
+    "explanation": "Gout: Inflammatory arthritis caused by deposition of urate crystals in joints.",
+    "source": "NIAMS · Gout · https://www.niams.nih.gov/health-topics/gout"
   },
   {
     "id": "pathology-044",
@@ -740,7 +740,7 @@
     "projection": "Osteopetrosis",
     "topic": "pathology",
     "type": "mcq",
-    "prompt": "Which condition matches this definition: Increased density of atypically soft bone?",
+    "prompt": "Which condition matches this definition: A disorder of bone resorption producing abnormally dense but brittle bones?",
     "options": [
       "Dislocation",
       "Osteopetrosis",
@@ -748,8 +748,8 @@
       "Osteoarthritis or degenerative joint disease"
     ],
     "answer": "Osteopetrosis",
-    "explanation": "Osteopetrosis: Increased density of atypically soft bone.",
-    "source": "Merrill's · Pathology terminology"
+    "explanation": "Osteopetrosis: A disorder of bone resorption producing abnormally dense but brittle bones.",
+    "source": "NIAMS · Osteopetrosis · https://www.niams.nih.gov/health-topics/osteopetrosis"
   },
   {
     "id": "pathology-048",
@@ -820,32 +820,32 @@
     "projection": "Ewing sarcoma",
     "topic": "pathology",
     "type": "mcq",
-    "prompt": "Which condition matches this definition: Malignant tumor of bone arising in medullary tissue?",
+    "prompt": "Which condition matches this definition: A malignant small round cell tumor of bone or soft tissue that typically affects children and adolescents?",
     "options": [
       "Osteosarcoma",
-      "Tumor",
+      "Osteochondroma or exostosis",
       "Ewing sarcoma",
       "Enchondroma"
     ],
     "answer": "Ewing sarcoma",
-    "explanation": "Ewing sarcoma: Malignant tumor of bone arising in medullary tissue.",
-    "source": "Merrill's · Pathology terminology"
+    "explanation": "Ewing sarcoma: A malignant small round cell tumor of bone or soft tissue that typically affects children and adolescents.",
+    "source": "NCI · Ewing Sarcoma · https://www.cancer.gov/types/bone/hp/ewing-treatment-pdq"
   },
   {
     "id": "pathology-053",
     "projection": "Osteosarcoma",
     "topic": "pathology",
     "type": "mcq",
-    "prompt": "Which condition matches this definition: Malignant, primary tumor of bone with bone or cartilage formation?",
+    "prompt": "Which condition matches this definition: A primary malignant bone-forming tumor?",
     "options": [
-      "Tumor",
+      "Chondrosarcoma",
       "Osteoid osteoma",
       "Osteosarcoma",
       "Metastasis"
     ],
     "answer": "Osteosarcoma",
-    "explanation": "Osteosarcoma: Malignant, primary tumor of bone with bone or cartilage formation.",
-    "source": "Merrill's · Pathology terminology"
+    "explanation": "Osteosarcoma: A primary malignant bone-forming tumor.",
+    "source": "AAOS · Osteosarcoma · https://www.orthoinfo.org/diseases--conditions/osteosarcoma/"
   },
   {
     "id": "pathology-054",
@@ -900,7 +900,7 @@
     "projection": "Pott fracture",
     "topic": "pathology",
     "type": "mcq",
-    "prompt": "Which condition matches this definition: Avulsion fracture of the medial malleolus with loss of the ankle mortise?",
+    "prompt": "Which eponym is commonly used for a bimalleolar ankle fracture involving both the medial and lateral malleoli?",
     "options": [
       "Colles fracture",
       "Compression fracture",
@@ -908,15 +908,15 @@
       "Pott fracture"
     ],
     "answer": "Pott fracture",
-    "explanation": "Pott fracture: Avulsion fracture of the medial malleolus with loss of the ankle mortise.",
-    "source": "Merrill's · Pathology terminology"
+    "explanation": "Pott fracture is an older eponym commonly used for a bimalleolar ankle fracture. Both sides of the ankle are injured.",
+    "source": "Rady Children’s Health · Bimalleolar Fracture · https://www.rchsd.org/health-article/a-to-z-fracture-bimalleolar/"
   },
   {
     "id": "pathology-058",
     "projection": "Jones fracture",
     "topic": "pathology",
     "type": "mcq",
-    "prompt": "Which condition matches this definition: Avulsion fracture of the base of the fifth metatarsal?",
+    "prompt": "Which condition matches this definition: A fracture of the proximal fifth metatarsal near the transition from its base to its shaft?",
     "options": [
       "Colles fracture",
       "Jones fracture",
@@ -924,15 +924,15 @@
       "Hangman’s fracture"
     ],
     "answer": "Jones fracture",
-    "explanation": "Jones fracture: Avulsion fracture of the base of the fifth metatarsal.",
-    "source": "Merrill's · Pathology terminology"
+    "explanation": "A Jones fracture occurs near the base-to-shaft junction of the fifth metatarsal. It is distinct from an avulsion of the tuberosity.",
+    "source": "AOFAS · Jones fracture · https://www.aofas.org/news/press-releases/2022/11/29/what-is-a-jones-fracture"
   },
   {
     "id": "pathology-059",
     "projection": "Osgood–Schlatter disease",
     "topic": "pathology",
     "type": "mcq",
-    "prompt": "Which condition matches this definition: Incomplete separation or avulsion of the tibial tuberosity?",
+    "prompt": "Which condition matches this definition: A traction-related disorder of the tibial tubercle growth region in a growing child or adolescent?",
     "options": [
       "Subluxation",
       "Osteopetrosis",
@@ -940,8 +940,8 @@
       "Bone cyst"
     ],
     "answer": "Osgood–Schlatter disease",
-    "explanation": "Osgood–Schlatter disease: Incomplete separation or avulsion of the tibial tuberosity.",
-    "source": "Merrill's · Pathology terminology"
+    "explanation": "Repeated traction by the patellar tendon irritates the tibial tubercle growth region, causing pain and sometimes fragmentation.",
+    "source": "AAOS · Osgood-Schlatter Disease · https://www.orthoinfo.org/diseases--conditions/osgood-schlatter-disease-knee-pain"
   },
   {
     "id": "pathology-060",
@@ -996,7 +996,7 @@
     "projection": "Osteoclastoma or giant cell tumor",
     "topic": "pathology",
     "type": "mcq",
-    "prompt": "Which condition matches this definition: Lucent lesion in the metaphysis, usually at the distal femur?",
+    "prompt": "Which condition matches this definition: A locally aggressive, usually benign bone tumor characteristically involving the epiphysis near a joint, often around the knee?",
     "options": [
       "Ewing sarcoma",
       "Osteosarcoma",
@@ -1004,8 +1004,8 @@
       "Osteoclastoma or giant cell tumor"
     ],
     "answer": "Osteoclastoma or giant cell tumor",
-    "explanation": "Osteoclastoma or giant cell tumor: Lucent lesion in the metaphysis, usually at the distal femur.",
-    "source": "Merrill's · Pathology terminology"
+    "explanation": "Osteoclastoma or giant cell tumor: A locally aggressive, usually benign bone tumor characteristically involving the epiphysis near a joint, often around the knee.",
+    "source": "AAOS · Giant Cell Tumor of Bone · https://www.orthoinfo.org/diseases--conditions/giant-cell-tumor-of-bone"
   },
   {
     "id": "pathology-064",
@@ -1028,7 +1028,7 @@
     "projection": "Ankylosing spondylitis",
     "topic": "pathology",
     "type": "mcq",
-    "prompt": "Which condition matches this definition: Rheumatoid arthritis variant involving the sacroiliac joints and spine?",
+    "prompt": "Which condition matches this definition: Chronic inflammatory arthritis primarily affecting the sacroiliac joints and spine, sometimes causing vertebral fusion?",
     "options": [
       "Scheuermann disease or adolescent kyphosis",
       "Ankylosing spondylitis",
@@ -1036,8 +1036,8 @@
       "Subluxation"
     ],
     "answer": "Ankylosing spondylitis",
-    "explanation": "Ankylosing spondylitis: Rheumatoid arthritis variant involving the sacroiliac joints and spine.",
-    "source": "Merrill's · Pathology terminology"
+    "explanation": "Ankylosing spondylitis: Chronic inflammatory arthritis primarily affecting the sacroiliac joints and spine, sometimes causing vertebral fusion.",
+    "source": "NIAMS · Ankylosing Spondylitis · https://www.niams.nih.gov/health-topics/ankylosing-spondylitis"
   },
   {
     "id": "pathology-066",
@@ -1076,7 +1076,7 @@
     "projection": "Slipped epiphysis",
     "topic": "pathology",
     "type": "mcq",
-    "prompt": "Which condition matches this definition: Proximal portion of the femur dislocated from the distal portion at the proximal epiphysis?",
+    "prompt": "Which condition matches this definition: Slippage of the femoral head relative to the femoral neck through the proximal growth plate?",
     "options": [
       "Kyphosis",
       "Lordosis",
@@ -1084,8 +1084,8 @@
       "Slipped epiphysis"
     ],
     "answer": "Slipped epiphysis",
-    "explanation": "Slipped epiphysis: Proximal portion of the femur dislocated from the distal portion at the proximal epiphysis.",
-    "source": "Merrill's · Pathology terminology"
+    "explanation": "Slipped epiphysis: Slippage of the femoral head relative to the femoral neck through the proximal growth plate.",
+    "source": "AAOS · Slipped Capital Femoral Epiphysis · https://www.orthoinfo.org/en/diseases--conditions/slipped-capital-femoral-epiphysis-scfe/"
   },
   {
     "id": "pathology-069",
@@ -1124,15 +1124,15 @@
     "projection": "Compression fracture",
     "topic": "pathology",
     "type": "mcq",
-    "prompt": "Which condition matches this definition: Fracture that causes compaction of bone and a decrease in length or width?",
+    "prompt": "Which condition matches this definition: Collapse of a vertebral body under compression, producing loss of vertebral height?",
     "options": [
-      "Torus or buckle fracture",
+      "Clay shoveler’s fracture",
       "Compression fracture",
       "Pott fracture",
       "Hangman’s fracture"
     ],
     "answer": "Compression fracture",
-    "explanation": "Compression fracture: Fracture that causes compaction of bone and a decrease in length or width.",
+    "explanation": "Compression fracture: Collapse of a vertebral body under compression, producing loss of vertebral height.",
     "source": "Merrill's · Pathology terminology"
   },
   {
@@ -1140,7 +1140,7 @@
     "projection": "Hangman’s fracture",
     "topic": "pathology",
     "type": "mcq",
-    "prompt": "Which condition matches this definition: Fracture of the anterior arch of C2 owing to hyperextension?",
+    "prompt": "Which condition matches this definition: Bilateral fractures through the pars interarticularis of C2, often associated with displacement of C2 relative to C3?",
     "options": [
       "Clay shoveler’s fracture",
       "Torus or buckle fracture",
@@ -1148,8 +1148,8 @@
       "Hangman’s fracture"
     ],
     "answer": "Hangman’s fracture",
-    "explanation": "Hangman’s fracture: Fracture of the anterior arch of C2 owing to hyperextension.",
-    "source": "Merrill's · Pathology terminology"
+    "explanation": "Hangman’s fracture: Bilateral fractures through the pars interarticularis of C2, often associated with displacement of C2 relative to C3.",
+    "source": "Columbia Neurosurgery · Hangman’s Fracture · https://www.neurosurgery.columbia.edu/patient-care/conditions/hangmans-fracture"
   },
   {
     "id": "pathology-073",
@@ -1220,7 +1220,7 @@
     "projection": "Scheuermann disease or adolescent kyphosis",
     "topic": "pathology",
     "type": "mcq",
-    "prompt": "Which condition matches this definition: Kyphosis with onset in adolescence?",
+    "prompt": "Which condition matches this definition: Structural kyphosis developing during adolescence with anterior wedging of multiple adjacent vertebral bodies?",
     "options": [
       "Osteoporosis",
       "Scheuermann disease or adolescent kyphosis",
@@ -1228,8 +1228,8 @@
       "Spondylolysis"
     ],
     "answer": "Scheuermann disease or adolescent kyphosis",
-    "explanation": "Scheuermann disease or adolescent kyphosis: Kyphosis with onset in adolescence.",
-    "source": "Merrill's · Pathology terminology"
+    "explanation": "Scheuermann disease or adolescent kyphosis: Structural kyphosis developing during adolescence with anterior wedging of multiple adjacent vertebral bodies.",
+    "source": "AAOS · Kyphosis · https://www.orthoinfo.org/diseases--conditions/kyphosis-roundback-of-the-spine"
   },
   {
     "id": "pathology-078",
@@ -1284,16 +1284,16 @@
     "projection": "Spondylolysis",
     "topic": "pathology",
     "type": "mcq",
-    "prompt": "Which condition matches this definition: Breaking down of the vertebra?",
+    "prompt": "Which condition matches this definition: A defect or stress fracture in the pars interarticularis of a vertebra?",
     "options": [
       "Paget disease",
       "Spondylolysis",
       "Compression fracture",
-      "Fracture"
+      "Spondylolisthesis"
     ],
     "answer": "Spondylolysis",
-    "explanation": "Spondylolysis: Breaking down of the vertebra.",
-    "source": "Merrill's · Pathology terminology"
+    "explanation": "Spondylolysis: A defect or stress fracture in the pars interarticularis of a vertebra.",
+    "source": "AAOS · Spondylolysis and Spondylolisthesis · https://www.orthoinfo.org/diseases--conditions/spondylolysis-and-spondylolisthesis"
   },
   {
     "id": "pathology-082",

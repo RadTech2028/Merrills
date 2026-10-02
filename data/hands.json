@@ -219,7 +219,7 @@
     "projection": "PA digits 2–5",
     "topic": "central-ray",
     "type": "mcq",
-    "prompt": "Based on the setup shown, how should the CR be directed?",
+    "prompt": "At which joint should the CR be centered for the positioning shown?",
     "options": [
       "PIP joint of the affected digit",
       "DIP joint of the affected digit",
@@ -265,7 +265,7 @@
     "projection": "PA digits 2–5",
     "topic": "positioning",
     "type": "mcq",
-    "prompt": "Based on the image, which positioning statement is accurate?",
+    "prompt": "How should the affected digit be separated from adjacent digits for the projection shown?",
     "options": [
       "Slight separation from adjacent digits",
       "45° lateral rotation",
@@ -306,7 +306,7 @@
     "projection": "Lateral digits 2–5",
     "topic": "positioning",
     "type": "mcq",
-    "prompt": "Which digits are positioned with their lateral surface resting on the IR?",
+    "prompt": "For lateral projections of digits 2–5, which digits are positioned with their lateral surface resting on the IR?",
     "options": [
       "Second and third",
       "Third and fourth",
@@ -324,7 +324,7 @@
     "projection": "Lateral digits 2–5",
     "topic": "positioning",
     "type": "mcq",
-    "prompt": "Which digits are positioned with their medial surface resting on the IR?",
+    "prompt": "For lateral projections of digits 2–5, which digits are positioned with their medial surface resting on the IR?",
     "options": [
       "Fourth and fifth",
       "Second and third",
@@ -342,7 +342,7 @@
     "projection": "Lateral digits 2–5",
     "topic": "positioning",
     "type": "mcq",
-    "prompt": "Which digits may need adhesive tape for support because they are elevated?",
+    "prompt": "For lateral projections of digits 2–5, which digits may need adhesive tape for support because they are elevated?",
     "options": [
       "Third and fourth",
       "Second and third",
@@ -778,7 +778,7 @@
     "projection": "PA oblique digits 2–5",
     "topic": "positioning",
     "type": "mcq",
-    "prompt": "Which positioning feature is required for the setup shown?",
+    "prompt": "How much oblique rotation of the affected digit is used for the position shown?",
     "options": [
       "45°",
       "15°",
@@ -1037,7 +1037,7 @@
     "projection": "AP thumb",
     "topic": "central-ray",
     "type": "mcq",
-    "prompt": "Based on the setup shown, how should the CR be directed?",
+    "prompt": "At which joint should the CR be centered for the positioning shown?",
     "options": [
       "First MCP joint",
       "First CMC joint",
@@ -1096,7 +1096,7 @@
     "projection": "PA thumb",
     "topic": "positioning",
     "type": "mcq",
-    "prompt": "Which surface of the thumb should be parallel with the IR for the PA projection?",
+    "prompt": "For a PA thumb, which surface faces the x-ray tube and should be kept parallel with the IR?",
     "options": [
       "Dorsal surface",
       "Palmar surface",
@@ -1191,7 +1191,7 @@
     "projection": "PA thumb",
     "topic": "positioning",
     "type": "mcq",
-    "prompt": "Based on the image, which positioning statement is accurate?",
+    "prompt": "Why is a tongue blade used to support the thumb in this position?",
     "options": [
       "To keep the elevated, abducted thumb positioned with its dorsal surface parallel to the IR",
       "To rotate the thumb 45°",
@@ -1345,7 +1345,7 @@
     "projection": "Lateral thumb",
     "topic": "evaluation",
     "type": "mcq",
-    "prompt": "When evaluating this image, which finding is correct?",
+    "prompt": "On a radiograph obtained with this positioning, how should the thumbnail appear?",
     "options": [
       "Thumbnail in profile",
       "Thumbnail centered over the distal phalanx",
@@ -1707,7 +1707,7 @@
     "projection": "Robert method · first CMC",
     "topic": "central-ray",
     "type": "mcq",
-    "prompt": "Based on the setup shown, how should the CR be directed?",
+    "prompt": "At which joint should the CR be centered for the positioning shown?",
     "options": [
       "First CMC joint",
       "First MCP joint",
@@ -1897,7 +1897,7 @@
     "projection": "Burman method · first CMC",
     "topic": "central-ray",
     "type": "mcq",
-    "prompt": "Which central-ray direction or centering point is appropriate for the setup shown?",
+    "prompt": "Which CR angle and centering point are used for the positioning shown?",
     "options": [
       "45° toward the elbow through the first CMC joint",
       "Perpendicular to the first MCP joint",
@@ -2249,7 +2249,7 @@
     "projection": "PA hand",
     "topic": "central-ray",
     "type": "mcq",
-    "prompt": "Based on the setup shown, how should the CR be directed?",
+    "prompt": "At which joint should the CR be centered for the positioning shown?",
     "options": [
       "Third MCP joint",
       "Second MCP joint",
@@ -2326,7 +2326,7 @@
     "projection": "PA oblique hand · 45°",
     "topic": "evaluation",
     "type": "mcq",
-    "prompt": "Which digits should have the greatest separation on a correctly positioned PA oblique hand?",
+    "prompt": "Between which metacarpal bodies should the greatest separation be seen on a correctly positioned PA oblique hand?",
     "options": [
       "Second and third",
       "Third and fourth",
@@ -2334,7 +2334,7 @@
       "First and second"
     ],
     "answer": "Second and third",
-    "explanation": "The guide states that the second and third digits have the greatest separation.",
+    "explanation": "The greatest metacarpal-body separation is between the second and third; separation decreases toward the fifth metacarpal.",
     "source": "Positioning practice · PA oblique hand"
   },
   {
@@ -2344,7 +2344,7 @@
     "projection": "PA oblique hand · 45°",
     "topic": "evaluation",
     "type": "mcq",
-    "prompt": "How does separation change between metacarpal bodies 2–5 on a PA oblique hand?",
+    "prompt": "On a PA oblique hand, how does separation between adjacent metacarpal bodies change from the second–third pair toward the fourth–fifth pair?",
     "options": [
       "It decreases progressively",
       "It increases progressively",
@@ -2380,7 +2380,7 @@
     "projection": "PA oblique hand · 45°",
     "topic": "evaluation",
     "type": "mcq",
-    "prompt": "Which joint should be open on a PA oblique hand regardless of finger support?",
+    "prompt": "Which joint spaces should be open on a PA oblique hand regardless of whether a finger-support wedge is used?",
     "options": [
       "MCP joints",
       "CMC joints only",
@@ -2457,7 +2457,7 @@
     "projection": "PA oblique hand · 45°",
     "topic": "evaluation",
     "type": "mcq",
-    "prompt": "Which finding should be present if this image is positioned correctly?",
+    "prompt": "What should the IP joint spaces look like on a radiograph made with the supported-digit positioning shown?",
     "options": [
       "Open IP joints when the digits are kept parallel to the IR",
       "Complete superimposition of all phalanges",
@@ -2670,15 +2670,15 @@
     "projection": "Fan lateral hand",
     "topic": "positioning",
     "type": "mcq",
-    "prompt": "How are the digits positioned for a fan lateral hand?",
+    "prompt": "How should the fingers be arranged on the support for a fan lateral hand?",
     "options": [
-      "On a sponge wedge",
-      "Flat together on the IR",
-      "Flexed into the palm",
-      "Half-supinated on two sponges"
+      "Separated in a fan, with each finger as close to lateral as possible",
+      "Stacked directly on one another",
+      "Fully flexed into a fist",
+      "Extended flat in a PA position"
     ],
-    "answer": "On a sponge wedge",
-    "explanation": "The fan lateral places the digits on a sponge wedge.",
+    "answer": "Separated in a fan, with each finger as close to lateral as possible",
+    "explanation": "The support holds the fingers apart in a fan, reducing overlap of the phalanges.",
     "source": "Positioning practice · Fan lateral hand"
   },
   {
@@ -2724,15 +2724,15 @@
     "projection": "Fan lateral hand",
     "topic": "evaluation",
     "type": "mcq",
-    "prompt": "Which structures remain superimposed on a fan lateral hand?",
+    "prompt": "Which structures remain overlapped despite spreading the fingers for a fan lateral hand?",
     "options": [
-      "Most proximal phalanges and the metacarpals",
+      "Metacarpals and proximal portions of the proximal phalanges",
       "All distal phalanges",
       "All phalanges",
       "No structures at all"
     ],
-    "answer": "Most proximal phalanges and the metacarpals",
-    "explanation": "The fan lateral separates most phalanges, but the metacarpals and most proximal phalanges remain superimposed.",
+    "answer": "Metacarpals and proximal portions of the proximal phalanges",
+    "explanation": "The fan position separates most of the phalanges; the metacarpals and proximal portions of the proximal phalanges remain overlapped.",
     "source": "Positioning practice · Fan lateral hand"
   },
   {
@@ -3173,7 +3173,7 @@
     "projection": "Norgaard method · bilateral AP oblique",
     "topic": "positioning",
     "type": "mcq",
-    "prompt": "What positioning detail is correctly represented or required here?",
+    "prompt": "What angle of radiolucent sponge supports each hand in the bilateral oblique position shown?",
     "options": [
       "45°",
       "15°",

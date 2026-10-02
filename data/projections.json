@@ -650,6 +650,42 @@
         "orientation": "Oblique",
         "label": "AP oblique knee · lateral rotation",
         "detail": ""
+      },
+      {
+        "id": "knee-pa",
+        "orientation": "PA",
+        "label": "PA knee",
+        "detail": ""
+      },
+      {
+        "id": "knee-wb-ap",
+        "orientation": "AP",
+        "label": "AP weight-bearing knee",
+        "detail": ""
+      },
+      {
+        "id": "knee-rosenberg",
+        "orientation": "PA",
+        "label": "Rosenberg method · PA weight-bearing knee",
+        "detail": ""
+      },
+      {
+        "id": "knee-holmblad",
+        "orientation": "PA",
+        "label": "Holmblad method · intercondylar fossa",
+        "detail": ""
+      },
+      {
+        "id": "knee-camp-coventry",
+        "orientation": "PA",
+        "label": "Camp-Coventry method · intercondylar fossa",
+        "detail": ""
+      },
+      {
+        "id": "knee-beclere",
+        "orientation": "AP",
+        "label": "Beclere method · intercondylar fossa",
+        "detail": ""
       }
     ]
   },
@@ -676,6 +712,24 @@
         "orientation": "Tangential",
         "label": "Tangential patella",
         "detail": ""
+      },
+      {
+        "id": "patella-hughston",
+        "orientation": "Tangential",
+        "label": "Hughston method · patella & patellofemoral joint",
+        "detail": ""
+      },
+      {
+        "id": "patella-merchant",
+        "orientation": "Tangential",
+        "label": "Merchant method · patella & patellofemoral joint",
+        "detail": ""
+      },
+      {
+        "id": "patella-settegast",
+        "orientation": "Tangential",
+        "label": "Settegast method · patella & patellofemoral joint",
+        "detail": ""
       }
     ]
   },
@@ -695,6 +749,24 @@
         "id": "femur-lat",
         "orientation": "Lateral",
         "label": "Lateral femur",
+        "detail": ""
+      },
+      {
+        "id": "femur-measure-upright",
+        "orientation": "AP",
+        "label": "Upright leg measurement procedure",
+        "detail": ""
+      },
+      {
+        "id": "femur-measure-supine",
+        "orientation": "AP",
+        "label": "Supine leg measurement procedure",
+        "detail": ""
+      },
+      {
+        "id": "femur-measure-techniques",
+        "orientation": "Topic",
+        "label": "Other long bone measurement techniques",
         "detail": ""
       }
     ]
@@ -722,6 +794,24 @@
         "orientation": "Lateral",
         "label": "Danelius-Miller method · axiolateral hip",
         "detail": ""
+      },
+      {
+        "id": "hip-lauenstein",
+        "orientation": "Lateral",
+        "label": "Lauenstein method · hip",
+        "detail": ""
+      },
+      {
+        "id": "hip-hickey",
+        "orientation": "Lateral",
+        "label": "Hickey method · hip",
+        "detail": ""
+      },
+      {
+        "id": "hip-judet",
+        "orientation": "Oblique",
+        "label": "Judet method · acetabulum",
+        "detail": ""
       }
     ]
   },
@@ -741,6 +831,18 @@
         "id": "pelvis-cleaves",
         "orientation": "Oblique",
         "label": "Modified Cleaves method · bilateral frog-leg",
+        "detail": ""
+      },
+      {
+        "id": "pelvis-taylor",
+        "orientation": "AP",
+        "label": "Taylor method · AP axial outlet",
+        "detail": ""
+      },
+      {
+        "id": "pelvis-bridgman",
+        "orientation": "AP",
+        "label": "Bridgman method · superoinferior axial inlet",
         "detail": ""
       }
     ]

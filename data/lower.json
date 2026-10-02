@@ -332,14 +332,14 @@
     "projection": "Lateral toes",
     "topic": "positioning",
     "type": "mcq",
-    "prompt": "For a lateral projection of the great or second toe, the patient is generally placed on the:",
+    "prompt": "Which patient position is generally used for a lateral projection of the great or second toe?",
     "options": [
-      "Affected side",
-      "Unaffected side",
-      "Prone side",
-      "Supine side"
+      "Lying on the affected side",
+      "Lying on the unaffected side",
+      "Prone position",
+      "Supine position"
     ],
-    "answer": "Unaffected side",
+    "answer": "Lying on the unaffected side",
     "explanation": "For the first and second toes, the patient is placed on the unaffected side with the IR under the medial side of the foot.",
     "source": "Positioning practice · Lateral toes"
   },
@@ -350,14 +350,14 @@
     "projection": "Lateral toes",
     "topic": "positioning",
     "type": "mcq",
-    "prompt": "For a lateral projection of the third, fourth, or fifth toe, the patient is generally placed on the:",
+    "prompt": "Which patient position is generally used for a lateral projection of the third, fourth, or fifth toe?",
     "options": [
-      "Unaffected side",
-      "Affected side",
-      "Prone side",
-      "Opposite foot"
+      "Lying on the unaffected side",
+      "Lying on the affected side",
+      "Prone position",
+      "Supine position"
     ],
-    "answer": "Affected side",
+    "answer": "Lying on the affected side",
     "explanation": "For the third through fifth toes, the patient is placed on the affected side with the IR under the lateral side of the foot.",
     "source": "Positioning practice · Lateral toes"
   },
@@ -848,7 +848,7 @@
     "projection": "AP oblique foot · medial rotation",
     "topic": "positioning",
     "type": "mcq",
-    "prompt": "Which direction has the lower leg and foot been rotated in this positioning image?",
+    "prompt": "Approximately how much rotation, and in which direction, is used for the foot projection shown?",
     "options": [
       "30° medially",
       "30° laterally",
@@ -966,16 +966,16 @@
     "projection": "AP oblique foot · medial rotation",
     "topic": "pathology",
     "type": "mcq",
-    "prompt": "Which structure should be carefully evaluated on this oblique foot image when assessing a Jones fracture?",
+    "prompt": "Which region should be evaluated for the fracture marked by the arrow in panel B?",
     "options": [
-      "Tuberosity/base of the fifth metatarsal",
+      "Proximal fifth metatarsal near the base-to-shaft junction",
       "Medial malleolus",
       "Proximal tibiofibular joint",
       "First distal phalanx"
     ],
-    "answer": "Tuberosity/base of the fifth metatarsal",
-    "explanation": "The proximal fifth metatarsal region is demonstrated on the oblique foot and should be carefully evaluated.",
-    "source": "Positioning practice · AP oblique foot",
+    "answer": "Proximal fifth metatarsal near the base-to-shaft junction",
+    "explanation": "The arrow is in the proximal fifth-metatarsal region. A Jones fracture occurs near the transition from the base to the shaft; a tuberosity avulsion is a different fracture.",
+    "source": "Image review; AOFAS · Jones fracture · https://www.aofas.org/news/press-releases/2022/11/29/what-is-a-jones-fracture",
     "image": {
       "src": "images/AP Oblique Jones Fracture xray.png",
       "alt": "Oblique radiograph of the foot.",
@@ -989,7 +989,7 @@
     "projection": "Lateral foot",
     "topic": "positioning",
     "type": "mcq",
-    "prompt": "The foot should be dorsiflexed until it forms approximately what angle with the lower leg?",
+    "prompt": "For a lateral foot, the foot should be dorsiflexed to approximately what angle with the lower leg?",
     "options": [
       "45°",
       "60°",
@@ -1025,7 +1025,7 @@
     "projection": "Lateral foot",
     "topic": "positioning",
     "type": "mcq",
-    "prompt": "Which surface of the foot should be parallel with the IR?",
+    "prompt": "For a mediolateral foot, which surface should be positioned parallel with the IR to establish a true lateral?",
     "options": [
       "Lateral",
       "Medial",
@@ -1043,7 +1043,7 @@
     "projection": "Lateral foot",
     "topic": "positioning",
     "type": "mcq",
-    "prompt": "Which statement about positioning the heel is correct?",
+    "prompt": "When positioning a mediolateral foot as described in this bank, which statement about the heel is correct?",
     "options": [
       "The heel should firmly contact the IR",
       "The heel should not touch the IR",
@@ -1685,16 +1685,16 @@
     "projection": "Lateral ankle",
     "topic": "pathology",
     "type": "mcq",
-    "prompt": "Why should the fifth metatarsal base be included on a lateral ankle image?",
+    "prompt": "Why should the proximal fifth metatarsal be included on a lateral ankle image?",
     "options": [
-      "To evaluate for a Jones fracture",
+      "To assess associated proximal fifth-metatarsal fractures",
       "To open the ankle mortise",
       "To demonstrate the sesamoids",
       "To evaluate the longitudinal arch"
     ],
-    "answer": "To evaluate for a Jones fracture",
-    "explanation": "The guide notes that the fifth metatarsal base and tuberosity should be checked for a Jones fracture.",
-    "source": "Positioning practice · Lateral ankle"
+    "answer": "To assess associated proximal fifth-metatarsal fractures",
+    "explanation": "An ankle injury may also involve the proximal fifth metatarsal. Including this region helps assess associated fractures, including a tuberosity avulsion or a Jones fracture.",
+    "source": "Positioning practice · Lateral ankle; AAOS · Toe and Forefoot Fractures · https://www.orthoinfo.org/diseases--conditions/toe-and-forefoot-fractures"
   },
   {
     "id": "lower-090",
@@ -1726,7 +1726,7 @@
     "projection": "AP oblique ankle · 45° medial rotation",
     "topic": "positioning",
     "type": "mcq",
-    "prompt": "How much medial rotation is used for the AP oblique ankle shown at 45°?",
+    "prompt": "How much medial rotation is used for the AP oblique ankle intended to open the distal tibiofibular articulation?",
     "options": [
       "10°",
       "15–20°",
@@ -1780,14 +1780,14 @@
     "projection": "AP oblique ankle · 45° medial rotation",
     "topic": "purpose",
     "type": "mcq",
-    "prompt": "Which anatomy is this positioning specifically useful for demonstrating?",
+    "prompt": "Which articulation should be demonstrated open on a radiograph made with this positioning?",
     "options": [
-      "Open distal tibiofibular articulation",
-      "Open first MTP joint",
-      "Sesamoids",
-      "Longitudinal arch"
+      "Distal tibiofibular articulation",
+      "Proximal tibiofibular articulation",
+      "First MTP joint",
+      "All three sides of the ankle mortise"
     ],
-    "answer": "Open distal tibiofibular articulation",
+    "answer": "Distal tibiofibular articulation",
     "explanation": "The 45° medial oblique ankle is used to open the distal tibiofibular articulation.",
     "source": "Positioning practice · AP oblique ankle, 45° medial rotation",
     "image": {
