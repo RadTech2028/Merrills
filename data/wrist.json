@@ -186,7 +186,7 @@
     "projection": "PA wrist",
     "topic": "anatomy",
     "type": "mcq",
-    "prompt": "Which projection is shown in this positioning image?",
+    "prompt": "Which projection or method is demonstrated by the positioning shown?",
     "options": [
       "PA wrist",
       "AP wrist",
@@ -195,7 +195,7 @@
     ],
     "answer": "PA wrist",
     "explanation": "The image demonstrates the standard PA wrist position.",
-    "source": "Positioning practice · PA wrist",
+    "source": "Positioning practice · Image question",
     "image": {
       "src": "images/PA wrist..png",
       "alt": "Radiographic positioning study image.",
@@ -209,7 +209,7 @@
     "projection": "PA wrist",
     "topic": "central-ray",
     "type": "mcq",
-    "prompt": "Where should the CR be directed for the wrist position shown?",
+    "prompt": "Which central-ray direction or centering point is appropriate for the setup shown?",
     "options": [
       "Midcarpal area",
       "Scaphoid only",
@@ -218,7 +218,7 @@
     ],
     "answer": "Midcarpal area",
     "explanation": "The standard PA wrist is centered at the midcarpal area.",
-    "source": "Positioning practice · PA wrist",
+    "source": "Positioning practice · Image question",
     "image": {
       "src": "images/PA wrist..png",
       "alt": "Radiographic positioning study image.",
@@ -376,7 +376,7 @@
     "projection": "AP wrist",
     "topic": "anatomy",
     "type": "mcq",
-    "prompt": "Which projection is shown in this positioning image?",
+    "prompt": "Which named projection or method does this positioning demonstrate?",
     "options": [
       "AP wrist",
       "PA wrist",
@@ -385,7 +385,7 @@
     ],
     "answer": "AP wrist",
     "explanation": "The forearm and hand are positioned for an AP wrist.",
-    "source": "Positioning practice · AP wrist",
+    "source": "Positioning practice · Image question",
     "image": {
       "src": "images/AP wrist..png",
       "alt": "Radiographic positioning study image.",
@@ -399,7 +399,7 @@
     "projection": "AP wrist",
     "topic": "purpose",
     "type": "mcq",
-    "prompt": "What feature of the AP wrist is most useful to evaluate in the position shown?",
+    "prompt": "What is the main reason for obtaining the view shown?",
     "options": [
       "Carpal interspaces",
       "Carpal canal",
@@ -408,7 +408,7 @@
     ],
     "answer": "Carpal interspaces",
     "explanation": "The guide emphasizes improved visualization of carpal interspaces on the AP wrist.",
-    "source": "Positioning practice · AP wrist",
+    "source": "Positioning practice · Image question",
     "image": {
       "src": "images/AP wrist..png",
       "alt": "Radiographic positioning study image.",
@@ -566,7 +566,7 @@
     "projection": "Lateral wrist",
     "topic": "evaluation",
     "type": "mcq",
-    "prompt": "Which feature should be checked on this lateral wrist radiograph?",
+    "prompt": "Which evaluation criterion best matches the image shown?",
     "options": [
       "Superimposition of the distal radius and ulna",
       "Open radioulnar joint",
@@ -575,7 +575,7 @@
     ],
     "answer": "Superimposition of the distal radius and ulna",
     "explanation": "A true lateral wrist demonstrates superimposed distal radius and ulna.",
-    "source": "Positioning practice · Lateral wrist",
+    "source": "Positioning practice · Image question",
     "image": {
       "src": "images/Lateral wrist with radial surface to IR.xray.png",
       "alt": "Radiographic positioning study image.",
@@ -589,7 +589,7 @@
     "projection": "Lateral wrist",
     "topic": "positioning",
     "type": "mcq",
-    "prompt": "Which projection is being positioned in this image?",
+    "prompt": "Identify the projection or method represented by this setup.",
     "options": [
       "Lateral wrist",
       "PA wrist",
@@ -598,7 +598,7 @@
     ],
     "answer": "Lateral wrist",
     "explanation": "The image demonstrates a lateral wrist position.",
-    "source": "Positioning practice · Lateral wrist",
+    "source": "Positioning practice · Image question",
     "image": {
       "src": "images/Lateral wrist with ulnar surface to IR..png",
       "alt": "Radiographic positioning study image.",
@@ -756,7 +756,7 @@
     "projection": "PA oblique wrist · lateral rotation",
     "topic": "anatomy",
     "type": "mcq",
-    "prompt": "Which projection is being positioned in this image?",
+    "prompt": "Which named projection or method does this positioning demonstrate?",
     "options": [
       "PA oblique wrist with lateral rotation",
       "AP oblique wrist with medial rotation",
@@ -765,7 +765,7 @@
     ],
     "answer": "PA oblique wrist with lateral rotation",
     "explanation": "The image shows the wrist laterally rotated into a PA oblique position.",
-    "source": "Positioning practice · PA oblique wrist, lateral rotation",
+    "source": "Positioning practice · Image question",
     "image": {
       "src": "images/PA oblique wrist lateral rotation..png",
       "alt": "Radiographic positioning study image.",
@@ -779,7 +779,7 @@
     "projection": "PA oblique wrist · lateral rotation",
     "topic": "evaluation",
     "type": "mcq",
-    "prompt": "Which structure should be especially well demonstrated in the position shown?",
+    "prompt": "When evaluating this image, which finding is correct?",
     "options": [
       "Scaphoid and trapezium",
       "Pisiform only",
@@ -788,7 +788,7 @@
     ],
     "answer": "Scaphoid and trapezium",
     "explanation": "The lateral-rotation PA oblique emphasizes the lateral-side carpals.",
-    "source": "Positioning practice · PA oblique wrist, lateral rotation",
+    "source": "Positioning practice · Image question",
     "image": {
       "src": "images/PA oblique wrist lateral rotation..png",
       "alt": "Radiographic positioning study image.",
@@ -910,7 +910,7 @@
     "projection": "AP oblique wrist · medial rotation",
     "topic": "anatomy",
     "type": "mcq",
-    "prompt": "Which projection is being positioned in this image?",
+    "prompt": "Which projection or method is demonstrated by the positioning shown?",
     "options": [
       "AP oblique wrist with medial rotation",
       "PA oblique wrist with lateral rotation",
@@ -919,7 +919,7 @@
     ],
     "answer": "AP oblique wrist with medial rotation",
     "explanation": "The image demonstrates the supinated wrist rotated medially.",
-    "source": "Positioning practice · AP oblique wrist, medial rotation",
+    "source": "Positioning practice · Image question",
     "image": {
       "src": "images/AP oblique wrist medial rotation..png",
       "alt": "Radiographic positioning study image.",
@@ -933,7 +933,7 @@
     "projection": "AP oblique wrist · medial rotation",
     "topic": "evaluation",
     "type": "mcq",
-    "prompt": "Which bone should be separated from adjacent carpals in the position shown?",
+    "prompt": "Which finding should be present if this image is positioned correctly?",
     "options": [
       "Pisiform",
       "Scaphoid",
@@ -942,7 +942,7 @@
     ],
     "answer": "Pisiform",
     "explanation": "The AP oblique medial rotation is designed to separate the pisiform.",
-    "source": "Positioning practice · AP oblique wrist, medial rotation",
+    "source": "Positioning practice · Image question",
     "image": {
       "src": "images/AP oblique wrist medial rotation..png",
       "alt": "Radiographic positioning study image.",
@@ -1082,7 +1082,7 @@
     "projection": "PA wrist · ulnar deviation",
     "topic": "anatomy",
     "type": "mcq",
-    "prompt": "Which projection is shown in this positioning image?",
+    "prompt": "Which named projection or method does this positioning demonstrate?",
     "options": [
       "PA wrist in ulnar deviation",
       "PA wrist in radial deviation",
@@ -1091,7 +1091,7 @@
     ],
     "answer": "PA wrist in ulnar deviation",
     "explanation": "The hand is deviated ulnarly while the wrist remains PA.",
-    "source": "Positioning practice · PA wrist, ulnar deviation",
+    "source": "Positioning practice · Image question",
     "image": {
       "src": "images/PA wrist in ulnar deviation..png",
       "alt": "Radiographic positioning study image.",
@@ -1105,7 +1105,7 @@
     "projection": "PA wrist · ulnar deviation",
     "topic": "purpose",
     "type": "mcq",
-    "prompt": "Which bone should appear less foreshortened in the position shown?",
+    "prompt": "What is the main reason for obtaining the view shown?",
     "options": [
       "Scaphoid",
       "Pisiform",
@@ -1114,7 +1114,7 @@
     ],
     "answer": "Scaphoid",
     "explanation": "Ulnar deviation reduces scaphoid foreshortening.",
-    "source": "Positioning practice · PA wrist, ulnar deviation",
+    "source": "Positioning practice · Image question",
     "image": {
       "src": "images/PA wrist in ulnar deviation..png",
       "alt": "Radiographic positioning study image.",
@@ -1236,7 +1236,7 @@
     "projection": "PA wrist · radial deviation",
     "topic": "anatomy",
     "type": "mcq",
-    "prompt": "Which projection is shown in this positioning image?",
+    "prompt": "Which projection or method is demonstrated by the positioning shown?",
     "options": [
       "PA wrist in radial deviation",
       "PA wrist in ulnar deviation",
@@ -1245,7 +1245,7 @@
     ],
     "answer": "PA wrist in radial deviation",
     "explanation": "The hand is moved medially into radial deviation.",
-    "source": "Positioning practice · PA wrist, radial deviation",
+    "source": "Positioning practice · Image question",
     "image": {
       "src": "images/PA wrist in radial deviation..png",
       "alt": "Radiographic positioning study image.",
@@ -1259,7 +1259,7 @@
     "projection": "PA wrist · radial deviation",
     "topic": "purpose",
     "type": "mcq",
-    "prompt": "What should the position shown do to the medial carpal interspaces?",
+    "prompt": "What is this image or setup primarily intended to demonstrate?",
     "options": [
       "Open them",
       "Close them",
@@ -1268,7 +1268,7 @@
     ],
     "answer": "Open them",
     "explanation": "Radial deviation opens the interspaces between the medial-side carpals.",
-    "source": "Positioning practice · PA wrist, radial deviation",
+    "source": "Positioning practice · Image question",
     "image": {
       "src": "images/PA wrist in radial deviation..png",
       "alt": "Radiographic positioning study image.",
@@ -1426,7 +1426,7 @@
     "projection": "Stecher method · scaphoid",
     "topic": "positioning",
     "type": "mcq",
-    "prompt": "Which projection is being positioned in this image?",
+    "prompt": "Which named projection or method does this positioning demonstrate?",
     "options": [
       "Stecher method for the scaphoid",
       "PA wrist in radial deviation",
@@ -1435,7 +1435,7 @@
     ],
     "answer": "Stecher method for the scaphoid",
     "explanation": "The image shows the PA axial Stecher setup with the IR elevated.",
-    "source": "Positioning practice · Stecher method",
+    "source": "Positioning practice · Image question",
     "image": {
       "src": "images/PA axial wrist for scaphoid Stecher method with IR angled 20 degrees..png",
       "alt": "Radiographic positioning study image.",
@@ -1449,7 +1449,7 @@
     "projection": "Stecher method · scaphoid",
     "topic": "purpose",
     "type": "mcq",
-    "prompt": "What is the key effect of the 20° setup shown?",
+    "prompt": "What is the main reason for obtaining the view shown?",
     "options": [
       "Minimum scaphoid superimposition",
       "Maximum scaphoid foreshortening",
@@ -1458,7 +1458,7 @@
     ],
     "answer": "Minimum scaphoid superimposition",
     "explanation": "The 20° setup positions the scaphoid more nearly perpendicular to the CR.",
-    "source": "Positioning practice · Stecher method",
+    "source": "Positioning practice · Image question",
     "image": {
       "src": "images/PA axial wrist for scaphoid Stecher method with IR angled 20 degrees..png",
       "alt": "Radiographic positioning study image.",
@@ -1670,7 +1670,7 @@
     "projection": "Gaynor-Hart method · carpal canal",
     "topic": "anatomy",
     "type": "mcq",
-    "prompt": "Which projection is being positioned in this image?",
+    "prompt": "Which projection or method is demonstrated by the positioning shown?",
     "options": [
       "Inferosuperior Gaynor-Hart carpal canal",
       "Stecher scaphoid",
@@ -1679,7 +1679,7 @@
     ],
     "answer": "Inferosuperior Gaynor-Hart carpal canal",
     "explanation": "The supplied image explicitly demonstrates the inferosuperior carpal canal position.",
-    "source": "Positioning practice · Gaynor-Hart method",
+    "source": "Positioning practice · Image question",
     "image": {
       "src": "images/Tangential (inferosuperior) carpal canal Gaynor-Hart method..png",
       "alt": "Radiographic positioning study image.",
@@ -1693,7 +1693,7 @@
     "projection": "Gaynor-Hart method · carpal canal",
     "topic": "evaluation",
     "type": "mcq",
-    "prompt": "Which structure should be in profile on the image produced by this setup?",
+    "prompt": "Which finding should be present if this image is positioned correctly?",
     "options": [
       "Pisiform",
       "Scaphoid only",
@@ -1702,7 +1702,7 @@
     ],
     "answer": "Pisiform",
     "explanation": "A satisfactory Gaynor-Hart image demonstrates the pisiform in profile and free of superimposition.",
-    "source": "Positioning practice · Gaynor-Hart method",
+    "source": "Positioning practice · Image question",
     "image": {
       "src": "images/Tangential (inferosuperior) carpal canal Gaynor-Hart method..png",
       "alt": "Radiographic positioning study image.",
@@ -1716,7 +1716,7 @@
     "projection": "Gaynor-Hart method · carpal canal",
     "topic": "purpose",
     "type": "mcq",
-    "prompt": "Which method is shown in this positioning image?",
+    "prompt": "Which named projection or method does this positioning demonstrate?",
     "options": [
       "Gaynor-Hart method",
       "Stecher method",
@@ -1725,7 +1725,7 @@
     ],
     "answer": "Gaynor-Hart method",
     "explanation": "The image demonstrates a Gaynor-Hart carpal canal setup.",
-    "source": "Positioning practice · Gaynor-Hart method",
+    "source": "Positioning practice · Image question",
     "image": {
       "src": "images/Gaynor-Hart method.png",
       "alt": "Radiographic positioning study image.",
@@ -1919,7 +1919,7 @@
     "projection": "AP forearm",
     "topic": "anatomy",
     "type": "mcq",
-    "prompt": "Which projection is being positioned in this image?",
+    "prompt": "Based only on the positioning shown, which projection or method is being performed?",
     "options": [
       "AP forearm",
       "Lateral forearm",
@@ -1928,7 +1928,7 @@
     ],
     "answer": "AP forearm",
     "explanation": "The arm is positioned supinated and extended for the AP forearm.",
-    "source": "Positioning practice · AP forearm",
+    "source": "Positioning practice · Image question",
     "image": {
       "src": "images/AP forearm..png",
       "alt": "Radiographic positioning study image.",
@@ -1942,7 +1942,7 @@
     "projection": "AP forearm",
     "topic": "positioning",
     "type": "mcq",
-    "prompt": "Which hand position is critical for the setup shown?",
+    "prompt": "Which positioning detail is correct for the setup shown?",
     "options": [
       "Supination",
       "Pronation",
@@ -1951,7 +1951,7 @@
     ],
     "answer": "Supination",
     "explanation": "The AP forearm requires the hand to remain supinated.",
-    "source": "Positioning practice · AP forearm",
+    "source": "Positioning practice · Image question",
     "image": {
       "src": "images/AP forearm..png",
       "alt": "Radiographic positioning study image.",
@@ -2145,7 +2145,7 @@
     "projection": "Lateral forearm",
     "topic": "anatomy",
     "type": "mcq",
-    "prompt": "Which projection is being positioned in this image?",
+    "prompt": "Identify the projection or method represented by this setup.",
     "options": [
       "Lateral forearm",
       "AP forearm",
@@ -2154,7 +2154,7 @@
     ],
     "answer": "Lateral forearm",
     "explanation": "The elbow is flexed and the forearm is positioned in a true lateral.",
-    "source": "Positioning practice · Lateral forearm",
+    "source": "Positioning practice · Image question",
     "image": {
       "src": "images/Lateral forearm..png",
       "alt": "Radiographic positioning study image.",
@@ -2168,7 +2168,7 @@
     "projection": "Lateral forearm",
     "topic": "evaluation",
     "type": "mcq",
-    "prompt": "Which finding should be present on this lateral forearm radiograph?",
+    "prompt": "Which radiographic relationship is expected for the image shown?",
     "options": [
       "Superimposed distal radius and ulna",
       "Open radioulnar space throughout",
@@ -2177,7 +2177,7 @@
     ],
     "answer": "Superimposed distal radius and ulna",
     "explanation": "A true lateral forearm demonstrates distal radius/ulna superimposition.",
-    "source": "Positioning practice · Lateral forearm",
+    "source": "Positioning practice · Image question",
     "image": {
       "src": "images/Lateral forearm.xray.png",
       "alt": "Radiographic positioning study image.",
@@ -2353,7 +2353,7 @@
     "projection": "AP elbow",
     "topic": "anatomy",
     "type": "mcq",
-    "prompt": "Which projection is being positioned in this image?",
+    "prompt": "Based only on the positioning shown, which projection or method is being performed?",
     "options": [
       "AP elbow",
       "Lateral elbow",
@@ -2362,7 +2362,7 @@
     ],
     "answer": "AP elbow",
     "explanation": "The arm is extended and supinated for the standard AP elbow.",
-    "source": "Positioning practice · AP elbow",
+    "source": "Positioning practice · Image question",
     "image": {
       "src": "images/AP elbow..png",
       "alt": "Radiographic positioning study image.",
@@ -2376,7 +2376,7 @@
     "projection": "AP elbow",
     "topic": "evaluation",
     "type": "mcq",
-    "prompt": "Which joint should appear open in the position shown?",
+    "prompt": "Which evaluation criterion best matches the image shown?",
     "options": [
       "Humeroradial joint",
       "Radioulnar joint only",
@@ -2385,7 +2385,7 @@
     ],
     "answer": "Humeroradial joint",
     "explanation": "An open humeroradial joint is a key AP elbow evaluation criterion.",
-    "source": "Positioning practice · AP elbow",
+    "source": "Positioning practice · Image question",
     "image": {
       "src": "images/AP elbow..png",
       "alt": "Radiographic positioning study image.",
@@ -2543,7 +2543,7 @@
     "projection": "Lateral elbow",
     "topic": "anatomy",
     "type": "mcq",
-    "prompt": "Which projection is demonstrated on this radiograph?",
+    "prompt": "Identify the projection or method demonstrated on this radiograph.",
     "options": [
       "Lateral elbow",
       "AP elbow",
@@ -2552,7 +2552,7 @@
     ],
     "answer": "Lateral elbow",
     "explanation": "The radiograph demonstrates a lateral elbow.",
-    "source": "Positioning practice · Lateral elbow",
+    "source": "Positioning practice · Image question",
     "image": {
       "src": "images/Lateral elbow.xray.png",
       "alt": "Radiographic positioning study image.",
@@ -2566,7 +2566,7 @@
     "projection": "Lateral elbow",
     "topic": "evaluation",
     "type": "mcq",
-    "prompt": "Which feature should be visible on this lateral elbow radiograph?",
+    "prompt": "Which radiographic relationship is expected for the image shown?",
     "options": [
       "Olecranon process in profile",
       "Coronoid process in profile with 45° medial rotation",
@@ -2575,7 +2575,7 @@
     ],
     "answer": "Olecranon process in profile",
     "explanation": "A true lateral elbow demonstrates the olecranon process in profile.",
-    "source": "Positioning practice · Lateral elbow",
+    "source": "Positioning practice · Image question",
     "image": {
       "src": "images/Lateral elbow.xray.png",
       "alt": "Radiographic positioning study image.",
@@ -2589,7 +2589,7 @@
     "projection": "Lateral elbow",
     "topic": "anatomy",
     "type": "mcq",
-    "prompt": "Which projection is being positioned in this image?",
+    "prompt": "Based only on the positioning shown, which projection or method is being performed?",
     "options": [
       "Lateral elbow",
       "AP elbow",
@@ -2598,7 +2598,7 @@
     ],
     "answer": "Lateral elbow",
     "explanation": "The image demonstrates routine lateral elbow positioning.",
-    "source": "Positioning practice · Lateral elbow",
+    "source": "Positioning practice · Image question",
     "image": {
       "src": "images/Lateral elbow..png",
       "alt": "Radiographic positioning study image.",
@@ -2612,7 +2612,7 @@
     "projection": "Lateral elbow",
     "topic": "pathology",
     "type": "mcq",
-    "prompt": "What abnormality is demonstrated in this lateral elbow image according to its file label?",
+    "prompt": "Which abnormality is demonstrated in the image?",
     "options": [
       "Dislocation",
       "Bennett fracture",
@@ -2621,7 +2621,7 @@
     ],
     "answer": "Dislocation",
     "explanation": "The supplied image is labeled as a lateral elbow showing dislocation.",
-    "source": "Positioning practice · Lateral elbow",
+    "source": "Positioning practice · Image question",
     "image": {
       "src": "images/Lateral elbow showing dislocation on same patient as shown in Figs. 5.122 and 5.124..png",
       "alt": "Radiographic positioning study image.",
@@ -2797,7 +2797,7 @@
     "projection": "AP oblique elbow · medial rotation",
     "topic": "anatomy",
     "type": "mcq",
-    "prompt": "Which projection is being positioned in this image?",
+    "prompt": "Identify the projection or method represented by this setup.",
     "options": [
       "AP oblique elbow with medial rotation",
       "AP oblique elbow with lateral rotation",
@@ -2806,7 +2806,7 @@
     ],
     "answer": "AP oblique elbow with medial rotation",
     "explanation": "The elbow is positioned in 45° medial rotation.",
-    "source": "Positioning practice · AP oblique elbow, medial rotation",
+    "source": "Positioning practice · Image question",
     "image": {
       "src": "images/AP oblique elbow medial rotation..png",
       "alt": "Radiographic positioning study image.",
@@ -2820,7 +2820,7 @@
     "projection": "AP oblique elbow · medial rotation",
     "topic": "evaluation",
     "type": "mcq",
-    "prompt": "Which structure should be in profile on this medial-oblique elbow radiograph?",
+    "prompt": "Which radiographic relationship is expected for the image shown?",
     "options": [
       "Coronoid process",
       "Radial head free of the ulna",
@@ -2829,7 +2829,7 @@
     ],
     "answer": "Coronoid process",
     "explanation": "The coronoid process is a key profile structure on the medial oblique.",
-    "source": "Positioning practice · AP oblique elbow, medial rotation",
+    "source": "Positioning practice · Image question",
     "image": {
       "src": "images/AP oblique elbow medial.xray.png",
       "alt": "Radiographic positioning study image.",
@@ -2969,7 +2969,7 @@
     "projection": "AP oblique elbow · lateral rotation",
     "topic": "anatomy",
     "type": "mcq",
-    "prompt": "Which projection is being positioned in this image?",
+    "prompt": "Based only on the positioning shown, which projection or method is being performed?",
     "options": [
       "AP oblique elbow with lateral rotation",
       "AP oblique elbow with medial rotation",
@@ -2978,7 +2978,7 @@
     ],
     "answer": "AP oblique elbow with lateral rotation",
     "explanation": "The image demonstrates 45° lateral rotation.",
-    "source": "Positioning practice · AP oblique elbow, lateral rotation",
+    "source": "Positioning practice · Image question",
     "image": {
       "src": "images/AP oblique elbow lateral rotation..png",
       "alt": "Radiographic positioning study image.",
@@ -2992,7 +2992,7 @@
     "projection": "AP oblique elbow · lateral rotation",
     "topic": "evaluation",
     "type": "mcq",
-    "prompt": "What should be free of superimposition in the position shown?",
+    "prompt": "Which evaluation criterion best matches the image shown?",
     "options": [
       "Radial head and neck from the ulna",
       "Coronoid process from the radius",
@@ -3001,7 +3001,7 @@
     ],
     "answer": "Radial head and neck from the ulna",
     "explanation": "The lateral oblique is identified by the radial head/neck free of ulna overlap.",
-    "source": "Positioning practice · AP oblique elbow, lateral rotation",
+    "source": "Positioning practice · Image question",
     "image": {
       "src": "images/AP oblique elbow lateral rotation..png",
       "alt": "Radiographic positioning study image.",
@@ -3159,7 +3159,7 @@
     "projection": "AP partial flexion · distal humerus",
     "topic": "anatomy",
     "type": "mcq",
-    "prompt": "Which projection is being positioned in this image?",
+    "prompt": "Identify the projection or method represented by this setup.",
     "options": [
       "AP partial flexion · distal humerus",
       "AP partial flexion · proximal forearm",
@@ -3168,7 +3168,7 @@
     ],
     "answer": "AP partial flexion · distal humerus",
     "explanation": "The setup is designed to demonstrate the distal humerus when extension is limited.",
-    "source": "Positioning practice · AP partial flexion, distal humerus",
+    "source": "Positioning practice · Image question",
     "image": {
       "src": "images/AP elbow, partially flexed.distalhumerus.png",
       "alt": "Radiographic positioning study image.",
@@ -3344,7 +3344,7 @@
     "projection": "AP partial flexion · proximal forearm",
     "topic": "anatomy",
     "type": "mcq",
-    "prompt": "Which projection is being positioned in this image?",
+    "prompt": "Which named projection or method does this positioning demonstrate?",
     "options": [
       "AP partial flexion · proximal forearm",
       "AP partial flexion · distal humerus",
@@ -3353,7 +3353,7 @@
     ],
     "answer": "AP partial flexion · proximal forearm",
     "explanation": "The setup is intended to demonstrate the proximal forearm when extension is limited.",
-    "source": "Positioning practice · AP partial flexion, proximal forearm",
+    "source": "Positioning practice · Image question",
     "image": {
       "src": "images/AP elbow, partially flexed.proximal forearm.png",
       "alt": "Radiographic positioning study image.",
@@ -3529,7 +3529,7 @@
     "projection": "Coyle method · radial head",
     "topic": "anatomy",
     "type": "mcq",
-    "prompt": "Which Coyle method is shown in this positioning image?",
+    "prompt": "Which anatomic finding best matches the image shown?",
     "options": [
       "Radial head and capitulum",
       "Coronoid process and trochlea",
@@ -3538,7 +3538,7 @@
     ],
     "answer": "Radial head and capitulum",
     "explanation": "The image explicitly demonstrates the Coyle radial-head/capitulum setup.",
-    "source": "Positioning practice · Coyle method, radial head",
+    "source": "Positioning practice · Image question",
     "image": {
       "src": "images/Axiolateral elbow (Coyle method) with radial head and capitulum shown..png",
       "alt": "Radiographic positioning study image.",
@@ -3552,7 +3552,7 @@
     "projection": "Coyle method · radial head",
     "topic": "central-ray",
     "type": "mcq",
-    "prompt": "Which CR is correct for the Coyle setup shown?",
+    "prompt": "Based on the image, which CR description is correct?",
     "options": [
       "45° toward the shoulder",
       "45° away from the shoulder",
@@ -3561,7 +3561,7 @@
     ],
     "answer": "45° toward the shoulder",
     "explanation": "The radial-head Coyle projection uses a 45° angle toward the shoulder.",
-    "source": "Positioning practice · Coyle method, radial head",
+    "source": "Positioning practice · Image question",
     "image": {
       "src": "images/Axiolateral elbow (Coyle method) with radial head and capitulum shown..png",
       "alt": "Radiographic positioning study image.",
@@ -3719,7 +3719,7 @@
     "projection": "Coyle method · coronoid process",
     "topic": "anatomy",
     "type": "mcq",
-    "prompt": "Which Coyle method is shown in this positioning image?",
+    "prompt": "Which structure or relationship should be demonstrated by this image?",
     "options": [
       "Coronoid process and trochlea",
       "Radial head and capitulum",
@@ -3728,7 +3728,7 @@
     ],
     "answer": "Coronoid process and trochlea",
     "explanation": "The image explicitly demonstrates the coronoid/trochlea Coyle setup.",
-    "source": "Positioning practice · Coyle method, coronoid process",
+    "source": "Positioning practice · Image question",
     "image": {
       "src": "images/Axiolateral elbow (Coyle method) with coronoid process and trochlea shown..png",
       "alt": "Radiographic positioning study image.",
@@ -3742,7 +3742,7 @@
     "projection": "Coyle method · coronoid process",
     "topic": "central-ray",
     "type": "mcq",
-    "prompt": "Which CR is correct for the Coyle setup shown?",
+    "prompt": "Which CR choice correctly accompanies the positioning shown?",
     "options": [
       "45° away from the shoulder",
       "45° toward the shoulder",
@@ -3751,7 +3751,7 @@
     ],
     "answer": "45° away from the shoulder",
     "explanation": "The coronoid-process Coyle method uses a 45° angle away from the shoulder.",
-    "source": "Positioning practice · Coyle method, coronoid process",
+    "source": "Positioning practice · Image question",
     "image": {
       "src": "images/Axiolateral elbow (Coyle method) with coronoid process and trochlea shown..png",
       "alt": "Radiographic positioning study image.",

@@ -168,7 +168,7 @@
     "projection": "AP humerus · upright",
     "topic": "positioning",
     "type": "mcq",
-    "prompt": "Which humerus projection is being positioned in this upright setup?",
+    "prompt": "Which projection or method is demonstrated by the positioning shown?",
     "options": [
       "AP humerus · upright",
       "Lateral humerus · upright",
@@ -177,7 +177,7 @@
     ],
     "answer": "AP humerus · upright",
     "explanation": "The patient is positioned upright for an AP humerus.",
-    "source": "Positioning practice · AP humerus, upright",
+    "source": "Positioning practice · Image question",
     "image": {
       "src": "images/Upright position for AP humerus..png",
       "alt": "Radiographic positioning study image.",
@@ -191,7 +191,7 @@
     "projection": "AP humerus · upright",
     "topic": "evaluation",
     "type": "mcq",
-    "prompt": "Which feature should be seen on the radiograph produced by this setup?",
+    "prompt": "Which finding should be present if this image is positioned correctly?",
     "options": [
       "Greater tubercle in profile",
       "Lesser tubercle in medial profile",
@@ -200,7 +200,7 @@
     ],
     "answer": "Greater tubercle in profile",
     "explanation": "The AP humerus should show the greater tubercle in profile.",
-    "source": "Positioning practice · AP humerus, upright",
+    "source": "Positioning practice · Image question",
     "image": {
       "src": "images/Upright AP humerus.XRAY.png",
       "alt": "Radiographic positioning study image.",
@@ -358,7 +358,7 @@
     "projection": "Lateral humerus · upright",
     "topic": "anatomy",
     "type": "mcq",
-    "prompt": "Which humerus projection is being positioned with the hand on the hip?",
+    "prompt": "Which named projection or method does this positioning demonstrate?",
     "options": [
       "Lateral humerus · upright",
       "AP humerus · upright",
@@ -367,7 +367,7 @@
     ],
     "answer": "Lateral humerus · upright",
     "explanation": "The patient is upright with the arm positioned for a lateral humerus.",
-    "source": "Positioning practice · Lateral humerus, upright",
+    "source": "Positioning practice · Image question",
     "image": {
       "src": "images/Upright position for lateral (lateromedial) humerus. Note hand placement on hip..png",
       "alt": "Radiographic positioning study image.",
@@ -381,7 +381,7 @@
     "projection": "Lateral humerus · upright",
     "topic": "evaluation",
     "type": "mcq",
-    "prompt": "Which feature should result from the positioning shown?",
+    "prompt": "When evaluating this image, which finding is correct?",
     "options": [
       "Superimposed humeral epicondyles",
       "Epicondyles parallel with the IR",
@@ -390,7 +390,7 @@
     ],
     "answer": "Superimposed humeral epicondyles",
     "explanation": "A true lateral humerus requires superimposed humeral epicondyles.",
-    "source": "Positioning practice · Lateral humerus, upright",
+    "source": "Positioning practice · Image question",
     "image": {
       "src": "images/Upright lateral humerus..png",
       "alt": "Radiographic positioning study image.",
@@ -404,7 +404,7 @@
     "projection": "Lateral humerus · upright",
     "topic": "positioning",
     "type": "mcq",
-    "prompt": "What is the key reason for placing the hand on the hip in the image shown?",
+    "prompt": "Which positioning detail is correct for the setup shown?",
     "options": [
       "To help internally rotate the humerus while maintaining a lateral position",
       "To externally rotate the humerus",
@@ -413,7 +413,7 @@
     ],
     "answer": "To help internally rotate the humerus while maintaining a lateral position",
     "explanation": "The hand-on-hip position assists internal rotation for the lateral humerus.",
-    "source": "Positioning practice · Lateral humerus, upright",
+    "source": "Positioning practice · Image question",
     "image": {
       "src": "images/Upright position for lateral (lateromedial) humerus. Note hand placement on hip..png",
       "alt": "Radiographic positioning study image.",
@@ -535,7 +535,7 @@
     "projection": "AP humerus · recumbent",
     "topic": "anatomy",
     "type": "mcq",
-    "prompt": "Which humerus projection is shown in this recumbent setup?",
+    "prompt": "Identify the projection or method represented by this setup.",
     "options": [
       "AP humerus · recumbent",
       "Lateral humerus · recumbent",
@@ -544,7 +544,7 @@
     ],
     "answer": "AP humerus · recumbent",
     "explanation": "The patient is supine with the hand supinated for an AP humerus.",
-    "source": "Positioning practice · AP humerus, recumbent",
+    "source": "Positioning practice · Image question",
     "image": {
       "src": "images/(A) Recumbent position for AP humerus. Note that hand is supinated. (B) AP humerus in.png",
       "alt": "Radiographic positioning study image.",
@@ -558,7 +558,7 @@
     "projection": "AP humerus · recumbent",
     "topic": "positioning",
     "type": "mcq",
-    "prompt": "Which detail in the positioning image is most important for achieving the AP relationship?",
+    "prompt": "Which positioning feature is required for the setup shown?",
     "options": [
       "Supinated hand with epicondyles parallel to the IR",
       "Thumb surface up with epicondyles superimposed",
@@ -567,7 +567,7 @@
     ],
     "answer": "Supinated hand with epicondyles parallel to the IR",
     "explanation": "These features establish the AP humerus position.",
-    "source": "Positioning practice · AP humerus, recumbent",
+    "source": "Positioning practice · Image question",
     "image": {
       "src": "images/(A) Recumbent position for AP humerus. Note that hand is supinated. (B) AP humerus in.png",
       "alt": "Radiographic positioning study image.",
@@ -707,7 +707,7 @@
     "projection": "Lateral humerus · recumbent",
     "topic": "anatomy",
     "type": "mcq",
-    "prompt": "Which positioning image best represents a lateral humerus in a recumbent patient?",
+    "prompt": "Which positioning description best matches the setup shown?",
     "options": [
       "A patient with the humerus positioned laterally and epicondyles superimposed",
       "A supine AP humerus with the hand supinated",
@@ -716,7 +716,7 @@
     ],
     "answer": "A patient with the humerus positioned laterally and epicondyles superimposed",
     "explanation": "The recumbent lateral position is defined by lateral humerus orientation and superimposed epicondyles.",
-    "source": "Positioning practice · Lateral humerus, recumbent",
+    "source": "Positioning practice · Image question",
     "image": {
       "src": "images/A patient with broken humerus may be easier to position for mediolateral projection as.png",
       "alt": "Radiographic positioning study image.",
@@ -838,7 +838,7 @@
     "projection": "Trauma lateral · distal humerus",
     "topic": "anatomy",
     "type": "mcq",
-    "prompt": "Which trauma humerus projection is being positioned here?",
+    "prompt": "Which projection or method is demonstrated by the positioning shown?",
     "options": [
       "Trauma lateral · distal humerus",
       "AP humerus · recumbent",
@@ -847,7 +847,7 @@
     ],
     "answer": "Trauma lateral · distal humerus",
     "explanation": "The positioning is designed to demonstrate the distal humerus laterally in trauma.",
-    "source": "Positioning practice · Trauma lateral humerus",
+    "source": "Positioning practice · Image question",
     "image": {
       "src": "images/(A) Lateral recumbent body position to show distal lateral humerus. (B) Patient and IR.png",
       "alt": "Radiographic positioning study image.",
@@ -1005,7 +1005,7 @@
     "projection": "AP shoulder · external rotation",
     "topic": "anatomy",
     "type": "mcq",
-    "prompt": "Which AP shoulder rotation is shown in this positioning image?",
+    "prompt": "Which structure or relationship should be demonstrated by this image?",
     "options": [
       "External rotation",
       "Neutral rotation",
@@ -1014,7 +1014,7 @@
     ],
     "answer": "External rotation",
     "explanation": "The arm is positioned for the AP external-rotation shoulder.",
-    "source": "Positioning practice · AP shoulder, external rotation",
+    "source": "Positioning practice · Image question",
     "image": {
       "src": "images/APshuolderExternal.png",
       "alt": "Radiographic positioning study image.",
@@ -1028,7 +1028,7 @@
     "projection": "AP shoulder · external rotation",
     "topic": "evaluation",
     "type": "mcq",
-    "prompt": "Which feature should be seen on this radiograph?",
+    "prompt": "Which radiographic relationship is expected for the image shown?",
     "options": [
       "Greater tubercle in lateral profile",
       "Lesser tubercle in medial profile",
@@ -1037,7 +1037,7 @@
     ],
     "answer": "Greater tubercle in lateral profile",
     "explanation": "External rotation shows the greater tubercle in lateral profile.",
-    "source": "Positioning practice · AP shoulder, external rotation",
+    "source": "Positioning practice · Image question",
     "image": {
       "src": "images/AP shoulder. External rotation xray.png",
       "alt": "Radiographic positioning study image.",
@@ -1051,7 +1051,7 @@
     "projection": "AP shoulder · external rotation",
     "topic": "evaluation",
     "type": "mcq",
-    "prompt": "Which finding identifies the external-rotation image in this comparison?",
+    "prompt": "When evaluating this image, which finding is correct?",
     "options": [
       "Greater tubercle in profile",
       "Lesser tubercle in medial profile",
@@ -1060,7 +1060,7 @@
     ],
     "answer": "Greater tubercle in profile",
     "explanation": "The defining external-rotation feature is the greater tubercle in profile.",
-    "source": "Positioning practice · AP shoulder, external rotation",
+    "source": "Positioning practice · Image question",
     "image": {
       "src": "images/(A) AP shoulder, external rotation humerus - greater tubercle in profile (arrow). (B) AP.png",
       "alt": "Radiographic positioning study image.",
@@ -1182,7 +1182,7 @@
     "projection": "AP shoulder · neutral rotation",
     "topic": "anatomy",
     "type": "mcq",
-    "prompt": "Which AP shoulder position is represented by this neutral-rotation setup?",
+    "prompt": "Which anatomic relationship is best demonstrated in the image shown?",
     "options": [
       "Neutral rotation",
       "External rotation",
@@ -1191,7 +1191,7 @@
     ],
     "answer": "Neutral rotation",
     "explanation": "The palm-at-thigh position corresponds to neutral rotation.",
-    "source": "Positioning practice · AP shoulder, neutral rotation",
+    "source": "Positioning practice · Image question",
     "image": {
       "src": "images/APshoulderNeutral.png",
       "alt": "Radiographic positioning study image.",
@@ -1205,7 +1205,7 @@
     "projection": "AP shoulder · neutral rotation",
     "topic": "evaluation",
     "type": "mcq",
-    "prompt": "Which feature best identifies this neutral-rotation radiograph?",
+    "prompt": "Which finding should be present if this image is positioned correctly?",
     "options": [
       "Greater tubercle partially superimposed on the humeral head",
       "Greater tubercle fully in profile",
@@ -1214,7 +1214,7 @@
     ],
     "answer": "Greater tubercle partially superimposed on the humeral head",
     "explanation": "Partial greater-tubercle overlap is characteristic of neutral rotation.",
-    "source": "Positioning practice · AP shoulder, neutral rotation",
+    "source": "Positioning practice · Image question",
     "image": {
       "src": "images/AP shoulder. Neutral rotation humerus. xray.png",
       "alt": "Radiographic positioning study image.",
@@ -1354,7 +1354,7 @@
     "projection": "AP shoulder · internal rotation",
     "topic": "anatomy",
     "type": "mcq",
-    "prompt": "Which AP shoulder rotation is represented by the hand-on-hip position?",
+    "prompt": "Based on the image, which anatomic feature is most relevant?",
     "options": [
       "Internal rotation",
       "External rotation",
@@ -1363,7 +1363,7 @@
     ],
     "answer": "Internal rotation",
     "explanation": "The back-of-hand-on-hip position corresponds to internal rotation.",
-    "source": "Positioning practice · AP shoulder, internal rotation",
+    "source": "Positioning practice · Image question",
     "image": {
       "src": "images/APshoulderInternal.png",
       "alt": "Radiographic positioning study image.",
@@ -1377,7 +1377,7 @@
     "projection": "AP shoulder · internal rotation",
     "topic": "evaluation",
     "type": "mcq",
-    "prompt": "Which feature should be seen on this internal-rotation radiograph?",
+    "prompt": "When evaluating this image, which finding is correct?",
     "options": [
       "Lesser tubercle in medial profile",
       "Greater tubercle in lateral profile",
@@ -1386,7 +1386,7 @@
     ],
     "answer": "Lesser tubercle in medial profile",
     "explanation": "The lesser tubercle in medial profile is the defining feature.",
-    "source": "Positioning practice · AP shoulder, internal rotation",
+    "source": "Positioning practice · Image question",
     "image": {
       "src": "images/AP shoulder. Internal rotationxray.png",
       "alt": "Radiographic positioning study image.",
@@ -1400,7 +1400,7 @@
     "projection": "AP shoulder · internal rotation",
     "topic": "evaluation",
     "type": "mcq",
-    "prompt": "What does this image demonstrate about tubercle position?",
+    "prompt": "Which evaluation criterion best matches the image shown?",
     "options": [
       "Lesser tubercle in profile with greater tubercle superimposed on the humeral head",
       "Greater tubercle in profile with lesser tubercle hidden",
@@ -1409,7 +1409,7 @@
     ],
     "answer": "Lesser tubercle in profile with greater tubercle superimposed on the humeral head",
     "explanation": "That is the expected internal-rotation appearance.",
-    "source": "Positioning practice · AP shoulder, internal rotation",
+    "source": "Positioning practice · Image question",
     "image": {
       "src": "images/AP shoulder, internal rotation humerus - greater tubercle (arrow) - lesser tubercle in profile.png",
       "alt": "Radiographic positioning study image.",
@@ -1585,7 +1585,7 @@
     "projection": "Grashey method · AP oblique",
     "topic": "anatomy",
     "type": "mcq",
-    "prompt": "Which method is shown in this upright positioning image?",
+    "prompt": "Identify the projection or method represented by this setup.",
     "options": [
       "Grashey method",
       "Scapular Y",
@@ -1594,7 +1594,7 @@
     ],
     "answer": "Grashey method",
     "explanation": "The patient is rotated toward the affected side for the AP oblique glenoid view.",
-    "source": "Positioning practice · Grashey method",
+    "source": "Positioning practice · Image question",
     "image": {
       "src": "images/(A) Upright AP oblique glenoid cavity Grashey method. (B) Note position of shoulder and.png",
       "alt": "Radiographic positioning study image.",
@@ -1608,7 +1608,7 @@
     "projection": "Grashey method · AP oblique",
     "topic": "anatomy",
     "type": "mcq",
-    "prompt": "Which method is shown in this recumbent positioning image?",
+    "prompt": "Which named projection or method does this positioning demonstrate?",
     "options": [
       "Grashey method",
       "Scapular Y",
@@ -1617,7 +1617,7 @@
     ],
     "answer": "Grashey method",
     "explanation": "The image demonstrates a recumbent AP oblique glenoid-cavity position.",
-    "source": "Positioning practice · Grashey method",
+    "source": "Positioning practice · Image question",
     "image": {
       "src": "images/Recumbent AP oblique glenoid cavity Grashey method..png",
       "alt": "Radiographic positioning study image.",
@@ -1631,7 +1631,7 @@
     "projection": "Grashey method · AP oblique",
     "topic": "evaluation",
     "type": "mcq",
-    "prompt": "Which feature should be present on this Grashey radiograph?",
+    "prompt": "When evaluating this image, which finding is correct?",
     "options": [
       "Open joint space between humeral head and glenoid cavity",
       "Humeral head and glenoid completely superimposed",
@@ -1640,7 +1640,7 @@
     ],
     "answer": "Open joint space between humeral head and glenoid cavity",
     "explanation": "The defining image criterion is an open scapulohumeral joint.",
-    "source": "Positioning practice · Grashey method",
+    "source": "Positioning practice · Image question",
     "image": {
       "src": "images/AP oblique glenoid cavity Grashey method.xray.png",
       "alt": "Radiographic positioning study image.",
@@ -1852,7 +1852,7 @@
     "projection": "Lawrence method · transthoracic lateral",
     "topic": "anatomy",
     "type": "mcq",
-    "prompt": "Which projection is shown in this upright positioning image?",
+    "prompt": "Which projection or method is demonstrated by the positioning shown?",
     "options": [
       "Lawrence transthoracic lateral shoulder",
       "Grashey method",
@@ -1861,7 +1861,7 @@
     ],
     "answer": "Lawrence transthoracic lateral shoulder",
     "explanation": "The unaffected arm is elevated for the transthoracic lateral.",
-    "source": "Positioning practice · Lawrence method",
+    "source": "Positioning practice · Image question",
     "image": {
       "src": "images/Upright transthoracic lateral shoulder Lawrence method..png",
       "alt": "Radiographic positioning study image.",
@@ -1875,7 +1875,7 @@
     "projection": "Lawrence method · transthoracic lateral",
     "topic": "anatomy",
     "type": "mcq",
-    "prompt": "Which projection is shown in this recumbent positioning image?",
+    "prompt": "Identify the projection or method represented by this setup.",
     "options": [
       "Lawrence transthoracic lateral shoulder",
       "AP humerus",
@@ -1884,7 +1884,7 @@
     ],
     "answer": "Lawrence transthoracic lateral shoulder",
     "explanation": "The image demonstrates the dorsal-decubitus version of the transthoracic lateral.",
-    "source": "Positioning practice · Lawrence method",
+    "source": "Positioning practice · Image question",
     "image": {
       "src": "images/Dorsal decubitus transthoracic lateral shoulder Lawrence method..png",
       "alt": "Radiographic positioning study image.",
@@ -1898,7 +1898,7 @@
     "projection": "Lawrence method · transthoracic lateral",
     "topic": "evaluation",
     "type": "mcq",
-    "prompt": "Which feature should be present on this transthoracic lateral radiograph?",
+    "prompt": "Which radiographic relationship is expected for the image shown?",
     "options": [
       "Proximal humerus visible through the thorax",
       "Open glenoid cavity in profile",
@@ -1907,7 +1907,7 @@
     ],
     "answer": "Proximal humerus visible through the thorax",
     "explanation": "The Lawrence method projects the proximal humerus through the thorax.",
-    "source": "Positioning practice · Lawrence method",
+    "source": "Positioning practice · Image question",
     "image": {
       "src": "images/Transthoracic lateral shoulder Lawrence method.xray.png",
       "alt": "Radiographic positioning study image.",
@@ -2083,7 +2083,7 @@
     "projection": "Scapular Y · PA oblique",
     "topic": "anatomy",
     "type": "mcq",
-    "prompt": "Which shoulder projection is being positioned in this PA oblique setup?",
+    "prompt": "Based only on the positioning shown, which projection or method is being performed?",
     "options": [
       "Scapular Y",
       "Grashey method",
@@ -2092,7 +2092,7 @@
     ],
     "answer": "Scapular Y",
     "explanation": "The image demonstrates the PA oblique shoulder position used for the Scapular Y.",
-    "source": "Positioning practice · Scapular Y",
+    "source": "Positioning practice · Image question",
     "image": {
       "src": "images/(A) PA oblique shoulder joint. (B) Perspective from x-ray tube showing scapula centered in.png",
       "alt": "Radiographic positioning study image.",
@@ -2106,7 +2106,7 @@
     "projection": "Scapular Y · PA oblique",
     "topic": "anatomy",
     "type": "mcq",
-    "prompt": "Which projection is demonstrated on this radiograph?",
+    "prompt": "Which projection or method produced this radiographic appearance?",
     "options": [
       "Scapular Y",
       "Grashey method",
@@ -2115,7 +2115,7 @@
     ],
     "answer": "Scapular Y",
     "explanation": "The radiograph shows the characteristic Y formed by the scapular body, acromion, and coracoid.",
-    "source": "Positioning practice · Scapular Y",
+    "source": "Positioning practice · Image question",
     "image": {
       "src": "images/PA oblique shoulder joint. Note scapular Y components—body, acromion, and coracoidxray.png",
       "alt": "Radiographic positioning study image.",
@@ -2129,7 +2129,7 @@
     "projection": "Scapular Y · PA oblique",
     "topic": "pathology",
     "type": "mcq",
-    "prompt": "What abnormality is demonstrated in this supplied Scapular Y image?",
+    "prompt": "Which abnormality is demonstrated in the image?",
     "options": [
       "Anterior dislocation",
       "Posterior dislocation",
@@ -2138,7 +2138,7 @@
     ],
     "answer": "Anterior dislocation",
     "explanation": "The supplied image is labeled as showing an anterior shoulder dislocation.",
-    "source": "Positioning practice · Scapular Y",
+    "source": "Positioning practice · Image question",
     "image": {
       "src": "images/PA oblique shoulder joint showing anterior dislocation (humeral head projected beneath.png",
       "alt": "Radiographic positioning study image.",
@@ -2350,7 +2350,7 @@
     "projection": "Pearson method · bilateral AC joints",
     "topic": "anatomy",
     "type": "mcq",
-    "prompt": "Which method is shown in this image?",
+    "prompt": "Which named projection or method does this positioning demonstrate?",
     "options": [
       "Pearson method · bilateral AC joints",
       "AP clavicle",
@@ -2359,7 +2359,7 @@
     ],
     "answer": "Pearson method · bilateral AC joints",
     "explanation": "The image demonstrates bilateral AP AC articulations.",
-    "source": "Positioning practice · Pearson method",
+    "source": "Positioning practice · Image question",
     "image": {
       "src": "images/Bilateral AP AC articulations..png",
       "alt": "Radiographic positioning study image.",
@@ -2481,7 +2481,7 @@
     "projection": "AP clavicle",
     "topic": "anatomy",
     "type": "mcq",
-    "prompt": "Which clavicle projection is being positioned here?",
+    "prompt": "Based only on the positioning shown, which projection or method is being performed?",
     "options": [
       "AP clavicle",
       "PA clavicle",
@@ -2490,7 +2490,7 @@
     ],
     "answer": "AP clavicle",
     "explanation": "The image demonstrates the standard AP clavicle position.",
-    "source": "Positioning practice · AP clavicle",
+    "source": "Positioning practice · Image question",
     "image": {
       "src": "images/AP clavicle..png",
       "alt": "Radiographic positioning study image.",
@@ -2504,7 +2504,7 @@
     "projection": "AP clavicle",
     "topic": "evaluation",
     "type": "mcq",
-    "prompt": "Which feature should be present on this AP clavicle radiograph?",
+    "prompt": "Which evaluation criterion best matches the image shown?",
     "options": [
       "Lateral half above the scapula and medial half over the thorax",
       "Entire clavicle projected above the ribs",
@@ -2513,7 +2513,7 @@
     ],
     "answer": "Lateral half above the scapula and medial half over the thorax",
     "explanation": "Those are the guide's AP clavicle evaluation criteria.",
-    "source": "Positioning practice · AP clavicle",
+    "source": "Positioning practice · Image question",
     "image": {
       "src": "images/AP clavicle.xray.png",
       "alt": "Radiographic positioning study image.",
@@ -2743,7 +2743,7 @@
     "projection": "AP axial clavicle",
     "topic": "anatomy",
     "type": "mcq",
-    "prompt": "Which projection is being demonstrated in this positioning image?",
+    "prompt": "Identify the projection or method represented by this setup.",
     "options": [
       "AP axial clavicle",
       "AP clavicle",
@@ -2752,7 +2752,7 @@
     ],
     "answer": "AP axial clavicle",
     "explanation": "The image shows upright AP axial clavicle positioning options.",
-    "source": "Positioning practice · AP axial clavicle",
+    "source": "Positioning practice · Image question",
     "image": {
       "src": "images/(A) AP axial clavicle, upright position. (B) AP axial clavicle, upright lordotic position..png",
       "alt": "Radiographic positioning study image.",
@@ -2766,7 +2766,7 @@
     "projection": "AP axial clavicle",
     "topic": "evaluation",
     "type": "mcq",
-    "prompt": "Which feature should be present on this AP axial clavicle radiograph?",
+    "prompt": "Which radiographic relationship is expected for the image shown?",
     "options": [
       "Lateral two-thirds projected above the ribs and scapula",
       "Lateral half above scapula only",
@@ -2775,7 +2775,7 @@
     ],
     "answer": "Lateral two-thirds projected above the ribs and scapula",
     "explanation": "This is a key AP axial evaluation criterion.",
-    "source": "Positioning practice · AP axial clavicle",
+    "source": "Positioning practice · Image question",
     "image": {
       "src": "images/AP axial clavicle.xray.png",
       "alt": "Radiographic positioning study image.",
@@ -2897,7 +2897,7 @@
     "projection": "PA clavicle",
     "topic": "anatomy",
     "type": "mcq",
-    "prompt": "Which clavicle projection is shown with the patient facing the IR?",
+    "prompt": "Based only on the positioning shown, which projection or method is being performed?",
     "options": [
       "PA clavicle",
       "AP clavicle",
@@ -2906,7 +2906,7 @@
     ],
     "answer": "PA clavicle",
     "explanation": "The patient is positioned anterior chest against the IR for PA clavicle.",
-    "source": "Positioning practice · PA clavicle",
+    "source": "Positioning practice · Image question",
     "image": {
       "src": "images/PA clavicle..png",
       "alt": "Radiographic positioning study image.",
@@ -2920,7 +2920,7 @@
     "projection": "PA clavicle",
     "topic": "evaluation",
     "type": "mcq",
-    "prompt": "Which feature should be present on this PA clavicle radiograph?",
+    "prompt": "Which evaluation criterion best matches the image shown?",
     "options": [
       "Lateral half above the scapula",
       "Lateral two-thirds above ribs and scapula",
@@ -2929,7 +2929,7 @@
     ],
     "answer": "Lateral half above the scapula",
     "explanation": "The routine PA appearance matches the routine AP appearance.",
-    "source": "Positioning practice · PA clavicle",
+    "source": "Positioning practice · Image question",
     "image": {
       "src": "images/PA clavicle.xray.png",
       "alt": "Radiographic positioning study image.",
@@ -3069,7 +3069,7 @@
     "projection": "PA axial clavicle",
     "topic": "anatomy",
     "type": "mcq",
-    "prompt": "Which clavicle projection is being performed with an axial PA setup?",
+    "prompt": "Identify the projection or method represented by this setup.",
     "options": [
       "PA axial clavicle",
       "PA clavicle",
@@ -3078,7 +3078,7 @@
     ],
     "answer": "PA axial clavicle",
     "explanation": "The image shows the PA axial clavicle setup.",
-    "source": "Positioning practice · PA axial clavicle",
+    "source": "Positioning practice · Image question",
     "image": {
       "src": "images/PA axial clavicle..png",
       "alt": "Radiographic positioning study image.",
@@ -3236,7 +3236,7 @@
     "projection": "AP scapula",
     "topic": "anatomy",
     "type": "mcq",
-    "prompt": "Which scapular projection is being positioned in this supine image?",
+    "prompt": "Which named projection or method does this positioning demonstrate?",
     "options": [
       "AP scapula",
       "Lateral scapula",
@@ -3245,7 +3245,7 @@
     ],
     "answer": "AP scapula",
     "explanation": "The patient is positioned for an AP scapula with the arm abducted.",
-    "source": "Positioning practice · AP scapula",
+    "source": "Positioning practice · Image question",
     "image": {
       "src": "images/AP scapula.supine.png",
       "alt": "Radiographic positioning study image.",

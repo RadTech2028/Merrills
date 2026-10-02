@@ -1,0 +1,5254 @@
+[
+  {
+    "id": "kneehip-001",
+    "part": "knee",
+    "projectionId": "knee-ap",
+    "projection": "AP knee",
+    "topic": "central-ray",
+    "type": "mcq",
+    "prompt": "Where is the CR centered for an AP knee?",
+    "options": [
+      "1/2 inch inferior to the patellar apex",
+      "1 inch distal to the medial epicondyle",
+      "Midpopliteal area",
+      "Patellofemoral joint"
+    ],
+    "answer": "1/2 inch inferior to the patellar apex",
+    "explanation": "The AP knee CR is centered 1/2 inch inferior to the patellar apex.",
+    "source": "Positioning practice · AP knee"
+  },
+  {
+    "id": "kneehip-002",
+    "part": "knee",
+    "projectionId": "knee-ap",
+    "projection": "AP knee",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "How should the femoral epicondyles be oriented for an AP knee?",
+    "options": [
+      "Parallel with the IR",
+      "Perpendicular to the IR",
+      "Superimposed",
+      "45° to the IR"
+    ],
+    "answer": "Parallel with the IR",
+    "explanation": "The femoral epicondyles should be parallel with the IR.",
+    "source": "Positioning practice · AP knee"
+  },
+  {
+    "id": "kneehip-003",
+    "part": "knee",
+    "projectionId": "knee-ap",
+    "projection": "AP knee",
+    "topic": "central-ray",
+    "type": "mcq",
+    "prompt": "What CR angle is used when the ASIS-to-tabletop measurement is less than 19 cm?",
+    "options": [
+      "3–5° caudad",
+      "Perpendicular",
+      "3–5° cephalad",
+      "5–7° cephalad"
+    ],
+    "answer": "3–5° caudad",
+    "explanation": "Measurements under 19 cm use 3–5° caudad.",
+    "source": "Positioning practice · AP knee"
+  },
+  {
+    "id": "kneehip-004",
+    "part": "knee",
+    "projectionId": "knee-ap",
+    "projection": "AP knee",
+    "topic": "central-ray",
+    "type": "mcq",
+    "prompt": "What CR angle is used when the ASIS-to-tabletop measurement is 19–24 cm?",
+    "options": [
+      "Perpendicular",
+      "3–5° caudad",
+      "3–5° cephalad",
+      "5–7° caudad"
+    ],
+    "answer": "Perpendicular",
+    "explanation": "Measurements of 19–24 cm use a perpendicular CR.",
+    "source": "Positioning practice · AP knee"
+  },
+  {
+    "id": "kneehip-005",
+    "part": "knee",
+    "projectionId": "knee-ap",
+    "projection": "AP knee",
+    "topic": "central-ray",
+    "type": "mcq",
+    "prompt": "What CR angle is used when the ASIS-to-tabletop measurement is greater than 24 cm?",
+    "options": [
+      "3–5° cephalad",
+      "3–5° caudad",
+      "Perpendicular",
+      "5–7° caudad"
+    ],
+    "answer": "3–5° cephalad",
+    "explanation": "Measurements over 24 cm use 3–5° cephalad.",
+    "source": "Positioning practice · AP knee"
+  },
+  {
+    "id": "kneehip-006",
+    "part": "knee",
+    "projectionId": "knee-ap",
+    "projection": "AP knee",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "Which finding best indicates no rotation on an AP knee?",
+    "options": [
+      "Symmetric femoral condyles with the intercondylar eminence centered",
+      "Superimposed femoral condyles",
+      "Patella in profile",
+      "Fibular head completely free of the tibia"
+    ],
+    "answer": "Symmetric femoral condyles with the intercondylar eminence centered",
+    "explanation": "Symmetric condyles and a centered intercondylar eminence indicate proper AP positioning.",
+    "source": "Positioning practice · AP knee"
+  },
+  {
+    "id": "kneehip-007",
+    "part": "knee",
+    "projectionId": "knee-ap",
+    "projection": "AP knee",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "How should the fibular head appear on an AP knee?",
+    "options": [
+      "Slightly superimposed by the tibia",
+      "Completely free of the tibia",
+      "Completely superimposed",
+      "Projected medial to the tibia"
+    ],
+    "answer": "Slightly superimposed by the tibia",
+    "explanation": "Slight tibial superimposition of the fibular head is expected.",
+    "source": "Positioning practice · AP knee"
+  },
+  {
+    "id": "kneehip-008",
+    "part": "knee",
+    "projectionId": "knee-ap",
+    "projection": "AP knee",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "How should the patella appear on an AP knee?",
+    "options": [
+      "Superimposed on the femur",
+      "In profile",
+      "Completely outside the femoral condyles",
+      "Centered in the intercondylar fossa"
+    ],
+    "answer": "Superimposed on the femur",
+    "explanation": "The patella is superimposed on the femur.",
+    "source": "Positioning practice · AP knee"
+  },
+  {
+    "id": "kneehip-009",
+    "part": "knee",
+    "projectionId": "knee-ap",
+    "projection": "AP knee",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "What should be true of the femorotibial joint space on a correctly positioned AP knee?",
+    "options": [
+      "Open",
+      "Closed",
+      "Only medial side open",
+      "Only lateral side open"
+    ],
+    "answer": "Open",
+    "explanation": "The femorotibial joint should be open.",
+    "source": "Positioning practice · AP knee"
+  },
+  {
+    "id": "kneehip-010",
+    "part": "knee",
+    "projectionId": "knee-ap",
+    "projection": "AP knee",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "If the knee is normal, how should the femorotibial joint spaces compare on the AP image?",
+    "options": [
+      "Equal",
+      "Medial side always wider",
+      "Lateral side always wider",
+      "Both closed"
+    ],
+    "answer": "Equal",
+    "explanation": "The guide notes that normal joint spaces are equal.",
+    "source": "Positioning practice · AP knee"
+  },
+  {
+    "id": "kneehip-011",
+    "part": "knee",
+    "projectionId": "knee-ap",
+    "projection": "AP knee",
+    "topic": "anatomy",
+    "type": "mcq",
+    "prompt": "Which projection or method is demonstrated by the positioning shown?",
+    "options": [
+      "AP knee",
+      "PA knee",
+      "Lateral knee",
+      "AP oblique knee"
+    ],
+    "answer": "AP knee",
+    "explanation": "The image demonstrates a standard AP knee position.",
+    "source": "Positioning practice · Image question",
+    "image": {
+      "src": "images/AP knee..png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Positioning image"
+    }
+  },
+  {
+    "id": "kneehip-012",
+    "part": "knee",
+    "projectionId": "knee-ap",
+    "projection": "AP knee",
+    "topic": "central-ray",
+    "type": "mcq",
+    "prompt": "Which CR principle is illustrated by the positioning diagram?",
+    "options": [
+      "AP knee CR angulation varies with pelvic thickness",
+      "All AP knees use 5–7° cephalad",
+      "All AP knees use a perpendicular CR",
+      "AP knee angulation is based on flexion"
+    ],
+    "answer": "AP knee CR angulation varies with pelvic thickness",
+    "explanation": "The guide bases AP knee angulation on the ASIS-to-tabletop measurement.",
+    "source": "Positioning practice · Image question",
+    "image": {
+      "src": "images/Pelvic thickness and CR angles for AP knee radiographs..png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Positioning image"
+    }
+  },
+  {
+    "id": "kneehip-013",
+    "part": "knee",
+    "projectionId": "knee-pa",
+    "projection": "PA knee",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "What patient position is used for a PA knee?",
+    "options": [
+      "Prone",
+      "Supine",
+      "Lateral recumbent",
+      "Standing"
+    ],
+    "answer": "Prone",
+    "explanation": "The PA knee is performed prone.",
+    "source": "Positioning practice · PA knee"
+  },
+  {
+    "id": "kneehip-014",
+    "part": "knee",
+    "projectionId": "knee-pa",
+    "projection": "PA knee",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "How should the knee be positioned for a routine PA knee?",
+    "options": [
+      "Extended",
+      "Flexed 20–30°",
+      "Flexed 45°",
+      "Flexed 70°"
+    ],
+    "answer": "Extended",
+    "explanation": "The routine PA knee is extended.",
+    "source": "Positioning practice · PA knee"
+  },
+  {
+    "id": "kneehip-015",
+    "part": "knee",
+    "projectionId": "knee-pa",
+    "projection": "PA knee",
+    "topic": "central-ray",
+    "type": "mcq",
+    "prompt": "What CR angle is normally used for a PA knee?",
+    "options": [
+      "5–7° caudad",
+      "5–7° cephalad",
+      "3–5° caudad",
+      "Perpendicular in every patient"
+    ],
+    "answer": "5–7° caudad",
+    "explanation": "The guide lists a 5–7° caudad CR.",
+    "source": "Positioning practice · PA knee"
+  },
+  {
+    "id": "kneehip-016",
+    "part": "knee",
+    "projectionId": "knee-pa",
+    "projection": "PA knee",
+    "topic": "central-ray",
+    "type": "mcq",
+    "prompt": "Where should the CR exit for a PA knee?",
+    "options": [
+      "1/2 inch below the patellar apex",
+      "At the patellofemoral joint",
+      "1 inch distal to the medial epicondyle",
+      "At the tibial tuberosity"
+    ],
+    "answer": "1/2 inch below the patellar apex",
+    "explanation": "The CR exits 1/2 inch below the patellar apex.",
+    "source": "Positioning practice · PA knee"
+  },
+  {
+    "id": "kneehip-017",
+    "part": "knee",
+    "projectionId": "knee-pa",
+    "projection": "PA knee",
+    "topic": "central-ray",
+    "type": "mcq",
+    "prompt": "When may a perpendicular CR be used for a PA knee?",
+    "options": [
+      "With large thighs or a dorsiflexed foot",
+      "Only with small thighs",
+      "Only with 45° knee flexion",
+      "Never"
+    ],
+    "answer": "With large thighs or a dorsiflexed foot",
+    "explanation": "The guide notes these situations may require a perpendicular CR.",
+    "source": "Positioning practice · PA knee"
+  },
+  {
+    "id": "kneehip-018",
+    "part": "knee",
+    "projectionId": "knee-pa",
+    "projection": "PA knee",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "What should the femorotibial joint look like on a properly positioned PA knee?",
+    "options": [
+      "Open",
+      "Closed",
+      "Only medial side open",
+      "Only lateral side open"
+    ],
+    "answer": "Open",
+    "explanation": "The PA knee should show an open femorotibial joint.",
+    "source": "Positioning practice · PA knee"
+  },
+  {
+    "id": "kneehip-019",
+    "part": "knee",
+    "projectionId": "knee-pa",
+    "projection": "PA knee",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "Which combination indicates correct PA knee positioning?",
+    "options": [
+      "Knee extended with no rotation",
+      "Knee flexed 45° with superimposed condyles",
+      "Patella in profile",
+      "Fibular head completely free of tibia"
+    ],
+    "answer": "Knee extended with no rotation",
+    "explanation": "The guide lists an extended knee without rotation.",
+    "source": "Positioning practice · PA knee"
+  },
+  {
+    "id": "kneehip-020",
+    "part": "knee",
+    "projectionId": "knee-pa",
+    "projection": "PA knee",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "How should the fibular head appear on a PA knee?",
+    "options": [
+      "Slightly superimposed by the tibia",
+      "Completely free",
+      "Completely hidden",
+      "Projected medial to the tibia"
+    ],
+    "answer": "Slightly superimposed by the tibia",
+    "explanation": "Slight overlap is expected.",
+    "source": "Positioning practice · PA knee"
+  },
+  {
+    "id": "kneehip-021",
+    "part": "knee",
+    "projectionId": "knee-pa",
+    "projection": "PA knee",
+    "topic": "anatomy",
+    "type": "mcq",
+    "prompt": "Which named projection or method does this positioning demonstrate?",
+    "options": [
+      "PA knee",
+      "AP knee",
+      "Lateral knee",
+      "Holmblad method"
+    ],
+    "answer": "PA knee",
+    "explanation": "The patient is positioned prone for the PA knee.",
+    "source": "Positioning practice · Image question",
+    "image": {
+      "src": "images/PA knee..png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Positioning image"
+    }
+  },
+  {
+    "id": "kneehip-022",
+    "part": "knee",
+    "projectionId": "knee-pa",
+    "projection": "PA knee",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "When evaluating this image, which finding is correct?",
+    "options": [
+      "Open femorotibial joint",
+      "Superimposed femoral condyles",
+      "Patella in profile",
+      "Open proximal tibiofibular joint"
+    ],
+    "answer": "Open femorotibial joint",
+    "explanation": "An open femorotibial joint is a key PA criterion.",
+    "source": "Positioning practice · Image question",
+    "image": {
+      "src": "images/PA knee.xray.png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Radiograph"
+    }
+  },
+  {
+    "id": "kneehip-023",
+    "part": "knee",
+    "projectionId": "knee-lat",
+    "projection": "Lateral knee",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "How much is the knee flexed for a routine lateral knee?",
+    "options": [
+      "20–30°",
+      "5–10°",
+      "45°",
+      "70°"
+    ],
+    "answer": "20–30°",
+    "explanation": "The lateral knee uses 20–30° flexion.",
+    "source": "Positioning practice · Lateral knee"
+  },
+  {
+    "id": "kneehip-024",
+    "part": "knee",
+    "projectionId": "knee-lat",
+    "projection": "Lateral knee",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "Which side is placed down for a mediolateral knee?",
+    "options": [
+      "Affected side",
+      "Unaffected side",
+      "Anterior surface",
+      "Posterior surface"
+    ],
+    "answer": "Affected side",
+    "explanation": "The affected side is placed against the IR.",
+    "source": "Positioning practice · Lateral knee"
+  },
+  {
+    "id": "kneehip-025",
+    "part": "knee",
+    "projectionId": "knee-lat",
+    "projection": "Lateral knee",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "How should the epicondyles and patella relate to the IR?",
+    "options": [
+      "Perpendicular",
+      "Parallel",
+      "45°",
+      "No specific relationship"
+    ],
+    "answer": "Perpendicular",
+    "explanation": "The epicondyles and patella should be perpendicular to the IR.",
+    "source": "Positioning practice · Lateral knee"
+  },
+  {
+    "id": "kneehip-026",
+    "part": "knee",
+    "projectionId": "knee-lat",
+    "projection": "Lateral knee",
+    "topic": "central-ray",
+    "type": "mcq",
+    "prompt": "What CR angle is used for a lateral knee?",
+    "options": [
+      "5–7° cephalad",
+      "5–7° caudad",
+      "3–5° cephalad",
+      "Perpendicular"
+    ],
+    "answer": "5–7° cephalad",
+    "explanation": "The lateral knee uses 5–7° cephalad.",
+    "source": "Positioning practice · Lateral knee"
+  },
+  {
+    "id": "kneehip-027",
+    "part": "knee",
+    "projectionId": "knee-lat",
+    "projection": "Lateral knee",
+    "topic": "central-ray",
+    "type": "mcq",
+    "prompt": "Where is the CR centered for a lateral knee?",
+    "options": [
+      "1 inch distal to the medial epicondyle",
+      "1/2 inch below the patellar apex",
+      "Midpopliteal area",
+      "Patellofemoral joint"
+    ],
+    "answer": "1 inch distal to the medial epicondyle",
+    "explanation": "This is the listed CR point.",
+    "source": "Positioning practice · Lateral knee"
+  },
+  {
+    "id": "kneehip-028",
+    "part": "knee",
+    "projectionId": "knee-lat",
+    "projection": "Lateral knee",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "How should the femoral condyles appear on a true lateral knee?",
+    "options": [
+      "Superimposed",
+      "Parallel but separated",
+      "45° apart",
+      "One enlarged"
+    ],
+    "answer": "Superimposed",
+    "explanation": "Superimposed femoral condyles indicate a true lateral.",
+    "source": "Positioning practice · Lateral knee"
+  },
+  {
+    "id": "kneehip-029",
+    "part": "knee",
+    "projectionId": "knee-lat",
+    "projection": "Lateral knee",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "How should the patella appear on a lateral knee?",
+    "options": [
+      "In profile",
+      "Superimposed on the femur",
+      "Centered in the intercondylar fossa",
+      "Projected medially"
+    ],
+    "answer": "In profile",
+    "explanation": "The patella should be in profile.",
+    "source": "Positioning practice · Lateral knee"
+  },
+  {
+    "id": "kneehip-030",
+    "part": "knee",
+    "projectionId": "knee-lat",
+    "projection": "Lateral knee",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "Which joints should be open on a correctly positioned lateral knee?",
+    "options": [
+      "Patellofemoral and femorotibial joints",
+      "Proximal tibiofibular joint only",
+      "Hip and knee joints",
+      "Only patellofemoral joint"
+    ],
+    "answer": "Patellofemoral and femorotibial joints",
+    "explanation": "Both should be demonstrated open.",
+    "source": "Positioning practice · Lateral knee"
+  },
+  {
+    "id": "kneehip-031",
+    "part": "knee",
+    "projectionId": "knee-lat",
+    "projection": "Lateral knee",
+    "topic": "anatomy",
+    "type": "mcq",
+    "prompt": "Which projection or method is demonstrated by the positioning shown?",
+    "options": [
+      "Lateral knee",
+      "AP knee",
+      "PA knee",
+      "AP oblique knee"
+    ],
+    "answer": "Lateral knee",
+    "explanation": "The image demonstrates the mediolateral lateral knee.",
+    "source": "Positioning practice · Image question",
+    "image": {
+      "src": "images/Lateral knee showing a 5-degree cephalad angulation of CR..png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Positioning image"
+    }
+  },
+  {
+    "id": "kneehip-032",
+    "part": "knee",
+    "projectionId": "knee-lat",
+    "projection": "Lateral knee",
+    "topic": "pathology",
+    "type": "mcq",
+    "prompt": "What pathologic finding is demonstrated on this radiograph?",
+    "options": [
+      "Severe arthritis",
+      "Patellar dislocation",
+      "Femoral fracture",
+      "Osgood–Schlatter disease"
+    ],
+    "answer": "Severe arthritis",
+    "explanation": "The supplied image label identifies severe arthritis.",
+    "source": "Positioning practice · Image question",
+    "image": {
+      "src": "images/(A) Lateral knee. (B) Lateral knee showing severe arthritis.xray.png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Radiograph"
+    }
+  },
+  {
+    "id": "kneehip-033",
+    "part": "knee",
+    "projectionId": "knee-wb-ap",
+    "projection": "AP weight-bearing knee",
+    "topic": "purpose",
+    "type": "mcq",
+    "prompt": "What is the AP weight-bearing knee useful for evaluating?",
+    "options": [
+      "Joint-space narrowing under load and varus/valgus",
+      "Patellar subluxation only",
+      "Intercondylar fossa only",
+      "Femoral neck rotation"
+    ],
+    "answer": "Joint-space narrowing under load and varus/valgus",
+    "explanation": "These are the stated purposes.",
+    "source": "Positioning practice · AP weight-bearing knee"
+  },
+  {
+    "id": "kneehip-034",
+    "part": "knee",
+    "projectionId": "knee-wb-ap",
+    "projection": "AP weight-bearing knee",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "How are the knees positioned for an AP weight-bearing knee?",
+    "options": [
+      "Fully extended",
+      "Flexed 45°",
+      "Flexed 20–30°",
+      "Flexed 70°"
+    ],
+    "answer": "Fully extended",
+    "explanation": "The knees are fully extended.",
+    "source": "Positioning practice · AP weight-bearing knee"
+  },
+  {
+    "id": "kneehip-035",
+    "part": "knee",
+    "projectionId": "knee-wb-ap",
+    "projection": "AP weight-bearing knee",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "How should the toes be oriented?",
+    "options": [
+      "Forward",
+      "Medially rotated 15°",
+      "Laterally rotated 45°",
+      "Toward each other"
+    ],
+    "answer": "Forward",
+    "explanation": "The guide specifies toes forward.",
+    "source": "Positioning practice · AP weight-bearing knee"
+  },
+  {
+    "id": "kneehip-036",
+    "part": "knee",
+    "projectionId": "knee-wb-ap",
+    "projection": "AP weight-bearing knee",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "How should body weight be distributed?",
+    "options": [
+      "Equally",
+      "Entirely on affected side",
+      "Entirely on unaffected side",
+      "Mostly on heels"
+    ],
+    "answer": "Equally",
+    "explanation": "Weight is distributed equally.",
+    "source": "Positioning practice · AP weight-bearing knee"
+  },
+  {
+    "id": "kneehip-037",
+    "part": "knee",
+    "projectionId": "knee-wb-ap",
+    "projection": "AP weight-bearing knee",
+    "topic": "central-ray",
+    "type": "mcq",
+    "prompt": "Where is the horizontal CR centered?",
+    "options": [
+      "1/2 inch below the patellar apices",
+      "At the midpopliteal spaces",
+      "1 inch distal to each medial epicondyle",
+      "At the tibial tuberosities"
+    ],
+    "answer": "1/2 inch below the patellar apices",
+    "explanation": "The horizontal CR is centered at this level.",
+    "source": "Positioning practice · AP weight-bearing knee"
+  },
+  {
+    "id": "kneehip-038",
+    "part": "knee",
+    "projectionId": "knee-wb-ap",
+    "projection": "AP weight-bearing knee",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "What should be true of both knees?",
+    "options": [
+      "No rotation",
+      "Both internally rotated 15°",
+      "Both flexed 45°",
+      "Patellae in profile"
+    ],
+    "answer": "No rotation",
+    "explanation": "Both knees should be without rotation.",
+    "source": "Positioning practice · AP weight-bearing knee"
+  },
+  {
+    "id": "kneehip-039",
+    "part": "knee",
+    "projectionId": "knee-wb-ap",
+    "projection": "AP weight-bearing knee",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "What should be centered on the image?",
+    "options": [
+      "Joint spaces",
+      "Patellae only",
+      "Tibial tuberosities only",
+      "Fibular heads only"
+    ],
+    "answer": "Joint spaces",
+    "explanation": "The joint spaces should be centered.",
+    "source": "Positioning practice · AP weight-bearing knee"
+  },
+  {
+    "id": "kneehip-040",
+    "part": "knee",
+    "projectionId": "knee-wb-ap",
+    "projection": "AP weight-bearing knee",
+    "topic": "anatomy",
+    "type": "mcq",
+    "prompt": "Which named projection or method does this positioning demonstrate?",
+    "options": [
+      "AP bilateral weight-bearing knees",
+      "Rosenberg PA weight-bearing knees",
+      "AP knee",
+      "PA knee"
+    ],
+    "answer": "AP bilateral weight-bearing knees",
+    "explanation": "The image demonstrates bilateral AP weight-bearing knees.",
+    "source": "Positioning practice · Image question",
+    "image": {
+      "src": "images/AP bilateral weight-bearing knees..png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Positioning image"
+    }
+  },
+  {
+    "id": "kneehip-041",
+    "part": "knee",
+    "projectionId": "knee-rosenberg",
+    "projection": "Rosenberg method · PA weight-bearing knee",
+    "topic": "purpose",
+    "type": "mcq",
+    "prompt": "What does the Rosenberg method evaluate?",
+    "options": [
+      "Joint narrowing and cartilage disease of the posterior femoral condyles",
+      "Patellar fracture only",
+      "Intercondylar fossa only",
+      "Femoral neck shortening"
+    ],
+    "answer": "Joint narrowing and cartilage disease of the posterior femoral condyles",
+    "explanation": "This is the stated purpose.",
+    "source": "Positioning practice · Rosenberg method"
+  },
+  {
+    "id": "kneehip-042",
+    "part": "knee",
+    "projectionId": "knee-rosenberg",
+    "projection": "Rosenberg method · PA weight-bearing knee",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "How much are the knees flexed for the Rosenberg method?",
+    "options": [
+      "45°",
+      "20–30°",
+      "70°",
+      "5–10°"
+    ],
+    "answer": "45°",
+    "explanation": "The knees are flexed 45°.",
+    "source": "Positioning practice · Rosenberg method"
+  },
+  {
+    "id": "kneehip-043",
+    "part": "knee",
+    "projectionId": "knee-rosenberg",
+    "projection": "Rosenberg method · PA weight-bearing knee",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "How is the patient positioned?",
+    "options": [
+      "Standing facing the grid with anterior knees against the IR",
+      "Standing with back against the grid",
+      "Prone on the table",
+      "Supine with knees flexed"
+    ],
+    "answer": "Standing facing the grid with anterior knees against the IR",
+    "explanation": "The Rosenberg method is a standing PA weight-bearing position.",
+    "source": "Positioning practice · Rosenberg method"
+  },
+  {
+    "id": "kneehip-044",
+    "part": "knee",
+    "projectionId": "knee-rosenberg",
+    "projection": "Rosenberg method · PA weight-bearing knee",
+    "topic": "central-ray",
+    "type": "mcq",
+    "prompt": "Where does the horizontal CR enter?",
+    "options": [
+      "Midpopliteal area",
+      "1 inch distal to medial epicondyle",
+      "Patellofemoral joint",
+      "ASIS level"
+    ],
+    "answer": "Midpopliteal area",
+    "explanation": "The CR enters the midpopliteal area.",
+    "source": "Positioning practice · Rosenberg method"
+  },
+  {
+    "id": "kneehip-045",
+    "part": "knee",
+    "projectionId": "knee-rosenberg",
+    "projection": "Rosenberg method · PA weight-bearing knee",
+    "topic": "central-ray",
+    "type": "mcq",
+    "prompt": "Where should the CR exit?",
+    "options": [
+      "1/2 inch below the patellar apex",
+      "At the tibial tuberosity",
+      "At the patella center",
+      "At the femoral condyles"
+    ],
+    "answer": "1/2 inch below the patellar apex",
+    "explanation": "This is the listed exit point.",
+    "source": "Positioning practice · Rosenberg method"
+  },
+  {
+    "id": "kneehip-046",
+    "part": "knee",
+    "projectionId": "knee-rosenberg",
+    "projection": "Rosenberg method · PA weight-bearing knee",
+    "topic": "central-ray",
+    "type": "mcq",
+    "prompt": "What alternate CR angle may sometimes be used?",
+    "options": [
+      "10° caudad",
+      "10° cephalad",
+      "45° caudad",
+      "5° cephalad"
+    ],
+    "answer": "10° caudad",
+    "explanation": "The guide notes a 10° caudad option.",
+    "source": "Positioning practice · Rosenberg method"
+  },
+  {
+    "id": "kneehip-047",
+    "part": "knee",
+    "projectionId": "knee-rosenberg",
+    "projection": "Rosenberg method · PA weight-bearing knee",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "Which structures should be in profile?",
+    "options": [
+      "Tibial plateaus",
+      "Patellae",
+      "Femoral necks",
+      "Greater trochanters"
+    ],
+    "answer": "Tibial plateaus",
+    "explanation": "The tibial plateaus should be in profile.",
+    "source": "Positioning practice · Rosenberg method"
+  },
+  {
+    "id": "kneehip-048",
+    "part": "knee",
+    "projectionId": "knee-rosenberg",
+    "projection": "Rosenberg method · PA weight-bearing knee",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "Which fossae should be visible?",
+    "options": [
+      "Intercondylar fossae",
+      "Olecranon fossae",
+      "Coronoid fossae",
+      "Glenoid fossae"
+    ],
+    "answer": "Intercondylar fossae",
+    "explanation": "The intercondylar fossae should be visible.",
+    "source": "Positioning practice · Rosenberg method"
+  },
+  {
+    "id": "kneehip-049",
+    "part": "knee",
+    "projectionId": "knee-rosenberg",
+    "projection": "Rosenberg method · PA weight-bearing knee",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "Which positioning description best matches the image shown?",
+    "options": [
+      "PA projection with knees flexed 45°",
+      "AP bilateral weight-bearing knees",
+      "Lateral knee",
+      "AP oblique knee"
+    ],
+    "answer": "PA projection with knees flexed 45°",
+    "explanation": "The supplied image shows the 45° flexed PA weight-bearing position.",
+    "source": "Positioning practice · Image question",
+    "image": {
+      "src": "images/PA projection with patient’s knees flexed 45 degrees and using perpendicular CR..png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Positioning image"
+    }
+  },
+  {
+    "id": "kneehip-050",
+    "part": "knee",
+    "projectionId": "knee-ext",
+    "projection": "AP oblique knee · lateral rotation",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "How much external rotation is used?",
+    "options": [
+      "45°",
+      "15°",
+      "20°",
+      "60°"
+    ],
+    "answer": "45°",
+    "explanation": "The leg is externally rotated 45°.",
+    "source": "Positioning practice · AP oblique knee, lateral rotation"
+  },
+  {
+    "id": "kneehip-051",
+    "part": "knee",
+    "projectionId": "knee-ext",
+    "projection": "AP oblique knee · lateral rotation",
+    "topic": "purpose",
+    "type": "mcq",
+    "prompt": "Which condyles are emphasized for the AP oblique knee · lateral rotation?",
+    "options": [
+      "Medial femoral and tibial condyles",
+      "Lateral condyles",
+      "Only femoral condyles",
+      "Only tibial condyles"
+    ],
+    "answer": "Medial femoral and tibial condyles",
+    "explanation": "The lateral oblique demonstrates the medial condyles.",
+    "source": "Positioning practice · AP oblique knee, lateral rotation"
+  },
+  {
+    "id": "kneehip-052",
+    "part": "knee",
+    "projectionId": "knee-ext",
+    "projection": "AP oblique knee · lateral rotation",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "How should the fibula relate to the tibia?",
+    "options": [
+      "Superimposed over the lateral half of the tibia",
+      "Completely free of the tibia",
+      "Superimposed over the medial half",
+      "Completely hidden"
+    ],
+    "answer": "Superimposed over the lateral half of the tibia",
+    "explanation": "This overlap is expected.",
+    "source": "Positioning practice · AP oblique knee, lateral rotation"
+  },
+  {
+    "id": "kneehip-053",
+    "part": "knee",
+    "projectionId": "knee-ext",
+    "projection": "AP oblique knee · lateral rotation",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "Where should the patellar margin project for the AP oblique knee · lateral rotation?",
+    "options": [
+      "Beyond the lateral femoral condyle",
+      "Beyond the medial femoral condyle",
+      "Centered between the condyles",
+      "Superimposed over the fibula"
+    ],
+    "answer": "Beyond the lateral femoral condyle",
+    "explanation": "The patellar margin should project beyond the lateral condyle.",
+    "source": "Positioning practice · AP oblique knee, lateral rotation"
+  },
+  {
+    "id": "kneehip-054",
+    "part": "knee",
+    "projectionId": "knee-ext",
+    "projection": "AP oblique knee · lateral rotation",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "What should be true of the knee joint?",
+    "options": [
+      "Open",
+      "Closed",
+      "Only patellofemoral joint open",
+      "Only tibiofibular joint open"
+    ],
+    "answer": "Open",
+    "explanation": "The knee joint should be open.",
+    "source": "Positioning practice · AP oblique knee, lateral rotation"
+  },
+  {
+    "id": "kneehip-055",
+    "part": "knee",
+    "projectionId": "knee-ext",
+    "projection": "AP oblique knee · lateral rotation",
+    "topic": "anatomy",
+    "type": "mcq",
+    "prompt": "Which projection or method is demonstrated by the positioning shown?",
+    "options": [
+      "AP oblique knee · lateral rotation",
+      "AP oblique knee · medial rotation",
+      "AP knee",
+      "Lateral knee"
+    ],
+    "answer": "AP oblique knee · lateral rotation",
+    "explanation": "The leg is externally rotated.",
+    "source": "Positioning practice · Image question",
+    "image": {
+      "src": "images/AP oblique knee, lateral rotation..png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Positioning image"
+    }
+  },
+  {
+    "id": "kneehip-056",
+    "part": "knee",
+    "projectionId": "knee-ext",
+    "projection": "AP oblique knee · lateral rotation",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "Which finding should be present if this image is positioned correctly?",
+    "options": [
+      "Fibula superimposed over the lateral half of the tibia",
+      "Open proximal tibiofibular joint",
+      "Patellar margin beyond the medial condyle",
+      "Lateral condyles emphasized"
+    ],
+    "answer": "Fibula superimposed over the lateral half of the tibia",
+    "explanation": "That relationship is characteristic of the lateral oblique.",
+    "source": "Positioning practice · Image question",
+    "image": {
+      "src": "images/AP oblique knee lateral.xray.png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Radiograph"
+    }
+  },
+  {
+    "id": "kneehip-057",
+    "part": "knee",
+    "projectionId": "knee-med",
+    "projection": "AP oblique knee · medial rotation",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "How much internal rotation is used?",
+    "options": [
+      "45°",
+      "15°",
+      "20°",
+      "60°"
+    ],
+    "answer": "45°",
+    "explanation": "The leg is internally rotated 45°.",
+    "source": "Positioning practice · AP oblique knee, medial rotation"
+  },
+  {
+    "id": "kneehip-058",
+    "part": "knee",
+    "projectionId": "knee-med",
+    "projection": "AP oblique knee · medial rotation",
+    "topic": "purpose",
+    "type": "mcq",
+    "prompt": "Which condyles are emphasized for the AP oblique knee · medial rotation?",
+    "options": [
+      "Lateral condyles",
+      "Medial condyles",
+      "Only femoral condyles",
+      "Only tibial condyles"
+    ],
+    "answer": "Lateral condyles",
+    "explanation": "The medial oblique demonstrates the lateral condyles.",
+    "source": "Positioning practice · AP oblique knee, medial rotation"
+  },
+  {
+    "id": "kneehip-059",
+    "part": "knee",
+    "projectionId": "knee-med",
+    "projection": "AP oblique knee · medial rotation",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "Which joint should be open for the AP oblique knee · medial rotation?",
+    "options": [
+      "Proximal tibiofibular joint",
+      "Patellofemoral joint only",
+      "Hip joint",
+      "Distal tibiofibular joint"
+    ],
+    "answer": "Proximal tibiofibular joint",
+    "explanation": "An open proximal tibiofibular joint is a key criterion.",
+    "source": "Positioning practice · AP oblique knee, medial rotation"
+  },
+  {
+    "id": "kneehip-060",
+    "part": "knee",
+    "projectionId": "knee-med",
+    "projection": "AP oblique knee · medial rotation",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "Where should the patellar margin project for the AP oblique knee · medial rotation?",
+    "options": [
+      "Beyond the medial femoral condyle",
+      "Beyond the lateral femoral condyle",
+      "Centered between the condyles",
+      "Superimposed over the fibula"
+    ],
+    "answer": "Beyond the medial femoral condyle",
+    "explanation": "The patellar margin projects beyond the medial condyle.",
+    "source": "Positioning practice · AP oblique knee, medial rotation"
+  },
+  {
+    "id": "kneehip-061",
+    "part": "knee",
+    "projectionId": "knee-med",
+    "projection": "AP oblique knee · medial rotation",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "What should be visible at the knee joint?",
+    "options": [
+      "Open knee joint with tibial plateaus visible",
+      "Closed knee joint",
+      "Only patellofemoral joint",
+      "Only medial tibial plateau"
+    ],
+    "answer": "Open knee joint with tibial plateaus visible",
+    "explanation": "The guide specifies an open joint with visible tibial plateaus.",
+    "source": "Positioning practice · AP oblique knee, medial rotation"
+  },
+  {
+    "id": "kneehip-062",
+    "part": "knee",
+    "projectionId": "knee-med",
+    "projection": "AP oblique knee · medial rotation",
+    "topic": "anatomy",
+    "type": "mcq",
+    "prompt": "Which named projection or method does this positioning demonstrate?",
+    "options": [
+      "AP oblique knee · medial rotation",
+      "AP oblique knee · lateral rotation",
+      "AP knee",
+      "PA knee"
+    ],
+    "answer": "AP oblique knee · medial rotation",
+    "explanation": "The leg is internally rotated.",
+    "source": "Positioning practice · Image question",
+    "image": {
+      "src": "images/AP oblique knee, medial rotation..png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Positioning image"
+    }
+  },
+  {
+    "id": "kneehip-063",
+    "part": "knee",
+    "projectionId": "knee-med",
+    "projection": "AP oblique knee · medial rotation",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "When evaluating this image, which finding is correct?",
+    "options": [
+      "Open proximal tibiofibular joint",
+      "Fibula superimposed over lateral half of tibia",
+      "Medial condyles emphasized",
+      "Patellar margin beyond lateral condyle"
+    ],
+    "answer": "Open proximal tibiofibular joint",
+    "explanation": "The open proximal tibiofibular joint is characteristic.",
+    "source": "Positioning practice · Image question",
+    "image": {
+      "src": "images/AP oblique knee medial.xray.png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Radiograph"
+    }
+  },
+  {
+    "id": "kneehip-064",
+    "part": "knee",
+    "projectionId": "knee-holmblad",
+    "projection": "Holmblad method · intercondylar fossa",
+    "topic": "purpose",
+    "type": "mcq",
+    "prompt": "What anatomy is the Holmblad method designed to demonstrate?",
+    "options": [
+      "Intercondylar fossa",
+      "Patellofemoral joint",
+      "Tibial tuberosity",
+      "Femoral neck"
+    ],
+    "answer": "Intercondylar fossa",
+    "explanation": "The Holmblad method is a PA axial intercondylar fossa projection.",
+    "source": "Positioning practice · Holmblad method"
+  },
+  {
+    "id": "kneehip-065",
+    "part": "knee",
+    "projectionId": "knee-holmblad",
+    "projection": "Holmblad method · intercondylar fossa",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "How much is the knee flexed for the Holmblad method · intercondylar fossa?",
+    "options": [
+      "70° from full extension",
+      "40°",
+      "50°",
+      "90°"
+    ],
+    "answer": "70° from full extension",
+    "explanation": "The guide specifies 70° flexion from full extension.",
+    "source": "Positioning practice · Holmblad method"
+  },
+  {
+    "id": "kneehip-066",
+    "part": "knee",
+    "projectionId": "knee-holmblad",
+    "projection": "Holmblad method · intercondylar fossa",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "Which patient positions are allowed?",
+    "options": [
+      "Kneeling on the table or standing with the knee supported against the IR",
+      "Supine only",
+      "Prone only",
+      "Seated only"
+    ],
+    "answer": "Kneeling on the table or standing with the knee supported against the IR",
+    "explanation": "Both options are listed.",
+    "source": "Positioning practice · Holmblad method"
+  },
+  {
+    "id": "kneehip-067",
+    "part": "knee",
+    "projectionId": "knee-holmblad",
+    "projection": "Holmblad method · intercondylar fossa",
+    "topic": "central-ray",
+    "type": "mcq",
+    "prompt": "How is the CR directed for the Holmblad method · intercondylar fossa?",
+    "options": [
+      "Perpendicular to the lower leg",
+      "40° caudad",
+      "50° caudad",
+      "Perpendicular to the femur"
+    ],
+    "answer": "Perpendicular to the lower leg",
+    "explanation": "The CR is perpendicular to the lower leg.",
+    "source": "Positioning practice · Holmblad method"
+  },
+  {
+    "id": "kneehip-068",
+    "part": "knee",
+    "projectionId": "knee-holmblad",
+    "projection": "Holmblad method · intercondylar fossa",
+    "topic": "central-ray",
+    "type": "mcq",
+    "prompt": "Where does the CR enter and exit?",
+    "options": [
+      "Enters superior popliteal fossa and exits patellar apex",
+      "Enters patellar apex and exits popliteal fossa",
+      "Enters medial epicondyle and exits fibular head",
+      "Enters tibial tuberosity and exits patella"
+    ],
+    "answer": "Enters superior popliteal fossa and exits patellar apex",
+    "explanation": "These are the listed entry and exit points.",
+    "source": "Positioning practice · Holmblad method"
+  },
+  {
+    "id": "kneehip-069",
+    "part": "knee",
+    "projectionId": "knee-holmblad",
+    "projection": "Holmblad method · intercondylar fossa",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "What should be open for the Holmblad method · intercondylar fossa?",
+    "options": [
+      "Intercondylar fossa and knee joint",
+      "Only patellofemoral joint",
+      "Only proximal tibiofibular joint",
+      "Hip joint"
+    ],
+    "answer": "Intercondylar fossa and knee joint",
+    "explanation": "Both should be open.",
+    "source": "Positioning practice · Holmblad method"
+  },
+  {
+    "id": "kneehip-070",
+    "part": "knee",
+    "projectionId": "knee-holmblad",
+    "projection": "Holmblad method · intercondylar fossa",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "Where should the patellar apex project for the Holmblad method · intercondylar fossa?",
+    "options": [
+      "Clear of the intercondylar fossa",
+      "Inside the fossa",
+      "Over the fibular head",
+      "Over the tibial plateau"
+    ],
+    "answer": "Clear of the intercondylar fossa",
+    "explanation": "The patellar apex should be clear of the fossa.",
+    "source": "Positioning practice · Holmblad method"
+  },
+  {
+    "id": "kneehip-071",
+    "part": "knee",
+    "projectionId": "knee-holmblad",
+    "projection": "Holmblad method · intercondylar fossa",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "How should the intercondylar eminence appear?",
+    "options": [
+      "Centered",
+      "Shifted laterally",
+      "Shifted medially",
+      "Not visible"
+    ],
+    "answer": "Centered",
+    "explanation": "The intercondylar eminence should be centered.",
+    "source": "Positioning practice · Holmblad method"
+  },
+  {
+    "id": "kneehip-072",
+    "part": "knee",
+    "projectionId": "knee-holmblad",
+    "projection": "Holmblad method · intercondylar fossa",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "What tibiofibular relationship is expected for the Holmblad method · intercondylar fossa?",
+    "options": [
+      "Slight overlap",
+      "Complete separation",
+      "Complete superimposition",
+      "Fibula not visible"
+    ],
+    "answer": "Slight overlap",
+    "explanation": "Slight tibiofibular overlap is expected.",
+    "source": "Positioning practice · Holmblad method"
+  },
+  {
+    "id": "kneehip-073",
+    "part": "knee",
+    "projectionId": "knee-holmblad",
+    "projection": "Holmblad method · intercondylar fossa",
+    "topic": "anatomy",
+    "type": "mcq",
+    "prompt": "Which projection or method is demonstrated by the positioning shown?",
+    "options": [
+      "Holmblad method",
+      "Camp-Coventry method",
+      "Beclere method",
+      "Rosenberg method"
+    ],
+    "answer": "Holmblad method",
+    "explanation": "The image demonstrates the original kneeling Holmblad setup.",
+    "source": "Positioning practice · Image question",
+    "image": {
+      "src": "images/PA axial intercondylar fossa, kneeling on a radiographic table original Holmblad method..png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Positioning image"
+    }
+  },
+  {
+    "id": "kneehip-074",
+    "part": "knee",
+    "projectionId": "knee-holmblad",
+    "projection": "Holmblad method · intercondylar fossa",
+    "topic": "anatomy",
+    "type": "mcq",
+    "prompt": "Identify the projection or method demonstrated on this radiograph.",
+    "options": [
+      "Holmblad method",
+      "Camp-Coventry method",
+      "Beclere method",
+      "AP knee"
+    ],
+    "answer": "Holmblad method",
+    "explanation": "The image is labeled as the Holmblad method.",
+    "source": "Positioning practice · Image question",
+    "image": {
+      "src": "images/PA axial (tunnel) intercondylar fossa Holmblad method.xray.png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Radiograph"
+    }
+  },
+  {
+    "id": "kneehip-075",
+    "part": "knee",
+    "projectionId": "knee-camp-coventry",
+    "projection": "Camp-Coventry method · intercondylar fossa",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "What patient position is used for the Camp-Coventry method · intercondylar fossa?",
+    "options": [
+      "Prone",
+      "Supine",
+      "Standing",
+      "Seated"
+    ],
+    "answer": "Prone",
+    "explanation": "The method is performed prone.",
+    "source": "Positioning practice · Camp-Coventry method"
+  },
+  {
+    "id": "kneehip-076",
+    "part": "knee",
+    "projectionId": "knee-camp-coventry",
+    "projection": "Camp-Coventry method · intercondylar fossa",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "What knee flexion angles are used?",
+    "options": [
+      "40° or 50°",
+      "20° or 30°",
+      "60° or 70°",
+      "80° or 90°"
+    ],
+    "answer": "40° or 50°",
+    "explanation": "The guide gives 40° or 50° flexion.",
+    "source": "Positioning practice · Camp-Coventry method"
+  },
+  {
+    "id": "kneehip-077",
+    "part": "knee",
+    "projectionId": "knee-camp-coventry",
+    "projection": "Camp-Coventry method · intercondylar fossa",
+    "topic": "central-ray",
+    "type": "mcq",
+    "prompt": "What CR angle accompanies 40° knee flexion?",
+    "options": [
+      "40° caudad",
+      "40° cephalad",
+      "50° caudad",
+      "Perpendicular"
+    ],
+    "answer": "40° caudad",
+    "explanation": "The CR angle matches the 40° flexion.",
+    "source": "Positioning practice · Camp-Coventry method"
+  },
+  {
+    "id": "kneehip-078",
+    "part": "knee",
+    "projectionId": "knee-camp-coventry",
+    "projection": "Camp-Coventry method · intercondylar fossa",
+    "topic": "central-ray",
+    "type": "mcq",
+    "prompt": "What CR angle accompanies 50° knee flexion?",
+    "options": [
+      "50° caudad",
+      "50° cephalad",
+      "40° caudad",
+      "Perpendicular"
+    ],
+    "answer": "50° caudad",
+    "explanation": "The CR angle matches the 50° flexion.",
+    "source": "Positioning practice · Camp-Coventry method"
+  },
+  {
+    "id": "kneehip-079",
+    "part": "knee",
+    "projectionId": "knee-camp-coventry",
+    "projection": "Camp-Coventry method · intercondylar fossa",
+    "topic": "central-ray",
+    "type": "mcq",
+    "prompt": "How is the CR aligned relative to the lower leg?",
+    "options": [
+      "Perpendicular to the lower leg",
+      "Parallel to the lower leg",
+      "Perpendicular to the femur",
+      "Horizontal regardless of leg angle"
+    ],
+    "answer": "Perpendicular to the lower leg",
+    "explanation": "The CR is perpendicular to the lower leg.",
+    "source": "Positioning practice · Camp-Coventry method"
+  },
+  {
+    "id": "kneehip-080",
+    "part": "knee",
+    "projectionId": "knee-camp-coventry",
+    "projection": "Camp-Coventry method · intercondylar fossa",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "What should be open for the Camp-Coventry method · intercondylar fossa?",
+    "options": [
+      "Intercondylar fossa and knee joint",
+      "Only patellofemoral joint",
+      "Only proximal tibiofibular joint",
+      "Hip joint"
+    ],
+    "answer": "Intercondylar fossa and knee joint",
+    "explanation": "Both should be open.",
+    "source": "Positioning practice · Camp-Coventry method"
+  },
+  {
+    "id": "kneehip-081",
+    "part": "knee",
+    "projectionId": "knee-camp-coventry",
+    "projection": "Camp-Coventry method · intercondylar fossa",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "Where should the patellar apex project for the Camp-Coventry method · intercondylar fossa?",
+    "options": [
+      "Clear of the fossa",
+      "Inside the fossa",
+      "Over the tibial plateau",
+      "Over the fibular head"
+    ],
+    "answer": "Clear of the fossa",
+    "explanation": "The apex should be clear of the fossa.",
+    "source": "Positioning practice · Camp-Coventry method"
+  },
+  {
+    "id": "kneehip-082",
+    "part": "knee",
+    "projectionId": "knee-camp-coventry",
+    "projection": "Camp-Coventry method · intercondylar fossa",
+    "topic": "anatomy",
+    "type": "mcq",
+    "prompt": "Which named projection or method does this positioning demonstrate?",
+    "options": [
+      "Camp-Coventry method",
+      "Holmblad method",
+      "Beclere method",
+      "Rosenberg method"
+    ],
+    "answer": "Camp-Coventry method",
+    "explanation": "The prone flexed-knee setup is Camp-Coventry.",
+    "source": "Positioning practice · Image question",
+    "image": {
+      "src": "images/PA axial (tunnel) intercondylar fossa Camp-Coventry method..png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Positioning image"
+    }
+  },
+  {
+    "id": "kneehip-083",
+    "part": "knee",
+    "projectionId": "knee-camp-coventry",
+    "projection": "Camp-Coventry method · intercondylar fossa",
+    "topic": "central-ray",
+    "type": "mcq",
+    "prompt": "Based on the degree of knee flexion shown, which CR angle is correct?",
+    "options": [
+      "50° caudad",
+      "40° caudad",
+      "50° cephalad",
+      "Perpendicular"
+    ],
+    "answer": "50° caudad",
+    "explanation": "The guide pairs 50° flexion with 50° caudad.",
+    "source": "Positioning practice · Image question",
+    "image": {
+      "src": "images/Flexion of the knee at 50 degrees Camp-Coventry method..png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Positioning image"
+    }
+  },
+  {
+    "id": "kneehip-084",
+    "part": "knee",
+    "projectionId": "knee-beclere",
+    "projection": "Beclere method · intercondylar fossa",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "What patient position is used for the Beclere method · intercondylar fossa?",
+    "options": [
+      "Supine",
+      "Prone",
+      "Standing",
+      "Seated"
+    ],
+    "answer": "Supine",
+    "explanation": "The Beclere method is performed supine.",
+    "source": "Positioning practice · Beclere method"
+  },
+  {
+    "id": "kneehip-085",
+    "part": "knee",
+    "projectionId": "knee-beclere",
+    "projection": "Beclere method · intercondylar fossa",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "What angle should be formed between the femur and tibia?",
+    "options": [
+      "60°",
+      "40°",
+      "50°",
+      "90°"
+    ],
+    "answer": "60°",
+    "explanation": "The guide specifies a 60° angle.",
+    "source": "Positioning practice · Beclere method"
+  },
+  {
+    "id": "kneehip-086",
+    "part": "knee",
+    "projectionId": "knee-beclere",
+    "projection": "Beclere method · intercondylar fossa",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "How should the femoral condyles relate to the IR?",
+    "options": [
+      "Equidistant from the IR",
+      "Superimposed",
+      "One elevated",
+      "45° to the IR"
+    ],
+    "answer": "Equidistant from the IR",
+    "explanation": "The condyles should be equidistant.",
+    "source": "Positioning practice · Beclere method"
+  },
+  {
+    "id": "kneehip-087",
+    "part": "knee",
+    "projectionId": "knee-beclere",
+    "projection": "Beclere method · intercondylar fossa",
+    "topic": "central-ray",
+    "type": "mcq",
+    "prompt": "How is the CR directed for the Beclere method · intercondylar fossa?",
+    "options": [
+      "Perpendicular to the lower leg",
+      "40° caudad",
+      "50° caudad",
+      "Perpendicular to the femur"
+    ],
+    "answer": "Perpendicular to the lower leg",
+    "explanation": "The CR is perpendicular to the lower leg.",
+    "source": "Positioning practice · Beclere method"
+  },
+  {
+    "id": "kneehip-088",
+    "part": "knee",
+    "projectionId": "knee-beclere",
+    "projection": "Beclere method · intercondylar fossa",
+    "topic": "central-ray",
+    "type": "mcq",
+    "prompt": "Where is the CR centered for the Beclere method · intercondylar fossa?",
+    "options": [
+      "1/2 inch below the patellar apex",
+      "Midpopliteal area",
+      "1 inch distal to the medial epicondyle",
+      "Patellofemoral joint"
+    ],
+    "answer": "1/2 inch below the patellar apex",
+    "explanation": "This is the listed CR point.",
+    "source": "Positioning practice · Beclere method"
+  },
+  {
+    "id": "kneehip-089",
+    "part": "knee",
+    "projectionId": "knee-beclere",
+    "projection": "Beclere method · intercondylar fossa",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "What should be open for the Beclere method · intercondylar fossa?",
+    "options": [
+      "Intercondylar fossa",
+      "Patellofemoral joint only",
+      "Proximal tibiofibular joint",
+      "Hip joint"
+    ],
+    "answer": "Intercondylar fossa",
+    "explanation": "The fossa should be open.",
+    "source": "Positioning practice · Beclere method"
+  },
+  {
+    "id": "kneehip-090",
+    "part": "knee",
+    "projectionId": "knee-beclere",
+    "projection": "Beclere method · intercondylar fossa",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "Which structures should be visible with the open fossa?",
+    "options": [
+      "Intercondylar eminence and knee joint",
+      "Only patella",
+      "Only fibular head",
+      "Only femoral condyles"
+    ],
+    "answer": "Intercondylar eminence and knee joint",
+    "explanation": "Both are listed.",
+    "source": "Positioning practice · Beclere method"
+  },
+  {
+    "id": "kneehip-091",
+    "part": "knee",
+    "projectionId": "knee-beclere",
+    "projection": "Beclere method · intercondylar fossa",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "What tibiofibular relationship is expected for the Beclere method · intercondylar fossa?",
+    "options": [
+      "Slight overlap",
+      "Complete separation",
+      "Complete superimposition",
+      "Fibula not visible"
+    ],
+    "answer": "Slight overlap",
+    "explanation": "Slight tibiofibular overlap is expected.",
+    "source": "Positioning practice · Beclere method"
+  },
+  {
+    "id": "kneehip-092",
+    "part": "knee",
+    "projectionId": "knee-beclere",
+    "projection": "Beclere method · intercondylar fossa",
+    "topic": "anatomy",
+    "type": "mcq",
+    "prompt": "Which projection or method is demonstrated by the positioning shown?",
+    "options": [
+      "Beclere method",
+      "Camp-Coventry method",
+      "Holmblad method",
+      "Rosenberg method"
+    ],
+    "answer": "Beclere method",
+    "explanation": "The supine AP axial tunnel setup is the Beclere method.",
+    "source": "Positioning practice · Image question",
+    "image": {
+      "src": "images/AP axial intercondylar fossa with transverse IR Beclere method..png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Positioning image"
+    }
+  },
+  {
+    "id": "kneehip-093",
+    "part": "patella",
+    "projectionId": "patella-pa",
+    "projection": "PA patella",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "How is the patient positioned for a PA patella?",
+    "options": [
+      "Prone",
+      "Supine",
+      "Lateral recumbent",
+      "Standing"
+    ],
+    "answer": "Prone",
+    "explanation": "The PA patella is performed prone.",
+    "source": "Positioning practice · PA patella"
+  },
+  {
+    "id": "kneehip-094",
+    "part": "patella",
+    "projectionId": "patella-pa",
+    "projection": "PA patella",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "How much is the heel rotated laterally for a PA patella?",
+    "options": [
+      "5–10°",
+      "15–20°",
+      "30°",
+      "45°"
+    ],
+    "answer": "5–10°",
+    "explanation": "The heel is rotated laterally 5–10°.",
+    "source": "Positioning practice · PA patella"
+  },
+  {
+    "id": "kneehip-095",
+    "part": "patella",
+    "projectionId": "patella-pa",
+    "projection": "PA patella",
+    "topic": "purpose",
+    "type": "mcq",
+    "prompt": "Why is the heel rotated 5–10° laterally?",
+    "options": [
+      "To place the patella parallel with the IR",
+      "To place the patella perpendicular to the IR",
+      "To open the proximal tibiofibular joint",
+      "To superimpose the condyles"
+    ],
+    "answer": "To place the patella parallel with the IR",
+    "explanation": "The heel rotation aligns the patella parallel to the IR.",
+    "source": "Positioning practice · PA patella"
+  },
+  {
+    "id": "kneehip-096",
+    "part": "patella",
+    "projectionId": "patella-pa",
+    "projection": "PA patella",
+    "topic": "central-ray",
+    "type": "mcq",
+    "prompt": "Where is the CR directed for a PA patella?",
+    "options": [
+      "Perpendicular to the midpopliteal area, exiting the patella",
+      "At the patellofemoral joint",
+      "45° cephalad through the patella",
+      "30° caudad from horizontal"
+    ],
+    "answer": "Perpendicular to the midpopliteal area, exiting the patella",
+    "explanation": "This is the listed CR direction.",
+    "source": "Positioning practice · PA patella"
+  },
+  {
+    "id": "kneehip-097",
+    "part": "patella",
+    "projectionId": "patella-pa",
+    "projection": "PA patella",
+    "topic": "purpose",
+    "type": "mcq",
+    "prompt": "What advantage does PA positioning provide compared with AP for the patella?",
+    "options": [
+      "Reduced OID",
+      "Increased magnification",
+      "More femoral superimposition",
+      "Greater joint narrowing"
+    ],
+    "answer": "Reduced OID",
+    "explanation": "The guide notes reduced OID.",
+    "source": "Positioning practice · PA patella"
+  },
+  {
+    "id": "kneehip-098",
+    "part": "patella",
+    "projectionId": "patella-pa",
+    "projection": "PA patella",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "How should the patella appear on a PA image?",
+    "options": [
+      "Completely superimposed on the femur",
+      "In lateral profile",
+      "Free of the femur",
+      "Centered in the intercondylar fossa"
+    ],
+    "answer": "Completely superimposed on the femur",
+    "explanation": "The patella should be completely superimposed on the femur.",
+    "source": "Positioning practice · PA patella"
+  },
+  {
+    "id": "kneehip-099",
+    "part": "patella",
+    "projectionId": "patella-pa",
+    "projection": "PA patella",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "What should be true of rotation on a PA patella?",
+    "options": [
+      "No rotation",
+      "45° medial rotation",
+      "45° lateral rotation",
+      "Slight internal rotation required"
+    ],
+    "answer": "No rotation",
+    "explanation": "The guide requires no rotation.",
+    "source": "Positioning practice · PA patella"
+  },
+  {
+    "id": "kneehip-100",
+    "part": "patella",
+    "projectionId": "patella-pa",
+    "projection": "PA patella",
+    "topic": "anatomy",
+    "type": "mcq",
+    "prompt": "Identify the projection or method represented by this setup.",
+    "options": [
+      "PA patella",
+      "Lateral patella",
+      "Hughston method",
+      "Settegast method"
+    ],
+    "answer": "PA patella",
+    "explanation": "The image demonstrates the PA patella position.",
+    "source": "Positioning practice · Image question",
+    "image": {
+      "src": "images/PA patella..png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Positioning image"
+    }
+  },
+  {
+    "id": "kneehip-101",
+    "part": "patella",
+    "projectionId": "patella-lat",
+    "projection": "Lateral patella",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "How much should the knee be flexed for a lateral patella?",
+    "options": [
+      "5–10°",
+      "20–30°",
+      "40°",
+      "50–60°"
+    ],
+    "answer": "5–10°",
+    "explanation": "The lateral patella uses only 5–10° flexion.",
+    "source": "Positioning practice · Lateral patella"
+  },
+  {
+    "id": "kneehip-102",
+    "part": "patella",
+    "projectionId": "patella-lat",
+    "projection": "Lateral patella",
+    "topic": "purpose",
+    "type": "mcq",
+    "prompt": "Why should knee flexion be limited to 5–10°?",
+    "options": [
+      "More flexion narrows the patellofemoral joint space",
+      "More flexion opens the proximal tibiofibular joint",
+      "More flexion reduces OID",
+      "More flexion rotates the patella PA"
+    ],
+    "answer": "More flexion narrows the patellofemoral joint space",
+    "explanation": "The guide warns that greater flexion narrows the joint space.",
+    "source": "Positioning practice · Lateral patella"
+  },
+  {
+    "id": "kneehip-103",
+    "part": "patella",
+    "projectionId": "patella-lat",
+    "projection": "Lateral patella",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "How should the epicondyles be positioned?",
+    "options": [
+      "Superimposed",
+      "Parallel with the IR",
+      "45° to the IR",
+      "Separated"
+    ],
+    "answer": "Superimposed",
+    "explanation": "Superimposed epicondyles establish the lateral position.",
+    "source": "Positioning practice · Lateral patella"
+  },
+  {
+    "id": "kneehip-104",
+    "part": "patella",
+    "projectionId": "patella-lat",
+    "projection": "Lateral patella",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "How should the patella relate to the IR?",
+    "options": [
+      "Perpendicular",
+      "Parallel",
+      "45°",
+      "No specific relationship"
+    ],
+    "answer": "Perpendicular",
+    "explanation": "The patella should be perpendicular to the IR.",
+    "source": "Positioning practice · Lateral patella"
+  },
+  {
+    "id": "kneehip-105",
+    "part": "patella",
+    "projectionId": "patella-lat",
+    "projection": "Lateral patella",
+    "topic": "central-ray",
+    "type": "mcq",
+    "prompt": "Where is the CR centered for the Lateral patella?",
+    "options": [
+      "Midpatellofemoral joint",
+      "Midpopliteal area",
+      "Patellar apex",
+      "Tibial tuberosity"
+    ],
+    "answer": "Midpatellofemoral joint",
+    "explanation": "The CR is perpendicular to the midpatellofemoral joint.",
+    "source": "Positioning practice · Lateral patella"
+  },
+  {
+    "id": "kneehip-106",
+    "part": "patella",
+    "projectionId": "patella-lat",
+    "projection": "Lateral patella",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "How should the patella appear for the Lateral patella?",
+    "options": [
+      "In profile",
+      "Superimposed on the femur",
+      "Centered in the intercondylar fossa",
+      "Obliqued 45°"
+    ],
+    "answer": "In profile",
+    "explanation": "The patella should be in profile.",
+    "source": "Positioning practice · Lateral patella"
+  },
+  {
+    "id": "kneehip-107",
+    "part": "patella",
+    "projectionId": "patella-lat",
+    "projection": "Lateral patella",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "What should be true of the patellofemoral joint for the Lateral patella?",
+    "options": [
+      "Open",
+      "Closed",
+      "Only partially seen",
+      "Superimposed by the fibula"
+    ],
+    "answer": "Open",
+    "explanation": "The patellofemoral joint should be open.",
+    "source": "Positioning practice · Lateral patella"
+  },
+  {
+    "id": "kneehip-108",
+    "part": "patella",
+    "projectionId": "patella-lat",
+    "projection": "Lateral patella",
+    "topic": "anatomy",
+    "type": "mcq",
+    "prompt": "Which named projection or method does this positioning demonstrate?",
+    "options": [
+      "Lateral patella",
+      "PA patella",
+      "Hughston method",
+      "Merchant method"
+    ],
+    "answer": "Lateral patella",
+    "explanation": "The image demonstrates a mediolateral patella.",
+    "source": "Positioning practice · Image question",
+    "image": {
+      "src": "images/Lateral patella, mediolateral..png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Positioning image"
+    }
+  },
+  {
+    "id": "kneehip-109",
+    "part": "patella",
+    "projectionId": "patella-lat",
+    "projection": "Lateral patella",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "When evaluating this image, which finding is correct?",
+    "options": [
+      "Open patellofemoral joint",
+      "Patella completely superimposed on femur",
+      "Bilateral patellae",
+      "Intercondylar fossa in tunnel view"
+    ],
+    "answer": "Open patellofemoral joint",
+    "explanation": "An open patellofemoral joint is required.",
+    "source": "Positioning practice · Image question",
+    "image": {
+      "src": "images/Lateral patella, mediolateral.xray.png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Radiograph"
+    }
+  },
+  {
+    "id": "kneehip-110",
+    "part": "patella",
+    "projectionId": "patella-hughston",
+    "projection": "Hughston method · patella & patellofemoral joint",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "What patient position is used for the Hughston method?",
+    "options": [
+      "Prone",
+      "Supine",
+      "Seated",
+      "Standing"
+    ],
+    "answer": "Prone",
+    "explanation": "The Hughston method is performed prone.",
+    "source": "Positioning practice · Hughston method"
+  },
+  {
+    "id": "kneehip-111",
+    "part": "patella",
+    "projectionId": "patella-hughston",
+    "projection": "Hughston method · patella & patellofemoral joint",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "How much is the knee flexed for the Hughston method · patella & patellofemoral joint?",
+    "options": [
+      "50–60°",
+      "5–10°",
+      "40°",
+      "70°"
+    ],
+    "answer": "50–60°",
+    "explanation": "The guide uses 50–60° flexion.",
+    "source": "Positioning practice · Hughston method"
+  },
+  {
+    "id": "kneehip-112",
+    "part": "patella",
+    "projectionId": "patella-hughston",
+    "projection": "Hughston method · patella & patellofemoral joint",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "What should be avoided during positioning?",
+    "options": [
+      "Medial or lateral rotation",
+      "Knee flexion",
+      "Foot support",
+      "Prone positioning"
+    ],
+    "answer": "Medial or lateral rotation",
+    "explanation": "The guide specifies no medial or lateral rotation.",
+    "source": "Positioning practice · Hughston method"
+  },
+  {
+    "id": "kneehip-113",
+    "part": "patella",
+    "projectionId": "patella-hughston",
+    "projection": "Hughston method · patella & patellofemoral joint",
+    "topic": "central-ray",
+    "type": "mcq",
+    "prompt": "What CR angle is used for the Hughston method · patella & patellofemoral joint?",
+    "options": [
+      "45° cephalad",
+      "30° caudad",
+      "15–20° cephalad",
+      "Perpendicular"
+    ],
+    "answer": "45° cephalad",
+    "explanation": "The CR is 45° cephalad through the patellofemoral joint.",
+    "source": "Positioning practice · Hughston method"
+  },
+  {
+    "id": "kneehip-114",
+    "part": "patella",
+    "projectionId": "patella-hughston",
+    "projection": "Hughston method · patella & patellofemoral joint",
+    "topic": "purpose",
+    "type": "mcq",
+    "prompt": "What pathology can the Hughston method help demonstrate?",
+    "options": [
+      "Patellar subluxation and fractures",
+      "Femoral neck fracture only",
+      "AC separation",
+      "Intercondylar fossa defects only"
+    ],
+    "answer": "Patellar subluxation and fractures",
+    "explanation": "These are listed in the guide.",
+    "source": "Positioning practice · Hughston method"
+  },
+  {
+    "id": "kneehip-115",
+    "part": "patella",
+    "projectionId": "patella-hughston",
+    "projection": "Hughston method · patella & patellofemoral joint",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "Which joint should be open for the Hughston method · patella & patellofemoral joint?",
+    "options": [
+      "Patellofemoral joint",
+      "Femorotibial joint only",
+      "Proximal tibiofibular joint",
+      "Hip joint"
+    ],
+    "answer": "Patellofemoral joint",
+    "explanation": "The patellofemoral joint should be open.",
+    "source": "Positioning practice · Hughston method"
+  },
+  {
+    "id": "kneehip-116",
+    "part": "patella",
+    "projectionId": "patella-hughston",
+    "projection": "Hughston method · patella & patellofemoral joint",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "Which femoral structures should be shown?",
+    "options": [
+      "Femoral condyles and intercondylar sulcus",
+      "Only medial condyle",
+      "Only lateral condyle",
+      "Femoral neck and head"
+    ],
+    "answer": "Femoral condyles and intercondylar sulcus",
+    "explanation": "These are listed evaluation criteria.",
+    "source": "Positioning practice · Hughston method"
+  },
+  {
+    "id": "kneehip-117",
+    "part": "patella",
+    "projectionId": "patella-hughston",
+    "projection": "Hughston method · patella & patellofemoral joint",
+    "topic": "anatomy",
+    "type": "mcq",
+    "prompt": "Which projection or method is demonstrated by the positioning shown?",
+    "options": [
+      "Hughston method",
+      "Merchant method",
+      "Settegast method",
+      "PA patella"
+    ],
+    "answer": "Hughston method",
+    "explanation": "The image demonstrates the prone tangential patella position.",
+    "source": "Positioning practice · Image question",
+    "image": {
+      "src": "images/prone Tangential patella and patellofemoral joint Hughston method..png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Positioning image"
+    }
+  },
+  {
+    "id": "kneehip-118",
+    "part": "patella",
+    "projectionId": "patella-merchant",
+    "projection": "Merchant method · patella & patellofemoral joint",
+    "topic": "ir-collimation",
+    "type": "mcq",
+    "prompt": "What SID is used for the Merchant method?",
+    "options": [
+      "72 inches",
+      "40 inches",
+      "48 inches",
+      "18 inches"
+    ],
+    "answer": "72 inches",
+    "explanation": "The Merchant method uses a 72-inch SID.",
+    "source": "Positioning practice · Merchant method"
+  },
+  {
+    "id": "kneehip-119",
+    "part": "patella",
+    "projectionId": "patella-merchant",
+    "projection": "Merchant method · patella & patellofemoral joint",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "How much are the knees flexed?",
+    "options": [
+      "40°",
+      "50–60°",
+      "5–10°",
+      "70°"
+    ],
+    "answer": "40°",
+    "explanation": "The knees are flexed 40°.",
+    "source": "Positioning practice · Merchant method"
+  },
+  {
+    "id": "kneehip-120",
+    "part": "patella",
+    "projectionId": "patella-merchant",
+    "projection": "Merchant method · patella & patellofemoral joint",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "Approximately how far are the knees elevated?",
+    "options": [
+      "2 inches",
+      "6 inches",
+      "1 foot",
+      "They are not elevated"
+    ],
+    "answer": "2 inches",
+    "explanation": "The knees are elevated about 2 inches.",
+    "source": "Positioning practice · Merchant method"
+  },
+  {
+    "id": "kneehip-121",
+    "part": "patella",
+    "projectionId": "patella-merchant",
+    "projection": "Merchant method · patella & patellofemoral joint",
+    "topic": "purpose",
+    "type": "mcq",
+    "prompt": "Why are the knees elevated approximately 2 inches?",
+    "options": [
+      "To place the femora parallel with the table",
+      "To increase OID",
+      "To straighten the knees",
+      "To superimpose the patellae"
+    ],
+    "answer": "To place the femora parallel with the table",
+    "explanation": "The guide states this purpose.",
+    "source": "Positioning practice · Merchant method"
+  },
+  {
+    "id": "kneehip-122",
+    "part": "patella",
+    "projectionId": "patella-merchant",
+    "projection": "Merchant method · patella & patellofemoral joint",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "How are the calves stabilized?",
+    "options": [
+      "Strapped together",
+      "Separated widely",
+      "Placed on separate stools",
+      "Not supported"
+    ],
+    "answer": "Strapped together",
+    "explanation": "The calves are strapped together.",
+    "source": "Positioning practice · Merchant method"
+  },
+  {
+    "id": "kneehip-123",
+    "part": "patella",
+    "projectionId": "patella-merchant",
+    "projection": "Merchant method · patella & patellofemoral joint",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "Where is the IR placed?",
+    "options": [
+      "Perpendicular to the CR about 1 foot distal to the patellae",
+      "Under the knees on the table",
+      "Behind the popliteal spaces",
+      "At the ankles"
+    ],
+    "answer": "Perpendicular to the CR about 1 foot distal to the patellae",
+    "explanation": "This is the listed IR placement.",
+    "source": "Positioning practice · Merchant method"
+  },
+  {
+    "id": "kneehip-124",
+    "part": "patella",
+    "projectionId": "patella-merchant",
+    "projection": "Merchant method · patella & patellofemoral joint",
+    "topic": "central-ray",
+    "type": "mcq",
+    "prompt": "What CR angle is used for the Merchant method · patella & patellofemoral joint?",
+    "options": [
+      "30° caudad from horizontal",
+      "45° cephalad",
+      "15–20° cephalad",
+      "Perpendicular"
+    ],
+    "answer": "30° caudad from horizontal",
+    "explanation": "The CR is 30° caudad from horizontal.",
+    "source": "Positioning practice · Merchant method"
+  },
+  {
+    "id": "kneehip-125",
+    "part": "patella",
+    "projectionId": "patella-merchant",
+    "projection": "Merchant method · patella & patellofemoral joint",
+    "topic": "central-ray",
+    "type": "mcq",
+    "prompt": "Where is the CR centered for the Merchant method · patella & patellofemoral joint?",
+    "options": [
+      "Midway between the patellae at patellofemoral joint level",
+      "At one patellar apex",
+      "At the midpopliteal spaces",
+      "At the tibial tuberosities"
+    ],
+    "answer": "Midway between the patellae at patellofemoral joint level",
+    "explanation": "This is the bilateral centering point.",
+    "source": "Positioning practice · Merchant method"
+  },
+  {
+    "id": "kneehip-126",
+    "part": "patella",
+    "projectionId": "patella-merchant",
+    "projection": "Merchant method · patella & patellofemoral joint",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "How should the patellae appear?",
+    "options": [
+      "In profile",
+      "Completely superimposed on the femora",
+      "Obliqued 45°",
+      "Not visible"
+    ],
+    "answer": "In profile",
+    "explanation": "The patellae should be in profile.",
+    "source": "Positioning practice · Merchant method"
+  },
+  {
+    "id": "kneehip-127",
+    "part": "patella",
+    "projectionId": "patella-merchant",
+    "projection": "Merchant method · patella & patellofemoral joint",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "What should be open for the Merchant method · patella & patellofemoral joint?",
+    "options": [
+      "Patellofemoral joints",
+      "Femorotibial joints only",
+      "Proximal tibiofibular joints",
+      "Hip joints"
+    ],
+    "answer": "Patellofemoral joints",
+    "explanation": "The patellofemoral joints should be open.",
+    "source": "Positioning practice · Merchant method"
+  },
+  {
+    "id": "kneehip-128",
+    "part": "patella",
+    "projectionId": "patella-merchant",
+    "projection": "Merchant method · patella & patellofemoral joint",
+    "topic": "purpose",
+    "type": "mcq",
+    "prompt": "Why should the quadriceps be relaxed?",
+    "options": [
+      "Tense quadriceps may pull a subluxated patella into normal alignment",
+      "Tense quadriceps close the intercondylar fossa",
+      "Relaxation reduces OID",
+      "Relaxation opens the femorotibial joint"
+    ],
+    "answer": "Tense quadriceps may pull a subluxated patella into normal alignment",
+    "explanation": "The guide explicitly warns about this.",
+    "source": "Positioning practice · Merchant method"
+  },
+  {
+    "id": "kneehip-129",
+    "part": "patella",
+    "projectionId": "patella-settegast",
+    "projection": "Settegast method · patella & patellofemoral joint",
+    "topic": "purpose",
+    "type": "mcq",
+    "prompt": "What can the Settegast method demonstrate?",
+    "options": [
+      "Patellofemoral surfaces and vertical patellar fractures",
+      "Femoral neck fractures",
+      "Intercondylar fossa only",
+      "AC separation"
+    ],
+    "answer": "Patellofemoral surfaces and vertical patellar fractures",
+    "explanation": "These are the listed structures and pathology.",
+    "source": "Positioning practice · Settegast method"
+  },
+  {
+    "id": "kneehip-130",
+    "part": "patella",
+    "projectionId": "patella-settegast",
+    "projection": "Settegast method · patella & patellofemoral joint",
+    "topic": "central-ray",
+    "type": "mcq",
+    "prompt": "Where is the CR directed?",
+    "options": [
+      "Through the patellofemoral joint",
+      "At the midpopliteal area",
+      "At the tibial tuberosity",
+      "At the femoral neck"
+    ],
+    "answer": "Through the patellofemoral joint",
+    "explanation": "The CR passes through the patellofemoral joint.",
+    "source": "Positioning practice · Settegast method"
+  },
+  {
+    "id": "kneehip-131",
+    "part": "patella",
+    "projectionId": "patella-settegast",
+    "projection": "Settegast method · patella & patellofemoral joint",
+    "topic": "central-ray",
+    "type": "mcq",
+    "prompt": "What CR angle is typically used according to the guide?",
+    "options": [
+      "15–20° depending on flexion",
+      "45° cephalad in all patients",
+      "30° caudad from horizontal",
+      "Perpendicular in all patients"
+    ],
+    "answer": "15–20° depending on flexion",
+    "explanation": "The angle depends on flexion and is typically 15–20°.",
+    "source": "Positioning practice · Settegast method"
+  },
+  {
+    "id": "kneehip-132",
+    "part": "patella",
+    "projectionId": "patella-settegast",
+    "projection": "Settegast method · patella & patellofemoral joint",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "How should the patella appear for the Settegast method · patella & patellofemoral joint?",
+    "options": [
+      "In profile",
+      "Completely superimposed on the femur",
+      "Centered in the fossa",
+      "Obliqued 45°"
+    ],
+    "answer": "In profile",
+    "explanation": "The patella should be in profile.",
+    "source": "Positioning practice · Settegast method"
+  },
+  {
+    "id": "kneehip-133",
+    "part": "patella",
+    "projectionId": "patella-settegast",
+    "projection": "Settegast method · patella & patellofemoral joint",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "Which femoral anatomy should be visible?",
+    "options": [
+      "Femoral condyles and intercondylar sulcus",
+      "Femoral neck and trochanters",
+      "Only medial condyle",
+      "Only lateral condyle"
+    ],
+    "answer": "Femoral condyles and intercondylar sulcus",
+    "explanation": "These are listed evaluation criteria.",
+    "source": "Positioning practice · Settegast method"
+  },
+  {
+    "id": "kneehip-134",
+    "part": "patella",
+    "projectionId": "patella-settegast",
+    "projection": "Settegast method · patella & patellofemoral joint",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "What should be true of the patellofemoral joint for the Settegast method · patella & patellofemoral joint?",
+    "options": [
+      "Open",
+      "Closed",
+      "Only partially shown",
+      "Superimposed by the tibia"
+    ],
+    "answer": "Open",
+    "explanation": "The joint should be open.",
+    "source": "Positioning practice · Settegast method"
+  },
+  {
+    "id": "kneehip-135",
+    "part": "patella",
+    "projectionId": "patella-settegast",
+    "projection": "Settegast method · patella & patellofemoral joint",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "Which detail is intentionally not tested from this guide because the source says it is missing?",
+    "options": [
+      "A specific initial flexion setup",
+      "CR through the patellofemoral joint",
+      "Typical 15–20° angle",
+      "Patella in profile"
+    ],
+    "answer": "A specific initial flexion setup",
+    "explanation": "The guide explicitly states that the initial positioning and flexion instructions are missing.",
+    "source": "Positioning practice · Settegast method"
+  },
+  {
+    "id": "kneehip-136",
+    "part": "patella",
+    "projectionId": "patella-settegast",
+    "projection": "Settegast method · patella & patellofemoral joint",
+    "topic": "anatomy",
+    "type": "mcq",
+    "prompt": "Identify the projection or method represented by this setup.",
+    "options": [
+      "Settegast method",
+      "Merchant method",
+      "Hughston method",
+      "Lateral patella"
+    ],
+    "answer": "Settegast method",
+    "explanation": "The image demonstrates a seated tangential Settegast setup.",
+    "source": "Positioning practice · Image question",
+    "image": {
+      "src": "images/seated Tangential patella and patellofemoral joint Settegast method..png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Positioning image"
+    }
+  },
+  {
+    "id": "kneehip-137",
+    "part": "patella",
+    "projectionId": "patella-settegast",
+    "projection": "Settegast method · patella & patellofemoral joint",
+    "topic": "anatomy",
+    "type": "mcq",
+    "prompt": "Which named projection or method does this positioning demonstrate?",
+    "options": [
+      "Settegast method",
+      "Hughston method",
+      "PA patella",
+      "Merchant method"
+    ],
+    "answer": "Settegast method",
+    "explanation": "The supplied image is labeled as the Settegast method.",
+    "source": "Positioning practice · Image question",
+    "image": {
+      "src": "images/Tangential patella and patellofemoral joint Settegast method..png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Positioning image"
+    }
+  },
+  {
+    "id": "kneehip-138",
+    "part": "femur",
+    "projectionId": "femur-ap",
+    "projection": "AP femur",
+    "topic": "central-ray",
+    "type": "mcq",
+    "prompt": "Where is the CR centered for an AP femur?",
+    "options": [
+      "Midfemur and center of the IR",
+      "Femoral neck",
+      "Knee joint",
+      "Greater trochanter"
+    ],
+    "answer": "Midfemur and center of the IR",
+    "explanation": "The CR is perpendicular to the midfemur and IR center.",
+    "source": "Positioning practice · AP femur"
+  },
+  {
+    "id": "kneehip-139",
+    "part": "femur",
+    "projectionId": "femur-ap",
+    "projection": "AP femur",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "How should the distal femur be positioned for an AP projection?",
+    "options": [
+      "Epicondyles parallel with the IR",
+      "Epicondyles perpendicular to the IR",
+      "Knee flexed 45°",
+      "Leg internally rotated 20°"
+    ],
+    "answer": "Epicondyles parallel with the IR",
+    "explanation": "The distal femur is AP when the epicondyles are parallel.",
+    "source": "Positioning practice · AP femur"
+  },
+  {
+    "id": "kneehip-140",
+    "part": "femur",
+    "projectionId": "femur-ap",
+    "projection": "AP femur",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "How far below the knee should the lower IR border extend for a distal AP femur?",
+    "options": [
+      "2 inches",
+      "1 inch",
+      "4 inches",
+      "At the joint line"
+    ],
+    "answer": "2 inches",
+    "explanation": "The lower IR border extends 2 inches below the knee.",
+    "source": "Positioning practice · AP femur"
+  },
+  {
+    "id": "kneehip-141",
+    "part": "femur",
+    "projectionId": "femur-ap",
+    "projection": "AP femur",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "How much internal rotation is used for the proximal AP femur?",
+    "options": [
+      "10–15°",
+      "15–20°",
+      "45°",
+      "No rotation"
+    ],
+    "answer": "10–15°",
+    "explanation": "The proximal femur is internally rotated 10–15°.",
+    "source": "Positioning practice · AP femur"
+  },
+  {
+    "id": "kneehip-142",
+    "part": "femur",
+    "projectionId": "femur-ap",
+    "projection": "AP femur",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "Where is the upper IR border placed for the proximal AP femur?",
+    "options": [
+      "At the ASIS",
+      "At the iliac crest",
+      "At the greater trochanter",
+      "At the pubic symphysis"
+    ],
+    "answer": "At the ASIS",
+    "explanation": "The upper IR border is placed at the ASIS.",
+    "source": "Positioning practice · AP femur"
+  },
+  {
+    "id": "kneehip-143",
+    "part": "femur",
+    "projectionId": "femur-ap",
+    "projection": "AP femur",
+    "topic": "anatomy",
+    "type": "mcq",
+    "prompt": "What must an AP femur include?",
+    "options": [
+      "Femur and the adjacent hip or knee joint",
+      "Only the shaft",
+      "Both hip and knee on one exposure in every patient",
+      "Only the injured end"
+    ],
+    "answer": "Femur and the adjacent hip or knee joint",
+    "explanation": "The joint nearest the injury is included, with another image for the opposite end.",
+    "source": "Positioning practice · AP femur"
+  },
+  {
+    "id": "kneehip-144",
+    "part": "femur",
+    "projectionId": "femur-ap",
+    "projection": "AP femur",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "How should the femoral neck appear on a correct proximal AP femur?",
+    "options": [
+      "Not foreshortened",
+      "Markedly foreshortened",
+      "Superimposed by the greater trochanter",
+      "In lateral profile"
+    ],
+    "answer": "Not foreshortened",
+    "explanation": "The neck should not be foreshortened.",
+    "source": "Positioning practice · AP femur"
+  },
+  {
+    "id": "kneehip-145",
+    "part": "femur",
+    "projectionId": "femur-ap",
+    "projection": "AP femur",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "How much of the lesser trochanter should be visible?",
+    "options": [
+      "Minimal amount",
+      "Entire lesser trochanter in full profile",
+      "None at all",
+      "Only lateral portion"
+    ],
+    "answer": "Minimal amount",
+    "explanation": "Minimal visibility indicates proper internal rotation.",
+    "source": "Positioning practice · AP femur"
+  },
+  {
+    "id": "kneehip-146",
+    "part": "femur",
+    "projectionId": "femur-ap",
+    "projection": "AP femur",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "What should be included if the patient has orthopedic hardware?",
+    "options": [
+      "Entire orthopedic appliance",
+      "Only the portion at the injury",
+      "Only the proximal component",
+      "Only the distal component"
+    ],
+    "answer": "Entire orthopedic appliance",
+    "explanation": "The guide requires the entire orthopedic appliance.",
+    "source": "Positioning practice · AP femur"
+  },
+  {
+    "id": "kneehip-147",
+    "part": "femur",
+    "projectionId": "femur-ap",
+    "projection": "AP femur",
+    "topic": "anatomy",
+    "type": "mcq",
+    "prompt": "Based only on the positioning shown, which projection or method is being performed?",
+    "options": [
+      "AP distal femur",
+      "Lateral distal femur",
+      "AP hip",
+      "AP knee"
+    ],
+    "answer": "AP distal femur",
+    "explanation": "The image demonstrates AP positioning of the distal femur.",
+    "source": "Positioning practice · Image question",
+    "image": {
+      "src": "images/AP distal femur..png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Positioning image"
+    }
+  },
+  {
+    "id": "kneehip-148",
+    "part": "femur",
+    "projectionId": "femur-ap",
+    "projection": "AP femur",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "Which evaluation criterion best matches the image shown?",
+    "options": [
+      "No knee rotation",
+      "Greater trochanter superimposed on the neck",
+      "Patella in lateral profile",
+      "Distal radius and ulna superimposed"
+    ],
+    "answer": "No knee rotation",
+    "explanation": "The distal AP femur should show no knee rotation.",
+    "source": "Positioning practice · Image question",
+    "image": {
+      "src": "images/AP right distal femur.xray.png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Radiograph"
+    }
+  },
+  {
+    "id": "kneehip-149",
+    "part": "femur",
+    "projectionId": "femur-ap",
+    "projection": "AP femur",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "Based on the image, which positioning statement is accurate?",
+    "options": [
+      "10–15° internal rotation",
+      "45° external rotation",
+      "Pelvis rolled 10–15° posteriorly",
+      "Knee flexed 45°"
+    ],
+    "answer": "10–15° internal rotation",
+    "explanation": "The proximal AP femur uses 10–15° internal rotation.",
+    "source": "Positioning practice · Image question",
+    "image": {
+      "src": "images/AP right proximal femur..png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Positioning image"
+    }
+  },
+  {
+    "id": "kneehip-150",
+    "part": "femur",
+    "projectionId": "femur-lat",
+    "projection": "Lateral femur",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "How much is the knee flexed for a distal lateral femur?",
+    "options": [
+      "45°",
+      "20–30°",
+      "5–10°",
+      "90°"
+    ],
+    "answer": "45°",
+    "explanation": "The distal lateral femur uses 45° knee flexion.",
+    "source": "Positioning practice · Lateral femur"
+  },
+  {
+    "id": "kneehip-151",
+    "part": "femur",
+    "projectionId": "femur-lat",
+    "projection": "Lateral femur",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "How should the femoral epicondyles be oriented for the distal lateral femur?",
+    "options": [
+      "Perpendicular to the IR",
+      "Parallel with the IR",
+      "45° to the IR",
+      "Not used"
+    ],
+    "answer": "Perpendicular to the IR",
+    "explanation": "This establishes a lateral distal femur.",
+    "source": "Positioning practice · Lateral femur"
+  },
+  {
+    "id": "kneehip-152",
+    "part": "femur",
+    "projectionId": "femur-lat",
+    "projection": "Lateral femur",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "How far beyond the knee should the IR extend?",
+    "options": [
+      "2 inches",
+      "1 inch",
+      "4 inches",
+      "At the joint line"
+    ],
+    "answer": "2 inches",
+    "explanation": "The IR extends 2 inches beyond the knee.",
+    "source": "Positioning practice · Lateral femur"
+  },
+  {
+    "id": "kneehip-153",
+    "part": "femur",
+    "projectionId": "femur-lat",
+    "projection": "Lateral femur",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "How is the pelvis adjusted for a proximal lateral femur?",
+    "options": [
+      "Rolled 10–15° posteriorly from lateral",
+      "Rolled 10–15° anteriorly",
+      "Kept perfectly AP",
+      "Rotated 45° toward the affected side"
+    ],
+    "answer": "Rolled 10–15° posteriorly from lateral",
+    "explanation": "This is the proximal lateral adjustment.",
+    "source": "Positioning practice · Lateral femur"
+  },
+  {
+    "id": "kneehip-154",
+    "part": "femur",
+    "projectionId": "femur-lat",
+    "projection": "Lateral femur",
+    "topic": "central-ray",
+    "type": "mcq",
+    "prompt": "Where is the CR centered for the Lateral femur?",
+    "options": [
+      "Midfemur and center of the IR",
+      "Femoral neck",
+      "Knee joint",
+      "Greater trochanter"
+    ],
+    "answer": "Midfemur and center of the IR",
+    "explanation": "The CR is perpendicular to midfemur and IR center.",
+    "source": "Positioning practice · Lateral femur"
+  },
+  {
+    "id": "kneehip-155",
+    "part": "femur",
+    "projectionId": "femur-lat",
+    "projection": "Lateral femur",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "How should the anterior surfaces of the distal femoral condyles appear?",
+    "options": [
+      "Superimposed",
+      "Widely separated",
+      "45° apart",
+      "Not visible"
+    ],
+    "answer": "Superimposed",
+    "explanation": "The anterior condylar surfaces should be superimposed.",
+    "source": "Positioning practice · Lateral femur"
+  },
+  {
+    "id": "kneehip-156",
+    "part": "femur",
+    "projectionId": "femur-lat",
+    "projection": "Lateral femur",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "How should the patella appear on a distal lateral femur?",
+    "options": [
+      "In profile",
+      "Superimposed on the femur",
+      "Centered in the fossa",
+      "Not included"
+    ],
+    "answer": "In profile",
+    "explanation": "The patella should be in profile.",
+    "source": "Positioning practice · Lateral femur"
+  },
+  {
+    "id": "kneehip-157",
+    "part": "femur",
+    "projectionId": "femur-lat",
+    "projection": "Lateral femur",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "What should be true of the patellofemoral space?",
+    "options": [
+      "Open",
+      "Closed",
+      "Only partly visible",
+      "Superimposed by the fibula"
+    ],
+    "answer": "Open",
+    "explanation": "The patellofemoral space should be open.",
+    "source": "Positioning practice · Lateral femur"
+  },
+  {
+    "id": "kneehip-158",
+    "part": "femur",
+    "projectionId": "femur-lat",
+    "projection": "Lateral femur",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "Why may the inferior condylar surfaces fail to superimpose?",
+    "options": [
+      "Beam divergence",
+      "Rotation always",
+      "Incorrect SID only",
+      "Patient motion only"
+    ],
+    "answer": "Beam divergence",
+    "explanation": "The guide specifically attributes this to beam divergence.",
+    "source": "Positioning practice · Lateral femur"
+  },
+  {
+    "id": "kneehip-159",
+    "part": "femur",
+    "projectionId": "femur-lat",
+    "projection": "Lateral femur",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "Where should the greater trochanter project on a proximal lateral femur?",
+    "options": [
+      "Superimposed on the distal femoral neck",
+      "Completely free of the neck",
+      "Below the lesser trochanter",
+      "Outside the image"
+    ],
+    "answer": "Superimposed on the distal femoral neck",
+    "explanation": "This overlap is expected.",
+    "source": "Positioning practice · Lateral femur"
+  },
+  {
+    "id": "kneehip-160",
+    "part": "femur",
+    "projectionId": "femur-lat",
+    "projection": "Lateral femur",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "What is the trauma alternative to turning onto the affected side?",
+    "options": [
+      "Keep the patient supine with a vertical IR and horizontal CR",
+      "Prone with vertical IR",
+      "Standing lateral only",
+      "Use 45° oblique positioning"
+    ],
+    "answer": "Keep the patient supine with a vertical IR and horizontal CR",
+    "explanation": "The guide gives this trauma alternative.",
+    "source": "Positioning practice · Lateral femur"
+  },
+  {
+    "id": "kneehip-161",
+    "part": "femur",
+    "projectionId": "femur-lat",
+    "projection": "Lateral femur",
+    "topic": "anatomy",
+    "type": "mcq",
+    "prompt": "Which named projection or method does this positioning demonstrate?",
+    "options": [
+      "Lateral distal femur",
+      "AP distal femur",
+      "AP hip",
+      "Lateral knee"
+    ],
+    "answer": "Lateral distal femur",
+    "explanation": "The image demonstrates a distal lateral femur.",
+    "source": "Positioning practice · Image question",
+    "image": {
+      "src": "images/Lateral distal femur, unaffected extremity positioned anterior..png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Positioning image"
+    }
+  },
+  {
+    "id": "kneehip-162",
+    "part": "femur",
+    "projectionId": "femur-lat",
+    "projection": "Lateral femur",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "When evaluating this image, which finding is correct?",
+    "options": [
+      "Patella in profile with open patellofemoral space",
+      "Femoral neck not foreshortened",
+      "Lesser trochanter minimally visible",
+      "Greater trochanter in full profile"
+    ],
+    "answer": "Patella in profile with open patellofemoral space",
+    "explanation": "These are key distal-lateral criteria.",
+    "source": "Positioning practice · Image question",
+    "image": {
+      "src": "images/Lateral distal femur.xray.png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Radiograph"
+    }
+  },
+  {
+    "id": "kneehip-163",
+    "part": "femur",
+    "projectionId": "femur-lat",
+    "projection": "Lateral femur",
+    "topic": "anatomy",
+    "type": "mcq",
+    "prompt": "Which projection or method is demonstrated by the positioning shown?",
+    "options": [
+      "Lateral proximal femur",
+      "AP proximal femur",
+      "Danelius-Miller hip",
+      "Modified Cleaves"
+    ],
+    "answer": "Lateral proximal femur",
+    "explanation": "The image is labeled as a lateral proximal femur.",
+    "source": "Positioning practice · Image question",
+    "image": {
+      "src": "images/Lateral proximal femur..png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Positioning image"
+    }
+  },
+  {
+    "id": "kneehip-164",
+    "part": "femur",
+    "projectionId": "femur-measure-upright",
+    "projection": "Upright leg measurement procedure",
+    "topic": "purpose",
+    "type": "mcq",
+    "prompt": "What anatomy is demonstrated by the upright leg measurement procedure?",
+    "options": [
+      "Entire lower extremities from hip joints through ankle joints",
+      "Only femora",
+      "Only knees",
+      "Only pelvis"
+    ],
+    "answer": "Entire lower extremities from hip joints through ankle joints",
+    "explanation": "The procedure covers both entire lower extremities.",
+    "source": "Positioning practice · Upright leg measurement procedure"
+  },
+  {
+    "id": "kneehip-165",
+    "part": "femur",
+    "projectionId": "femur-measure-upright",
+    "projection": "Upright leg measurement procedure",
+    "topic": "ir-collimation",
+    "type": "mcq",
+    "prompt": "What SID is used?",
+    "options": [
+      "72 inches",
+      "40 inches",
+      "48 inches",
+      "18 inches"
+    ],
+    "answer": "72 inches",
+    "explanation": "The guide lists a 72-inch SID.",
+    "source": "Positioning practice · Upright leg measurement procedure"
+  },
+  {
+    "id": "kneehip-166",
+    "part": "femur",
+    "projectionId": "femur-measure-upright",
+    "projection": "Upright leg measurement procedure",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "How far apart are the ankles for a bilateral long-IR procedure?",
+    "options": [
+      "5–6 inches",
+      "1–2 inches",
+      "10–12 inches",
+      "They must touch"
+    ],
+    "answer": "5–6 inches",
+    "explanation": "The ankles are positioned 5–6 inches apart.",
+    "source": "Positioning practice · Upright leg measurement procedure"
+  },
+  {
+    "id": "kneehip-167",
+    "part": "femur",
+    "projectionId": "femur-measure-upright",
+    "projection": "Upright leg measurement procedure",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "Where is the ruler placed for a bilateral upright procedure?",
+    "options": [
+      "Behind the patient from pelvis down between the legs",
+      "In front of the patient",
+      "Along the lateral thigh only",
+      "Under the feet only"
+    ],
+    "answer": "Behind the patient from pelvis down between the legs",
+    "explanation": "This is the listed ruler placement.",
+    "source": "Positioning practice · Upright leg measurement procedure"
+  },
+  {
+    "id": "kneehip-168",
+    "part": "femur",
+    "projectionId": "femur-measure-upright",
+    "projection": "Upright leg measurement procedure",
+    "topic": "purpose",
+    "type": "mcq",
+    "prompt": "How many exposures are used for a stitched upright procedure?",
+    "options": [
+      "Three",
+      "One",
+      "Two",
+      "Four"
+    ],
+    "answer": "Three",
+    "explanation": "The stitched method uses hip, knee, and ankle exposures.",
+    "source": "Positioning practice · Upright leg measurement procedure"
+  },
+  {
+    "id": "kneehip-169",
+    "part": "femur",
+    "projectionId": "femur-measure-upright",
+    "projection": "Upright leg measurement procedure",
+    "topic": "purpose",
+    "type": "mcq",
+    "prompt": "How many exposures are used with a single long IR?",
+    "options": [
+      "One",
+      "Three",
+      "Two",
+      "Four"
+    ],
+    "answer": "One",
+    "explanation": "The long-IR method uses one exposure.",
+    "source": "Positioning practice · Upright leg measurement procedure"
+  },
+  {
+    "id": "kneehip-170",
+    "part": "femur",
+    "projectionId": "femur-measure-upright",
+    "projection": "Upright leg measurement procedure",
+    "topic": "central-ray",
+    "type": "mcq",
+    "prompt": "How is the CR directed for manual stitched exposures?",
+    "options": [
+      "Perpendicular to the IR at each joint level",
+      "45° cephalad at all levels",
+      "40° caudad at all levels",
+      "Parallel to the leg"
+    ],
+    "answer": "Perpendicular to the IR at each joint level",
+    "explanation": "Manual stitched exposures use a perpendicular CR at each joint.",
+    "source": "Positioning practice · Upright leg measurement procedure"
+  },
+  {
+    "id": "kneehip-171",
+    "part": "femur",
+    "projectionId": "femur-measure-upright",
+    "projection": "Upright leg measurement procedure",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "What must be included on a complete upright leg measurement image?",
+    "options": [
+      "Entire lower extremities and ruler",
+      "Only hips and knees",
+      "Only ankles and knees",
+      "Only ruler and femora"
+    ],
+    "answer": "Entire lower extremities and ruler",
+    "explanation": "The entire lower extremities and ruler are required.",
+    "source": "Positioning practice · Upright leg measurement procedure"
+  },
+  {
+    "id": "kneehip-172",
+    "part": "femur",
+    "projectionId": "femur-measure-supine",
+    "projection": "Supine leg measurement procedure",
+    "topic": "purpose",
+    "type": "mcq",
+    "prompt": "What is the purpose of the supine leg measurement procedure?",
+    "options": [
+      "Evaluate leg length discrepancy",
+      "Evaluate patellar subluxation",
+      "Evaluate hip dislocation only",
+      "Evaluate AC separation"
+    ],
+    "answer": "Evaluate leg length discrepancy",
+    "explanation": "This is the stated purpose.",
+    "source": "Positioning practice · Supine leg measurement procedure"
+  },
+  {
+    "id": "kneehip-173",
+    "part": "femur",
+    "projectionId": "femur-measure-supine",
+    "projection": "Supine leg measurement procedure",
+    "topic": "purpose",
+    "type": "mcq",
+    "prompt": "How many exposures are obtained?",
+    "options": [
+      "Three",
+      "One",
+      "Two",
+      "Four"
+    ],
+    "answer": "Three",
+    "explanation": "Separate hip, knee, and ankle exposures are obtained.",
+    "source": "Positioning practice · Supine leg measurement procedure"
+  },
+  {
+    "id": "kneehip-174",
+    "part": "femur",
+    "projectionId": "femur-measure-supine",
+    "projection": "Supine leg measurement procedure",
+    "topic": "central-ray",
+    "type": "mcq",
+    "prompt": "How is the CR directed for bilateral measurements?",
+    "options": [
+      "Perpendicular to the IR at joint level",
+      "45° cephalad at all levels",
+      "30° caudad",
+      "Parallel to the femur"
+    ],
+    "answer": "Perpendicular to the IR at joint level",
+    "explanation": "The bilateral method uses a perpendicular CR.",
+    "source": "Positioning practice · Supine leg measurement procedure"
+  },
+  {
+    "id": "kneehip-175",
+    "part": "femur",
+    "projectionId": "femur-measure-supine",
+    "projection": "Supine leg measurement procedure",
+    "topic": "central-ray",
+    "type": "mcq",
+    "prompt": "How is the CR directed for unilateral measurements?",
+    "options": [
+      "Perpendicular through each joint space",
+      "Perpendicular only at the hip",
+      "45° through the knee",
+      "Parallel with the limb"
+    ],
+    "answer": "Perpendicular through each joint space",
+    "explanation": "The unilateral method centers through each joint space.",
+    "source": "Positioning practice · Supine leg measurement procedure"
+  },
+  {
+    "id": "kneehip-176",
+    "part": "femur",
+    "projectionId": "femur-measure-supine",
+    "projection": "Supine leg measurement procedure",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "What must appear on each image?",
+    "options": [
+      "Required joint and ruler",
+      "Entire pelvis only",
+      "Only long bone shaft",
+      "Only side marker"
+    ],
+    "answer": "Required joint and ruler",
+    "explanation": "Each image must include the appropriate joint and ruler.",
+    "source": "Positioning practice · Supine leg measurement procedure"
+  },
+  {
+    "id": "kneehip-177",
+    "part": "femur",
+    "projectionId": "femur-measure-supine",
+    "projection": "Supine leg measurement procedure",
+    "topic": "anatomy",
+    "type": "mcq",
+    "prompt": "Where is the knee localized?",
+    "options": [
+      "Just below the patellar apex between the femoral and tibial condyles",
+      "At the tibial tuberosity",
+      "At midpatella",
+      "At the fibular head"
+    ],
+    "answer": "Just below the patellar apex between the femoral and tibial condyles",
+    "explanation": "This is the guide's knee localization point.",
+    "source": "Positioning practice · Supine leg measurement procedure"
+  },
+  {
+    "id": "kneehip-178",
+    "part": "femur",
+    "projectionId": "femur-measure-supine",
+    "projection": "Supine leg measurement procedure",
+    "topic": "anatomy",
+    "type": "mcq",
+    "prompt": "Where is the ankle localized?",
+    "options": [
+      "Directly below the depression midway between the malleoli",
+      "At the medial malleolus",
+      "At the lateral malleolus",
+      "At the talar dome"
+    ],
+    "answer": "Directly below the depression midway between the malleoli",
+    "explanation": "This is the listed ankle localization.",
+    "source": "Positioning practice · Supine leg measurement procedure"
+  },
+  {
+    "id": "kneehip-179",
+    "part": "femur",
+    "projectionId": "femur-measure-techniques",
+    "projection": "Other long bone measurement techniques",
+    "topic": "anatomy",
+    "type": "mcq",
+    "prompt": "Which traditional method uses three exposures with one stationary IR?",
+    "options": [
+      "Orthoroentgenogram",
+      "Scanogram",
+      "Teleoroentgenogram",
+      "CT scanogram"
+    ],
+    "answer": "Orthoroentgenogram",
+    "explanation": "The orthoroentgenogram uses three exposures with one stationary IR.",
+    "source": "Positioning practice · Other long bone measurement techniques"
+  },
+  {
+    "id": "kneehip-180",
+    "part": "femur",
+    "projectionId": "femur-measure-techniques",
+    "projection": "Other long bone measurement techniques",
+    "topic": "anatomy",
+    "type": "mcq",
+    "prompt": "Which traditional method uses three exposures with three separate IRs?",
+    "options": [
+      "Scanogram",
+      "Orthoroentgenogram",
+      "Teleoroentgenogram",
+      "Microdose imaging"
+    ],
+    "answer": "Scanogram",
+    "explanation": "The scanogram uses three exposures and three separate IRs.",
+    "source": "Positioning practice · Other long bone measurement techniques"
+  },
+  {
+    "id": "kneehip-181",
+    "part": "femur",
+    "projectionId": "femur-measure-techniques",
+    "projection": "Other long bone measurement techniques",
+    "topic": "anatomy",
+    "type": "mcq",
+    "prompt": "Which traditional method uses one upright AP exposure on a long IR?",
+    "options": [
+      "Teleoroentgenogram",
+      "Orthoroentgenogram",
+      "Scanogram",
+      "MRI"
+    ],
+    "answer": "Teleoroentgenogram",
+    "explanation": "The teleoroentgenogram uses one upright AP exposure.",
+    "source": "Positioning practice · Other long bone measurement techniques"
+  },
+  {
+    "id": "kneehip-182",
+    "part": "femur",
+    "projectionId": "femur-measure-techniques",
+    "projection": "Other long bone measurement techniques",
+    "topic": "ir-collimation",
+    "type": "mcq",
+    "prompt": "What minimum SID is listed for a teleoroentgenogram?",
+    "options": [
+      "72 inches",
+      "40 inches",
+      "48 inches",
+      "18 inches"
+    ],
+    "answer": "72 inches",
+    "explanation": "The guide states an SID of at least 72 inches.",
+    "source": "Positioning practice · Other long bone measurement techniques"
+  },
+  {
+    "id": "kneehip-183",
+    "part": "femur",
+    "projectionId": "femur-measure-techniques",
+    "projection": "Other long bone measurement techniques",
+    "topic": "purpose",
+    "type": "mcq",
+    "prompt": "Which listed measurement methods do not use ionizing radiation?",
+    "options": [
+      "MRI and US",
+      "CT and MRI",
+      "Radiography and US",
+      "CT and radiography"
+    ],
+    "answer": "MRI and US",
+    "explanation": "MRI and ultrasound are nonionizing alternatives.",
+    "source": "Positioning practice · Other long bone measurement techniques"
+  },
+  {
+    "id": "kneehip-184",
+    "part": "femur",
+    "projectionId": "femur-measure-techniques",
+    "projection": "Other long bone measurement techniques",
+    "topic": "purpose",
+    "type": "mcq",
+    "prompt": "What is essential for accurate CT scanogram measurements?",
+    "options": [
+      "Accurate cursor placement",
+      "A 72-inch SID",
+      "Weight-bearing only",
+      "A single exposure"
+    ],
+    "answer": "Accurate cursor placement",
+    "explanation": "The guide emphasizes accurate cursor placement.",
+    "source": "Positioning practice · Other long bone measurement techniques"
+  },
+  {
+    "id": "kneehip-185",
+    "part": "femur",
+    "projectionId": "femur-measure-techniques",
+    "projection": "Other long bone measurement techniques",
+    "topic": "purpose",
+    "type": "mcq",
+    "prompt": "How are CT scanogram measurements improved?",
+    "options": [
+      "Three cursor placements are averaged",
+      "One cursor placement is used",
+      "Magnification is increased",
+      "Only standing images are used"
+    ],
+    "answer": "Three cursor placements are averaged",
+    "explanation": "The guide recommends averaging three cursor placements.",
+    "source": "Positioning practice · Other long bone measurement techniques"
+  },
+  {
+    "id": "kneehip-186",
+    "part": "pelvis",
+    "projectionId": "pelvis-ap",
+    "projection": "AP pelvis",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "How should the MSP be positioned for an AP pelvis?",
+    "options": [
+      "Centered",
+      "Rotated toward the affected side",
+      "Rotated away from the affected side",
+      "45° to the IR"
+    ],
+    "answer": "Centered",
+    "explanation": "The patient is supine with the MSP centered.",
+    "source": "Positioning practice · AP pelvis"
+  },
+  {
+    "id": "kneehip-187",
+    "part": "pelvis",
+    "projectionId": "pelvis-ap",
+    "projection": "AP pelvis",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "What landmark relationship helps confirm that the pelvis is not rotated?",
+    "options": [
+      "ASISs equidistant from the table",
+      "One ASIS elevated",
+      "Greater trochanters superimposed",
+      "Pubic symphysis off center"
+    ],
+    "answer": "ASISs equidistant from the table",
+    "explanation": "Equal ASIS distance from the table indicates no pelvic rotation.",
+    "source": "Positioning practice · AP pelvis"
+  },
+  {
+    "id": "kneehip-188",
+    "part": "pelvis",
+    "projectionId": "pelvis-ap",
+    "projection": "AP pelvis",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "How much are the legs internally rotated for a routine AP pelvis when not contraindicated?",
+    "options": [
+      "15–20°",
+      "10–15°",
+      "45°",
+      "No rotation"
+    ],
+    "answer": "15–20°",
+    "explanation": "The legs are internally rotated 15–20°.",
+    "source": "Positioning practice · AP pelvis"
+  },
+  {
+    "id": "kneehip-189",
+    "part": "pelvis",
+    "projectionId": "pelvis-ap",
+    "projection": "AP pelvis",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "How far apart are the heels for an AP pelvis?",
+    "options": [
+      "8–10 inches",
+      "2–4 inches",
+      "5–6 inches",
+      "12–14 inches"
+    ],
+    "answer": "8–10 inches",
+    "explanation": "The guide places the heels 8–10 inches apart.",
+    "source": "Positioning practice · AP pelvis"
+  },
+  {
+    "id": "kneehip-190",
+    "part": "pelvis",
+    "projectionId": "pelvis-ap",
+    "projection": "AP pelvis",
+    "topic": "central-ray",
+    "type": "mcq",
+    "prompt": "Where is the CR centered for an AP pelvis?",
+    "options": [
+      "Midpoint between the ASIS and pubic symphysis",
+      "At the pubic symphysis",
+      "At the ASIS",
+      "At the greater trochanters"
+    ],
+    "answer": "Midpoint between the ASIS and pubic symphysis",
+    "explanation": "The CR is perpendicular at this midpoint.",
+    "source": "Positioning practice · AP pelvis"
+  },
+  {
+    "id": "kneehip-191",
+    "part": "pelvis",
+    "projectionId": "pelvis-ap",
+    "projection": "AP pelvis",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "Which paired structures should appear symmetric on a correct AP pelvis?",
+    "options": [
+      "Ilia and obturator foramina",
+      "Femoral necks and lesser trochanters only",
+      "Greater trochanters only",
+      "Acetabular roofs only"
+    ],
+    "answer": "Ilia and obturator foramina",
+    "explanation": "Symmetric ilia and obturator foramina indicate no rotation.",
+    "source": "Positioning practice · AP pelvis"
+  },
+  {
+    "id": "kneehip-192",
+    "part": "pelvis",
+    "projectionId": "pelvis-ap",
+    "projection": "AP pelvis",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "How should the sacrum and coccyx relate to the pubic symphysis?",
+    "options": [
+      "Aligned with it",
+      "Projected to the left",
+      "Projected to the right",
+      "Completely above it"
+    ],
+    "answer": "Aligned with it",
+    "explanation": "Alignment supports a nonrotated pelvis.",
+    "source": "Positioning practice · AP pelvis"
+  },
+  {
+    "id": "kneehip-193",
+    "part": "pelvis",
+    "projectionId": "pelvis-ap",
+    "projection": "AP pelvis",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "How should the femoral necks appear on a correct AP pelvis?",
+    "options": [
+      "Fully shown without foreshortening",
+      "Foreshortened",
+      "Superimposed by the greater trochanters",
+      "In lateral profile"
+    ],
+    "answer": "Fully shown without foreshortening",
+    "explanation": "Internal rotation demonstrates the femoral necks without foreshortening.",
+    "source": "Positioning practice · AP pelvis"
+  },
+  {
+    "id": "kneehip-194",
+    "part": "pelvis",
+    "projectionId": "pelvis-ap",
+    "projection": "AP pelvis",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "How should the greater trochanters appear on an AP pelvis?",
+    "options": [
+      "In profile",
+      "Completely hidden",
+      "Superimposed on the femoral necks",
+      "Projected medially"
+    ],
+    "answer": "In profile",
+    "explanation": "The greater trochanters should be in profile.",
+    "source": "Positioning practice · AP pelvis"
+  },
+  {
+    "id": "kneehip-195",
+    "part": "pelvis",
+    "projectionId": "pelvis-ap",
+    "projection": "AP pelvis",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "How should the lesser trochanters appear on a correctly positioned AP pelvis?",
+    "options": [
+      "Minimally visible",
+      "Fully in profile",
+      "Completely absent in every patient",
+      "Projected laterally"
+    ],
+    "answer": "Minimally visible",
+    "explanation": "Minimal lesser-trochanter visibility indicates proper internal rotation.",
+    "source": "Positioning practice · AP pelvis"
+  },
+  {
+    "id": "kneehip-196",
+    "part": "pelvis",
+    "projectionId": "pelvis-ap",
+    "projection": "AP pelvis",
+    "topic": "anatomy",
+    "type": "mcq",
+    "prompt": "Identify the projection or method represented by this setup.",
+    "options": [
+      "AP pelvis",
+      "Modified Cleaves",
+      "Taylor method",
+      "Bridgman method"
+    ],
+    "answer": "AP pelvis",
+    "explanation": "The image demonstrates a standard AP pelvis.",
+    "source": "Positioning practice · Image question",
+    "image": {
+      "src": "images/AP pelvis..png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Positioning image"
+    }
+  },
+  {
+    "id": "kneehip-197",
+    "part": "pelvis",
+    "projectionId": "pelvis-ap",
+    "projection": "AP pelvis",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "Which statement best describes the correctly positioned example in the image?",
+    "options": [
+      "The image with femoral necks and trochanters correctly positioned",
+      "The image with lateral leg rotation",
+      "The image with greater trochanters overlapping the necks",
+      "The image with asymmetric obturator foramina"
+    ],
+    "answer": "The image with femoral necks and trochanters correctly positioned",
+    "explanation": "Correct internal rotation prevents femoral-neck foreshortening.",
+    "source": "Positioning practice · Image question",
+    "image": {
+      "src": "images/(A) AP pelvis with femoral necks and trochanters in correct position. (B) Feet and lower.png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Positioning image"
+    }
+  },
+  {
+    "id": "kneehip-198",
+    "part": "pelvis",
+    "projectionId": "pelvis-ap",
+    "projection": "AP pelvis",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "Which positioning error is demonstrated in the image?",
+    "options": [
+      "Lateral rotation of the legs",
+      "Excessive internal rotation",
+      "45° posterior obliquity",
+      "Knee flexion"
+    ],
+    "answer": "Lateral rotation of the legs",
+    "explanation": "The file label identifies poor positioning because of lateral rotation.",
+    "source": "Positioning practice · Image question",
+    "image": {
+      "src": "images/(A) AP pelvis with femoral necks and trochanters poorly positioned because of lateral.png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Positioning image"
+    }
+  },
+  {
+    "id": "kneehip-199",
+    "part": "pelvis",
+    "projectionId": "pelvis-ap",
+    "projection": "AP pelvis",
+    "topic": "anatomy",
+    "type": "mcq",
+    "prompt": "What comparison is demonstrated in the image?",
+    "options": [
+      "Male and female AP pelvis images",
+      "Modified Cleaves positions",
+      "Judet obliques",
+      "Taylor and Bridgman methods"
+    ],
+    "answer": "Male and female AP pelvis images",
+    "explanation": "The supplied image is labeled as male and female AP pelvis views.",
+    "source": "Positioning practice · Image question",
+    "image": {
+      "src": "images/(A) Male AP pelvis. (B) Female AP pelvis..png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Positioning image"
+    }
+  },
+  {
+    "id": "kneehip-200",
+    "part": "pelvis",
+    "projectionId": "pelvis-cleaves",
+    "projection": "Modified Cleaves method · bilateral",
+    "topic": "purpose",
+    "type": "mcq",
+    "prompt": "When should the Modified Cleaves method not be used according to the guide?",
+    "options": [
+      "When fracture or pathologic disease is suspected",
+      "When the patient is supine",
+      "When both hips are examined",
+      "When thighs can abduct 45°"
+    ],
+    "answer": "When fracture or pathologic disease is suspected",
+    "explanation": "The guide specifies no suspected fracture or pathologic disease.",
+    "source": "Positioning practice · Modified Cleaves method"
+  },
+  {
+    "id": "kneehip-201",
+    "part": "pelvis",
+    "projectionId": "pelvis-cleaves",
+    "projection": "Modified Cleaves method · bilateral",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "How are the hips and knees positioned for the bilateral Modified Cleaves method?",
+    "options": [
+      "Flexed with soles together",
+      "Fully extended",
+      "One leg elevated vertically",
+      "Knees flexed 90° with feet apart"
+    ],
+    "answer": "Flexed with soles together",
+    "explanation": "The bilateral frog-leg position flexes the hips and knees with soles together.",
+    "source": "Positioning practice · Modified Cleaves method"
+  },
+  {
+    "id": "kneehip-202",
+    "part": "pelvis",
+    "projectionId": "pelvis-cleaves",
+    "projection": "Modified Cleaves method · bilateral",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "Approximately how far are the thighs abducted bilaterally?",
+    "options": [
+      "45°",
+      "15–20°",
+      "10–15°",
+      "70°"
+    ],
+    "answer": "45°",
+    "explanation": "The thighs are abducted equally about 45°.",
+    "source": "Positioning practice · Modified Cleaves method"
+  },
+  {
+    "id": "kneehip-203",
+    "part": "pelvis",
+    "projectionId": "pelvis-cleaves",
+    "projection": "Modified Cleaves method · bilateral",
+    "topic": "central-ray",
+    "type": "mcq",
+    "prompt": "Where is the CR centered for the bilateral Modified Cleaves method?",
+    "options": [
+      "MSP 1 inch above the pubic symphysis",
+      "At the femoral neck",
+      "At the ASIS",
+      "At the greater trochanters"
+    ],
+    "answer": "MSP 1 inch above the pubic symphysis",
+    "explanation": "This is the bilateral CR location.",
+    "source": "Positioning practice · Modified Cleaves method"
+  },
+  {
+    "id": "kneehip-204",
+    "part": "pelvis",
+    "projectionId": "pelvis-cleaves",
+    "projection": "Modified Cleaves method · bilateral",
+    "topic": "anatomy",
+    "type": "mcq",
+    "prompt": "What structures are shown by the Modified Cleaves method?",
+    "options": [
+      "Femoral heads, necks, and trochanteric regions",
+      "Only acetabular rims",
+      "Only pubic rami",
+      "Only knee joints"
+    ],
+    "answer": "Femoral heads, necks, and trochanteric regions",
+    "explanation": "These are the listed structures.",
+    "source": "Positioning practice · Modified Cleaves method"
+  },
+  {
+    "id": "kneehip-205",
+    "part": "pelvis",
+    "projectionId": "pelvis-cleaves",
+    "projection": "Modified Cleaves method · bilateral",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "How should the pelvis and femoral angles appear on a bilateral Modified Cleaves image?",
+    "options": [
+      "Symmetric pelvis with equal femoral angles",
+      "Asymmetric pelvis with unequal femoral angles",
+      "Femoral necks foreshortened",
+      "One thigh higher than the other"
+    ],
+    "answer": "Symmetric pelvis with equal femoral angles",
+    "explanation": "Symmetry is a key bilateral criterion.",
+    "source": "Positioning practice · Modified Cleaves method"
+  },
+  {
+    "id": "kneehip-206",
+    "part": "pelvis",
+    "projectionId": "pelvis-cleaves",
+    "projection": "Modified Cleaves method · bilateral",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "What should be true of the femoral necks?",
+    "options": [
+      "Clear of the greater trochanters",
+      "Completely superimposed by the greater trochanters",
+      "Foreshortened",
+      "Not included"
+    ],
+    "answer": "Clear of the greater trochanters",
+    "explanation": "The femoral necks should be clear of the greater trochanters.",
+    "source": "Positioning practice · Modified Cleaves method"
+  },
+  {
+    "id": "kneehip-207",
+    "part": "pelvis",
+    "projectionId": "pelvis-cleaves",
+    "projection": "Modified Cleaves method · bilateral",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "Where should the lesser trochanters appear?",
+    "options": [
+      "Visible medially",
+      "Completely absent",
+      "Visible laterally",
+      "Superimposed on the femoral heads"
+    ],
+    "answer": "Visible medially",
+    "explanation": "The guide lists medial visibility of the lesser trochanters.",
+    "source": "Positioning practice · Modified Cleaves method"
+  },
+  {
+    "id": "kneehip-208",
+    "part": "pelvis",
+    "projectionId": "pelvis-cleaves",
+    "projection": "Modified Cleaves method · bilateral",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "What is the effect of excessive abduction?",
+    "options": [
+      "Greater trochanter overlaps the femoral neck",
+      "Lesser trochanter disappears",
+      "Femoral neck becomes more parallel to the IR",
+      "Obturator foramina become symmetric"
+    ],
+    "answer": "Greater trochanter overlaps the femoral neck",
+    "explanation": "The guide specifically warns of this overlap.",
+    "source": "Positioning practice · Modified Cleaves method"
+  },
+  {
+    "id": "kneehip-209",
+    "part": "pelvis",
+    "projectionId": "pelvis-cleaves",
+    "projection": "Modified Cleaves method · bilateral",
+    "topic": "anatomy",
+    "type": "mcq",
+    "prompt": "Identify the projection or method represented by this setup.",
+    "options": [
+      "Modified Cleaves method",
+      "Judet method",
+      "Taylor method",
+      "Danelius-Miller"
+    ],
+    "answer": "Modified Cleaves method",
+    "explanation": "The image demonstrates bilateral AP oblique femoral necks.",
+    "source": "Positioning practice · Image question",
+    "image": {
+      "src": "images/AP oblique femoral necks with perpendicular central ray modified Cleaves method..png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Positioning image"
+    }
+  },
+  {
+    "id": "kneehip-210",
+    "part": "hip",
+    "projectionId": "hip-frog",
+    "projection": "Modified Cleaves method · unilateral",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "How is the affected leg positioned for a unilateral Modified Cleaves method?",
+    "options": [
+      "Affected foot against the opposite knee with the thigh abducted 45°",
+      "Affected leg internally rotated 15–20° and extended",
+      "Unaffected thigh elevated vertically",
+      "Affected leg flexed only 5–10°"
+    ],
+    "answer": "Affected foot against the opposite knee with the thigh abducted 45°",
+    "explanation": "This is the unilateral frog-leg position.",
+    "source": "Positioning practice · Modified Cleaves method"
+  },
+  {
+    "id": "kneehip-211",
+    "part": "hip",
+    "projectionId": "hip-frog",
+    "projection": "Modified Cleaves method · unilateral",
+    "topic": "central-ray",
+    "type": "mcq",
+    "prompt": "Where is the CR centered for the unilateral Modified Cleaves method?",
+    "options": [
+      "Femoral neck",
+      "MSP 1 inch above pubic symphysis",
+      "Pubic symphysis",
+      "ASIS"
+    ],
+    "answer": "Femoral neck",
+    "explanation": "The unilateral view centers perpendicularly to the femoral neck.",
+    "source": "Positioning practice · Modified Cleaves method"
+  },
+  {
+    "id": "kneehip-212",
+    "part": "hip",
+    "projectionId": "hip-frog",
+    "projection": "Modified Cleaves method · unilateral",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "What should be true of the femoral neck for the Modified Cleaves method · unilateral?",
+    "options": [
+      "Clear of the greater trochanter",
+      "Completely overlapped by the greater trochanter",
+      "Foreshortened",
+      "Not visible"
+    ],
+    "answer": "Clear of the greater trochanter",
+    "explanation": "The neck should be free of greater-trochanter overlap.",
+    "source": "Positioning practice · Modified Cleaves method"
+  },
+  {
+    "id": "kneehip-213",
+    "part": "hip",
+    "projectionId": "hip-frog",
+    "projection": "Modified Cleaves method · unilateral",
+    "topic": "anatomy",
+    "type": "mcq",
+    "prompt": "Which named projection or method does this positioning demonstrate?",
+    "options": [
+      "Modified Cleaves method",
+      "Lauenstein method",
+      "Danelius-Miller",
+      "Judet method"
+    ],
+    "answer": "Modified Cleaves method",
+    "explanation": "The image demonstrates the unilateral AP oblique Modified Cleaves position.",
+    "source": "Positioning practice · Image question",
+    "image": {
+      "src": "images/Unilateral AP oblique femoral neck modified Cleaves method..png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Positioning image"
+    }
+  },
+  {
+    "id": "kneehip-214",
+    "part": "hip",
+    "projectionId": "hip-ap",
+    "projection": "AP hip",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "How much is the leg internally rotated for a routine AP hip when not contraindicated?",
+    "options": [
+      "15–20°",
+      "10–15°",
+      "45°",
+      "No rotation"
+    ],
+    "answer": "15–20°",
+    "explanation": "The guide specifies 15–20° internal rotation.",
+    "source": "Positioning practice · AP hip"
+  },
+  {
+    "id": "kneehip-215",
+    "part": "hip",
+    "projectionId": "hip-ap",
+    "projection": "AP hip",
+    "topic": "purpose",
+    "type": "mcq",
+    "prompt": "Why is the leg internally rotated for an AP hip?",
+    "options": [
+      "To place the femoral neck parallel with the IR",
+      "To superimpose the greater trochanter on the neck",
+      "To create a frog-leg position",
+      "To open the patellofemoral joint"
+    ],
+    "answer": "To place the femoral neck parallel with the IR",
+    "explanation": "Internal rotation aligns the femoral neck with the IR.",
+    "source": "Positioning practice · AP hip"
+  },
+  {
+    "id": "kneehip-216",
+    "part": "hip",
+    "projectionId": "hip-ap",
+    "projection": "AP hip",
+    "topic": "central-ray",
+    "type": "mcq",
+    "prompt": "Where is the CR centered for an AP hip?",
+    "options": [
+      "Femoral neck",
+      "Greater trochanter",
+      "ASIS",
+      "Pubic symphysis"
+    ],
+    "answer": "Femoral neck",
+    "explanation": "The CR is perpendicular to the femoral neck.",
+    "source": "Positioning practice · AP hip"
+  },
+  {
+    "id": "kneehip-217",
+    "part": "hip",
+    "projectionId": "hip-ap",
+    "projection": "AP hip",
+    "topic": "anatomy",
+    "type": "mcq",
+    "prompt": "What anatomy should be included on an AP hip?",
+    "options": [
+      "Hip joint and proximal one-third of the femur",
+      "Entire pelvis",
+      "Entire femur",
+      "Only acetabulum"
+    ],
+    "answer": "Hip joint and proximal one-third of the femur",
+    "explanation": "These are the listed structures.",
+    "source": "Positioning practice · AP hip"
+  },
+  {
+    "id": "kneehip-218",
+    "part": "hip",
+    "projectionId": "hip-ap",
+    "projection": "AP hip",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "How should the femoral neck appear?",
+    "options": [
+      "Not foreshortened",
+      "Foreshortened",
+      "Overlapped by the greater trochanter",
+      "In lateral profile"
+    ],
+    "answer": "Not foreshortened",
+    "explanation": "The neck should not be foreshortened.",
+    "source": "Positioning practice · AP hip"
+  },
+  {
+    "id": "kneehip-219",
+    "part": "hip",
+    "projectionId": "hip-ap",
+    "projection": "AP hip",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "How should the femoral head appear relative to the acetabulum?",
+    "options": [
+      "Visible through the acetabulum",
+      "Completely outside the acetabulum",
+      "Superimposed by the greater trochanter",
+      "Not visible"
+    ],
+    "answer": "Visible through the acetabulum",
+    "explanation": "The femoral head should be visible through the acetabulum.",
+    "source": "Positioning practice · AP hip"
+  },
+  {
+    "id": "kneehip-220",
+    "part": "hip",
+    "projectionId": "hip-ap",
+    "projection": "AP hip",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "How should the greater trochanter appear?",
+    "options": [
+      "In profile",
+      "Superimposed over the femoral neck",
+      "Not visible",
+      "Projected medially"
+    ],
+    "answer": "In profile",
+    "explanation": "The greater trochanter should be in profile.",
+    "source": "Positioning practice · AP hip"
+  },
+  {
+    "id": "kneehip-221",
+    "part": "hip",
+    "projectionId": "hip-ap",
+    "projection": "AP hip",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "How should the lesser trochanter appear?",
+    "options": [
+      "Minimally visible",
+      "Fully in profile",
+      "Completely absent always",
+      "Projected laterally"
+    ],
+    "answer": "Minimally visible",
+    "explanation": "Minimal lesser-trochanter visibility indicates proper internal rotation.",
+    "source": "Positioning practice · AP hip"
+  },
+  {
+    "id": "kneehip-222",
+    "part": "hip",
+    "projectionId": "hip-ap",
+    "projection": "AP hip",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "What should be included if orthopedic hardware is present?",
+    "options": [
+      "Entire orthopedic appliance",
+      "Only proximal hardware",
+      "Only distal hardware",
+      "Hardware does not need to be included"
+    ],
+    "answer": "Entire orthopedic appliance",
+    "explanation": "The entire appliance should be included.",
+    "source": "Positioning practice · AP hip"
+  },
+  {
+    "id": "kneehip-223",
+    "part": "hip",
+    "projectionId": "hip-ap",
+    "projection": "AP hip",
+    "topic": "anatomy",
+    "type": "mcq",
+    "prompt": "Based only on the positioning shown, which projection or method is being performed?",
+    "options": [
+      "AP hip",
+      "Modified Cleaves",
+      "Lauenstein",
+      "Danelius-Miller"
+    ],
+    "answer": "AP hip",
+    "explanation": "The image demonstrates a routine AP hip.",
+    "source": "Positioning practice · Image question",
+    "image": {
+      "src": "images/AP hip..png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Positioning image"
+    }
+  },
+  {
+    "id": "kneehip-224",
+    "part": "hip",
+    "projectionId": "hip-ap",
+    "projection": "AP hip",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "Which evaluation criterion best matches the image shown?",
+    "options": [
+      "Femoral neck not foreshortened",
+      "Greater trochanter overlapping the neck",
+      "Femoral neck clear only with cephalad angulation",
+      "Unaffected thigh elevated vertically"
+    ],
+    "answer": "Femoral neck not foreshortened",
+    "explanation": "Proper internal rotation prevents neck foreshortening.",
+    "source": "Positioning practice · Image question",
+    "image": {
+      "src": "images/AP hip.xray.png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Radiograph"
+    }
+  },
+  {
+    "id": "kneehip-225",
+    "part": "hip",
+    "projectionId": "hip-lauenstein",
+    "projection": "Lauenstein method · hip",
+    "topic": "purpose",
+    "type": "mcq",
+    "prompt": "When should the Lauenstein method not be attempted according to the guide?",
+    "options": [
+      "When fracture or pathologic condition is suspected",
+      "When the patient can flex the knee",
+      "When the patient is supine",
+      "When the opposite leg can be supported"
+    ],
+    "answer": "When fracture or pathologic condition is suspected",
+    "explanation": "The guide specifies no suspected fracture or pathologic condition.",
+    "source": "Positioning practice · Lauenstein method"
+  },
+  {
+    "id": "kneehip-226",
+    "part": "hip",
+    "projectionId": "hip-lauenstein",
+    "projection": "Lauenstein method · hip",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "How is the body adjusted?",
+    "options": [
+      "Rotate slightly toward the affected side",
+      "Rotate 45° away from the affected side",
+      "Remain fully AP",
+      "Rotate 45° toward the unaffected side"
+    ],
+    "answer": "Rotate slightly toward the affected side",
+    "explanation": "The body is rotated slightly toward the affected side.",
+    "source": "Positioning practice · Lauenstein method"
+  },
+  {
+    "id": "kneehip-227",
+    "part": "hip",
+    "projectionId": "hip-lauenstein",
+    "projection": "Lauenstein method · hip",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "How is the affected thigh positioned?",
+    "options": [
+      "Nearly 90° to the hip bone",
+      "Internally rotated 15–20° and extended",
+      "Elevated vertically",
+      "Abducted exactly 45° with soles together"
+    ],
+    "answer": "Nearly 90° to the hip bone",
+    "explanation": "The knee is flexed and the thigh positioned nearly 90° to the hip bone.",
+    "source": "Positioning practice · Lauenstein method"
+  },
+  {
+    "id": "kneehip-228",
+    "part": "hip",
+    "projectionId": "hip-lauenstein",
+    "projection": "Lauenstein method · hip",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "How should the femoral shaft relate to the table?",
+    "options": [
+      "Parallel",
+      "Perpendicular",
+      "45°",
+      "No specific relationship"
+    ],
+    "answer": "Parallel",
+    "explanation": "The femoral shaft should be parallel with the table.",
+    "source": "Positioning practice · Lauenstein method"
+  },
+  {
+    "id": "kneehip-229",
+    "part": "hip",
+    "projectionId": "hip-lauenstein",
+    "projection": "Lauenstein method · hip",
+    "topic": "central-ray",
+    "type": "mcq",
+    "prompt": "Where is the CR centered for the Lauenstein method · hip?",
+    "options": [
+      "Hip joint midway between ASIS and pubic symphysis",
+      "Femoral neck with 20° cephalad angle",
+      "Pubic symphysis",
+      "Greater trochanter"
+    ],
+    "answer": "Hip joint midway between ASIS and pubic symphysis",
+    "explanation": "The Lauenstein CR is perpendicular to the hip joint.",
+    "source": "Positioning practice · Lauenstein method"
+  },
+  {
+    "id": "kneehip-230",
+    "part": "hip",
+    "projectionId": "hip-lauenstein",
+    "projection": "Lauenstein method · hip",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "What relationship should the greater trochanter have to the femoral neck?",
+    "options": [
+      "Overlap the neck",
+      "Remain completely clear of the neck",
+      "Project below the lesser trochanter",
+      "Not be visible"
+    ],
+    "answer": "Overlap the neck",
+    "explanation": "The guide lists greater-trochanter overlap of the neck.",
+    "source": "Positioning practice · Lauenstein method"
+  },
+  {
+    "id": "kneehip-231",
+    "part": "hip",
+    "projectionId": "hip-lauenstein",
+    "projection": "Lauenstein method · hip",
+    "topic": "anatomy",
+    "type": "mcq",
+    "prompt": "Identify the projection or method represented by this setup.",
+    "options": [
+      "Lauenstein method",
+      "Modified Cleaves",
+      "Danelius-Miller",
+      "Judet method"
+    ],
+    "answer": "Lauenstein method",
+    "explanation": "The image demonstrates a mediolateral Lauenstein hip.",
+    "source": "Positioning practice · Image question",
+    "image": {
+      "src": "images/Mediolateral hip Lauenstein method..png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Positioning image"
+    }
+  },
+  {
+    "id": "kneehip-232",
+    "part": "hip",
+    "projectionId": "hip-hickey",
+    "projection": "Hickey method · hip",
+    "topic": "central-ray",
+    "type": "mcq",
+    "prompt": "What CR angle is used for the Hickey method?",
+    "options": [
+      "20–25° cephalad",
+      "20–25° caudad",
+      "45° cephalad",
+      "Perpendicular"
+    ],
+    "answer": "20–25° cephalad",
+    "explanation": "The Hickey method uses a 20–25° cephalad CR.",
+    "source": "Positioning practice · Hickey method"
+  },
+  {
+    "id": "kneehip-233",
+    "part": "hip",
+    "projectionId": "hip-hickey",
+    "projection": "Hickey method · hip",
+    "topic": "central-ray",
+    "type": "mcq",
+    "prompt": "How does the Hickey CR entry point compare with the Lauenstein?",
+    "options": [
+      "It enters 1 inch lower",
+      "It enters 1 inch higher",
+      "It enters at the pubic symphysis",
+      "It enters at the ASIS"
+    ],
+    "answer": "It enters 1 inch lower",
+    "explanation": "The guide states that the Hickey CR enters 1 inch lower.",
+    "source": "Positioning practice · Hickey method"
+  },
+  {
+    "id": "kneehip-234",
+    "part": "hip",
+    "projectionId": "hip-hickey",
+    "projection": "Hickey method · hip",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "What is the key femoral-neck difference between Hickey and Lauenstein?",
+    "options": [
+      "Hickey clears the neck of superimposition",
+      "Hickey increases greater-trochanter overlap",
+      "Lauenstein clears the neck completely",
+      "Both have identical overlap"
+    ],
+    "answer": "Hickey clears the neck of superimposition",
+    "explanation": "The cephalad Hickey angle clears the femoral neck.",
+    "source": "Positioning practice · Hickey method"
+  },
+  {
+    "id": "kneehip-235",
+    "part": "hip",
+    "projectionId": "hip-hickey",
+    "projection": "Hickey method · hip",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "Which radiographic relationship is expected for the image shown?",
+    "options": [
+      "Femoral neck clear of superimposition",
+      "Greater trochanter overlapping the neck",
+      "Femoral neck foreshortened",
+      "Unaffected thigh crossing the hip"
+    ],
+    "answer": "Femoral neck clear of superimposition",
+    "explanation": "This is the key Hickey evaluation feature.",
+    "source": "Positioning practice · Image question",
+    "image": {
+      "src": "images/Mediolateral hip with 20-degree cephalad angulation Hickey method.xray.png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Radiograph"
+    }
+  },
+  {
+    "id": "kneehip-236",
+    "part": "hip",
+    "projectionId": "hip-axiolateral",
+    "projection": "Danelius-Miller method · axiolateral hip",
+    "topic": "purpose",
+    "type": "mcq",
+    "prompt": "What type of projection is the Danelius-Miller method?",
+    "options": [
+      "Axiolateral cross-table lateral",
+      "AP oblique frog-leg",
+      "PA axial hip",
+      "AP pelvis"
+    ],
+    "answer": "Axiolateral cross-table lateral",
+    "explanation": "The Danelius-Miller is the cross-table lateral hip.",
+    "source": "Positioning practice · Danelius-Miller method"
+  },
+  {
+    "id": "kneehip-237",
+    "part": "hip",
+    "projectionId": "hip-axiolateral",
+    "projection": "Danelius-Miller method · axiolateral hip",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "What is done with the unaffected thigh?",
+    "options": [
+      "Elevated vertically and supported clear of the beam",
+      "Internally rotated 15–20° on the table",
+      "Flexed 45° and crossed over the affected leg",
+      "Kept flat beside the affected leg"
+    ],
+    "answer": "Elevated vertically and supported clear of the beam",
+    "explanation": "The unaffected thigh is elevated out of the beam.",
+    "source": "Positioning practice · Danelius-Miller method"
+  },
+  {
+    "id": "kneehip-238",
+    "part": "hip",
+    "projectionId": "hip-axiolateral",
+    "projection": "Danelius-Miller method · axiolateral hip",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "How much may the affected leg be internally rotated if permitted?",
+    "options": [
+      "15–20°",
+      "45°",
+      "5–10°",
+      "No rotation is ever permitted"
+    ],
+    "answer": "15–20°",
+    "explanation": "The affected leg may be internally rotated 15–20° if permitted.",
+    "source": "Positioning practice · Danelius-Miller method"
+  },
+  {
+    "id": "kneehip-239",
+    "part": "hip",
+    "projectionId": "hip-axiolateral",
+    "projection": "Danelius-Miller method · axiolateral hip",
+    "topic": "central-ray",
+    "type": "mcq",
+    "prompt": "How is the CR directed for the Danelius-Miller method · axiolateral hip?",
+    "options": [
+      "Perpendicular to the long axis of the femoral neck",
+      "20–25° cephalad",
+      "45° caudad",
+      "Perpendicular to the pelvis"
+    ],
+    "answer": "Perpendicular to the long axis of the femoral neck",
+    "explanation": "The CR is perpendicular to the long axis of the femoral neck.",
+    "source": "Positioning practice · Danelius-Miller method"
+  },
+  {
+    "id": "kneehip-240",
+    "part": "hip",
+    "projectionId": "hip-axiolateral",
+    "projection": "Danelius-Miller method · axiolateral hip",
+    "topic": "central-ray",
+    "type": "mcq",
+    "prompt": "Where does the CR enter?",
+    "options": [
+      "Groin area between anterior and posterior surfaces of the upper thigh",
+      "At the ASIS",
+      "At the pubic symphysis",
+      "At the greater trochanter"
+    ],
+    "answer": "Groin area between anterior and posterior surfaces of the upper thigh",
+    "explanation": "This is the guide's entry description.",
+    "source": "Positioning practice · Danelius-Miller method"
+  },
+  {
+    "id": "kneehip-241",
+    "part": "hip",
+    "projectionId": "hip-axiolateral",
+    "projection": "Danelius-Miller method · axiolateral hip",
+    "topic": "anatomy",
+    "type": "mcq",
+    "prompt": "What structures are shown?",
+    "options": [
+      "Acetabulum and proximal femur",
+      "Entire pelvis and both femora",
+      "Only femoral neck",
+      "Only acetabulum"
+    ],
+    "answer": "Acetabulum and proximal femur",
+    "explanation": "These are the listed structures.",
+    "source": "Positioning practice · Danelius-Miller method"
+  },
+  {
+    "id": "kneehip-242",
+    "part": "hip",
+    "projectionId": "hip-axiolateral",
+    "projection": "Danelius-Miller method · axiolateral hip",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "What should be true of the femoral neck for the Danelius-Miller method · axiolateral hip?",
+    "options": [
+      "Clear of the greater trochanter",
+      "Completely overlapped by the greater trochanter",
+      "Foreshortened",
+      "Not visible"
+    ],
+    "answer": "Clear of the greater trochanter",
+    "explanation": "The femoral neck should be clear.",
+    "source": "Positioning practice · Danelius-Miller method"
+  },
+  {
+    "id": "kneehip-243",
+    "part": "hip",
+    "projectionId": "hip-axiolateral",
+    "projection": "Danelius-Miller method · axiolateral hip",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "What should be true of the unaffected thigh?",
+    "options": [
+      "Clear of the hip and proximal femur",
+      "Superimposed over the hip",
+      "Visible across the femoral neck",
+      "Pressed against the affected leg"
+    ],
+    "answer": "Clear of the hip and proximal femur",
+    "explanation": "The unaffected thigh must not obscure the anatomy.",
+    "source": "Positioning practice · Danelius-Miller method"
+  },
+  {
+    "id": "kneehip-244",
+    "part": "hip",
+    "projectionId": "hip-axiolateral",
+    "projection": "Danelius-Miller method · axiolateral hip",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "Where should the ischial tuberosity project?",
+    "options": [
+      "Below the femoral head and neck",
+      "Above the acetabulum",
+      "Over the femoral neck",
+      "Outside the image"
+    ],
+    "answer": "Below the femoral head and neck",
+    "explanation": "This is a listed criterion.",
+    "source": "Positioning practice · Danelius-Miller method"
+  },
+  {
+    "id": "kneehip-245",
+    "part": "hip",
+    "projectionId": "hip-axiolateral",
+    "projection": "Danelius-Miller method · axiolateral hip",
+    "topic": "anatomy",
+    "type": "mcq",
+    "prompt": "Based only on the positioning shown, which projection or method is being performed?",
+    "options": [
+      "Danelius-Miller method",
+      "Lauenstein method",
+      "Modified Cleaves",
+      "Judet method"
+    ],
+    "answer": "Danelius-Miller method",
+    "explanation": "The image shows a cross-table lateral hip with the IR supported.",
+    "source": "Positioning practice · Image question",
+    "image": {
+      "src": "images/(A) Axiolateral hip Danelius-Miller method, IR supported with sandbags. (B) Same projection,.png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Positioning image"
+    }
+  },
+  {
+    "id": "kneehip-246",
+    "part": "hip",
+    "projectionId": "hip-judet",
+    "projection": "Judet method · acetabulum",
+    "topic": "purpose",
+    "type": "mcq",
+    "prompt": "What anatomy is the Judet method designed to evaluate?",
+    "options": [
+      "Acetabulum",
+      "Patella",
+      "Intercondylar fossa",
+      "Femoral shaft"
+    ],
+    "answer": "Acetabulum",
+    "explanation": "The Judet method evaluates the acetabulum.",
+    "source": "Positioning practice · Judet method"
+  },
+  {
+    "id": "kneehip-247",
+    "part": "hip",
+    "projectionId": "hip-judet",
+    "projection": "Judet method · acetabulum",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "How much posterior obliquity is used?",
+    "options": [
+      "45°",
+      "15–20°",
+      "30°",
+      "60°"
+    ],
+    "answer": "45°",
+    "explanation": "The Judet method uses a 45° posterior oblique.",
+    "source": "Positioning practice · Judet method"
+  },
+  {
+    "id": "kneehip-248",
+    "part": "hip",
+    "projectionId": "hip-judet",
+    "projection": "Judet method · acetabulum",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "In the internal oblique Judet position, where is the affected side?",
+    "options": [
+      "Up",
+      "Down",
+      "Directly against the table",
+      "Not relevant"
+    ],
+    "answer": "Up",
+    "explanation": "The affected side is up.",
+    "source": "Positioning practice · Judet method"
+  },
+  {
+    "id": "kneehip-249",
+    "part": "hip",
+    "projectionId": "hip-judet",
+    "projection": "Judet method · acetabulum",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "In the external oblique Judet position, where is the affected side?",
+    "options": [
+      "Down",
+      "Up",
+      "At 90° to the table",
+      "Not relevant"
+    ],
+    "answer": "Down",
+    "explanation": "The affected side is down.",
+    "source": "Positioning practice · Judet method"
+  },
+  {
+    "id": "kneehip-250",
+    "part": "hip",
+    "projectionId": "hip-judet",
+    "projection": "Judet method · acetabulum",
+    "topic": "purpose",
+    "type": "mcq",
+    "prompt": "Why are both Judet positions required?",
+    "options": [
+      "To demonstrate the entire acetabulum",
+      "To compare both knees",
+      "To measure leg length",
+      "To demonstrate both patellae"
+    ],
+    "answer": "To demonstrate the entire acetabulum",
+    "explanation": "Both positions are needed for the entire acetabulum.",
+    "source": "Positioning practice · Judet method"
+  },
+  {
+    "id": "kneehip-251",
+    "part": "hip",
+    "projectionId": "hip-judet",
+    "projection": "Judet method · acetabulum",
+    "topic": "central-ray",
+    "type": "mcq",
+    "prompt": "Where is the CR centered for the internal oblique?",
+    "options": [
+      "2 inches below the affected ASIS",
+      "Pubic symphysis",
+      "Femoral neck",
+      "Midpoint between ASIS and pubic symphysis"
+    ],
+    "answer": "2 inches below the affected ASIS",
+    "explanation": "This is the internal-oblique CR location.",
+    "source": "Positioning practice · Judet method"
+  },
+  {
+    "id": "kneehip-252",
+    "part": "hip",
+    "projectionId": "hip-judet",
+    "projection": "Judet method · acetabulum",
+    "topic": "central-ray",
+    "type": "mcq",
+    "prompt": "Where is the CR centered for the external oblique?",
+    "options": [
+      "Pubic symphysis",
+      "2 inches below the affected ASIS",
+      "Femoral neck",
+      "Greater trochanter"
+    ],
+    "answer": "Pubic symphysis",
+    "explanation": "The external oblique centers at the pubic symphysis.",
+    "source": "Positioning practice · Judet method"
+  },
+  {
+    "id": "kneehip-253",
+    "part": "hip",
+    "projectionId": "hip-judet",
+    "projection": "Judet method · acetabulum",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "What anatomy is emphasized when the affected side is UP?",
+    "options": [
+      "Anterior column and posterior rim",
+      "Posterior column and anterior rim",
+      "Both obturator foramina only",
+      "Pubic rami only"
+    ],
+    "answer": "Anterior column and posterior rim",
+    "explanation": "This pairing is listed for the affected side up.",
+    "source": "Positioning practice · Judet method"
+  },
+  {
+    "id": "kneehip-254",
+    "part": "hip",
+    "projectionId": "hip-judet",
+    "projection": "Judet method · acetabulum",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "What anatomy is emphasized when the affected side is DOWN?",
+    "options": [
+      "Posterior column and anterior rim",
+      "Anterior column and posterior rim",
+      "Femoral neck and greater trochanter",
+      "Pubic rami only"
+    ],
+    "answer": "Posterior column and anterior rim",
+    "explanation": "This pairing is listed for the affected side down.",
+    "source": "Positioning practice · Judet method"
+  },
+  {
+    "id": "kneehip-255",
+    "part": "hip",
+    "projectionId": "hip-judet",
+    "projection": "Judet method · acetabulum",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "What should be centered on a Judet image?",
+    "options": [
+      "Acetabulum",
+      "Pubic symphysis only",
+      "Patella",
+      "Femoral shaft"
+    ],
+    "answer": "Acetabulum",
+    "explanation": "The acetabulum should be centered.",
+    "source": "Positioning practice · Judet method"
+  },
+  {
+    "id": "kneehip-256",
+    "part": "hip",
+    "projectionId": "hip-judet",
+    "projection": "Judet method · acetabulum",
+    "topic": "anatomy",
+    "type": "mcq",
+    "prompt": "Which projection or method is demonstrated by the positioning shown?",
+    "options": [
+      "Judet method",
+      "Modified Cleaves",
+      "Danelius-Miller",
+      "Taylor method"
+    ],
+    "answer": "Judet method",
+    "explanation": "The image shows RPO and LPO Judet positions for the right hip.",
+    "source": "Positioning practice · Image question",
+    "image": {
+      "src": "images/AP oblique projection, Judet method, right hip. (A) LPO. (B) RPO. (From Long BW, Rafert JA..png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Positioning image"
+    }
+  },
+  {
+    "id": "kneehip-257",
+    "part": "hip",
+    "projectionId": "hip-judet",
+    "projection": "Judet method · acetabulum",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "Which finding should be present if this image is positioned correctly?",
+    "options": [
+      "Up",
+      "Down",
+      "Flat against the table",
+      "Not rotated"
+    ],
+    "answer": "Up",
+    "explanation": "The internal oblique places the affected side up.",
+    "source": "Positioning practice · Image question",
+    "image": {
+      "src": "images/2 AP oblique projection, Judet method for right hip. (A) LPO places right hip in internal oblique diagram.png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Positioning image"
+    }
+  },
+  {
+    "id": "kneehip-258",
+    "part": "pelvis",
+    "projectionId": "pelvis-taylor",
+    "projection": "Taylor method · AP axial outlet",
+    "topic": "purpose",
+    "type": "mcq",
+    "prompt": "What anatomy is emphasized by the Taylor outlet projection?",
+    "options": [
+      "Anterior pelvic bones and pubic/ischial rami",
+      "Entire pelvic inlet",
+      "Acetabular columns",
+      "Femoral necks"
+    ],
+    "answer": "Anterior pelvic bones and pubic/ischial rami",
+    "explanation": "The Taylor method demonstrates anterior pelvic bones with reduced ramus foreshortening.",
+    "source": "Positioning practice · Taylor method"
+  },
+  {
+    "id": "kneehip-259",
+    "part": "pelvis",
+    "projectionId": "pelvis-taylor",
+    "projection": "Taylor method · AP axial outlet",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "How should the MSP and ASISs be positioned?",
+    "options": [
+      "MSP centered with ASISs equidistant from the table",
+      "MSP rotated 45°",
+      "Affected ASIS elevated",
+      "One hip posterior"
+    ],
+    "answer": "MSP centered with ASISs equidistant from the table",
+    "explanation": "This prevents pelvic rotation.",
+    "source": "Positioning practice · Taylor method"
+  },
+  {
+    "id": "kneehip-260",
+    "part": "pelvis",
+    "projectionId": "pelvis-taylor",
+    "projection": "Taylor method · AP axial outlet",
+    "topic": "central-ray",
+    "type": "mcq",
+    "prompt": "Where does the Taylor CR enter?",
+    "options": [
+      "MSP 2 inches below the superior border of the pubic symphysis",
+      "ASIS level",
+      "At the greater trochanters",
+      "At the femoral neck"
+    ],
+    "answer": "MSP 2 inches below the superior border of the pubic symphysis",
+    "explanation": "This is the listed entry point.",
+    "source": "Positioning practice · Taylor method"
+  },
+  {
+    "id": "kneehip-261",
+    "part": "pelvis",
+    "projectionId": "pelvis-taylor",
+    "projection": "Taylor method · AP axial outlet",
+    "topic": "central-ray",
+    "type": "mcq",
+    "prompt": "What CR angle is used for men?",
+    "options": [
+      "20–35° cephalad",
+      "30–45° cephalad",
+      "40° caudad",
+      "15–20° caudad"
+    ],
+    "answer": "20–35° cephalad",
+    "explanation": "The guide lists 20–35° cephalad for men.",
+    "source": "Positioning practice · Taylor method"
+  },
+  {
+    "id": "kneehip-262",
+    "part": "pelvis",
+    "projectionId": "pelvis-taylor",
+    "projection": "Taylor method · AP axial outlet",
+    "topic": "central-ray",
+    "type": "mcq",
+    "prompt": "What CR angle is used for women?",
+    "options": [
+      "30–45° cephalad",
+      "20–35° cephalad",
+      "40° caudad",
+      "15–20° caudad"
+    ],
+    "answer": "30–45° cephalad",
+    "explanation": "The guide lists 30–45° cephalad for women.",
+    "source": "Positioning practice · Taylor method"
+  },
+  {
+    "id": "kneehip-263",
+    "part": "pelvis",
+    "projectionId": "pelvis-taylor",
+    "projection": "Taylor method · AP axial outlet",
+    "topic": "purpose",
+    "type": "mcq",
+    "prompt": "What is the effect of the Taylor outlet projection on the pubic and ischial rami?",
+    "options": [
+      "Reduces foreshortening",
+      "Increases foreshortening",
+      "Superimposes them completely",
+      "Removes them from the image"
+    ],
+    "answer": "Reduces foreshortening",
+    "explanation": "The outlet projection elongates the rami.",
+    "source": "Positioning practice · Taylor method"
+  },
+  {
+    "id": "kneehip-264",
+    "part": "pelvis",
+    "projectionId": "pelvis-taylor",
+    "projection": "Taylor method · AP axial outlet",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "How should the pubic bones relate to the sacrum/coccyx?",
+    "options": [
+      "Superimposed",
+      "Completely separated",
+      "Projected above the sacrum",
+      "Projected laterally"
+    ],
+    "answer": "Superimposed",
+    "explanation": "The pubic bones should be superimposed on the sacrum/coccyx.",
+    "source": "Positioning practice · Taylor method"
+  },
+  {
+    "id": "kneehip-265",
+    "part": "pelvis",
+    "projectionId": "pelvis-taylor",
+    "projection": "Taylor method · AP axial outlet",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "How should the obturator foramina appear?",
+    "options": [
+      "Symmetric",
+      "One larger than the other",
+      "Completely closed",
+      "Not included"
+    ],
+    "answer": "Symmetric",
+    "explanation": "Symmetric foramina indicate no rotation.",
+    "source": "Positioning practice · Taylor method"
+  },
+  {
+    "id": "kneehip-266",
+    "part": "pelvis",
+    "projectionId": "pelvis-taylor",
+    "projection": "Taylor method · AP axial outlet",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "What should be included laterally?",
+    "options": [
+      "Hip joints",
+      "Only pubic symphysis",
+      "Only sacrum",
+      "Only ischial tuberosities"
+    ],
+    "answer": "Hip joints",
+    "explanation": "The hip joints should be included.",
+    "source": "Positioning practice · Taylor method"
+  },
+  {
+    "id": "kneehip-267",
+    "part": "pelvis",
+    "projectionId": "pelvis-taylor",
+    "projection": "Taylor method · AP axial outlet",
+    "topic": "anatomy",
+    "type": "mcq",
+    "prompt": "Which named projection or method does this positioning demonstrate?",
+    "options": [
+      "Taylor method",
+      "Bridgman method",
+      "Judet method",
+      "Modified Cleaves"
+    ],
+    "answer": "Taylor method",
+    "explanation": "The image demonstrates the AP axial outlet projection.",
+    "source": "Positioning practice · Image question",
+    "image": {
+      "src": "images/AP axial pelvic bones Taylor method..png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Positioning image"
+    }
+  },
+  {
+    "id": "kneehip-268",
+    "part": "pelvis",
+    "projectionId": "pelvis-taylor",
+    "projection": "Taylor method · AP axial outlet",
+    "topic": "central-ray",
+    "type": "mcq",
+    "prompt": "Based on the setup shown, how should the CR be directed?",
+    "options": [
+      "30–45° cephalad",
+      "20–35° cephalad",
+      "40° caudad",
+      "15–30° caudad"
+    ],
+    "answer": "30–45° cephalad",
+    "explanation": "The guide lists 30–45° cephalad for women.",
+    "source": "Positioning practice · Image question",
+    "image": {
+      "src": "images/Female AP axial pelvic bones Taylor method.xray.png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Radiograph"
+    }
+  },
+  {
+    "id": "kneehip-269",
+    "part": "pelvis",
+    "projectionId": "pelvis-bridgman",
+    "projection": "Bridgman method · superoinferior axial inlet",
+    "topic": "purpose",
+    "type": "mcq",
+    "prompt": "What anatomy is emphasized by the Bridgman method?",
+    "options": [
+      "Entire pelvic ring/inlet",
+      "Pubic rami only",
+      "Femoral necks only",
+      "Acetabular columns only"
+    ],
+    "answer": "Entire pelvic ring/inlet",
+    "explanation": "The Bridgman method demonstrates the pelvic inlet.",
+    "source": "Positioning practice · Bridgman method"
+  },
+  {
+    "id": "kneehip-270",
+    "part": "pelvis",
+    "projectionId": "pelvis-bridgman",
+    "projection": "Bridgman method · superoinferior axial inlet",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "How is the pelvis positioned?",
+    "options": [
+      "Supine with MSP centered and no rotation",
+      "Prone in 45° oblique",
+      "Standing with knees flexed",
+      "Lateral recumbent"
+    ],
+    "answer": "Supine with MSP centered and no rotation",
+    "explanation": "The guide specifies a centered, nonrotated supine pelvis.",
+    "source": "Positioning practice · Bridgman method"
+  },
+  {
+    "id": "kneehip-271",
+    "part": "pelvis",
+    "projectionId": "pelvis-bridgman",
+    "projection": "Bridgman method · superoinferior axial inlet",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "Where is the IR centered?",
+    "options": [
+      "At the greater trochanters",
+      "At the ASIS",
+      "At the pubic symphysis",
+      "At the femoral neck"
+    ],
+    "answer": "At the greater trochanters",
+    "explanation": "The IR is centered at the greater trochanters.",
+    "source": "Positioning practice · Bridgman method"
+  },
+  {
+    "id": "kneehip-272",
+    "part": "pelvis",
+    "projectionId": "pelvis-bridgman",
+    "projection": "Bridgman method · superoinferior axial inlet",
+    "topic": "central-ray",
+    "type": "mcq",
+    "prompt": "What CR angle is used for the Bridgman method · superoinferior axial inlet?",
+    "options": [
+      "40° caudad",
+      "40° cephalad",
+      "30° cephalad",
+      "20° caudad"
+    ],
+    "answer": "40° caudad",
+    "explanation": "The Bridgman inlet uses a 40° caudad CR.",
+    "source": "Positioning practice · Bridgman method"
+  },
+  {
+    "id": "kneehip-273",
+    "part": "pelvis",
+    "projectionId": "pelvis-bridgman",
+    "projection": "Bridgman method · superoinferior axial inlet",
+    "topic": "central-ray",
+    "type": "mcq",
+    "prompt": "Where is the CR centered for the Bridgman method · superoinferior axial inlet?",
+    "options": [
+      "MSP at ASIS level",
+      "2 inches below pubic symphysis",
+      "At the femoral neck",
+      "At the greater trochanter"
+    ],
+    "answer": "MSP at ASIS level",
+    "explanation": "This is the listed CR centering point.",
+    "source": "Positioning practice · Bridgman method"
+  },
+  {
+    "id": "kneehip-274",
+    "part": "pelvis",
+    "projectionId": "pelvis-bridgman",
+    "projection": "Bridgman method · superoinferior axial inlet",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "How should the superior and inferior pubic rami appear medially?",
+    "options": [
+      "Superimposed",
+      "Completely separated",
+      "Foreshortened",
+      "Not visible"
+    ],
+    "answer": "Superimposed",
+    "explanation": "They should be superimposed medially.",
+    "source": "Positioning practice · Bridgman method"
+  },
+  {
+    "id": "kneehip-275",
+    "part": "pelvis",
+    "projectionId": "pelvis-bridgman",
+    "projection": "Bridgman method · superoinferior axial inlet",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "How should the lateral pubic and ischial bones relate?",
+    "options": [
+      "Nearly superimposed",
+      "Widely separated",
+      "Completely absent",
+      "Projected above the iliac wings"
+    ],
+    "answer": "Nearly superimposed",
+    "explanation": "They should be nearly superimposed.",
+    "source": "Positioning practice · Bridgman method"
+  },
+  {
+    "id": "kneehip-276",
+    "part": "pelvis",
+    "projectionId": "pelvis-bridgman",
+    "projection": "Bridgman method · superoinferior axial inlet",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "Which paired structures should appear symmetric?",
+    "options": [
+      "Pubes and ischial spines",
+      "Femoral necks and greater trochanters",
+      "Patellae and tibial tuberosities",
+      "Acetabular roofs and femoral heads only"
+    ],
+    "answer": "Pubes and ischial spines",
+    "explanation": "Symmetry indicates no rotation.",
+    "source": "Positioning practice · Bridgman method"
+  },
+  {
+    "id": "kneehip-277",
+    "part": "pelvis",
+    "projectionId": "pelvis-bridgman",
+    "projection": "Bridgman method · superoinferior axial inlet",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "What should be included in addition to the pelvic inlet?",
+    "options": [
+      "Hip joints",
+      "Knee joints",
+      "Ankle joints",
+      "Lumbar spine only"
+    ],
+    "answer": "Hip joints",
+    "explanation": "The guide includes the hip joints.",
+    "source": "Positioning practice · Bridgman method"
+  },
+  {
+    "id": "kneehip-278",
+    "part": "pelvis",
+    "projectionId": "pelvis-bridgman",
+    "projection": "Bridgman method · superoinferior axial inlet",
+    "topic": "anatomy",
+    "type": "mcq",
+    "prompt": "Which projection or method is demonstrated by the positioning shown?",
+    "options": [
+      "Bridgman method",
+      "Taylor method",
+      "Judet method",
+      "Modified Cleaves"
+    ],
+    "answer": "Bridgman method",
+    "explanation": "The image demonstrates the superoinferior axial inlet.",
+    "source": "Positioning practice · Image question",
+    "image": {
+      "src": "images/AP axial pelvic bones Bridgman method..png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Positioning image"
+    }
+  },
+  {
+    "id": "kneehip-279",
+    "part": "pelvis",
+    "projectionId": "pelvis-bridgman",
+    "projection": "Bridgman method · superoinferior axial inlet",
+    "topic": "anatomy",
+    "type": "mcq",
+    "prompt": "Identify the projection or method represented by this setup.",
+    "options": [
+      "Bridgman inlet",
+      "Taylor outlet",
+      "AP pelvis",
+      "Judet oblique"
+    ],
+    "answer": "Bridgman inlet",
+    "explanation": "The image is labeled as an AP axial inlet projection.",
+    "source": "Positioning practice · Image question",
+    "image": {
+      "src": "images/AP axial inlet projection. (bridgman).png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Positioning image"
+    }
+  }
+]
