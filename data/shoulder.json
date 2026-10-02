@@ -1,90 +1,3579 @@
 [
   {
     "id": "shoulder-001",
-    "projection": "AP shoulder",
-    "topic": "central-ray",
+    "part": "humerus",
+    "projectionId": "humerus-ap-up",
+    "projection": "AP humerus · upright",
+    "topic": "positioning",
     "type": "mcq",
-    "prompt": "Where is the CR centered for the AP shoulder rotations?",
+    "prompt": "How should the hand be positioned for an upright AP humerus?",
     "options": [
-      "1 inch inferior to the coracoid process",
-      "Midshaft of the clavicle",
-      "Midpoint of the humerus",
-      "Superior angle of the scapula"
+      "Supinated",
+      "Pronated",
+      "Internally rotated",
+      "Placed on the hip"
     ],
-    "answer": "1 inch inferior to the coracoid process",
-    "explanation": "The AP external, neutral, and internal rotations use a perpendicular CR 1 inch inferior to the coracoid process.",
-    "source": "Positioning practice · AP shoulder"
+    "answer": "Supinated",
+    "explanation": "The upright AP humerus is positioned with the hand supinated.",
+    "source": "Positioning practice · AP humerus, upright"
   },
   {
     "id": "shoulder-002",
-    "projection": "AP shoulder, external rotation",
-    "topic": "evaluation",
+    "part": "humerus",
+    "projectionId": "humerus-ap-up",
+    "projection": "AP humerus · upright",
+    "topic": "positioning",
     "type": "mcq",
-    "prompt": "What is the key tubercle appearance with external rotation of the humerus?",
+    "prompt": "How should the humeral epicondyles be oriented for an upright AP humerus?",
     "options": [
-      "Greater tubercle in profile laterally",
-      "Lesser tubercle in profile medially",
-      "Greater tubercle completely superimposed on the humeral head",
-      "Both tubercles in full profile"
+      "Parallel with the IR",
+      "Perpendicular to the IR",
+      "Superimposed",
+      "45° to the IR"
     ],
-    "answer": "Greater tubercle in profile laterally",
-    "explanation": "External rotation places the greater tubercle in profile on the lateral aspect.",
-    "source": "Positioning practice · AP shoulder, external rotation",
-    "part": "shoulder",
-    "projectionId": "shoulder-external"
+    "answer": "Parallel with the IR",
+    "explanation": "The coronal plane of the epicondyles should be parallel with the IR.",
+    "source": "Positioning practice · AP humerus, upright"
   },
   {
     "id": "shoulder-003",
-    "projection": "AP shoulder, internal rotation",
-    "topic": "evaluation",
+    "part": "humerus",
+    "projectionId": "humerus-ap-up",
+    "projection": "AP humerus · upright",
+    "topic": "central-ray",
     "type": "mcq",
-    "prompt": "Which tubercle appears in profile medially with internal rotation?",
+    "prompt": "Where is the CR centered for an upright AP humerus?",
     "options": [
-      "Lesser tubercle",
-      "Greater tubercle",
-      "Deltoid tuberosity",
-      "Radial tuberosity"
+      "Midportion of the humerus and center of the IR",
+      "Surgical neck",
+      "Elbow joint",
+      "Greater tubercle"
     ],
-    "answer": "Lesser tubercle",
-    "explanation": "The lesser tubercle is in profile medially; the greater tubercle is superimposed on the humeral head.",
-    "source": "Positioning practice · AP shoulder, internal rotation",
-    "part": "shoulder",
-    "projectionId": "shoulder-internal"
+    "answer": "Midportion of the humerus and center of the IR",
+    "explanation": "The CR is perpendicular to the midportion of the humerus and center of the IR.",
+    "source": "Positioning practice · AP humerus, upright"
   },
   {
     "id": "shoulder-004",
-    "projection": "Grashey method",
-    "topic": "purpose",
+    "part": "humerus",
+    "projectionId": "humerus-ap-up",
+    "projection": "AP humerus · upright",
+    "topic": "ir-collimation",
     "type": "mcq",
-    "prompt": "Which joint space is the Grashey method intended to open?",
+    "prompt": "What SID is used for the upright AP humerus?",
     "options": [
-      "Scapulohumeral joint",
-      "Acromioclavicular joint",
-      "Sternoclavicular joint",
-      "Humeroulnar joint"
+      "48 inches",
+      "40 inches",
+      "72 inches",
+      "18 inches"
     ],
-    "answer": "Scapulohumeral joint",
-    "explanation": "The AP oblique Grashey method demonstrates the glenoid cavity in profile and opens the scapulohumeral joint space.",
-    "source": "Positioning practice · Grashey method",
-    "part": "shoulder",
-    "projectionId": "shoulder-grashey"
+    "answer": "48 inches",
+    "explanation": "The guide uses a 48-inch SID for humerus projections.",
+    "source": "Positioning practice · AP humerus, upright"
   },
   {
     "id": "shoulder-005",
-    "projection": "Grashey method",
+    "part": "humerus",
+    "projectionId": "humerus-ap-up",
+    "projection": "AP humerus · upright",
+    "topic": "purpose",
+    "type": "mcq",
+    "prompt": "Why is a 48-inch SID used for the humerus?",
+    "options": [
+      "To reduce magnification and include more anatomy",
+      "To magnify the humeral head",
+      "To open the scapulohumeral joint",
+      "To blur lung markings"
+    ],
+    "answer": "To reduce magnification and include more anatomy",
+    "explanation": "The guide notes that 48 inches reduces magnification and helps include more anatomy.",
+    "source": "Positioning practice · AP humerus, upright"
+  },
+  {
+    "id": "shoulder-006",
+    "part": "humerus",
+    "projectionId": "humerus-ap-up",
+    "projection": "AP humerus · upright",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "Which tubercle should be in profile on an AP humerus?",
+    "options": [
+      "Greater tubercle",
+      "Lesser tubercle",
+      "Both tubercles equally",
+      "Neither tubercle"
+    ],
+    "answer": "Greater tubercle",
+    "explanation": "The AP humerus demonstrates the greater tubercle in profile.",
+    "source": "Positioning practice · AP humerus, upright"
+  },
+  {
+    "id": "shoulder-007",
+    "part": "humerus",
+    "projectionId": "humerus-ap-up",
+    "projection": "AP humerus · upright",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "Where should the lesser tubercle appear on a correctly positioned AP humerus?",
+    "options": [
+      "As an outline between the humeral head and greater tubercle",
+      "In medial profile",
+      "Completely hidden by the glenoid",
+      "Projected laterally beyond the greater tubercle"
+    ],
+    "answer": "As an outline between the humeral head and greater tubercle",
+    "explanation": "The lesser tubercle is seen as an outline between the humeral head and greater tubercle.",
+    "source": "Positioning practice · AP humerus, upright"
+  },
+  {
+    "id": "shoulder-008",
+    "part": "humerus",
+    "projectionId": "humerus-ap-up",
+    "projection": "AP humerus · upright",
+    "topic": "anatomy",
+    "type": "mcq",
+    "prompt": "What anatomy must be included on an AP humerus?",
+    "options": [
+      "Entire humerus including shoulder and elbow joints",
+      "Only the proximal humerus",
+      "Only the distal humerus",
+      "Shoulder joint only"
+    ],
+    "answer": "Entire humerus including shoulder and elbow joints",
+    "explanation": "The entire humerus and both adjacent joints must be included.",
+    "source": "Positioning practice · AP humerus, upright"
+  },
+  {
+    "id": "shoulder-009",
+    "part": "humerus",
+    "projectionId": "humerus-ap-up",
+    "projection": "AP humerus · upright",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "Why may the shoulder and elbow joints appear slightly distorted on a humerus image?",
+    "options": [
+      "Beam divergence",
+      "Patient rotation",
+      "Excessive SID",
+      "Grid cutoff"
+    ],
+    "answer": "Beam divergence",
+    "explanation": "The guide notes slight distortion of the joints because of beam divergence over the long anatomy.",
+    "source": "Positioning practice · AP humerus, upright"
+  },
+  {
+    "id": "shoulder-010",
+    "part": "humerus",
+    "projectionId": "humerus-ap-up",
+    "projection": "AP humerus · upright",
     "topic": "positioning",
     "type": "mcq",
-    "prompt": "How far is the body initially rotated toward the affected side for the Grashey method?",
+    "prompt": "Which humerus projection is being positioned in this upright setup?",
     "options": [
+      "AP humerus · upright",
+      "Lateral humerus · upright",
+      "AP humerus · recumbent",
+      "Trauma lateral humerus"
+    ],
+    "answer": "AP humerus · upright",
+    "explanation": "The patient is positioned upright for an AP humerus.",
+    "source": "Positioning practice · AP humerus, upright",
+    "image": {
+      "src": "images/Upright position for AP humerus..png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Positioning image"
+    }
+  },
+  {
+    "id": "shoulder-011",
+    "part": "humerus",
+    "projectionId": "humerus-ap-up",
+    "projection": "AP humerus · upright",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "Which feature should be seen on the radiograph produced by this setup?",
+    "options": [
+      "Greater tubercle in profile",
+      "Lesser tubercle in medial profile",
+      "Superimposed epicondyles",
+      "Only distal humerus"
+    ],
+    "answer": "Greater tubercle in profile",
+    "explanation": "The AP humerus should show the greater tubercle in profile.",
+    "source": "Positioning practice · AP humerus, upright",
+    "image": {
+      "src": "images/Upright AP humerus.XRAY.png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Radiograph"
+    }
+  },
+  {
+    "id": "shoulder-012",
+    "part": "humerus",
+    "projectionId": "humerus-lat-up",
+    "projection": "Lateral humerus · upright",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "How is the arm rotated for an upright lateral humerus?",
+    "options": [
+      "Internally",
+      "Externally",
+      "Not rotated",
+      "45° externally"
+    ],
+    "answer": "Internally",
+    "explanation": "The arm is internally rotated for the lateral humerus.",
+    "source": "Positioning practice · Lateral humerus, upright"
+  },
+  {
+    "id": "shoulder-013",
+    "part": "humerus",
+    "projectionId": "humerus-lat-up",
+    "projection": "Lateral humerus · upright",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "Approximately how much is the elbow flexed for the upright lateral humerus?",
+    "options": [
+      "90°",
+      "45°",
+      "20°",
+      "Fully extended"
+    ],
+    "answer": "90°",
+    "explanation": "The elbow is flexed approximately 90°.",
+    "source": "Positioning practice · Lateral humerus, upright"
+  },
+  {
+    "id": "shoulder-014",
+    "part": "humerus",
+    "projectionId": "humerus-lat-up",
+    "projection": "Lateral humerus · upright",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "How should the humeral epicondyles be oriented for the lateral humerus?",
+    "options": [
+      "Superimposed and perpendicular to the IR",
+      "Parallel with the IR",
+      "Separated and parallel to the IR",
+      "45° to the IR"
+    ],
+    "answer": "Superimposed and perpendicular to the IR",
+    "explanation": "A true lateral humerus requires superimposed epicondyles perpendicular to the IR.",
+    "source": "Positioning practice · Lateral humerus, upright"
+  },
+  {
+    "id": "shoulder-015",
+    "part": "humerus",
+    "projectionId": "humerus-lat-up",
+    "projection": "Lateral humerus · upright",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "Where may the patient's palm rest during an upright lateral humerus?",
+    "options": [
+      "Posterior or lateral hip",
+      "Opposite shoulder",
+      "Forehead only",
+      "Anterior thigh only"
+    ],
+    "answer": "Posterior or lateral hip",
+    "explanation": "The guide allows the palm to rest on the posterior or lateral hip if the epicondyles remain perpendicular.",
+    "source": "Positioning practice · Lateral humerus, upright"
+  },
+  {
+    "id": "shoulder-016",
+    "part": "humerus",
+    "projectionId": "humerus-lat-up",
+    "projection": "Lateral humerus · upright",
+    "topic": "central-ray",
+    "type": "mcq",
+    "prompt": "Where is the CR centered for an upright lateral humerus?",
+    "options": [
+      "Midportion of the humerus",
+      "Surgical neck",
+      "Elbow joint",
+      "Greater tubercle"
+    ],
+    "answer": "Midportion of the humerus",
+    "explanation": "The CR is perpendicular to the midportion of the humerus.",
+    "source": "Positioning practice · Lateral humerus, upright"
+  },
+  {
+    "id": "shoulder-017",
+    "part": "humerus",
+    "projectionId": "humerus-lat-up",
+    "projection": "Lateral humerus · upright",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "Which tubercle should be in profile on a lateral humerus?",
+    "options": [
+      "Lesser tubercle on the medial aspect",
+      "Greater tubercle laterally",
+      "Both tubercles laterally",
+      "Neither tubercle"
+    ],
+    "answer": "Lesser tubercle on the medial aspect",
+    "explanation": "The lateral humerus shows the lesser tubercle in medial profile.",
+    "source": "Positioning practice · Lateral humerus, upright"
+  },
+  {
+    "id": "shoulder-018",
+    "part": "humerus",
+    "projectionId": "humerus-lat-up",
+    "projection": "Lateral humerus · upright",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "What happens to the greater tubercle on a lateral humerus?",
+    "options": [
+      "It is superimposed over the humeral head",
+      "It is shown in lateral profile",
+      "It is projected medially",
+      "It disappears completely"
+    ],
+    "answer": "It is superimposed over the humeral head",
+    "explanation": "The greater tubercle is superimposed over the humeral head.",
+    "source": "Positioning practice · Lateral humerus, upright"
+  },
+  {
+    "id": "shoulder-019",
+    "part": "humerus",
+    "projectionId": "humerus-lat-up",
+    "projection": "Lateral humerus · upright",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "Which projection may be easier for a patient with a broken humerus?",
+    "options": [
+      "Mediolateral lateral projection",
+      "AP projection only",
+      "PA projection",
+      "Axial clavicle projection"
+    ],
+    "answer": "Mediolateral lateral projection",
+    "explanation": "The guide notes that a mediolateral approach may be easier for a fractured humerus.",
+    "source": "Positioning practice · Lateral humerus, upright"
+  },
+  {
+    "id": "shoulder-020",
+    "part": "humerus",
+    "projectionId": "humerus-lat-up",
+    "projection": "Lateral humerus · upright",
+    "topic": "anatomy",
+    "type": "mcq",
+    "prompt": "Which humerus projection is being positioned with the hand on the hip?",
+    "options": [
+      "Lateral humerus · upright",
+      "AP humerus · upright",
+      "AP shoulder · internal rotation",
+      "Transthoracic lateral shoulder"
+    ],
+    "answer": "Lateral humerus · upright",
+    "explanation": "The patient is upright with the arm positioned for a lateral humerus.",
+    "source": "Positioning practice · Lateral humerus, upright",
+    "image": {
+      "src": "images/Upright position for lateral (lateromedial) humerus. Note hand placement on hip..png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Positioning image"
+    }
+  },
+  {
+    "id": "shoulder-021",
+    "part": "humerus",
+    "projectionId": "humerus-lat-up",
+    "projection": "Lateral humerus · upright",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "Which feature should result from the positioning shown?",
+    "options": [
+      "Superimposed humeral epicondyles",
+      "Epicondyles parallel with the IR",
+      "Greater tubercle in lateral profile",
+      "Open glenoid joint space"
+    ],
+    "answer": "Superimposed humeral epicondyles",
+    "explanation": "A true lateral humerus requires superimposed humeral epicondyles.",
+    "source": "Positioning practice · Lateral humerus, upright",
+    "image": {
+      "src": "images/Upright lateral humerus..png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Positioning image"
+    }
+  },
+  {
+    "id": "shoulder-022",
+    "part": "humerus",
+    "projectionId": "humerus-lat-up",
+    "projection": "Lateral humerus · upright",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "What is the key reason for placing the hand on the hip in the image shown?",
+    "options": [
+      "To help internally rotate the humerus while maintaining a lateral position",
+      "To externally rotate the humerus",
+      "To abduct the arm 90°",
+      "To open the first CMC joint"
+    ],
+    "answer": "To help internally rotate the humerus while maintaining a lateral position",
+    "explanation": "The hand-on-hip position assists internal rotation for the lateral humerus.",
+    "source": "Positioning practice · Lateral humerus, upright",
+    "image": {
+      "src": "images/Upright position for lateral (lateromedial) humerus. Note hand placement on hip..png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Positioning image"
+    }
+  },
+  {
+    "id": "shoulder-023",
+    "part": "humerus",
+    "projectionId": "humerus-ap-rec",
+    "projection": "AP humerus · recumbent",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "What patient position is used for the recumbent AP humerus?",
+    "options": [
+      "Supine",
+      "Prone",
+      "Lateral recumbent only",
+      "Seated with arm hanging"
+    ],
+    "answer": "Supine",
+    "explanation": "The recumbent AP humerus is performed supine.",
+    "source": "Positioning practice · AP humerus, recumbent"
+  },
+  {
+    "id": "shoulder-024",
+    "part": "humerus",
+    "projectionId": "humerus-ap-rec",
+    "projection": "AP humerus · recumbent",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "Why may the opposite shoulder be elevated during a recumbent AP humerus?",
+    "options": [
+      "To place the affected arm in contact with the IR",
+      "To rotate the affected arm laterally",
+      "To open the scapulohumeral joint",
+      "To move the clavicle above the ribs"
+    ],
+    "answer": "To place the affected arm in contact with the IR",
+    "explanation": "Elevating the opposite shoulder helps place the affected humerus against the IR.",
+    "source": "Positioning practice · AP humerus, recumbent"
+  },
+  {
+    "id": "shoulder-025",
+    "part": "humerus",
+    "projectionId": "humerus-ap-rec",
+    "projection": "AP humerus · recumbent",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "How should the hand and elbow be positioned for a recumbent AP humerus?",
+    "options": [
+      "Hand supinated and elbow extended",
+      "Hand pronated and elbow flexed 90°",
+      "Hand on hip and elbow flexed",
+      "Thumb up with elbow flexed"
+    ],
+    "answer": "Hand supinated and elbow extended",
+    "explanation": "The hand is supinated and the elbow extended for AP positioning.",
+    "source": "Positioning practice · AP humerus, recumbent"
+  },
+  {
+    "id": "shoulder-026",
+    "part": "humerus",
+    "projectionId": "humerus-ap-rec",
+    "projection": "AP humerus · recumbent",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "How should the humeral epicondyles be oriented for the recumbent AP humerus?",
+    "options": [
+      "Parallel with the IR",
+      "Perpendicular to the IR",
+      "Superimposed",
+      "45° to the IR"
+    ],
+    "answer": "Parallel with the IR",
+    "explanation": "The extremity is rotated until the epicondyles are parallel with the IR.",
+    "source": "Positioning practice · AP humerus, recumbent"
+  },
+  {
+    "id": "shoulder-027",
+    "part": "humerus",
+    "projectionId": "humerus-ap-rec",
+    "projection": "AP humerus · recumbent",
+    "topic": "central-ray",
+    "type": "mcq",
+    "prompt": "Where is the CR centered for the recumbent AP humerus?",
+    "options": [
+      "Midportion of the humerus",
+      "Surgical neck",
+      "Elbow joint",
+      "Humeral head"
+    ],
+    "answer": "Midportion of the humerus",
+    "explanation": "The CR is perpendicular to the midportion of the humerus.",
+    "source": "Positioning practice · AP humerus, recumbent"
+  },
+  {
+    "id": "shoulder-028",
+    "part": "humerus",
+    "projectionId": "humerus-ap-rec",
+    "projection": "AP humerus · recumbent",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "Which tubercle should be in profile on the recumbent AP humerus?",
+    "options": [
+      "Greater tubercle",
+      "Lesser tubercle",
+      "Both",
+      "Neither"
+    ],
+    "answer": "Greater tubercle",
+    "explanation": "The same AP evaluation criteria apply: the greater tubercle is in profile.",
+    "source": "Positioning practice · AP humerus, recumbent"
+  },
+  {
+    "id": "shoulder-029",
+    "part": "humerus",
+    "projectionId": "humerus-ap-rec",
+    "projection": "AP humerus · recumbent",
+    "topic": "anatomy",
+    "type": "mcq",
+    "prompt": "Which humerus projection is shown in this recumbent setup?",
+    "options": [
+      "AP humerus · recumbent",
+      "Lateral humerus · recumbent",
+      "AP humerus · upright",
+      "AP shoulder · external rotation"
+    ],
+    "answer": "AP humerus · recumbent",
+    "explanation": "The patient is supine with the hand supinated for an AP humerus.",
+    "source": "Positioning practice · AP humerus, recumbent",
+    "image": {
+      "src": "images/(A) Recumbent position for AP humerus. Note that hand is supinated. (B) AP humerus in.png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Positioning image"
+    }
+  },
+  {
+    "id": "shoulder-030",
+    "part": "humerus",
+    "projectionId": "humerus-ap-rec",
+    "projection": "AP humerus · recumbent",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "Which detail in the positioning image is most important for achieving the AP relationship?",
+    "options": [
+      "Supinated hand with epicondyles parallel to the IR",
+      "Thumb surface up with epicondyles superimposed",
+      "Back of hand on hip",
+      "Arm abducted 90°"
+    ],
+    "answer": "Supinated hand with epicondyles parallel to the IR",
+    "explanation": "These features establish the AP humerus position.",
+    "source": "Positioning practice · AP humerus, recumbent",
+    "image": {
+      "src": "images/(A) Recumbent position for AP humerus. Note that hand is supinated. (B) AP humerus in.png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Positioning image"
+    }
+  },
+  {
+    "id": "shoulder-031",
+    "part": "humerus",
+    "projectionId": "humerus-lat-rec",
+    "projection": "Lateral humerus · recumbent",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "How is the forearm rotated for a recumbent lateral humerus?",
+    "options": [
+      "Medially",
+      "Laterally",
+      "Not rotated",
+      "Supinated into AP"
+    ],
+    "answer": "Medially",
+    "explanation": "The forearm is rotated medially to place the humerus lateral.",
+    "source": "Positioning practice · Lateral humerus, recumbent"
+  },
+  {
+    "id": "shoulder-032",
+    "part": "humerus",
+    "projectionId": "humerus-lat-rec",
+    "projection": "Lateral humerus · recumbent",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "How should the humeral epicondyles appear during recumbent lateral positioning?",
+    "options": [
+      "Superimposed and perpendicular to the IR",
+      "Parallel to the IR",
+      "Separated and parallel",
+      "45° to the IR"
+    ],
+    "answer": "Superimposed and perpendicular to the IR",
+    "explanation": "The lateral position requires superimposed epicondyles perpendicular to the IR.",
+    "source": "Positioning practice · Lateral humerus, recumbent"
+  },
+  {
+    "id": "shoulder-033",
+    "part": "humerus",
+    "projectionId": "humerus-lat-rec",
+    "projection": "Lateral humerus · recumbent",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "Where may the palm rest during a recumbent lateral humerus?",
+    "options": [
+      "On the patient's side",
+      "On the forehead",
+      "On the opposite shoulder",
+      "Flat on the IR in supination"
+    ],
+    "answer": "On the patient's side",
+    "explanation": "The palm may rest on the patient's side.",
+    "source": "Positioning practice · Lateral humerus, recumbent"
+  },
+  {
+    "id": "shoulder-034",
+    "part": "humerus",
+    "projectionId": "humerus-lat-rec",
+    "projection": "Lateral humerus · recumbent",
+    "topic": "central-ray",
+    "type": "mcq",
+    "prompt": "Where is the CR centered for the recumbent lateral humerus?",
+    "options": [
+      "Midportion of the humerus",
+      "Surgical neck",
+      "Elbow joint",
+      "Greater tubercle"
+    ],
+    "answer": "Midportion of the humerus",
+    "explanation": "The CR is perpendicular to the midportion of the humerus.",
+    "source": "Positioning practice · Lateral humerus, recumbent"
+  },
+  {
+    "id": "shoulder-035",
+    "part": "humerus",
+    "projectionId": "humerus-lat-rec",
+    "projection": "Lateral humerus · recumbent",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "Which tubercle is demonstrated in profile medially on the recumbent lateral humerus?",
+    "options": [
+      "Lesser tubercle",
+      "Greater tubercle",
+      "Both",
+      "Neither"
+    ],
+    "answer": "Lesser tubercle",
+    "explanation": "The lesser tubercle is shown in medial profile.",
+    "source": "Positioning practice · Lateral humerus, recumbent"
+  },
+  {
+    "id": "shoulder-036",
+    "part": "humerus",
+    "projectionId": "humerus-lat-rec",
+    "projection": "Lateral humerus · recumbent",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "What should happen to the greater tubercle on a recumbent lateral humerus?",
+    "options": [
+      "It is superimposed over the humeral head",
+      "It is shown in lateral profile",
+      "It is projected below the glenoid",
+      "It is separated from the humeral head"
+    ],
+    "answer": "It is superimposed over the humeral head",
+    "explanation": "The greater tubercle is superimposed over the humeral head.",
+    "source": "Positioning practice · Lateral humerus, recumbent"
+  },
+  {
+    "id": "shoulder-037",
+    "part": "humerus",
+    "projectionId": "humerus-lat-rec",
+    "projection": "Lateral humerus · recumbent",
+    "topic": "anatomy",
+    "type": "mcq",
+    "prompt": "What anatomy must be visible on a recumbent lateral humerus?",
+    "options": [
+      "Entire humerus with shoulder and elbow joints",
+      "Only the distal humerus",
+      "Only the proximal humerus",
+      "Only the elbow"
+    ],
+    "answer": "Entire humerus with shoulder and elbow joints",
+    "explanation": "The entire humerus and both adjacent joints are required.",
+    "source": "Positioning practice · Lateral humerus, recumbent"
+  },
+  {
+    "id": "shoulder-038",
+    "part": "humerus",
+    "projectionId": "humerus-lat-rec",
+    "projection": "Lateral humerus · recumbent",
+    "topic": "anatomy",
+    "type": "mcq",
+    "prompt": "Which positioning image best represents a lateral humerus in a recumbent patient?",
+    "options": [
+      "A patient with the humerus positioned laterally and epicondyles superimposed",
+      "A supine AP humerus with the hand supinated",
+      "An AP shoulder in external rotation",
+      "A PA scapula"
+    ],
+    "answer": "A patient with the humerus positioned laterally and epicondyles superimposed",
+    "explanation": "The recumbent lateral position is defined by lateral humerus orientation and superimposed epicondyles.",
+    "source": "Positioning practice · Lateral humerus, recumbent",
+    "image": {
+      "src": "images/A patient with broken humerus may be easier to position for mediolateral projection as.png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Positioning image"
+    }
+  },
+  {
+    "id": "shoulder-039",
+    "part": "humerus",
+    "projectionId": "humerus-trauma",
+    "projection": "Trauma lateral · distal humerus",
+    "topic": "purpose",
+    "type": "mcq",
+    "prompt": "What portion of the humerus is emphasized by the trauma lateral humerus projection in the guide?",
+    "options": [
+      "Distal humerus",
+      "Proximal humerus only",
+      "Entire humerus only",
+      "Humeral head only"
+    ],
+    "answer": "Distal humerus",
+    "explanation": "The trauma view specifically demonstrates the distal humerus.",
+    "source": "Positioning practice · Trauma lateral humerus"
+  },
+  {
+    "id": "shoulder-040",
+    "part": "humerus",
+    "projectionId": "humerus-trauma",
+    "projection": "Trauma lateral · distal humerus",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "Where should the IR be placed for the trauma lateral humerus?",
+    "options": [
+      "Close to the axilla",
+      "At the wrist",
+      "Behind the opposite shoulder",
+      "Over the sternum"
+    ],
+    "answer": "Close to the axilla",
+    "explanation": "The guide places the IR close to the axilla.",
+    "source": "Positioning practice · Trauma lateral humerus"
+  },
+  {
+    "id": "shoulder-041",
+    "part": "humerus",
+    "projectionId": "humerus-trauma",
+    "projection": "Trauma lateral · distal humerus",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "How should the hand be oriented in the trauma lateral humerus setup?",
+    "options": [
+      "Thumb surface up",
+      "Palm fully pronated",
+      "Palm fully supinated flat on the IR",
+      "Back of hand on hip"
+    ],
+    "answer": "Thumb surface up",
+    "explanation": "The elbow is flexed and the thumb surface of the hand is turned up.",
+    "source": "Positioning practice · Trauma lateral humerus"
+  },
+  {
+    "id": "shoulder-042",
+    "part": "humerus",
+    "projectionId": "humerus-trauma",
+    "projection": "Trauma lateral · distal humerus",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "How should the lateral surface of the humerus relate to the CR?",
+    "options": [
+      "Perpendicular",
+      "Parallel",
+      "45°",
+      "No specific relationship"
+    ],
+    "answer": "Perpendicular",
+    "explanation": "The body is adjusted until the lateral surface of the humerus is perpendicular to the CR.",
+    "source": "Positioning practice · Trauma lateral humerus"
+  },
+  {
+    "id": "shoulder-043",
+    "part": "humerus",
+    "projectionId": "humerus-trauma",
+    "projection": "Trauma lateral · distal humerus",
+    "topic": "central-ray",
+    "type": "mcq",
+    "prompt": "How is the CR directed for the lateromedial recumbent trauma humerus?",
+    "options": [
+      "Horizontal and perpendicular to the midportion of the humerus",
+      "15° cephalad",
+      "45° caudad",
+      "Perpendicular to the surgical neck only"
+    ],
+    "answer": "Horizontal and perpendicular to the midportion of the humerus",
+    "explanation": "The lateromedial recumbent trauma view uses a horizontal CR to the midportion.",
+    "source": "Positioning practice · Trauma lateral humerus"
+  },
+  {
+    "id": "shoulder-044",
+    "part": "humerus",
+    "projectionId": "humerus-trauma",
+    "projection": "Trauma lateral · distal humerus",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "Which relationship should be present at the distal humerus on the trauma lateral?",
+    "options": [
+      "Superimposed epicondyles",
+      "Epicondyles parallel to the IR",
+      "Greater tubercle in profile",
+      "Open glenoid joint"
+    ],
+    "answer": "Superimposed epicondyles",
+    "explanation": "Superimposed epicondyles are the key lateral criterion.",
+    "source": "Positioning practice · Trauma lateral humerus"
+  },
+  {
+    "id": "shoulder-045",
+    "part": "humerus",
+    "projectionId": "humerus-trauma",
+    "projection": "Trauma lateral · distal humerus",
+    "topic": "anatomy",
+    "type": "mcq",
+    "prompt": "Which trauma humerus projection is being positioned here?",
+    "options": [
+      "Trauma lateral · distal humerus",
+      "AP humerus · recumbent",
+      "Lateral shoulder · Lawrence",
+      "AP elbow"
+    ],
+    "answer": "Trauma lateral · distal humerus",
+    "explanation": "The positioning is designed to demonstrate the distal humerus laterally in trauma.",
+    "source": "Positioning practice · Trauma lateral humerus",
+    "image": {
+      "src": "images/(A) Lateral recumbent body position to show distal lateral humerus. (B) Patient and IR.png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Positioning image"
+    }
+  },
+  {
+    "id": "shoulder-046",
+    "part": "shoulder",
+    "projectionId": "shoulder-external",
+    "projection": "AP shoulder · external rotation",
+    "topic": "central-ray",
+    "type": "mcq",
+    "prompt": "Where is the CR centered for an AP shoulder in external rotation?",
+    "options": [
+      "1 inch inferior to the coracoid process",
+      "At the acromion",
+      "At the surgical neck",
+      "2 inches medial to the coracoid"
+    ],
+    "answer": "1 inch inferior to the coracoid process",
+    "explanation": "All three routine AP shoulder rotations center 1 inch inferior to the coracoid process.",
+    "source": "Positioning practice · AP shoulder, external rotation"
+  },
+  {
+    "id": "shoulder-047",
+    "part": "shoulder",
+    "projectionId": "shoulder-external",
+    "projection": "AP shoulder · external rotation",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "How is the hand positioned for AP shoulder external rotation?",
+    "options": [
+      "Supinated",
+      "Pronated",
+      "Back of hand on hip",
+      "Palm against thigh"
+    ],
+    "answer": "Supinated",
+    "explanation": "The hand is supinated for external rotation.",
+    "source": "Positioning practice · AP shoulder, external rotation"
+  },
+  {
+    "id": "shoulder-048",
+    "part": "shoulder",
+    "projectionId": "shoulder-external",
+    "projection": "AP shoulder · external rotation",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "How should the humeral epicondyles be oriented for AP shoulder external rotation?",
+    "options": [
+      "Parallel with the IR",
+      "Perpendicular to the IR",
+      "At 45°",
+      "Superimposed"
+    ],
+    "answer": "Parallel with the IR",
+    "explanation": "External rotation places the epicondyles parallel with the IR.",
+    "source": "Positioning practice · AP shoulder, external rotation"
+  },
+  {
+    "id": "shoulder-049",
+    "part": "shoulder",
+    "projectionId": "shoulder-external",
+    "projection": "AP shoulder · external rotation",
+    "topic": "purpose",
+    "type": "mcq",
+    "prompt": "Which structure is demonstrated in profile with AP external rotation?",
+    "options": [
+      "Greater tubercle",
+      "Lesser tubercle",
+      "Coracoid process",
+      "Acromion"
+    ],
+    "answer": "Greater tubercle",
+    "explanation": "External rotation places the greater tubercle in profile laterally.",
+    "source": "Positioning practice · AP shoulder, external rotation"
+  },
+  {
+    "id": "shoulder-050",
+    "part": "shoulder",
+    "projectionId": "shoulder-external",
+    "projection": "AP shoulder · external rotation",
+    "topic": "anatomy",
+    "type": "mcq",
+    "prompt": "Which tendon insertion site is demonstrated by the external-rotation shoulder?",
+    "options": [
+      "Supraspinatus insertion",
+      "Subscapular tendon insertion",
+      "Biceps tendon only",
+      "Triceps insertion"
+    ],
+    "answer": "Supraspinatus insertion",
+    "explanation": "The guide associates external rotation with the greater tubercle and supraspinatus insertion.",
+    "source": "Positioning practice · AP shoulder, external rotation"
+  },
+  {
+    "id": "shoulder-051",
+    "part": "shoulder",
+    "projectionId": "shoulder-external",
+    "projection": "AP shoulder · external rotation",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "How should the humeral head appear on an AP external-rotation shoulder?",
+    "options": [
+      "In profile",
+      "Completely superimposed on the glenoid",
+      "In a true lateral position",
+      "Foreshortened"
+    ],
+    "answer": "In profile",
+    "explanation": "The humeral head should be in profile.",
+    "source": "Positioning practice · AP shoulder, external rotation"
+  },
+  {
+    "id": "shoulder-052",
+    "part": "shoulder",
+    "projectionId": "shoulder-external",
+    "projection": "AP shoulder · external rotation",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "What relationship is expected at the scapulohumeral joint on AP external rotation?",
+    "options": [
+      "Slight overlap of the humeral head on the glenoid cavity",
+      "Completely open joint space",
+      "Complete glenoid superimposition",
+      "No visible joint"
+    ],
+    "answer": "Slight overlap of the humeral head on the glenoid cavity",
+    "explanation": "The guide lists slight overlap of the humeral head on the glenoid cavity.",
+    "source": "Positioning practice · AP shoulder, external rotation"
+  },
+  {
+    "id": "shoulder-053",
+    "part": "shoulder",
+    "projectionId": "shoulder-external",
+    "projection": "AP shoulder · external rotation",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "Where should the lesser tubercle appear on AP external rotation?",
+    "options": [
+      "As an outline between the humeral head and greater tubercle",
+      "In medial profile",
+      "In lateral profile",
+      "Not visible"
+    ],
+    "answer": "As an outline between the humeral head and greater tubercle",
+    "explanation": "The lesser tubercle is seen as an outline between the head and greater tubercle.",
+    "source": "Positioning practice · AP shoulder, external rotation"
+  },
+  {
+    "id": "shoulder-054",
+    "part": "shoulder",
+    "projectionId": "shoulder-external",
+    "projection": "AP shoulder · external rotation",
+    "topic": "anatomy",
+    "type": "mcq",
+    "prompt": "Which AP shoulder rotation is shown in this positioning image?",
+    "options": [
+      "External rotation",
+      "Neutral rotation",
+      "Internal rotation",
+      "Grashey"
+    ],
+    "answer": "External rotation",
+    "explanation": "The arm is positioned for the AP external-rotation shoulder.",
+    "source": "Positioning practice · AP shoulder, external rotation",
+    "image": {
+      "src": "images/APshuolderExternal.png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Positioning image"
+    }
+  },
+  {
+    "id": "shoulder-055",
+    "part": "shoulder",
+    "projectionId": "shoulder-external",
+    "projection": "AP shoulder · external rotation",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "Which feature should be seen on this radiograph?",
+    "options": [
+      "Greater tubercle in lateral profile",
+      "Lesser tubercle in medial profile",
+      "Greater tubercle completely superimposed",
+      "Open glenoid joint space"
+    ],
+    "answer": "Greater tubercle in lateral profile",
+    "explanation": "External rotation shows the greater tubercle in lateral profile.",
+    "source": "Positioning practice · AP shoulder, external rotation",
+    "image": {
+      "src": "images/AP shoulder. External rotation xray.png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Radiograph"
+    }
+  },
+  {
+    "id": "shoulder-056",
+    "part": "shoulder",
+    "projectionId": "shoulder-external",
+    "projection": "AP shoulder · external rotation",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "Which finding identifies the external-rotation image in this comparison?",
+    "options": [
+      "Greater tubercle in profile",
+      "Lesser tubercle in medial profile",
+      "Epicondyles at 45°",
+      "Scapular Y configuration"
+    ],
+    "answer": "Greater tubercle in profile",
+    "explanation": "The defining external-rotation feature is the greater tubercle in profile.",
+    "source": "Positioning practice · AP shoulder, external rotation",
+    "image": {
+      "src": "images/(A) AP shoulder, external rotation humerus - greater tubercle in profile (arrow). (B) AP.png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Positioning image"
+    }
+  },
+  {
+    "id": "shoulder-057",
+    "part": "shoulder",
+    "projectionId": "shoulder-neutral",
+    "projection": "AP shoulder · neutral rotation",
+    "topic": "central-ray",
+    "type": "mcq",
+    "prompt": "Where is the CR centered for an AP shoulder in neutral rotation?",
+    "options": [
+      "1 inch inferior to the coracoid process",
+      "At the acromion",
+      "At the surgical neck",
+      "At the glenoid cavity directly"
+    ],
+    "answer": "1 inch inferior to the coracoid process",
+    "explanation": "The routine neutral AP shoulder centers 1 inch inferior to the coracoid.",
+    "source": "Positioning practice · AP shoulder, neutral rotation"
+  },
+  {
+    "id": "shoulder-058",
+    "part": "shoulder",
+    "projectionId": "shoulder-neutral",
+    "projection": "AP shoulder · neutral rotation",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "Where does the patient's palm rest for neutral shoulder rotation?",
+    "options": [
+      "Against the thigh",
+      "On the posterior hip",
+      "Supinated away from the body",
+      "On top of the head"
+    ],
+    "answer": "Against the thigh",
+    "explanation": "The palm rests against the thigh for neutral rotation.",
+    "source": "Positioning practice · AP shoulder, neutral rotation"
+  },
+  {
+    "id": "shoulder-059",
+    "part": "shoulder",
+    "projectionId": "shoulder-neutral",
+    "projection": "AP shoulder · neutral rotation",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "Approximately how are the humeral epicondyles oriented in neutral rotation?",
+    "options": [
+      "About 45° to the IR",
+      "Parallel with the IR",
+      "Perpendicular to the IR",
+      "Completely superimposed"
+    ],
+    "answer": "About 45° to the IR",
+    "explanation": "Neutral rotation places the epicondyles at about 45°.",
+    "source": "Positioning practice · AP shoulder, neutral rotation"
+  },
+  {
+    "id": "shoulder-060",
+    "part": "shoulder",
+    "projectionId": "shoulder-neutral",
+    "projection": "AP shoulder · neutral rotation",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "How should the greater tubercle appear in neutral rotation?",
+    "options": [
+      "Partially superimposed on the humeral head",
+      "In full lateral profile",
+      "In full medial profile",
+      "Completely absent"
+    ],
+    "answer": "Partially superimposed on the humeral head",
+    "explanation": "The greater tubercle partially overlaps the humeral head in neutral rotation.",
+    "source": "Positioning practice · AP shoulder, neutral rotation"
+  },
+  {
+    "id": "shoulder-061",
+    "part": "shoulder",
+    "projectionId": "shoulder-neutral",
+    "projection": "AP shoulder · neutral rotation",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "How should the humeral head appear in neutral rotation?",
+    "options": [
+      "In partial profile",
+      "In full profile",
+      "In true lateral",
+      "Completely superimposed"
+    ],
+    "answer": "In partial profile",
+    "explanation": "The guide lists the humeral head in partial profile.",
+    "source": "Positioning practice · AP shoulder, neutral rotation"
+  },
+  {
+    "id": "shoulder-062",
+    "part": "shoulder",
+    "projectionId": "shoulder-neutral",
+    "projection": "AP shoulder · neutral rotation",
+    "topic": "purpose",
+    "type": "mcq",
+    "prompt": "Which tendon insertion region is emphasized by neutral rotation?",
+    "options": [
+      "Posterior part of the supraspinatus insertion",
+      "Subscapular tendon insertion",
+      "Triceps insertion",
+      "Biceps insertion only"
+    ],
+    "answer": "Posterior part of the supraspinatus insertion",
+    "explanation": "The guide lists the posterior portion of the supraspinatus insertion.",
+    "source": "Positioning practice · AP shoulder, neutral rotation"
+  },
+  {
+    "id": "shoulder-063",
+    "part": "shoulder",
+    "projectionId": "shoulder-neutral",
+    "projection": "AP shoulder · neutral rotation",
+    "topic": "anatomy",
+    "type": "mcq",
+    "prompt": "Which AP shoulder position is represented by this neutral-rotation setup?",
+    "options": [
+      "Neutral rotation",
+      "External rotation",
+      "Internal rotation",
+      "Scapular Y"
+    ],
+    "answer": "Neutral rotation",
+    "explanation": "The palm-at-thigh position corresponds to neutral rotation.",
+    "source": "Positioning practice · AP shoulder, neutral rotation",
+    "image": {
+      "src": "images/APshoulderNeutral.png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Positioning image"
+    }
+  },
+  {
+    "id": "shoulder-064",
+    "part": "shoulder",
+    "projectionId": "shoulder-neutral",
+    "projection": "AP shoulder · neutral rotation",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "Which feature best identifies this neutral-rotation radiograph?",
+    "options": [
+      "Greater tubercle partially superimposed on the humeral head",
+      "Greater tubercle fully in profile",
+      "Lesser tubercle in full medial profile",
+      "Open glenoid joint space"
+    ],
+    "answer": "Greater tubercle partially superimposed on the humeral head",
+    "explanation": "Partial greater-tubercle overlap is characteristic of neutral rotation.",
+    "source": "Positioning practice · AP shoulder, neutral rotation",
+    "image": {
+      "src": "images/AP shoulder. Neutral rotation humerus. xray.png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Radiograph"
+    }
+  },
+  {
+    "id": "shoulder-065",
+    "part": "shoulder",
+    "projectionId": "shoulder-internal",
+    "projection": "AP shoulder · internal rotation",
+    "topic": "central-ray",
+    "type": "mcq",
+    "prompt": "Where is the CR centered for an AP shoulder in internal rotation?",
+    "options": [
+      "1 inch inferior to the coracoid process",
+      "At the acromion",
+      "At the surgical neck",
+      "At the inferior angle of the scapula"
+    ],
+    "answer": "1 inch inferior to the coracoid process",
+    "explanation": "The CR is perpendicular 1 inch inferior to the coracoid process.",
+    "source": "Positioning practice · AP shoulder, internal rotation"
+  },
+  {
+    "id": "shoulder-066",
+    "part": "shoulder",
+    "projectionId": "shoulder-internal",
+    "projection": "AP shoulder · internal rotation",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "How is the arm positioned for AP shoulder internal rotation?",
+    "options": [
+      "Flex elbow, internally rotate arm, and place back of hand on hip",
+      "Supinate hand with elbow extended",
+      "Palm against thigh",
+      "Raise uninjured arm above head"
+    ],
+    "answer": "Flex elbow, internally rotate arm, and place back of hand on hip",
+    "explanation": "This positioning internally rotates the humerus.",
+    "source": "Positioning practice · AP shoulder, internal rotation"
+  },
+  {
+    "id": "shoulder-067",
+    "part": "shoulder",
+    "projectionId": "shoulder-internal",
+    "projection": "AP shoulder · internal rotation",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "How should the humeral epicondyles be oriented in internal rotation?",
+    "options": [
+      "Perpendicular to the IR",
+      "Parallel with the IR",
+      "About 45°",
+      "Superimposed"
+    ],
+    "answer": "Perpendicular to the IR",
+    "explanation": "Internal rotation places the epicondyles perpendicular to the IR.",
+    "source": "Positioning practice · AP shoulder, internal rotation"
+  },
+  {
+    "id": "shoulder-068",
+    "part": "shoulder",
+    "projectionId": "shoulder-internal",
+    "projection": "AP shoulder · internal rotation",
+    "topic": "purpose",
+    "type": "mcq",
+    "prompt": "Which tendon insertion site is associated with AP internal rotation?",
+    "options": [
+      "Subscapular tendon insertion",
+      "Supraspinatus insertion",
+      "Triceps insertion",
+      "Biceps insertion only"
+    ],
+    "answer": "Subscapular tendon insertion",
+    "explanation": "The guide identifies the subscapular tendon insertion site.",
+    "source": "Positioning practice · AP shoulder, internal rotation"
+  },
+  {
+    "id": "shoulder-069",
+    "part": "shoulder",
+    "projectionId": "shoulder-internal",
+    "projection": "AP shoulder · internal rotation",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "Which tubercle should be in profile on an AP internal-rotation shoulder?",
+    "options": [
+      "Lesser tubercle medially",
+      "Greater tubercle laterally",
+      "Both tubercles laterally",
+      "Neither"
+    ],
+    "answer": "Lesser tubercle medially",
+    "explanation": "The lesser tubercle is demonstrated in medial profile.",
+    "source": "Positioning practice · AP shoulder, internal rotation"
+  },
+  {
+    "id": "shoulder-070",
+    "part": "shoulder",
+    "projectionId": "shoulder-internal",
+    "projection": "AP shoulder · internal rotation",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "What happens to the greater tubercle on AP internal rotation?",
+    "options": [
+      "Its outline is superimposed over the humeral head",
+      "It is shown in lateral profile",
+      "It is projected below the glenoid",
+      "It is completely separated from the humeral head"
+    ],
+    "answer": "Its outline is superimposed over the humeral head",
+    "explanation": "The greater tubercle overlaps the humeral head.",
+    "source": "Positioning practice · AP shoulder, internal rotation"
+  },
+  {
+    "id": "shoulder-071",
+    "part": "shoulder",
+    "projectionId": "shoulder-internal",
+    "projection": "AP shoulder · internal rotation",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "How does humeral head overlap of the glenoid compare with external or neutral rotation?",
+    "options": [
+      "There is greater overlap",
+      "There is less overlap",
+      "There is no overlap",
+      "It is identical in all cases"
+    ],
+    "answer": "There is greater overlap",
+    "explanation": "The guide specifically states greater overlap in internal rotation.",
+    "source": "Positioning practice · AP shoulder, internal rotation"
+  },
+  {
+    "id": "shoulder-072",
+    "part": "shoulder",
+    "projectionId": "shoulder-internal",
+    "projection": "AP shoulder · internal rotation",
+    "topic": "anatomy",
+    "type": "mcq",
+    "prompt": "Which AP shoulder rotation is represented by the hand-on-hip position?",
+    "options": [
+      "Internal rotation",
+      "External rotation",
+      "Neutral rotation",
+      "Grashey"
+    ],
+    "answer": "Internal rotation",
+    "explanation": "The back-of-hand-on-hip position corresponds to internal rotation.",
+    "source": "Positioning practice · AP shoulder, internal rotation",
+    "image": {
+      "src": "images/APshoulderInternal.png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Positioning image"
+    }
+  },
+  {
+    "id": "shoulder-073",
+    "part": "shoulder",
+    "projectionId": "shoulder-internal",
+    "projection": "AP shoulder · internal rotation",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "Which feature should be seen on this internal-rotation radiograph?",
+    "options": [
+      "Lesser tubercle in medial profile",
+      "Greater tubercle in lateral profile",
+      "Greater tubercle completely free of the head",
+      "Open glenoid joint space"
+    ],
+    "answer": "Lesser tubercle in medial profile",
+    "explanation": "The lesser tubercle in medial profile is the defining feature.",
+    "source": "Positioning practice · AP shoulder, internal rotation",
+    "image": {
+      "src": "images/AP shoulder. Internal rotationxray.png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Radiograph"
+    }
+  },
+  {
+    "id": "shoulder-074",
+    "part": "shoulder",
+    "projectionId": "shoulder-internal",
+    "projection": "AP shoulder · internal rotation",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "What does this image demonstrate about tubercle position?",
+    "options": [
+      "Lesser tubercle in profile with greater tubercle superimposed on the humeral head",
+      "Greater tubercle in profile with lesser tubercle hidden",
+      "Both tubercles in profile",
+      "Neither tubercle visible"
+    ],
+    "answer": "Lesser tubercle in profile with greater tubercle superimposed on the humeral head",
+    "explanation": "That is the expected internal-rotation appearance.",
+    "source": "Positioning practice · AP shoulder, internal rotation",
+    "image": {
+      "src": "images/AP shoulder, internal rotation humerus - greater tubercle (arrow) - lesser tubercle in profile.png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Positioning image"
+    }
+  },
+  {
+    "id": "shoulder-075",
+    "part": "shoulder",
+    "projectionId": "shoulder-grashey",
+    "projection": "Grashey method · AP oblique",
+    "topic": "purpose",
+    "type": "mcq",
+    "prompt": "What is the primary purpose of the Grashey method?",
+    "options": [
+      "Demonstrate the glenohumeral joint space",
+      "Show the scapular Y",
+      "Show the clavicle above the ribs",
+      "Evaluate AC separation"
+    ],
+    "answer": "Demonstrate the glenohumeral joint space",
+    "explanation": "The Grashey method opens the joint space between the humeral head and glenoid cavity.",
+    "source": "Positioning practice · Grashey method"
+  },
+  {
+    "id": "shoulder-076",
+    "part": "shoulder",
+    "projectionId": "shoulder-grashey",
+    "projection": "Grashey method · AP oblique",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "How much is the body rotated for the Grashey method?",
+    "options": [
+      "35–45° toward the affected side",
+      "45–60° away from the affected side",
+      "15–25° away from the affected side",
+      "90° toward the affected side"
+    ],
+    "answer": "35–45° toward the affected side",
+    "explanation": "The body is rotated 35–45° toward the affected side.",
+    "source": "Positioning practice · Grashey method"
+  },
+  {
+    "id": "shoulder-077",
+    "part": "shoulder",
+    "projectionId": "shoulder-grashey",
+    "projection": "Grashey method · AP oblique",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "What is the goal of the body rotation in the Grashey method?",
+    "options": [
+      "Place the scapula parallel with the IR",
+      "Place the scapula perpendicular to the IR",
+      "Superimpose the scapula on the thorax",
+      "Move the clavicle above the ribs"
+    ],
+    "answer": "Place the scapula parallel with the IR",
+    "explanation": "Rotation is adjusted until the scapula is parallel with the IR.",
+    "source": "Positioning practice · Grashey method"
+  },
+  {
+    "id": "shoulder-078",
+    "part": "shoulder",
+    "projectionId": "shoulder-grashey",
+    "projection": "Grashey method · AP oblique",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "What should be in contact with the IR in the Grashey position?",
+    "options": [
+      "Head of the humerus",
+      "Inferior angle of the scapula only",
+      "Acromion only",
+      "Opposite shoulder"
+    ],
+    "answer": "Head of the humerus",
+    "explanation": "The guide notes that the humeral head is in contact with the IR.",
+    "source": "Positioning practice · Grashey method"
+  },
+  {
+    "id": "shoulder-079",
+    "part": "shoulder",
+    "projectionId": "shoulder-grashey",
+    "projection": "Grashey method · AP oblique",
+    "topic": "central-ray",
+    "type": "mcq",
+    "prompt": "Where is the CR centered for the Grashey method?",
+    "options": [
+      "Scapulohumeral joint",
+      "1 inch inferior to the coracoid process",
+      "Surgical neck",
+      "Midscapular area"
+    ],
+    "answer": "Scapulohumeral joint",
+    "explanation": "The CR is perpendicular to the IR at the scapulohumeral joint.",
+    "source": "Positioning practice · Grashey method"
+  },
+  {
+    "id": "shoulder-080",
+    "part": "shoulder",
+    "projectionId": "shoulder-grashey",
+    "projection": "Grashey method · AP oblique",
+    "topic": "anatomy",
+    "type": "mcq",
+    "prompt": "Where is the scapulohumeral joint located according to the guide?",
+    "options": [
+      "2 inches medial and 2 inches inferior to the superolateral shoulder border",
+      "1 inch inferior to the coracoid only",
+      "At the acromion",
+      "At the midpoint of the clavicle"
+    ],
+    "answer": "2 inches medial and 2 inches inferior to the superolateral shoulder border",
+    "explanation": "The guide gives this landmark location for the scapulohumeral joint.",
+    "source": "Positioning practice · Grashey method"
+  },
+  {
+    "id": "shoulder-081",
+    "part": "shoulder",
+    "projectionId": "shoulder-grashey",
+    "projection": "Grashey method · AP oblique",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "What should be open on a correctly positioned Grashey image?",
+    "options": [
+      "Joint space between the humeral head and glenoid cavity",
+      "AC joint only",
+      "Radioulnar joint",
+      "SC joint only"
+    ],
+    "answer": "Joint space between the humeral head and glenoid cavity",
+    "explanation": "An open glenohumeral joint space is the key Grashey criterion.",
+    "source": "Positioning practice · Grashey method"
+  },
+  {
+    "id": "shoulder-082",
+    "part": "shoulder",
+    "projectionId": "shoulder-grashey",
+    "projection": "Grashey method · AP oblique",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "How should the glenoid cavity appear on a satisfactory Grashey image?",
+    "options": [
+      "In profile",
+      "Completely superimposed by the humeral head",
+      "Foreshortened",
+      "Hidden by the scapula"
+    ],
+    "answer": "In profile",
+    "explanation": "The glenoid cavity should be demonstrated in profile.",
+    "source": "Positioning practice · Grashey method"
+  },
+  {
+    "id": "shoulder-083",
+    "part": "shoulder",
+    "projectionId": "shoulder-grashey",
+    "projection": "Grashey method · AP oblique",
+    "topic": "ir-collimation",
+    "type": "mcq",
+    "prompt": "Which clavicular portion should be included in Grashey collimation according to the guide?",
+    "options": [
+      "Lateral half of the clavicle",
+      "Entire clavicle",
+      "Medial half only",
+      "No clavicle"
+    ],
+    "answer": "Lateral half of the clavicle",
+    "explanation": "The guide specifically notes the lateral half of the clavicle.",
+    "source": "Positioning practice · Grashey method"
+  },
+  {
+    "id": "shoulder-084",
+    "part": "shoulder",
+    "projectionId": "shoulder-grashey",
+    "projection": "Grashey method · AP oblique",
+    "topic": "anatomy",
+    "type": "mcq",
+    "prompt": "Which method is shown in this upright positioning image?",
+    "options": [
+      "Grashey method",
+      "Scapular Y",
+      "Lawrence method",
+      "Pearson method"
+    ],
+    "answer": "Grashey method",
+    "explanation": "The patient is rotated toward the affected side for the AP oblique glenoid view.",
+    "source": "Positioning practice · Grashey method",
+    "image": {
+      "src": "images/(A) Upright AP oblique glenoid cavity Grashey method. (B) Note position of shoulder and.png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Positioning image"
+    }
+  },
+  {
+    "id": "shoulder-085",
+    "part": "shoulder",
+    "projectionId": "shoulder-grashey",
+    "projection": "Grashey method · AP oblique",
+    "topic": "anatomy",
+    "type": "mcq",
+    "prompt": "Which method is shown in this recumbent positioning image?",
+    "options": [
+      "Grashey method",
+      "Scapular Y",
+      "Lawrence method",
+      "AP scapula"
+    ],
+    "answer": "Grashey method",
+    "explanation": "The image demonstrates a recumbent AP oblique glenoid-cavity position.",
+    "source": "Positioning practice · Grashey method",
+    "image": {
+      "src": "images/Recumbent AP oblique glenoid cavity Grashey method..png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Positioning image"
+    }
+  },
+  {
+    "id": "shoulder-086",
+    "part": "shoulder",
+    "projectionId": "shoulder-grashey",
+    "projection": "Grashey method · AP oblique",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "Which feature should be present on this Grashey radiograph?",
+    "options": [
+      "Open joint space between humeral head and glenoid cavity",
+      "Humeral head and glenoid completely superimposed",
+      "Greater tubercle in medial profile",
+      "Scapular body over the thoracic spine"
+    ],
+    "answer": "Open joint space between humeral head and glenoid cavity",
+    "explanation": "The defining image criterion is an open scapulohumeral joint.",
+    "source": "Positioning practice · Grashey method",
+    "image": {
+      "src": "images/AP oblique glenoid cavity Grashey method.xray.png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Radiograph"
+    }
+  },
+  {
+    "id": "shoulder-087",
+    "part": "shoulder",
+    "projectionId": "shoulder-grashey",
+    "projection": "Grashey method · AP oblique",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "If the glenohumeral joint is not open on a Grashey image, which positioning factor is most directly suspect based on the guide?",
+    "options": [
+      "Incorrect degree of body rotation",
+      "Incorrect breathing phase only",
+      "Using a 48-inch SID",
+      "Failure to flex the elbow 90°"
+    ],
+    "answer": "Incorrect degree of body rotation",
+    "explanation": "The body rotation is what aligns the scapula parallel with the IR to open the joint.",
+    "source": "Positioning practice · Grashey method"
+  },
+  {
+    "id": "shoulder-088",
+    "part": "shoulder",
+    "projectionId": "shoulder-lawrence",
+    "projection": "Lawrence method · transthoracic lateral",
+    "topic": "purpose",
+    "type": "mcq",
+    "prompt": "What anatomy is demonstrated by the Lawrence transthoracic lateral shoulder?",
+    "options": [
+      "Lateral shoulder and proximal humerus through the thorax",
+      "Open glenohumeral joint en face",
+      "AC joints bilaterally",
+      "Scapular body free of ribs"
+    ],
+    "answer": "Lateral shoulder and proximal humerus through the thorax",
+    "explanation": "The shoulder and proximal humerus are projected through the thorax.",
+    "source": "Positioning practice · Lawrence method"
+  },
+  {
+    "id": "shoulder-089",
+    "part": "shoulder",
+    "projectionId": "shoulder-lawrence",
+    "projection": "Lawrence method · transthoracic lateral",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "What is done with the uninjured arm for the Lawrence method?",
+    "options": [
+      "Raise it and rest the forearm on the head",
+      "Place it behind the back",
+      "Keep it at the side",
+      "Cross it over the abdomen"
+    ],
+    "answer": "Raise it and rest the forearm on the head",
+    "explanation": "The unaffected arm is raised to elevate the opposite shoulder.",
+    "source": "Positioning practice · Lawrence method"
+  },
+  {
+    "id": "shoulder-090",
+    "part": "shoulder",
+    "projectionId": "shoulder-lawrence",
+    "projection": "Lawrence method · transthoracic lateral",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "Where is the IR centered for the Lawrence method?",
+    "options": [
+      "Surgical neck of the humerus",
+      "Coracoid process",
+      "AC joint",
+      "Inferior angle of scapula"
+    ],
+    "answer": "Surgical neck of the humerus",
+    "explanation": "The IR is centered at the surgical neck.",
+    "source": "Positioning practice · Lawrence method"
+  },
+  {
+    "id": "shoulder-091",
+    "part": "shoulder",
+    "projectionId": "shoulder-lawrence",
+    "projection": "Lawrence method · transthoracic lateral",
+    "topic": "central-ray",
+    "type": "mcq",
+    "prompt": "Where is the CR directed for the Lawrence method?",
+    "options": [
+      "Midcoronal plane at the level of the surgical neck",
+      "1 inch inferior to the coracoid",
+      "Midscapular area",
+      "AC joint"
+    ],
+    "answer": "Midcoronal plane at the level of the surgical neck",
+    "explanation": "The CR is perpendicular to the IR at the surgical-neck level.",
+    "source": "Positioning practice · Lawrence method"
+  },
+  {
+    "id": "shoulder-092",
+    "part": "shoulder",
+    "projectionId": "shoulder-lawrence",
+    "projection": "Lawrence method · transthoracic lateral",
+    "topic": "central-ray",
+    "type": "mcq",
+    "prompt": "What CR adjustment is used if the patient cannot elevate the unaffected arm?",
+    "options": [
+      "10–15° cephalad",
+      "15–30° caudad",
+      "45° toward the shoulder",
+      "20° toward the elbow"
+    ],
+    "answer": "10–15° cephalad",
+    "explanation": "The guide recommends a 10–15° cephalad angle when the arm cannot be elevated.",
+    "source": "Positioning practice · Lawrence method"
+  },
+  {
+    "id": "shoulder-093",
+    "part": "shoulder",
+    "projectionId": "shoulder-lawrence",
+    "projection": "Lawrence method · transthoracic lateral",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "What breathing instruction is used for the Lawrence method?",
+    "options": [
+      "Full inspiration",
+      "End expiration",
+      "Slow breathing",
+      "Suspend after shallow expiration"
+    ],
+    "answer": "Full inspiration",
+    "explanation": "The guide specifies full inspiration.",
+    "source": "Positioning practice · Lawrence method"
+  },
+  {
+    "id": "shoulder-094",
+    "part": "shoulder",
+    "projectionId": "shoulder-lawrence",
+    "projection": "Lawrence method · transthoracic lateral",
+    "topic": "purpose",
+    "type": "mcq",
+    "prompt": "Why is full inspiration used for the Lawrence method?",
+    "options": [
+      "Improves contrast and decreases exposure",
+      "Opens the glenohumeral joint",
+      "Raises the clavicle above the ribs",
+      "Superimposes the scapula on the thoracic spine"
+    ],
+    "answer": "Improves contrast and decreases exposure",
+    "explanation": "This is the reason stated in the guide.",
+    "source": "Positioning practice · Lawrence method"
+  },
+  {
+    "id": "shoulder-095",
+    "part": "shoulder",
+    "projectionId": "shoulder-lawrence",
+    "projection": "Lawrence method · transthoracic lateral",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "What should be seen through the lung field on a satisfactory Lawrence image?",
+    "options": [
+      "Scapula, clavicle, and proximal humerus",
+      "Only the humeral head",
+      "Only the scapular body",
+      "Only the AC joint"
+    ],
+    "answer": "Scapula, clavicle, and proximal humerus",
+    "explanation": "These structures should be visualized through the lung field.",
+    "source": "Positioning practice · Lawrence method"
+  },
+  {
+    "id": "shoulder-096",
+    "part": "shoulder",
+    "projectionId": "shoulder-lawrence",
+    "projection": "Lawrence method · transthoracic lateral",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "What relationship should the scapula have to the thoracic spine on the Lawrence method?",
+    "options": [
+      "Superimposed",
+      "Completely free",
+      "Parallel but separated",
+      "Projected below it"
+    ],
+    "answer": "Superimposed",
+    "explanation": "The guide lists scapular superimposition over the thoracic spine.",
+    "source": "Positioning practice · Lawrence method"
+  },
+  {
+    "id": "shoulder-097",
+    "part": "shoulder",
+    "projectionId": "shoulder-lawrence",
+    "projection": "Lawrence method · transthoracic lateral",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "Where should the unaffected clavicle and humerus project?",
+    "options": [
+      "Above the shoulder of interest",
+      "Below the shoulder of interest",
+      "Directly over the surgical neck",
+      "Outside the image"
+    ],
+    "answer": "Above the shoulder of interest",
+    "explanation": "The unaffected clavicle and humerus should project above the shoulder.",
+    "source": "Positioning practice · Lawrence method"
+  },
+  {
+    "id": "shoulder-098",
+    "part": "shoulder",
+    "projectionId": "shoulder-lawrence",
+    "projection": "Lawrence method · transthoracic lateral",
+    "topic": "anatomy",
+    "type": "mcq",
+    "prompt": "Which projection is shown in this upright positioning image?",
+    "options": [
+      "Lawrence transthoracic lateral shoulder",
+      "Grashey method",
+      "Scapular Y",
+      "AP internal shoulder"
+    ],
+    "answer": "Lawrence transthoracic lateral shoulder",
+    "explanation": "The unaffected arm is elevated for the transthoracic lateral.",
+    "source": "Positioning practice · Lawrence method",
+    "image": {
+      "src": "images/Upright transthoracic lateral shoulder Lawrence method..png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Positioning image"
+    }
+  },
+  {
+    "id": "shoulder-099",
+    "part": "shoulder",
+    "projectionId": "shoulder-lawrence",
+    "projection": "Lawrence method · transthoracic lateral",
+    "topic": "anatomy",
+    "type": "mcq",
+    "prompt": "Which projection is shown in this recumbent positioning image?",
+    "options": [
+      "Lawrence transthoracic lateral shoulder",
+      "AP humerus",
+      "Scapular Y",
+      "Lateral scapula"
+    ],
+    "answer": "Lawrence transthoracic lateral shoulder",
+    "explanation": "The image demonstrates the dorsal-decubitus version of the transthoracic lateral.",
+    "source": "Positioning practice · Lawrence method",
+    "image": {
+      "src": "images/Dorsal decubitus transthoracic lateral shoulder Lawrence method..png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Positioning image"
+    }
+  },
+  {
+    "id": "shoulder-100",
+    "part": "shoulder",
+    "projectionId": "shoulder-lawrence",
+    "projection": "Lawrence method · transthoracic lateral",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "Which feature should be present on this transthoracic lateral radiograph?",
+    "options": [
+      "Proximal humerus visible through the thorax",
+      "Open glenoid cavity in profile",
+      "Both AC joints on one image",
+      "Greater tubercle in lateral profile"
+    ],
+    "answer": "Proximal humerus visible through the thorax",
+    "explanation": "The Lawrence method projects the proximal humerus through the thorax.",
+    "source": "Positioning practice · Lawrence method",
+    "image": {
+      "src": "images/Transthoracic lateral shoulder Lawrence method.xray.png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Radiograph"
+    }
+  },
+  {
+    "id": "shoulder-101",
+    "part": "shoulder",
+    "projectionId": "shoulder-y",
+    "projection": "Scapular Y · PA oblique",
+    "topic": "purpose",
+    "type": "mcq",
+    "prompt": "What is the primary purpose of the Scapular Y shoulder projection?",
+    "options": [
+      "Evaluate anterior or posterior humeral dislocation",
+      "Open the glenohumeral joint space",
+      "Evaluate AC separation",
+      "Show the first CMC joint"
+    ],
+    "answer": "Evaluate anterior or posterior humeral dislocation",
+    "explanation": "The guide identifies dislocation evaluation as the purpose of the Scapular Y.",
+    "source": "Positioning practice · Scapular Y"
+  },
+  {
+    "id": "shoulder-102",
+    "part": "shoulder",
+    "projectionId": "shoulder-y",
+    "projection": "Scapular Y · PA oblique",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "How much is the patient rotated for a Scapular Y?",
+    "options": [
+      "45–60°",
       "35–45°",
-      "10–15°",
-      "60–70°",
+      "15–25°",
       "90°"
     ],
-    "answer": "35–45°",
-    "explanation": "Rotate 35–45° toward the affected side and adjust until the scapula is parallel to the IR.",
-    "source": "Positioning practice · Grashey method",
+    "answer": "45–60°",
+    "explanation": "The midcoronal plane forms a 45–60° angle with the IR.",
+    "source": "Positioning practice · Scapular Y"
+  },
+  {
+    "id": "shoulder-103",
     "part": "shoulder",
-    "projectionId": "shoulder-grashey"
+    "projectionId": "shoulder-y",
+    "projection": "Scapular Y · PA oblique",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "How should the flat surface of the scapula relate to the IR for a Scapular Y?",
+    "options": [
+      "Perpendicular",
+      "Parallel",
+      "45°",
+      "No specific relationship"
+    ],
+    "answer": "Perpendicular",
+    "explanation": "The scapula is palpated and positioned with its flat surface perpendicular to the IR.",
+    "source": "Positioning practice · Scapular Y"
+  },
+  {
+    "id": "shoulder-104",
+    "part": "shoulder",
+    "projectionId": "shoulder-y",
+    "projection": "Scapular Y · PA oblique",
+    "topic": "central-ray",
+    "type": "mcq",
+    "prompt": "Where is the CR centered for the Scapular Y?",
+    "options": [
+      "Scapulohumeral joint",
+      "1 inch inferior to the coracoid",
+      "Surgical neck",
+      "Midshaft clavicle"
+    ],
+    "answer": "Scapulohumeral joint",
+    "explanation": "The CR is perpendicular to the scapulohumeral joint.",
+    "source": "Positioning practice · Scapular Y"
+  },
+  {
+    "id": "shoulder-105",
+    "part": "shoulder",
+    "projectionId": "shoulder-y",
+    "projection": "Scapular Y · PA oblique",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "What relationship should the humeral head have to the glenoid cavity on a normal Scapular Y?",
+    "options": [
+      "Superimposed",
+      "Completely separated",
+      "Humeral head lateral to the glenoid",
+      "Humeral head medial to the glenoid"
+    ],
+    "answer": "Superimposed",
+    "explanation": "The normal evaluation criterion is superimposition of the humeral head and glenoid cavity.",
+    "source": "Positioning practice · Scapular Y"
+  },
+  {
+    "id": "shoulder-106",
+    "part": "shoulder",
+    "projectionId": "shoulder-y",
+    "projection": "Scapular Y · PA oblique",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "What relationship should the humeral shaft have to the scapular body?",
+    "options": [
+      "Superimposed",
+      "Completely separated",
+      "Parallel without overlap",
+      "Perpendicular"
+    ],
+    "answer": "Superimposed",
+    "explanation": "The humeral shaft and scapular body should be superimposed.",
+    "source": "Positioning practice · Scapular Y"
+  },
+  {
+    "id": "shoulder-107",
+    "part": "shoulder",
+    "projectionId": "shoulder-y",
+    "projection": "Scapular Y · PA oblique",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "What should be true of the scapular body relative to the bony thorax?",
+    "options": [
+      "No superimposition",
+      "Complete superimposition",
+      "Only superior half superimposed",
+      "Only inferior half superimposed"
+    ],
+    "answer": "No superimposition",
+    "explanation": "The scapular body should be free of the bony thorax.",
+    "source": "Positioning practice · Scapular Y"
+  },
+  {
+    "id": "shoulder-108",
+    "part": "shoulder",
+    "projectionId": "shoulder-y",
+    "projection": "Scapular Y · PA oblique",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "How should the lateral and vertebral borders of the scapula appear?",
+    "options": [
+      "Superimposed",
+      "Widely separated",
+      "At 45° to one another",
+      "Not included"
+    ],
+    "answer": "Superimposed",
+    "explanation": "The scapula should be in lateral profile with these borders superimposed.",
+    "source": "Positioning practice · Scapular Y"
+  },
+  {
+    "id": "shoulder-109",
+    "part": "shoulder",
+    "projectionId": "shoulder-y",
+    "projection": "Scapular Y · PA oblique",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "Where may the coracoid process project on a Scapular Y?",
+    "options": [
+      "Superimposed on or below the clavicle",
+      "Above the humeral head only",
+      "Below the inferior angle",
+      "Outside the thorax"
+    ],
+    "answer": "Superimposed on or below the clavicle",
+    "explanation": "The guide notes that the coracoid may overlap or project below the clavicle.",
+    "source": "Positioning practice · Scapular Y"
+  },
+  {
+    "id": "shoulder-110",
+    "part": "shoulder",
+    "projectionId": "shoulder-y",
+    "projection": "Scapular Y · PA oblique",
+    "topic": "anatomy",
+    "type": "mcq",
+    "prompt": "Which shoulder projection is being positioned in this PA oblique setup?",
+    "options": [
+      "Scapular Y",
+      "Grashey method",
+      "Lawrence method",
+      "AP scapula"
+    ],
+    "answer": "Scapular Y",
+    "explanation": "The image demonstrates the PA oblique shoulder position used for the Scapular Y.",
+    "source": "Positioning practice · Scapular Y",
+    "image": {
+      "src": "images/(A) PA oblique shoulder joint. (B) Perspective from x-ray tube showing scapula centered in.png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Positioning image"
+    }
+  },
+  {
+    "id": "shoulder-111",
+    "part": "shoulder",
+    "projectionId": "shoulder-y",
+    "projection": "Scapular Y · PA oblique",
+    "topic": "anatomy",
+    "type": "mcq",
+    "prompt": "Which projection is demonstrated on this radiograph?",
+    "options": [
+      "Scapular Y",
+      "Grashey method",
+      "AP external shoulder",
+      "Lateral scapula"
+    ],
+    "answer": "Scapular Y",
+    "explanation": "The radiograph shows the characteristic Y formed by the scapular body, acromion, and coracoid.",
+    "source": "Positioning practice · Scapular Y",
+    "image": {
+      "src": "images/PA oblique shoulder joint. Note scapular Y components—body, acromion, and coracoidxray.png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Radiograph"
+    }
+  },
+  {
+    "id": "shoulder-112",
+    "part": "shoulder",
+    "projectionId": "shoulder-y",
+    "projection": "Scapular Y · PA oblique",
+    "topic": "pathology",
+    "type": "mcq",
+    "prompt": "What abnormality is demonstrated in this supplied Scapular Y image?",
+    "options": [
+      "Anterior dislocation",
+      "Posterior dislocation",
+      "AC separation",
+      "Clavicle fracture"
+    ],
+    "answer": "Anterior dislocation",
+    "explanation": "The supplied image is labeled as showing an anterior shoulder dislocation.",
+    "source": "Positioning practice · Scapular Y",
+    "image": {
+      "src": "images/PA oblique shoulder joint showing anterior dislocation (humeral head projected beneath.png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Positioning image"
+    }
+  },
+  {
+    "id": "shoulder-113",
+    "part": "shoulder",
+    "projectionId": "shoulder-y",
+    "projection": "Scapular Y · PA oblique",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "Which normal relationship is disrupted when a dislocation is present on the Scapular Y?",
+    "options": [
+      "Superimposition of the humeral head and glenoid cavity",
+      "Superimposition of the lateral and vertebral scapular borders",
+      "Visibility of the clavicle",
+      "Projection of the coracoid below the clavicle"
+    ],
+    "answer": "Superimposition of the humeral head and glenoid cavity",
+    "explanation": "The humeral head should normally be superimposed on the glenoid cavity.",
+    "source": "Positioning practice · Scapular Y"
+  },
+  {
+    "id": "shoulder-114",
+    "part": "ac",
+    "projectionId": "ac-pearson",
+    "projection": "Pearson method · bilateral AC joints",
+    "topic": "purpose",
+    "type": "mcq",
+    "prompt": "What is the Pearson method used to evaluate?",
+    "options": [
+      "AC joint dislocation, separation, and function",
+      "Glenohumeral dislocation only",
+      "Scapular fractures",
+      "First CMC arthritis"
+    ],
+    "answer": "AC joint dislocation, separation, and function",
+    "explanation": "The guide lists AC dislocation, separation, and joint function.",
+    "source": "Positioning practice · Pearson method"
+  },
+  {
+    "id": "shoulder-115",
+    "part": "ac",
+    "projectionId": "ac-pearson",
+    "projection": "Pearson method · bilateral AC joints",
+    "topic": "ir-collimation",
+    "type": "mcq",
+    "prompt": "What SID is used for the Pearson bilateral AC-joint method?",
+    "options": [
+      "72 inches",
+      "48 inches",
+      "40 inches",
+      "18 inches"
+    ],
+    "answer": "72 inches",
+    "explanation": "The Pearson method uses a 72-inch SID.",
+    "source": "Positioning practice · Pearson method"
+  },
+  {
+    "id": "shoulder-116",
+    "part": "ac",
+    "projectionId": "ac-pearson",
+    "projection": "Pearson method · bilateral AC joints",
+    "topic": "purpose",
+    "type": "mcq",
+    "prompt": "Why is a 72-inch SID used for bilateral AC joints?",
+    "options": [
+      "To reduce magnification and include both joints on one image",
+      "To magnify AC separation",
+      "To blur lung markings",
+      "To open the glenohumeral joint"
+    ],
+    "answer": "To reduce magnification and include both joints on one image",
+    "explanation": "The guide explicitly gives these two reasons.",
+    "source": "Positioning practice · Pearson method"
+  },
+  {
+    "id": "shoulder-117",
+    "part": "ac",
+    "projectionId": "ac-pearson",
+    "projection": "Pearson method · bilateral AC joints",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "How should the patient's weight be distributed for the Pearson method?",
+    "options": [
+      "Equally on both feet",
+      "Entirely on the affected side",
+      "Entirely on the unaffected side",
+      "Mostly on the heels"
+    ],
+    "answer": "Equally on both feet",
+    "explanation": "The patient stands evenly without leaning.",
+    "source": "Positioning practice · Pearson method"
+  },
+  {
+    "id": "shoulder-118",
+    "part": "ac",
+    "projectionId": "ac-pearson",
+    "projection": "Pearson method · bilateral AC joints",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "How many exposures are obtained in the standard bilateral Pearson method?",
+    "options": [
+      "Two",
+      "One",
+      "Three",
+      "Four"
+    ],
+    "answer": "Two",
+    "explanation": "One image is obtained without weights and a second with equal wrist weights.",
+    "source": "Positioning practice · Pearson method"
+  },
+  {
+    "id": "shoulder-119",
+    "part": "ac",
+    "projectionId": "ac-pearson",
+    "projection": "Pearson method · bilateral AC joints",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "Where are the weights placed for the weighted Pearson exposure?",
+    "options": [
+      "Affixed equally to each wrist",
+      "Held in each hand",
+      "Placed on each shoulder",
+      "Strapped to the elbows"
+    ],
+    "answer": "Affixed equally to each wrist",
+    "explanation": "The guide specifies equal weights affixed to each wrist.",
+    "source": "Positioning practice · Pearson method"
+  },
+  {
+    "id": "shoulder-120",
+    "part": "ac",
+    "projectionId": "ac-pearson",
+    "projection": "Pearson method · bilateral AC joints",
+    "topic": "central-ray",
+    "type": "mcq",
+    "prompt": "Where is the CR centered for a bilateral single-exposure Pearson image?",
+    "options": [
+      "Midline of the body at the level of the AC joints",
+      "Affected AC joint only",
+      "Midshaft clavicle",
+      "Scapulohumeral joint"
+    ],
+    "answer": "Midline of the body at the level of the AC joints",
+    "explanation": "This is the bilateral CR location.",
+    "source": "Positioning practice · Pearson method"
+  },
+  {
+    "id": "shoulder-121",
+    "part": "ac",
+    "projectionId": "ac-pearson",
+    "projection": "Pearson method · bilateral AC joints",
+    "topic": "central-ray",
+    "type": "mcq",
+    "prompt": "How is the CR centered for a unilateral Pearson image in a broad-shouldered patient?",
+    "options": [
+      "Perpendicular to each AC joint",
+      "At the body midline only",
+      "At the coracoid process",
+      "At the midshaft clavicle"
+    ],
+    "answer": "Perpendicular to each AC joint",
+    "explanation": "For unilateral imaging the CR is centered to each AC joint.",
+    "source": "Positioning practice · Pearson method"
+  },
+  {
+    "id": "shoulder-122",
+    "part": "ac",
+    "projectionId": "ac-pearson",
+    "projection": "Pearson method · bilateral AC joints",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "What should be absent during Pearson positioning?",
+    "options": [
+      "Patient rotation or leaning",
+      "Equal weight distribution",
+      "Shoulders at the same level",
+      "Arms hanging by the sides"
+    ],
+    "answer": "Patient rotation or leaning",
+    "explanation": "The guide specifies no rotation or leaning.",
+    "source": "Positioning practice · Pearson method"
+  },
+  {
+    "id": "shoulder-123",
+    "part": "ac",
+    "projectionId": "ac-pearson",
+    "projection": "Pearson method · bilateral AC joints",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "On which image should AC separation be most clearly seen if present?",
+    "options": [
+      "The image with weights",
+      "The image without weights",
+      "Both must always look identical",
+      "The unilateral image only"
+    ],
+    "answer": "The image with weights",
+    "explanation": "The guide states that separation, if present, is clearly seen on the weighted image.",
+    "source": "Positioning practice · Pearson method"
+  },
+  {
+    "id": "shoulder-124",
+    "part": "ac",
+    "projectionId": "ac-pearson",
+    "projection": "Pearson method · bilateral AC joints",
+    "topic": "anatomy",
+    "type": "mcq",
+    "prompt": "Which method is shown in this image?",
+    "options": [
+      "Pearson method · bilateral AC joints",
+      "AP clavicle",
+      "Grashey method",
+      "Scapular Y"
+    ],
+    "answer": "Pearson method · bilateral AC joints",
+    "explanation": "The image demonstrates bilateral AP AC articulations.",
+    "source": "Positioning practice · Pearson method",
+    "image": {
+      "src": "images/Bilateral AP AC articulations..png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Positioning image"
+    }
+  },
+  {
+    "id": "shoulder-125",
+    "part": "clavicle",
+    "projectionId": "clavicle-ap",
+    "projection": "AP clavicle",
+    "topic": "central-ray",
+    "type": "mcq",
+    "prompt": "Where is the CR centered for an AP clavicle?",
+    "options": [
+      "Midshaft of the clavicle",
+      "AC joint",
+      "SC joint",
+      "Coracoid process"
+    ],
+    "answer": "Midshaft of the clavicle",
+    "explanation": "The AP clavicle uses a perpendicular CR at the midshaft.",
+    "source": "Positioning practice · AP clavicle"
+  },
+  {
+    "id": "shoulder-126",
+    "part": "clavicle",
+    "projectionId": "clavicle-ap",
+    "projection": "AP clavicle",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "How should the shoulders be positioned for an AP clavicle?",
+    "options": [
+      "In the same horizontal plane",
+      "One shoulder elevated",
+      "Affected shoulder rotated forward",
+      "Affected shoulder rotated backward"
+    ],
+    "answer": "In the same horizontal plane",
+    "explanation": "The arms remain at the sides with both shoulders level.",
+    "source": "Positioning practice · AP clavicle"
+  },
+  {
+    "id": "shoulder-127",
+    "part": "clavicle",
+    "projectionId": "clavicle-ap",
+    "projection": "AP clavicle",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "What breathing instruction is used for an AP clavicle?",
+    "options": [
+      "Suspend at end of exhalation",
+      "Suspend at end of full inspiration",
+      "Slow breathing",
+      "Full inspiration throughout"
+    ],
+    "answer": "Suspend at end of exhalation",
+    "explanation": "The guide specifies suspension at the end of exhalation.",
+    "source": "Positioning practice · AP clavicle"
+  },
+  {
+    "id": "shoulder-128",
+    "part": "clavicle",
+    "projectionId": "clavicle-ap",
+    "projection": "AP clavicle",
+    "topic": "anatomy",
+    "type": "mcq",
+    "prompt": "What anatomy should be shown on an AP clavicle image?",
+    "options": [
+      "Entire clavicle",
+      "Lateral half only",
+      "Medial half only",
+      "AC joint only"
+    ],
+    "answer": "Entire clavicle",
+    "explanation": "The entire clavicle should be centered on the image.",
+    "source": "Positioning practice · AP clavicle"
+  },
+  {
+    "id": "shoulder-129",
+    "part": "clavicle",
+    "projectionId": "clavicle-ap",
+    "projection": "AP clavicle",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "Where should the lateral half of the clavicle project on an AP clavicle?",
+    "options": [
+      "Above the scapula",
+      "Below the scapula",
+      "Completely within the thorax",
+      "Over the humeral head"
+    ],
+    "answer": "Above the scapula",
+    "explanation": "The lateral half projects above the scapula.",
+    "source": "Positioning practice · AP clavicle"
+  },
+  {
+    "id": "shoulder-130",
+    "part": "clavicle",
+    "projectionId": "clavicle-ap",
+    "projection": "AP clavicle",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "How should the medial half of the clavicle appear on an AP clavicle?",
+    "options": [
+      "Superimposed on the thorax",
+      "Completely above the ribs",
+      "Below the scapula",
+      "Outside the thorax"
+    ],
+    "answer": "Superimposed on the thorax",
+    "explanation": "The medial half is superimposed on the thorax.",
+    "source": "Positioning practice · AP clavicle"
+  },
+  {
+    "id": "shoulder-131",
+    "part": "clavicle",
+    "projectionId": "clavicle-ap",
+    "projection": "AP clavicle",
+    "topic": "anatomy",
+    "type": "mcq",
+    "prompt": "Which clavicle projection is being positioned here?",
+    "options": [
+      "AP clavicle",
+      "PA clavicle",
+      "AP axial clavicle",
+      "PA axial clavicle"
+    ],
+    "answer": "AP clavicle",
+    "explanation": "The image demonstrates the standard AP clavicle position.",
+    "source": "Positioning practice · AP clavicle",
+    "image": {
+      "src": "images/AP clavicle..png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Positioning image"
+    }
+  },
+  {
+    "id": "shoulder-132",
+    "part": "clavicle",
+    "projectionId": "clavicle-ap",
+    "projection": "AP clavicle",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "Which feature should be present on this AP clavicle radiograph?",
+    "options": [
+      "Lateral half above the scapula and medial half over the thorax",
+      "Entire clavicle projected above the ribs",
+      "Lateral two-thirds above the ribs and scapula",
+      "Clavicle in a horizontal axial orientation"
+    ],
+    "answer": "Lateral half above the scapula and medial half over the thorax",
+    "explanation": "Those are the guide's AP clavicle evaluation criteria.",
+    "source": "Positioning practice · AP clavicle",
+    "image": {
+      "src": "images/AP clavicle.xray.png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Radiograph"
+    }
+  },
+  {
+    "id": "shoulder-133",
+    "part": "clavicle",
+    "projectionId": "clavicle-ap-axial",
+    "projection": "AP axial clavicle",
+    "topic": "purpose",
+    "type": "mcq",
+    "prompt": "What is the main projection difference of an AP axial clavicle compared with a routine AP?",
+    "options": [
+      "The clavicle is projected above the ribs",
+      "The clavicle is projected below the scapula",
+      "The AC joint is placed in profile only",
+      "The humeral head is placed in profile"
+    ],
+    "answer": "The clavicle is projected above the ribs",
+    "explanation": "The AP axial projects the clavicle superior to the ribs.",
+    "source": "Positioning practice · AP axial clavicle"
+  },
+  {
+    "id": "shoulder-134",
+    "part": "clavicle",
+    "projectionId": "clavicle-ap-axial",
+    "projection": "AP axial clavicle",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "What patient orientation is used for an AP axial clavicle?",
+    "options": [
+      "Back against the IR",
+      "Anterior chest against the IR",
+      "True lateral",
+      "RAO only"
+    ],
+    "answer": "Back against the IR",
+    "explanation": "The patient stands or sits with the back against the IR.",
+    "source": "Positioning practice · AP axial clavicle"
+  },
+  {
+    "id": "shoulder-135",
+    "part": "clavicle",
+    "projectionId": "clavicle-ap-axial",
+    "projection": "AP axial clavicle",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "How far does the patient step forward for the standing lordotic AP axial position?",
+    "options": [
+      "About 1 foot",
+      "About 2 inches",
+      "About 3 feet",
+      "No step is used"
+    ],
+    "answer": "About 1 foot",
+    "explanation": "The lordotic option uses about a 1-foot forward step before leaning back.",
+    "source": "Positioning practice · AP axial clavicle"
+  },
+  {
+    "id": "shoulder-136",
+    "part": "clavicle",
+    "projectionId": "clavicle-ap-axial",
+    "projection": "AP axial clavicle",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "Why is the standing lordotic position useful?",
+    "options": [
+      "It helps estimate the required CR angulation",
+      "It eliminates the need for inspiration",
+      "It demonstrates the AC joints with weights",
+      "It opens the glenohumeral joint"
+    ],
+    "answer": "It helps estimate the required CR angulation",
+    "explanation": "The guide explicitly says the lordotic posture can be used to estimate CR angulation.",
+    "source": "Positioning practice · AP axial clavicle"
+  },
+  {
+    "id": "shoulder-137",
+    "part": "clavicle",
+    "projectionId": "clavicle-ap-axial",
+    "projection": "AP axial clavicle",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "What breathing instruction is used for an AP axial clavicle?",
+    "options": [
+      "Suspend at the end of full inspiration",
+      "Suspend at end expiration",
+      "Slow breathing",
+      "Shallow breathing"
+    ],
+    "answer": "Suspend at the end of full inspiration",
+    "explanation": "Full inspiration elevates and angles the clavicle.",
+    "source": "Positioning practice · AP axial clavicle"
+  },
+  {
+    "id": "shoulder-138",
+    "part": "clavicle",
+    "projectionId": "clavicle-ap-axial",
+    "projection": "AP axial clavicle",
+    "topic": "purpose",
+    "type": "mcq",
+    "prompt": "What effect does full inspiration have during an AP axial clavicle?",
+    "options": [
+      "Elevates and angles the clavicle",
+      "Depresses the clavicle",
+      "Opens the AC joint with weights",
+      "Rotates the scapula laterally"
+    ],
+    "answer": "Elevates and angles the clavicle",
+    "explanation": "This effect is stated directly in the guide.",
+    "source": "Positioning practice · AP axial clavicle"
+  },
+  {
+    "id": "shoulder-139",
+    "part": "clavicle",
+    "projectionId": "clavicle-ap-axial",
+    "projection": "AP axial clavicle",
+    "topic": "central-ray",
+    "type": "mcq",
+    "prompt": "What CR range is used for the standard standing AP axial clavicle?",
+    "options": [
+      "15–30°",
+      "0–15°",
+      "35–45°",
+      "45–60°"
+    ],
+    "answer": "15–30°",
+    "explanation": "The standing AP axial position uses a 15–30° angle.",
+    "source": "Positioning practice · AP axial clavicle"
+  },
+  {
+    "id": "shoulder-140",
+    "part": "clavicle",
+    "projectionId": "clavicle-ap-axial",
+    "projection": "AP axial clavicle",
+    "topic": "central-ray",
+    "type": "mcq",
+    "prompt": "What CR range is used for the standing lordotic AP axial clavicle?",
+    "options": [
+      "0–15°",
+      "15–30°",
+      "30–45°",
+      "45–60°"
+    ],
+    "answer": "0–15°",
+    "explanation": "The lordotic position reduces the required CR angle to 0–15°.",
+    "source": "Positioning practice · AP axial clavicle"
+  },
+  {
+    "id": "shoulder-141",
+    "part": "clavicle",
+    "projectionId": "clavicle-ap-axial",
+    "projection": "AP axial clavicle",
+    "topic": "central-ray",
+    "type": "mcq",
+    "prompt": "How does chest thickness affect AP axial clavicle angulation?",
+    "options": [
+      "A thinner chest requires increased angulation",
+      "A thicker chest always requires increased angulation",
+      "Chest thickness has no effect",
+      "A thinner chest requires no angulation"
+    ],
+    "answer": "A thinner chest requires increased angulation",
+    "explanation": "The guide states that thinner chests require greater angulation.",
+    "source": "Positioning practice · AP axial clavicle"
+  },
+  {
+    "id": "shoulder-142",
+    "part": "clavicle",
+    "projectionId": "clavicle-ap-axial",
+    "projection": "AP axial clavicle",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "What anatomy should be included on an AP axial clavicle?",
+    "options": [
+      "Entire clavicle with AC and SC joints",
+      "Only the lateral half",
+      "Only the AC joint",
+      "Only the medial half"
+    ],
+    "answer": "Entire clavicle with AC and SC joints",
+    "explanation": "The whole clavicle and both articulations should be included.",
+    "source": "Positioning practice · AP axial clavicle"
+  },
+  {
+    "id": "shoulder-143",
+    "part": "clavicle",
+    "projectionId": "clavicle-ap-axial",
+    "projection": "AP axial clavicle",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "How much of the clavicle should be projected above the ribs and scapula on an AP axial image?",
+    "options": [
+      "Lateral two-thirds",
+      "Lateral half",
+      "Medial half",
+      "Entire clavicle"
+    ],
+    "answer": "Lateral two-thirds",
+    "explanation": "The guide specifies the lateral two-thirds above the ribs and scapula.",
+    "source": "Positioning practice · AP axial clavicle"
+  },
+  {
+    "id": "shoulder-144",
+    "part": "clavicle",
+    "projectionId": "clavicle-ap-axial",
+    "projection": "AP axial clavicle",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "How does the clavicle orientation on an AP axial image compare with a routine AP?",
+    "options": [
+      "It is more horizontal",
+      "It is more vertical",
+      "It is more foreshortened medially",
+      "It is unchanged"
+    ],
+    "answer": "It is more horizontal",
+    "explanation": "The axial projection produces a more horizontal clavicle orientation.",
+    "source": "Positioning practice · AP axial clavicle"
+  },
+  {
+    "id": "shoulder-145",
+    "part": "clavicle",
+    "projectionId": "clavicle-ap-axial",
+    "projection": "AP axial clavicle",
+    "topic": "anatomy",
+    "type": "mcq",
+    "prompt": "Which projection is being demonstrated in this positioning image?",
+    "options": [
+      "AP axial clavicle",
+      "AP clavicle",
+      "PA axial clavicle",
+      "PA clavicle"
+    ],
+    "answer": "AP axial clavicle",
+    "explanation": "The image shows upright AP axial clavicle positioning options.",
+    "source": "Positioning practice · AP axial clavicle",
+    "image": {
+      "src": "images/(A) AP axial clavicle, upright position. (B) AP axial clavicle, upright lordotic position..png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Positioning image"
+    }
+  },
+  {
+    "id": "shoulder-146",
+    "part": "clavicle",
+    "projectionId": "clavicle-ap-axial",
+    "projection": "AP axial clavicle",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "Which feature should be present on this AP axial clavicle radiograph?",
+    "options": [
+      "Lateral two-thirds projected above the ribs and scapula",
+      "Lateral half above scapula only",
+      "Entire clavicle superimposed on thorax",
+      "Clavicle projected below the scapula"
+    ],
+    "answer": "Lateral two-thirds projected above the ribs and scapula",
+    "explanation": "This is a key AP axial evaluation criterion.",
+    "source": "Positioning practice · AP axial clavicle",
+    "image": {
+      "src": "images/AP axial clavicle.xray.png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Radiograph"
+    }
+  },
+  {
+    "id": "shoulder-147",
+    "part": "clavicle",
+    "projectionId": "clavicle-pa",
+    "projection": "PA clavicle",
+    "topic": "purpose",
+    "type": "mcq",
+    "prompt": "What is an advantage of PA clavicle positioning compared with AP?",
+    "options": [
+      "Reduced OID and magnification with improved spatial resolution",
+      "Greater magnification",
+      "More scapular superimposition",
+      "More humeral overlap"
+    ],
+    "answer": "Reduced OID and magnification with improved spatial resolution",
+    "explanation": "The guide identifies these benefits of PA positioning.",
+    "source": "Positioning practice · PA clavicle"
+  },
+  {
+    "id": "shoulder-148",
+    "part": "clavicle",
+    "projectionId": "clavicle-pa",
+    "projection": "PA clavicle",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "How is the patient oriented for a PA clavicle?",
+    "options": [
+      "Anterior chest against the IR",
+      "Back against the IR",
+      "True lateral",
+      "Supine only"
+    ],
+    "answer": "Anterior chest against the IR",
+    "explanation": "The patient faces the IR with the anterior chest against it.",
+    "source": "Positioning practice · PA clavicle"
+  },
+  {
+    "id": "shoulder-149",
+    "part": "clavicle",
+    "projectionId": "clavicle-pa",
+    "projection": "PA clavicle",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "What breathing instruction is used for a PA clavicle?",
+    "options": [
+      "Suspend at end of exhalation",
+      "Suspend at end of full inspiration",
+      "Slow breathing",
+      "Full inspiration throughout"
+    ],
+    "answer": "Suspend at end of exhalation",
+    "explanation": "The routine PA clavicle uses end expiration.",
+    "source": "Positioning practice · PA clavicle"
+  },
+  {
+    "id": "shoulder-150",
+    "part": "clavicle",
+    "projectionId": "clavicle-pa",
+    "projection": "PA clavicle",
+    "topic": "central-ray",
+    "type": "mcq",
+    "prompt": "How is the CR directed for a routine PA clavicle?",
+    "options": [
+      "Perpendicular, exiting the midshaft of the clavicle",
+      "15–30° caudad",
+      "15–30° cephalad",
+      "45° toward the shoulder"
+    ],
+    "answer": "Perpendicular, exiting the midshaft of the clavicle",
+    "explanation": "The routine PA uses a perpendicular CR that exits the clavicle midshaft.",
+    "source": "Positioning practice · PA clavicle"
+  },
+  {
+    "id": "shoulder-151",
+    "part": "clavicle",
+    "projectionId": "clavicle-pa",
+    "projection": "PA clavicle",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "How should the lateral half of the clavicle appear on a PA clavicle?",
+    "options": [
+      "Above the scapula",
+      "Above the ribs and scapula",
+      "Below the scapula",
+      "Superimposed entirely on the thorax"
+    ],
+    "answer": "Above the scapula",
+    "explanation": "The PA evaluation criteria are the same as routine AP.",
+    "source": "Positioning practice · PA clavicle"
+  },
+  {
+    "id": "shoulder-152",
+    "part": "clavicle",
+    "projectionId": "clavicle-pa",
+    "projection": "PA clavicle",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "How should the medial half of the clavicle appear on a PA clavicle?",
+    "options": [
+      "Superimposed on the thorax",
+      "Projected above the ribs",
+      "Below the scapula",
+      "Outside the thorax"
+    ],
+    "answer": "Superimposed on the thorax",
+    "explanation": "The medial half remains superimposed on the thorax.",
+    "source": "Positioning practice · PA clavicle"
+  },
+  {
+    "id": "shoulder-153",
+    "part": "clavicle",
+    "projectionId": "clavicle-pa",
+    "projection": "PA clavicle",
+    "topic": "anatomy",
+    "type": "mcq",
+    "prompt": "Which clavicle projection is shown with the patient facing the IR?",
+    "options": [
+      "PA clavicle",
+      "AP clavicle",
+      "PA axial clavicle",
+      "AP axial clavicle"
+    ],
+    "answer": "PA clavicle",
+    "explanation": "The patient is positioned anterior chest against the IR for PA clavicle.",
+    "source": "Positioning practice · PA clavicle",
+    "image": {
+      "src": "images/PA clavicle..png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Positioning image"
+    }
+  },
+  {
+    "id": "shoulder-154",
+    "part": "clavicle",
+    "projectionId": "clavicle-pa",
+    "projection": "PA clavicle",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "Which feature should be present on this PA clavicle radiograph?",
+    "options": [
+      "Lateral half above the scapula",
+      "Lateral two-thirds above ribs and scapula",
+      "Clavicle entirely above the thorax",
+      "AC separation with weights"
+    ],
+    "answer": "Lateral half above the scapula",
+    "explanation": "The routine PA appearance matches the routine AP appearance.",
+    "source": "Positioning practice · PA clavicle",
+    "image": {
+      "src": "images/PA clavicle.xray.png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Radiograph"
+    }
+  },
+  {
+    "id": "shoulder-155",
+    "part": "clavicle",
+    "projectionId": "clavicle-pa-axial",
+    "projection": "PA axial clavicle",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "What breathing instruction is used for a PA axial clavicle?",
+    "options": [
+      "Suspend at end of full inspiration",
+      "Suspend at end expiration",
+      "Slow breathing",
+      "Shallow breathing"
+    ],
+    "answer": "Suspend at end of full inspiration",
+    "explanation": "Full inspiration is used for the PA axial projection.",
+    "source": "Positioning practice · PA axial clavicle"
+  },
+  {
+    "id": "shoulder-156",
+    "part": "clavicle",
+    "projectionId": "clavicle-pa-axial",
+    "projection": "PA axial clavicle",
+    "topic": "central-ray",
+    "type": "mcq",
+    "prompt": "How is the CR angled for a PA axial clavicle?",
+    "options": [
+      "15–30° caudad",
+      "15–30° cephalad",
+      "0–15° cephalad",
+      "45° caudad"
+    ],
+    "answer": "15–30° caudad",
+    "explanation": "The PA axial clavicle uses a 15–30° caudad CR.",
+    "source": "Positioning practice · PA axial clavicle"
+  },
+  {
+    "id": "shoulder-157",
+    "part": "clavicle",
+    "projectionId": "clavicle-pa-axial",
+    "projection": "PA axial clavicle",
+    "topic": "central-ray",
+    "type": "mcq",
+    "prompt": "Where is the PA axial CR directed?",
+    "options": [
+      "Through the midshaft of the clavicle",
+      "At the AC joint only",
+      "At the SC joint only",
+      "At the coracoid"
+    ],
+    "answer": "Through the midshaft of the clavicle",
+    "explanation": "The CR is directed through the midshaft.",
+    "source": "Positioning practice · PA axial clavicle"
+  },
+  {
+    "id": "shoulder-158",
+    "part": "clavicle",
+    "projectionId": "clavicle-pa-axial",
+    "projection": "PA axial clavicle",
+    "topic": "purpose",
+    "type": "mcq",
+    "prompt": "When is PA axial clavicle suggested instead of AP axial according to the guide?",
+    "options": [
+      "When the patient cannot assume the AP axial lordotic position",
+      "Whenever the patient is supine",
+      "Only when the AC joint is separated",
+      "Only for bilateral clavicles"
+    ],
+    "answer": "When the patient cannot assume the AP axial lordotic position",
+    "explanation": "The guide specifically offers PA axial as an alternative in this situation.",
+    "source": "Positioning practice · PA axial clavicle"
+  },
+  {
+    "id": "shoulder-159",
+    "part": "clavicle",
+    "projectionId": "clavicle-pa-axial",
+    "projection": "PA axial clavicle",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "What anatomy should be included on the PA axial clavicle?",
+    "options": [
+      "Entire clavicle with AC and SC joints",
+      "Lateral half only",
+      "Medial half only",
+      "AC joint only"
+    ],
+    "answer": "Entire clavicle with AC and SC joints",
+    "explanation": "The axial evaluation criteria match the AP axial.",
+    "source": "Positioning practice · PA axial clavicle"
+  },
+  {
+    "id": "shoulder-160",
+    "part": "clavicle",
+    "projectionId": "clavicle-pa-axial",
+    "projection": "PA axial clavicle",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "How much of the clavicle should project above the ribs and scapula on a PA axial image?",
+    "options": [
+      "Lateral two-thirds",
+      "Lateral half",
+      "Medial half",
+      "Entire clavicle"
+    ],
+    "answer": "Lateral two-thirds",
+    "explanation": "The lateral two-thirds should project superior to the ribs and scapula.",
+    "source": "Positioning practice · PA axial clavicle"
+  },
+  {
+    "id": "shoulder-161",
+    "part": "clavicle",
+    "projectionId": "clavicle-pa-axial",
+    "projection": "PA axial clavicle",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "How should the clavicle appear compared with a routine PA projection?",
+    "options": [
+      "More horizontal",
+      "More vertical",
+      "More foreshortened laterally",
+      "Unchanged"
+    ],
+    "answer": "More horizontal",
+    "explanation": "The axial projection creates a more horizontal appearance.",
+    "source": "Positioning practice · PA axial clavicle"
+  },
+  {
+    "id": "shoulder-162",
+    "part": "clavicle",
+    "projectionId": "clavicle-pa-axial",
+    "projection": "PA axial clavicle",
+    "topic": "anatomy",
+    "type": "mcq",
+    "prompt": "Which clavicle projection is being performed with an axial PA setup?",
+    "options": [
+      "PA axial clavicle",
+      "PA clavicle",
+      "AP axial clavicle",
+      "AP clavicle"
+    ],
+    "answer": "PA axial clavicle",
+    "explanation": "The image shows the PA axial clavicle setup.",
+    "source": "Positioning practice · PA axial clavicle",
+    "image": {
+      "src": "images/PA axial clavicle..png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Positioning image"
+    }
+  },
+  {
+    "id": "shoulder-163",
+    "part": "scapula",
+    "projectionId": "scapula-ap",
+    "projection": "AP scapula",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "How far is the arm abducted for an AP scapula?",
+    "options": [
+      "90°",
+      "45°",
+      "30°",
+      "Arm remains at the side"
+    ],
+    "answer": "90°",
+    "explanation": "The arm is abducted at a right angle to the body.",
+    "source": "Positioning practice · AP scapula"
+  },
+  {
+    "id": "shoulder-164",
+    "part": "scapula",
+    "projectionId": "scapula-ap",
+    "projection": "AP scapula",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "What should the patient NOT do during an AP scapula?",
+    "options": [
+      "Rotate the body toward the affected side",
+      "Abduct the arm 90°",
+      "Center the scapula to the grid",
+      "Use slow breathing"
+    ],
+    "answer": "Rotate the body toward the affected side",
+    "explanation": "The guide specifically warns not to rotate the body toward the affected side.",
+    "source": "Positioning practice · AP scapula"
+  },
+  {
+    "id": "shoulder-165",
+    "part": "scapula",
+    "projectionId": "scapula-ap",
+    "projection": "AP scapula",
+    "topic": "central-ray",
+    "type": "mcq",
+    "prompt": "Where is the CR centered for an AP scapula?",
+    "options": [
+      "Midscapular area about 2 inches inferior to the coracoid process",
+      "Scapulohumeral joint",
+      "Midmedial border of the scapula",
+      "Surgical neck"
+    ],
+    "answer": "Midscapular area about 2 inches inferior to the coracoid process",
+    "explanation": "This is the listed CR location.",
+    "source": "Positioning practice · AP scapula"
+  },
+  {
+    "id": "shoulder-166",
+    "part": "scapula",
+    "projectionId": "scapula-ap",
+    "projection": "AP scapula",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "What breathing technique is used for an AP scapula?",
+    "options": [
+      "Slow breathing",
+      "Full inspiration",
+      "End expiration",
+      "Suspend after inspiration"
+    ],
+    "answer": "Slow breathing",
+    "explanation": "Slow breathing is used to blur lung markings.",
+    "source": "Positioning practice · AP scapula"
+  },
+  {
+    "id": "shoulder-167",
+    "part": "scapula",
+    "projectionId": "scapula-ap",
+    "projection": "AP scapula",
+    "topic": "purpose",
+    "type": "mcq",
+    "prompt": "Why is slow breathing used during an AP scapula?",
+    "options": [
+      "To blur lung markings",
+      "To elevate the clavicle",
+      "To open the glenohumeral joint",
+      "To reduce OID"
+    ],
+    "answer": "To blur lung markings",
+    "explanation": "The guide explicitly gives this purpose.",
+    "source": "Positioning practice · AP scapula"
+  },
+  {
+    "id": "shoulder-168",
+    "part": "scapula",
+    "projectionId": "scapula-ap",
+    "projection": "AP scapula",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "Which portion of the scapula should be free of rib superimposition?",
+    "options": [
+      "Lateral portion",
+      "Medial border only",
+      "Inferior angle only",
+      "Entire scapula completely"
+    ],
+    "answer": "Lateral portion",
+    "explanation": "The lateral portion should be free of superimposition with the ribs.",
+    "source": "Positioning practice · AP scapula"
+  },
+  {
+    "id": "shoulder-169",
+    "part": "scapula",
+    "projectionId": "scapula-ap",
+    "projection": "AP scapula",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "How should the scapula appear in orientation on an AP image?",
+    "options": [
+      "Horizontal",
+      "Vertical",
+      "45° oblique",
+      "True lateral"
+    ],
+    "answer": "Horizontal",
+    "explanation": "The guide lists a horizontal scapula.",
+    "source": "Positioning practice · AP scapula"
+  },
+  {
+    "id": "shoulder-170",
+    "part": "scapula",
+    "projectionId": "scapula-ap",
+    "projection": "AP scapula",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "What detail should remain visible despite superimposed lung and ribs?",
+    "options": [
+      "Scapular detail",
+      "Only humeral detail",
+      "Only clavicular detail",
+      "Only rib detail"
+    ],
+    "answer": "Scapular detail",
+    "explanation": "The scapula should remain visible through the superimposed lungs and ribs.",
+    "source": "Positioning practice · AP scapula"
+  },
+  {
+    "id": "shoulder-171",
+    "part": "scapula",
+    "projectionId": "scapula-ap",
+    "projection": "AP scapula",
+    "topic": "anatomy",
+    "type": "mcq",
+    "prompt": "Which scapular projection is being positioned in this supine image?",
+    "options": [
+      "AP scapula",
+      "Lateral scapula",
+      "AP oblique scapula",
+      "Scapular Y"
+    ],
+    "answer": "AP scapula",
+    "explanation": "The patient is positioned for an AP scapula with the arm abducted.",
+    "source": "Positioning practice · AP scapula",
+    "image": {
+      "src": "images/AP scapula.supine.png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Positioning image"
+    }
+  },
+  {
+    "id": "shoulder-172",
+    "part": "scapula",
+    "projectionId": "scapula-lat",
+    "projection": "Lateral scapula",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "How much is the patient rotated for a lateral scapula?",
+    "options": [
+      "45–60°",
+      "15–25°",
+      "35–45°",
+      "90°"
+    ],
+    "answer": "45–60°",
+    "explanation": "The RAO or LAO lateral scapula uses 45–60° rotation.",
+    "source": "Positioning practice · Lateral scapula"
+  },
+  {
+    "id": "shoulder-173",
+    "part": "scapula",
+    "projectionId": "scapula-lat",
+    "projection": "Lateral scapula",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "How is the scapula palpated to judge lateral positioning?",
+    "options": [
+      "By placing the lateral and medial borders between the thumb and index finger",
+      "By palpating only the acromion",
+      "By palpating the humeral epicondyles",
+      "By palpating the clavicle ends"
+    ],
+    "answer": "By placing the lateral and medial borders between the thumb and index finger",
+    "explanation": "The guide uses the scapular borders to assess rotation.",
+    "source": "Positioning practice · Lateral scapula"
+  },
+  {
+    "id": "shoulder-174",
+    "part": "scapula",
+    "projectionId": "scapula-lat",
+    "projection": "Lateral scapula",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "How is the arm positioned when the goal is to delineate the acromion on a lateral scapula?",
+    "options": [
+      "Flex elbow and place back of hand on posterior thorax",
+      "Extend arm overhead",
+      "Place hand on hip",
+      "Abduct arm 90°"
+    ],
+    "answer": "Flex elbow and place back of hand on posterior thorax",
+    "explanation": "This arm position is listed for acromion delineation.",
+    "source": "Positioning practice · Lateral scapula"
+  },
+  {
+    "id": "shoulder-175",
+    "part": "scapula",
+    "projectionId": "scapula-lat",
+    "projection": "Lateral scapula",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "How is the arm positioned when the goal is to demonstrate the body of the scapula?",
+    "options": [
+      "Extend arm upward and rest forearm on head or across upper chest",
+      "Place back of hand on posterior thorax",
+      "Keep arm at side",
+      "Abduct arm 90° with palm up"
+    ],
+    "answer": "Extend arm upward and rest forearm on head or across upper chest",
+    "explanation": "This moves the humerus away from the scapular body.",
+    "source": "Positioning practice · Lateral scapula"
+  },
+  {
+    "id": "shoulder-176",
+    "part": "scapula",
+    "projectionId": "scapula-lat",
+    "projection": "Lateral scapula",
+    "topic": "central-ray",
+    "type": "mcq",
+    "prompt": "Where is the CR centered for a lateral scapula?",
+    "options": [
+      "Midmedial border of the protruding scapula",
+      "Scapulohumeral joint",
+      "2 inches below the coracoid",
+      "Midshaft clavicle"
+    ],
+    "answer": "Midmedial border of the protruding scapula",
+    "explanation": "The guide centers at the midmedial border of the protruding scapula.",
+    "source": "Positioning practice · Lateral scapula"
+  },
+  {
+    "id": "shoulder-177",
+    "part": "scapula",
+    "projectionId": "scapula-lat",
+    "projection": "Lateral scapula",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "How should the lateral and medial scapular borders appear on a true lateral scapula?",
+    "options": [
+      "Superimposed",
+      "Widely separated",
+      "Parallel without overlap",
+      "At 45°"
+    ],
+    "answer": "Superimposed",
+    "explanation": "Superimposed borders indicate a true lateral.",
+    "source": "Positioning practice · Lateral scapula"
+  },
+  {
+    "id": "shoulder-178",
+    "part": "scapula",
+    "projectionId": "scapula-lat",
+    "projection": "Lateral scapula",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "What should be true of the scapular body relative to the ribs?",
+    "options": [
+      "No superimposition",
+      "Complete superimposition",
+      "Only superior half overlapped",
+      "Only inferior angle free"
+    ],
+    "answer": "No superimposition",
+    "explanation": "The scapular body should be free of rib overlap.",
+    "source": "Positioning practice · Lateral scapula"
+  },
+  {
+    "id": "shoulder-179",
+    "part": "scapula",
+    "projectionId": "scapula-lat",
+    "projection": "Lateral scapula",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "What should be true of the humerus relative to the area of interest on a lateral scapula?",
+    "options": [
+      "No superimposition",
+      "Complete superimposition",
+      "Humerus must cover the acromion",
+      "Humerus must cover the inferior angle"
+    ],
+    "answer": "No superimposition",
+    "explanation": "The humerus should not superimpose the area of interest.",
+    "source": "Positioning practice · Lateral scapula"
+  },
+  {
+    "id": "shoulder-180",
+    "part": "scapula",
+    "projectionId": "scapula-lat",
+    "projection": "Lateral scapula",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "Which two scapular structures must be included on a lateral scapula?",
+    "options": [
+      "Acromion and inferior angle",
+      "Coracoid and glenoid only",
+      "AC and SC joints",
+      "Clavicle and humeral head"
+    ],
+    "answer": "Acromion and inferior angle",
+    "explanation": "The guide lists inclusion of the acromion and inferior angle.",
+    "source": "Positioning practice · Lateral scapula"
+  },
+  {
+    "id": "shoulder-181",
+    "part": "scapula",
+    "projectionId": "scapula-obl",
+    "projection": "AP oblique scapula",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "In which direction is the patient rotated for an AP oblique scapula?",
+    "options": [
+      "Away from the affected side",
+      "Toward the affected side",
+      "Toward the unaffected side only in recumbency",
+      "No rotation"
+    ],
+    "answer": "Away from the affected side",
+    "explanation": "The patient turns away from the affected scapula.",
+    "source": "Positioning practice · AP oblique scapula"
+  },
+  {
+    "id": "shoulder-182",
+    "part": "scapula",
+    "projectionId": "scapula-obl",
+    "projection": "AP oblique scapula",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "What is the routine body rotation for an AP oblique scapula?",
+    "options": [
+      "15–25° away from the affected side",
+      "35–45° toward the affected side",
+      "45–60° toward the affected side",
+      "90° away"
+    ],
+    "answer": "15–25° away from the affected side",
+    "explanation": "The standard oblique uses 15–25° rotation away.",
+    "source": "Positioning practice · AP oblique scapula"
+  },
+  {
+    "id": "shoulder-183",
+    "part": "scapula",
+    "projectionId": "scapula-obl",
+    "projection": "AP oblique scapula",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "What rotation range is used for a steeper AP oblique scapula?",
+    "options": [
+      "25–35° away from the affected side",
+      "45–60° toward the affected side",
+      "0–15° toward the affected side",
+      "60–75° away"
+    ],
+    "answer": "25–35° away from the affected side",
+    "explanation": "The steeper variation uses 25–35° away.",
+    "source": "Positioning practice · AP oblique scapula"
+  },
+  {
+    "id": "shoulder-184",
+    "part": "scapula",
+    "projectionId": "scapula-obl",
+    "projection": "AP oblique scapula",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "Which arm position may be used for the routine AP oblique scapula?",
+    "options": [
+      "Extend arm superiorly, flex elbow, and place supinated hand under the head",
+      "Back of hand on hip only",
+      "Arm straight down at side only",
+      "Unaffected arm over head"
+    ],
+    "answer": "Extend arm superiorly, flex elbow, and place supinated hand under the head",
+    "explanation": "This is one of the listed arm positions.",
+    "source": "Positioning practice · AP oblique scapula"
+  },
+  {
+    "id": "shoulder-185",
+    "part": "scapula",
+    "projectionId": "scapula-obl",
+    "projection": "AP oblique scapula",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "What alternate arm position may be used for the AP oblique scapula?",
+    "options": [
+      "Affected arm across the anterior chest",
+      "Affected arm behind the back",
+      "Affected arm fully externally rotated at side",
+      "Affected arm behind the head with pronated hand only"
+    ],
+    "answer": "Affected arm across the anterior chest",
+    "explanation": "The guide gives this as an alternate.",
+    "source": "Positioning practice · AP oblique scapula"
+  },
+  {
+    "id": "shoulder-186",
+    "part": "scapula",
+    "projectionId": "scapula-obl",
+    "projection": "AP oblique scapula",
+    "topic": "central-ray",
+    "type": "mcq",
+    "prompt": "Where is the CR centered for an AP oblique scapula?",
+    "options": [
+      "Lateral border of the rib cage at the midscapular area",
+      "Scapulohumeral joint",
+      "Midmedial scapular border",
+      "AC joint"
+    ],
+    "answer": "Lateral border of the rib cage at the midscapular area",
+    "explanation": "This is the listed CR location.",
+    "source": "Positioning practice · AP oblique scapula"
+  },
+  {
+    "id": "shoulder-187",
+    "part": "scapula",
+    "projectionId": "scapula-obl",
+    "projection": "AP oblique scapula",
+    "topic": "purpose",
+    "type": "mcq",
+    "prompt": "What is the main image benefit of the AP oblique scapula?",
+    "options": [
+      "Scapula is mostly free of rib superimposition",
+      "Scapular borders are completely superimposed",
+      "Glenohumeral joint is fully open",
+      "AC joints are compared bilaterally"
+    ],
+    "answer": "Scapula is mostly free of rib superimposition",
+    "explanation": "The guide describes an oblique scapular image mostly free of ribs.",
+    "source": "Positioning practice · AP oblique scapula"
+  },
+  {
+    "id": "shoulder-188",
+    "part": "scapula",
+    "projectionId": "scapula-obl",
+    "projection": "AP oblique scapula",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "Where should the lateral scapular border appear on the AP oblique scapula?",
+    "options": [
+      "Adjacent to the ribs",
+      "Superimposed on the medial border",
+      "Projected over the spine",
+      "Outside the thorax"
+    ],
+    "answer": "Adjacent to the ribs",
+    "explanation": "The lateral border should lie adjacent to the ribs.",
+    "source": "Positioning practice · AP oblique scapula"
+  },
+  {
+    "id": "shoulder-189",
+    "part": "scapula",
+    "projectionId": "scapula-obl",
+    "projection": "AP oblique scapula",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "Which structures must be included on the AP oblique scapula?",
+    "options": [
+      "Acromion and inferior angle",
+      "Only glenoid cavity",
+      "Only coracoid process",
+      "Only scapular spine"
+    ],
+    "answer": "Acromion and inferior angle",
+    "explanation": "These are explicitly included in the evaluation criteria.",
+    "source": "Positioning practice · AP oblique scapula"
   }
 ]
