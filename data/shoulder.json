@@ -1005,7 +1005,7 @@
     "projection": "AP shoulder · external rotation",
     "topic": "anatomy",
     "type": "mcq",
-    "prompt": "Which shoulder rotation is demonstrated by the positioning shown?",
+    "prompt": "Which structure or relationship should be demonstrated by this image?",
     "options": [
       "External rotation",
       "Neutral rotation",
@@ -1182,7 +1182,7 @@
     "projection": "AP shoulder · neutral rotation",
     "topic": "anatomy",
     "type": "mcq",
-    "prompt": "Which shoulder rotation is demonstrated by the positioning shown?",
+    "prompt": "Which anatomic relationship is best demonstrated in the image shown?",
     "options": [
       "Neutral rotation",
       "External rotation",
@@ -1354,7 +1354,7 @@
     "projection": "AP shoulder · internal rotation",
     "topic": "anatomy",
     "type": "mcq",
-    "prompt": "Which shoulder rotation is demonstrated by the positioning shown?",
+    "prompt": "Based on the image, which anatomic feature is most relevant?",
     "options": [
       "Internal rotation",
       "External rotation",

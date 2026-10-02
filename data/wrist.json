@@ -779,7 +779,7 @@
     "projection": "PA oblique wrist · lateral rotation",
     "topic": "evaluation",
     "type": "mcq",
-    "prompt": "Which carpal bones are best demonstrated by the positioning shown?",
+    "prompt": "When evaluating this image, which finding is correct?",
     "options": [
       "Scaphoid and trapezium",
       "Pisiform only",
@@ -933,7 +933,7 @@
     "projection": "AP oblique wrist · medial rotation",
     "topic": "evaluation",
     "type": "mcq",
-    "prompt": "Which carpal bone should be separated from adjacent carpals in the image produced by this positioning?",
+    "prompt": "Which finding should be present if this image is positioned correctly?",
     "options": [
       "Pisiform",
       "Scaphoid",
@@ -1105,7 +1105,7 @@
     "projection": "PA wrist · ulnar deviation",
     "topic": "purpose",
     "type": "mcq",
-    "prompt": "Which carpal bone is this positioning intended to demonstrate with reduced foreshortening?",
+    "prompt": "What is the main reason for obtaining the view shown?",
     "options": [
       "Scaphoid",
       "Pisiform",
@@ -1259,15 +1259,15 @@
     "projection": "PA wrist · radial deviation",
     "topic": "purpose",
     "type": "mcq",
-    "prompt": "What effect should the positioning shown have on the medial-side carpal interspaces?",
+    "prompt": "What is this image or setup primarily intended to demonstrate?",
     "options": [
-      "Open the medial-side carpal interspaces",
-      "Close the medial-side carpal interspaces",
-      "Completely superimpose the medial-side carpals",
-      "Produce no meaningful change in the medial-side carpal interspaces"
+      "Open them",
+      "Close them",
+      "Superimpose them completely",
+      "Have no effect"
     ],
-    "answer": "Open the medial-side carpal interspaces",
-    "explanation": "Radial deviation opens the interspaces between the carpals on the medial side of the wrist.",
+    "answer": "Open them",
+    "explanation": "Radial deviation opens the interspaces between the medial-side carpals.",
     "source": "Positioning practice · Image question",
     "image": {
       "src": "images/PA wrist in radial deviation..png",
@@ -1693,7 +1693,7 @@
     "projection": "Gaynor-Hart method · carpal canal",
     "topic": "evaluation",
     "type": "mcq",
-    "prompt": "Which carpal bone should appear in profile and free of superimposition in the resulting image?",
+    "prompt": "Which finding should be present if this image is positioned correctly?",
     "options": [
       "Pisiform",
       "Scaphoid only",
@@ -2376,7 +2376,7 @@
     "projection": "AP elbow",
     "topic": "evaluation",
     "type": "mcq",
-    "prompt": "Which joint should appear open if the positioning shown is correct?",
+    "prompt": "Which evaluation criterion best matches the image shown?",
     "options": [
       "Humeroradial joint",
       "Radioulnar joint only",
@@ -2820,7 +2820,7 @@
     "projection": "AP oblique elbow · medial rotation",
     "topic": "evaluation",
     "type": "mcq",
-    "prompt": "Which process should be demonstrated in profile on the resulting radiograph?",
+    "prompt": "Which radiographic relationship is expected for the image shown?",
     "options": [
       "Coronoid process",
       "Radial head free of the ulna",
@@ -2992,15 +2992,15 @@
     "projection": "AP oblique elbow · lateral rotation",
     "topic": "evaluation",
     "type": "mcq",
-    "prompt": "Which structures should be projected free of superimposition by the ulna?",
+    "prompt": "Which evaluation criterion best matches the image shown?",
     "options": [
-      "Radial head, neck, and tuberosity",
-      "Coronoid process and trochlea",
-      "Olecranon process and medial epicondyle",
-      "Radial tuberosity and coronoid process"
+      "Radial head and neck from the ulna",
+      "Coronoid process from the radius",
+      "Olecranon process from the humerus",
+      "Medial epicondyle from the trochlea"
     ],
-    "answer": "Radial head, neck, and tuberosity",
-    "explanation": "The lateral-rotation oblique projects the radial head, neck, and tuberosity free of the ulna.",
+    "answer": "Radial head and neck from the ulna",
+    "explanation": "The lateral oblique is identified by the radial head/neck free of ulna overlap.",
     "source": "Positioning practice · Image question",
     "image": {
       "src": "images/AP oblique elbow lateral rotation..png",
