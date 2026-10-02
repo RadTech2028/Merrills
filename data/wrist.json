@@ -1,92 +1,3761 @@
 [
   {
     "id": "wrist-001",
+    "part": "wrist",
+    "projectionId": "wrist-pa",
     "projection": "PA wrist",
     "topic": "central-ray",
     "type": "mcq",
-    "prompt": "Where is the perpendicular CR centered for a PA wrist?",
+    "prompt": "Where is the CR centered for a PA wrist?",
     "options": [
       "Midcarpal area",
-      "Third MCP joint",
-      "Radial head",
-      "Midpoint of the forearm"
+      "Radial styloid",
+      "Ulnar styloid",
+      "Third MCP joint"
     ],
     "answer": "Midcarpal area",
-    "explanation": "The PA wrist CR is centered at the midcarpal area.",
-    "source": "Positioning practice · PA wrist",
-    "part": "wrist",
-    "projectionId": "wrist-pa"
+    "explanation": "The PA wrist uses a perpendicular CR centered at the midcarpal area.",
+    "source": "Positioning practice · PA wrist"
   },
   {
     "id": "wrist-002",
-    "projection": "AP forearm",
-    "topic": "central-ray",
+    "part": "wrist",
+    "projectionId": "wrist-pa",
+    "projection": "PA wrist",
+    "topic": "positioning",
     "type": "mcq",
-    "prompt": "Where is the perpendicular CR centered for an AP forearm?",
+    "prompt": "Why is the patient's hand slightly arched at the MCP joints for a PA wrist?",
     "options": [
-      "Midpoint of the forearm",
-      "Elbow joint",
-      "Midcarpal area",
-      "Radial styloid"
+      "To place the carpals in close contact with the IR",
+      "To open the first CMC joint",
+      "To superimpose the metacarpals",
+      "To rotate the wrist 45°"
     ],
-    "answer": "Midpoint of the forearm",
-    "explanation": "The CR is perpendicular to the midpoint of the forearm.",
-    "source": "Positioning practice · AP forearm",
-    "part": "forearm",
-    "projectionId": "forearm-ap"
+    "answer": "To place the carpals in close contact with the IR",
+    "explanation": "Slight MCP flexion brings the carpal bones closer to the IR.",
+    "source": "Positioning practice · PA wrist"
   },
   {
     "id": "wrist-003",
-    "projection": "AP oblique elbow, medial rotation",
-    "topic": "evaluation",
+    "part": "wrist",
+    "projectionId": "wrist-pa",
+    "projection": "PA wrist",
+    "topic": "positioning",
     "type": "mcq",
-    "prompt": "Which structure is shown in profile on an AP oblique elbow with medial rotation?",
+    "prompt": "How should the shoulder, elbow, and wrist be positioned for a PA wrist?",
     "options": [
-      "Coronoid process",
-      "Radial tuberosity free of the ulna",
-      "Scaphoid",
-      "Greater tubercle"
+      "On the same plane",
+      "Wrist elevated above the elbow",
+      "Elbow elevated above the shoulder",
+      "At 45° to one another"
     ],
-    "answer": "Coronoid process",
-    "explanation": "The coronoid process appears in profile with 45° medial rotation.",
-    "source": "Positioning practice · AP oblique elbow, medial rotation",
-    "part": "elbow",
-    "projectionId": "elbow-med"
+    "answer": "On the same plane",
+    "explanation": "The patient sits low enough to place the axilla, shoulder, elbow, and wrist on the same plane.",
+    "source": "Positioning practice · PA wrist"
   },
   {
     "id": "wrist-004",
-    "projection": "AP oblique elbow, lateral rotation",
+    "part": "wrist",
+    "projectionId": "wrist-pa",
+    "projection": "PA wrist",
     "topic": "evaluation",
     "type": "mcq",
-    "prompt": "Which finding identifies a properly positioned AP oblique elbow with lateral rotation?",
+    "prompt": "Which joint space should be open on a correctly positioned PA wrist?",
     "options": [
-      "Radial head, neck, and tuberosity free of the ulna",
-      "Coronoid process in profile",
-      "Fully superimposed humeral epicondyles",
-      "Olecranon process in the olecranon fossa"
+      "Radioulnar joint space",
+      "First CMC joint only",
+      "Humeroradial joint",
+      "Elbow joint"
     ],
-    "answer": "Radial head, neck, and tuberosity free of the ulna",
-    "explanation": "Lateral rotation projects the radial head, neck, and tuberosity free of the ulna.",
-    "source": "Positioning practice · AP oblique elbow, lateral rotation",
-    "part": "elbow",
-    "projectionId": "elbow-ext"
+    "answer": "Radioulnar joint space",
+    "explanation": "The guide lists an open radioulnar joint space as an evaluation criterion.",
+    "source": "Positioning practice · PA wrist"
   },
   {
     "id": "wrist-005",
-    "projection": "Coyle method, radial head",
+    "part": "wrist",
+    "projectionId": "wrist-pa",
+    "projection": "PA wrist",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "Which finding indicates that a PA wrist has no rotation?",
+    "options": [
+      "Carpals, metacarpals, radius, and ulna without rotation",
+      "Distal radius and ulna fully superimposed",
+      "Pisiform completely separated from all carpals",
+      "Scaphoid elongated by 20°"
+    ],
+    "answer": "Carpals, metacarpals, radius, and ulna without rotation",
+    "explanation": "The PA wrist should show no rotation of the carpals, metacarpals, radius, or ulna.",
+    "source": "Positioning practice · PA wrist"
+  },
+  {
+    "id": "wrist-006",
+    "part": "wrist",
+    "projectionId": "wrist-pa",
+    "projection": "PA wrist",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "What should be avoided when positioning the digits for a PA wrist?",
+    "options": [
+      "Excessive flexion",
+      "Slight MCP flexion",
+      "Relaxed hand positioning",
+      "Keeping the carpals close to the IR"
+    ],
+    "answer": "Excessive flexion",
+    "explanation": "Excessive digit flexion can alter positioning and obscure anatomy.",
+    "source": "Positioning practice · PA wrist"
+  },
+  {
+    "id": "wrist-007",
+    "part": "wrist",
+    "projectionId": "wrist-pa",
+    "projection": "PA wrist",
+    "topic": "anatomy",
+    "type": "mcq",
+    "prompt": "What anatomy should be included on a PA wrist?",
+    "options": [
+      "Distal radius and ulna, carpals, and proximal half of metacarpals",
+      "Entire forearm and elbow",
+      "Only the carpal bones",
+      "Entire hand through fingertips"
+    ],
+    "answer": "Distal radius and ulna, carpals, and proximal half of metacarpals",
+    "explanation": "This is the required anatomic coverage for the wrist projection.",
+    "source": "Positioning practice · PA wrist"
+  },
+  {
+    "id": "wrist-008",
+    "part": "wrist",
+    "projectionId": "wrist-pa",
+    "projection": "PA wrist",
+    "topic": "purpose",
+    "type": "mcq",
+    "prompt": "Why is an AP wrist preferred over a PA wrist when the ulna itself is under examination?",
+    "options": [
+      "The PA wrist gives the ulna a slightly oblique rotation",
+      "The PA wrist completely hides the ulna",
+      "The AP wrist magnifies the ulna more",
+      "The PA wrist always closes the radioulnar joint"
+    ],
+    "answer": "The PA wrist gives the ulna a slightly oblique rotation",
+    "explanation": "The guide notes slight oblique rotation of the ulna on the PA wrist.",
+    "source": "Positioning practice · PA wrist"
+  },
+  {
+    "id": "wrist-009",
+    "part": "wrist",
+    "projectionId": "wrist-pa",
+    "projection": "PA wrist",
+    "topic": "ir-collimation",
+    "type": "mcq",
+    "prompt": "How should a PA wrist be collimated?",
+    "options": [
+      "2.5 inches proximal and distal to the wrist joint and 1 inch on both sides",
+      "1 inch around the carpal bones only",
+      "3 inches proximal and distal and 2 inches on both sides",
+      "From the fingertips to the elbow"
+    ],
+    "answer": "2.5 inches proximal and distal to the wrist joint and 1 inch on both sides",
+    "explanation": "The guide specifies 2.5 inches proximal/distal and 1 inch on both sides.",
+    "source": "Positioning practice · PA wrist"
+  },
+  {
+    "id": "wrist-010",
+    "part": "wrist",
+    "projectionId": "wrist-pa",
+    "projection": "PA wrist",
+    "topic": "central-ray",
+    "type": "mcq",
+    "prompt": "What CR modification does Daffner use to better demonstrate the scaphoid and capitate?",
+    "options": [
+      "30° toward the elbow",
+      "20° toward the digits",
+      "45° toward the elbow",
+      "15° toward the radius"
+    ],
+    "answer": "30° toward the elbow",
+    "explanation": "The Daffner modification angles the CR 30° toward the elbow to elongate the scaphoid and capitate.",
+    "source": "Positioning practice · PA wrist"
+  },
+  {
+    "id": "wrist-011",
+    "part": "wrist",
+    "projectionId": "wrist-pa",
+    "projection": "PA wrist",
+    "topic": "anatomy",
+    "type": "mcq",
+    "prompt": "Which projection is shown in this positioning image?",
+    "options": [
+      "PA wrist",
+      "AP wrist",
+      "Lateral wrist",
+      "PA oblique wrist"
+    ],
+    "answer": "PA wrist",
+    "explanation": "The image demonstrates the standard PA wrist position.",
+    "source": "Positioning practice · PA wrist",
+    "image": {
+      "src": "images/PA wrist..png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Positioning image"
+    }
+  },
+  {
+    "id": "wrist-012",
+    "part": "wrist",
+    "projectionId": "wrist-pa",
+    "projection": "PA wrist",
+    "topic": "central-ray",
+    "type": "mcq",
+    "prompt": "Where should the CR be directed for the wrist position shown?",
+    "options": [
+      "Midcarpal area",
+      "Scaphoid only",
+      "Radial styloid",
+      "Third MCP joint"
+    ],
+    "answer": "Midcarpal area",
+    "explanation": "The standard PA wrist is centered at the midcarpal area.",
+    "source": "Positioning practice · PA wrist",
+    "image": {
+      "src": "images/PA wrist..png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Positioning image"
+    }
+  },
+  {
+    "id": "wrist-013",
+    "part": "wrist",
+    "projectionId": "wrist-ap",
+    "projection": "AP wrist",
+    "topic": "central-ray",
+    "type": "mcq",
+    "prompt": "Where is the CR centered for an AP wrist?",
+    "options": [
+      "Midcarpal area",
+      "Ulnar styloid",
+      "Radial styloid",
+      "Second MCP joint"
+    ],
+    "answer": "Midcarpal area",
+    "explanation": "The AP wrist uses a perpendicular CR centered at the midcarpal area.",
+    "source": "Positioning practice · AP wrist"
+  },
+  {
+    "id": "wrist-014",
+    "part": "wrist",
+    "projectionId": "wrist-ap",
+    "projection": "AP wrist",
     "topic": "positioning",
     "type": "mcq",
-    "prompt": "For the radial head Coyle method, how is the elbow flexed?",
+    "prompt": "How is the forearm positioned for an AP wrist?",
+    "options": [
+      "Supinated",
+      "Pronated",
+      "Half-supinated",
+      "True lateral"
+    ],
+    "answer": "Supinated",
+    "explanation": "The forearm and hand are supinated for the AP wrist.",
+    "source": "Positioning practice · AP wrist"
+  },
+  {
+    "id": "wrist-015",
+    "part": "wrist",
+    "projectionId": "wrist-ap",
+    "projection": "AP wrist",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "Why are the digits elevated on a support for an AP wrist?",
+    "options": [
+      "To assist proper wrist positioning without excessive overlap of the metacarpals",
+      "To create 45° wrist rotation",
+      "To position the scaphoid perpendicular to the CR",
+      "To open the elbow joint"
+    ],
+    "answer": "To assist proper wrist positioning without excessive overlap of the metacarpals",
+    "explanation": "The guide elevates the digits on a support and warns against excessive flexion that can obscure metacarpals.",
+    "source": "Positioning practice · AP wrist"
+  },
+  {
+    "id": "wrist-016",
+    "part": "wrist",
+    "projectionId": "wrist-ap",
+    "projection": "AP wrist",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "Why may the patient lean laterally during an AP wrist?",
+    "options": [
+      "To prevent rotation",
+      "To increase scaphoid foreshortening",
+      "To open the elbow joint",
+      "To produce medial obliquity"
+    ],
+    "answer": "To prevent rotation",
+    "explanation": "The guide specifically directs the patient to lean laterally to prevent rotation.",
+    "source": "Positioning practice · AP wrist"
+  },
+  {
+    "id": "wrist-017",
+    "part": "wrist",
+    "projectionId": "wrist-ap",
+    "projection": "AP wrist",
+    "topic": "purpose",
+    "type": "mcq",
+    "prompt": "What is a principal advantage of the AP wrist compared with the PA wrist?",
+    "options": [
+      "Carpal interspaces are better demonstrated",
+      "Pisiform is completely separated from all carpals",
+      "The scaphoid is automatically elongated",
+      "The carpal canal is demonstrated tangentially"
+    ],
+    "answer": "Carpal interspaces are better demonstrated",
+    "explanation": "The AP projection better aligns the oblique carpal interspaces with beam divergence.",
+    "source": "Positioning practice · AP wrist"
+  },
+  {
+    "id": "wrist-018",
+    "part": "wrist",
+    "projectionId": "wrist-ap",
+    "projection": "AP wrist",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "What should be avoided on an AP wrist because it can overlap and obscure the metacarpals?",
+    "options": [
+      "Excessive flexion of the digits",
+      "Supination of the hand",
+      "Lateral leaning",
+      "Centering at the carpals"
+    ],
+    "answer": "Excessive flexion of the digits",
+    "explanation": "The guide warns that excessive digit flexion can overlap and obscure the metacarpals.",
+    "source": "Positioning practice · AP wrist"
+  },
+  {
+    "id": "wrist-019",
+    "part": "wrist",
+    "projectionId": "wrist-ap",
+    "projection": "AP wrist",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "Which structures should show no rotation on an AP wrist?",
+    "options": [
+      "Carpals, metacarpals, radius, and ulna",
+      "Only the metacarpals",
+      "Only radius and ulna",
+      "Only the scaphoid and lunate"
+    ],
+    "answer": "Carpals, metacarpals, radius, and ulna",
+    "explanation": "No rotation should be present throughout the wrist anatomy.",
+    "source": "Positioning practice · AP wrist"
+  },
+  {
+    "id": "wrist-020",
+    "part": "wrist",
+    "projectionId": "wrist-ap",
+    "projection": "AP wrist",
+    "topic": "anatomy",
+    "type": "mcq",
+    "prompt": "What anatomy must be included on an AP wrist?",
+    "options": [
+      "Distal radius and ulna, carpals, and proximal half of metacarpals",
+      "Only the carpals",
+      "Entire forearm and elbow",
+      "Entire hand through fingertips"
+    ],
+    "answer": "Distal radius and ulna, carpals, and proximal half of metacarpals",
+    "explanation": "The AP wrist uses the same required anatomic coverage.",
+    "source": "Positioning practice · AP wrist"
+  },
+  {
+    "id": "wrist-021",
+    "part": "wrist",
+    "projectionId": "wrist-ap",
+    "projection": "AP wrist",
+    "topic": "anatomy",
+    "type": "mcq",
+    "prompt": "Which projection is shown in this positioning image?",
+    "options": [
+      "AP wrist",
+      "PA wrist",
+      "Lateral wrist",
+      "AP oblique wrist"
+    ],
+    "answer": "AP wrist",
+    "explanation": "The forearm and hand are positioned for an AP wrist.",
+    "source": "Positioning practice · AP wrist",
+    "image": {
+      "src": "images/AP wrist..png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Positioning image"
+    }
+  },
+  {
+    "id": "wrist-022",
+    "part": "wrist",
+    "projectionId": "wrist-ap",
+    "projection": "AP wrist",
+    "topic": "purpose",
+    "type": "mcq",
+    "prompt": "What feature of the AP wrist is most useful to evaluate in the position shown?",
+    "options": [
+      "Carpal interspaces",
+      "Carpal canal",
+      "First CMC joint",
+      "Elbow joint"
+    ],
+    "answer": "Carpal interspaces",
+    "explanation": "The guide emphasizes improved visualization of carpal interspaces on the AP wrist.",
+    "source": "Positioning practice · AP wrist",
+    "image": {
+      "src": "images/AP wrist..png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Positioning image"
+    }
+  },
+  {
+    "id": "wrist-023",
+    "part": "wrist",
+    "projectionId": "wrist-lat",
+    "projection": "Lateral wrist",
+    "topic": "central-ray",
+    "type": "mcq",
+    "prompt": "Where is the CR centered for a lateral wrist?",
+    "options": [
+      "Wrist joint",
+      "Midcarpal area only",
+      "Radial styloid",
+      "Ulnar styloid"
+    ],
+    "answer": "Wrist joint",
+    "explanation": "The lateral wrist uses a perpendicular CR to the wrist joint.",
+    "source": "Positioning practice · Lateral wrist"
+  },
+  {
+    "id": "wrist-024",
+    "part": "wrist",
+    "projectionId": "wrist-lat",
+    "projection": "Lateral wrist",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "How much should the elbow be flexed for the lateral wrist?",
     "options": [
       "90°",
-      "80°",
+      "45°",
+      "30°",
+      "Fully extended"
+    ],
+    "answer": "90°",
+    "explanation": "The elbow is flexed 90° to rotate the ulna into a lateral position.",
+    "source": "Positioning practice · Lateral wrist"
+  },
+  {
+    "id": "wrist-025",
+    "part": "wrist",
+    "projectionId": "wrist-lat",
+    "projection": "Lateral wrist",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "Which structures should be superimposed and perpendicular to the IR during lateral wrist positioning?",
+    "options": [
+      "Humeral epicondyles and styloid processes",
+      "Metacarpal heads and radial styloid only",
+      "Carpal bones and elbow joint",
+      "Scaphoid and capitate"
+    ],
+    "answer": "Humeral epicondyles and styloid processes",
+    "explanation": "The guide uses superimposed epicondyles and styloids to establish a true lateral.",
+    "source": "Positioning practice · Lateral wrist"
+  },
+  {
+    "id": "wrist-026",
+    "part": "wrist",
+    "projectionId": "wrist-lat",
+    "projection": "Lateral wrist",
+    "topic": "purpose",
+    "type": "mcq",
+    "prompt": "What fracture information is the lateral wrist especially useful for demonstrating?",
+    "options": [
+      "Anterior or posterior displacement",
+      "Only medial displacement",
+      "Only lateral displacement",
+      "Only fracture length"
+    ],
+    "answer": "Anterior or posterior displacement",
+    "explanation": "The lateral wrist is used to show anterior or posterior fracture displacement.",
+    "source": "Positioning practice · Lateral wrist"
+  },
+  {
+    "id": "wrist-027",
+    "part": "wrist",
+    "projectionId": "wrist-lat",
+    "projection": "Lateral wrist",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "Which relationship is expected between the distal radius and ulna on a true lateral wrist?",
+    "options": [
+      "Superimposition",
+      "Wide separation",
+      "45° obliquity",
+      "Complete radioulnar opening"
+    ],
+    "answer": "Superimposition",
+    "explanation": "The distal radius and ulna should be superimposed.",
+    "source": "Positioning practice · Lateral wrist"
+  },
+  {
+    "id": "wrist-028",
+    "part": "wrist",
+    "projectionId": "wrist-lat",
+    "projection": "Lateral wrist",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "How should the metacarpals appear on a true lateral wrist?",
+    "options": [
+      "Superimposed",
+      "Widely separated",
+      "Only third through fifth superimposed",
+      "First and second free of overlap"
+    ],
+    "answer": "Superimposed",
+    "explanation": "Superimposed metacarpals support a true lateral wrist position.",
+    "source": "Positioning practice · Lateral wrist"
+  },
+  {
+    "id": "wrist-029",
+    "part": "wrist",
+    "projectionId": "wrist-lat",
+    "projection": "Lateral wrist",
+    "topic": "anatomy",
+    "type": "mcq",
+    "prompt": "What anatomy should be included on a lateral wrist?",
+    "options": [
+      "Distal radius and ulna, carpals, and proximal half of metacarpals",
+      "Entire hand through fingertips",
+      "Only the carpal bones",
+      "Entire forearm through elbow"
+    ],
+    "answer": "Distal radius and ulna, carpals, and proximal half of metacarpals",
+    "explanation": "This is the listed anatomic coverage.",
+    "source": "Positioning practice · Lateral wrist"
+  },
+  {
+    "id": "wrist-030",
+    "part": "wrist",
+    "projectionId": "wrist-lat",
+    "projection": "Lateral wrist",
+    "topic": "ir-collimation",
+    "type": "mcq",
+    "prompt": "How should the lateral wrist be collimated?",
+    "options": [
+      "2.5 inches proximal and distal to the wrist and 1 inch anterior/posterior",
+      "1 inch around the carpals only",
+      "3 inches proximal and distal and 2 inches anterior/posterior",
+      "From the fingertips to midforearm"
+    ],
+    "answer": "2.5 inches proximal and distal to the wrist and 1 inch anterior/posterior",
+    "explanation": "The guide specifies 2.5 inches proximal/distal and 1 inch on the anterior and posterior surfaces.",
+    "source": "Positioning practice · Lateral wrist"
+  },
+  {
+    "id": "wrist-031",
+    "part": "wrist",
+    "projectionId": "wrist-lat",
+    "projection": "Lateral wrist",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "Which feature should be checked on this lateral wrist radiograph?",
+    "options": [
+      "Superimposition of the distal radius and ulna",
+      "Open radioulnar joint",
+      "Pisiform completely separated",
+      "Scaphoid at right angle to the CR"
+    ],
+    "answer": "Superimposition of the distal radius and ulna",
+    "explanation": "A true lateral wrist demonstrates superimposed distal radius and ulna.",
+    "source": "Positioning practice · Lateral wrist",
+    "image": {
+      "src": "images/Lateral wrist with radial surface to IR.xray.png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Radiograph"
+    }
+  },
+  {
+    "id": "wrist-032",
+    "part": "wrist",
+    "projectionId": "wrist-lat",
+    "projection": "Lateral wrist",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "Which projection is being positioned in this image?",
+    "options": [
+      "Lateral wrist",
+      "PA wrist",
+      "AP wrist",
+      "PA oblique wrist"
+    ],
+    "answer": "Lateral wrist",
+    "explanation": "The image demonstrates a lateral wrist position.",
+    "source": "Positioning practice · Lateral wrist",
+    "image": {
+      "src": "images/Lateral wrist with ulnar surface to IR..png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Positioning image"
+    }
+  },
+  {
+    "id": "wrist-033",
+    "part": "wrist",
+    "projectionId": "wrist-pa-obl",
+    "projection": "PA oblique wrist · lateral rotation",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "How much lateral rotation is used for the PA oblique wrist?",
+    "options": [
+      "About 45°",
+      "15°",
+      "20°",
+      "90°"
+    ],
+    "answer": "About 45°",
+    "explanation": "The coronal plane is rotated laterally to approximately 45° to the IR.",
+    "source": "Positioning practice · PA oblique wrist, lateral rotation"
+  },
+  {
+    "id": "wrist-034",
+    "part": "wrist",
+    "projectionId": "wrist-pa-obl",
+    "projection": "PA oblique wrist · lateral rotation",
+    "topic": "central-ray",
+    "type": "mcq",
+    "prompt": "Where is the CR centered for the PA oblique wrist with lateral rotation?",
+    "options": [
+      "Midcarpal area, entering just distal to the radius",
+      "Pisiform",
+      "Ulnar styloid",
+      "First CMC joint"
+    ],
+    "answer": "Midcarpal area, entering just distal to the radius",
+    "explanation": "The CR is perpendicular to the midcarpal area and enters just distal to the radius.",
+    "source": "Positioning practice · PA oblique wrist, lateral rotation"
+  },
+  {
+    "id": "wrist-035",
+    "part": "wrist",
+    "projectionId": "wrist-pa-obl",
+    "projection": "PA oblique wrist · lateral rotation",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "Where should the IR center point lie after rotating the wrist for a PA oblique?",
+    "options": [
+      "Under the scaphoid",
+      "Under the pisiform",
+      "Under the ulnar styloid",
+      "Under the third MCP joint"
+    ],
+    "answer": "Under the scaphoid",
+    "explanation": "The guide directs adjustment of the IR so its center lies under the scaphoid.",
+    "source": "Positioning practice · PA oblique wrist, lateral rotation"
+  },
+  {
+    "id": "wrist-036",
+    "part": "wrist",
+    "projectionId": "wrist-pa-obl",
+    "projection": "PA oblique wrist · lateral rotation",
+    "topic": "purpose",
+    "type": "mcq",
+    "prompt": "Which carpal bones are emphasized by the PA oblique wrist with lateral rotation?",
+    "options": [
+      "Scaphoid and trapezium",
+      "Pisiform and triquetrum",
+      "Hamate and pisiform",
+      "Lunate and capitate only"
+    ],
+    "answer": "Scaphoid and trapezium",
+    "explanation": "This projection demonstrates the carpals on the lateral side of the wrist, especially the scaphoid and trapezium.",
+    "source": "Positioning practice · PA oblique wrist, lateral rotation"
+  },
+  {
+    "id": "wrist-037",
+    "part": "wrist",
+    "projectionId": "wrist-pa-obl",
+    "projection": "PA oblique wrist · lateral rotation",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "Which metacarpals should show a slight interosseous space on the PA oblique wrist?",
+    "options": [
+      "Third, fourth, and fifth",
+      "First and second",
+      "Second and third",
+      "All five equally"
+    ],
+    "answer": "Third, fourth, and fifth",
+    "explanation": "The guide lists slight interosseous spaces between the third, fourth, and fifth metacarpal bodies.",
+    "source": "Positioning practice · PA oblique wrist, lateral rotation"
+  },
+  {
+    "id": "wrist-038",
+    "part": "wrist",
+    "projectionId": "wrist-pa-obl",
+    "projection": "PA oblique wrist · lateral rotation",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "What relationship is expected between the distal radius and ulna on the PA oblique wrist?",
+    "options": [
+      "Slight overlap",
+      "Complete superimposition",
+      "No overlap at all",
+      "A widely open radioulnar joint"
+    ],
+    "answer": "Slight overlap",
+    "explanation": "The guide lists slight overlap of the distal radius and ulna.",
+    "source": "Positioning practice · PA oblique wrist, lateral rotation"
+  },
+  {
+    "id": "wrist-039",
+    "part": "wrist",
+    "projectionId": "wrist-pa-obl",
+    "projection": "PA oblique wrist · lateral rotation",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "Which structures should be free of superimposition on the PA oblique wrist?",
+    "options": [
+      "Trapezium and distal half of scaphoid",
+      "Pisiform and triquetrum only",
+      "Radius and ulna",
+      "All metacarpals"
+    ],
+    "answer": "Trapezium and distal half of scaphoid",
+    "explanation": "The trapezium and distal half of the scaphoid should not be superimposed.",
+    "source": "Positioning practice · PA oblique wrist, lateral rotation"
+  },
+  {
+    "id": "wrist-040",
+    "part": "wrist",
+    "projectionId": "wrist-pa-obl",
+    "projection": "PA oblique wrist · lateral rotation",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "Which joint spaces should be open on a correctly positioned PA oblique wrist?",
+    "options": [
+      "Trapeziotrapezoid and scaphotrapezial",
+      "Radioulnar and humeroradial",
+      "First CMC and first MCP only",
+      "Carpal canal"
+    ],
+    "answer": "Trapeziotrapezoid and scaphotrapezial",
+    "explanation": "The guide specifies open trapeziotrapezoid and scaphotrapezial joint spaces.",
+    "source": "Positioning practice · PA oblique wrist, lateral rotation"
+  },
+  {
+    "id": "wrist-041",
+    "part": "wrist",
+    "projectionId": "wrist-pa-obl",
+    "projection": "PA oblique wrist · lateral rotation",
+    "topic": "anatomy",
+    "type": "mcq",
+    "prompt": "Which projection is being positioned in this image?",
+    "options": [
+      "PA oblique wrist with lateral rotation",
+      "AP oblique wrist with medial rotation",
+      "PA wrist in ulnar deviation",
+      "Lateral wrist"
+    ],
+    "answer": "PA oblique wrist with lateral rotation",
+    "explanation": "The image shows the wrist laterally rotated into a PA oblique position.",
+    "source": "Positioning practice · PA oblique wrist, lateral rotation",
+    "image": {
+      "src": "images/PA oblique wrist lateral rotation..png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Positioning image"
+    }
+  },
+  {
+    "id": "wrist-042",
+    "part": "wrist",
+    "projectionId": "wrist-pa-obl",
+    "projection": "PA oblique wrist · lateral rotation",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "Which structure should be especially well demonstrated in the position shown?",
+    "options": [
+      "Scaphoid and trapezium",
+      "Pisiform only",
+      "Coronoid process",
+      "Carpal canal"
+    ],
+    "answer": "Scaphoid and trapezium",
+    "explanation": "The lateral-rotation PA oblique emphasizes the lateral-side carpals.",
+    "source": "Positioning practice · PA oblique wrist, lateral rotation",
+    "image": {
+      "src": "images/PA oblique wrist lateral rotation..png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Positioning image"
+    }
+  },
+  {
+    "id": "wrist-043",
+    "part": "wrist",
+    "projectionId": "wrist-ap-obl",
+    "projection": "AP oblique wrist · medial rotation",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "How much medial rotation is used for the AP oblique wrist?",
+    "options": [
+      "About 45°",
+      "15°",
+      "20°",
+      "90°"
+    ],
+    "answer": "About 45°",
+    "explanation": "The supinated wrist is medially rotated until its coronal plane is about 45° to the IR.",
+    "source": "Positioning practice · AP oblique wrist, medial rotation"
+  },
+  {
+    "id": "wrist-044",
+    "part": "wrist",
+    "projectionId": "wrist-ap-obl",
+    "projection": "AP oblique wrist · medial rotation",
+    "topic": "central-ray",
+    "type": "mcq",
+    "prompt": "Where is the CR centered for the AP oblique wrist with medial rotation?",
+    "options": [
+      "Midcarpal area, entering the anterior wrist midway between medial and lateral borders",
+      "Scaphoid",
+      "Pisiform",
+      "Radial styloid"
+    ],
+    "answer": "Midcarpal area, entering the anterior wrist midway between medial and lateral borders",
+    "explanation": "The guide centers perpendicularly at the midcarpal area through the anterior wrist.",
+    "source": "Positioning practice · AP oblique wrist, medial rotation"
+  },
+  {
+    "id": "wrist-045",
+    "part": "wrist",
+    "projectionId": "wrist-ap-obl",
+    "projection": "AP oblique wrist · medial rotation",
+    "topic": "purpose",
+    "type": "mcq",
+    "prompt": "What is a key purpose of the AP oblique wrist with medial rotation?",
+    "options": [
+      "Separate the pisiform from adjacent carpal bones",
+      "Elongate the scaphoid",
+      "Open the radioulnar joint",
+      "Show anterior fracture displacement"
+    ],
+    "answer": "Separate the pisiform from adjacent carpal bones",
+    "explanation": "This projection separates the pisiform from neighboring carpals.",
+    "source": "Positioning practice · AP oblique wrist, medial rotation"
+  },
+  {
+    "id": "wrist-046",
+    "part": "wrist",
+    "projectionId": "wrist-ap-obl",
+    "projection": "AP oblique wrist · medial rotation",
+    "topic": "purpose",
+    "type": "mcq",
+    "prompt": "Which two other carpal structures are shown more distinctly on the AP oblique medial wrist?",
+    "options": [
+      "Triquetrum and hamate",
+      "Scaphoid and trapezium",
+      "Lunate and capitate",
+      "Trapezoid and scaphoid"
+    ],
+    "answer": "Triquetrum and hamate",
+    "explanation": "The guide specifically names the triquetrum and hamate.",
+    "source": "Positioning practice · AP oblique wrist, medial rotation"
+  },
+  {
+    "id": "wrist-047",
+    "part": "wrist",
+    "projectionId": "wrist-ap-obl",
+    "projection": "AP oblique wrist · medial rotation",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "Which structures should be free of superimposition and in profile on the AP oblique medial wrist?",
+    "options": [
+      "Triquetrum, hook of hamate, and pisiform",
+      "Scaphoid and trapezium only",
+      "Radius and ulna",
+      "All metacarpals"
+    ],
+    "answer": "Triquetrum, hook of hamate, and pisiform",
+    "explanation": "These medial-side carpal structures should be free of superimposition and in profile.",
+    "source": "Positioning practice · AP oblique wrist, medial rotation"
+  },
+  {
+    "id": "wrist-048",
+    "part": "wrist",
+    "projectionId": "wrist-ap-obl",
+    "projection": "AP oblique wrist · medial rotation",
+    "topic": "anatomy",
+    "type": "mcq",
+    "prompt": "Which side of the wrist carpals is emphasized on the AP oblique medial rotation?",
+    "options": [
+      "Medial side",
+      "Lateral side",
+      "Only central carpals",
+      "Only distal carpal row"
+    ],
+    "answer": "Medial side",
+    "explanation": "The projection emphasizes the carpals on the medial side of the wrist.",
+    "source": "Positioning practice · AP oblique wrist, medial rotation"
+  },
+  {
+    "id": "wrist-049",
+    "part": "wrist",
+    "projectionId": "wrist-ap-obl",
+    "projection": "AP oblique wrist · medial rotation",
+    "topic": "anatomy",
+    "type": "mcq",
+    "prompt": "Which projection is being positioned in this image?",
+    "options": [
+      "AP oblique wrist with medial rotation",
+      "PA oblique wrist with lateral rotation",
+      "PA wrist",
+      "Lateral wrist"
+    ],
+    "answer": "AP oblique wrist with medial rotation",
+    "explanation": "The image demonstrates the supinated wrist rotated medially.",
+    "source": "Positioning practice · AP oblique wrist, medial rotation",
+    "image": {
+      "src": "images/AP oblique wrist medial rotation..png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Positioning image"
+    }
+  },
+  {
+    "id": "wrist-050",
+    "part": "wrist",
+    "projectionId": "wrist-ap-obl",
+    "projection": "AP oblique wrist · medial rotation",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "Which bone should be separated from adjacent carpals in the position shown?",
+    "options": [
+      "Pisiform",
+      "Scaphoid",
+      "Capitate",
+      "Trapezium"
+    ],
+    "answer": "Pisiform",
+    "explanation": "The AP oblique medial rotation is designed to separate the pisiform.",
+    "source": "Positioning practice · AP oblique wrist, medial rotation",
+    "image": {
+      "src": "images/AP oblique wrist medial rotation..png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Positioning image"
+    }
+  },
+  {
+    "id": "wrist-051",
+    "part": "wrist",
+    "projectionId": "wrist-ulnar",
+    "projection": "PA wrist · ulnar deviation",
+    "topic": "purpose",
+    "type": "mcq",
+    "prompt": "What is the main effect of ulnar deviation on the scaphoid?",
+    "options": [
+      "Reduces foreshortening",
+      "Increases foreshortening",
+      "Superimposes it on the radius",
+      "Moves it out of the image"
+    ],
+    "answer": "Reduces foreshortening",
+    "explanation": "Ulnar deviation reduces foreshortening of the scaphoid.",
+    "source": "Positioning practice · PA wrist, ulnar deviation"
+  },
+  {
+    "id": "wrist-052",
+    "part": "wrist",
+    "projectionId": "wrist-ulnar",
+    "projection": "PA wrist · ulnar deviation",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "How is the hand moved to obtain ulnar deviation?",
+    "options": [
+      "Turned outward without moving the forearm",
+      "Turned medially without moving the forearm",
+      "Rotated into a true lateral",
+      "Supinated fully"
+    ],
+    "answer": "Turned outward without moving the forearm",
+    "explanation": "The pronated hand is moved outward into extreme ulnar deviation while the forearm remains still.",
+    "source": "Positioning practice · PA wrist, ulnar deviation"
+  },
+  {
+    "id": "wrist-053",
+    "part": "wrist",
+    "projectionId": "wrist-ulnar",
+    "projection": "PA wrist · ulnar deviation",
+    "topic": "central-ray",
+    "type": "mcq",
+    "prompt": "Where is the CR centered for a PA wrist in ulnar deviation?",
+    "options": [
+      "Scaphoid",
+      "Midcarpal area only",
+      "Pisiform",
+      "Radial styloid"
+    ],
+    "answer": "Scaphoid",
+    "explanation": "The guide centers the CR at the scaphoid.",
+    "source": "Positioning practice · PA wrist, ulnar deviation"
+  },
+  {
+    "id": "wrist-054",
+    "part": "wrist",
+    "projectionId": "wrist-ulnar",
+    "projection": "PA wrist · ulnar deviation",
+    "topic": "central-ray",
+    "type": "mcq",
+    "prompt": "What optional CR angulation may be required for the ulnar-deviation scaphoid view?",
+    "options": [
+      "10–15° medially or distally",
+      "20° toward the shoulder",
+      "45° toward the elbow",
+      "30° laterally"
+    ],
+    "answer": "10–15° medially or distally",
+    "explanation": "The guide notes that a 10–15° medial or distal angle may sometimes be required.",
+    "source": "Positioning practice · PA wrist, ulnar deviation"
+  },
+  {
+    "id": "wrist-055",
+    "part": "wrist",
+    "projectionId": "wrist-ulnar",
+    "projection": "PA wrist · ulnar deviation",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "What should be demonstrated around the scaphoid on a satisfactory ulnar-deviation image?",
+    "options": [
+      "Adjacent articulations open",
+      "Complete scaphoid superimposition",
+      "Carpal canal in profile",
+      "Pisiform superimposed"
+    ],
+    "answer": "Adjacent articulations open",
+    "explanation": "The scaphoid and its adjacent articulations should be open.",
+    "source": "Positioning practice · PA wrist, ulnar deviation"
+  },
+  {
+    "id": "wrist-056",
+    "part": "wrist",
+    "projectionId": "wrist-ulnar",
+    "projection": "PA wrist · ulnar deviation",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "How is maximum ulnar deviation evaluated?",
+    "options": [
+      "By the angle between the ulna and fifth metacarpal longitudinal axes",
+      "By the angle between the radius and first metacarpal",
+      "By superimposition of radius and ulna",
+      "By the position of the pisiform"
+    ],
+    "answer": "By the angle between the ulna and fifth metacarpal longitudinal axes",
+    "explanation": "This angle demonstrates the degree of ulnar deviation.",
+    "source": "Positioning practice · PA wrist, ulnar deviation"
+  },
+  {
+    "id": "wrist-057",
+    "part": "wrist",
+    "projectionId": "wrist-ulnar",
+    "projection": "PA wrist · ulnar deviation",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "What should be true of wrist rotation on an ulnar-deviation image?",
+    "options": [
+      "No rotation",
+      "45° lateral rotation",
+      "45° medial rotation",
+      "True lateral rotation"
+    ],
+    "answer": "No rotation",
+    "explanation": "The guide requires no wrist rotation.",
+    "source": "Positioning practice · PA wrist, ulnar deviation"
+  },
+  {
+    "id": "wrist-058",
+    "part": "wrist",
+    "projectionId": "wrist-ulnar",
+    "projection": "PA wrist · ulnar deviation",
+    "topic": "anatomy",
+    "type": "mcq",
+    "prompt": "Which projection is shown in this positioning image?",
+    "options": [
+      "PA wrist in ulnar deviation",
+      "PA wrist in radial deviation",
+      "Stecher method",
+      "PA oblique wrist"
+    ],
+    "answer": "PA wrist in ulnar deviation",
+    "explanation": "The hand is deviated ulnarly while the wrist remains PA.",
+    "source": "Positioning practice · PA wrist, ulnar deviation",
+    "image": {
+      "src": "images/PA wrist in ulnar deviation..png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Positioning image"
+    }
+  },
+  {
+    "id": "wrist-059",
+    "part": "wrist",
+    "projectionId": "wrist-ulnar",
+    "projection": "PA wrist · ulnar deviation",
+    "topic": "purpose",
+    "type": "mcq",
+    "prompt": "Which bone should appear less foreshortened in the position shown?",
+    "options": [
+      "Scaphoid",
+      "Pisiform",
+      "Hamate",
+      "Capitate"
+    ],
+    "answer": "Scaphoid",
+    "explanation": "Ulnar deviation reduces scaphoid foreshortening.",
+    "source": "Positioning practice · PA wrist, ulnar deviation",
+    "image": {
+      "src": "images/PA wrist in ulnar deviation..png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Positioning image"
+    }
+  },
+  {
+    "id": "wrist-060",
+    "part": "wrist",
+    "projectionId": "wrist-radial",
+    "projection": "PA wrist · radial deviation",
+    "topic": "purpose",
+    "type": "mcq",
+    "prompt": "What is the main purpose of radial deviation of the wrist?",
+    "options": [
+      "Open interspaces between carpals on the medial side",
+      "Elongate the scaphoid",
+      "Separate the trapezium and scaphoid",
+      "Show the carpal canal"
+    ],
+    "answer": "Open interspaces between carpals on the medial side",
+    "explanation": "Radial deviation opens medial-side carpal interspaces.",
+    "source": "Positioning practice · PA wrist, radial deviation"
+  },
+  {
+    "id": "wrist-061",
+    "part": "wrist",
+    "projectionId": "wrist-radial",
+    "projection": "PA wrist · radial deviation",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "How is the hand moved for radial deviation?",
+    "options": [
+      "Turned medially without moving the forearm",
+      "Turned outward without moving the forearm",
+      "Rotated laterally 45°",
+      "Placed in a true lateral"
+    ],
+    "answer": "Turned medially without moving the forearm",
+    "explanation": "The hand is turned medially into extreme radial deviation while the forearm remains stationary.",
+    "source": "Positioning practice · PA wrist, radial deviation"
+  },
+  {
+    "id": "wrist-062",
+    "part": "wrist",
+    "projectionId": "wrist-radial",
+    "projection": "PA wrist · radial deviation",
+    "topic": "central-ray",
+    "type": "mcq",
+    "prompt": "Where is the CR centered for a PA wrist in radial deviation?",
+    "options": [
+      "Midcarpal area",
+      "Scaphoid only",
+      "Pisiform",
+      "Radial styloid"
+    ],
+    "answer": "Midcarpal area",
+    "explanation": "The guide uses a perpendicular CR to the midcarpal area.",
+    "source": "Positioning practice · PA wrist, radial deviation"
+  },
+  {
+    "id": "wrist-063",
+    "part": "wrist",
+    "projectionId": "wrist-radial",
+    "projection": "PA wrist · radial deviation",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "Which anatomy should be emphasized by radial deviation?",
+    "options": [
+      "Carpals and articulations on the medial side of the wrist",
+      "Scaphoid only",
+      "Lateral-side carpals only",
+      "Carpal canal"
+    ],
+    "answer": "Carpals and articulations on the medial side of the wrist",
+    "explanation": "The medial-side carpal articulations are the focus of this view.",
+    "source": "Positioning practice · PA wrist, radial deviation"
+  },
+  {
+    "id": "wrist-064",
+    "part": "wrist",
+    "projectionId": "wrist-radial",
+    "projection": "PA wrist · radial deviation",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "How is maximum radial deviation evaluated?",
+    "options": [
+      "By the angle between the radius and first metacarpal longitudinal axes",
+      "By the angle between the ulna and fifth metacarpal",
+      "By superimposition of distal radius and ulna",
+      "By scaphoid length"
+    ],
+    "answer": "By the angle between the radius and first metacarpal longitudinal axes",
+    "explanation": "This angle demonstrates the amount of radial deviation.",
+    "source": "Positioning practice · PA wrist, radial deviation"
+  },
+  {
+    "id": "wrist-065",
+    "part": "wrist",
+    "projectionId": "wrist-radial",
+    "projection": "PA wrist · radial deviation",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "What should be true of wrist rotation on a radial-deviation image?",
+    "options": [
+      "No rotation",
+      "45° lateral rotation",
+      "45° medial rotation",
+      "True lateral rotation"
+    ],
+    "answer": "No rotation",
+    "explanation": "No rotation should be present.",
+    "source": "Positioning practice · PA wrist, radial deviation"
+  },
+  {
+    "id": "wrist-066",
+    "part": "wrist",
+    "projectionId": "wrist-radial",
+    "projection": "PA wrist · radial deviation",
+    "topic": "anatomy",
+    "type": "mcq",
+    "prompt": "Which projection is shown in this positioning image?",
+    "options": [
+      "PA wrist in radial deviation",
+      "PA wrist in ulnar deviation",
+      "Stecher method",
+      "AP wrist"
+    ],
+    "answer": "PA wrist in radial deviation",
+    "explanation": "The hand is moved medially into radial deviation.",
+    "source": "Positioning practice · PA wrist, radial deviation",
+    "image": {
+      "src": "images/PA wrist in radial deviation..png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Positioning image"
+    }
+  },
+  {
+    "id": "wrist-067",
+    "part": "wrist",
+    "projectionId": "wrist-radial",
+    "projection": "PA wrist · radial deviation",
+    "topic": "purpose",
+    "type": "mcq",
+    "prompt": "What should the position shown do to the medial carpal interspaces?",
+    "options": [
+      "Open them",
+      "Close them",
+      "Superimpose them completely",
+      "Have no effect"
+    ],
+    "answer": "Open them",
+    "explanation": "Radial deviation opens the interspaces between the medial-side carpals.",
+    "source": "Positioning practice · PA wrist, radial deviation",
+    "image": {
+      "src": "images/PA wrist in radial deviation..png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Positioning image"
+    }
+  },
+  {
+    "id": "wrist-068",
+    "part": "wrist",
+    "projectionId": "wrist-stecher",
+    "projection": "Stecher method · scaphoid",
+    "topic": "purpose",
+    "type": "mcq",
+    "prompt": "What structure is the Stecher method designed to demonstrate?",
+    "options": [
+      "Scaphoid",
+      "Pisiform",
+      "Hook of hamate",
+      "Triquetrum"
+    ],
+    "answer": "Scaphoid",
+    "explanation": "The Stecher method is a dedicated scaphoid projection.",
+    "source": "Positioning practice · Stecher method"
+  },
+  {
+    "id": "wrist-069",
+    "part": "wrist",
+    "projectionId": "wrist-stecher",
+    "projection": "Stecher method · scaphoid",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "How much is the IR elevated in the standard Stecher method described in the guide?",
+    "options": [
+      "20°",
+      "10°",
+      "30°",
+      "45°"
+    ],
+    "answer": "20°",
+    "explanation": "One end of the IR is elevated 20°.",
+    "source": "Positioning practice · Stecher method"
+  },
+  {
+    "id": "wrist-070",
+    "part": "wrist",
+    "projectionId": "wrist-stecher",
+    "projection": "Stecher method · scaphoid",
+    "topic": "central-ray",
+    "type": "mcq",
+    "prompt": "How is the CR directed in the standard Stecher method with the IR elevated?",
+    "options": [
+      "Perpendicular to the table at the scaphoid",
+      "20° toward the elbow",
+      "45° toward the shoulder",
+      "Perpendicular to the wrist joint only"
+    ],
+    "answer": "Perpendicular to the table at the scaphoid",
+    "explanation": "With the IR elevated, the standard CR is perpendicular to the table and directed at the scaphoid.",
+    "source": "Positioning practice · Stecher method"
+  },
+  {
+    "id": "wrist-071",
+    "part": "wrist",
+    "projectionId": "wrist-stecher",
+    "projection": "Stecher method · scaphoid",
+    "topic": "purpose",
+    "type": "mcq",
+    "prompt": "Why does the 20° wrist/IR angle improve demonstration of the scaphoid?",
+    "options": [
+      "It places the scaphoid at a right angle to the CR, reducing superimposition",
+      "It superimposes the scaphoid on the radius",
+      "It opens the carpal canal",
+      "It rotates the pisiform into profile"
+    ],
+    "answer": "It places the scaphoid at a right angle to the CR, reducing superimposition",
+    "explanation": "The guide states that the 20° relationship reduces scaphoid superimposition.",
+    "source": "Positioning practice · Stecher method"
+  },
+  {
+    "id": "wrist-072",
+    "part": "wrist",
+    "projectionId": "wrist-stecher",
+    "projection": "Stecher method · scaphoid",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "What should be open on a satisfactory Stecher image?",
+    "options": [
+      "Scaphoid and adjacent articulations",
+      "Radioulnar joint only",
+      "Carpal canal",
+      "First CMC joint only"
+    ],
+    "answer": "Scaphoid and adjacent articulations",
+    "explanation": "The guide requires open adjacent articulations around the scaphoid.",
+    "source": "Positioning practice · Stecher method"
+  },
+  {
+    "id": "wrist-073",
+    "part": "wrist",
+    "projectionId": "wrist-stecher",
+    "projection": "Stecher method · scaphoid",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "What should be true of wrist rotation on the Stecher method?",
+    "options": [
+      "No rotation",
+      "45° lateral rotation",
+      "45° medial rotation",
+      "True lateral"
+    ],
+    "answer": "No rotation",
+    "explanation": "The wrist should not be rotated.",
+    "source": "Positioning practice · Stecher method"
+  },
+  {
+    "id": "wrist-074",
+    "part": "wrist",
+    "projectionId": "wrist-stecher",
+    "projection": "Stecher method · scaphoid",
+    "topic": "central-ray",
+    "type": "mcq",
+    "prompt": "What is the first listed Stecher variation if the IR and wrist remain horizontal?",
+    "options": [
+      "Angle the CR 20° toward the elbow",
+      "Angle the CR 20° toward the digits",
+      "Angle the CR 45° toward the elbow",
+      "Use no CR angulation"
+    ],
+    "answer": "Angle the CR 20° toward the elbow",
+    "explanation": "The first variation keeps the wrist horizontal and angles the CR 20° toward the elbow.",
+    "source": "Positioning practice · Stecher method"
+  },
+  {
+    "id": "wrist-075",
+    "part": "wrist",
+    "projectionId": "wrist-stecher",
+    "projection": "Stecher method · scaphoid",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "What modification does Bridgeman suggest for the Stecher method?",
+    "options": [
+      "Ulnar deviation of the wrist",
+      "Radial deviation of the wrist",
+      "Full wrist flexion",
+      "True lateral wrist"
+    ],
+    "answer": "Ulnar deviation of the wrist",
+    "explanation": "The guide notes Bridgeman's suggestion to use ulnar deviation.",
+    "source": "Positioning practice · Stecher method"
+  },
+  {
+    "id": "wrist-076",
+    "part": "wrist",
+    "projectionId": "wrist-stecher",
+    "projection": "Stecher method · scaphoid",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "Which projection is being positioned in this image?",
+    "options": [
+      "Stecher method for the scaphoid",
+      "PA wrist in radial deviation",
+      "PA oblique wrist",
+      "Gaynor-Hart method"
+    ],
+    "answer": "Stecher method for the scaphoid",
+    "explanation": "The image shows the PA axial Stecher setup with the IR elevated.",
+    "source": "Positioning practice · Stecher method",
+    "image": {
+      "src": "images/PA axial wrist for scaphoid Stecher method with IR angled 20 degrees..png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Positioning image"
+    }
+  },
+  {
+    "id": "wrist-077",
+    "part": "wrist",
+    "projectionId": "wrist-stecher",
+    "projection": "Stecher method · scaphoid",
+    "topic": "purpose",
+    "type": "mcq",
+    "prompt": "What is the key effect of the 20° setup shown?",
+    "options": [
+      "Minimum scaphoid superimposition",
+      "Maximum scaphoid foreshortening",
+      "Complete carpal superimposition",
+      "Pisiform separation"
+    ],
+    "answer": "Minimum scaphoid superimposition",
+    "explanation": "The 20° setup positions the scaphoid more nearly perpendicular to the CR.",
+    "source": "Positioning practice · Stecher method",
+    "image": {
+      "src": "images/PA axial wrist for scaphoid Stecher method with IR angled 20 degrees..png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Positioning image"
+    }
+  },
+  {
+    "id": "wrist-078",
+    "part": "wrist",
+    "projectionId": "wrist-gaynor",
+    "projection": "Gaynor-Hart method · carpal canal",
+    "topic": "purpose",
+    "type": "mcq",
+    "prompt": "What anatomy is the Gaynor-Hart method designed to demonstrate?",
+    "options": [
+      "Carpal canal",
+      "Scaphoid only",
+      "Radioulnar joint",
+      "First CMC joint"
+    ],
+    "answer": "Carpal canal",
+    "explanation": "The Gaynor-Hart method is a tangential carpal canal projection.",
+    "source": "Positioning practice · Gaynor-Hart method"
+  },
+  {
+    "id": "wrist-079",
+    "part": "wrist",
+    "projectionId": "wrist-gaynor",
+    "projection": "Gaynor-Hart method · carpal canal",
+    "topic": "purpose",
+    "type": "mcq",
+    "prompt": "Which injuries are specifically listed as indications for the Gaynor-Hart method?",
+    "options": [
+      "Fractures of the hook of hamate, pisiform, and trapezium",
+      "Only scaphoid fractures",
+      "Only distal radius fractures",
+      "Only metacarpal fractures"
+    ],
+    "answer": "Fractures of the hook of hamate, pisiform, and trapezium",
+    "explanation": "The guide lists these structures among the method's indications.",
+    "source": "Positioning practice · Gaynor-Hart method"
+  },
+  {
+    "id": "wrist-080",
+    "part": "wrist",
+    "projectionId": "wrist-gaynor",
+    "projection": "Gaynor-Hart method · carpal canal",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "What wrist position is required for the inferosuperior Gaynor-Hart method?",
+    "options": [
+      "Hyperextension",
+      "Full flexion",
+      "Radial deviation only",
+      "True lateral"
+    ],
+    "answer": "Hyperextension",
+    "explanation": "The inferosuperior version requires wrist hyperextension.",
+    "source": "Positioning practice · Gaynor-Hart method"
+  },
+  {
+    "id": "wrist-081",
+    "part": "wrist",
+    "projectionId": "wrist-gaynor",
+    "projection": "Gaynor-Hart method · carpal canal",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "Why is the hand rotated slightly toward the radial side in the inferosuperior Gaynor-Hart method?",
+    "options": [
+      "To prevent superimposition of the hamate and pisiform shadows",
+      "To elongate the scaphoid",
+      "To open the radioulnar joint",
+      "To superimpose the metacarpals"
+    ],
+    "answer": "To prevent superimposition of the hamate and pisiform shadows",
+    "explanation": "The guide specifically says this rotation prevents overlap of hamate and pisiform shadows.",
+    "source": "Positioning practice · Gaynor-Hart method"
+  },
+  {
+    "id": "wrist-082",
+    "part": "wrist",
+    "projectionId": "wrist-gaynor",
+    "projection": "Gaynor-Hart method · carpal canal",
+    "topic": "central-ray",
+    "type": "mcq",
+    "prompt": "What CR is used for the inferosuperior Gaynor-Hart method?",
+    "options": [
+      "25–30° to the long axis of the hand, entering 1 inch distal to the base of the third metacarpal",
+      "20° toward the elbow at the scaphoid",
+      "45° toward the elbow at the first CMC joint",
+      "Perpendicular to the midcarpal area"
+    ],
+    "answer": "25–30° to the long axis of the hand, entering 1 inch distal to the base of the third metacarpal",
+    "explanation": "This is the listed inferosuperior CR.",
+    "source": "Positioning practice · Gaynor-Hart method"
+  },
+  {
+    "id": "wrist-083",
+    "part": "wrist",
+    "projectionId": "wrist-gaynor",
+    "projection": "Gaynor-Hart method · carpal canal",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "How should the carpal bones appear on a satisfactory Gaynor-Hart image?",
+    "options": [
+      "In an arch arrangement",
+      "Completely superimposed",
+      "In a straight line",
+      "Only the proximal row should be seen"
+    ],
+    "answer": "In an arch arrangement",
+    "explanation": "The guide lists the carpals in an arch arrangement.",
+    "source": "Positioning practice · Gaynor-Hart method"
+  },
+  {
+    "id": "wrist-084",
+    "part": "wrist",
+    "projectionId": "wrist-gaynor",
+    "projection": "Gaynor-Hart method · carpal canal",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "How should the pisiform appear on a satisfactory Gaynor-Hart image?",
+    "options": [
+      "In profile and free of superimposition",
+      "Completely superimposed by the hamate",
+      "Foreshortened behind the scaphoid",
+      "Not visible"
+    ],
+    "answer": "In profile and free of superimposition",
+    "explanation": "The pisiform should be in profile and free of superimposition.",
+    "source": "Positioning practice · Gaynor-Hart method"
+  },
+  {
+    "id": "wrist-085",
+    "part": "wrist",
+    "projectionId": "wrist-gaynor",
+    "projection": "Gaynor-Hart method · carpal canal",
+    "topic": "anatomy",
+    "type": "mcq",
+    "prompt": "Which named structure of the hamate should be demonstrated by the Gaynor-Hart method?",
+    "options": [
+      "Hamulus (hook) of hamate",
+      "Head of hamate only",
+      "Neck of hamate",
+      "Styloid of hamate"
+    ],
+    "answer": "Hamulus (hook) of hamate",
+    "explanation": "The evaluation criteria include the hamulus of the hamate.",
+    "source": "Positioning practice · Gaynor-Hart method"
+  },
+  {
+    "id": "wrist-086",
+    "part": "wrist",
+    "projectionId": "wrist-gaynor",
+    "projection": "Gaynor-Hart method · carpal canal",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "When is the superoinferior Gaynor-Hart version used?",
+    "options": [
+      "When the patient cannot assume the inferosuperior position",
+      "Whenever the scaphoid is fractured",
+      "Only when the patient is prone",
+      "Only for bilateral wrists"
+    ],
+    "answer": "When the patient cannot assume the inferosuperior position",
+    "explanation": "The guide identifies the superoinferior version as an alternative when the inferosuperior position is not possible.",
+    "source": "Positioning practice · Gaynor-Hart method"
+  },
+  {
+    "id": "wrist-087",
+    "part": "wrist",
+    "projectionId": "wrist-gaynor",
+    "projection": "Gaynor-Hart method · carpal canal",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "What support may be used in the superoinferior Gaynor-Hart method if dorsiflexion is limited?",
+    "options": [
+      "45° sponge under the palmar surface",
+      "20° wedge under the forearm",
+      "Sandbag over the wrist",
+      "No support is allowed"
+    ],
+    "answer": "45° sponge under the palmar surface",
+    "explanation": "Marshall suggests a 45° sponge when dorsiflexion is limited.",
+    "source": "Positioning practice · Gaynor-Hart method"
+  },
+  {
+    "id": "wrist-088",
+    "part": "wrist",
+    "projectionId": "wrist-gaynor",
+    "projection": "Gaynor-Hart method · carpal canal",
+    "topic": "central-ray",
+    "type": "mcq",
+    "prompt": "Where is the CR directed for the superoinferior Gaynor-Hart method?",
+    "options": [
+      "Tangential to the carpal canal at the midpoint of the wrist",
+      "At the scaphoid with 20° cephalic angle",
+      "At the midcarpal area perpendicular",
+      "At the radial styloid"
+    ],
+    "answer": "Tangential to the carpal canal at the midpoint of the wrist",
+    "explanation": "The superoinferior version directs the CR tangentially to the carpal canal at wrist midpoint.",
+    "source": "Positioning practice · Gaynor-Hart method"
+  },
+  {
+    "id": "wrist-089",
+    "part": "wrist",
+    "projectionId": "wrist-gaynor",
+    "projection": "Gaynor-Hart method · carpal canal",
+    "topic": "anatomy",
+    "type": "mcq",
+    "prompt": "Which projection is being positioned in this image?",
+    "options": [
+      "Inferosuperior Gaynor-Hart carpal canal",
+      "Stecher scaphoid",
+      "PA oblique wrist",
+      "Lateral wrist"
+    ],
+    "answer": "Inferosuperior Gaynor-Hart carpal canal",
+    "explanation": "The supplied image explicitly demonstrates the inferosuperior carpal canal position.",
+    "source": "Positioning practice · Gaynor-Hart method",
+    "image": {
+      "src": "images/Tangential (inferosuperior) carpal canal Gaynor-Hart method..png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Positioning image"
+    }
+  },
+  {
+    "id": "wrist-090",
+    "part": "wrist",
+    "projectionId": "wrist-gaynor",
+    "projection": "Gaynor-Hart method · carpal canal",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "Which structure should be in profile on the image produced by this setup?",
+    "options": [
+      "Pisiform",
+      "Scaphoid only",
+      "Distal radius",
+      "Radial head"
+    ],
+    "answer": "Pisiform",
+    "explanation": "A satisfactory Gaynor-Hart image demonstrates the pisiform in profile and free of superimposition.",
+    "source": "Positioning practice · Gaynor-Hart method",
+    "image": {
+      "src": "images/Tangential (inferosuperior) carpal canal Gaynor-Hart method..png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Positioning image"
+    }
+  },
+  {
+    "id": "wrist-091",
+    "part": "wrist",
+    "projectionId": "wrist-gaynor",
+    "projection": "Gaynor-Hart method · carpal canal",
+    "topic": "purpose",
+    "type": "mcq",
+    "prompt": "Which method is shown in this positioning image?",
+    "options": [
+      "Gaynor-Hart method",
+      "Stecher method",
+      "PA ulnar deviation",
+      "AP oblique wrist"
+    ],
+    "answer": "Gaynor-Hart method",
+    "explanation": "The image demonstrates a Gaynor-Hart carpal canal setup.",
+    "source": "Positioning practice · Gaynor-Hart method",
+    "image": {
+      "src": "images/Gaynor-Hart method.png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Positioning image"
+    }
+  },
+  {
+    "id": "wrist-092",
+    "part": "forearm",
+    "projectionId": "forearm-ap",
+    "projection": "AP forearm",
+    "topic": "central-ray",
+    "type": "mcq",
+    "prompt": "Where is the CR centered for an AP forearm?",
+    "options": [
+      "Midpoint of the forearm",
+      "Elbow joint",
+      "Wrist joint",
+      "Radial head"
+    ],
+    "answer": "Midpoint of the forearm",
+    "explanation": "The AP forearm uses a perpendicular CR to the midpoint of the forearm.",
+    "source": "Positioning practice · AP forearm"
+  },
+  {
+    "id": "wrist-093",
+    "part": "forearm",
+    "projectionId": "forearm-ap",
+    "projection": "AP forearm",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "How should the hand be positioned for an AP forearm?",
+    "options": [
+      "Supinated",
+      "Pronated",
+      "True lateral",
+      "Half-supinated"
+    ],
+    "answer": "Supinated",
+    "explanation": "The guide emphasizes that the hand must be supinated, not pronated.",
+    "source": "Positioning practice · AP forearm"
+  },
+  {
+    "id": "wrist-094",
+    "part": "forearm",
+    "projectionId": "forearm-ap",
+    "projection": "AP forearm",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "Why is pronation of the hand incorrect for an AP forearm?",
+    "options": [
+      "It crosses the radius over the ulna proximally and rotates the humerus medially",
+      "It superimposes the distal radius and ulna only",
+      "It opens the radioulnar space too much",
+      "It elongates the humeral epicondyles"
+    ],
+    "answer": "It crosses the radius over the ulna proximally and rotates the humerus medially",
+    "explanation": "The guide specifically warns that pronation creates an oblique forearm.",
+    "source": "Positioning practice · AP forearm"
+  },
+  {
+    "id": "wrist-095",
+    "part": "forearm",
+    "projectionId": "forearm-ap",
+    "projection": "AP forearm",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "How should the humeral epicondyles be positioned for an AP forearm?",
+    "options": [
+      "Equidistant from the IR",
+      "Superimposed",
+      "45° to the IR",
+      "Perpendicular to the table"
+    ],
+    "answer": "Equidistant from the IR",
+    "explanation": "The humeral epicondyles are palpated and adjusted to equal distance from the IR.",
+    "source": "Positioning practice · AP forearm"
+  },
+  {
+    "id": "wrist-096",
+    "part": "forearm",
+    "projectionId": "forearm-ap",
+    "projection": "AP forearm",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "What relationship should the radial head, neck, and tuberosity have to the proximal ulna on an AP forearm?",
+    "options": [
+      "Slight superimposition",
+      "Complete separation",
+      "Complete superimposition",
+      "No overlap of any kind"
+    ],
+    "answer": "Slight superimposition",
+    "explanation": "The guide lists slight overlap of the radial head, neck, and tuberosity over the proximal ulna.",
+    "source": "Positioning practice · AP forearm"
+  },
+  {
+    "id": "wrist-097",
+    "part": "forearm",
+    "projectionId": "forearm-ap",
+    "projection": "AP forearm",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "How should the humeral epicondyles appear on an AP forearm?",
+    "options": [
+      "Without elongation or foreshortening",
+      "Completely superimposed",
+      "Markedly foreshortened",
+      "Elongated medially"
+    ],
+    "answer": "Without elongation or foreshortening",
+    "explanation": "A properly aligned AP forearm should not distort the humeral epicondyles.",
+    "source": "Positioning practice · AP forearm"
+  },
+  {
+    "id": "wrist-098",
+    "part": "forearm",
+    "projectionId": "forearm-ap",
+    "projection": "AP forearm",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "What should be seen between the radius and ulna on an AP forearm?",
+    "options": [
+      "Open radioulnar space",
+      "Complete superimposition throughout",
+      "Only distal superimposition",
+      "No visible space"
+    ],
+    "answer": "Open radioulnar space",
+    "explanation": "The guide lists an open radioulnar space.",
+    "source": "Positioning practice · AP forearm"
+  },
+  {
+    "id": "wrist-099",
+    "part": "forearm",
+    "projectionId": "forearm-ap",
+    "projection": "AP forearm",
+    "topic": "anatomy",
+    "type": "mcq",
+    "prompt": "What anatomy must an AP forearm include?",
+    "options": [
+      "Entire forearm including wrist and distal humerus",
+      "Only radius and ulna shafts",
+      "Elbow joint only",
+      "Wrist joint only"
+    ],
+    "answer": "Entire forearm including wrist and distal humerus",
+    "explanation": "The image must include both joints and the entire forearm.",
+    "source": "Positioning practice · AP forearm"
+  },
+  {
+    "id": "wrist-100",
+    "part": "forearm",
+    "projectionId": "forearm-ap",
+    "projection": "AP forearm",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "When may the elbow joint appear partially open on an AP forearm?",
+    "options": [
+      "When the shoulder is in the same plane as the forearm",
+      "When the hand is pronated",
+      "When the elbow is flexed 90°",
+      "When the forearm is obliqued"
+    ],
+    "answer": "When the shoulder is in the same plane as the forearm",
+    "explanation": "The guide notes partial elbow opening when the shoulder is correctly placed in the same plane.",
+    "source": "Positioning practice · AP forearm"
+  },
+  {
+    "id": "wrist-101",
+    "part": "forearm",
+    "projectionId": "forearm-ap",
+    "projection": "AP forearm",
+    "topic": "ir-collimation",
+    "type": "mcq",
+    "prompt": "How should an AP forearm be collimated?",
+    "options": [
+      "2 inches distal to the wrist and proximal to the elbow, plus 1 inch on all sides",
+      "1 inch around the shaft only",
+      "3 inches around elbow only",
+      "From fingertips through midhumerus"
+    ],
+    "answer": "2 inches distal to the wrist and proximal to the elbow, plus 1 inch on all sides",
+    "explanation": "The guide specifies 2 inches beyond the joints and 1 inch laterally.",
+    "source": "Positioning practice · AP forearm"
+  },
+  {
+    "id": "wrist-102",
+    "part": "forearm",
+    "projectionId": "forearm-ap",
+    "projection": "AP forearm",
+    "topic": "anatomy",
+    "type": "mcq",
+    "prompt": "Which projection is being positioned in this image?",
+    "options": [
+      "AP forearm",
+      "Lateral forearm",
+      "AP elbow",
+      "PA wrist"
+    ],
+    "answer": "AP forearm",
+    "explanation": "The arm is positioned supinated and extended for the AP forearm.",
+    "source": "Positioning practice · AP forearm",
+    "image": {
+      "src": "images/AP forearm..png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Positioning image"
+    }
+  },
+  {
+    "id": "wrist-103",
+    "part": "forearm",
+    "projectionId": "forearm-ap",
+    "projection": "AP forearm",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "Which hand position is critical for the setup shown?",
+    "options": [
+      "Supination",
+      "Pronation",
+      "Radial deviation",
+      "Ulnar deviation"
+    ],
+    "answer": "Supination",
+    "explanation": "The AP forearm requires the hand to remain supinated.",
+    "source": "Positioning practice · AP forearm",
+    "image": {
+      "src": "images/AP forearm..png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Positioning image"
+    }
+  },
+  {
+    "id": "wrist-104",
+    "part": "forearm",
+    "projectionId": "forearm-lat",
+    "projection": "Lateral forearm",
+    "topic": "central-ray",
+    "type": "mcq",
+    "prompt": "Where is the CR centered for a lateral forearm?",
+    "options": [
+      "Midpoint of the forearm",
+      "Elbow joint",
+      "Wrist joint",
+      "Radial head"
+    ],
+    "answer": "Midpoint of the forearm",
+    "explanation": "The lateral forearm uses a perpendicular CR to the midpoint.",
+    "source": "Positioning practice · Lateral forearm"
+  },
+  {
+    "id": "wrist-105",
+    "part": "forearm",
+    "projectionId": "forearm-lat",
+    "projection": "Lateral forearm",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "How much is the elbow flexed for a lateral forearm?",
+    "options": [
+      "90°",
+      "45°",
+      "30°",
+      "Fully extended"
+    ],
+    "answer": "90°",
+    "explanation": "The elbow is flexed 90° for the lateral forearm.",
+    "source": "Positioning practice · Lateral forearm"
+  },
+  {
+    "id": "wrist-106",
+    "part": "forearm",
+    "projectionId": "forearm-lat",
+    "projection": "Lateral forearm",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "Which side of the forearm is placed against the IR for the lateromedial forearm?",
+    "options": [
+      "Medial aspect",
+      "Lateral aspect",
+      "Posterior aspect",
+      "Anterior aspect"
+    ],
+    "answer": "Medial aspect",
+    "explanation": "The guide places the medial aspect of the forearm against the IR.",
+    "source": "Positioning practice · Lateral forearm"
+  },
+  {
+    "id": "wrist-107",
+    "part": "forearm",
+    "projectionId": "forearm-lat",
+    "projection": "Lateral forearm",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "How should the humeral epicondyles and styloid processes appear during lateral forearm positioning?",
+    "options": [
+      "Superimposed and perpendicular to the IR",
+      "Parallel to the IR but separated",
+      "At 45° to the IR",
+      "Not used for positioning"
+    ],
+    "answer": "Superimposed and perpendicular to the IR",
+    "explanation": "These landmarks are used to establish a true lateral position.",
+    "source": "Positioning practice · Lateral forearm"
+  },
+  {
+    "id": "wrist-108",
+    "part": "forearm",
+    "projectionId": "forearm-lat",
+    "projection": "Lateral forearm",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "How should the thumb side of the hand be oriented for a lateral forearm?",
+    "options": [
+      "Up",
+      "Down",
+      "Toward the IR",
+      "Toward the patient's body"
+    ],
+    "answer": "Up",
+    "explanation": "The guide specifies that the thumb side of the hand must be up.",
+    "source": "Positioning practice · Lateral forearm"
+  },
+  {
+    "id": "wrist-109",
+    "part": "forearm",
+    "projectionId": "forearm-lat",
+    "projection": "Lateral forearm",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "What relationship should the distal radius and ulna have on a true lateral forearm?",
+    "options": [
+      "Superimposed",
+      "Widely separated",
+      "45° oblique",
+      "No overlap"
+    ],
+    "answer": "Superimposed",
+    "explanation": "The distal radius and ulna should be superimposed.",
+    "source": "Positioning practice · Lateral forearm"
+  },
+  {
+    "id": "wrist-110",
+    "part": "forearm",
+    "projectionId": "forearm-lat",
+    "projection": "Lateral forearm",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "What relationship should the radial head have to the coronoid process on a lateral forearm?",
+    "options": [
+      "Superimposed",
+      "Completely free",
+      "Projected above it",
+      "Projected below it"
+    ],
+    "answer": "Superimposed",
+    "explanation": "The guide lists superimposition of the radial head over the coronoid process.",
+    "source": "Positioning practice · Lateral forearm"
+  },
+  {
+    "id": "wrist-111",
+    "part": "forearm",
+    "projectionId": "forearm-lat",
+    "projection": "Lateral forearm",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "Which direction should the radial tuberosity face on a lateral forearm?",
+    "options": [
+      "Anteriorly",
+      "Posteriorly",
+      "Medially",
+      "Laterally"
+    ],
+    "answer": "Anteriorly",
+    "explanation": "The radial tuberosity should face anteriorly.",
+    "source": "Positioning practice · Lateral forearm"
+  },
+  {
+    "id": "wrist-112",
+    "part": "forearm",
+    "projectionId": "forearm-lat",
+    "projection": "Lateral forearm",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "How should the humeral epicondyles appear on a true lateral forearm?",
+    "options": [
+      "Superimposed",
+      "Equidistant but separated",
+      "45° apart",
+      "One elongated"
+    ],
+    "answer": "Superimposed",
+    "explanation": "Superimposed humeral epicondyles support a true lateral position.",
+    "source": "Positioning practice · Lateral forearm"
+  },
+  {
+    "id": "wrist-113",
+    "part": "forearm",
+    "projectionId": "forearm-lat",
+    "projection": "Lateral forearm",
+    "topic": "anatomy",
+    "type": "mcq",
+    "prompt": "What anatomy must be included on a lateral forearm?",
+    "options": [
+      "Entire forearm including wrist and distal humerus",
+      "Only radius and ulna shafts",
+      "Elbow joint only",
+      "Wrist joint only"
+    ],
+    "answer": "Entire forearm including wrist and distal humerus",
+    "explanation": "The entire forearm and adjacent joints must be demonstrated.",
+    "source": "Positioning practice · Lateral forearm"
+  },
+  {
+    "id": "wrist-114",
+    "part": "forearm",
+    "projectionId": "forearm-lat",
+    "projection": "Lateral forearm",
+    "topic": "anatomy",
+    "type": "mcq",
+    "prompt": "Which projection is being positioned in this image?",
+    "options": [
+      "Lateral forearm",
+      "AP forearm",
+      "Lateral elbow",
+      "AP elbow"
+    ],
+    "answer": "Lateral forearm",
+    "explanation": "The elbow is flexed and the forearm is positioned in a true lateral.",
+    "source": "Positioning practice · Lateral forearm",
+    "image": {
+      "src": "images/Lateral forearm..png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Positioning image"
+    }
+  },
+  {
+    "id": "wrist-115",
+    "part": "forearm",
+    "projectionId": "forearm-lat",
+    "projection": "Lateral forearm",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "Which finding should be present on this lateral forearm radiograph?",
+    "options": [
+      "Superimposed distal radius and ulna",
+      "Open radioulnar space throughout",
+      "Radial head completely free of the coronoid",
+      "Humeral epicondyles equidistant but not superimposed"
+    ],
+    "answer": "Superimposed distal radius and ulna",
+    "explanation": "A true lateral forearm demonstrates distal radius/ulna superimposition.",
+    "source": "Positioning practice · Lateral forearm",
+    "image": {
+      "src": "images/Lateral forearm.xray.png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Radiograph"
+    }
+  },
+  {
+    "id": "wrist-116",
+    "part": "elbow",
+    "projectionId": "elbow-ap",
+    "projection": "AP elbow",
+    "topic": "central-ray",
+    "type": "mcq",
+    "prompt": "Where is the CR centered for an AP elbow?",
+    "options": [
+      "Elbow joint",
+      "Radial head",
+      "Olecranon process",
+      "Midshaft humerus"
+    ],
+    "answer": "Elbow joint",
+    "explanation": "The AP elbow uses a perpendicular CR to the elbow joint.",
+    "source": "Positioning practice · AP elbow"
+  },
+  {
+    "id": "wrist-117",
+    "part": "elbow",
+    "projectionId": "elbow-ap",
+    "projection": "AP elbow",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "How should the hand be positioned for an AP elbow?",
+    "options": [
+      "Supinated",
+      "Pronated",
+      "True lateral",
+      "Half-supinated"
+    ],
+    "answer": "Supinated",
+    "explanation": "The elbow is extended with the hand supinated.",
+    "source": "Positioning practice · AP elbow"
+  },
+  {
+    "id": "wrist-118",
+    "part": "elbow",
+    "projectionId": "elbow-ap",
+    "projection": "AP elbow",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "How should the humeral epicondyles be positioned for an AP elbow?",
+    "options": [
+      "Parallel with the IR",
+      "Perpendicular to the IR",
+      "Superimposed",
+      "45° to the IR"
+    ],
+    "answer": "Parallel with the IR",
+    "explanation": "The patient leans laterally until the humeral epicondyles are parallel with the IR.",
+    "source": "Positioning practice · AP elbow"
+  },
+  {
+    "id": "wrist-119",
+    "part": "elbow",
+    "projectionId": "elbow-ap",
+    "projection": "AP elbow",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "What relationship should the radial head, neck, and tuberosity have to the proximal ulna on an AP elbow?",
+    "options": [
+      "Slight superimposition",
+      "Complete separation",
+      "Complete superimposition",
+      "No overlap at all"
+    ],
+    "answer": "Slight superimposition",
+    "explanation": "Slight superimposition over the proximal ulna is expected.",
+    "source": "Positioning practice · AP elbow"
+  },
+  {
+    "id": "wrist-120",
+    "part": "elbow",
+    "projectionId": "elbow-ap",
+    "projection": "AP elbow",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "Which joint space should be open on an AP elbow?",
+    "options": [
+      "Humeroradial joint",
+      "Radioulnar joint only",
+      "Humeroulnar joint only",
+      "First CMC joint"
+    ],
+    "answer": "Humeroradial joint",
+    "explanation": "The guide lists an open humeroradial joint.",
+    "source": "Positioning practice · AP elbow"
+  },
+  {
+    "id": "wrist-121",
+    "part": "elbow",
+    "projectionId": "elbow-ap",
+    "projection": "AP elbow",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "What should be true of the humeral epicondyles on an AP elbow?",
+    "options": [
+      "No rotation",
+      "Complete superimposition",
+      "45° lateral rotation",
+      "45° medial rotation"
+    ],
+    "answer": "No rotation",
+    "explanation": "No rotation of the humeral epicondyles should be present.",
+    "source": "Positioning practice · AP elbow"
+  },
+  {
+    "id": "wrist-122",
+    "part": "elbow",
+    "projectionId": "elbow-ap",
+    "projection": "AP elbow",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "How should the coronoid and olecranon fossae relate to the epicondyles on a correctly positioned AP elbow?",
+    "options": [
+      "Approximately equidistant",
+      "Both projected entirely medially",
+      "Both projected entirely laterally",
+      "Completely superimposed"
+    ],
+    "answer": "Approximately equidistant",
+    "explanation": "The guide uses approximate equal distance to the epicondyles as an evaluation criterion.",
+    "source": "Positioning practice · AP elbow"
+  },
+  {
+    "id": "wrist-123",
+    "part": "elbow",
+    "projectionId": "elbow-ap",
+    "projection": "AP elbow",
+    "topic": "anatomy",
+    "type": "mcq",
+    "prompt": "What anatomy is shown on an AP elbow?",
+    "options": [
+      "Elbow joint, distal arm, and proximal forearm",
+      "Only the distal humerus",
+      "Only the radial head",
+      "Entire humerus and wrist"
+    ],
+    "answer": "Elbow joint, distal arm, and proximal forearm",
+    "explanation": "The AP elbow includes the joint, distal arm, and proximal forearm.",
+    "source": "Positioning practice · AP elbow"
+  },
+  {
+    "id": "wrist-124",
+    "part": "elbow",
+    "projectionId": "elbow-ap",
+    "projection": "AP elbow",
+    "topic": "ir-collimation",
+    "type": "mcq",
+    "prompt": "How should an AP elbow be collimated?",
+    "options": [
+      "3 inches proximal and distal to the elbow joint plus 1 inch on all sides",
+      "1 inch around the elbow only",
+      "2 inches proximal/distal with no side margin",
+      "From shoulder to wrist"
+    ],
+    "answer": "3 inches proximal and distal to the elbow joint plus 1 inch on all sides",
+    "explanation": "The guide specifies 3 inches proximal/distal and 1 inch on each side.",
+    "source": "Positioning practice · AP elbow"
+  },
+  {
+    "id": "wrist-125",
+    "part": "elbow",
+    "projectionId": "elbow-ap",
+    "projection": "AP elbow",
+    "topic": "anatomy",
+    "type": "mcq",
+    "prompt": "Which projection is being positioned in this image?",
+    "options": [
+      "AP elbow",
+      "Lateral elbow",
+      "AP oblique elbow",
+      "Coyle method"
+    ],
+    "answer": "AP elbow",
+    "explanation": "The arm is extended and supinated for the standard AP elbow.",
+    "source": "Positioning practice · AP elbow",
+    "image": {
+      "src": "images/AP elbow..png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Positioning image"
+    }
+  },
+  {
+    "id": "wrist-126",
+    "part": "elbow",
+    "projectionId": "elbow-ap",
+    "projection": "AP elbow",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "Which joint should appear open in the position shown?",
+    "options": [
+      "Humeroradial joint",
+      "Radioulnar joint only",
+      "Carpal canal",
+      "First CMC joint"
+    ],
+    "answer": "Humeroradial joint",
+    "explanation": "An open humeroradial joint is a key AP elbow evaluation criterion.",
+    "source": "Positioning practice · AP elbow",
+    "image": {
+      "src": "images/AP elbow..png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Positioning image"
+    }
+  },
+  {
+    "id": "wrist-127",
+    "part": "elbow",
+    "projectionId": "elbow-lat",
+    "projection": "Lateral elbow",
+    "topic": "central-ray",
+    "type": "mcq",
+    "prompt": "Where is the CR centered for a lateral elbow?",
+    "options": [
+      "Elbow joint",
+      "Radial head only",
+      "Olecranon process only",
+      "Midshaft humerus"
+    ],
+    "answer": "Elbow joint",
+    "explanation": "The CR is perpendicular to the elbow joint regardless of its location relative to the IR.",
+    "source": "Positioning practice · Lateral elbow"
+  },
+  {
+    "id": "wrist-128",
+    "part": "elbow",
+    "projectionId": "elbow-lat",
+    "projection": "Lateral elbow",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "How much should the elbow be flexed for a routine lateral elbow?",
+    "options": [
+      "90°",
+      "30–35°",
       "45°",
       "Fully extended"
     ],
     "answer": "90°",
-    "explanation": "The radial head Coyle method uses 90° elbow flexion with the CR angled 45° toward the shoulder.",
-    "source": "Positioning practice · Coyle method, radial head",
+    "explanation": "Routine lateral elbow positioning uses 90° flexion.",
+    "source": "Positioning practice · Lateral elbow"
+  },
+  {
+    "id": "wrist-129",
     "part": "elbow",
-    "projectionId": "elbow-coyle-radial"
+    "projectionId": "elbow-lat",
+    "projection": "Lateral elbow",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "What adjustment may be needed for a muscular patient during a lateral elbow?",
+    "options": [
+      "Elevate the wrist so the forearm is parallel",
+      "Lower the wrist below the table",
+      "Pronate the hand fully",
+      "Rotate the humerus 45°"
+    ],
+    "answer": "Elevate the wrist so the forearm is parallel",
+    "explanation": "The guide recommends elevating the wrist for muscular patients.",
+    "source": "Positioning practice · Lateral elbow"
+  },
+  {
+    "id": "wrist-130",
+    "part": "elbow",
+    "projectionId": "elbow-lat",
+    "projection": "Lateral elbow",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "Which bony landmarks should be superimposed on a true lateral elbow?",
+    "options": [
+      "Humeral epicondyles",
+      "Radial head and ulna completely",
+      "Coronoid and olecranon processes",
+      "Radius and ulna shafts"
+    ],
+    "answer": "Humeral epicondyles",
+    "explanation": "Superimposed humeral epicondyles support a true lateral elbow.",
+    "source": "Positioning practice · Lateral elbow"
+  },
+  {
+    "id": "wrist-131",
+    "part": "elbow",
+    "projectionId": "elbow-lat",
+    "projection": "Lateral elbow",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "Which direction should the radial tuberosity face on a lateral elbow?",
+    "options": [
+      "Anteriorly",
+      "Posteriorly",
+      "Medially",
+      "Laterally"
+    ],
+    "answer": "Anteriorly",
+    "explanation": "The radial tuberosity should face anteriorly.",
+    "source": "Positioning practice · Lateral elbow"
+  },
+  {
+    "id": "wrist-132",
+    "part": "elbow",
+    "projectionId": "elbow-lat",
+    "projection": "Lateral elbow",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "What relationship should the radial head have to the coronoid process on a lateral elbow?",
+    "options": [
+      "Partially superimposed",
+      "Completely free",
+      "Completely superimposed",
+      "Projected behind the olecranon"
+    ],
+    "answer": "Partially superimposed",
+    "explanation": "The radial head should partially superimpose the coronoid process.",
+    "source": "Positioning practice · Lateral elbow"
+  },
+  {
+    "id": "wrist-133",
+    "part": "elbow",
+    "projectionId": "elbow-lat",
+    "projection": "Lateral elbow",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "How should the olecranon process appear on a correctly positioned lateral elbow?",
+    "options": [
+      "In profile",
+      "Completely superimposed by the humerus",
+      "Elongated medially",
+      "Not visible"
+    ],
+    "answer": "In profile",
+    "explanation": "The olecranon process should be shown in profile.",
+    "source": "Positioning practice · Lateral elbow"
+  },
+  {
+    "id": "wrist-134",
+    "part": "elbow",
+    "projectionId": "elbow-lat",
+    "projection": "Lateral elbow",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "If a soft-tissue injury is suspected, how much should the elbow be flexed according to the guide?",
+    "options": [
+      "30–35°",
+      "90°",
+      "45°",
+      "Fully extended"
+    ],
+    "answer": "30–35°",
+    "explanation": "The note recommends only 30–35° of flexion when soft-tissue injury is suspected.",
+    "source": "Positioning practice · Lateral elbow"
+  },
+  {
+    "id": "wrist-135",
+    "part": "elbow",
+    "projectionId": "elbow-lat",
+    "projection": "Lateral elbow",
+    "topic": "anatomy",
+    "type": "mcq",
+    "prompt": "Which projection is demonstrated on this radiograph?",
+    "options": [
+      "Lateral elbow",
+      "AP elbow",
+      "Medial oblique elbow",
+      "Lateral oblique elbow"
+    ],
+    "answer": "Lateral elbow",
+    "explanation": "The radiograph demonstrates a lateral elbow.",
+    "source": "Positioning practice · Lateral elbow",
+    "image": {
+      "src": "images/Lateral elbow.xray.png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Radiograph"
+    }
+  },
+  {
+    "id": "wrist-136",
+    "part": "elbow",
+    "projectionId": "elbow-lat",
+    "projection": "Lateral elbow",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "Which feature should be visible on this lateral elbow radiograph?",
+    "options": [
+      "Olecranon process in profile",
+      "Coronoid process in profile with 45° medial rotation",
+      "Radial head free of the ulna",
+      "Open humeroradial joint in AP position"
+    ],
+    "answer": "Olecranon process in profile",
+    "explanation": "A true lateral elbow demonstrates the olecranon process in profile.",
+    "source": "Positioning practice · Lateral elbow",
+    "image": {
+      "src": "images/Lateral elbow.xray.png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Radiograph"
+    }
+  },
+  {
+    "id": "wrist-137",
+    "part": "elbow",
+    "projectionId": "elbow-lat",
+    "projection": "Lateral elbow",
+    "topic": "anatomy",
+    "type": "mcq",
+    "prompt": "Which projection is being positioned in this image?",
+    "options": [
+      "Lateral elbow",
+      "AP elbow",
+      "Coyle radial head",
+      "AP oblique elbow"
+    ],
+    "answer": "Lateral elbow",
+    "explanation": "The image demonstrates routine lateral elbow positioning.",
+    "source": "Positioning practice · Lateral elbow",
+    "image": {
+      "src": "images/Lateral elbow..png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Positioning image"
+    }
+  },
+  {
+    "id": "wrist-138",
+    "part": "elbow",
+    "projectionId": "elbow-lat",
+    "projection": "Lateral elbow",
+    "topic": "pathology",
+    "type": "mcq",
+    "prompt": "What abnormality is demonstrated in this lateral elbow image according to its file label?",
+    "options": [
+      "Dislocation",
+      "Bennett fracture",
+      "Scaphoid fracture",
+      "UCL rupture"
+    ],
+    "answer": "Dislocation",
+    "explanation": "The supplied image is labeled as a lateral elbow showing dislocation.",
+    "source": "Positioning practice · Lateral elbow",
+    "image": {
+      "src": "images/Lateral elbow showing dislocation on same patient as shown in Figs. 5.122 and 5.124..png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Positioning image"
+    }
+  },
+  {
+    "id": "wrist-139",
+    "part": "elbow",
+    "projectionId": "elbow-med",
+    "projection": "AP oblique elbow · medial rotation",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "How much medial rotation is used for the AP oblique elbow?",
+    "options": [
+      "45°",
+      "15°",
+      "20°",
+      "90°"
+    ],
+    "answer": "45°",
+    "explanation": "The humeral epicondyles are rotated 45° from true anatomic position.",
+    "source": "Positioning practice · AP oblique elbow, medial rotation"
+  },
+  {
+    "id": "wrist-140",
+    "part": "elbow",
+    "projectionId": "elbow-med",
+    "projection": "AP oblique elbow · medial rotation",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "What may the hand position be during the medial oblique elbow?",
+    "options": [
+      "Pronated or at a 45° angle",
+      "Supinated only",
+      "True lateral only",
+      "Hyperextended"
+    ],
+    "answer": "Pronated or at a 45° angle",
+    "explanation": "The guide allows the hand to be pronated or held at 45°.",
+    "source": "Positioning practice · AP oblique elbow, medial rotation"
+  },
+  {
+    "id": "wrist-141",
+    "part": "elbow",
+    "projectionId": "elbow-med",
+    "projection": "AP oblique elbow · medial rotation",
+    "topic": "central-ray",
+    "type": "mcq",
+    "prompt": "Where is the CR centered for the medial oblique elbow?",
+    "options": [
+      "Elbow joint",
+      "Radial head",
+      "Coronoid process only",
+      "Olecranon fossa"
+    ],
+    "answer": "Elbow joint",
+    "explanation": "The CR is perpendicular to the elbow joint.",
+    "source": "Positioning practice · AP oblique elbow, medial rotation"
+  },
+  {
+    "id": "wrist-142",
+    "part": "elbow",
+    "projectionId": "elbow-med",
+    "projection": "AP oblique elbow · medial rotation",
+    "topic": "purpose",
+    "type": "mcq",
+    "prompt": "What structure is cleared of the radial head by the 45° medial oblique?",
+    "options": [
+      "Coronoid process",
+      "Radial tuberosity",
+      "Olecranon process",
+      "Capitulum"
+    ],
+    "answer": "Coronoid process",
+    "explanation": "The guide notes that this obliquity usually clears the coronoid process of the radial head.",
+    "source": "Positioning practice · AP oblique elbow, medial rotation"
+  },
+  {
+    "id": "wrist-143",
+    "part": "elbow",
+    "projectionId": "elbow-med",
+    "projection": "AP oblique elbow · medial rotation",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "Which process should appear in profile on a medial oblique elbow?",
+    "options": [
+      "Coronoid process",
+      "Olecranon process",
+      "Radial styloid",
+      "Pisiform"
+    ],
+    "answer": "Coronoid process",
+    "explanation": "The coronoid process should be demonstrated in profile.",
+    "source": "Positioning practice · AP oblique elbow, medial rotation"
+  },
+  {
+    "id": "wrist-144",
+    "part": "elbow",
+    "projectionId": "elbow-med",
+    "projection": "AP oblique elbow · medial rotation",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "Which humeral epicondyle should appear elongated on a medial oblique elbow?",
+    "options": [
+      "Medial epicondyle",
+      "Lateral epicondyle",
+      "Both equally",
+      "Neither"
+    ],
+    "answer": "Medial epicondyle",
+    "explanation": "The medial humeral epicondyle should appear elongated.",
+    "source": "Positioning practice · AP oblique elbow, medial rotation"
+  },
+  {
+    "id": "wrist-145",
+    "part": "elbow",
+    "projectionId": "elbow-med",
+    "projection": "AP oblique elbow · medial rotation",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "What relationship is expected between the ulna and radial head/neck on a medial oblique elbow?",
+    "options": [
+      "Ulna superimposed by the radial head and neck",
+      "Radial head and neck completely free of ulna",
+      "No overlap of either bone",
+      "Radius completely hidden"
+    ],
+    "answer": "Ulna superimposed by the radial head and neck",
+    "explanation": "The guide lists superimposition of the ulna by the radial head and neck.",
+    "source": "Positioning practice · AP oblique elbow, medial rotation"
+  },
+  {
+    "id": "wrist-146",
+    "part": "elbow",
+    "projectionId": "elbow-med",
+    "projection": "AP oblique elbow · medial rotation",
+    "topic": "anatomy",
+    "type": "mcq",
+    "prompt": "Which humeral articular structure is demonstrated on the medial oblique elbow?",
+    "options": [
+      "Trochlea",
+      "Capitulum only",
+      "Radial fossa only",
+      "Lateral epicondyle only"
+    ],
+    "answer": "Trochlea",
+    "explanation": "The trochlea is among the listed structures.",
+    "source": "Positioning practice · AP oblique elbow, medial rotation"
+  },
+  {
+    "id": "wrist-147",
+    "part": "elbow",
+    "projectionId": "elbow-med",
+    "projection": "AP oblique elbow · medial rotation",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "Where should the olecranon process project on the medial oblique elbow?",
+    "options": [
+      "Within the olecranon fossa",
+      "Completely outside the fossa",
+      "Over the radial head",
+      "At the distal radius"
+    ],
+    "answer": "Within the olecranon fossa",
+    "explanation": "The olecranon process should project within the olecranon fossa.",
+    "source": "Positioning practice · AP oblique elbow, medial rotation"
+  },
+  {
+    "id": "wrist-148",
+    "part": "elbow",
+    "projectionId": "elbow-med",
+    "projection": "AP oblique elbow · medial rotation",
+    "topic": "anatomy",
+    "type": "mcq",
+    "prompt": "Which projection is being positioned in this image?",
+    "options": [
+      "AP oblique elbow with medial rotation",
+      "AP oblique elbow with lateral rotation",
+      "Lateral elbow",
+      "AP elbow"
+    ],
+    "answer": "AP oblique elbow with medial rotation",
+    "explanation": "The elbow is positioned in 45° medial rotation.",
+    "source": "Positioning practice · AP oblique elbow, medial rotation",
+    "image": {
+      "src": "images/AP oblique elbow medial rotation..png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Positioning image"
+    }
+  },
+  {
+    "id": "wrist-149",
+    "part": "elbow",
+    "projectionId": "elbow-med",
+    "projection": "AP oblique elbow · medial rotation",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "Which structure should be in profile on this medial-oblique elbow radiograph?",
+    "options": [
+      "Coronoid process",
+      "Radial head free of the ulna",
+      "Olecranon process only",
+      "Capitulum only"
+    ],
+    "answer": "Coronoid process",
+    "explanation": "The coronoid process is a key profile structure on the medial oblique.",
+    "source": "Positioning practice · AP oblique elbow, medial rotation",
+    "image": {
+      "src": "images/AP oblique elbow medial.xray.png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Radiograph"
+    }
+  },
+  {
+    "id": "wrist-150",
+    "part": "elbow",
+    "projectionId": "elbow-ext",
+    "projection": "AP oblique elbow · lateral rotation",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "How much lateral rotation is used for the AP oblique elbow?",
+    "options": [
+      "45°",
+      "15°",
+      "20°",
+      "90°"
+    ],
+    "answer": "45°",
+    "explanation": "The posterior surface of the elbow is rotated to approximately 45°.",
+    "source": "Positioning practice · AP oblique elbow, lateral rotation"
+  },
+  {
+    "id": "wrist-151",
+    "part": "elbow",
+    "projectionId": "elbow-ext",
+    "projection": "AP oblique elbow · lateral rotation",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "Which digits should touch the table for the lateral oblique elbow?",
+    "options": [
+      "First and second digits",
+      "Second and third digits",
+      "Fourth and fifth digits",
+      "Only the thumb"
+    ],
+    "answer": "First and second digits",
+    "explanation": "The guide specifies that the first and second digits should touch the table.",
+    "source": "Positioning practice · AP oblique elbow, lateral rotation"
+  },
+  {
+    "id": "wrist-152",
+    "part": "elbow",
+    "projectionId": "elbow-ext",
+    "projection": "AP oblique elbow · lateral rotation",
+    "topic": "central-ray",
+    "type": "mcq",
+    "prompt": "Where is the CR centered for the lateral oblique elbow?",
+    "options": [
+      "Elbow joint",
+      "Radial head only",
+      "Capitulum only",
+      "Olecranon process"
+    ],
+    "answer": "Elbow joint",
+    "explanation": "The CR is perpendicular to the elbow joint.",
+    "source": "Positioning practice · AP oblique elbow, lateral rotation"
+  },
+  {
+    "id": "wrist-153",
+    "part": "elbow",
+    "projectionId": "elbow-ext",
+    "projection": "AP oblique elbow · lateral rotation",
+    "topic": "purpose",
+    "type": "mcq",
+    "prompt": "What is the principal advantage of the lateral oblique elbow?",
+    "options": [
+      "Radial head and neck projected free of superimposition",
+      "Coronoid process in profile",
+      "Olecranon process in profile",
+      "Humeroradial joint in AP"
+    ],
+    "answer": "Radial head and neck projected free of superimposition",
+    "explanation": "The lateral oblique frees the radial head and neck from ulna superimposition.",
+    "source": "Positioning practice · AP oblique elbow, lateral rotation"
+  },
+  {
+    "id": "wrist-154",
+    "part": "elbow",
+    "projectionId": "elbow-ext",
+    "projection": "AP oblique elbow · lateral rotation",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "Which structures should be free of the ulna on a correctly positioned lateral oblique elbow?",
+    "options": [
+      "Radial head, neck, and tuberosity",
+      "Coronoid and olecranon processes",
+      "Trochlea and medial epicondyle",
+      "Radius and ulna shafts entirely"
+    ],
+    "answer": "Radial head, neck, and tuberosity",
+    "explanation": "The guide lists the radial head, neck, and tuberosity free of ulna superimposition.",
+    "source": "Positioning practice · AP oblique elbow, lateral rotation"
+  },
+  {
+    "id": "wrist-155",
+    "part": "elbow",
+    "projectionId": "elbow-ext",
+    "projection": "AP oblique elbow · lateral rotation",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "Which humeral epicondyle should appear elongated on the lateral oblique elbow?",
+    "options": [
+      "Lateral epicondyle",
+      "Medial epicondyle",
+      "Both equally",
+      "Neither"
+    ],
+    "answer": "Lateral epicondyle",
+    "explanation": "The lateral humeral epicondyle should appear elongated.",
+    "source": "Positioning practice · AP oblique elbow, lateral rotation"
+  },
+  {
+    "id": "wrist-156",
+    "part": "elbow",
+    "projectionId": "elbow-ext",
+    "projection": "AP oblique elbow · lateral rotation",
+    "topic": "anatomy",
+    "type": "mcq",
+    "prompt": "Which humeral articular structure is emphasized on the lateral oblique elbow?",
+    "options": [
+      "Capitulum",
+      "Trochlea",
+      "Olecranon fossa",
+      "Coronoid fossa only"
+    ],
+    "answer": "Capitulum",
+    "explanation": "The capitulum is listed as a key structure.",
+    "source": "Positioning practice · AP oblique elbow, lateral rotation"
+  },
+  {
+    "id": "wrist-157",
+    "part": "elbow",
+    "projectionId": "elbow-ext",
+    "projection": "AP oblique elbow · lateral rotation",
+    "topic": "anatomy",
+    "type": "mcq",
+    "prompt": "Which projection is being positioned in this image?",
+    "options": [
+      "AP oblique elbow with lateral rotation",
+      "AP oblique elbow with medial rotation",
+      "Lateral elbow",
+      "Coyle coronoid"
+    ],
+    "answer": "AP oblique elbow with lateral rotation",
+    "explanation": "The image demonstrates 45° lateral rotation.",
+    "source": "Positioning practice · AP oblique elbow, lateral rotation",
+    "image": {
+      "src": "images/AP oblique elbow lateral rotation..png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Positioning image"
+    }
+  },
+  {
+    "id": "wrist-158",
+    "part": "elbow",
+    "projectionId": "elbow-ext",
+    "projection": "AP oblique elbow · lateral rotation",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "What should be free of superimposition in the position shown?",
+    "options": [
+      "Radial head and neck from the ulna",
+      "Coronoid process from the radius",
+      "Olecranon process from the humerus",
+      "Medial epicondyle from the trochlea"
+    ],
+    "answer": "Radial head and neck from the ulna",
+    "explanation": "The lateral oblique is identified by the radial head/neck free of ulna overlap.",
+    "source": "Positioning practice · AP oblique elbow, lateral rotation",
+    "image": {
+      "src": "images/AP oblique elbow lateral rotation..png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Positioning image"
+    }
+  },
+  {
+    "id": "wrist-159",
+    "part": "elbow",
+    "projectionId": "elbow-partial-humerus",
+    "projection": "AP partial flexion · distal humerus",
+    "topic": "purpose",
+    "type": "mcq",
+    "prompt": "When is the AP partial-flexion distal-humerus projection used?",
+    "options": [
+      "When the elbow cannot be fully extended and the distal humerus must be demonstrated",
+      "When the patient cannot flex the wrist",
+      "When the radial head must be isolated",
+      "When the carpal canal is needed"
+    ],
+    "answer": "When the elbow cannot be fully extended and the distal humerus must be demonstrated",
+    "explanation": "This view demonstrates the distal humerus when full elbow extension is impossible.",
+    "source": "Positioning practice · AP partial flexion, distal humerus"
+  },
+  {
+    "id": "wrist-160",
+    "part": "elbow",
+    "projectionId": "elbow-partial-humerus",
+    "projection": "AP partial flexion · distal humerus",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "Where is the IR centered for the distal-humerus partial-flexion view?",
+    "options": [
+      "Condyloid area of the humerus",
+      "Midshaft forearm",
+      "Radial head only",
+      "Olecranon tip"
+    ],
+    "answer": "Condyloid area of the humerus",
+    "explanation": "The IR is centered to the condyloid area of the distal humerus.",
+    "source": "Positioning practice · AP partial flexion, distal humerus"
+  },
+  {
+    "id": "wrist-161",
+    "part": "elbow",
+    "projectionId": "elbow-partial-humerus",
+    "projection": "AP partial flexion · distal humerus",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "What should be done with the elevated forearm during the distal-humerus partial-flexion view?",
+    "options": [
+      "Support it",
+      "Force it flat on the table",
+      "Pronate it fully",
+      "Let it hang unsupported"
+    ],
+    "answer": "Support it",
+    "explanation": "The elevated forearm should be supported.",
+    "source": "Positioning practice · AP partial flexion, distal humerus"
+  },
+  {
+    "id": "wrist-162",
+    "part": "elbow",
+    "projectionId": "elbow-partial-humerus",
+    "projection": "AP partial flexion · distal humerus",
+    "topic": "central-ray",
+    "type": "mcq",
+    "prompt": "How is the CR generally directed for the distal-humerus partial-flexion view?",
+    "options": [
+      "Perpendicular to the humerus through the elbow joint",
+      "Perpendicular to the forearm only",
+      "45° toward the shoulder",
+      "45° away from the shoulder"
+    ],
+    "answer": "Perpendicular to the humerus through the elbow joint",
+    "explanation": "The CR is perpendicular to the humerus and traverses the elbow joint.",
+    "source": "Positioning practice · AP partial flexion, distal humerus"
+  },
+  {
+    "id": "wrist-163",
+    "part": "elbow",
+    "projectionId": "elbow-partial-humerus",
+    "projection": "AP partial flexion · distal humerus",
+    "topic": "central-ray",
+    "type": "mcq",
+    "prompt": "What CR adjustment may be needed depending on the degree of elbow flexion?",
+    "options": [
+      "Angle distally into the joint",
+      "Angle proximally toward the shoulder",
+      "Angle 45° laterally",
+      "No adjustment is ever used"
+    ],
+    "answer": "Angle distally into the joint",
+    "explanation": "The guide notes that distal angulation into the joint may be required.",
+    "source": "Positioning practice · AP partial flexion, distal humerus"
+  },
+  {
+    "id": "wrist-164",
+    "part": "elbow",
+    "projectionId": "elbow-partial-humerus",
+    "projection": "AP partial flexion · distal humerus",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "How should the distal humerus appear on this partial-flexion view?",
+    "options": [
+      "Without rotation or distortion",
+      "Foreshortened",
+      "45° oblique",
+      "Completely superimposed by the forearm"
+    ],
+    "answer": "Without rotation or distortion",
+    "explanation": "The distal humerus should be demonstrated without rotation or distortion.",
+    "source": "Positioning practice · AP partial flexion, distal humerus"
+  },
+  {
+    "id": "wrist-165",
+    "part": "elbow",
+    "projectionId": "elbow-partial-humerus",
+    "projection": "AP partial flexion · distal humerus",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "What should be true of the elbow joint on the distal-humerus partial-flexion view?",
+    "options": [
+      "Closed",
+      "Fully open",
+      "Only humeroradial side open",
+      "Only humeroulnar side open"
+    ],
+    "answer": "Closed",
+    "explanation": "The elbow joint is expected to be closed on this projection.",
+    "source": "Positioning practice · AP partial flexion, distal humerus"
+  },
+  {
+    "id": "wrist-166",
+    "part": "elbow",
+    "projectionId": "elbow-partial-humerus",
+    "projection": "AP partial flexion · distal humerus",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "How should the proximal forearm appear on the distal-humerus partial-flexion view?",
+    "options": [
+      "Greatly foreshortened",
+      "Elongated",
+      "True AP without distortion",
+      "Completely absent"
+    ],
+    "answer": "Greatly foreshortened",
+    "explanation": "The guide lists marked foreshortening of the proximal forearm.",
+    "source": "Positioning practice · AP partial flexion, distal humerus"
+  },
+  {
+    "id": "wrist-167",
+    "part": "elbow",
+    "projectionId": "elbow-partial-humerus",
+    "projection": "AP partial flexion · distal humerus",
+    "topic": "anatomy",
+    "type": "mcq",
+    "prompt": "Which projection is being positioned in this image?",
+    "options": [
+      "AP partial flexion · distal humerus",
+      "AP partial flexion · proximal forearm",
+      "Lateral elbow",
+      "AP elbow"
+    ],
+    "answer": "AP partial flexion · distal humerus",
+    "explanation": "The setup is designed to demonstrate the distal humerus when extension is limited.",
+    "source": "Positioning practice · AP partial flexion, distal humerus",
+    "image": {
+      "src": "images/AP elbow, partially flexed.distalhumerus.png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Positioning image"
+    }
+  },
+  {
+    "id": "wrist-168",
+    "part": "elbow",
+    "projectionId": "elbow-partial-forearm",
+    "projection": "AP partial flexion · proximal forearm",
+    "topic": "purpose",
+    "type": "mcq",
+    "prompt": "When is the AP partial-flexion proximal-forearm projection used?",
+    "options": [
+      "When the elbow cannot be fully extended and the proximal forearm must be demonstrated",
+      "When only the distal humerus is needed",
+      "When evaluating the carpal canal",
+      "When the wrist cannot be extended"
+    ],
+    "answer": "When the elbow cannot be fully extended and the proximal forearm must be demonstrated",
+    "explanation": "This view demonstrates the proximal forearm when full elbow extension is impossible.",
+    "source": "Positioning practice · AP partial flexion, proximal forearm"
+  },
+  {
+    "id": "wrist-169",
+    "part": "elbow",
+    "projectionId": "elbow-partial-forearm",
+    "projection": "AP partial flexion · proximal forearm",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "How should the hand be positioned if possible for the proximal-forearm partial-flexion view?",
+    "options": [
+      "Supinated",
+      "Pronated",
+      "True lateral",
+      "Radially deviated"
+    ],
+    "answer": "Supinated",
+    "explanation": "The patient is positioned with the hand supinated.",
+    "source": "Positioning practice · AP partial flexion, proximal forearm"
+  },
+  {
+    "id": "wrist-170",
+    "part": "elbow",
+    "projectionId": "elbow-partial-forearm",
+    "projection": "AP partial flexion · proximal forearm",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "What forearm surface should rest on the table when possible?",
+    "options": [
+      "Dorsal surface",
+      "Volar surface",
+      "Lateral surface",
+      "Medial surface"
+    ],
+    "answer": "Dorsal surface",
+    "explanation": "The dorsal surface of the forearm is placed on the table.",
+    "source": "Positioning practice · AP partial flexion, proximal forearm"
+  },
+  {
+    "id": "wrist-171",
+    "part": "elbow",
+    "projectionId": "elbow-partial-forearm",
+    "projection": "AP partial flexion · proximal forearm",
+    "topic": "central-ray",
+    "type": "mcq",
+    "prompt": "How is the CR directed for the proximal-forearm partial-flexion projection?",
+    "options": [
+      "Perpendicular to the elbow joint and long axis of the forearm, passing through its midpoint",
+      "Perpendicular to the humerus only",
+      "45° toward the shoulder",
+      "20° toward the elbow"
+    ],
+    "answer": "Perpendicular to the elbow joint and long axis of the forearm, passing through its midpoint",
+    "explanation": "This is the guide's CR description.",
+    "source": "Positioning practice · AP partial flexion, proximal forearm"
+  },
+  {
+    "id": "wrist-172",
+    "part": "elbow",
+    "projectionId": "elbow-partial-forearm",
+    "projection": "AP partial flexion · proximal forearm",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "How should the proximal radius and ulna appear on this projection?",
+    "options": [
+      "Without rotation or distortion",
+      "Greatly foreshortened",
+      "Completely superimposed",
+      "45° oblique"
+    ],
+    "answer": "Without rotation or distortion",
+    "explanation": "The proximal radius and ulna should be shown without rotation or distortion.",
+    "source": "Positioning practice · AP partial flexion, proximal forearm"
+  },
+  {
+    "id": "wrist-173",
+    "part": "elbow",
+    "projectionId": "elbow-partial-forearm",
+    "projection": "AP partial flexion · proximal forearm",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "What relationship should the radial head, neck, and tuberosity have to the proximal ulna?",
+    "options": [
+      "Slight superimposition",
+      "Complete separation",
+      "Complete superimposition",
+      "No overlap"
+    ],
+    "answer": "Slight superimposition",
+    "explanation": "Slight overlap is expected.",
+    "source": "Positioning practice · AP partial flexion, proximal forearm"
+  },
+  {
+    "id": "wrist-174",
+    "part": "elbow",
+    "projectionId": "elbow-partial-forearm",
+    "projection": "AP partial flexion · proximal forearm",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "How should the elbow joint appear on the proximal-forearm partial-flexion view?",
+    "options": [
+      "Partially open",
+      "Closed",
+      "Fully open",
+      "Not included"
+    ],
+    "answer": "Partially open",
+    "explanation": "The guide lists a partially open elbow joint.",
+    "source": "Positioning practice · AP partial flexion, proximal forearm"
+  },
+  {
+    "id": "wrist-175",
+    "part": "elbow",
+    "projectionId": "elbow-partial-forearm",
+    "projection": "AP partial flexion · proximal forearm",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "How should the distal humerus appear on the proximal-forearm partial-flexion view?",
+    "options": [
+      "Foreshortened",
+      "Elongated",
+      "True AP without distortion",
+      "Not visible"
+    ],
+    "answer": "Foreshortened",
+    "explanation": "The distal humerus is expected to be foreshortened.",
+    "source": "Positioning practice · AP partial flexion, proximal forearm"
+  },
+  {
+    "id": "wrist-176",
+    "part": "elbow",
+    "projectionId": "elbow-partial-forearm",
+    "projection": "AP partial flexion · proximal forearm",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "What does the Holly modification do when partial-flexion positioning is used?",
+    "options": [
+      "Extends the elbow as much as possible and places the wrist plane 30° from horizontal",
+      "Flexes the elbow to 90°",
+      "Angles the CR 45° toward the shoulder",
+      "Pronates the hand completely"
+    ],
+    "answer": "Extends the elbow as much as possible and places the wrist plane 30° from horizontal",
+    "explanation": "The guide describes this as the Holly modification.",
+    "source": "Positioning practice · AP partial flexion, proximal forearm"
+  },
+  {
+    "id": "wrist-177",
+    "part": "elbow",
+    "projectionId": "elbow-partial-forearm",
+    "projection": "AP partial flexion · proximal forearm",
+    "topic": "anatomy",
+    "type": "mcq",
+    "prompt": "Which projection is being positioned in this image?",
+    "options": [
+      "AP partial flexion · proximal forearm",
+      "AP partial flexion · distal humerus",
+      "AP elbow",
+      "Lateral forearm"
+    ],
+    "answer": "AP partial flexion · proximal forearm",
+    "explanation": "The setup is intended to demonstrate the proximal forearm when extension is limited.",
+    "source": "Positioning practice · AP partial flexion, proximal forearm",
+    "image": {
+      "src": "images/AP elbow, partially flexed.proximal forearm.png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Positioning image"
+    }
+  },
+  {
+    "id": "wrist-178",
+    "part": "elbow",
+    "projectionId": "elbow-coyle-radial",
+    "projection": "Coyle method · radial head",
+    "topic": "purpose",
+    "type": "mcq",
+    "prompt": "When is the Coyle radial-head method especially useful?",
+    "options": [
+      "When the patient cannot extend the elbow",
+      "When the wrist cannot deviate",
+      "When the hand cannot supinate for a wrist exam",
+      "When evaluating the carpal canal"
+    ],
+    "answer": "When the patient cannot extend the elbow",
+    "explanation": "The Coyle method obtains radial-head images when elbow extension is limited.",
+    "source": "Positioning practice · Coyle method, radial head"
+  },
+  {
+    "id": "wrist-179",
+    "part": "elbow",
+    "projectionId": "elbow-coyle-radial",
+    "projection": "Coyle method · radial head",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "How much elbow flexion is used for the Coyle radial-head method?",
+    "options": [
+      "90°",
+      "80°",
+      "45°",
+      "30°"
+    ],
+    "answer": "90°",
+    "explanation": "The radial-head Coyle method uses 90° elbow flexion.",
+    "source": "Positioning practice · Coyle method, radial head"
+  },
+  {
+    "id": "wrist-180",
+    "part": "elbow",
+    "projectionId": "elbow-coyle-radial",
+    "projection": "Coyle method · radial head",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "How is the hand positioned for the Coyle radial-head method?",
+    "options": [
+      "Pronated",
+      "Supinated",
+      "True lateral",
+      "Radially deviated"
+    ],
+    "answer": "Pronated",
+    "explanation": "The guide directs pronation of the hand.",
+    "source": "Positioning practice · Coyle method, radial head"
+  },
+  {
+    "id": "wrist-181",
+    "part": "elbow",
+    "projectionId": "elbow-coyle-radial",
+    "projection": "Coyle method · radial head",
+    "topic": "central-ray",
+    "type": "mcq",
+    "prompt": "How is the CR angled for the Coyle radial-head method?",
+    "options": [
+      "45° toward the shoulder",
+      "45° away from the shoulder",
+      "20° toward the elbow",
+      "Perpendicular"
+    ],
+    "answer": "45° toward the shoulder",
+    "explanation": "The radial-head Coyle method uses a 45° CR toward the shoulder.",
+    "source": "Positioning practice · Coyle method, radial head"
+  },
+  {
+    "id": "wrist-182",
+    "part": "elbow",
+    "projectionId": "elbow-coyle-radial",
+    "projection": "Coyle method · radial head",
+    "topic": "central-ray",
+    "type": "mcq",
+    "prompt": "Where does the CR enter for the Coyle radial-head method?",
+    "options": [
+      "Mid-elbow",
+      "Radial styloid",
+      "Olecranon tip",
+      "Midshaft humerus"
+    ],
+    "answer": "Mid-elbow",
+    "explanation": "The CR enters at mid-elbow and is directed to the radial head.",
+    "source": "Positioning practice · Coyle method, radial head"
+  },
+  {
+    "id": "wrist-183",
+    "part": "elbow",
+    "projectionId": "elbow-coyle-radial",
+    "projection": "Coyle method · radial head",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "Which joint space should be open on a satisfactory Coyle radial-head image?",
+    "options": [
+      "Between the radial head and capitulum",
+      "Between the coronoid process and trochlea",
+      "Humeroulnar joint only",
+      "Radioulnar joint at the wrist"
+    ],
+    "answer": "Between the radial head and capitulum",
+    "explanation": "The guide lists an open radial head-capitulum joint space.",
+    "source": "Positioning practice · Coyle method, radial head"
+  },
+  {
+    "id": "wrist-184",
+    "part": "elbow",
+    "projectionId": "elbow-coyle-radial",
+    "projection": "Coyle method · radial head",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "How should the radial head, neck, and tuberosity appear on a Coyle radial-head image?",
+    "options": [
+      "In profile",
+      "Completely superimposed by the ulna",
+      "Foreshortened",
+      "Not visible"
+    ],
+    "answer": "In profile",
+    "explanation": "These structures should be demonstrated in profile.",
+    "source": "Positioning practice · Coyle method, radial head"
+  },
+  {
+    "id": "wrist-185",
+    "part": "elbow",
+    "projectionId": "elbow-coyle-radial",
+    "projection": "Coyle method · radial head",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "Which direction should the radial tuberosity face on the Coyle radial-head image?",
+    "options": [
+      "Posteriorly",
+      "Anteriorly",
+      "Medially",
+      "Laterally"
+    ],
+    "answer": "Posteriorly",
+    "explanation": "The guide states that the radial tuberosity faces posteriorly.",
+    "source": "Positioning practice · Coyle method, radial head"
+  },
+  {
+    "id": "wrist-186",
+    "part": "elbow",
+    "projectionId": "elbow-coyle-radial",
+    "projection": "Coyle method · radial head",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "What may partially superimpose the Coyle radial-head image?",
+    "options": [
+      "A small portion of the coronoid process",
+      "Entire ulna",
+      "Olecranon process",
+      "Medial epicondyle"
+    ],
+    "answer": "A small portion of the coronoid process",
+    "explanation": "The guide notes that a small portion of the coronoid may be superimposed.",
+    "source": "Positioning practice · Coyle method, radial head"
+  },
+  {
+    "id": "wrist-187",
+    "part": "elbow",
+    "projectionId": "elbow-coyle-radial",
+    "projection": "Coyle method · radial head",
+    "topic": "anatomy",
+    "type": "mcq",
+    "prompt": "Which Coyle method is shown in this positioning image?",
+    "options": [
+      "Radial head and capitulum",
+      "Coronoid process and trochlea",
+      "Distal humerus partial flexion",
+      "Medial oblique elbow"
+    ],
+    "answer": "Radial head and capitulum",
+    "explanation": "The image explicitly demonstrates the Coyle radial-head/capitulum setup.",
+    "source": "Positioning practice · Coyle method, radial head",
+    "image": {
+      "src": "images/Axiolateral elbow (Coyle method) with radial head and capitulum shown..png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Positioning image"
+    }
+  },
+  {
+    "id": "wrist-188",
+    "part": "elbow",
+    "projectionId": "elbow-coyle-radial",
+    "projection": "Coyle method · radial head",
+    "topic": "central-ray",
+    "type": "mcq",
+    "prompt": "Which CR is correct for the Coyle setup shown?",
+    "options": [
+      "45° toward the shoulder",
+      "45° away from the shoulder",
+      "Perpendicular to the elbow",
+      "20° toward the elbow"
+    ],
+    "answer": "45° toward the shoulder",
+    "explanation": "The radial-head Coyle projection uses a 45° angle toward the shoulder.",
+    "source": "Positioning practice · Coyle method, radial head",
+    "image": {
+      "src": "images/Axiolateral elbow (Coyle method) with radial head and capitulum shown..png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Positioning image"
+    }
+  },
+  {
+    "id": "wrist-189",
+    "part": "elbow",
+    "projectionId": "elbow-coyle-coronoid",
+    "projection": "Coyle method · coronoid process",
+    "topic": "purpose",
+    "type": "mcq",
+    "prompt": "When is the Coyle coronoid-process method especially useful?",
+    "options": [
+      "When the patient cannot extend the elbow",
+      "When the wrist cannot hyperextend",
+      "When evaluating a scaphoid fracture",
+      "When the hand cannot be pronated"
+    ],
+    "answer": "When the patient cannot extend the elbow",
+    "explanation": "The Coyle method provides a coronoid-process view when full elbow extension is not possible.",
+    "source": "Positioning practice · Coyle method, coronoid process"
+  },
+  {
+    "id": "wrist-190",
+    "part": "elbow",
+    "projectionId": "elbow-coyle-coronoid",
+    "projection": "Coyle method · coronoid process",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "How much elbow flexion is used for the Coyle coronoid-process method?",
+    "options": [
+      "80°",
+      "90°",
+      "45°",
+      "30°"
+    ],
+    "answer": "80°",
+    "explanation": "The coronoid-process Coyle method uses 80° flexion.",
+    "source": "Positioning practice · Coyle method, coronoid process"
+  },
+  {
+    "id": "wrist-191",
+    "part": "elbow",
+    "projectionId": "elbow-coyle-coronoid",
+    "projection": "Coyle method · coronoid process",
+    "topic": "positioning",
+    "type": "mcq",
+    "prompt": "How is the hand positioned for the Coyle coronoid-process method?",
+    "options": [
+      "Pronated",
+      "Supinated",
+      "True lateral",
+      "Ulnar deviated"
+    ],
+    "answer": "Pronated",
+    "explanation": "The guide directs pronation of the hand.",
+    "source": "Positioning practice · Coyle method, coronoid process"
+  },
+  {
+    "id": "wrist-192",
+    "part": "elbow",
+    "projectionId": "elbow-coyle-coronoid",
+    "projection": "Coyle method · coronoid process",
+    "topic": "central-ray",
+    "type": "mcq",
+    "prompt": "How is the CR angled for the Coyle coronoid-process method?",
+    "options": [
+      "45° away from the shoulder",
+      "45° toward the shoulder",
+      "20° toward the elbow",
+      "Perpendicular"
+    ],
+    "answer": "45° away from the shoulder",
+    "explanation": "The coronoid Coyle method uses a 45° angle away from the shoulder.",
+    "source": "Positioning practice · Coyle method, coronoid process"
+  },
+  {
+    "id": "wrist-193",
+    "part": "elbow",
+    "projectionId": "elbow-coyle-coronoid",
+    "projection": "Coyle method · coronoid process",
+    "topic": "central-ray",
+    "type": "mcq",
+    "prompt": "Where does the CR enter for the Coyle coronoid-process method?",
+    "options": [
+      "Mid-elbow",
+      "Radial styloid",
+      "Olecranon tip",
+      "Midshaft humerus"
+    ],
+    "answer": "Mid-elbow",
+    "explanation": "The CR enters at the mid-elbow and is directed to the coronoid process.",
+    "source": "Positioning practice · Coyle method, coronoid process"
+  },
+  {
+    "id": "wrist-194",
+    "part": "elbow",
+    "projectionId": "elbow-coyle-coronoid",
+    "projection": "Coyle method · coronoid process",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "Which joint space should be open on a satisfactory Coyle coronoid-process image?",
+    "options": [
+      "Between the coronoid process and trochlea",
+      "Between the radial head and capitulum",
+      "Radioulnar joint at the wrist",
+      "Humeroradial joint only"
+    ],
+    "answer": "Between the coronoid process and trochlea",
+    "explanation": "The guide lists an open coronoid-trochlea joint space.",
+    "source": "Positioning practice · Coyle method, coronoid process"
+  },
+  {
+    "id": "wrist-195",
+    "part": "elbow",
+    "projectionId": "elbow-coyle-coronoid",
+    "projection": "Coyle method · coronoid process",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "How should the coronoid process appear on the Coyle coronoid image?",
+    "options": [
+      "In profile and elongated",
+      "Foreshortened",
+      "Completely superimposed by the radial head",
+      "Not visible"
+    ],
+    "answer": "In profile and elongated",
+    "explanation": "The coronoid process should be shown in profile and elongated.",
+    "source": "Positioning practice · Coyle method, coronoid process"
+  },
+  {
+    "id": "wrist-196",
+    "part": "elbow",
+    "projectionId": "elbow-coyle-coronoid",
+    "projection": "Coyle method · coronoid process",
+    "topic": "evaluation",
+    "type": "mcq",
+    "prompt": "What relationship should the radial head and neck have on a Coyle coronoid image?",
+    "options": [
+      "Superimposed by the ulna",
+      "Completely free of the ulna",
+      "Projected above the trochlea",
+      "Not visible"
+    ],
+    "answer": "Superimposed by the ulna",
+    "explanation": "The guide lists superimposition of the radial head and neck by the ulna.",
+    "source": "Positioning practice · Coyle method, coronoid process"
+  },
+  {
+    "id": "wrist-197",
+    "part": "elbow",
+    "projectionId": "elbow-coyle-coronoid",
+    "projection": "Coyle method · coronoid process",
+    "topic": "anatomy",
+    "type": "mcq",
+    "prompt": "Which Coyle method is shown in this positioning image?",
+    "options": [
+      "Coronoid process and trochlea",
+      "Radial head and capitulum",
+      "Lateral elbow",
+      "AP elbow"
+    ],
+    "answer": "Coronoid process and trochlea",
+    "explanation": "The image explicitly demonstrates the coronoid/trochlea Coyle setup.",
+    "source": "Positioning practice · Coyle method, coronoid process",
+    "image": {
+      "src": "images/Axiolateral elbow (Coyle method) with coronoid process and trochlea shown..png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Positioning image"
+    }
+  },
+  {
+    "id": "wrist-198",
+    "part": "elbow",
+    "projectionId": "elbow-coyle-coronoid",
+    "projection": "Coyle method · coronoid process",
+    "topic": "central-ray",
+    "type": "mcq",
+    "prompt": "Which CR is correct for the Coyle setup shown?",
+    "options": [
+      "45° away from the shoulder",
+      "45° toward the shoulder",
+      "Perpendicular to the elbow",
+      "20° toward the elbow"
+    ],
+    "answer": "45° away from the shoulder",
+    "explanation": "The coronoid-process Coyle method uses a 45° angle away from the shoulder.",
+    "source": "Positioning practice · Coyle method, coronoid process",
+    "image": {
+      "src": "images/Axiolateral elbow (Coyle method) with coronoid process and trochlea shown..png",
+      "alt": "Radiographic positioning study image.",
+      "caption": "Positioning image"
+    }
   }
 ]
