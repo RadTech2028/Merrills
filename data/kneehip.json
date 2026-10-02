@@ -186,7 +186,7 @@
     "projection": "AP knee",
     "topic": "anatomy",
     "type": "mcq",
-    "prompt": "Which projection or method is shown in this image?",
+    "prompt": "Which projection or method is demonstrated by the positioning shown?",
     "options": [
       "AP knee",
       "PA knee",
@@ -376,7 +376,7 @@
     "projection": "PA knee",
     "topic": "anatomy",
     "type": "mcq",
-    "prompt": "Which projection or method is shown in this image?",
+    "prompt": "Which named projection or method does this positioning demonstrate?",
     "options": [
       "PA knee",
       "AP knee",
@@ -566,7 +566,7 @@
     "projection": "Lateral knee",
     "topic": "anatomy",
     "type": "mcq",
-    "prompt": "Which projection or method is shown in this image?",
+    "prompt": "Which projection or method is demonstrated by the positioning shown?",
     "options": [
       "Lateral knee",
       "AP knee",
@@ -738,7 +738,7 @@
     "projection": "AP weight-bearing knee",
     "topic": "anatomy",
     "type": "mcq",
-    "prompt": "Which projection or method is shown in this image?",
+    "prompt": "Which named projection or method does this positioning demonstrate?",
     "options": [
       "AP bilateral weight-bearing knees",
       "Rosenberg PA weight-bearing knees",
@@ -1018,7 +1018,7 @@
     "projection": "AP oblique knee · lateral rotation",
     "topic": "anatomy",
     "type": "mcq",
-    "prompt": "Which projection or method is shown in this image?",
+    "prompt": "Which projection or method is demonstrated by the positioning shown?",
     "options": [
       "AP oblique knee · lateral rotation",
       "AP oblique knee · medial rotation",
@@ -1154,7 +1154,7 @@
     "projection": "AP oblique knee · medial rotation",
     "topic": "anatomy",
     "type": "mcq",
-    "prompt": "Which projection or method is shown in this image?",
+    "prompt": "Which named projection or method does this positioning demonstrate?",
     "options": [
       "AP oblique knee · medial rotation",
       "AP oblique knee · lateral rotation",
@@ -1362,7 +1362,7 @@
     "projection": "Holmblad method · intercondylar fossa",
     "topic": "anatomy",
     "type": "mcq",
-    "prompt": "Which projection or method is shown in this image?",
+    "prompt": "Which projection or method is demonstrated by the positioning shown?",
     "options": [
       "Holmblad method",
       "Camp-Coventry method",
@@ -1385,7 +1385,7 @@
     "projection": "Holmblad method · intercondylar fossa",
     "topic": "anatomy",
     "type": "mcq",
-    "prompt": "Which projection or method is shown in this image?",
+    "prompt": "Identify the projection or method demonstrated on this radiograph.",
     "options": [
       "Holmblad method",
       "Camp-Coventry method",
@@ -1534,7 +1534,7 @@
     "projection": "Camp-Coventry method · intercondylar fossa",
     "topic": "anatomy",
     "type": "mcq",
-    "prompt": "Which projection or method is shown in this image?",
+    "prompt": "Which named projection or method does this positioning demonstrate?",
     "options": [
       "Camp-Coventry method",
       "Holmblad method",
@@ -1670,7 +1670,7 @@
     "projection": "Beclere method · intercondylar fossa",
     "topic": "evaluation",
     "type": "mcq",
-    "prompt": "What should be open for the Beclere method · intercondylar fossa?",
+    "prompt": "Which anatomic space should be demonstrated open on a satisfactory Beclere image?",
     "options": [
       "Intercondylar fossa",
       "Patellofemoral joint only",
@@ -1724,7 +1724,7 @@
     "projection": "Beclere method · intercondylar fossa",
     "topic": "anatomy",
     "type": "mcq",
-    "prompt": "Which projection or method is shown in this image?",
+    "prompt": "Which projection or method is demonstrated by the positioning shown?",
     "options": [
       "Beclere method",
       "Camp-Coventry method",
@@ -1873,7 +1873,7 @@
     "projection": "PA patella",
     "topic": "anatomy",
     "type": "mcq",
-    "prompt": "Which projection or method is shown in this image?",
+    "prompt": "Identify the projection or method represented by this setup.",
     "options": [
       "PA patella",
       "Lateral patella",
@@ -2022,7 +2022,7 @@
     "projection": "Lateral patella",
     "topic": "anatomy",
     "type": "mcq",
-    "prompt": "Which projection or method is shown in this image?",
+    "prompt": "Which named projection or method does this positioning demonstrate?",
     "options": [
       "Lateral patella",
       "PA patella",
@@ -2158,7 +2158,7 @@
     "projection": "Hughston method · patella & patellofemoral joint",
     "topic": "evaluation",
     "type": "mcq",
-    "prompt": "Which joint should be open for the Hughston method · patella & patellofemoral joint?",
+    "prompt": "Which joint space should be demonstrated open on a satisfactory Hughston image?",
     "options": [
       "Patellofemoral joint",
       "Femorotibial joint only",
@@ -2194,7 +2194,7 @@
     "projection": "Hughston method · patella & patellofemoral joint",
     "topic": "anatomy",
     "type": "mcq",
-    "prompt": "Which projection or method is shown in this image?",
+    "prompt": "Which projection or method is demonstrated by the positioning shown?",
     "options": [
       "Hughston method",
       "Merchant method",
@@ -2541,7 +2541,7 @@
     "projection": "Settegast method · patella & patellofemoral joint",
     "topic": "anatomy",
     "type": "mcq",
-    "prompt": "Which projection or method is shown in this image?",
+    "prompt": "Identify the projection or method represented by this setup.",
     "options": [
       "Settegast method",
       "Merchant method",
@@ -2564,7 +2564,7 @@
     "projection": "Settegast method · patella & patellofemoral joint",
     "topic": "anatomy",
     "type": "mcq",
-    "prompt": "Which projection or method is shown in this image?",
+    "prompt": "Which named projection or method does this positioning demonstrate?",
     "options": [
       "Settegast method",
       "Hughston method",
@@ -2749,7 +2749,7 @@
     "projection": "AP femur",
     "topic": "anatomy",
     "type": "mcq",
-    "prompt": "Which projection or method is shown in this image?",
+    "prompt": "Based only on the positioning shown, which projection or method is being performed?",
     "options": [
       "AP distal femur",
       "Lateral distal femur",
@@ -3016,7 +3016,7 @@
     "projection": "Lateral femur",
     "topic": "anatomy",
     "type": "mcq",
-    "prompt": "Which projection or method is shown in this image?",
+    "prompt": "Which named projection or method does this positioning demonstrate?",
     "options": [
       "Lateral distal femur",
       "AP distal femur",
@@ -3062,7 +3062,7 @@
     "projection": "Lateral femur",
     "topic": "anatomy",
     "type": "mcq",
-    "prompt": "Which projection or method is shown in this image?",
+    "prompt": "Which projection or method is demonstrated by the positioning shown?",
     "options": [
       "Lateral proximal femur",
       "AP proximal femur",
@@ -3661,7 +3661,7 @@
     "projection": "AP pelvis",
     "topic": "anatomy",
     "type": "mcq",
-    "prompt": "Which projection or method is shown in this image?",
+    "prompt": "Identify the projection or method represented by this setup.",
     "options": [
       "AP pelvis",
       "Modified Cleaves",
@@ -3684,15 +3684,15 @@
     "projection": "AP pelvis",
     "topic": "evaluation",
     "type": "mcq",
-    "prompt": "Which finding should be present on a radiograph obtained with the correct pelvis positioning shown?",
+    "prompt": "Which positioning feature best identifies the correctly positioned pelvis in the comparison shown?",
     "options": [
-      "Femoral necks fully shown without foreshortening, with minimal lesser-trochanter visibility",
-      "Femoral necks foreshortened by lateral leg rotation",
+      "Femoral necks shown without foreshortening with greater trochanters in profile",
+      "Lateral rotation of both legs with prominent lesser trochanters",
       "Greater trochanters overlapping the femoral necks",
-      "Asymmetric obturator foramina from pelvic rotation"
+      "Asymmetric obturator foramina with pelvic rotation"
     ],
-    "answer": "Femoral necks fully shown without foreshortening, with minimal lesser-trochanter visibility",
-    "explanation": "Correct internal rotation prevents femoral-neck foreshortening.",
+    "answer": "Femoral necks shown without foreshortening with greater trochanters in profile",
+    "explanation": "Correct internal rotation demonstrates the femoral necks without foreshortening and places the greater trochanters in profile.",
     "source": "Positioning practice · Image question",
     "image": {
       "src": "images/(A) AP pelvis with femoral necks and trochanters in correct position. (B) Feet and lower.png",
@@ -3915,7 +3915,7 @@
     "projection": "Modified Cleaves method · bilateral",
     "topic": "anatomy",
     "type": "mcq",
-    "prompt": "Which projection or method is shown in this image?",
+    "prompt": "Identify the projection or method represented by this setup.",
     "options": [
       "Modified Cleaves method",
       "Judet method",
@@ -3992,7 +3992,7 @@
     "projection": "Modified Cleaves method · unilateral",
     "topic": "anatomy",
     "type": "mcq",
-    "prompt": "Which projection or method is shown in this image?",
+    "prompt": "Which named projection or method does this positioning demonstrate?",
     "options": [
       "Modified Cleaves method",
       "Lauenstein method",
@@ -4177,7 +4177,7 @@
     "projection": "AP hip",
     "topic": "anatomy",
     "type": "mcq",
-    "prompt": "Which projection or method is shown in this image?",
+    "prompt": "Based only on the positioning shown, which projection or method is being performed?",
     "options": [
       "AP hip",
       "Modified Cleaves",
@@ -4331,7 +4331,7 @@
     "projection": "Lauenstein method · hip",
     "topic": "anatomy",
     "type": "mcq",
-    "prompt": "Which projection or method is shown in this image?",
+    "prompt": "Identify the projection or method represented by this setup.",
     "options": [
       "Lauenstein method",
       "Modified Cleaves",
@@ -4593,7 +4593,7 @@
     "projection": "Danelius-Miller method · axiolateral hip",
     "topic": "anatomy",
     "type": "mcq",
-    "prompt": "Which projection or method is shown in this image?",
+    "prompt": "Based only on the positioning shown, which projection or method is being performed?",
     "options": [
       "Danelius-Miller method",
       "Lauenstein method",
@@ -4796,7 +4796,7 @@
     "projection": "Judet method · acetabulum",
     "topic": "anatomy",
     "type": "mcq",
-    "prompt": "Which projection or method is shown in this image?",
+    "prompt": "Which projection or method is demonstrated by the positioning shown?",
     "options": [
       "Judet method",
       "Modified Cleaves",
@@ -4819,7 +4819,7 @@
     "projection": "Judet method · acetabulum",
     "topic": "evaluation",
     "type": "mcq",
-    "prompt": "Where is the affected hip positioned relative to the table in panel A?",
+    "prompt": "In the internal-oblique position shown, where should the affected side be relative to the table?",
     "options": [
       "Up",
       "Down",
@@ -5004,7 +5004,7 @@
     "projection": "Taylor method · AP axial outlet",
     "topic": "anatomy",
     "type": "mcq",
-    "prompt": "Which projection or method is shown in this image?",
+    "prompt": "Which named projection or method does this positioning demonstrate?",
     "options": [
       "Taylor method",
       "Bridgman method",
@@ -5027,7 +5027,7 @@
     "projection": "Taylor method · AP axial outlet",
     "topic": "central-ray",
     "type": "mcq",
-    "prompt": "For a female patient, what CR angle is used to obtain the pelvic projection shown?",
+    "prompt": "For a female patient, which CR angle is appropriate for the projection demonstrated here?",
     "options": [
       "30–45° cephalad",
       "20–35° cephalad",
@@ -5212,7 +5212,7 @@
     "projection": "Bridgman method · superoinferior axial inlet",
     "topic": "anatomy",
     "type": "mcq",
-    "prompt": "Which projection or method is shown in this image?",
+    "prompt": "Which projection or method is demonstrated by the positioning shown?",
     "options": [
       "Bridgman method",
       "Taylor method",
@@ -5235,7 +5235,7 @@
     "projection": "Bridgman method · superoinferior axial inlet",
     "topic": "anatomy",
     "type": "mcq",
-    "prompt": "Which projection or method is shown in this image?",
+    "prompt": "Identify the projection or method represented by this setup.",
     "options": [
       "Bridgman inlet",
       "Taylor outlet",

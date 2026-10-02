@@ -186,7 +186,7 @@
     "projection": "PA wrist",
     "topic": "anatomy",
     "type": "mcq",
-    "prompt": "Which projection or method is shown in this image?",
+    "prompt": "Which projection or method is demonstrated by the positioning shown?",
     "options": [
       "PA wrist",
       "AP wrist",
@@ -376,7 +376,7 @@
     "projection": "AP wrist",
     "topic": "anatomy",
     "type": "mcq",
-    "prompt": "Which projection or method is shown in this image?",
+    "prompt": "Which named projection or method does this positioning demonstrate?",
     "options": [
       "AP wrist",
       "PA wrist",
@@ -399,7 +399,7 @@
     "projection": "AP wrist",
     "topic": "purpose",
     "type": "mcq",
-    "prompt": "Which spaces are better demonstrated by the wrist positioning shown?",
+    "prompt": "What is the main reason for obtaining the view shown?",
     "options": [
       "Carpal interspaces",
       "Carpal canal",
@@ -589,7 +589,7 @@
     "projection": "Lateral wrist",
     "topic": "positioning",
     "type": "mcq",
-    "prompt": "Which projection or method is shown in this image?",
+    "prompt": "Identify the projection or method represented by this setup.",
     "options": [
       "Lateral wrist",
       "PA wrist",
@@ -756,7 +756,7 @@
     "projection": "PA oblique wrist · lateral rotation",
     "topic": "anatomy",
     "type": "mcq",
-    "prompt": "Which projection or method is shown in this image?",
+    "prompt": "Which named projection or method does this positioning demonstrate?",
     "options": [
       "PA oblique wrist with lateral rotation",
       "AP oblique wrist with medial rotation",
@@ -779,7 +779,7 @@
     "projection": "PA oblique wrist · lateral rotation",
     "topic": "evaluation",
     "type": "mcq",
-    "prompt": "Which carpal bones are emphasized by the positioning shown?",
+    "prompt": "Which carpal bones are best demonstrated by the positioning shown?",
     "options": [
       "Scaphoid and trapezium",
       "Pisiform only",
@@ -910,7 +910,7 @@
     "projection": "AP oblique wrist · medial rotation",
     "topic": "anatomy",
     "type": "mcq",
-    "prompt": "Which projection or method is shown in this image?",
+    "prompt": "Which projection or method is demonstrated by the positioning shown?",
     "options": [
       "AP oblique wrist with medial rotation",
       "PA oblique wrist with lateral rotation",
@@ -933,7 +933,7 @@
     "projection": "AP oblique wrist · medial rotation",
     "topic": "evaluation",
     "type": "mcq",
-    "prompt": "Which carpal bone should be separated from adjacent carpals with the positioning shown?",
+    "prompt": "Which carpal bone should be separated from adjacent carpals in the image produced by this positioning?",
     "options": [
       "Pisiform",
       "Scaphoid",
@@ -1082,7 +1082,7 @@
     "projection": "PA wrist · ulnar deviation",
     "topic": "anatomy",
     "type": "mcq",
-    "prompt": "Which projection or method is shown in this image?",
+    "prompt": "Which named projection or method does this positioning demonstrate?",
     "options": [
       "PA wrist in ulnar deviation",
       "PA wrist in radial deviation",
@@ -1105,7 +1105,7 @@
     "projection": "PA wrist · ulnar deviation",
     "topic": "purpose",
     "type": "mcq",
-    "prompt": "Which carpal bone is demonstrated with reduced foreshortening by the positioning shown?",
+    "prompt": "Which carpal bone is this positioning intended to demonstrate with reduced foreshortening?",
     "options": [
       "Scaphoid",
       "Pisiform",
@@ -1236,7 +1236,7 @@
     "projection": "PA wrist · radial deviation",
     "topic": "anatomy",
     "type": "mcq",
-    "prompt": "Which projection or method is shown in this image?",
+    "prompt": "Which projection or method is demonstrated by the positioning shown?",
     "options": [
       "PA wrist in radial deviation",
       "PA wrist in ulnar deviation",
@@ -1259,15 +1259,15 @@
     "projection": "PA wrist · radial deviation",
     "topic": "purpose",
     "type": "mcq",
-    "prompt": "What effect does the wrist positioning shown have on the interspaces between the medial-side carpals?",
+    "prompt": "What effect should the positioning shown have on the medial-side carpal interspaces?",
     "options": [
-      "Open them",
-      "Close them",
-      "Superimpose them completely",
-      "Have no effect"
+      "Open the medial-side carpal interspaces",
+      "Close the medial-side carpal interspaces",
+      "Completely superimpose the medial-side carpals",
+      "Produce no meaningful change in the medial-side carpal interspaces"
     ],
-    "answer": "Open them",
-    "explanation": "Radial deviation opens the interspaces between the medial-side carpals.",
+    "answer": "Open the medial-side carpal interspaces",
+    "explanation": "Radial deviation opens the interspaces between the carpals on the medial side of the wrist.",
     "source": "Positioning practice · Image question",
     "image": {
       "src": "images/PA wrist in radial deviation..png",
@@ -1426,7 +1426,7 @@
     "projection": "Stecher method · scaphoid",
     "topic": "positioning",
     "type": "mcq",
-    "prompt": "Which projection or method is shown in this image?",
+    "prompt": "Which named projection or method does this positioning demonstrate?",
     "options": [
       "Stecher method for the scaphoid",
       "PA wrist in radial deviation",
@@ -1670,7 +1670,7 @@
     "projection": "Gaynor-Hart method · carpal canal",
     "topic": "anatomy",
     "type": "mcq",
-    "prompt": "Which projection or method is shown in this image?",
+    "prompt": "Which projection or method is demonstrated by the positioning shown?",
     "options": [
       "Inferosuperior Gaynor-Hart carpal canal",
       "Stecher scaphoid",
@@ -1693,7 +1693,7 @@
     "projection": "Gaynor-Hart method · carpal canal",
     "topic": "evaluation",
     "type": "mcq",
-    "prompt": "Which bone should appear in profile and free of superimposition with the positioning shown?",
+    "prompt": "Which carpal bone should appear in profile and free of superimposition in the resulting image?",
     "options": [
       "Pisiform",
       "Scaphoid only",
@@ -1716,7 +1716,7 @@
     "projection": "Gaynor-Hart method · carpal canal",
     "topic": "purpose",
     "type": "mcq",
-    "prompt": "Which projection or method is shown in this image?",
+    "prompt": "Which named projection or method does this positioning demonstrate?",
     "options": [
       "Gaynor-Hart method",
       "Stecher method",
@@ -1919,7 +1919,7 @@
     "projection": "AP forearm",
     "topic": "anatomy",
     "type": "mcq",
-    "prompt": "Which projection or method is shown in this image?",
+    "prompt": "Based only on the positioning shown, which projection or method is being performed?",
     "options": [
       "AP forearm",
       "Lateral forearm",
@@ -2145,7 +2145,7 @@
     "projection": "Lateral forearm",
     "topic": "anatomy",
     "type": "mcq",
-    "prompt": "Which projection or method is shown in this image?",
+    "prompt": "Identify the projection or method represented by this setup.",
     "options": [
       "Lateral forearm",
       "AP forearm",
@@ -2353,7 +2353,7 @@
     "projection": "AP elbow",
     "topic": "anatomy",
     "type": "mcq",
-    "prompt": "Which projection or method is shown in this image?",
+    "prompt": "Based only on the positioning shown, which projection or method is being performed?",
     "options": [
       "AP elbow",
       "Lateral elbow",
@@ -2376,7 +2376,7 @@
     "projection": "AP elbow",
     "topic": "evaluation",
     "type": "mcq",
-    "prompt": "Which joint space should be open on a radiograph obtained with the positioning shown?",
+    "prompt": "Which joint should appear open if the positioning shown is correct?",
     "options": [
       "Humeroradial joint",
       "Radioulnar joint only",
@@ -2543,7 +2543,7 @@
     "projection": "Lateral elbow",
     "topic": "anatomy",
     "type": "mcq",
-    "prompt": "Which projection or method is shown in this image?",
+    "prompt": "Identify the projection or method demonstrated on this radiograph.",
     "options": [
       "Lateral elbow",
       "AP elbow",
@@ -2589,7 +2589,7 @@
     "projection": "Lateral elbow",
     "topic": "anatomy",
     "type": "mcq",
-    "prompt": "Which projection or method is shown in this image?",
+    "prompt": "Based only on the positioning shown, which projection or method is being performed?",
     "options": [
       "Lateral elbow",
       "AP elbow",
@@ -2797,7 +2797,7 @@
     "projection": "AP oblique elbow · medial rotation",
     "topic": "anatomy",
     "type": "mcq",
-    "prompt": "Which projection or method is shown in this image?",
+    "prompt": "Identify the projection or method represented by this setup.",
     "options": [
       "AP oblique elbow with medial rotation",
       "AP oblique elbow with lateral rotation",
@@ -2820,7 +2820,7 @@
     "projection": "AP oblique elbow · medial rotation",
     "topic": "evaluation",
     "type": "mcq",
-    "prompt": "Which structure should appear in profile on this radiograph?",
+    "prompt": "Which process should be demonstrated in profile on the resulting radiograph?",
     "options": [
       "Coronoid process",
       "Radial head free of the ulna",
@@ -2969,7 +2969,7 @@
     "projection": "AP oblique elbow · lateral rotation",
     "topic": "anatomy",
     "type": "mcq",
-    "prompt": "Which projection or method is shown in this image?",
+    "prompt": "Based only on the positioning shown, which projection or method is being performed?",
     "options": [
       "AP oblique elbow with lateral rotation",
       "AP oblique elbow with medial rotation",
@@ -2992,15 +2992,15 @@
     "projection": "AP oblique elbow · lateral rotation",
     "topic": "evaluation",
     "type": "mcq",
-    "prompt": "Which structures should be demonstrated free of superimposition with the positioning shown?",
+    "prompt": "Which structures should be projected free of superimposition by the ulna?",
     "options": [
-      "Radial head and neck from the ulna",
-      "Coronoid process from the radius",
-      "Olecranon process from the humerus",
-      "Medial epicondyle from the trochlea"
+      "Radial head, neck, and tuberosity",
+      "Coronoid process and trochlea",
+      "Olecranon process and medial epicondyle",
+      "Radial tuberosity and coronoid process"
     ],
-    "answer": "Radial head and neck from the ulna",
-    "explanation": "The lateral oblique is identified by the radial head/neck free of ulna overlap.",
+    "answer": "Radial head, neck, and tuberosity",
+    "explanation": "The lateral-rotation oblique projects the radial head, neck, and tuberosity free of the ulna.",
     "source": "Positioning practice · Image question",
     "image": {
       "src": "images/AP oblique elbow lateral rotation..png",
@@ -3159,7 +3159,7 @@
     "projection": "AP partial flexion · distal humerus",
     "topic": "anatomy",
     "type": "mcq",
-    "prompt": "Which projection or method is shown in this image?",
+    "prompt": "Identify the projection or method represented by this setup.",
     "options": [
       "AP partial flexion · distal humerus",
       "AP partial flexion · proximal forearm",
@@ -3344,7 +3344,7 @@
     "projection": "AP partial flexion · proximal forearm",
     "topic": "anatomy",
     "type": "mcq",
-    "prompt": "Which projection or method is shown in this image?",
+    "prompt": "Which named projection or method does this positioning demonstrate?",
     "options": [
       "AP partial flexion · proximal forearm",
       "AP partial flexion · distal humerus",
@@ -3529,7 +3529,7 @@
     "projection": "Coyle method · radial head",
     "topic": "anatomy",
     "type": "mcq",
-    "prompt": "Which pair of structures is the positioning shown intended to demonstrate?",
+    "prompt": "Which anatomic finding best matches the image shown?",
     "options": [
       "Radial head and capitulum",
       "Coronoid process and trochlea",
@@ -3719,7 +3719,7 @@
     "projection": "Coyle method · coronoid process",
     "topic": "anatomy",
     "type": "mcq",
-    "prompt": "Which pair of structures is the positioning shown intended to demonstrate?",
+    "prompt": "Which structure or relationship should be demonstrated by this image?",
     "options": [
       "Coronoid process and trochlea",
       "Radial head and capitulum",

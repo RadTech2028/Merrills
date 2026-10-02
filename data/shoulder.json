@@ -168,7 +168,7 @@
     "projection": "AP humerus · upright",
     "topic": "positioning",
     "type": "mcq",
-    "prompt": "Which projection or method is shown in this image?",
+    "prompt": "Which projection or method is demonstrated by the positioning shown?",
     "options": [
       "AP humerus · upright",
       "Lateral humerus · upright",
@@ -358,7 +358,7 @@
     "projection": "Lateral humerus · upright",
     "topic": "anatomy",
     "type": "mcq",
-    "prompt": "Which projection or method is shown in this image?",
+    "prompt": "Which named projection or method does this positioning demonstrate?",
     "options": [
       "Lateral humerus · upright",
       "AP humerus · upright",
@@ -404,7 +404,7 @@
     "projection": "Lateral humerus · upright",
     "topic": "positioning",
     "type": "mcq",
-    "prompt": "What is the purpose of placing the hand on the hip in the positioning shown?",
+    "prompt": "Which positioning detail is correct for the setup shown?",
     "options": [
       "To help internally rotate the humerus while maintaining a lateral position",
       "To externally rotate the humerus",
@@ -535,7 +535,7 @@
     "projection": "AP humerus · recumbent",
     "topic": "anatomy",
     "type": "mcq",
-    "prompt": "Which projection or method is shown in this image?",
+    "prompt": "Identify the projection or method represented by this setup.",
     "options": [
       "AP humerus · recumbent",
       "Lateral humerus · recumbent",
@@ -838,7 +838,7 @@
     "projection": "Trauma lateral · distal humerus",
     "topic": "anatomy",
     "type": "mcq",
-    "prompt": "Which projection or method is shown in this image?",
+    "prompt": "Which projection or method is demonstrated by the positioning shown?",
     "options": [
       "Trauma lateral · distal humerus",
       "AP humerus · recumbent",
@@ -1005,7 +1005,7 @@
     "projection": "AP shoulder · external rotation",
     "topic": "anatomy",
     "type": "mcq",
-    "prompt": "Which shoulder position is shown in this image?",
+    "prompt": "Which shoulder rotation is demonstrated by the positioning shown?",
     "options": [
       "External rotation",
       "Neutral rotation",
@@ -1182,7 +1182,7 @@
     "projection": "AP shoulder · neutral rotation",
     "topic": "anatomy",
     "type": "mcq",
-    "prompt": "Which shoulder position is shown in this image?",
+    "prompt": "Which shoulder rotation is demonstrated by the positioning shown?",
     "options": [
       "Neutral rotation",
       "External rotation",
@@ -1354,7 +1354,7 @@
     "projection": "AP shoulder · internal rotation",
     "topic": "anatomy",
     "type": "mcq",
-    "prompt": "Which shoulder position is shown in this image?",
+    "prompt": "Which shoulder rotation is demonstrated by the positioning shown?",
     "options": [
       "Internal rotation",
       "External rotation",
@@ -1585,7 +1585,7 @@
     "projection": "Grashey method · AP oblique",
     "topic": "anatomy",
     "type": "mcq",
-    "prompt": "Which projection or method is shown in this image?",
+    "prompt": "Identify the projection or method represented by this setup.",
     "options": [
       "Grashey method",
       "Scapular Y",
@@ -1608,7 +1608,7 @@
     "projection": "Grashey method · AP oblique",
     "topic": "anatomy",
     "type": "mcq",
-    "prompt": "Which projection or method is shown in this image?",
+    "prompt": "Which named projection or method does this positioning demonstrate?",
     "options": [
       "Grashey method",
       "Scapular Y",
@@ -1852,7 +1852,7 @@
     "projection": "Lawrence method · transthoracic lateral",
     "topic": "anatomy",
     "type": "mcq",
-    "prompt": "Which projection or method is shown in this image?",
+    "prompt": "Which projection or method is demonstrated by the positioning shown?",
     "options": [
       "Lawrence transthoracic lateral shoulder",
       "Grashey method",
@@ -1875,7 +1875,7 @@
     "projection": "Lawrence method · transthoracic lateral",
     "topic": "anatomy",
     "type": "mcq",
-    "prompt": "Which projection or method is shown in this image?",
+    "prompt": "Identify the projection or method represented by this setup.",
     "options": [
       "Lawrence transthoracic lateral shoulder",
       "AP humerus",
@@ -2083,7 +2083,7 @@
     "projection": "Scapular Y · PA oblique",
     "topic": "anatomy",
     "type": "mcq",
-    "prompt": "Which projection or method is shown in this image?",
+    "prompt": "Based only on the positioning shown, which projection or method is being performed?",
     "options": [
       "Scapular Y",
       "Grashey method",
@@ -2106,7 +2106,7 @@
     "projection": "Scapular Y · PA oblique",
     "topic": "anatomy",
     "type": "mcq",
-    "prompt": "Which projection or method is shown in this image?",
+    "prompt": "Which projection or method produced this radiographic appearance?",
     "options": [
       "Scapular Y",
       "Grashey method",
@@ -2350,7 +2350,7 @@
     "projection": "Pearson method · bilateral AC joints",
     "topic": "anatomy",
     "type": "mcq",
-    "prompt": "Which projection or method is shown in this image?",
+    "prompt": "Which named projection or method does this positioning demonstrate?",
     "options": [
       "Pearson method · bilateral AC joints",
       "AP clavicle",
@@ -2481,7 +2481,7 @@
     "projection": "AP clavicle",
     "topic": "anatomy",
     "type": "mcq",
-    "prompt": "Which projection or method is shown in this image?",
+    "prompt": "Based only on the positioning shown, which projection or method is being performed?",
     "options": [
       "AP clavicle",
       "PA clavicle",
@@ -2743,7 +2743,7 @@
     "projection": "AP axial clavicle",
     "topic": "anatomy",
     "type": "mcq",
-    "prompt": "Which projection or method is shown in this image?",
+    "prompt": "Identify the projection or method represented by this setup.",
     "options": [
       "AP axial clavicle",
       "AP clavicle",
@@ -2897,7 +2897,7 @@
     "projection": "PA clavicle",
     "topic": "anatomy",
     "type": "mcq",
-    "prompt": "Which projection or method is shown in this image?",
+    "prompt": "Based only on the positioning shown, which projection or method is being performed?",
     "options": [
       "PA clavicle",
       "AP clavicle",
@@ -3069,7 +3069,7 @@
     "projection": "PA axial clavicle",
     "topic": "anatomy",
     "type": "mcq",
-    "prompt": "Which projection or method is shown in this image?",
+    "prompt": "Identify the projection or method represented by this setup.",
     "options": [
       "PA axial clavicle",
       "PA clavicle",
@@ -3236,7 +3236,7 @@
     "projection": "AP scapula",
     "topic": "anatomy",
     "type": "mcq",
-    "prompt": "Which projection or method is shown in this image?",
+    "prompt": "Which named projection or method does this positioning demonstrate?",
     "options": [
       "AP scapula",
       "Lateral scapula",
