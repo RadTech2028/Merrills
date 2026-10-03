@@ -66,7 +66,7 @@ async function init(){
   refreshCatalogs();selected=new Set(groups.map(g=>g.id));focus=new Set(Object.keys(TOPICS));
   refreshControls();resetForm();refreshPersonalUI();
   $('loading').hidden=!failedGroups.length;if(failedGroups.length){$('loading').classList.add('error');$('loading').textContent='Some program categories could not load: '+failedGroups.join(' ');}
-  $('app').hidden=false;
+  $('app').hidden=false;Preferences.ready();
  }catch(e){$('loading').classList.add('error');$('loading').textContent=e.message+' Reload the page after checking the data files.';}
 }
 function refill(id,html){const old=$(id).value;$(id).innerHTML=html;if([...$(id).options].some(o=>o.value===old))$(id).value=old;}

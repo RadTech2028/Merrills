@@ -1,12 +1,15 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#f5f7fb">
+<script src="./preferences.js?v=mobile-1"></script>
 <title>Positioning Lab | Radiography Practice</title>
 <meta name="description" content="Practice radiographic positioning by anatomy group, central ray, purpose, and image evaluation.">
 <link rel="icon" href="./favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="./styles.css">
 <link rel="stylesheet" href="./progress.css?v=subcategories-2">
-<script defer src="./app.js?v=subcategories-2"></script><script defer src="./catalog.js?v=2"></script><script defer src="./progress.js?v=subcategories-2"></script><script defer src="./builder.js?v=subcategories-2"></script>
+<link rel="stylesheet" href="./appearance.css?v=mobile-1">
+<script defer src="./app.js?v=mobile-1"></script><script defer src="./catalog.js?v=2"></script><script defer src="./progress.js?v=subcategories-2"></script><script defer src="./builder.js?v=subcategories-2"></script>
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
@@ -19,6 +22,7 @@
  <button class="nav" data-view="browse"><span aria-hidden="true">▤</span> Question bank</button>
  <button class="nav" data-view="personal"><span aria-hidden="true">▣</span> My questions</button>
  <button class="nav" data-view="builder"><span aria-hidden="true">＋</span> Question builder</button>
+ <button class="nav" id="open-settings" aria-haspopup="dialog"><span aria-hidden="true">⚙</span> Settings</button>
  </nav>
  <div class="sidebar-bottom"><span class="edition">RADIOGRAPHY</span><p>SUNY Orange RT Program</p><small>Class of 2028</small></div>
 </aside>
@@ -29,7 +33,7 @@
 <div id="app" hidden>
 <div id="progress-warning" class="notice error" role="status" hidden></div>
 <section id="practice-view">
- <div class="page-heading"><div class="eyebrow">PRACTICE / SESSION SETUP</div><h1>Know your positioning.</h1><p>Choose a category, then open “Choose parts / topics” to narrow your session.</p></div>
+ <div class="page-heading"><p id="personal-greeting" class="personal-greeting" hidden></p><div class="eyebrow">PRACTICE / SESSION SETUP</div><h1>Know your positioning.</h1><p>Choose a category, then open “Choose parts / topics” to narrow your session.</p></div>
  <div class="setup-layout">
   <div>
    <div class="section-line"><h2><span class="step">01</span> Choose categories</h2><button class="text-button" id="toggle-groups">Select all</button></div>
@@ -132,4 +136,38 @@
 <footer class="footer">POSITIONING LAB <span>RT Class of 2028</span></footer>
 </main></div>
 <dialog id="image-dialog"><button id="close-image">Close image ×</button><img id="large-image" alt=""></dialog>
+
+<dialog id="settings-dialog" class="preferences-dialog" aria-labelledby="settings-title">
+ <div class="dialog-heading"><div><p class="eyebrow">MAKE IT YOURS</p><h2 id="settings-title">Settings</h2></div><button id="settings-close" type="button" aria-label="Close settings">Close</button></div>
+ <p class="small muted">Changes save in this browser. Study defaults apply to your next session.</p>
+ <div class="settings-section"><h3>Appearance</h3>
+  <label for="pref-theme">Theme</label><select id="pref-theme"><option value="system">Use device theme</option><option value="light">Light</option><option value="dark">Dark</option><option value="sepia">Sepia</option></select>
+  <label for="pref-accent">Accent color</label><select id="pref-accent"><option value="blue">Blue</option><option value="teal">Teal</option><option value="purple">Purple</option><option value="amber">Amber</option></select>
+  <div class="settings-grid"><div><label for="pref-text">Text size</label><select id="pref-text"><option value="standard">Standard</option><option value="large">Large</option><option value="extra">Extra large</option></select></div><div><label for="pref-density">Spacing</label><select id="pref-density"><option value="comfortable">Comfortable</option><option value="compact">Compact</option></select></div></div>
+  <label class="checkline"><input id="pref-motion" type="checkbox"> Reduce motion</label>
+ </div>
+ <div class="settings-section"><h3>Personal</h3><label for="pref-name">Display name (optional)</label><input id="pref-name" maxlength="32" autocomplete="nickname" placeholder="What should we call you?"><p class="small muted">Your name stays in this browser. This does not create an account.</p></div>
+ <div class="settings-section"><h3>Study defaults</h3>
+  <label for="pref-mode">Study mode</label><select id="pref-mode"><option value="practice">Practice</option><option value="exam">Test</option><option value="cards">Flashcards</option></select>
+  <label for="pref-source">Question source</label><select id="pref-source"><option value="program">Program bank</option><option value="personal">My questions</option><option value="both">Program + my questions</option></select>
+  <label for="pref-images">Image questions</label><select id="pref-images"><option value="all">Include all questions</option><option value="only">Image questions only</option><option value="none">No image questions</option></select>
+  <label class="checkline"><input id="pref-all" type="checkbox"> Use all matching questions</label>
+  <div id="pref-count-field"><label for="pref-count">Default number of questions</label><input id="pref-count" type="number" min="1" step="1" inputmode="numeric"></div>
+  <label class="checkline"><input id="pref-smart" type="checkbox"> Smart review</label>
+  <label class="checkline"><input id="pref-shuffle" type="checkbox"> Shuffle answers and normal question order</label>
+  <label class="checkline"><input id="pref-timer" type="checkbox"> Start sessions with a timer</label>
+  <div id="pref-minutes-field"><label for="pref-minutes">Default timer (minutes)</label><input id="pref-minutes" type="number" min="1" max="180" step="1" inputmode="numeric"></div>
+  <button type="button" id="use-session-defaults">Use current session options as defaults</button>
+  <p class="small muted">You can change these options before each session. Categories and card filters are chosen in Practice.</p>
+ </div>
+ <div class="settings-section"><h3>Your data</h3><p class="small muted">Learning history and personal questions are saved separately. Export progress from My progress, and back up your questions from My questions.</p><div class="actions"><button id="replay-tour" type="button">Show walkthrough</button><button id="reset-preferences" type="button">Reset settings</button></div><p class="small muted">Reset settings keeps your questions, learned marks, and history.</p></div>
+ <p id="preferences-status" class="small" role="status" aria-live="polite"></p>
+</dialog>
+<dialog id="welcome-dialog" class="preferences-dialog welcome-dialog" aria-labelledby="welcome-title">
+ <div class="dialog-heading"><p class="eyebrow" id="welcome-step"></p><button id="welcome-skip" type="button">Skip</button></div>
+ <div id="welcome-content" tabindex="-1"></div>
+ <div class="tour-dots" aria-hidden="true"><span></span><span></span><span></span></div>
+ <div class="tour-actions"><button id="welcome-back" type="button">Back</button><button id="welcome-next" class="primary" type="button">Next</button></div>
+ <p id="welcome-status" class="small" role="status"></p>
+</dialog>
 </body></html>
