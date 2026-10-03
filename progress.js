@@ -65,6 +65,7 @@ const Progress=(()=>{
   if(r[3]!==today)r[4]=0;
   r[0]=Math.min(1000000000,r[0]+1);if(correct)r[1]=Math.min(r[0],r[1]+1);
   r[2]=now;r[3]=today;r[4]=correct?Math.min(r[1],r[4]+1):0;r[5]=skipped?2:correct?1:0;r[8]=now;
+  if(correct&&!skipped&&typeof Preferences!=='undefined'&&Preferences.autoLearn())r[6]=3;
   save(key(q),r);
  }
  function matches(q,filter){

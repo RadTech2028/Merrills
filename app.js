@@ -158,6 +158,7 @@ function checkAnswer(skipped=false){
  session.checked=true;session.responses.push({q,answer,correct,skipped});Progress.record(q,correct,skipped);
  $('answer-form').querySelectorAll('input,button').forEach(el=>el.disabled=true);
  if(session.mode==='practice'){
+ const learnedButton=$('quiz-view').querySelector('.card-learned');if(learnedButton&&Progress.get(q)[6]===3){learnedButton.textContent='Learned ✓';learnedButton.setAttribute('aria-pressed','true');}
  document.querySelectorAll('.option').forEach((el,i)=>{if(q.options[i]===q.answer)el.classList.add('correct');else if(q.options[i]===answer)el.classList.add('incorrect');});
  $('feedback').innerHTML='<div class="feedback '+(correct?'':'wrong')+'"><strong>'+(skipped?'Skipped':correct?'Correct':'Not quite')+'</strong><p>Answer: '+esc(q.answer)+'</p><p>'+esc(q.explanation)+'</p><p class="small muted">'+esc(q.source||'')+'</p></div>';
  }else $('feedback').textContent=skipped?'Question skipped.':'Answer saved. Feedback appears in your results.';
