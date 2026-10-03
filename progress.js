@@ -128,7 +128,7 @@ const Progress=(()=>{
  }
  function renderSummary(){
   const pool=poolFor('both'),s=summary(pool);
-  renderCategoryBars(pool);StudyProfile.render(rows);
+  renderCategoryBars(pool);StudyProfile.render(rows,pool);
   $('progress-summary').textContent=s.studied+' of '+pool.length+' questions studied · '+s.today+' today · '+s.bookmarks+' bookmarked · '+s.learned+' learned';
   $('progress-storage').textContent='Progress uses about '+Math.ceil(bytes/1024)+' KB of the 2 MB progress limit. '+rows.size+' compact records. Question images and personal question backups are separate.';
  }

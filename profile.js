@@ -12,6 +12,37 @@ const StudyProfile=(()=>{
   }
  }catch{}
  function save(value){return Preferences.setName(value);}
+ const achievementKey='positioning-achievements-v1:'+location.pathname.replace(/\/?(?:index\.html)?$/,'/');
+ const milestones=[['first',1,25,'First exposure','correct'],['correct25',25,75,'Beam builder','correct'],['correct100',100,200,'Exposure streak','correct'],['correct500',500,500,'Image archive','correct'],['correct1000',1000,1000,'Thousand exposures','correct'],['learn10',10,100,'Focused learner','learned'],['learn50',50,250,'Positioning pathway','learned'],['learn100',100,500,'Knowledge collimator','learned'],['images25',25,200,'Image detective','images']];
+ let earned=new Set(),achievementHTML='',bonusXP=0,awardStorageError=false;
+ function validAward(id){return typeof id==='string'&&id.length<=240&&(milestones.some(m=>m[0]===id)||id.startsWith('category:'));}
+ try{const saved=JSON.parse(localStorage.getItem(achievementKey)||'[]');if(Array.isArray(saved))earned=new Set(saved.filter(validAward).slice(0,1000));}catch{}
+ function saveAwards(){try{localStorage.setItem(achievementKey,JSON.stringify([...earned]));awardStorageError=false;}catch{awardStorageError=true;}}
+ function achievementIcon(kind){
+  const center=kind==='category'?'<path d="m22 32 7 7 14-16"/>':kind==='images'?'<rect x="20" y="20" width="24" height="24" rx="2"/><circle cx="27" cy="27" r="2"/><path d="m22 40 8-9 5 5 5-6 3 10"/>':kind==='learned'?'<path d="M32 23c-5-4-10-4-15-2v22c5-2 10-2 15 2 5-4 10-4 15-2V21c-5-2-10-2-15 2Zm0 0v22"/>':'<path d="M21 26v-5h5m12 0h5v5M21 38v5h5m12 0h5v-5M32 26v12m-6-6h12"/>';
+  return '<svg width="56" height="56" viewBox="0 0 64 64" aria-hidden="true"><g fill="none" stroke="var(--blue)" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"><path d="m32 4 24 14v28L32 60 8 46V18Z"/><path d="m32 10 19 11v22L32 54 13 43V21Z" opacity=".45"/>'+center+'</g></svg>';
+ }
+ function achievements(rows,pool){
+  const totals={correct:0,learned:0,images:0};for(const row of rows.values())totals.correct+=row[1];
+  const seen=new Set(),valid=pool.filter(q=>{
+   const k=Progress.key(q);if(seen.has(k))return false;
+   if(!q.prompt?.trim()||!q.answer?.trim()||!['mcq','short'].includes(q.type))return false;
+   if(q.type==='mcq'&&(!Array.isArray(q.options)||q.options.length<2||!q.options.includes(q.answer)))return false;
+   seen.add(k);return true;
+  });
+  for(const q of valid){const row=Progress.get(q);if(row[6]===3)totals.learned++;if(q.image&&row[1]>0)totals.images++;}
+  const cards=milestones.map(([id,target,xp,title,kind])=>({id,target,xp,title,kind,value:totals[kind],description:kind==='correct'?'correct answers':kind==='learned'?'cards learned':'different image questions correct'}));
+  for(const group of groups){
+   const questions=valid.filter(q=>q.origin==='program'&&q.group===group.id);
+   if(!questions.length||failedGroups.some(message=>message.startsWith(group.name+':')))continue;
+   cards.push({id:'category:'+group.id,target:questions.length,value:questions.filter(q=>Progress.get(q)[6]===3).length,xp:300,title:group.name+' complete',kind:'category',description:'program cards learned'});
+  }
+  let changed=false;for(const card of cards)if(card.target>0&&card.value>=card.target&&!earned.has(card.id)&&earned.size<1000){earned.add(card.id);changed=true;}
+  if(changed)saveAwards();
+  bonusXP=[...earned].reduce((sum,id)=>sum+(id.startsWith('category:')?300:milestones.find(m=>m[0]===id)?.[2]||0),0);
+  achievementHTML='<h3 style="margin-top:24px">Milestone badges</h3><p class="small muted">'+earned.size+' earned · '+bonusXP.toLocaleString()+' bonus XP. Each badge awards its bonus once and stays earned. Category badges require every valid program question to be marked Learned.</p><div class="rank-grid">'+cards.map(c=>'<article class="rank-item" style="padding:12px;border:1px solid var(--line);border-radius:12px;'+(earned.has(c.id)?'':'opacity:.65')+'">'+achievementIcon(c.kind)+'<strong>'+esc(c.title)+'</strong><span class="small">'+(earned.has(c.id)?'Earned · +'+c.xp+' XP':'Locked · '+c.xp+' XP')+'</span><span class="small muted">'+Math.min(c.value,c.target)+' / '+c.target+' '+c.description+'</span></article>').join('')+'</div>'+(awardStorageError?'<p class="small">Badge storage is unavailable. Export a progress backup to keep your awards.</p>':'');
+ }
+
  function levelFor(xp){let level=1,remaining=xp;while(level<100){const cost=100*(1+Math.floor(level/10));if(remaining<cost)break;remaining-=cost;level++;}return {level,remaining,cost:100*(1+Math.floor(level/10)),rank:Math.floor(level/10)};}
  function badge(rank){
   // Small inline vectors: no image downloads, textures, or animation.
@@ -33,11 +64,12 @@ const StudyProfile=(()=>{
  const host=document.getElementById('study-profile');if(!host)return;
  const s=levelFor(lastXP),pct=s.level===100?100:Math.floor(s.remaining/s.cost*100);
  host.innerHTML='<div class="profile-heading">'+badge(s.rank)+'<div><h2 id="profile-display"></h2><p>'+ranks[s.rank]+' · Level '+s.level+' / 100</p></div></div><div class="learning-meter" role="progressbar" aria-label="Progress toward next level" aria-valuemin="0" aria-valuemax="100" aria-valuenow="'+pct+'"><span style="width:'+pct+'%"></span></div><p class="small muted">'+lastXP.toLocaleString()+' total XP · '+(s.level===100?'Maximum rank reached':s.remaining+' / '+s.cost+' XP toward level '+(s.level+1))+'</p><form id="profile-form"><label for="profile-name">'+(name?'Profile name':'Create your study profile')+'</label><div class="profile-name-row"><input id="profile-name" maxlength="32" placeholder="Your name or nickname" required><button type="submit">'+(name?'Save name':'Create profile')+'</button></div></form><p id="profile-message" class="small" role="status"></p><p class="small muted">10 XP per correct answer or “Got it” flashcard, including previous saved answers. New ranks unlock every 10 levels, with a higher XP requirement each time. This is a local study profile saved in this browser.</p><details><summary>View all ranks</summary><div class="rank-grid">'+ranks.map((r,i)=>'<div class="rank-item">'+badge(i)+'<strong>'+r+'</strong><span class="small muted">Level '+(i===0?1:i*10)+'</span></div>').join('')+'</div></details>';
+ host.insertAdjacentHTML('beforeend',achievementHTML);
  document.getElementById('profile-display').textContent=name||'Your study profile';document.getElementById('profile-name').value=name;
  document.getElementById('profile-form').onsubmit=e=>{e.preventDefault();const value=document.getElementById('profile-name').value.trim();if(!value)return;const saved=save(value);paint();document.getElementById('profile-message').textContent=saved?'Profile saved.':'Browser storage is unavailable. Export your progress to keep a backup.';};
  }
- function render(rows){lastXP=0;for(const r of rows.values())lastXP+=r[1]*10;paint();}
- function restore(data){if(data&&typeof data.name==='string')save(data.name);}
+ function render(rows,pool=[]){achievements(rows,pool);lastXP=bonusXP;for(const r of rows.values())lastXP+=r[1]*10;paint();}
+ function restore(data){if(data&&typeof data.name==='string')save(data.name);if(Array.isArray(data?.achievements)){for(const id of data.achievements)if(validAward(id)&&earned.size<1000)earned.add(id);saveAwards();}}
  window.addEventListener('positioning-name-changed',()=>{if(document.getElementById('profile-form'))paint();});
- return {render,backup:()=>({name:Preferences.getName()}),restore,levelFor};
+ return {render,backup:()=>({name:Preferences.getName(),achievements:[...earned]}),restore,levelFor};
 })();
