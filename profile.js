@@ -14,6 +14,7 @@ const StudyProfile=(()=>{
  function save(value){return Preferences.setName(value);}
  const achievementKey='positioning-achievements-v1:'+location.pathname.replace(/\/?(?:index\.html)?$/,'/');
  const milestones=[['first',1,25,'First exposure','correct'],['correct25',25,75,'Beam builder','correct'],['correct100',100,200,'Exposure streak','correct'],['correct500',500,500,'Image archive','correct'],['correct1000',1000,1000,'Thousand exposures','correct'],['learn10',10,100,'Focused learner','learned'],['learn50',50,250,'Positioning pathway','learned'],['learn100',100,500,'Knowledge collimator','learned'],['images25',25,200,'Image detective','images']];
+ milestones.push(...[["correct10", 10, 40, "Warm-up exposure", "correct"], ["correct50", 50, 125, "Steady beam", "correct"], ["correct250", 250, 350, "Exposure navigator", "correct"], ["correct2500", 2500, 1500, "Beam veteran", "correct"], ["correct5000", 5000, 2500, "Exposure legend", "correct"], ["learn25", 25, 150, "Positioning foundation", "learned"], ["learn250", 250, 900, "Knowledge archive", "learned"], ["learn500", 500, 1500, "Master positioning", "learned"], ["images1", 1, 25, "First image", "images"], ["images10", 10, 100, "Image scout", "images"], ["images50", 50, 350, "Image analyst", "images"], ["images100", 100, 600, "Image master", "images"], ["unique25", 25, 100, "Broad beam", "unique"], ["unique100", 100, 300, "Study explorer", "unique"], ["unique250", 250, 600, "Question navigator", "unique"], ["unique500", 500, 1000, "Wide-field expert", "unique"]]);
  let earned=new Set(),achievementHTML='',bonusXP=0,awardStorageError=false;
  function validAward(id){return typeof id==='string'&&id.length<=240&&(milestones.some(m=>m[0]===id)||id.startsWith('category:'));}
  try{const saved=JSON.parse(localStorage.getItem(achievementKey)||'[]');if(Array.isArray(saved))earned=new Set(saved.filter(validAward).slice(0,1000));}catch{}
@@ -23,15 +24,15 @@ const StudyProfile=(()=>{
   return '<svg width="56" height="56" viewBox="0 0 64 64" aria-hidden="true"><g fill="none" stroke="var(--blue)" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"><path d="m32 4 24 14v28L32 60 8 46V18Z"/><path d="m32 10 19 11v22L32 54 13 43V21Z" opacity=".45"/>'+center+'</g></svg>';
  }
  function achievements(rows,pool){
-  const totals={correct:0,learned:0,images:0};for(const row of rows.values())totals.correct+=row[1];
+  const totals={correct:0,learned:0,images:0,unique:0};for(const row of rows.values())totals.correct+=row[1];
   const seen=new Set(),valid=pool.filter(q=>{
    const k=Progress.key(q);if(seen.has(k))return false;
    if(!q.prompt?.trim()||!q.answer?.trim()||!['mcq','short'].includes(q.type))return false;
    if(q.type==='mcq'&&(!Array.isArray(q.options)||q.options.length<2||!q.options.includes(q.answer)))return false;
    seen.add(k);return true;
   });
-  for(const q of valid){const row=Progress.get(q);if(row[6]===3)totals.learned++;if(q.image&&row[1]>0)totals.images++;}
-  const cards=milestones.map(([id,target,xp,title,kind])=>({id,target,xp,title,kind,value:totals[kind],description:kind==='correct'?'correct answers':kind==='learned'?'cards learned':'different image questions correct'}));
+  for(const q of valid){const row=Progress.get(q);if(row[1]>0)totals.unique++;if(row[6]===3)totals.learned++;if(q.image&&row[1]>0)totals.images++;}
+  const cards=[...milestones].sort((a,b)=>a[4].localeCompare(b[4])||a[1]-b[1]).map(([id,target,xp,title,kind])=>({id,target,xp,title,kind,value:totals[kind],description:kind==='correct'?'correct answers':kind==='learned'?'cards learned':kind==='unique'?'different questions correct':'different image questions correct'}));
   for(const group of groups){
    const questions=valid.filter(q=>q.origin==='program'&&q.group===group.id);
    if(!questions.length||failedGroups.some(message=>message.startsWith(group.name+':')))continue;

@@ -1,0 +1,18 @@
+Upload these six files to the main Merrills GitHub folder, replacing matches.
+Keep your existing cloud-config.js and privacy.html. No Google settings or
+Apps Script changes are needed for this update.
+
+Google's official sign-in button now loads directly. A dismissible reminder
+appears on the study setup page. Sign-in remains optional.
+
+Completed question sets trigger cloud sync automatically while signed in.
+Session results display save status. Offline/expired sign-in keeps progress
+local until you reconnect/sign in again. Local saves still happen per answer.
+
+16 new milestone badges: images at 1, 10, 50 and 100; correct totals at
+10, 50, 250, 2500 and 5000; learned cards at 25, 250 and 500; distinct
+questions correct at 25, 100, 250 and 500. Existing badges are preserved.
+
+Badges are evaluated after a completed set so their bonus XP can sync too.
+The Google button is now loaded on page opening when cloud sync is enabled.
+Live Google sign-in still depends on your existing configured deployment.

@@ -6,7 +6,7 @@ const CloudSync=(()=>{
  let token='',nonce='',user=null,bridge=null,bridgeOrigin='',channel='',frame=null,connecting=null,busy=false,applying=false,approved=false,base=null,revision=0,lastSync='',timer=null,retry=15000,generation=0,dbPromise=null;
  const pending=new Map(),el=id=>document.getElementById(id);
  const random=()=>Array.from(crypto.getRandomValues(new Uint8Array(24)),n=>n.toString(16).padStart(2,'0')).join('');
- function status(message){if(el('cloud-status'))el('cloud-status').textContent=message;}
+ function status(message){for(const id of ['cloud-status','cloud-result-status'])if(el(id))el(id).textContent=message;}
  function storageOwner(){return localStorage.getItem(ownerKey)||'';}
  function idle(){return !$('app').hidden&&!document.hidden&&!(session&&!session.finished)&&$('builder-view').hidden&&!document.querySelector('dialog[open]');}
  function database(){return dbPromise||(dbPromise=new Promise((resolve,reject)=>{const r=indexedDB.open('positioning-cloud-cache-v1',1);r.onupgradeneeded=()=>r.result.createObjectStore('state');r.onsuccess=()=>resolve(r.result);r.onerror=()=>reject(Error('Browser recovery storage is unavailable. Cloud sync is paused.'));}));}
@@ -52,7 +52,7 @@ const CloudSync=(()=>{
   if(result.error==='AUTH'){token='';approved=false;throw Error('Google sign-in expired. Sign in again to sync; local progress is safe.');}
   if(!result.ok&&result.error!=='CONFLICT')throw Error('Sync error ('+(result.error||'UNAVAILABLE')+'). Your local progress is safe.');return result;
  }
- function showAccount(){el('cloud-account').textContent=user?(user.name||user.email)+' · Google Account':'Progress is saved on this device.';el('cloud-signout').hidden=!user;el('cloud-now').hidden=!user;el('cloud-last').textContent=lastSync?'Last sync: '+new Date(lastSync).toLocaleString():'';}
+ function showAccount(){if(el('cloud-google-button'))el('cloud-google-button').hidden=!!token&&approved;if(el('cloud-prompt'))el('cloud-prompt').hidden=(!!token&&approved)||promptDismissed();el('cloud-account').textContent=user?(user.name||user.email)+' · Google Account':'Progress is saved on this device.';el('cloud-signout').hidden=!user;el('cloud-now').hidden=!user;el('cloud-last').textContent=lastSync?'Last sync: '+new Date(lastSync).toLocaleString():'';}
  function counts(d){return Object.keys(d?.progress||{}).length+' question records · '+(d?.achievements||[]).length+' badges · '+(d?.personal?.questions||[]).length+' personal questions';}
  async function choose(local,remote,other){
   const dialog=el('cloud-choice');el('cloud-local-summary').textContent=counts(local);el('cloud-remote-summary').textContent=counts(remote);
@@ -96,29 +96,43 @@ const CloudSync=(()=>{
    }
    throw Error('Another device is saving. Retrying shortly.');
   }catch(e){status(e.message);if(token&&approved){clearTimeout(timer);timer=setTimeout(sync,retry);retry=Math.min(300000,retry*2);}}
-  finally{busy=false;}
+  finally{busy=false;showAccount();}
  }
  function schedule(){if(applying||!approved)return;status('Changes saved locally. Waiting to sync…');clearTimeout(timer);timer=setTimeout(sync,10000);}
  function signout(){generation++;token='';user=null;approved=false;base=null;clearTimeout(timer);window.google?.accounts.id.disableAutoSelect();showAccount();status('Signed out. This device keeps its local progress.');}
- let gisLoaded=false;
+ let gisPromise=null,gisInitialized=false;
+ function promptDismissed(){try{return localStorage.getItem('positioning-sync-prompt-v1:'+path)==='dismissed';}catch{return false;}}
  async function login(){
+  if(!cfg.enabled)return;
   try{
-   if(!cfg.enabled)throw Error('Google sync has not been configured yet.');
-   if(!idle())throw Error('Finish the current session or close the editor/dialog before signing in.');
-   if(!gisLoaded){status('Loading Google sign-in…');await new Promise((resolve,reject)=>{const s=document.createElement('script');s.src='https://accounts.google.com/gsi/client';s.async=true;s.onload=resolve;s.onerror=()=>reject(Error('Google sign-in could not load. Check your connection.'));document.head.append(s);});gisLoaded=true;}
-   nonce=random();google.accounts.id.initialize({client_id:cfg.clientId,nonce,auto_select:false,callback:result=>initial(result.credential)});el('cloud-google-button').replaceChildren();google.accounts.id.renderButton(el('cloud-google-button'),{theme:'outline',size:'large',text:'signin_with',width:240});status('Choose your Google account to connect.');
-  }catch(e){status(e.message);}
+   if(!gisPromise){status('Loading Google sign-in…');gisPromise=new Promise((resolve,reject)=>{const s=document.createElement('script');s.src='https://accounts.google.com/gsi/client';s.async=true;s.onload=resolve;s.onerror=()=>{gisPromise=null;reject(Error('Google sign-in could not load. Check your connection and retry.'));};document.head.append(s);});}
+   await gisPromise;
+   if(!gisInitialized){nonce=random();google.accounts.id.initialize({client_id:cfg.clientId,nonce,auto_select:false,callback:result=>initial(result.credential)});gisInitialized=true;}
+   for(const id of ['cloud-google-button','cloud-prompt-google']){const target=el(id);if(target&&!target.dataset.rendered){target.replaceChildren();google.accounts.id.renderButton(target,{theme:'outline',size:'large',text:'signin_with',width:240});target.dataset.rendered='true';}}
+   el('cloud-login').hidden=true;if(!user)status('Sign in to sync. Progress is always saved on this device.');
+  }catch(e){el('cloud-login').hidden=false;el('cloud-login').textContent='Retry loading Google sign-in';status(e.message);}
  }
  async function exportRecovery(){try{const saved=await dbGet('recovery');if(!saved)throw Error('No recovery copy has been needed yet.');downloadJSON({app:'positioning-cloud-recovery',version:1,...saved},'positioning-cloud-recovery.json');status('Recovery copy exported. It includes the device and cloud versions before import.');}catch(e){status(e.message);}}
  async function restoreRecovery(){
   try{if(!idle())throw Error('Finish your session or close the editor first.');const saved=await dbGet('recovery');if(!saved)throw Error('No recovery copy is available.');if(!confirm('Restore this device’s pre-sync copy and sign out? The cloud copy will stay unchanged.'))return;signout();apply(saved.local);localStorage.removeItem(ownerKey);await dbPut('baseline',null);status('Pre-sync device copy restored. Sign in to choose how to reconnect.');}catch(e){status(e.message);}
  }
  function init(){
-  const host=document.createElement('section');host.className='panel cloud-panel';host.setAttribute('aria-label','Google cloud save');host.innerHTML='<h2>Cloud save</h2><p id="cloud-account">Progress is saved on this device.</p><div class="actions"><button id="cloud-login">Sign in with Google</button><button id="cloud-now" hidden>Sync now</button><button id="cloud-signout" hidden>Sign out</button></div><div id="cloud-google-button"></div><p id="cloud-status" role="status">Optional. Connect Google to carry your progress between devices.</p><p id="cloud-last" class="small muted"></p><details><summary>Recovery and privacy</summary><p class="small muted">Your saved progress, preferences, badges, and personal questions are stored in the site owner’s private Google Sheet when you connect. Sign-out stops syncing but keeps this device’s copy. Google credentials are never stored. A recovery copy is kept before imports. <a href="./privacy.html" target="_blank" rel="noopener">Privacy</a></p><div class="actions"><button id="cloud-recovery">Export recovery copy</button><button id="cloud-restore">Restore pre-sync device copy</button></div></details>';
+  const host=document.createElement('section');host.className='panel cloud-panel';host.setAttribute('aria-label','Google cloud save');host.innerHTML='<h2>Cloud save</h2><p id="cloud-account">Progress is saved on this device.</p><div class="actions"><button id="cloud-login" hidden>Retry loading Google sign-in</button><button id="cloud-now" hidden>Sync now</button><button id="cloud-signout" hidden>Sign out</button></div><div id="cloud-google-button"></div><p id="cloud-status" role="status">Optional. Connect Google to carry your progress between devices.</p><p id="cloud-last" class="small muted"></p><details><summary>Recovery and privacy</summary><p class="small muted">Your saved progress, preferences, badges, and personal questions are stored in the site owner’s private Google Sheet when you connect. Sign-out stops syncing but keeps this device’s copy. Google credentials are never stored. A recovery copy is kept before imports. <a href="./privacy.html" target="_blank" rel="noopener">Privacy</a></p><div class="actions"><button id="cloud-recovery">Export recovery copy</button><button id="cloud-restore">Restore pre-sync device copy</button></div></details>';
   $('progress-view').insertBefore(host,$('study-profile'));
   const dialog=document.createElement('dialog');dialog.id='cloud-choice';dialog.className='preferences-dialog';dialog.setAttribute('aria-labelledby','cloud-choice-title');dialog.innerHTML='<h2 id="cloud-choice-title">Connect your progress</h2><p id="cloud-choice-note"></p><h3>This device</h3><p id="cloud-local-summary"></p><h3>Google cloud</h3><p id="cloud-remote-summary"></p><p class="small muted">A recovery copy is saved before applying your choice. Use cloud replaces the device copy. Use this device replaces the cloud copy after a version check.</p><div class="actions"><button data-cloud-choice="merge" class="primary">Merge progress</button><button data-cloud-choice="cloud">Use cloud</button><button data-cloud-choice="local">Use this device</button><button data-cloud-choice="cancel">Cancel</button></div>';document.body.append(dialog);
   el('cloud-login').onclick=login;el('cloud-now').onclick=()=>{if(!approved)login();else sync();};el('cloud-signout').onclick=signout;el('cloud-recovery').onclick=exportRecovery;el('cloud-restore').onclick=restoreRecovery;
-  if(!cfg.enabled){el('cloud-login').disabled=true;status('Google cloud save is not enabled yet. Local study and backups work normally.');}
+  if(!cfg.enabled){el('cloud-login').hidden=true;status('Google cloud save is not enabled yet. Local study and backups work normally.');}
+  if(cfg.enabled){
+   const prompt=document.createElement('aside');prompt.id='cloud-prompt';prompt.className='panel cloud-prompt';prompt.hidden=promptDismissed();prompt.innerHTML='<div class="cloud-prompt-heading"><h2>Take your progress with you</h2><button id="cloud-prompt-dismiss" aria-label="Dismiss cloud sync reminder">Not now</button></div><p>Sign in with Google to sync across devices. Completed question sets save to the cloud automatically while you are signed in. You can also keep studying on this device without an account.</p><div id="cloud-prompt-google"></div>';
+   $('practice-view').insertBefore(prompt,$('practice-view').firstChild);
+   el('cloud-prompt-dismiss').onclick=()=>{prompt.hidden=true;try{localStorage.setItem('positioning-sync-prompt-v1:'+path,'dismissed');}catch{}};
+   login();
+  }
+  window.addEventListener('positioning-session-complete',()=>{
+   const result=document.createElement('p');result.id='cloud-result-status';result.className='notice';result.setAttribute('role','status');$('results-view').append(result);
+   if(!token||!approved){result.textContent='Saved on this device. Sign in from My progress to sync across devices.';return;}
+   clearTimeout(timer);result.textContent='Saving this question set to the cloud…';sync();
+  });
   window.addEventListener('positioning-data-changed',schedule);window.addEventListener('online',()=>sync());window.addEventListener('offline',()=>{if(user)status('Offline. Progress is saved on this device.');});
   window.addEventListener('storage',e=>{if(e.key===ownerKey&&user&&e.newValue!==user.sub){signout();status('Account changed in another tab. Reload before studying.');}else if(e.key?.startsWith('positioning-'))schedule();});
   document.addEventListener('visibilitychange',()=>{if(!document.hidden)sync();});setInterval(()=>{if(approved&&!document.hidden)sync();},120000);

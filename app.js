@@ -170,6 +170,7 @@ function finishSession(reason){
  const latest=new Map(session.responses.map(r=>[questionKey(r.q),r]));
  session.review=session.items.map(q=>latest.get(questionKey(q))||{q,answer:'Not attempted',correct:false,unattempted:true});
  renderResults();
+ if(session.from!=='preview'){Progress.refreshAwards();window.dispatchEvent(new Event('positioning-session-complete'));}
 }
 function reviewHTML(r){return '<details class="review-item"><summary><span class="'+(r.correct?'status-good':'status-bad')+'">'+(r.correct?'✓':'○')+'</span> '+esc(r.q.prompt)+'</summary>'+imageHTML(r.q)+'<p><strong>Your response:</strong> '+esc(r.unattempted?'Not attempted':r.skipped?'Skipped':r.answer)+'</p><p><strong>Answer:</strong> '+esc(r.q.answer)+'</p><p>'+esc(r.q.explanation)+'</p><p class="muted small">'+esc(r.q.source||'')+'</p>'+(session.from==='preview'?'':Progress.controls(r.q))+'</details>';}
 function renderResultReview(){

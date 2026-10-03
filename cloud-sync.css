@@ -1,1 +1,3 @@
 .cloud-panel{margin-bottom:24px;min-width:0}.cloud-panel .actions{flex-wrap:wrap}.cloud-panel button{max-width:100%}#cloud-google-button{max-width:100%;margin-top:12px;min-height:0}#cloud-status{margin:14px 0 6px;overflow-wrap:anywhere}#cloud-choice .actions{display:flex;flex-wrap:wrap;gap:10px}#cloud-choice button{min-height:44px}#cloud-choice::backdrop{background:#071425b8}
+
+.cloud-prompt{margin-bottom:24px}.cloud-prompt-heading{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}.cloud-prompt p{margin:14px 0}.cloud-prompt [id$="google"]{max-width:100%}.cloud-panel h2{font-size:1.15rem}.cloud-panel .actions{margin:12px 0}.cloud-panel #cloud-google-button:empty{margin:0}

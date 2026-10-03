@@ -190,6 +190,7 @@ const Progress=(()=>{
   });
  }
  function cloudReload(){rows.clear();sizes.clear();dirty.clear();bytes=0;load();}
- return {cloudReload,init,get,key,day,record,matches,weight,pick,controls,wire,setup,render,backup,validateBackup,restore,summary};
+ function refreshAwards(){StudyProfile.render(rows,poolFor('both'));}
+ return {refreshAwards,cloudReload,init,get,key,day,record,matches,weight,pick,controls,wire,setup,render,backup,validateBackup,restore,summary};
 })();
 Progress.init();
