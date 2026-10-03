@@ -75,3 +75,5 @@ body.dialog-open{position:fixed;left:0;right:0;width:100%;overflow:hidden}
  .preferences-dialog{width:calc(100% - 24px);padding:18px;scrollbar-gutter:auto;max-height:calc(100dvh - 24px - env(safe-area-inset-top) - env(safe-area-inset-bottom))}
  .settings-grid{grid-template-columns:minmax(0,1fr)}.welcome-dialog h2{font-size:1.4rem}.dialog-heading{gap:8px}
 }
+
+.study-profile{margin-bottom:24px}.profile-heading{display:flex;align-items:center;gap:16px;margin-bottom:18px}.profile-heading h2{font-size:1.25rem}.profile-heading p{margin:6px 0 0}.profile-heading svg{flex-shrink:0}.profile-name-row{display:flex;gap:10px}.profile-name-row input{min-width:0;flex:1}.profile-name-row button{flex-shrink:0}.rank-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(110px,1fr));gap:16px;padding-top:18px}.rank-item{display:flex;flex-direction:column;align-items:center;gap:6px;text-align:center}@media(max-width:450px){.profile-name-row{flex-direction:column}}

@@ -128,7 +128,7 @@ const Progress=(()=>{
  }
  function renderSummary(){
   const pool=poolFor('both'),s=summary(pool);
-  renderCategoryBars(pool);
+  renderCategoryBars(pool);StudyProfile.render(rows);
   $('progress-summary').textContent=s.studied+' of '+pool.length+' questions studied · '+s.today+' today · '+s.bookmarks+' bookmarked · '+s.learned+' learned';
   $('progress-storage').textContent='Progress uses about '+Math.ceil(bytes/1024)+' KB of the 2 MB progress limit. '+rows.size+' compact records. Question images and personal question backups are separate.';
  }
@@ -140,7 +140,7 @@ const Progress=(()=>{
   $('progress-list').innerHTML=found.slice(0,listLimit).map(q=>questionDetail(q)).join('')||'<p class="empty">No cards match these filters.</p>';
   wireImages($('progress-list'));wire($('progress-list'),found.slice(0,listLimit));
  }
- function backup(){return {app:'positioning-lab-progress',version:1,exportedAt:new Date().toISOString(),records:[...rows].map(([k,r])=>[k,[...r]])};}
+ function backup(){return {app:'positioning-lab-progress',version:1,exportedAt:new Date().toISOString(),profile:StudyProfile.backup(),records:[...rows].map(([k,r])=>[k,[...r]])};}
  function validateBackup(data){
   if(!data||data.app!=='positioning-lab-progress'||data.version!==1||!Array.isArray(data.records)||data.records.length>MAX_ROWS)throw new Error('Choose a Positioning Lab progress backup (version 1).');
   let total=0;const seen=new Set();
@@ -163,6 +163,7 @@ const Progress=(()=>{
   if(projected>MAX_BYTES||newCount>MAX_ROWS)throw new Error('Combining these histories would exceed the progress limit. Nothing was imported.');
   let saved=0;
   for(const [k,r] of updates)if(save(k,[...r]))saved++;
+  StudyProfile.restore(data.profile);
   return {merged:updates.length,saved};
  }
  function init(){

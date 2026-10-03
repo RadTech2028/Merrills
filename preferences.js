@@ -21,6 +21,9 @@ const Preferences=(()=>{
  function appearance(){
   const root=document.documentElement,theme=prefs.theme==='system'?(dark.matches?'dark':'light'):prefs.theme;
   root.dataset.theme=theme;root.dataset.accent=prefs.accent;root.dataset.text=prefs.text;root.dataset.density=prefs.density;root.dataset.motion=prefs.motion?'reduce':'normal';
+  const iconColor={blue:'#235be2',teal:'#087b70',purple:'#7543b7',amber:'#946000'}[prefs.accent];
+  const icon='data:image/svg+xml,'+encodeURIComponent('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48"><rect width="48" height="48" rx="12" fill="'+iconColor+'"/><path d="M12 19v-7h7m10 0h7v7M12 29v7h7m10 0h7v-7M24 17v14m-7-7h14" fill="none" stroke="white" stroke-width="3"/></svg>');
+  const brand=document.querySelector('.brand img'),favicon=document.querySelector('link[rel="icon"]');if(brand)brand.src=icon;if(favicon)favicon.href=icon;
   const meta=document.querySelector('meta[name="theme-color"]');if(meta)meta.content={light:'#f5f7fb',dark:'#121922',sepia:'#f2eadb'}[theme];
   const greeting=el('personal-greeting');if(greeting){greeting.hidden=!prefs.name;greeting.textContent=prefs.name?'Welcome back, '+prefs.name+'.':'';}
  }
