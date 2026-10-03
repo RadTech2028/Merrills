@@ -2,10 +2,16 @@
 const StudyProfile=(()=>{
  const key='positioning-profile-v1:'+location.pathname.replace(/\/?(?:index\.html)?$/,'/');
  const ranks=["Photon Scout", "Beam Explorer", "Collimation Cadet", "Projection Apprentice", "Anatomy Analyst", "Positioning Specialist", "Image Evaluator", "Exposure Expert", "Precision Master", "Imaging Elite", "Radiographic Legend"];
- let name='',lastXP=0;
- try{name=JSON.parse(localStorage.getItem(key)||'{}').name||'';}catch{}
- if(typeof name!=='string')name='';name=name.slice(0,32);
- function save(value){name=value.trim().slice(0,32);try{localStorage.setItem(key,JSON.stringify({name}));return true;}catch{return false;}}
+ let name=Preferences.getName(),lastXP=0;
+ // Migrate the old separate profile name once. An existing display name wins.
+ try{
+  const legacy=JSON.parse(localStorage.getItem(key)||'null');
+  if(legacy){
+   const chosen=name||(typeof legacy.name==='string'?legacy.name:'');
+   if(Preferences.setName(chosen))localStorage.removeItem(key);
+  }
+ }catch{}
+ function save(value){return Preferences.setName(value);}
  function levelFor(xp){let level=1,remaining=xp;while(level<100){const cost=100*(1+Math.floor(level/10));if(remaining<cost)break;remaining-=cost;level++;}return {level,remaining,cost:100*(1+Math.floor(level/10)),rank:Math.floor(level/10)};}
  function badge(rank){
   // Small inline vectors: no image downloads, textures, or animation.
@@ -23,6 +29,7 @@ const StudyProfile=(()=>{
  }
 
  function paint(){
+ name=Preferences.getName();
  const host=document.getElementById('study-profile');if(!host)return;
  const s=levelFor(lastXP),pct=s.level===100?100:Math.floor(s.remaining/s.cost*100);
  host.innerHTML='<div class="profile-heading">'+badge(s.rank)+'<div><h2 id="profile-display"></h2><p>'+ranks[s.rank]+' · Level '+s.level+' / 100</p></div></div><div class="learning-meter" role="progressbar" aria-label="Progress toward next level" aria-valuemin="0" aria-valuemax="100" aria-valuenow="'+pct+'"><span style="width:'+pct+'%"></span></div><p class="small muted">'+lastXP.toLocaleString()+' total XP · '+(s.level===100?'Maximum rank reached':s.remaining+' / '+s.cost+' XP toward level '+(s.level+1))+'</p><form id="profile-form"><label for="profile-name">'+(name?'Profile name':'Create your study profile')+'</label><div class="profile-name-row"><input id="profile-name" maxlength="32" placeholder="Your name or nickname" required><button type="submit">'+(name?'Save name':'Create profile')+'</button></div></form><p id="profile-message" class="small" role="status"></p><p class="small muted">10 XP per correct answer or “Got it” flashcard, including previous saved answers. New ranks unlock every 10 levels, with a higher XP requirement each time. This is a local study profile saved in this browser.</p><details><summary>View all ranks</summary><div class="rank-grid">'+ranks.map((r,i)=>'<div class="rank-item">'+badge(i)+'<strong>'+r+'</strong><span class="small muted">Level '+(i===0?1:i*10)+'</span></div>').join('')+'</div></details>';
@@ -31,5 +38,6 @@ const StudyProfile=(()=>{
  }
  function render(rows){lastXP=0;for(const r of rows.values())lastXP+=r[1]*10;paint();}
  function restore(data){if(data&&typeof data.name==='string')save(data.name);}
- return {render,backup:()=>({name}),restore,levelFor};
+ window.addEventListener('positioning-name-changed',()=>{if(document.getElementById('profile-form'))paint();});
+ return {render,backup:()=>({name:Preferences.getName()}),restore,levelFor};
 })();

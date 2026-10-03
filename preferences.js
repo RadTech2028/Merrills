@@ -48,12 +48,17 @@ const Preferences=(()=>{
   for(const k of ['count','minutes'])el('pref-'+k).setAttribute('aria-invalid','false');
   visibility();status('Changes save automatically.');
  }
+ function setName(value){
+  prefs.name=String(value||'').trim().slice(0,32);appearance();
+  if(el('pref-name'))el('pref-name').value=prefs.name;
+  persist();window.dispatchEvent(new Event('positioning-name-changed'));return !storageError;
+ }
  function change(k){
   const input=el('pref-'+k);let value=input.type==='checkbox'?input.checked:input.value;
   if(['count','minutes'].includes(k)){
    value=Number(value);if(!Number.isSafeInteger(value)||value<1||(k==='minutes'&&value>180)){input.setAttribute('aria-invalid','true');el('preferences-status').textContent=k==='minutes'?'Enter a whole number of minutes from 1 to 180.':'Enter a whole number of questions greater than zero.';return;}input.setAttribute('aria-invalid','false');
   }
-  if(k==='name')value=value.trim().slice(0,32);
+  if(k==='name'){setName(value);return;}
   prefs[k]=value;appearance();visibility();persist();
   if(['mode','source','images','all','count','smart','shuffle','timer','minutes'].includes(k))study();
  }
@@ -86,7 +91,7 @@ const Preferences=(()=>{
   el('welcome-back').onclick=()=>{if(step){step--;tour();}};
   el('welcome-skip').onclick=finish;
   el('replay-tour').onclick=()=>{el('settings-dialog').close();showTour();returnFocus=el('open-settings');};
-  el('reset-preferences').onclick=()=>{if(!confirm('Reset appearance and study settings? Your questions and progress will be kept.'))return;const welcomed=prefs.welcomed;prefs={...defaults,welcomed};appearance();study();populate();persist();};
+  el('reset-preferences').onclick=()=>{if(!confirm('Reset appearance and study settings? Your questions and progress will be kept.'))return;const welcomed=prefs.welcomed;prefs={...defaults,welcomed,name:prefs.name};appearance();study();populate();persist();};
   el('use-session-defaults').onclick=()=>{
    const size=el('session-size').value,count=Number(size==='custom'?el('custom-session-size').value:size),minutes=Number(el('timer-minutes').value);
    if(size!=='all'&&(!Number.isSafeInteger(count)||count<1)){status('Set a valid question count in Practice first.');return;}
@@ -96,5 +101,5 @@ const Preferences=(()=>{
   if(!prefs.welcomed)showTour();
  }
  document.addEventListener('DOMContentLoaded',init,{once:true});
- return {ready,autoLearn:()=>prefs.autoLearn};
+ return {ready,autoLearn:()=>prefs.autoLearn,getName:()=>prefs.name,setName};
 })();
