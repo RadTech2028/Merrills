@@ -17,7 +17,7 @@ const StudyProfile=(()=>{
  let earned=new Set(),achievementHTML='',bonusXP=0,awardStorageError=false;
  function validAward(id){return typeof id==='string'&&id.length<=240&&(milestones.some(m=>m[0]===id)||id.startsWith('category:'));}
  try{const saved=JSON.parse(localStorage.getItem(achievementKey)||'[]');if(Array.isArray(saved))earned=new Set(saved.filter(validAward).slice(0,1000));}catch{}
- function saveAwards(){try{localStorage.setItem(achievementKey,JSON.stringify([...earned]));awardStorageError=false;}catch{awardStorageError=true;}}
+ function saveAwards(){try{localStorage.setItem(achievementKey,JSON.stringify([...earned]));awardStorageError=false;window.dispatchEvent(new Event('positioning-data-changed'));}catch{awardStorageError=true;}}
  function achievementIcon(kind){
   const center=kind==='category'?'<path d="m22 32 7 7 14-16"/>':kind==='images'?'<rect x="20" y="20" width="24" height="24" rx="2"/><circle cx="27" cy="27" r="2"/><path d="m22 40 8-9 5 5 5-6 3 10"/>':kind==='learned'?'<path d="M32 23c-5-4-10-4-15-2v22c5-2 10-2 15 2 5-4 10-4 15-2V21c-5-2-10-2-15 2Zm0 0v22"/>':'<path d="M21 26v-5h5m12 0h5v5M21 38v5h5m12 0h5v-5M32 26v12m-6-6h12"/>';
   return '<svg width="56" height="56" viewBox="0 0 64 64" aria-hidden="true"><g fill="none" stroke="var(--blue)" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"><path d="m32 4 24 14v28L32 60 8 46V18Z"/><path d="m32 10 19 11v22L32 54 13 43V21Z" opacity=".45"/>'+center+'</g></svg>';
@@ -71,5 +71,6 @@ const StudyProfile=(()=>{
  function render(rows,pool=[]){achievements(rows,pool);lastXP=bonusXP;for(const r of rows.values())lastXP+=r[1]*10;paint();}
  function restore(data){if(data&&typeof data.name==='string')save(data.name);if(Array.isArray(data?.achievements)){for(const id of data.achievements)if(validAward(id)&&earned.size<1000)earned.add(id);saveAwards();}}
  window.addEventListener('positioning-name-changed',()=>{if(document.getElementById('profile-form'))paint();});
- return {render,backup:()=>({name:Preferences.getName(),achievements:[...earned]}),restore,levelFor};
+ function cloudReload(){const list=JSON.parse(localStorage.getItem(achievementKey)||'[]');earned=new Set(Array.isArray(list)?list.filter(validAward).slice(0,1000):[]);name=Preferences.getName();}
+ return {cloudReload,render,backup:()=>({name:Preferences.getName(),achievements:[...earned]}),restore,levelFor};
 })();

@@ -17,7 +17,7 @@ const Preferences=(()=>{
  }
  try{prefs=sanitize(JSON.parse(localStorage.getItem(key)||'null'));}catch{storageError=true;}
  function status(message='Settings saved.'){const text=storageError?'Browser storage is unavailable. These settings apply for this visit only.':message;for(const id of ['preferences-status','welcome-status'])if(el(id))el(id).textContent=text;}
- function persist(){try{localStorage.setItem(key,JSON.stringify(prefs));storageError=false;}catch{storageError=true;}status();}
+ function persist(){try{localStorage.setItem(key,JSON.stringify(prefs));storageError=false;window.dispatchEvent(new Event('positioning-data-changed'));}catch{storageError=true;}status();}
  function appearance(){
   const root=document.documentElement,theme=prefs.theme==='system'?(dark.matches?'dark':'light'):prefs.theme;
   root.dataset.theme=theme;root.dataset.accent=prefs.accent;root.dataset.text=prefs.text;root.dataset.density=prefs.density;root.dataset.motion=prefs.motion?'reduce':'normal';
@@ -101,5 +101,6 @@ const Preferences=(()=>{
   if(!prefs.welcomed)showTour();
  }
  document.addEventListener('DOMContentLoaded',init,{once:true});
- return {ready,autoLearn:()=>prefs.autoLearn,getName:()=>prefs.name,setName};
+ function cloudReload(){prefs=sanitize(JSON.parse(localStorage.getItem(key)||'null'));appearance();study();window.dispatchEvent(new Event('positioning-name-changed'));}
+ return {cloudReload,cloudSnapshot:()=>({...prefs}),ready,autoLearn:()=>prefs.autoLearn,getName:()=>prefs.name,setName};
 })();

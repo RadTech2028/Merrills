@@ -56,7 +56,7 @@ const Progress=(()=>{
   }
   try{
    localStorage.setItem(prefix+k,raw);bytes+=size-(sizes.get(k)||0);sizes.set(k,size);dirty.delete(k);
-   if(!dirty.size&&warning.startsWith('Progress could not'))warn('');return true;
+   if(!dirty.size&&warning.startsWith('Progress could not'))warn('');window.dispatchEvent(new Event('positioning-data-changed'));return true;
   }catch{warn('Progress could not be saved in this browser. Changes are kept for this visit only. Export a progress backup before leaving.');return false;}
  }
  function record(q,correct,skipped=false,now=Date.now()){
@@ -189,6 +189,7 @@ const Progress=(()=>{
    try{acceptStored(event.key.slice(prefix.length),event.newValue);if(!$('practice-view').hidden)updateSetup();if(!$('progress-view').hidden)render();}catch{warn('A progress update from another tab could not be read.');}
   });
  }
- return {init,get,key,day,record,matches,weight,pick,controls,wire,setup,render,backup,validateBackup,restore,summary};
+ function cloudReload(){rows.clear();sizes.clear();dirty.clear();bytes=0;load();}
+ return {cloudReload,init,get,key,day,record,matches,weight,pick,controls,wire,setup,render,backup,validateBackup,restore,summary};
 })();
 Progress.init();

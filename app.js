@@ -48,7 +48,7 @@ function refreshCatalogs(){
  Catalog.rebuild();
 }
 function persistPersonal(){
- try{localStorage.setItem('positioning-personal-v2',JSON.stringify({version:2,questions:drafts,groups:customGroups,subcategories:customParts,focuses:customTopics}));storageWarning='';return true;}
+ try{localStorage.setItem('positioning-personal-v2',JSON.stringify({version:2,questions:drafts,groups:customGroups,subcategories:customParts,focuses:customTopics}));storageWarning='';window.dispatchEvent(new Event('positioning-data-changed'));return true;}
  catch{storageWarning='Browser storage is full or unavailable. Changes remain for this visit. Export a full backup now to keep them.';['personal-status','draft-status','builder-message'].forEach(id=>$(id).textContent=storageWarning);return false;}
 }
 async function init(){
