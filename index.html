@@ -7,11 +7,13 @@
 <title>Positioning Lab | Radiography Practice</title>
 <meta name="description" content="Practice radiographic positioning by anatomy group, central ray, purpose, and image evaluation.">
 <link rel="icon" href="./favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="./styles.css">
+<link rel="stylesheet" href="./guides.css?v=guides-1">
 <link rel="stylesheet" href="./progress.css?v=subcategories-2">
 <link rel="stylesheet" href="./appearance.css?v=ranks-1">
-<script defer src="./app.js?v=swift-sync-2"></script><script defer src="./catalog.js?v=2"></script><script defer src="./profile.js?v=swift-sync-2"></script><script defer src="./progress.js?v=swift-sync-2"></script><script defer src="./builder.js?v=subcategories-2"></script>
+<script defer src="./app.js?v=guides-1"></script><script defer src="./catalog.js?v=2"></script><script defer src="./profile.js?v=guides-1"></script><script defer src="./progress.js?v=swift-sync-2"></script><script defer src="./builder.js?v=subcategories-2"></script>
 <link rel="stylesheet" href="./cloud-sync.css?v=swift-sync-2">
-<script defer src="./cloud-config.js?v=2"></script><script defer src="./cloud-model.js?v=1"></script><script defer src="./cloud-sync.js?v=mobile-signin-3"></script>
+<script defer src="./cloud-config.js?v=2"></script><script defer src="./cloud-model.js?v=1"></script><script defer src="./cloud-sync.js?v=guides-1"></script>
+<script defer src="./guides.js?v=guides-1"></script>
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
@@ -20,16 +22,17 @@
  <div class="sidebar-label">STUDY SPACE</div>
  <nav aria-label="Main navigation">
  <button class="nav active" data-view="practice"><span aria-hidden="true">⊞</span> Practice</button>
+ <button class="nav" data-view="guides"><span aria-hidden="true">▧</span> Guides</button>
  <button class="nav" data-view="progress"><span aria-hidden="true">✓</span> My progress</button>
  <button class="nav" data-view="browse"><span aria-hidden="true">▤</span> Question bank</button>
  <button class="nav" data-view="personal"><span aria-hidden="true">▣</span> My questions</button>
  <button class="nav" data-view="builder"><span aria-hidden="true">＋</span> Question builder</button>
- <button class="nav" id="open-settings" aria-haspopup="dialog"><span aria-hidden="true">⚙</span> Settings</button>
+
  </nav>
  <div class="sidebar-bottom"><span class="edition">RADIOGRAPHY</span><p>SUNY Orange RT Program</p><small>Class of 2028</small></div>
 </aside>
 <div class="workspace">
-<header class="topbar"><span>RADIOGRAPHIC POSITIONING</span><span class="pill">Program bank <b id="bank-count">…</b></span></header>
+<header class="topbar"><span>RADIOGRAPHIC POSITIONING</span><div class="topbar-actions"><span class="pill">Program bank <b id="bank-count">…</b></span><button class="corner-settings" id="open-settings" aria-haspopup="dialog" aria-label="Settings" title="Settings">⚙</button></div></header>
 <main id="main" tabindex="-1">
 <div id="loading" role="status" class="notice">Loading the question bank…</div>
 <div id="app" hidden>
@@ -62,6 +65,7 @@
   </aside>
  </div>
 </section>
+<section id="guides-view" hidden aria-label="Positioning guides"></section>
 <section id="quiz-view" hidden></section>
 <section id="results-view" hidden></section>
 <section id="progress-view" hidden>

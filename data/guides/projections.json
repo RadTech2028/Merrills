@@ -1,0 +1,4781 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "title": "Merrill’s Atlas — supplied PDF",
+    "file": "01-Merrill-s-Atlas.pdf",
+    "pageNumbering": "PDF page numbers, starting at 1; not printed textbook pages.",
+    "note": "Concise study summaries of the supplied text. IR sizes reflect its CR-plate recommendations; digital receptor selection follows department protocol."
+  },
+  "commonEvaluation": [
+    "Side marker within the collimated field, clear of anatomy of interest.",
+    "Sharp bony trabecular detail and surrounding soft tissue; no motion."
+  ],
+  "symbols": "⟂ perpendicular · ∥ parallel · CR central ray · IR image receptor · SID source-to-image distance",
+  "parts": [
+    {
+      "id": "digits-25",
+      "name": "Digits 2–5",
+      "region": "Upper extremity",
+      "views": [
+        {
+          "id": "pa",
+          "name": "PA",
+          "key": [
+            "PIP centering; entire digit and distal metacarpal."
+          ],
+          "position": [
+            "Seated; palm down.",
+            "Extend and separate digits; affected digit centered."
+          ],
+          "cr": {
+            "angle": "⟂",
+            "target": "Affected PIP joint",
+            "notes": []
+          },
+          "ir": [
+            "10 × 12 in; lengthwise."
+          ],
+          "collimation": [
+            "1 in beyond digit; include distal metacarpal, 1 in proximal to MCP."
+          ],
+          "sid": "",
+          "purpose": [
+            "Frontal digit and distal metacarpal."
+          ],
+          "evaluation": [
+            "Equal shaft concavity and soft tissue on both sides.",
+            "Open IP/MCP joints; no adjacent-digit overlap."
+          ],
+          "respiration": "",
+          "precautions": [],
+          "sourcePages": [
+            243,
+            245
+          ],
+          "images": {
+            "patient": [],
+            "xray": []
+          }
+        },
+        {
+          "id": "lateral",
+          "name": "Lateral",
+          "key": [
+            "Digits 2–3: radial side down. Digits 4–5: ulnar side down."
+          ],
+          "position": [
+            "Extend affected digit; flex others away.",
+            "Support digits 3–4 ∥ IR; adjust to true lateral."
+          ],
+          "cr": {
+            "angle": "⟂",
+            "target": "Affected PIP joint",
+            "notes": []
+          },
+          "ir": [
+            "10 × 12 in; lengthwise."
+          ],
+          "collimation": [
+            "1 in beyond digit; include distal metacarpal, 1 in proximal to MCP."
+          ],
+          "sid": "",
+          "purpose": [
+            "Lateral digit."
+          ],
+          "evaluation": [
+            "Nail in profile; concave anterior phalangeal surfaces.",
+            "Open IP joints; proximal phalanx/MCP clear of adjacent digits."
+          ],
+          "respiration": "",
+          "precautions": [],
+          "sourcePages": [
+            249,
+            251
+          ],
+          "images": {
+            "patient": [],
+            "xray": []
+          }
+        },
+        {
+          "id": "pa-oblique",
+          "name": "PA Oblique",
+          "key": [
+            "45° lateral rotation; digit ∥ IR opens joints."
+          ],
+          "position": [
+            "Palm down; rotate laterally 45° onto support.",
+            "Extend and separate digits."
+          ],
+          "cr": {
+            "angle": "⟂",
+            "target": "Affected PIP joint",
+            "notes": []
+          },
+          "ir": [
+            "10 × 12 in; lengthwise."
+          ],
+          "collimation": [
+            "1 in beyond digit; include distal metacarpal, 1 in proximal to MCP."
+          ],
+          "sid": "",
+          "purpose": [
+            "Oblique digit."
+          ],
+          "evaluation": [
+            "Greater concavity on elevated side.",
+            "Open IP/MCP joints; no adjacent-digit overlap."
+          ],
+          "respiration": "",
+          "precautions": [],
+          "sourcePages": [
+            253,
+            254
+          ],
+          "images": {
+            "patient": [],
+            "xray": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "thumb",
+      "name": "Thumb",
+      "region": "Upper extremity",
+      "views": [
+        {
+          "id": "ap",
+          "name": "AP",
+          "key": [
+            "Posterior thumb against IR; avoid obliquity."
+          ],
+          "position": [
+            "Seated; internally rotate arm and hand.",
+            "Hold other digits back; thumb extended ∥ IR."
+          ],
+          "cr": {
+            "angle": "⟂",
+            "target": "First MCP joint",
+            "notes": []
+          },
+          "ir": [
+            "10 × 12 in; lengthwise."
+          ],
+          "collimation": [
+            "1 in beyond thumb; include trapezium and 1 in proximal to CMC."
+          ],
+          "sid": "",
+          "purpose": [
+            "Thumb through trapezium."
+          ],
+          "evaluation": [
+            "Symmetric concavity; nail centered.",
+            "Open IP/MCP joints; first metacarpal included."
+          ],
+          "respiration": "",
+          "precautions": [],
+          "sourcePages": [
+            260,
+            262,
+            263
+          ],
+          "images": {
+            "patient": [],
+            "xray": []
+          }
+        },
+        {
+          "id": "pa",
+          "name": "PA",
+          "key": [
+            "Elevated thumb produces more magnification than AP."
+          ],
+          "position": [
+            "Hand on ulnar side; abduct thumb.",
+            "Support thumb with dorsal surface ∥ IR."
+          ],
+          "cr": {
+            "angle": "⟂",
+            "target": "First MCP joint",
+            "notes": []
+          },
+          "ir": [
+            "10 × 12 in; lengthwise."
+          ],
+          "collimation": [
+            "1 in beyond thumb; include trapezium and 1 in proximal to CMC."
+          ],
+          "sid": "",
+          "purpose": [
+            "Thumb and first CMC region."
+          ],
+          "evaluation": [
+            "No rotation; open IP/MCP joints.",
+            "Include thumb tip through trapezium."
+          ],
+          "respiration": "",
+          "precautions": [],
+          "sourcePages": [
+            260,
+            262,
+            263
+          ],
+          "images": {
+            "patient": [],
+            "xray": []
+          }
+        },
+        {
+          "id": "lateral",
+          "name": "Lateral",
+          "key": [
+            "Natural hand arch positions thumb laterally."
+          ],
+          "position": [
+            "Palm down; fingers flexed or supported.",
+            "Adjust hand arch until thumb is truly lateral."
+          ],
+          "cr": {
+            "angle": "⟂",
+            "target": "First MCP joint",
+            "notes": []
+          },
+          "ir": [
+            "10 × 12 in; lengthwise."
+          ],
+          "collimation": [
+            "1 in beyond thumb; include trapezium and 1 in proximal to CMC."
+          ],
+          "sid": "",
+          "purpose": [
+            "Lateral thumb."
+          ],
+          "evaluation": [
+            "Thumbnail in profile; anterior shaft concavity.",
+            "Open IP/MCP joints; include trapezium."
+          ],
+          "respiration": "",
+          "precautions": [],
+          "sourcePages": [
+            260,
+            262,
+            263
+          ],
+          "images": {
+            "patient": [],
+            "xray": []
+          }
+        },
+        {
+          "id": "pa-oblique",
+          "name": "PA Oblique",
+          "key": [
+            "Palm flat naturally obliques the abducted thumb."
+          ],
+          "position": [
+            "Palm against IR; thumb abducted.",
+            "Slight ulnar deviation; thumb aligned with IR."
+          ],
+          "cr": {
+            "angle": "⟂",
+            "target": "First MCP joint",
+            "notes": []
+          },
+          "ir": [
+            "10 × 12 in; lengthwise."
+          ],
+          "collimation": [
+            "1 in beyond thumb; include trapezium and 1 in proximal to CMC."
+          ],
+          "sid": "",
+          "purpose": [
+            "Oblique thumb."
+          ],
+          "evaluation": [
+            "Concavity on elevated side of proximal phalanx/metacarpal.",
+            "Open IP/MCP joints; include trapezium."
+          ],
+          "respiration": "",
+          "precautions": [],
+          "sourcePages": [
+            262,
+            263
+          ],
+          "images": {
+            "patient": [],
+            "xray": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "first-cmc-joint",
+      "name": "First CMC Joint",
+      "region": "Upper extremity",
+      "views": [
+        {
+          "id": "robert",
+          "name": "Robert",
+          "key": [
+            "⟂ CR enters CMC. See modifications for an obscured joint."
+          ],
+          "position": [
+            "Shoulder, elbow and wrist in one plane.",
+            "Internally rotate arm; thumbnail down.",
+            "Hyperextend hand to clear palm; thumb not oblique."
+          ],
+          "cr": {
+            "angle": "⟂",
+            "target": "First CMC joint",
+            "notes": []
+          },
+          "ir": [
+            "10 × 12 in; lengthwise."
+          ],
+          "collimation": [
+            "1 in beyond thumb, including 1 in proximal to CMC."
+          ],
+          "sid": "",
+          "purpose": [
+            "First CMC alignment, arthritis and Bennett fracture."
+          ],
+          "evaluation": [
+            "CMC clear of hand overlap.",
+            "Convex first-metacarpal base; trapezium visible."
+          ],
+          "respiration": "",
+          "precautions": [],
+          "sourcePages": [
+            266,
+            267,
+            268
+          ],
+          "images": {
+            "patient": [],
+            "xray": []
+          }
+        },
+        {
+          "id": "long-and-rafert",
+          "name": "Long and Rafert",
+          "key": [
+            "15° proximal; enters CMC, not MCP."
+          ],
+          "position": [
+            "Shoulder, elbow and wrist in one plane.",
+            "Internally rotate arm; thumbnail down.",
+            "Hyperextend hand to clear palm; thumb not oblique."
+          ],
+          "cr": {
+            "angle": "15° proximal, along thumb",
+            "target": "First CMC joint",
+            "notes": []
+          },
+          "ir": [
+            "10 × 12 in; lengthwise."
+          ],
+          "collimation": [
+            "1 in beyond thumb, including 1 in proximal to CMC."
+          ],
+          "sid": "",
+          "purpose": [
+            "Open CMC and displace overlying palm."
+          ],
+          "evaluation": [
+            "CMC clear of hand overlap.",
+            "Convex first-metacarpal base; trapezium visible."
+          ],
+          "respiration": "",
+          "precautions": [],
+          "sourcePages": [
+            266,
+            267,
+            268
+          ],
+          "images": {
+            "patient": [],
+            "xray": []
+          }
+        },
+        {
+          "id": "lewis",
+          "name": "Lewis",
+          "key": [
+            "10–15° proximal; enters MCP, not CMC."
+          ],
+          "position": [
+            "Shoulder, elbow and wrist in one plane.",
+            "Internally rotate arm; thumbnail down.",
+            "Hyperextend hand to clear palm; thumb not oblique."
+          ],
+          "cr": {
+            "angle": "10–15° proximal, along thumb",
+            "target": "First MCP joint",
+            "notes": []
+          },
+          "ir": [
+            "10 × 12 in; lengthwise."
+          ],
+          "collimation": [
+            "1 in beyond thumb, including 1 in proximal to CMC."
+          ],
+          "sid": "",
+          "purpose": [
+            "Open CMC and displace overlying palm."
+          ],
+          "evaluation": [
+            "CMC clear of hand overlap.",
+            "Convex first-metacarpal base; trapezium visible."
+          ],
+          "respiration": "",
+          "precautions": [],
+          "sourcePages": [
+            266,
+            267,
+            268
+          ],
+          "images": {
+            "patient": [],
+            "xray": []
+          }
+        },
+        {
+          "id": "burman",
+          "name": "Burman",
+          "key": [
+            "45° toward elbow; magnified CMC."
+          ],
+          "position": [
+            "Seated; hyperextend wrist.",
+            "Rotate hand internally; abduct thumb flat on IR."
+          ],
+          "cr": {
+            "angle": "45° toward elbow",
+            "target": "First CMC joint",
+            "notes": []
+          },
+          "ir": [
+            "10 × 12 in; lengthwise."
+          ],
+          "collimation": [
+            "Center tightly on first CMC and adjacent bone."
+          ],
+          "sid": "18 in (magnification method).",
+          "purpose": [
+            "Magnified saddle-joint contour."
+          ],
+          "evaluation": [
+            "Concave trapezium; convex metacarpal base.",
+            "CMC free of adjacent-carpal overlap."
+          ],
+          "respiration": "",
+          "precautions": [
+            "Only when wrist hyperextension is not contraindicated."
+          ],
+          "sourcePages": [
+            269,
+            270
+          ],
+          "images": {
+            "patient": [],
+            "xray": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "first-mcp-joint",
+      "name": "First MCP Joint",
+      "region": "Upper extremity",
+      "views": [
+        {
+          "id": "folio",
+          "name": "Folio",
+          "key": [
+            "Patient-controlled bilateral thumb stress for UCL injury."
+          ],
+          "position": [
+            "Hands on ulnar borders; thumbnails ∥ IR.",
+            "Tape roll between first metacarpals; band around distal thumbs.",
+            "Patient pulls thumbs apart for exposure."
+          ],
+          "cr": {
+            "angle": "⟂",
+            "target": "Between hands at MCP level",
+            "notes": []
+          },
+          "ir": [
+            "10 × 12 in; crosswise."
+          ],
+          "collimation": [
+            "Third metacarpals laterally; thumb bases proximally; 1 in beyond thumbnails."
+          ],
+          "sid": "",
+          "purpose": [
+            "Compare first MCP joints/angles for skier’s thumb."
+          ],
+          "evaluation": [
+            "Both thumbs PA without rotation.",
+            "First metacarpals and MCP joints; band/tape correctly placed."
+          ],
+          "respiration": "",
+          "precautions": [],
+          "sourcePages": [
+            271,
+            272
+          ],
+          "images": {
+            "patient": [],
+            "xray": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "hand",
+      "name": "Hand",
+      "region": "Upper extremity",
+      "views": [
+        {
+          "id": "pa",
+          "name": "PA",
+          "key": [
+            "Third MCP centering."
+          ],
+          "position": [
+            "Seated; forearm on table.",
+            "Palm flat; fingers extended and slightly separated."
+          ],
+          "cr": {
+            "angle": "⟂",
+            "target": "Third MCP joint",
+            "notes": []
+          },
+          "ir": [
+            "10 × 12 in; lengthwise."
+          ],
+          "collimation": [
+            "1 in beyond hand, including 1 in proximal to ulnar styloid."
+          ],
+          "sid": "",
+          "purpose": [
+            "Frontal hand and distal forearm."
+          ],
+          "evaluation": [
+            "No rotation; symmetric phalangeal concavity.",
+            "Open IP/MCP joints; digits separated."
+          ],
+          "respiration": "",
+          "precautions": [],
+          "sourcePages": [
+            273,
+            274,
+            275
+          ],
+          "images": {
+            "patient": [],
+            "xray": []
+          }
+        },
+        {
+          "id": "pa-oblique",
+          "name": "PA Oblique",
+          "key": [
+            "45° lateral rotation; support digits ∥ IR for open IP joints."
+          ],
+          "position": [
+            "Palm down; rotate laterally 45°.",
+            "Extend digits on wedge; thumb separated."
+          ],
+          "cr": {
+            "angle": "⟂",
+            "target": "Third MCP joint",
+            "notes": []
+          },
+          "ir": [
+            "10 × 12 in; lengthwise."
+          ],
+          "collimation": [
+            "1 in beyond hand, including 1 in proximal to ulnar styloid."
+          ],
+          "sid": "",
+          "purpose": [
+            "Oblique hand; fractures and pathology."
+          ],
+          "evaluation": [
+            "Partial overlap of metacarpal heads/bases 3–5.",
+            "Greatest shaft separation between metacarpals 2–3.",
+            "Open MCP joints; IP joints open when supported."
+          ],
+          "respiration": "",
+          "precautions": [],
+          "sourcePages": [
+            277,
+            278,
+            279
+          ],
+          "images": {
+            "patient": [],
+            "xray": []
+          }
+        },
+        {
+          "id": "lateral-mediolateral",
+          "name": "Lateral Mediolateral",
+          "key": [
+            "Radial side against IR."
+          ],
+          "position": [
+            "Radial side down; palm ⟂ IR.",
+            "Extend digits; thumb at right angle to palm."
+          ],
+          "cr": {
+            "angle": "⟂",
+            "target": "Second MCP joint",
+            "notes": []
+          },
+          "ir": [
+            "10 × 12 in; lengthwise."
+          ],
+          "collimation": [
+            "1 in beyond hand, including 1 in proximal to ulnar styloid."
+          ],
+          "sid": "",
+          "purpose": [
+            "Foreign-body location and metacarpal displacement."
+          ],
+          "evaluation": [
+            "Phalanges, metacarpals and distal radius/ulna superimposed.",
+            "Thumb clear of overlap."
+          ],
+          "respiration": "",
+          "precautions": [],
+          "sourcePages": [
+            280,
+            281,
+            282
+          ],
+          "images": {
+            "patient": [],
+            "xray": []
+          }
+        },
+        {
+          "id": "lateral-lateromedial",
+          "name": "Lateral Lateromedial",
+          "key": [
+            "Ulnar side against IR."
+          ],
+          "position": [
+            "Ulnar side down; palm ⟂ IR.",
+            "Extend digits; thumb at right angle to palm."
+          ],
+          "cr": {
+            "angle": "⟂",
+            "target": "Fifth MCP joint",
+            "notes": []
+          },
+          "ir": [
+            "10 × 12 in; lengthwise."
+          ],
+          "collimation": [
+            "1 in beyond hand, including 1 in proximal to ulnar styloid."
+          ],
+          "sid": "",
+          "purpose": [
+            "Foreign-body location and metacarpal displacement."
+          ],
+          "evaluation": [
+            "Phalanges, metacarpals and distal radius/ulna superimposed.",
+            "Thumb clear of overlap."
+          ],
+          "respiration": "",
+          "precautions": [],
+          "sourcePages": [
+            280,
+            281,
+            282
+          ],
+          "images": {
+            "patient": [],
+            "xray": []
+          }
+        },
+        {
+          "id": "fan-lateral",
+          "name": "Fan Lateral",
+          "key": [
+            "Phalanges separated; metacarpals stay superimposed."
+          ],
+          "position": [
+            "Ulnar side down; palm ⟂ IR.",
+            "Fan fingers on wedge; thumb abducted and supported."
+          ],
+          "cr": {
+            "angle": "⟂",
+            "target": "Second MCP joint (Fig. 5.61)",
+            "notes": [
+              "Source discrepancy: the same section lists fifth MCP for lateromedial hand; Fig. 5.61 depicts second MCP centering for fan lateral."
+            ]
+          },
+          "ir": [
+            "10 × 12 in; lengthwise."
+          ],
+          "collimation": [
+            "1 in beyond hand, including 1 in proximal to ulnar styloid."
+          ],
+          "sid": "",
+          "purpose": [
+            "Individual phalanges on lateral hand."
+          ],
+          "evaluation": [
+            "Individual phalanges visible except proximal bases.",
+            "Metacarpals and distal radius/ulna superimposed."
+          ],
+          "respiration": "",
+          "precautions": [],
+          "sourcePages": [
+            280,
+            281,
+            282
+          ],
+          "images": {
+            "patient": [],
+            "xray": []
+          }
+        },
+        {
+          "id": "lateral-in-flexion",
+          "name": "Lateral in Flexion",
+          "key": [
+            "Natural finger flexion when extension is limited."
+          ],
+          "position": [
+            "Ulnar side down; relax fingers into natural arch.",
+            "Superimpose digits; thumb ∥ IR."
+          ],
+          "cr": {
+            "angle": "⟂",
+            "target": "Second MCP joint",
+            "notes": []
+          },
+          "ir": [
+            "10 × 12 in; lengthwise."
+          ],
+          "collimation": [
+            "1 in beyond hand, including 1 in proximal to ulnar styloid."
+          ],
+          "sid": "",
+          "purpose": [
+            "Metacarpal displacement with flexed fingers."
+          ],
+          "evaluation": [
+            "Flexed phalanges/metacarpals superimposed.",
+            "Distal radius/ulna superimposed; thumb clear."
+          ],
+          "respiration": "",
+          "precautions": [],
+          "sourcePages": [
+            284,
+            285
+          ],
+          "images": {
+            "patient": [],
+            "xray": []
+          }
+        },
+        {
+          "id": "norgaard",
+          "name": "Norgaard",
+          "key": [
+            "Bilateral 45° half-supination; ball-catcher variant."
+          ],
+          "position": [
+            "Both hands half-supinated on 45° supports.",
+            "Fingers extended or cupped; thumbs abducted."
+          ],
+          "cr": {
+            "angle": "⟂",
+            "target": "Between hands at MCP level",
+            "notes": []
+          },
+          "ir": [
+            "10 × 12 in; crosswise."
+          ],
+          "collimation": [
+            "1 in beyond hand, including 1 in proximal to ulnar styloid."
+          ],
+          "sid": "",
+          "purpose": [
+            "Early rheumatoid changes; fifth-metacarpal base fracture."
+          ],
+          "evaluation": [
+            "Both hands from carpals to fingertips.",
+            "Metacarpal heads/proximal phalangeal bases clear of overlap."
+          ],
+          "respiration": "",
+          "precautions": [],
+          "sourcePages": [
+            285,
+            286
+          ],
+          "images": {
+            "patient": [],
+            "xray": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "wrist",
+      "name": "Wrist",
+      "region": "Upper extremity",
+      "views": [
+        {
+          "id": "pa",
+          "name": "PA",
+          "key": [
+            "Flex digits slightly to bring carpals against IR."
+          ],
+          "position": [
+            "Shoulder, elbow and wrist level.",
+            "Palm down; forearm aligned; slightly arch MCPs."
+          ],
+          "cr": {
+            "angle": "⟂",
+            "target": "Midcarpal area",
+            "notes": []
+          },
+          "ir": [
+            "10 × 12 in; lengthwise."
+          ],
+          "collimation": [
+            "2.5 in proximal/distal to wrist; 1 in beyond sides."
+          ],
+          "sid": "",
+          "purpose": [
+            "Carpals, distal radius/ulna, proximal metacarpals."
+          ],
+          "evaluation": [
+            "No rotation; open distal radioulnar space.",
+            "No excessive finger flexion obscuring metacarpals."
+          ],
+          "respiration": "",
+          "precautions": [],
+          "sourcePages": [
+            288,
+            289
+          ],
+          "images": {
+            "patient": [],
+            "xray": []
+          }
+        },
+        {
+          "id": "ap",
+          "name": "AP",
+          "key": [
+            "Carpal interspaces better demonstrated than PA."
+          ],
+          "position": [
+            "Supinate hand/forearm.",
+            "Support digits to bring wrist against IR."
+          ],
+          "cr": {
+            "angle": "⟂",
+            "target": "Midcarpal area",
+            "notes": []
+          },
+          "ir": [
+            "10 × 12 in; lengthwise."
+          ],
+          "collimation": [
+            "2.5 in proximal/distal to wrist; 1 in beyond sides."
+          ],
+          "sid": "",
+          "purpose": [
+            "Carpal interspaces; distal ulna."
+          ],
+          "evaluation": [
+            "Carpals, distal radius/ulna and proximal metacarpals.",
+            "No rotation or digit overlap over metacarpals."
+          ],
+          "respiration": "",
+          "precautions": [],
+          "sourcePages": [
+            290
+          ],
+          "images": {
+            "patient": [],
+            "xray": []
+          }
+        },
+        {
+          "id": "lateral",
+          "name": "Lateral",
+          "key": [
+            "Superimpose distal radius and ulna."
+          ],
+          "position": [
+            "Elbow 90°; shoulder/elbow/wrist level.",
+            "Ulnar side down; epicondyles and styloids ⟂ IR."
+          ],
+          "cr": {
+            "angle": "⟂",
+            "target": "Radiocarpal joint",
+            "notes": []
+          },
+          "ir": [
+            "10 × 12 in; lengthwise."
+          ],
+          "collimation": [
+            "2.5 in proximal/distal to wrist; 1 in beyond sides."
+          ],
+          "sid": "",
+          "purpose": [
+            "Lateral wrist; anterior/posterior displacement."
+          ],
+          "evaluation": [
+            "Distal radius/ulna superimposed.",
+            "Metacarpals superimposed; carpals included."
+          ],
+          "respiration": "",
+          "precautions": [],
+          "sourcePages": [
+            292,
+            293
+          ],
+          "images": {
+            "patient": [],
+            "xray": []
+          }
+        },
+        {
+          "id": "pa-oblique-lateral-rotation",
+          "name": "PA Oblique Lateral Rotation",
+          "key": [
+            "Radial carpals: trapezium and distal scaphoid."
+          ],
+          "position": [
+            "From palm down, rotate laterally 45°.",
+            "Support wrist; slightly extend; ulnar-deviate for scaphoid."
+          ],
+          "cr": {
+            "angle": "⟂",
+            "target": "Midcarpal area, just distal to radius",
+            "notes": []
+          },
+          "ir": [
+            "10 × 12 in; lengthwise."
+          ],
+          "collimation": [
+            "2.5 in proximal/distal to wrist; 1 in beyond sides."
+          ],
+          "sid": "",
+          "purpose": [
+            "Lateral-side carpal anatomy."
+          ],
+          "evaluation": [
+            "Trapezium/distal scaphoid clear of overlap.",
+            "Open trapeziotrapezoid and scaphotrapezial joints.",
+            "Slight distal radioulnar overlap."
+          ],
+          "respiration": "",
+          "precautions": [],
+          "sourcePages": [
+            295,
+            296
+          ],
+          "images": {
+            "patient": [],
+            "xray": []
+          }
+        },
+        {
+          "id": "ap-oblique-medial-rotation",
+          "name": "AP Oblique Medial Rotation",
+          "key": [
+            "Merrill’s labels this AP, not PA. Pisiform in profile."
+          ],
+          "position": [
+            "Supinated forearm; rotate wrist medially 45°."
+          ],
+          "cr": {
+            "angle": "⟂",
+            "target": "Midcarpal area, anterior wrist",
+            "notes": []
+          },
+          "ir": [
+            "10 × 12 in; lengthwise."
+          ],
+          "collimation": [
+            "2.5 in proximal/distal to wrist; 1 in beyond sides."
+          ],
+          "sid": "",
+          "purpose": [
+            "Pisiform, triquetrum and hamate."
+          ],
+          "evaluation": [
+            "Pisiform, triquetrum and hamate hook in profile, free of overlap."
+          ],
+          "respiration": "",
+          "precautions": [],
+          "sourcePages": [
+            297,
+            298
+          ],
+          "images": {
+            "patient": [],
+            "xray": []
+          },
+          "aliases": [
+            "PA Oblique Medial Rotation"
+          ]
+        },
+        {
+          "id": "ulnar-deviation",
+          "name": "Ulnar Deviation",
+          "key": [
+            "Reduces scaphoid foreshortening."
+          ],
+          "position": [
+            "PA wrist; elbow 90°.",
+            "Keep forearm still; deviate hand toward ulna."
+          ],
+          "cr": {
+            "angle": "⟂",
+            "target": "Scaphoid",
+            "notes": [
+              "Source allows 10–15° proximal/distal CR adjustment for delineation."
+            ]
+          },
+          "ir": [
+            "10 × 12 in; lengthwise."
+          ],
+          "collimation": [
+            "2.5 in proximal/distal to wrist; 1 in beyond sides."
+          ],
+          "sid": "",
+          "purpose": [
+            "Scaphoid and adjacent articulations."
+          ],
+          "evaluation": [
+            "Scaphoid articulations open.",
+            "No wrist rotation; maximum tolerated ulnar deviation."
+          ],
+          "respiration": "",
+          "precautions": [],
+          "sourcePages": [
+            299,
+            300
+          ],
+          "images": {
+            "patient": [],
+            "xray": []
+          }
+        },
+        {
+          "id": "radial-deviation",
+          "name": "Radial Deviation",
+          "key": [
+            "Opens medial-side carpal interspaces."
+          ],
+          "position": [
+            "PA wrist; keep forearm still.",
+            "Deviate hand toward radius."
+          ],
+          "cr": {
+            "angle": "⟂",
+            "target": "Midcarpal area",
+            "notes": []
+          },
+          "ir": [
+            "10 × 12 in; lengthwise."
+          ],
+          "collimation": [
+            "2.5 in proximal/distal to wrist; 1 in beyond sides."
+          ],
+          "sid": "",
+          "purpose": [
+            "Medial carpals and articulations."
+          ],
+          "evaluation": [
+            "No wrist rotation.",
+            "Maximum radial deviation; medial interspaces demonstrated."
+          ],
+          "respiration": "",
+          "precautions": [],
+          "sourcePages": [
+            300,
+            301
+          ],
+          "images": {
+            "patient": [],
+            "xray": []
+          }
+        },
+        {
+          "id": "stecher",
+          "name": "Stecher",
+          "key": [
+            "20° elevated IR OR 20° CR toward elbow."
+          ],
+          "position": [
+            "PA wrist; finger end of IR elevated 20°."
+          ],
+          "cr": {
+            "angle": "⟂ table",
+            "target": "Scaphoid",
+            "notes": [
+              "Alternative: flat IR/wrist; CR 20° toward elbow.",
+              "Clenched-fist variant uses PA wrist and no CR angle."
+            ]
+          },
+          "ir": [
+            "10 × 12 in; lengthwise."
+          ],
+          "collimation": [
+            "2.5 in proximal/distal to wrist; 1 in beyond sides."
+          ],
+          "sid": "",
+          "purpose": [
+            "Elongated scaphoid with minimal overlap."
+          ],
+          "evaluation": [
+            "Scaphoid and adjacent joints open.",
+            "No rotation."
+          ],
+          "respiration": "",
+          "precautions": [],
+          "sourcePages": [
+            302,
+            303,
+            304
+          ],
+          "images": {
+            "patient": [],
+            "xray": []
+          }
+        },
+        {
+          "id": "gaynor-hart-inferosuperior",
+          "name": "Gaynor-Hart Inferosuperior",
+          "key": [
+            "25–30° to hand axis; carpal canal tangential."
+          ],
+          "position": [
+            "Hyperextend wrist; hand as vertical as possible.",
+            "Slight radial rotation separates pisiform/hamate."
+          ],
+          "cr": {
+            "angle": "25–30° to long axis of hand",
+            "target": "Palm, 1 in distal to third-metacarpal base",
+            "notes": []
+          },
+          "ir": [
+            "10 × 12 in; lengthwise."
+          ],
+          "collimation": [
+            "1 in beyond three sides of wrist shadow."
+          ],
+          "sid": "",
+          "purpose": [
+            "Carpal canal; hook of hamate and pisiform."
+          ],
+          "evaluation": [
+            "Carpals form arch.",
+            "Pisiform in profile, clear of overlap; hamate hook visible."
+          ],
+          "respiration": "",
+          "precautions": [
+            "Do not force a painful wrist into hyperextension."
+          ],
+          "sourcePages": [
+            313,
+            314
+          ],
+          "images": {
+            "patient": [],
+            "xray": []
+          }
+        },
+        {
+          "id": "gaynor-hart-superoinferior",
+          "name": "Gaynor-Hart Superoinferior",
+          "key": [
+            "Lean forward to make carpal canal tangent to beam."
+          ],
+          "position": [
+            "Dorsiflex wrist as tolerated; lean forward.",
+            "45° palmar wedge may assist limited dorsiflexion."
+          ],
+          "cr": {
+            "angle": "Tangential to carpal canal",
+            "target": "Midpoint of wrist",
+            "notes": []
+          },
+          "ir": [
+            "10 × 12 in; lengthwise."
+          ],
+          "collimation": [
+            "Palmar wrist and proximal third of metacarpals; 1 in beyond sides."
+          ],
+          "sid": "",
+          "purpose": [
+            "Carpal canal from superior approach."
+          ],
+          "evaluation": [
+            "Carpal arch; pisiform clear in profile.",
+            "Hamate hook visible."
+          ],
+          "respiration": "",
+          "precautions": [],
+          "sourcePages": [
+            314,
+            315
+          ],
+          "images": {
+            "patient": [],
+            "xray": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "forearm",
+      "name": "Forearm",
+      "region": "Upper extremity",
+      "views": [
+        {
+          "id": "ap",
+          "name": "AP",
+          "key": [
+            "Supinate hand; include both joints."
+          ],
+          "position": [
+            "Seated; entire arm in one plane.",
+            "Elbow extended; epicondyles ∥ IR."
+          ],
+          "cr": {
+            "angle": "⟂",
+            "target": "Midforearm",
+            "notes": []
+          },
+          "ir": [
+            "14 × 17 in; lengthwise."
+          ],
+          "collimation": [
+            "2 in beyond wrist/elbow; 1 in beyond sides."
+          ],
+          "sid": "",
+          "purpose": [
+            "Radius/ulna with wrist and elbow."
+          ],
+          "evaluation": [
+            "Open radioulnar space.",
+            "Radial head/neck slightly overlap ulna; epicondyles not distorted."
+          ],
+          "respiration": "",
+          "precautions": [],
+          "sourcePages": [
+            316,
+            317
+          ],
+          "images": {
+            "patient": [],
+            "xray": []
+          }
+        },
+        {
+          "id": "lateral",
+          "name": "Lateral",
+          "key": [
+            "90° elbow; thumb up; both joints included."
+          ],
+          "position": [
+            "Seated; humerus/forearm level.",
+            "Ulnar side down; epicondyles/styloids ⟂ IR."
+          ],
+          "cr": {
+            "angle": "⟂",
+            "target": "Midforearm",
+            "notes": []
+          },
+          "ir": [
+            "14 × 17 in; lengthwise."
+          ],
+          "collimation": [
+            "2 in beyond wrist/elbow; 1 in beyond sides."
+          ],
+          "sid": "",
+          "purpose": [
+            "Lateral forearm and adjacent joints."
+          ],
+          "evaluation": [
+            "Distal radius/ulna and epicondyles superimposed.",
+            "Radial head over coronoid; radial tuberosity anterior."
+          ],
+          "respiration": "",
+          "precautions": [],
+          "sourcePages": [
+            318,
+            319
+          ],
+          "images": {
+            "patient": [],
+            "xray": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "elbow",
+      "name": "Elbow",
+      "region": "Upper extremity",
+      "views": [
+        {
+          "id": "ap",
+          "name": "AP",
+          "key": [
+            "Open humeroradial joint."
+          ],
+          "position": [
+            "Shoulder/elbow/wrist level; extend elbow.",
+            "Supinate; epicondyles ∥ IR."
+          ],
+          "cr": {
+            "angle": "⟂",
+            "target": "Elbow joint",
+            "notes": []
+          },
+          "ir": [
+            "10 × 12 in; lengthwise."
+          ],
+          "collimation": [
+            "3 in proximal/distal to elbow; 1 in beyond sides."
+          ],
+          "sid": "",
+          "purpose": [
+            "Distal humerus and proximal forearm."
+          ],
+          "evaluation": [
+            "Slight radial head/neck overlap over ulna.",
+            "No epicondylar rotation; humeroradial joint open."
+          ],
+          "respiration": "",
+          "precautions": [],
+          "sourcePages": [
+            321
+          ],
+          "images": {
+            "patient": [],
+            "xray": []
+          }
+        },
+        {
+          "id": "lateral",
+          "name": "Lateral",
+          "key": [
+            "90° flexion; olecranon in profile."
+          ],
+          "position": [
+            "Elbow 90°; upper arm/forearm level.",
+            "Thumb up; epicondyles ⟂ IR."
+          ],
+          "cr": {
+            "angle": "⟂",
+            "target": "Elbow joint",
+            "notes": []
+          },
+          "ir": [
+            "10 × 12 in; lengthwise."
+          ],
+          "collimation": [
+            "3 in proximal/distal to elbow; 1 in beyond sides."
+          ],
+          "sid": "",
+          "purpose": [
+            "Lateral elbow and fat pads."
+          ],
+          "evaluation": [
+            "Epicondyles superimposed; olecranon in profile.",
+            "Radial tuberosity anterior; radial head partly over coronoid."
+          ],
+          "respiration": "",
+          "precautions": [],
+          "sourcePages": [
+            322,
+            323,
+            324
+          ],
+          "images": {
+            "patient": [],
+            "xray": []
+          }
+        },
+        {
+          "id": "ap-oblique-medial-rotation",
+          "name": "AP Oblique Medial Rotation",
+          "key": [
+            "Coronoid process in profile."
+          ],
+          "position": [
+            "Extend arm; rotate entire extremity medially 45°."
+          ],
+          "cr": {
+            "angle": "⟂",
+            "target": "Elbow joint",
+            "notes": []
+          },
+          "ir": [
+            "10 × 12 in; lengthwise."
+          ],
+          "collimation": [
+            "3 in proximal/distal to elbow; 1 in beyond sides."
+          ],
+          "sid": "",
+          "purpose": [
+            "Coronoid and trochlea."
+          ],
+          "evaluation": [
+            "Elongated medial epicondyle.",
+            "Radial head/neck overlap ulna; olecranon in fossa."
+          ],
+          "respiration": "",
+          "precautions": [],
+          "sourcePages": [
+            325,
+            326
+          ],
+          "images": {
+            "patient": [],
+            "xray": []
+          }
+        },
+        {
+          "id": "ap-oblique-lateral-rotation",
+          "name": "AP Oblique Lateral Rotation",
+          "key": [
+            "Radial head/neck free of ulna."
+          ],
+          "position": [
+            "Extend arm; rotate laterally 45°."
+          ],
+          "cr": {
+            "angle": "⟂",
+            "target": "Elbow joint",
+            "notes": []
+          },
+          "ir": [
+            "10 × 12 in; lengthwise."
+          ],
+          "collimation": [
+            "3 in proximal/distal to elbow; 1 in beyond sides."
+          ],
+          "sid": "",
+          "purpose": [
+            "Radial head, neck, tuberosity and capitulum."
+          ],
+          "evaluation": [
+            "Radial head/neck/tuberosity clear of ulna.",
+            "Elongated lateral epicondyle."
+          ],
+          "respiration": "",
+          "precautions": [],
+          "sourcePages": [
+            327,
+            328
+          ],
+          "images": {
+            "patient": [],
+            "xray": []
+          }
+        },
+        {
+          "id": "ap-partial-flexion-distal-humerus",
+          "name": "AP Partial Flexion Distal Humerus",
+          "key": [
+            "Humerus ∥ IR; proximal forearm is foreshortened."
+          ],
+          "position": [
+            "Keep humerus flat; support raised forearm.",
+            "Supinate if possible."
+          ],
+          "cr": {
+            "angle": "⟂ humerus",
+            "target": "Elbow joint",
+            "notes": [
+              "Distal CR angulation may be needed into the joint, depending on flexion."
+            ]
+          },
+          "ir": [
+            "10 × 12 in; lengthwise."
+          ],
+          "collimation": [
+            "3 in proximal/distal to elbow; 1 in beyond sides."
+          ],
+          "sid": "",
+          "purpose": [
+            "Distal humerus when extension is limited."
+          ],
+          "evaluation": [
+            "Distal humerus undistorted; closed elbow joint.",
+            "Foreshortened proximal forearm."
+          ],
+          "respiration": "",
+          "precautions": [],
+          "sourcePages": [
+            328,
+            329
+          ],
+          "images": {
+            "patient": [],
+            "xray": []
+          }
+        },
+        {
+          "id": "ap-partial-flexion-proximal-forearm",
+          "name": "AP Partial Flexion Proximal Forearm",
+          "key": [
+            "Forearm ∥ IR; distal humerus is foreshortened."
+          ],
+          "position": [
+            "Raise seated patient until dorsal forearm rests flat.",
+            "Supinate hand."
+          ],
+          "cr": {
+            "angle": "⟂ forearm",
+            "target": "Elbow joint",
+            "notes": []
+          },
+          "ir": [
+            "10 × 12 in; lengthwise."
+          ],
+          "collimation": [
+            "3 in proximal/distal to elbow; 1 in beyond sides."
+          ],
+          "sid": "",
+          "purpose": [
+            "Proximal forearm when extension is limited."
+          ],
+          "evaluation": [
+            "Proximal radius/ulna undistorted.",
+            "Partly open joint; foreshortened distal humerus."
+          ],
+          "respiration": "",
+          "precautions": [],
+          "sourcePages": [
+            331,
+            332
+          ],
+          "images": {
+            "patient": [],
+            "xray": []
+          }
+        },
+        {
+          "id": "coyle-90",
+          "name": "Coyle 90°",
+          "key": [
+            "90° elbow + CR toward shoulder → radial head."
+          ],
+          "position": [
+            "Seated, joints level; hand pronated.",
+            "Flex elbow 90°; support wrist as needed."
+          ],
+          "cr": {
+            "angle": "45° toward shoulder",
+            "target": "Midelbow / radial head",
+            "notes": []
+          },
+          "ir": [
+            "10 × 12 in; lengthwise."
+          ],
+          "collimation": [
+            "3 in proximal/distal to elbow; 1 in beyond sides."
+          ],
+          "sid": "",
+          "purpose": [
+            "Radial head without full elbow extension."
+          ],
+          "evaluation": [
+            "Open radial head–capitulum joint.",
+            "Radial head/neck/tuberosity mostly free of ulna; tuberosity posterior."
+          ],
+          "respiration": "",
+          "precautions": [],
+          "sourcePages": [
+            343,
+            344,
+            345
+          ],
+          "images": {
+            "patient": [],
+            "xray": []
+          }
+        },
+        {
+          "id": "coyle-80",
+          "name": "Coyle 80°",
+          "key": [
+            "80° elbow + CR away from shoulder → coronoid."
+          ],
+          "position": [
+            "Seated, joints level; hand pronated.",
+            "Flex elbow 80°."
+          ],
+          "cr": {
+            "angle": "45° away from shoulder",
+            "target": "Midelbow / coronoid",
+            "notes": []
+          },
+          "ir": [
+            "10 × 12 in; lengthwise."
+          ],
+          "collimation": [
+            "3 in proximal/distal to elbow; 1 in beyond sides."
+          ],
+          "sid": "",
+          "purpose": [
+            "Coronoid without full elbow extension."
+          ],
+          "evaluation": [
+            "Open coronoid–trochlea joint.",
+            "Elongated coronoid in profile; radial head/neck overlap ulna."
+          ],
+          "respiration": "",
+          "precautions": [],
+          "sourcePages": [
+            343,
+            344,
+            345,
+            346
+          ],
+          "images": {
+            "patient": [],
+            "xray": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "humerus",
+      "name": "Humerus",
+      "region": "Upper extremity",
+      "views": [
+        {
+          "id": "ap-upright",
+          "name": "AP Upright",
+          "key": [
+            "Epicondyles ∥ IR; greater tubercle in profile."
+          ],
+          "position": [
+            "Upright; slight arm abduction; supinate.",
+            "Epicondyles ∥ IR."
+          ],
+          "cr": {
+            "angle": "⟂",
+            "target": "Midhumerus",
+            "notes": []
+          },
+          "ir": [
+            "14 × 17 in; lengthwise; grid."
+          ],
+          "collimation": [
+            "Include shoulder/elbow; 2 in beyond joints, 1 in beyond sides."
+          ],
+          "sid": "",
+          "purpose": [
+            "Entire humerus and both joints."
+          ],
+          "evaluation": [
+            "Epicondyles without rotation.",
+            "Humeral head/greater tubercle in profile."
+          ],
+          "respiration": "Suspend.",
+          "precautions": [
+            "Do not rotate or abduct a suspected fracture."
+          ],
+          "sourcePages": [
+            352,
+            353
+          ],
+          "images": {
+            "patient": [],
+            "xray": []
+          }
+        },
+        {
+          "id": "lateral-upright",
+          "name": "Lateral Upright",
+          "key": [
+            "Epicondyles superimposed; lesser tubercle medial in profile."
+          ],
+          "position": [
+            "Upright; internally rotate arm; elbow about 90°.",
+            "Hand on hip; epicondyles ⟂ IR."
+          ],
+          "cr": {
+            "angle": "⟂",
+            "target": "Midhumerus",
+            "notes": []
+          },
+          "ir": [
+            "14 × 17 in; lengthwise; grid."
+          ],
+          "collimation": [
+            "Include shoulder/elbow; 2 in beyond joints, 1 in beyond sides."
+          ],
+          "sid": "",
+          "purpose": [
+            "Entire humerus and both joints."
+          ],
+          "evaluation": [
+            "Epicondyles superimposed; greater tubercle over head.",
+            "Lesser tubercle in profile."
+          ],
+          "respiration": "Suspend.",
+          "precautions": [
+            "Do not rotate or abduct a suspected fracture."
+          ],
+          "sourcePages": [
+            354,
+            355
+          ],
+          "images": {
+            "patient": [],
+            "xray": []
+          }
+        },
+        {
+          "id": "ap-recumbent",
+          "name": "AP Recumbent",
+          "key": [
+            "Epicondyles ∥ IR; greater tubercle in profile."
+          ],
+          "position": [
+            "Supine; elevate opposite shoulder or support arm/IR.",
+            "Extend elbow; supinate; epicondyles ∥ IR."
+          ],
+          "cr": {
+            "angle": "⟂",
+            "target": "Midhumerus",
+            "notes": []
+          },
+          "ir": [
+            "14 × 17 in; lengthwise; grid."
+          ],
+          "collimation": [
+            "Include shoulder/elbow; 2 in beyond joints, 1 in beyond sides."
+          ],
+          "sid": "",
+          "purpose": [
+            "Entire humerus and both joints."
+          ],
+          "evaluation": [
+            "Epicondyles without rotation.",
+            "Humeral head/greater tubercle in profile."
+          ],
+          "respiration": "Suspend.",
+          "precautions": [
+            "Do not rotate or abduct a suspected fracture."
+          ],
+          "sourcePages": [
+            357,
+            358
+          ],
+          "images": {
+            "patient": [],
+            "xray": []
+          }
+        },
+        {
+          "id": "lateral-recumbent",
+          "name": "Lateral Recumbent",
+          "key": [
+            "Epicondyles superimposed; lesser tubercle medial in profile."
+          ],
+          "position": [
+            "Supine; abduct arm; rotate forearm medially.",
+            "Back of hand against side; epicondyles ⟂ IR."
+          ],
+          "cr": {
+            "angle": "⟂",
+            "target": "Midhumerus",
+            "notes": []
+          },
+          "ir": [
+            "14 × 17 in; lengthwise; grid."
+          ],
+          "collimation": [
+            "Include shoulder/elbow; 2 in beyond joints, 1 in beyond sides."
+          ],
+          "sid": "",
+          "purpose": [
+            "Entire humerus and both joints."
+          ],
+          "evaluation": [
+            "Epicondyles superimposed; greater tubercle over head.",
+            "Lesser tubercle in profile."
+          ],
+          "respiration": "Suspend.",
+          "precautions": [
+            "Do not rotate or abduct a suspected fracture."
+          ],
+          "sourcePages": [
+            359,
+            360
+          ],
+          "images": {
+            "patient": [],
+            "xray": []
+          }
+        },
+        {
+          "id": "trauma-lateral",
+          "name": "Trauma Lateral",
+          "key": [
+            "Horizontal beam; this method emphasizes distal humerus."
+          ],
+          "position": [
+            "Recumbent/lateral recumbent; IR near axilla.",
+            "Support humerus; flex elbow only if permitted."
+          ],
+          "cr": {
+            "angle": "Horizontal, ⟂ humerus",
+            "target": "Midhumerus / center of IR",
+            "notes": []
+          },
+          "ir": [
+            "10 × 12 in; lengthwise."
+          ],
+          "collimation": [
+            "2 in distal to elbow; 1 in beyond sides; upper edge within IR."
+          ],
+          "sid": "",
+          "purpose": [
+            "Distal humerus without forced arm rotation."
+          ],
+          "evaluation": [
+            "Distal humerus included; epicondyles superimposed."
+          ],
+          "respiration": "Suspend.",
+          "precautions": [
+            "Do not force injured arm movement."
+          ],
+          "sourcePages": [
+            360,
+            361
+          ],
+          "images": {
+            "patient": [],
+            "xray": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "shoulder",
+      "name": "Shoulder",
+      "region": "Shoulder girdle",
+      "views": [
+        {
+          "id": "ap-external-rotation",
+          "name": "AP External Rotation",
+          "key": [
+            "Greater tubercle lateral in profile."
+          ],
+          "position": [
+            "Upright or supine; thorax ∥ IR.",
+            "Supinate; slightly abduct arm; epicondyles ∥ IR."
+          ],
+          "cr": {
+            "angle": "⟂",
+            "target": "1 in inferior to coracoid",
+            "notes": []
+          },
+          "ir": [
+            "10 × 12 in; grid. Crosswise: clavicle; lengthwise: more humerus."
+          ],
+          "collimation": [
+            "Include superior scapula, proximal humerus and clavicle."
+          ],
+          "sid": "",
+          "purpose": [
+            "Shoulder and proximal humerus."
+          ],
+          "evaluation": [
+            "Humeral head/greater tubercle in profile.",
+            "Slight humeral-head overlap of glenoid."
+          ],
+          "respiration": "Suspend.",
+          "precautions": [
+            "Do not rotate arm for suspected fracture/dislocation."
+          ],
+          "sourcePages": [
+            376,
+            377,
+            378,
+            380,
+            381
+          ],
+          "images": {
+            "patient": [],
+            "xray": []
+          }
+        },
+        {
+          "id": "ap-neutral-rotation",
+          "name": "AP Neutral Rotation",
+          "key": [
+            "Greater tubercle partly overlaps humeral head."
+          ],
+          "position": [
+            "Upright or supine; thorax ∥ IR.",
+            "Palm against thigh; epicondyles about 45° to IR."
+          ],
+          "cr": {
+            "angle": "⟂",
+            "target": "1 in inferior to coracoid",
+            "notes": []
+          },
+          "ir": [
+            "10 × 12 in; grid. Crosswise: clavicle; lengthwise: more humerus."
+          ],
+          "collimation": [
+            "Include superior scapula, proximal humerus and clavicle."
+          ],
+          "sid": "",
+          "purpose": [
+            "Shoulder and proximal humerus."
+          ],
+          "evaluation": [
+            "Head in partial profile; greater tubercle partly superimposed.",
+            "Slight overlap at glenoid."
+          ],
+          "respiration": "Suspend.",
+          "precautions": [
+            "Do not rotate arm for suspected fracture/dislocation."
+          ],
+          "sourcePages": [
+            376,
+            377,
+            378,
+            380,
+            381
+          ],
+          "images": {
+            "patient": [],
+            "xray": []
+          }
+        },
+        {
+          "id": "ap-internal-rotation",
+          "name": "AP Internal Rotation",
+          "key": [
+            "Lesser tubercle medial in profile."
+          ],
+          "position": [
+            "Upright or supine; thorax ∥ IR.",
+            "Back of hand on hip; epicondyles ⟂ IR."
+          ],
+          "cr": {
+            "angle": "⟂",
+            "target": "1 in inferior to coracoid",
+            "notes": []
+          },
+          "ir": [
+            "10 × 12 in; grid. Crosswise: clavicle; lengthwise: more humerus."
+          ],
+          "collimation": [
+            "Include superior scapula, proximal humerus and clavicle."
+          ],
+          "sid": "",
+          "purpose": [
+            "Shoulder and proximal humerus."
+          ],
+          "evaluation": [
+            "Greater tubercle superimposes head.",
+            "More head–glenoid overlap than external/neutral."
+          ],
+          "respiration": "Suspend.",
+          "precautions": [
+            "Do not rotate arm for suspected fracture/dislocation."
+          ],
+          "sourcePages": [
+            376,
+            377,
+            378,
+            380,
+            381
+          ],
+          "images": {
+            "patient": [],
+            "xray": []
+          }
+        },
+        {
+          "id": "grashey",
+          "name": "Grashey",
+          "key": [
+            "Open glenohumeral joint; scapula ∥ IR."
+          ],
+          "position": [
+            "Posterior oblique toward affected side, usually 35–45°.",
+            "Slight arm abduction; palm on abdomen."
+          ],
+          "cr": {
+            "angle": "⟂ IR",
+            "target": "2 in medial and 2 in inferior to superolateral shoulder",
+            "notes": [
+              "Recumbent positioning may need up to 60° body rotation."
+            ]
+          },
+          "ir": [
+            "10 × 12 in; grid. Crosswise: clavicle; lengthwise: more humerus."
+          ],
+          "collimation": [
+            "Include superior scapula, proximal humerus and clavicle."
+          ],
+          "sid": "",
+          "purpose": [
+            "Glenohumeral joint space."
+          ],
+          "evaluation": [
+            "Glenoid in profile.",
+            "Open head–glenoid joint."
+          ],
+          "respiration": "Suspend.",
+          "precautions": [],
+          "sourcePages": [
+            384,
+            385
+          ],
+          "images": {
+            "patient": [],
+            "xray": []
+          }
+        },
+        {
+          "id": "lawrence-transthoracic-lateral",
+          "name": "Lawrence — Transthoracic Lateral",
+          "key": [
+            "Trauma option: do not move injured arm."
+          ],
+          "position": [
+            "Affected side against IR.",
+            "Raise unaffected arm/shoulder; injured arm stays still."
+          ],
+          "cr": {
+            "angle": "⟂ IR",
+            "target": "Midcoronal plane at surgical neck",
+            "notes": [
+              "10–15° cephalad if unaffected shoulder cannot be raised."
+            ]
+          },
+          "ir": [
+            "10 × 12 in; grid. Crosswise: clavicle; lengthwise: more humerus."
+          ],
+          "collimation": [
+            "Include superior scapula, proximal humerus and clavicle."
+          ],
+          "sid": "",
+          "purpose": [
+            "Proximal humerus through thorax."
+          ],
+          "evaluation": [
+            "Unaffected shoulder above affected side.",
+            "Scapula over thoracic spine; proximal humerus visible through lung."
+          ],
+          "respiration": "Full inspiration; source also permits slow breathing with long exposure.",
+          "precautions": [],
+          "sourcePages": [
+            388,
+            389,
+            390
+          ],
+          "images": {
+            "patient": [],
+            "xray": []
+          }
+        },
+        {
+          "id": "lawrence-inferosuperior-axial",
+          "name": "Lawrence — Inferosuperior Axial",
+          "key": [
+            "Separate Lawrence method: beam through axilla."
+          ],
+          "position": [
+            "Supine; elevate shoulder about 3 in.",
+            "Abduct arm toward 90° (minimum 20°); external rotation.",
+            "IR against superior shoulder; head turned away."
+          ],
+          "cr": {
+            "angle": "Horizontal; usually 15–30° medial",
+            "target": "Axilla toward AC joint",
+            "notes": [
+              "Medial CR angle increases with abduction."
+            ]
+          },
+          "ir": [
+            "10 × 12 in; grid. Crosswise: clavicle; lengthwise: more humerus."
+          ],
+          "collimation": [
+            "Include superior scapula, proximal humerus and clavicle."
+          ],
+          "sid": "",
+          "purpose": [
+            "Axial glenohumeral relationship."
+          ],
+          "evaluation": [
+            "Lesser tubercle anterior in profile.",
+            "Coracoid anterior; AC joint projected through humeral head."
+          ],
+          "respiration": "Suspend.",
+          "precautions": [
+            "Do not force abduction in an injured shoulder."
+          ],
+          "sourcePages": [
+            391,
+            392
+          ],
+          "images": {
+            "patient": [],
+            "xray": []
+          }
+        },
+        {
+          "id": "scapular-y",
+          "name": "Scapular Y",
+          "key": [
+            "Head normally centered over Y; dislocation assessment."
+          ],
+          "position": [
+            "Anterior oblique 45–60°; scapula ⟂ IR.",
+            "Arm position does not change head–glenoid relationship."
+          ],
+          "cr": {
+            "angle": "⟂",
+            "target": "Scapulohumeral joint",
+            "notes": []
+          },
+          "ir": [
+            "10 × 12 in; grid. Crosswise: clavicle; lengthwise: more humerus."
+          ],
+          "collimation": [
+            "Include superior scapula, proximal humerus and clavicle."
+          ],
+          "sid": "",
+          "purpose": [
+            "Shoulder alignment; suspected dislocation."
+          ],
+          "evaluation": [
+            "Scapular borders superimposed; body clear of ribs.",
+            "Normal head/glenoid overlap at Y junction."
+          ],
+          "respiration": "Suspend.",
+          "precautions": [],
+          "sourcePages": [
+            399,
+            401,
+            402
+          ],
+          "images": {
+            "patient": [],
+            "xray": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "acromioclavicular-joints",
+      "name": "Acromioclavicular Joints",
+      "region": "Shoulder girdle",
+      "views": [
+        {
+          "id": "pearson",
+          "name": "Pearson",
+          "key": [
+            "Upright; weights attached to wrists, not held."
+          ],
+          "position": [
+            "Arms unsupported; shoulders level; no rotation.",
+            "Bilateral images without, then with equal 5–10 lb wrist weights."
+          ],
+          "cr": {
+            "angle": "⟂",
+            "target": "Midline at AC level; individual AC joint if separate",
+            "notes": []
+          },
+          "ir": [
+            "14 × 17 in, or two 10 × 12 in; grid."
+          ],
+          "collimation": [
+            "6 × 17 in bilateral; 6 × 8 in per side if separate."
+          ],
+          "sid": "72 in.",
+          "purpose": [
+            "AC separation/dislocation comparison."
+          ],
+          "evaluation": [
+            "Both AC joints included; no leaning.",
+            "Separation, if present, demonstrated with weights."
+          ],
+          "respiration": "Suspend.",
+          "precautions": [],
+          "sourcePages": [
+            414,
+            415,
+            416
+          ],
+          "images": {
+            "patient": [],
+            "xray": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "clavicle",
+      "name": "Clavicle",
+      "region": "Shoulder girdle",
+      "views": [
+        {
+          "id": "ap",
+          "name": "AP",
+          "key": [
+            "Lateral half above scapula; medial half over thorax."
+          ],
+          "position": [
+            "Supine or upright; shoulders level.",
+            "Arms at sides; clavicle centered."
+          ],
+          "cr": {
+            "angle": "⟂",
+            "target": "Midclavicle",
+            "notes": []
+          },
+          "ir": [
+            "10 × 12 in; crosswise; grid."
+          ],
+          "collimation": [
+            "8 × 12 in; include entire clavicle and both joints."
+          ],
+          "sid": "",
+          "purpose": [
+            "Entire clavicle."
+          ],
+          "evaluation": [
+            "Entire clavicle centered.",
+            "Lateral half above scapula; medial half overlaps thorax."
+          ],
+          "respiration": "Suspend after exhalation.",
+          "precautions": [],
+          "sourcePages": [
+            419,
+            420
+          ],
+          "images": {
+            "patient": [],
+            "xray": []
+          }
+        },
+        {
+          "id": "ap-axial",
+          "name": "AP Axial",
+          "key": [
+            "15–30° cephalad lifts clavicle above ribs."
+          ],
+          "position": [
+            "Upright/supine; clavicle centered.",
+            "Lordotic alternative if tolerated."
+          ],
+          "cr": {
+            "angle": "15–30° cephalad",
+            "target": "Midclavicle",
+            "notes": [
+              "Lordotic alternative: 0–15° cephalad; thinner chest needs greater angle."
+            ]
+          },
+          "ir": [
+            "10 × 12 in; crosswise; grid."
+          ],
+          "collimation": [
+            "8 × 12 in; include entire clavicle and both joints."
+          ],
+          "sid": "",
+          "purpose": [
+            "Clavicle above ribs/scapula."
+          ],
+          "evaluation": [
+            "Lateral two-thirds above ribs/scapula.",
+            "Both joints included; clavicle more horizontal."
+          ],
+          "respiration": "Suspend after full inspiration.",
+          "precautions": [],
+          "sourcePages": [
+            420,
+            421
+          ],
+          "images": {
+            "patient": [],
+            "xray": []
+          }
+        },
+        {
+          "id": "pa",
+          "name": "PA",
+          "key": [
+            "Clavicle nearer IR reduces magnification."
+          ],
+          "position": [
+            "Prone or standing facing IR; no rotation."
+          ],
+          "cr": {
+            "angle": "⟂",
+            "target": "Exits midclavicle",
+            "notes": []
+          },
+          "ir": [
+            "10 × 12 in; crosswise; grid."
+          ],
+          "collimation": [
+            "8 × 12 in; include entire clavicle and both joints."
+          ],
+          "sid": "",
+          "purpose": [
+            "Clavicle with reduced OID."
+          ],
+          "evaluation": [
+            "Entire clavicle; lateral half above scapula.",
+            "Medial half overlaps thorax."
+          ],
+          "respiration": "As AP: suspend after exhalation.",
+          "precautions": [],
+          "sourcePages": [
+            423
+          ],
+          "images": {
+            "patient": [],
+            "xray": []
+          }
+        },
+        {
+          "id": "pa-axial",
+          "name": "PA Axial",
+          "key": [
+            "15–30° caudad; reverse of AP axial."
+          ],
+          "position": [
+            "Prone or standing facing IR."
+          ],
+          "cr": {
+            "angle": "15–30° caudad",
+            "target": "Clavicle, as reverse AP-axial arrangement",
+            "notes": []
+          },
+          "ir": [
+            "10 × 12 in; crosswise; grid."
+          ],
+          "collimation": [
+            "8 × 12 in; include entire clavicle and both joints."
+          ],
+          "sid": "",
+          "purpose": [
+            "Clavicle above ribs/scapula, reduced OID."
+          ],
+          "evaluation": [
+            "Lateral two-thirds above ribs/scapula.",
+            "Entire clavicle and both joints."
+          ],
+          "respiration": "As AP axial: suspend after full inspiration.",
+          "precautions": [],
+          "sourcePages": [
+            424
+          ],
+          "images": {
+            "patient": [],
+            "xray": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "scapula",
+      "name": "Scapula",
+      "region": "Shoulder girdle",
+      "views": [
+        {
+          "id": "ap",
+          "name": "AP",
+          "key": [
+            "Abduct arm 90° to draw scapula laterally."
+          ],
+          "position": [
+            "Upright/supine; body not rotated toward affected side.",
+            "Arm abducted 90°; elbow flexed."
+          ],
+          "cr": {
+            "angle": "⟂",
+            "target": "Midscapula, about 2 in inferior to coracoid",
+            "notes": []
+          },
+          "ir": [
+            "10 × 12 in; lengthwise; grid."
+          ],
+          "collimation": [
+            "Include acromion through inferior angle."
+          ],
+          "sid": "",
+          "purpose": [
+            "Frontal scapula."
+          ],
+          "evaluation": [
+            "Lateral scapula clear of ribs.",
+            "Scapula not slanted; acromion/inferior angle included."
+          ],
+          "respiration": "Slow breathing to blur lung detail.",
+          "precautions": [],
+          "sourcePages": [
+            425,
+            426
+          ],
+          "images": {
+            "patient": [],
+            "xray": []
+          }
+        },
+        {
+          "id": "lateral",
+          "name": "Lateral",
+          "key": [
+            "Arm placement clears the specific area of interest."
+          ],
+          "position": [
+            "Anterior oblique 45–60°; scapula ⟂ IR.",
+            "Body: arm up/on head or across chest.",
+            "Processes: back of hand on posterior thorax."
+          ],
+          "cr": {
+            "angle": "⟂",
+            "target": "Midmedial scapular border",
+            "notes": []
+          },
+          "ir": [
+            "10 × 12 in; lengthwise; grid."
+          ],
+          "collimation": [
+            "Include acromion through inferior angle."
+          ],
+          "sid": "",
+          "purpose": [
+            "Lateral scapula."
+          ],
+          "evaluation": [
+            "Medial/lateral borders superimposed.",
+            "Scapular body clear of ribs; humerus clear of target."
+          ],
+          "respiration": "Suspend.",
+          "precautions": [],
+          "sourcePages": [
+            426,
+            427
+          ],
+          "images": {
+            "patient": [],
+            "xray": []
+          }
+        },
+        {
+          "id": "ap-oblique",
+          "name": "AP Oblique",
+          "key": [
+            "Rotate away from affected side to clear rib cage."
+          ],
+          "position": [
+            "Posterior oblique 15–25°; arm up or across chest.",
+            "Steeper alternative: 25–35°, elbow on forehead."
+          ],
+          "cr": {
+            "angle": "⟂",
+            "target": "Lateral rib-cage border at midscapula",
+            "notes": []
+          },
+          "ir": [
+            "10 × 12 in; lengthwise; grid."
+          ],
+          "collimation": [
+            "Include acromion through inferior angle."
+          ],
+          "sid": "",
+          "purpose": [
+            "Oblique scapula, nearly free of ribs."
+          ],
+          "evaluation": [
+            "Lateral scapular border adjacent to ribs.",
+            "Acromion/inferior angle included."
+          ],
+          "respiration": "Suspend.",
+          "precautions": [],
+          "sourcePages": [
+            432
+          ],
+          "images": {
+            "patient": [],
+            "xray": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "toes",
+      "name": "Toes",
+      "region": "Lower extremity",
+      "views": [
+        {
+          "id": "ap",
+          "name": "AP",
+          "key": [
+            "⟂ CR; IP joints less well demonstrated than axial."
+          ],
+          "position": [
+            "Supine/seated; knee flexed; sole on IR.",
+            "Toes separated; foot aligned."
+          ],
+          "cr": {
+            "angle": "⟂",
+            "target": "Third MTP joint",
+            "notes": []
+          },
+          "ir": [
+            "10 × 12 in; lengthwise."
+          ],
+          "collimation": [
+            "1 in beyond toes; include 1 in proximal to MTP joints."
+          ],
+          "sid": "",
+          "purpose": [
+            "Toes and distal metatarsals."
+          ],
+          "evaluation": [
+            "No rotation; toes separated.",
+            "Entire toes and distal metatarsals included."
+          ],
+          "respiration": "",
+          "precautions": [],
+          "sourcePages": [
+            461,
+            462
+          ],
+          "images": {
+            "patient": [],
+            "xray": []
+          }
+        },
+        {
+          "id": "ap-axial",
+          "name": "AP Axial",
+          "key": [
+            "15° toward heel opens IP/MTP spaces."
+          ],
+          "position": [
+            "Supine/seated; sole on IR; toes separated."
+          ],
+          "cr": {
+            "angle": "15° posterior, toward heel",
+            "target": "Third MTP joint",
+            "notes": [
+              "Alternative: elevate foot on 15° wedge with ⟂ beam."
+            ]
+          },
+          "ir": [
+            "10 × 12 in; lengthwise."
+          ],
+          "collimation": [
+            "1 in beyond toes; include 1 in proximal to MTP joints."
+          ],
+          "sid": "",
+          "purpose": [
+            "Toe joints with reduced foreshortening."
+          ],
+          "evaluation": [
+            "Open IP/MTP joints.",
+            "No rotation; toes separated."
+          ],
+          "respiration": "",
+          "precautions": [],
+          "sourcePages": [
+            461,
+            462
+          ],
+          "images": {
+            "patient": [],
+            "xray": []
+          }
+        },
+        {
+          "id": "pa",
+          "name": "PA",
+          "key": [
+            "Prone; dorsal toes on IR."
+          ],
+          "position": [
+            "Prone; support foot so toes lie horizontally.",
+            "Center third MTP."
+          ],
+          "cr": {
+            "angle": "⟂",
+            "target": "Third MTP joint",
+            "notes": []
+          },
+          "ir": [
+            "10 × 12 in; lengthwise."
+          ],
+          "collimation": [
+            "1 in beyond toes; include 1 in proximal to MTP joints."
+          ],
+          "sid": "",
+          "purpose": [
+            "Toes and IP joints."
+          ],
+          "evaluation": [
+            "Open IP/MTP spaces.",
+            "Symmetric shafts; no overlap between toes."
+          ],
+          "respiration": "",
+          "precautions": [],
+          "sourcePages": [
+            465
+          ],
+          "images": {
+            "patient": [],
+            "xray": []
+          }
+        },
+        {
+          "id": "ap-oblique",
+          "name": "AP Oblique",
+          "key": [
+            "30–45° rotation. First MTP may remain closed."
+          ],
+          "position": [
+            "Supine/seated; rotate foot medially 30–45°.",
+            "For individual toes: lateral oblique may suit toes 4–5."
+          ],
+          "cr": {
+            "angle": "⟂",
+            "target": "Third MTP joint",
+            "notes": []
+          },
+          "ir": [
+            "10 × 12 in; lengthwise."
+          ],
+          "collimation": [
+            "1 in beyond toes; include 1 in proximal to MTP joints."
+          ],
+          "sid": "",
+          "purpose": [
+            "Oblique toes/distal metatarsals."
+          ],
+          "evaluation": [
+            "Greater concavity on elevated side.",
+            "Open IP and MTP 2–5 spaces; separated toes."
+          ],
+          "respiration": "",
+          "precautions": [],
+          "sourcePages": [
+            466,
+            467
+          ],
+          "images": {
+            "patient": [],
+            "xray": []
+          }
+        },
+        {
+          "id": "lateral",
+          "name": "Lateral",
+          "key": [
+            "Great toe: IP centering. Lesser toes: PIP."
+          ],
+          "position": [
+            "Toes 1–2: medial foot against IR.",
+            "Toes 3–5: lateral foot against IR.",
+            "Move other toes away; affected toe truly lateral."
+          ],
+          "cr": {
+            "angle": "⟂",
+            "target": "Great-toe IP or lesser-toe PIP joint",
+            "notes": []
+          },
+          "ir": [
+            "10 × 12 in; lengthwise."
+          ],
+          "collimation": [
+            "1 in beyond toes; include 1 in proximal to MTP joints."
+          ],
+          "sid": "",
+          "purpose": [
+            "Lateral affected toe."
+          ],
+          "evaluation": [
+            "Nail in profile; plantar phalangeal concavity.",
+            "Open IP joints; proximal phalanx clear of adjacent toes."
+          ],
+          "respiration": "",
+          "precautions": [
+            "Manipulate toes only if no deformity is apparent."
+          ],
+          "sourcePages": [
+            468,
+            469,
+            470,
+            471,
+            472,
+            473
+          ],
+          "images": {
+            "patient": [],
+            "xray": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "sesamoids",
+      "name": "Sesamoids",
+      "region": "Lower extremity",
+      "views": [
+        {
+          "id": "tangential-lewis",
+          "name": "Tangential Lewis",
+          "key": [
+            "Prone; dorsiflex great toe."
+          ],
+          "position": [
+            "Prone; ankle supported.",
+            "Great toe against table; ball of foot ⟂ tabletop."
+          ],
+          "cr": {
+            "angle": "⟂; tangential",
+            "target": "First MTP joint",
+            "notes": []
+          },
+          "ir": [
+            "10 × 12 in; lengthwise."
+          ],
+          "collimation": [
+            "3 × 3 in at first MTP."
+          ],
+          "sid": "",
+          "purpose": [
+            "Sesamoids beneath first metatarsal head."
+          ],
+          "evaluation": [
+            "Sesamoids free of first-metatarsal overlap.",
+            "Metatarsal head in profile."
+          ],
+          "respiration": "",
+          "precautions": [],
+          "sourcePages": [
+            474,
+            476
+          ],
+          "images": {
+            "patient": [],
+            "xray": []
+          }
+        },
+        {
+          "id": "tangential-holly",
+          "name": "Tangential Holly",
+          "key": [
+            "Seated; plantar surface 75° to IR."
+          ],
+          "position": [
+            "Seated; medial foot border vertical.",
+            "Hold toes back with gauze; plantar surface 75° to IR."
+          ],
+          "cr": {
+            "angle": "⟂",
+            "target": "First-metatarsal head",
+            "notes": []
+          },
+          "ir": [
+            "10 × 12 in; lengthwise."
+          ],
+          "collimation": [
+            "3 × 3 in at first MTP."
+          ],
+          "sid": "",
+          "purpose": [
+            "Tangential sesamoids in seated position."
+          ],
+          "evaluation": [
+            "Sesamoids clear of first metatarsal.",
+            "Metatarsal head demonstrated."
+          ],
+          "respiration": "",
+          "precautions": [],
+          "sourcePages": [
+            476
+          ],
+          "images": {
+            "patient": [],
+            "xray": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "foot",
+      "name": "Foot",
+      "region": "Lower extremity",
+      "views": [
+        {
+          "id": "ap",
+          "name": "AP",
+          "key": [
+            "⟂ CR; less-open TMT spaces than axial."
+          ],
+          "position": [
+            "Supine/seated; knee flexed; sole flat.",
+            "No foot rotation."
+          ],
+          "cr": {
+            "angle": "⟂ IR",
+            "target": "Third-metatarsal base",
+            "notes": []
+          },
+          "ir": [
+            "10 × 12 in; lengthwise."
+          ],
+          "collimation": [
+            "1 in beyond foot, toes and heel."
+          ],
+          "sid": "",
+          "purpose": [
+            "Frontal foot."
+          ],
+          "evaluation": [
+            "Equal spacing between metatarsals 2–4.",
+            "Bases 2–5 overlap; toes through tarsals included."
+          ],
+          "respiration": "",
+          "precautions": [],
+          "sourcePages": [
+            478,
+            480,
+            481,
+            483,
+            484
+          ],
+          "images": {
+            "patient": [],
+            "xray": []
+          }
+        },
+        {
+          "id": "ap-axial",
+          "name": "AP Axial",
+          "key": [
+            "10° toward heel → beam ⟂ metatarsals."
+          ],
+          "position": [
+            "Supine/seated; sole flat; foot straight."
+          ],
+          "cr": {
+            "angle": "10° toward heel",
+            "target": "Third-metatarsal base",
+            "notes": []
+          },
+          "ir": [
+            "10 × 12 in; lengthwise."
+          ],
+          "collimation": [
+            "1 in beyond foot, toes and heel."
+          ],
+          "sid": "",
+          "purpose": [
+            "Reduced metatarsal foreshortening; TMT spaces."
+          ],
+          "evaluation": [
+            "Improved IP/MTP/TMT spaces.",
+            "Open medial–intermediate cuneiform joint; no rotation."
+          ],
+          "respiration": "",
+          "precautions": [],
+          "sourcePages": [
+            478,
+            480,
+            483,
+            484
+          ],
+          "images": {
+            "patient": [],
+            "xray": []
+          }
+        },
+        {
+          "id": "ap-oblique-medial-rotation",
+          "name": "AP Oblique Medial Rotation",
+          "key": [
+            "30° medial; cuboid and lateral joints."
+          ],
+          "position": [
+            "Supine/seated; knee flexed.",
+            "Rotate whole leg medially; plantar surface 30° to IR."
+          ],
+          "cr": {
+            "angle": "⟂",
+            "target": "Third-metatarsal base",
+            "notes": []
+          },
+          "ir": [
+            "10 × 12 in; lengthwise."
+          ],
+          "collimation": [
+            "1 in beyond foot, toes and heel."
+          ],
+          "sid": "",
+          "purpose": [
+            "Cuboid, sinus tarsi and lateral intertarsal/TMT joints."
+          ],
+          "evaluation": [
+            "Metatarsals 3–5 mostly free of overlap.",
+            "Fifth-metatarsal tuberosity; sinus tarsi visible."
+          ],
+          "respiration": "",
+          "precautions": [],
+          "sourcePages": [
+            484,
+            485
+          ],
+          "images": {
+            "patient": [],
+            "xray": []
+          }
+        },
+        {
+          "id": "ap-oblique-lateral-rotation",
+          "name": "AP Oblique Lateral Rotation",
+          "key": [
+            "30° lateral; first/second metatarsal bases."
+          ],
+          "position": [
+            "Supine; knee flexed.",
+            "Rotate laterally 30°; support elevated side."
+          ],
+          "cr": {
+            "angle": "⟂",
+            "target": "Third-metatarsal base",
+            "notes": []
+          },
+          "ir": [
+            "10 × 12 in; lengthwise."
+          ],
+          "collimation": [
+            "1 in beyond foot, toes and heel."
+          ],
+          "sid": "",
+          "purpose": [
+            "Medial foot articulations."
+          ],
+          "evaluation": [
+            "First/second metatarsal bases clear.",
+            "Minimal medial/intermediate cuneiform overlap; navicular less foreshortened."
+          ],
+          "respiration": "",
+          "precautions": [],
+          "sourcePages": [
+            486,
+            487
+          ],
+          "images": {
+            "patient": [],
+            "xray": []
+          }
+        },
+        {
+          "id": "lateral",
+          "name": "Lateral",
+          "key": [
+            "Mediolateral: lateral foot against IR."
+          ],
+          "position": [
+            "Affected side down; support knee.",
+            "Foot 90° to leg; plantar forefoot ⟂ IR."
+          ],
+          "cr": {
+            "angle": "⟂",
+            "target": "Third-metatarsal base",
+            "notes": []
+          },
+          "ir": [
+            "10 × 12 in; lengthwise."
+          ],
+          "collimation": [
+            "1 in beyond foot; include medial malleolus."
+          ],
+          "sid": "",
+          "purpose": [
+            "Entire foot and distal leg."
+          ],
+          "evaluation": [
+            "Metatarsal-head plantar surfaces superimposed.",
+            "Fibula over posterior tibia; tibiotalar joint shown."
+          ],
+          "respiration": "",
+          "precautions": [],
+          "sourcePages": [
+            488,
+            489
+          ],
+          "images": {
+            "patient": [],
+            "xray": []
+          }
+        },
+        {
+          "id": "weight-bearing-lateral-longitudinal-arch",
+          "name": "Weight-Bearing Lateral Longitudinal Arch",
+          "key": [
+            "Lateromedial, standing; evaluates longitudinal arch."
+          ],
+          "position": [
+            "Stand with equal weight on both feet.",
+            "Vertical IR against medial foot; support for balance."
+          ],
+          "cr": {
+            "angle": "Horizontal, ⟂",
+            "target": "Just above third-metatarsal base",
+            "notes": []
+          },
+          "ir": [
+            "10 × 12 in; lengthwise."
+          ],
+          "collimation": [
+            "1 in beyond foot and above medial malleolus."
+          ],
+          "sid": "",
+          "purpose": [
+            "Loaded longitudinal arch; compare sides."
+          ],
+          "evaluation": [
+            "Entire foot/distal leg; metatarsal heads superimposed.",
+            "Fibula overlaps posterior tibia."
+          ],
+          "respiration": "",
+          "precautions": [],
+          "sourcePages": [
+            490,
+            491
+          ],
+          "images": {
+            "patient": [],
+            "xray": []
+          }
+        },
+        {
+          "id": "weight-bearing-ap-axial",
+          "name": "Weight-Bearing AP Axial",
+          "key": [
+            "Both feet, equally loaded; 48 in SID."
+          ],
+          "position": [
+            "Stand on protected IR; feet centered side by side.",
+            "Weight equal; right/left and upright markers."
+          ],
+          "cr": {
+            "angle": "10° toward heels; ≥15° often needed for clearance",
+            "target": "Between feet at third-metatarsal-base level",
+            "notes": []
+          },
+          "ir": [
+            "10 × 12 in; crosswise."
+          ],
+          "collimation": [
+            "1 in beyond foot, toes and heel."
+          ],
+          "sid": "48 in.",
+          "purpose": [
+            "Compare loaded tarsal/metatarsal alignment."
+          ],
+          "evaluation": [
+            "Both feet centered; toes through tarsals included.",
+            "Correct side and weight-bearing markers."
+          ],
+          "respiration": "",
+          "precautions": [],
+          "sourcePages": [
+            492,
+            493
+          ],
+          "images": {
+            "patient": [],
+            "xray": []
+          }
+        },
+        {
+          "id": "weight-bearing-ap-axial-composite",
+          "name": "Weight-Bearing AP Axial Composite",
+          "key": [
+            "Two exposures; affected foot stays still."
+          ],
+          "position": [
+            "Standing; IR under affected foot.",
+            "Opposite foot behind for forefoot; ahead for hindfoot."
+          ],
+          "cr": {
+            "angle": "Forefoot: 15° posterior; hindfoot: 25° anterior",
+            "target": "First: third-metatarsal base. Second: posterior ankle; exits plantar surface at lateral-malleolus level.",
+            "notes": []
+          },
+          "ir": [
+            "10 × 12 in; lengthwise."
+          ],
+          "collimation": [
+            "1 in beyond foot, toes and heel."
+          ],
+          "sid": "",
+          "purpose": [
+            "Full loaded foot outline, clear of leg."
+          ],
+          "evaluation": [
+            "Entire foot; forefoot/hindfoot shown without leg overlap."
+          ],
+          "respiration": "",
+          "precautions": [],
+          "sourcePages": [
+            494,
+            496,
+            497
+          ],
+          "images": {
+            "patient": [],
+            "xray": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "calcaneus",
+      "name": "Calcaneus",
+      "region": "Lower extremity",
+      "views": [
+        {
+          "id": "axial-plantodorsal",
+          "name": "Axial Plantodorsal",
+          "key": [
+            "40° cephalad to foot axis; sustentaculum medial in profile."
+          ],
+          "position": [
+            "Supine/seated; leg extended.",
+            "Dorsiflex foot to 90°; gauze support if needed."
+          ],
+          "cr": {
+            "angle": "40° cephalad to long axis of foot",
+            "target": "Plantar surface near third-metatarsal base",
+            "notes": []
+          },
+          "ir": [
+            "10 × 12 in; lengthwise."
+          ],
+          "collimation": [
+            "Include entire calcaneus and fifth-metatarsal base; 1 in beyond heel."
+          ],
+          "sid": "",
+          "purpose": [
+            "Calcaneus, talocalcaneal joint and sustentaculum."
+          ],
+          "evaluation": [
+            "Talocalcaneal joint and full calcaneus.",
+            "No rotation; sustentaculum in profile."
+          ],
+          "respiration": "",
+          "precautions": [],
+          "sourcePages": [
+            503,
+            504
+          ],
+          "images": {
+            "patient": [],
+            "xray": []
+          }
+        },
+        {
+          "id": "lateral-mediolateral",
+          "name": "Lateral Mediolateral",
+          "key": [
+            "1 in distal to medial malleolus."
+          ],
+          "position": [
+            "Affected side down; true lateral foot.",
+            "IR aligned with plantar heel."
+          ],
+          "cr": {
+            "angle": "⟂",
+            "target": "1 in distal to medial malleolus",
+            "notes": []
+          },
+          "ir": [
+            "10 × 12 in; lengthwise."
+          ],
+          "collimation": [
+            "1 in beyond heel; include malleolus and fifth-metatarsal base."
+          ],
+          "sid": "",
+          "purpose": [
+            "Lateral calcaneus and subtalar region."
+          ],
+          "evaluation": [
+            "Tuberosity in profile; open sinus tarsi.",
+            "Open calcaneocuboid/talonavicular joints."
+          ],
+          "respiration": "",
+          "precautions": [],
+          "sourcePages": [
+            509,
+            510
+          ],
+          "images": {
+            "patient": [],
+            "xray": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "ankle",
+      "name": "Ankle",
+      "region": "Lower extremity",
+      "views": [
+        {
+          "id": "ap",
+          "name": "AP",
+          "key": [
+            "Distal tibiofibular overlap is normal on AP."
+          ],
+          "position": [
+            "Supine/seated; leg extended.",
+            "Foot upright; ankle in true AP."
+          ],
+          "cr": {
+            "angle": "⟂",
+            "target": "Midway between malleoli",
+            "notes": []
+          },
+          "ir": [
+            "10 × 12 in; lengthwise."
+          ],
+          "collimation": [
+            "About 8 in lengthwise; 1 in beyond sides; include heel."
+          ],
+          "sid": "",
+          "purpose": [
+            "Distal tibia/fibula, talus and ankle."
+          ],
+          "evaluation": [
+            "Normal distal tibiofibular and talofibular overlap.",
+            "Medial talomalleolar space open; tibiotalar space shown."
+          ],
+          "respiration": "",
+          "precautions": [],
+          "sourcePages": [
+            518
+          ],
+          "images": {
+            "patient": [],
+            "xray": []
+          }
+        },
+        {
+          "id": "lateral",
+          "name": "Lateral",
+          "key": [
+            "Mediolateral; fibula over posterior half of tibia."
+          ],
+          "position": [
+            "Affected side down; lateral foot against IR.",
+            "Dorsiflex; avoid ankle rotation."
+          ],
+          "cr": {
+            "angle": "⟂",
+            "target": "Medial malleolus",
+            "notes": []
+          },
+          "ir": [
+            "10 × 12 in; lengthwise."
+          ],
+          "collimation": [
+            "About 8 in lengthwise; 1 in beyond sides; include heel and fifth-metatarsal base."
+          ],
+          "sid": "",
+          "purpose": [
+            "Lateral ankle and adjacent tarsals."
+          ],
+          "evaluation": [
+            "Talar domes superimposed; tibiotalar joint seen.",
+            "Include fifth-metatarsal base/tuberosity."
+          ],
+          "respiration": "",
+          "precautions": [],
+          "sourcePages": [
+            519,
+            520
+          ],
+          "images": {
+            "patient": [],
+            "xray": []
+          }
+        },
+        {
+          "id": "ap-oblique-medial-rotation",
+          "name": "AP Oblique Medial Rotation",
+          "key": [
+            "45° medial opens distal tibiofibular articulation."
+          ],
+          "position": [
+            "Leg extended; foot dorsiflexed.",
+            "Rotate entire leg/foot medially 45°."
+          ],
+          "cr": {
+            "angle": "⟂",
+            "target": "Midway between malleoli",
+            "notes": []
+          },
+          "ir": [
+            "10 × 12 in; lengthwise."
+          ],
+          "collimation": [
+            "About 8 in lengthwise; 1 in beyond sides; include heel."
+          ],
+          "sid": "",
+          "purpose": [
+            "Distal tibiofibular joint."
+          ],
+          "evaluation": [
+            "Distal tibiofibular joint open.",
+            "Distal tibia/fibula overlap part of talus."
+          ],
+          "respiration": "",
+          "precautions": [],
+          "sourcePages": [
+            524,
+            525
+          ],
+          "images": {
+            "patient": [],
+            "xray": []
+          }
+        },
+        {
+          "id": "mortise",
+          "name": "Mortise",
+          "key": [
+            "15–20° medial opens all three mortise sides."
+          ],
+          "position": [
+            "Rotate entire leg/foot medially 15–20°.",
+            "Intermalleolar plane ∥ IR; foot 90° to leg."
+          ],
+          "cr": {
+            "angle": "⟂",
+            "target": "Midway between malleoli",
+            "notes": [
+              "Same CR centering as 45° oblique; rotation and demonstrated joints differ."
+            ]
+          },
+          "ir": [
+            "10 × 12 in; lengthwise."
+          ],
+          "collimation": [
+            "About 8 in lengthwise; 1 in beyond sides; include heel."
+          ],
+          "sid": "",
+          "purpose": [
+            "Entire ankle mortise."
+          ],
+          "evaluation": [
+            "Tibiotalar and talofibular spaces open.",
+            "Anterior tibial tubercle/superolateral talus clear of fibula."
+          ],
+          "respiration": "",
+          "precautions": [],
+          "sourcePages": [
+            526,
+            527,
+            528
+          ],
+          "images": {
+            "patient": [],
+            "xray": []
+          }
+        },
+        {
+          "id": "ap-stress",
+          "name": "AP Stress",
+          "key": [
+            "Stress reveals ligament-related joint widening."
+          ],
+          "position": [
+            "Maintain AP lower leg; apply prescribed inversion/eversion stress.",
+            "Extreme stress positioned/held by physician."
+          ],
+          "cr": {
+            "angle": "⟂, as AP ankle",
+            "target": "Midway between malleoli",
+            "notes": []
+          },
+          "ir": [
+            "10 × 12 in; lengthwise."
+          ],
+          "collimation": [
+            "About 8 in lengthwise; 1 in beyond sides; include heel."
+          ],
+          "sid": "",
+          "purpose": [
+            "Ligament integrity after inversion/eversion injury."
+          ],
+          "evaluation": [
+            "Lower leg not rotated.",
+            "Assess widening on injured side under stress."
+          ],
+          "respiration": "",
+          "precautions": [
+            "Physician controls extreme stress; do not force a painful injured ankle."
+          ],
+          "sourcePages": [
+            518,
+            531
+          ],
+          "images": {
+            "patient": [],
+            "xray": []
+          }
+        },
+        {
+          "id": "weight-bearing-ap",
+          "name": "Weight-Bearing AP",
+          "key": [
+            "Both ankles under load; lateral mortise normally closed."
+          ],
+          "position": [
+            "Stand with heels against vertical IR.",
+            "Toes forward; secure support for balance."
+          ],
+          "cr": {
+            "angle": "Horizontal, ⟂ IR",
+            "target": "Center of IR at ankle level",
+            "notes": []
+          },
+          "ir": [
+            "10 × 12 in; crosswise."
+          ],
+          "collimation": [
+            "About 8 in lengthwise; 1 in beyond sides; include heel."
+          ],
+          "sid": "",
+          "purpose": [
+            "Loaded ankle joint-space comparison."
+          ],
+          "evaluation": [
+            "Both ankles centered; medial mortise open.",
+            "Distal tibia/talus partly overlap fibula; lateral mortise closed."
+          ],
+          "respiration": "",
+          "precautions": [
+            "Use a secure platform; never stand a patient on the radiographic table."
+          ],
+          "sourcePages": [
+            532,
+            533
+          ],
+          "images": {
+            "patient": [],
+            "xray": []
+          }
+        },
+        {
+          "id": "weight-bearing-lateral",
+          "name": "Weight-Bearing Lateral",
+          "key": [
+            "Upright lateromedial option described with lateral ankle."
+          ],
+          "position": [
+            "Upright lateral ankle; medial surface against vertical IR.",
+            "Patella ⟂ IR; maintain true lateral alignment."
+          ],
+          "cr": {
+            "angle": "Horizontal, ⟂",
+            "target": "½ in superior to lateral malleolus",
+            "notes": [
+              "Source describes upright use under lateromedial ankle, not a separate weight-bearing protocol."
+            ]
+          },
+          "ir": [
+            "10 × 12 in; lengthwise."
+          ],
+          "collimation": [
+            "About 8 in lengthwise; include heel and fifth-metatarsal base."
+          ],
+          "sid": "",
+          "purpose": [
+            "Lateral ankle in upright position."
+          ],
+          "evaluation": [
+            "Talar domes superimposed.",
+            "Fibula over posterior half of tibia."
+          ],
+          "respiration": "",
+          "precautions": [],
+          "sourcePages": [
+            521,
+            522
+          ],
+          "images": {
+            "patient": [],
+            "xray": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "leg",
+      "name": "Leg",
+      "region": "Lower extremity",
+      "views": [
+        {
+          "id": "ap",
+          "name": "AP",
+          "key": [
+            "Both knee and ankle included; use two images if needed."
+          ],
+          "position": [
+            "Supine; pelvis straight.",
+            "Femoral condyles ∥ IR; foot upright."
+          ],
+          "cr": {
+            "angle": "⟂",
+            "target": "Midleg",
+            "notes": [
+              "48 in SID can help include more length."
+            ]
+          },
+          "ir": [
+            "14 × 17 in; lengthwise/diagonal."
+          ],
+          "collimation": [
+            "1 in beyond sides; 1½ in beyond knee/ankle."
+          ],
+          "sid": "",
+          "purpose": [
+            "Tibia/fibula and both joints."
+          ],
+          "evaluation": [
+            "Fibular shaft clear of tibia.",
+            "Moderate overlap at proximal/distal tibiofibular joints."
+          ],
+          "respiration": "",
+          "precautions": [],
+          "sourcePages": [
+            534,
+            535
+          ],
+          "images": {
+            "patient": [],
+            "xray": []
+          }
+        },
+        {
+          "id": "lateral",
+          "name": "Lateral",
+          "key": [
+            "True lateral leg; joints may need separate images."
+          ],
+          "position": [
+            "Affected side down; patella/condylar plane ⟂ IR.",
+            "Flex knee/support leg as needed."
+          ],
+          "cr": {
+            "angle": "⟂",
+            "target": "Midleg",
+            "notes": []
+          },
+          "ir": [
+            "14 × 17 in; lengthwise/diagonal."
+          ],
+          "collimation": [
+            "1 in beyond sides; 1½ in beyond knee/ankle."
+          ],
+          "sid": "",
+          "purpose": [
+            "Lateral tibia/fibula and both joints."
+          ],
+          "evaluation": [
+            "Distal fibula over posterior tibia.",
+            "Slight proximal fibular-head overlap; shafts mostly separated."
+          ],
+          "respiration": "",
+          "precautions": [],
+          "sourcePages": [
+            536,
+            537
+          ],
+          "images": {
+            "patient": [],
+            "xray": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "knee",
+      "name": "Knee",
+      "region": "Lower extremity",
+      "views": [
+        {
+          "id": "ap",
+          "name": "AP",
+          "key": [
+            "CR angle follows ASIS-to-table measurement."
+          ],
+          "position": [
+            "Supine; pelvis straight; knee extended.",
+            "Femoral epicondyles ∥ IR."
+          ],
+          "cr": {
+            "angle": "ASIS-to-table: <19 cm → 3–5° caudad; 19–24 cm → ⟂; >24 cm → 3–5° cephalad",
+            "target": "½ in inferior to patellar apex",
+            "notes": []
+          },
+          "ir": [
+            "10 × 12 in; lengthwise; grid as indicated."
+          ],
+          "collimation": [
+            "8 × 10 in field; about 1 in beyond sides."
+          ],
+          "sid": "",
+          "purpose": [
+            "Frontal knee and femorotibial space."
+          ],
+          "evaluation": [
+            "Symmetric condyles; intercondylar eminence centered.",
+            "Slight fibular-head overlap; patella over femur.",
+            "Femorotibial spaces open and equal if normal."
+          ],
+          "respiration": "",
+          "precautions": [],
+          "sourcePages": [
+            541,
+            542
+          ],
+          "images": {
+            "patient": [],
+            "xray": []
+          }
+        },
+        {
+          "id": "pa",
+          "name": "PA",
+          "key": [
+            "5–7° caudad parallels tibial plateau."
+          ],
+          "position": [
+            "Prone; toes down or ankle supported.",
+            "Knee extended; epicondyles ∥ IR."
+          ],
+          "cr": {
+            "angle": "5–7° caudad",
+            "target": "Exits ½ in inferior to patellar apex",
+            "notes": [
+              "⟂ CR may be needed with large thighs or dorsiflexed foot."
+            ]
+          },
+          "ir": [
+            "10 × 12 in; lengthwise; grid as indicated."
+          ],
+          "collimation": [
+            "8 × 10 in field; about 1 in beyond sides."
+          ],
+          "sid": "",
+          "purpose": [
+            "PA knee with open joint space."
+          ],
+          "evaluation": [
+            "No rotation; slight fibular-head overlap.",
+            "Open, equal femorotibial spaces if normal."
+          ],
+          "respiration": "",
+          "precautions": [],
+          "sourcePages": [
+            544,
+            545
+          ],
+          "images": {
+            "patient": [],
+            "xray": []
+          }
+        },
+        {
+          "id": "lateral",
+          "name": "Lateral",
+          "key": [
+            "20–30° knee flexion; 5–7° cephalad CR."
+          ],
+          "position": [
+            "Affected side down; support ankle.",
+            "Epicondyles ⟂ IR; knee flexed 20–30°."
+          ],
+          "cr": {
+            "angle": "5–7° cephalad",
+            "target": "1 in distal to medial epicondyle",
+            "notes": []
+          },
+          "ir": [
+            "10 × 12 in; lengthwise; grid as indicated."
+          ],
+          "collimation": [
+            "8 × 10 in field; about 1 in beyond sides."
+          ],
+          "sid": "",
+          "purpose": [
+            "Lateral knee and joint spaces."
+          ],
+          "evaluation": [
+            "Femoral condyles superimposed.",
+            "Patella in profile; open patellofemoral/femorotibial spaces.",
+            "Slight fibular-head overlap."
+          ],
+          "respiration": "",
+          "precautions": [
+            "New/unhealed patellar fracture: flex no more than 10°."
+          ],
+          "sourcePages": [
+            546,
+            547,
+            548
+          ],
+          "images": {
+            "patient": [],
+            "xray": []
+          }
+        },
+        {
+          "id": "weight-bearing-ap",
+          "name": "Weight-Bearing AP",
+          "key": [
+            "Extended, equally loaded knees show narrowing."
+          ],
+          "position": [
+            "Upright, back to IR; toes forward.",
+            "Knees extended; equal weight on feet."
+          ],
+          "cr": {
+            "angle": "Horizontal, ⟂",
+            "target": "½ in below patellar apices",
+            "notes": []
+          },
+          "ir": [
+            "14 × 17 in; crosswise; grid."
+          ],
+          "collimation": [
+            "Include both knees; 1 in beyond sides."
+          ],
+          "sid": "",
+          "purpose": [
+            "Joint-space narrowing; varus/valgus alignment."
+          ],
+          "evaluation": [
+            "Both knees unrotated; joint spaces centered."
+          ],
+          "respiration": "",
+          "precautions": [],
+          "sourcePages": [
+            548,
+            549
+          ],
+          "images": {
+            "patient": [],
+            "xray": []
+          }
+        },
+        {
+          "id": "weight-bearing-pa-rosenberg",
+          "name": "Weight-Bearing PA Rosenberg",
+          "key": [
+            "Standing PA flexion; posterior femoral cartilage assessment."
+          ],
+          "position": [
+            "Face IR; knees against it.",
+            "Hold support; flex until femora at 45°."
+          ],
+          "cr": {
+            "angle": "Horizontal, ⟂ IR; source allows 10° caudad",
+            "target": "Midpopliteal area; exits ½ in below patellar apices",
+            "notes": []
+          },
+          "ir": [
+            "14 × 17 in; crosswise; grid."
+          ],
+          "collimation": [
+            "Include both knees; 1 in beyond sides."
+          ],
+          "sid": "",
+          "purpose": [
+            "Posterior condylar joint-space loss."
+          ],
+          "evaluation": [
+            "Both knees unrotated; tibial plateaus in profile.",
+            "Intercondylar fossae visible."
+          ],
+          "respiration": "",
+          "precautions": [],
+          "sourcePages": [
+            550,
+            551
+          ],
+          "images": {
+            "patient": [],
+            "xray": []
+          }
+        },
+        {
+          "id": "lateral-oblique",
+          "name": "Lateral Oblique",
+          "key": [
+            "45° lateral rotation → medial condyles."
+          ],
+          "position": [
+            "Supine; rotate extremity laterally 45°."
+          ],
+          "cr": {
+            "angle": "ASIS-to-table: <19 cm → 3–5° caudad; 19–24 cm → ⟂; >24 cm → 3–5° cephalad",
+            "target": "½ in inferior to patellar apex",
+            "notes": []
+          },
+          "ir": [
+            "10 × 12 in; lengthwise; grid as indicated."
+          ],
+          "collimation": [
+            "8 × 10 in field; about 1 in beyond sides."
+          ],
+          "sid": "",
+          "purpose": [
+            "Medial femoral/tibial condyles."
+          ],
+          "evaluation": [
+            "Fibula over lateral half of tibia.",
+            "Patellar margin beyond lateral femoral condyle; open joint."
+          ],
+          "respiration": "",
+          "precautions": [],
+          "sourcePages": [
+            551,
+            552
+          ],
+          "images": {
+            "patient": [],
+            "xray": []
+          }
+        },
+        {
+          "id": "medial-oblique",
+          "name": "Medial Oblique",
+          "key": [
+            "45° medial rotation → proximal tibiofibular joint."
+          ],
+          "position": [
+            "Supine; rotate extremity medially 45°."
+          ],
+          "cr": {
+            "angle": "ASIS-to-table: <19 cm → 3–5° caudad; 19–24 cm → ⟂; >24 cm → 3–5° cephalad",
+            "target": "½ in inferior to patellar apex",
+            "notes": []
+          },
+          "ir": [
+            "10 × 12 in; lengthwise; grid as indicated."
+          ],
+          "collimation": [
+            "8 × 10 in field; about 1 in beyond sides."
+          ],
+          "sid": "",
+          "purpose": [
+            "Lateral condyles and proximal tibiofibular joint."
+          ],
+          "evaluation": [
+            "Proximal tibia/fibula separated.",
+            "Patellar margin beyond medial femoral condyle; open joint."
+          ],
+          "respiration": "",
+          "precautions": [],
+          "sourcePages": [
+            553,
+            554
+          ],
+          "images": {
+            "patient": [],
+            "xray": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "intercondylar-fossa",
+      "name": "Intercondylar Fossa",
+      "region": "Lower extremity",
+      "views": [
+        {
+          "id": "holmblad",
+          "name": "Holmblad",
+          "key": [
+            "70° knee flexion from full extension."
+          ],
+          "position": [
+            "Supported standing/kneeling variant.",
+            "Anterior tibial knee against IR; flex 70°."
+          ],
+          "cr": {
+            "angle": "⟂ lower leg",
+            "target": "Superior popliteal fossa; exits at patellar apex",
+            "notes": []
+          },
+          "ir": [
+            "10 × 12 in; lengthwise."
+          ],
+          "collimation": [
+            "8 × 10 in field; 1 in beyond sides."
+          ],
+          "sid": "",
+          "purpose": [
+            "Intercondylar fossa and posterior condylar surfaces."
+          ],
+          "evaluation": [
+            "Open fossa; patellar apex clear of it.",
+            "No rotation; slight tibiofibular overlap.",
+            "Knee space open; tibial plateau(s) in profile."
+          ],
+          "respiration": "",
+          "precautions": [],
+          "sourcePages": [
+            554,
+            555,
+            556,
+            557
+          ],
+          "images": {
+            "patient": [],
+            "xray": []
+          }
+        },
+        {
+          "id": "camp-coventry",
+          "name": "Camp-Coventry",
+          "key": [
+            "40° or 50° flexion; matching caudad CR angle."
+          ],
+          "position": [
+            "Prone; no rotation.",
+            "Support lower leg at 40° or 50°."
+          ],
+          "cr": {
+            "angle": "40° or 50° caudad; ⟂ lower leg",
+            "target": "Popliteal fossa; exits at patellar apex",
+            "notes": []
+          },
+          "ir": [
+            "10 × 12 in; lengthwise."
+          ],
+          "collimation": [
+            "8 × 10 in field; 1 in beyond sides."
+          ],
+          "sid": "",
+          "purpose": [
+            "Intercondylar fossa; loose bodies."
+          ],
+          "evaluation": [
+            "Open fossa; patellar apex clear of it.",
+            "No rotation; slight tibiofibular overlap.",
+            "Knee space open; tibial plateau(s) in profile."
+          ],
+          "respiration": "",
+          "precautions": [],
+          "sourcePages": [
+            558,
+            559
+          ],
+          "images": {
+            "patient": [],
+            "xray": []
+          }
+        },
+        {
+          "id": "beclere",
+          "name": "Béclère",
+          "key": [
+            "Supine; femur and tibia axes form 60°."
+          ],
+          "position": [
+            "Supine; bend knee until angle between femur/tibia is 60°.",
+            "Support knee; condyles equidistant from IR."
+          ],
+          "cr": {
+            "angle": "⟂ lower leg",
+            "target": "½ in below patellar apex",
+            "notes": []
+          },
+          "ir": [
+            "10 × 12 in; crosswise."
+          ],
+          "collimation": [
+            "8 × 10 in field; 1 in beyond sides."
+          ],
+          "sid": "",
+          "purpose": [
+            "AP axial intercondylar fossa."
+          ],
+          "evaluation": [
+            "Open fossa and intercondylar eminence.",
+            "Patellar apex clear; slight tibiofibular overlap."
+          ],
+          "respiration": "",
+          "precautions": [],
+          "sourcePages": [
+            561,
+            562
+          ],
+          "images": {
+            "patient": [],
+            "xray": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "patella",
+      "name": "Patella",
+      "region": "Lower extremity",
+      "views": [
+        {
+          "id": "pa",
+          "name": "PA",
+          "key": [
+            "Heel rotated 5–10° laterally → patella ∥ IR."
+          ],
+          "position": [
+            "Prone; support painful knee as needed.",
+            "Rotate heel laterally 5–10°."
+          ],
+          "cr": {
+            "angle": "⟂",
+            "target": "Midpopliteal area; exits patella",
+            "notes": []
+          },
+          "ir": [
+            "10 × 12 in; lengthwise; grid."
+          ],
+          "collimation": [
+            "6 × 6 in field."
+          ],
+          "sid": "",
+          "purpose": [
+            "Patella with reduced OID versus AP."
+          ],
+          "evaluation": [
+            "Patella completely superimposed on femur.",
+            "No rotation."
+          ],
+          "respiration": "",
+          "precautions": [],
+          "sourcePages": [
+            563,
+            564
+          ],
+          "images": {
+            "patient": [],
+            "xray": []
+          }
+        },
+        {
+          "id": "lateral",
+          "name": "Lateral",
+          "key": [
+            "Only 5–10° flexion; CR ⟂, unlike lateral knee."
+          ],
+          "position": [
+            "Affected side down; knee flexed 5–10°.",
+            "Epicondyles superimposed; patella ⟂ IR."
+          ],
+          "cr": {
+            "angle": "⟂ IR",
+            "target": "Midpatellofemoral joint",
+            "notes": []
+          },
+          "ir": [
+            "10 × 12 in; lengthwise; grid."
+          ],
+          "collimation": [
+            "4 × 4 in field at patellofemoral joint."
+          ],
+          "sid": "",
+          "purpose": [
+            "Patella and patellofemoral space."
+          ],
+          "evaluation": [
+            "Patella in lateral profile.",
+            "Open patellofemoral space."
+          ],
+          "respiration": "",
+          "precautions": [],
+          "sourcePages": [
+            565,
+            566
+          ],
+          "images": {
+            "patient": [],
+            "xray": []
+          }
+        },
+        {
+          "id": "hughston",
+          "name": "Hughston",
+          "key": [
+            "50–60° knee flexion; 45° cephalad CR."
+          ],
+          "position": [
+            "Prone; support lower leg at 50–60°.",
+            "No medial/lateral rotation."
+          ],
+          "cr": {
+            "angle": "45° cephalad",
+            "target": "Patellofemoral joint",
+            "notes": []
+          },
+          "ir": [
+            "10 × 12 in; lengthwise."
+          ],
+          "collimation": [
+            "4 × 4 in field at patellofemoral joint."
+          ],
+          "sid": "",
+          "purpose": [
+            "Tangential patella; subluxation/fractures."
+          ],
+          "evaluation": [
+            "Patella in profile; femoral condyles/sulcus visible.",
+            "Open patellofemoral articulation."
+          ],
+          "respiration": "",
+          "precautions": [],
+          "sourcePages": [
+            567,
+            568
+          ],
+          "images": {
+            "patient": [],
+            "xray": []
+          }
+        },
+        {
+          "id": "merchant",
+          "name": "Merchant",
+          "key": [
+            "Relax quadriceps; detailed method uses 40° flexion."
+          ],
+          "position": [
+            "Supine; knees supported at table end.",
+            "Femora ∥ table; knees flexed 40°.",
+            "IR on shins about 1 ft distal; IR ⟂ beam."
+          ],
+          "cr": {
+            "angle": "30° caudad from horizontal (60° from vertical)",
+            "target": "Between patellae at patellofemoral level",
+            "notes": [
+              "Record flexion angle for comparison; source permits other angles for specific disorders."
+            ]
+          },
+          "ir": [
+            "14 × 17 in; crosswise."
+          ],
+          "collimation": [
+            "2 in above patellar shadow; 1 in beyond sides."
+          ],
+          "sid": "6 ft recommended.",
+          "purpose": [
+            "Bilateral tangential patellae; subluxation."
+          ],
+          "evaluation": [
+            "Patella in profile; femoral condyles/sulcus visible.",
+            "Open patellofemoral articulation."
+          ],
+          "respiration": "",
+          "precautions": [],
+          "sourcePages": [
+            569,
+            570,
+            571
+          ],
+          "images": {
+            "patient": [],
+            "xray": []
+          }
+        },
+        {
+          "id": "settegast",
+          "name": "Settegast",
+          "key": [
+            "Acute flexion; first exclude transverse patellar fracture."
+          ],
+          "position": [
+            "Prone preferred; slowly flex as tolerated.",
+            "Aim patella ⟂ IR; no leg rotation."
+          ],
+          "cr": {
+            "angle": "⟂ joint space; commonly 15–20° adjustment",
+            "target": "Patellofemoral joint",
+            "notes": []
+          },
+          "ir": [
+            "10 × 12 in; lengthwise."
+          ],
+          "collimation": [
+            "4 × 4 in field at patellofemoral joint."
+          ],
+          "sid": "",
+          "purpose": [
+            "Tangential patella; vertical fractures."
+          ],
+          "evaluation": [
+            "Patella in profile; femoral condyles/sulcus visible.",
+            "Open patellofemoral articulation."
+          ],
+          "respiration": "",
+          "precautions": [
+            "Do not attempt before transverse fracture is excluded on lateral image, or if painful."
+          ],
+          "sourcePages": [
+            573,
+            575,
+            576
+          ],
+          "images": {
+            "patient": [],
+            "xray": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "femur",
+      "name": "Femur",
+      "region": "Lower extremity",
+      "views": [
+        {
+          "id": "ap",
+          "name": "AP",
+          "key": [
+            "Proximal view: 10–15° internal rotation per this chapter."
+          ],
+          "position": [
+            "Supine; pelvis straight.",
+            "Distal: epicondyles ∥ IR; IR 2 in below knee.",
+            "Proximal: rotate internally 10–15°; IR top at ASIS."
+          ],
+          "cr": {
+            "angle": "⟂",
+            "target": "Midfemur / IR center",
+            "notes": []
+          },
+          "ir": [
+            "14 × 17 in; lengthwise; grid."
+          ],
+          "collimation": [
+            "1 in beyond thigh sides; include adjacent joint(s) and entire hardware."
+          ],
+          "sid": "",
+          "purpose": [
+            "Femur plus joint nearest concern; image other end as needed."
+          ],
+          "evaluation": [
+            "Proximal neck not foreshortened; little/no lesser trochanter.",
+            "Distal knee unrotated; entire hardware included."
+          ],
+          "respiration": "",
+          "precautions": [
+            "Do not force rotation with suspected fracture."
+          ],
+          "sourcePages": [
+            577,
+            578
+          ],
+          "images": {
+            "patient": [],
+            "xray": []
+          }
+        },
+        {
+          "id": "lateral",
+          "name": "Lateral",
+          "key": [
+            "Distal and proximal setups differ."
+          ],
+          "position": [
+            "Affected side down.",
+            "Distal: knee about 45°, epicondyles ⟂ IR.",
+            "Proximal: pelvis rolled back 10–15°; other leg moved away."
+          ],
+          "cr": {
+            "angle": "⟂",
+            "target": "Midfemur / IR center",
+            "notes": []
+          },
+          "ir": [
+            "14 × 17 in; lengthwise; grid."
+          ],
+          "collimation": [
+            "1 in beyond thigh sides; include adjacent joint(s) and entire hardware."
+          ],
+          "sid": "",
+          "purpose": [
+            "Lateral femur with adjacent joint(s)."
+          ],
+          "evaluation": [
+            "Distal: anterior condylar surfaces superimposed, patella in profile.",
+            "Proximal: opposite thigh clear; lesser trochanter medial."
+          ],
+          "respiration": "",
+          "precautions": [
+            "Fracture/destructive disease: remain supine; use horizontal-beam lateral instead."
+          ],
+          "sourcePages": [
+            580,
+            582,
+            583
+          ],
+          "images": {
+            "patient": [],
+            "xray": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "pelvis-proximal-femora",
+      "name": "Pelvis & Proximal Femora",
+      "region": "Pelvis and hip",
+      "views": [
+        {
+          "id": "ap",
+          "name": "AP",
+          "key": [
+            "15–20° internal leg rotation profiles femoral necks."
+          ],
+          "position": [
+            "Supine; ASISs equidistant from table.",
+            "Rotate legs internally 15–20° unless contraindicated."
+          ],
+          "cr": {
+            "angle": "⟂",
+            "target": "Midline, midway between ASIS level and pubic symphysis",
+            "notes": []
+          },
+          "ir": [
+            "14 × 17 in; crosswise; grid."
+          ],
+          "collimation": [
+            "Entire pelvis/proximal femora; about 1 in beyond skin sides."
+          ],
+          "sid": "",
+          "purpose": [
+            "Pelvis and proximal femora."
+          ],
+          "evaluation": [
+            "Symmetric ilia/obturator foramina.",
+            "Sacrum/coccyx aligned with symphysis.",
+            "Full femoral necks; greater trochanters in profile."
+          ],
+          "respiration": "Suspend.",
+          "precautions": [
+            "No forced internal rotation with trauma/pathologic contraindications."
+          ],
+          "sourcePages": [
+            610,
+            613,
+            614
+          ],
+          "images": {
+            "patient": [],
+            "xray": []
+          }
+        },
+        {
+          "id": "modified-cleaves",
+          "name": "Modified Cleaves",
+          "key": [
+            "Bilateral frog-leg; ⟂ CR, not original Cleaves axial."
+          ],
+          "position": [
+            "Supine; pelvis unrotated; hips/knees flexed.",
+            "Soles together; abduct thighs equally, ideally 45° from vertical."
+          ],
+          "cr": {
+            "angle": "⟂",
+            "target": "Midline, 1 in superior to pubic symphysis",
+            "notes": [
+              "Unilateral variant: affected foot by opposite knee; CR to femoral neck."
+            ]
+          },
+          "ir": [
+            "14 × 17 in; crosswise; grid."
+          ],
+          "collimation": [
+            "Entire pelvis/proximal femora; about 1 in beyond skin sides."
+          ],
+          "sid": "",
+          "purpose": [
+            "Compare femoral heads, necks and trochanters."
+          ],
+          "evaluation": [
+            "Symmetric pelvis; equal thigh angles.",
+            "Femoral necks not obscured by greater trochanters.",
+            "Lesser trochanters medial."
+          ],
+          "respiration": "Suspend.",
+          "precautions": [
+            "Contraindicated with suspected fracture or relevant pathologic disease."
+          ],
+          "sourcePages": [
+            616,
+            617,
+            618
+          ],
+          "images": {
+            "patient": [],
+            "xray": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "hip",
+      "name": "Hip",
+      "region": "Pelvis and hip",
+      "views": [
+        {
+          "id": "ap",
+          "name": "AP",
+          "key": [
+            "15–20° internal rotation; femoral neck not foreshortened."
+          ],
+          "position": [
+            "Supine; pelvis straight.",
+            "Internally rotate leg 15–20° unless contraindicated."
+          ],
+          "cr": {
+            "angle": "⟂",
+            "target": "Femoral neck: 2½ in distal along a perpendicular from midpoint of ASIS–pubic-symphysis line",
+            "notes": []
+          },
+          "ir": [
+            "10 × 12 in; grid."
+          ],
+          "collimation": [
+            "10 × 12 in field; include proximal femur and entire hardware."
+          ],
+          "sid": "",
+          "purpose": [
+            "Hip joint and proximal third of femur."
+          ],
+          "evaluation": [
+            "Head visible through acetabulum; full neck.",
+            "Greater trochanter in profile; little/no lesser trochanter."
+          ],
+          "respiration": "Suspend.",
+          "precautions": [
+            "Trauma limb manipulation only under physician direction."
+          ],
+          "sourcePages": [
+            622,
+            623,
+            624,
+            625
+          ],
+          "images": {
+            "patient": [],
+            "xray": []
+          }
+        },
+        {
+          "id": "lauenstein",
+          "name": "Lauenstein",
+          "key": [
+            "⟂ CR; greater trochanter overlaps femoral neck."
+          ],
+          "position": [
+            "From supine, rotate slightly toward affected side.",
+            "Flex affected thigh near 90° to hip bone; femur ∥ table.",
+            "Support opposite limb out of way."
+          ],
+          "cr": {
+            "angle": "⟂",
+            "target": "Hip joint, midway between ASIS and pubic symphysis",
+            "notes": []
+          },
+          "ir": [
+            "10 × 12 in; crosswise; grid."
+          ],
+          "collimation": [
+            "10 × 12 in field; include proximal femur and entire hardware."
+          ],
+          "sid": "",
+          "purpose": [
+            "Lateral hip; head–acetabulum relationship."
+          ],
+          "evaluation": [
+            "Hip centered; acetabulum/head shown.",
+            "Greater trochanter overlaps neck."
+          ],
+          "respiration": "Suspend.",
+          "precautions": [
+            "Contraindicated with suspected fracture or pathologic condition."
+          ],
+          "sourcePages": [
+            625,
+            626
+          ],
+          "images": {
+            "patient": [],
+            "xray": []
+          }
+        },
+        {
+          "id": "hickey",
+          "name": "Hickey",
+          "key": [
+            "20–25° cephalad frees neck from greater trochanter."
+          ],
+          "position": [
+            "From supine, rotate slightly toward affected side.",
+            "Flex affected thigh near 90° to hip bone; femur ∥ table.",
+            "Support opposite limb out of way."
+          ],
+          "cr": {
+            "angle": "20–25° cephalad",
+            "target": "1 in inferior to Lauenstein centering point",
+            "notes": []
+          },
+          "ir": [
+            "10 × 12 in; crosswise; grid."
+          ],
+          "collimation": [
+            "10 × 12 in field; include proximal femur and entire hardware."
+          ],
+          "sid": "",
+          "purpose": [
+            "Lateral hip with clearer femoral neck."
+          ],
+          "evaluation": [
+            "Hip centered; acetabulum/head shown.",
+            "Neck free of greater-trochanter overlap."
+          ],
+          "respiration": "Suspend.",
+          "precautions": [
+            "Contraindicated with suspected fracture or pathologic condition."
+          ],
+          "sourcePages": [
+            625,
+            626
+          ],
+          "images": {
+            "patient": [],
+            "xray": []
+          }
+        },
+        {
+          "id": "danelius-miller",
+          "name": "Danelius-Miller",
+          "key": [
+            "Cross-table lateral; IR ∥ femoral neck."
+          ],
+          "position": [
+            "Supine; lift/support unaffected thigh vertically.",
+            "Affected leg 15–20° internal only if permitted.",
+            "Vertical IR at hip, aligned with femoral neck."
+          ],
+          "cr": {
+            "angle": "Horizontal, ⟂ femoral neck and IR",
+            "target": "Groin through femoral neck, midway between anterior/posterior thigh surfaces",
+            "notes": []
+          },
+          "ir": [
+            "10 × 12 in; lengthwise; grid strips horizontal."
+          ],
+          "collimation": [
+            "10 × 12 in field; include proximal femur and entire hardware."
+          ],
+          "sid": "",
+          "purpose": [
+            "Axial lateral hip with minimal affected-limb movement."
+          ],
+          "evaluation": [
+            "Neck clear of greater trochanter.",
+            "Unaffected thigh clear of hip; ischial tuberosity below neck."
+          ],
+          "respiration": "Suspend.",
+          "precautions": [
+            "Do not manipulate unhealed fracture; physician directs movement.",
+            "Do not rest unaffected foot on tube/collimator."
+          ],
+          "sourcePages": [
+            627,
+            628,
+            630,
+            631
+          ],
+          "images": {
+            "patient": [],
+            "xray": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "acetabulum",
+      "name": "Acetabulum",
+      "region": "Pelvis and hip",
+      "views": [
+        {
+          "id": "judet",
+          "name": "Judet",
+          "key": [
+            "Two 45° obliques: affected hip up AND down."
+          ],
+          "position": [
+            "Internal oblique: affected hip raised 45°.",
+            "External oblique: affected hip down; opposite side raised 45°."
+          ],
+          "cr": {
+            "angle": "⟂ IR",
+            "target": "Hip up: 2 in inferior to affected ASIS. Hip down: pubic symphysis.",
+            "notes": []
+          },
+          "ir": [
+            "10 × 12 in; lengthwise; grid."
+          ],
+          "collimation": [
+            "10 × 12 in field at affected acetabulum."
+          ],
+          "sid": "",
+          "purpose": [
+            "Acetabular columns and rims."
+          ],
+          "evaluation": [
+            "Hip up: anterior (iliopubic) column + posterior rim.",
+            "Hip down: posterior (ilioischial) column + anterior rim.",
+            "Acetabulum centered."
+          ],
+          "respiration": "Suspend.",
+          "precautions": [],
+          "sourcePages": [
+            636,
+            637
+          ],
+          "images": {
+            "patient": [],
+            "xray": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "anterior-pelvic-bones",
+      "name": "Anterior Pelvic Bones",
+      "region": "Pelvis and hip",
+      "views": [
+        {
+          "id": "taylor-outlet",
+          "name": "Taylor Outlet",
+          "key": [
+            "Cephalad beam reduces ramus foreshortening."
+          ],
+          "position": [
+            "Supine; pelvis straight; ASISs equidistant.",
+            "Slight knee flexion/support for comfort."
+          ],
+          "cr": {
+            "angle": "Men: 20–35° cephalad; women: 30–45° cephalad",
+            "target": "Midline, 2 in inferior to superior border of pubic symphysis",
+            "notes": []
+          },
+          "ir": [
+            "14 × 17 in; crosswise; grid."
+          ],
+          "collimation": [
+            "14 × 17 in field; about 1 in beyond skin sides."
+          ],
+          "sid": "",
+          "purpose": [
+            "Pubic and ischial rami."
+          ],
+          "evaluation": [
+            "Symmetric obturator foramina.",
+            "Rami centered; pubic bones over sacrum/coccyx; hips included."
+          ],
+          "respiration": "Suspend.",
+          "precautions": [],
+          "sourcePages": [
+            638,
+            639,
+            640
+          ],
+          "images": {
+            "patient": [],
+            "xray": []
+          }
+        },
+        {
+          "id": "bridgman-inlet",
+          "name": "Bridgman Inlet",
+          "key": [
+            "40° caudad shows entire pelvic ring."
+          ],
+          "position": [
+            "Supine; ASISs equidistant.",
+            "Knees slightly flexed/supported; IR at greater-trochanter level."
+          ],
+          "cr": {
+            "angle": "40° caudad",
+            "target": "Midline at ASIS level",
+            "notes": []
+          },
+          "ir": [
+            "14 × 17 in; crosswise; grid."
+          ],
+          "collimation": [
+            "14 × 17 in field; about 1 in beyond skin sides."
+          ],
+          "sid": "",
+          "purpose": [
+            "Pelvic inlet/ring."
+          ],
+          "evaluation": [
+            "Symmetric pubes/ischial spines.",
+            "Medial superior/inferior pubic rami superimposed.",
+            "Hip joints and anterior pelvic bones included."
+          ],
+          "respiration": "Suspend.",
+          "precautions": [],
+          "sourcePages": [
+            640,
+            641
+          ],
+          "images": {
+            "patient": [],
+            "xray": []
+          }
+        }
+      ]
+    }
+  ]
+}

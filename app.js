@@ -79,7 +79,10 @@ function refreshControls(){
 }
 function renderGroups(){Catalog.renderGroups();}
 function showView(view){
- ['practice','quiz','results','browse','personal','builder','progress'].forEach(v=>$(v+'-view').hidden=v!==view);
+ if(view!=='guides'&&window.Guides)Guides.leave();
+ if(view==='guides'&&window.Guides)Guides.open();
+ if(view==='progress'&&window.Guides)Guides.load().then(()=>{if(!$('progress-view').hidden)Progress.render();}).catch(()=>{});
+ ['practice','quiz','results','browse','personal','builder','progress','guides'].forEach(v=>$(v+'-view').hidden=v!==view);
  document.querySelectorAll('[data-view]').forEach(b=>{b.classList.toggle('active',b.dataset.view===view);b.setAttribute('aria-current',b.dataset.view===view?'page':'false');});
  if(view==='practice')updateSetup();if(view==='progress')Progress.render();if(view==='browse')renderBank();if(view==='personal')renderPersonal();if(view==='builder')renderDrafts();
  window.scrollTo({top:0});$('main').focus({preventScroll:true});
