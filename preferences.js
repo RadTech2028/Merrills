@@ -2,7 +2,10 @@
 // Load appearance before the stylesheets to avoid a bright flash on dark-theme visits.
 const Preferences=(()=>{
  const key='positioning-preferences-v1:'+location.pathname.replace(/\/?(?:index\.html)?$/,'/');
- const defaults={version:1,theme:'system',accent:'blue',text:'standard',density:'comfortable',motion:false,name:'',mode:'practice',source:'program',images:'all',all:false,count:10,smart:true,autoLearn:false,shuffle:true,timer:false,minutes:10,welcomed:false};
+ const guideFields=['key','position','cr','ir','collimation','sid','purpose','evaluation','respiration'];
+ const guideDefaults={showKey:true,collapsed:[],mode:'read',selected:['position','cr','evaluation'],scope:'part'};
+ function cleanGuides(input){const v=input&&typeof input==='object'?input:{};return {showKey:typeof v.showKey==='boolean'?v.showKey:true,collapsed:Array.isArray(v.collapsed)?[...new Set(v.collapsed.filter(k=>guideFields.includes(k)))]:[],mode:v.mode==='review'?'review':'read',selected:Array.isArray(v.selected)?[...new Set(v.selected.filter(k=>guideFields.includes(k)))]:[...guideDefaults.selected],scope:['view','part','all'].includes(v.scope)?v.scope:'part'};}
+ const defaults={version:1,theme:'system',accent:'blue',text:'standard',density:'comfortable',motion:false,name:'',mode:'practice',source:'program',images:'all',all:false,count:10,smart:true,autoLearn:false,shuffle:true,timer:false,minutes:10,welcomed:false,guides:cleanGuides(null)};
  const choices={theme:['system','light','dark','sepia'],accent:['blue','teal','purple','amber'],text:['standard','large','extra'],density:['comfortable','compact'],mode:['practice','exam','cards'],source:['program','personal','both'],images:['all','only','none']};
  const dark=window.matchMedia('(prefers-color-scheme: dark)');
  let prefs={...defaults},storageError=false,step=0,returnFocus=null,lockedScroll=0,locking=false;
@@ -13,6 +16,7 @@ const Preferences=(()=>{
   for(const k of ['motion','all','smart','autoLearn','shuffle','timer','welcomed'])if(typeof input[k]==='boolean')clean[k]=input[k];
   for(const k of ['count','minutes'])if(Number.isSafeInteger(input[k])&&input[k]>=1&&(k!=='minutes'||input[k]<=180))clean[k]=input[k];
   if(typeof input.name==='string')clean.name=input.name.trim().slice(0,32);
+  clean.guides=cleanGuides(input.guides);
   return clean;
  }
  try{prefs=sanitize(JSON.parse(localStorage.getItem(key)||'null'));}catch{storageError=true;}
@@ -25,6 +29,7 @@ const Preferences=(()=>{
   const icon='data:image/svg+xml,'+encodeURIComponent('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48"><rect width="48" height="48" rx="12" fill="'+iconColor+'"/><path d="M12 19v-7h7m10 0h7v7M12 29v7h7m10 0h7v-7M24 17v14m-7-7h14" fill="none" stroke="white" stroke-width="3"/></svg>');
   const brand=document.querySelector('.brand img'),favicon=document.querySelector('link[rel="icon"]');if(brand)brand.src=icon;if(favicon)favicon.href=icon;
   const meta=document.querySelector('meta[name="theme-color"]');if(meta)meta.content={light:'#f5f7fb',dark:'#121922',sepia:'#f2eadb'}[theme];
+  window.dispatchEvent(new Event('positioning-preferences-changed'));
   const greeting=el('personal-greeting');if(greeting){greeting.hidden=!prefs.name;greeting.textContent=prefs.name?'Welcome back, '+prefs.name+'.':'';}
  }
  appearance();if(dark.addEventListener)dark.addEventListener('change',appearance);else if(dark.addListener)dark.addListener(appearance);
@@ -66,7 +71,7 @@ const Preferences=(()=>{
   el('welcome-step').textContent='QUICK START · '+(step+1)+' OF 3';el('welcome-back').hidden=step===0;el('welcome-next').textContent=step===2?'Start studying':'Next';
   const pages=[
    '<div class="tour-symbol" aria-hidden="true">01</div><h2 id="welcome-title">Study the parts you need.</h2><p>Choose a category, then open <strong>Choose parts / topics</strong> to narrow it down. Pick your focus, question count, and whether to include images.</p><p class="small muted">Use Practice for immediate feedback, Test for feedback at the end, or Flashcards to check yourself.</p>',
-   '<div class="tour-symbol" aria-hidden="true">02</div><h2 id="welcome-title">Keep track as you go.</h2><p><strong>Smart review</strong> gives more attention to new and missed questions. Mark a card <strong>Learned</strong> when you feel ready, or bookmark it for later.</p><label class="checkline"><input id="welcome-auto-learn" type="checkbox"> Automatically mark correct answers as learned</label><p class="small muted">Also applies to “Got it” on flashcards. You can change this in Settings anytime.</p><p class="small muted">Progress and personal questions stay in this browser. Back them up from My progress and My questions before changing devices or clearing browser data.</p>',
+   '<div class="tour-symbol" aria-hidden="true">02</div><h2 id="welcome-title">Keep track as you go.</h2><p><strong>Smart review</strong> gives more attention to new and missed questions. Mark a card <strong>Learned</strong> when you feel ready, or bookmark it for later.</p><label class="checkline"><input id="welcome-auto-learn" type="checkbox"> Automatically mark correct answers as learned</label><p class="small muted">Also applies to “Got it” on flashcards and guide quick tests. You can change this in Settings anytime.</p><p class="small muted">Progress saves in this browser. Optional Google sign-in syncs it between devices. Backups are available in My progress and My questions.</p>',
    '<div class="tour-symbol" aria-hidden="true">03</div><h2 id="welcome-title">Choose your look.</h2><p>Pick a theme and accent color. You can change these, text size, and study defaults in <strong>Settings</strong> anytime.</p><fieldset class="tour-palette"><legend>Theme</legend><div class="theme-choices">'+[['system','Device'],['light','Light'],['dark','Dark'],['sepia','Sepia']].map(([value,label])=>'<button type="button" data-tour-theme="'+value+'" aria-pressed="'+(prefs.theme===value)+'">'+label+'</button>').join('')+'</div></fieldset><fieldset class="tour-palette"><legend>Accent color</legend><div class="accent-choices">'+choices.accent.map(value=>'<button type="button" data-tour-accent="'+value+'" aria-pressed="'+(prefs.accent===value)+'"><span class="accent-dot '+value+'" aria-hidden="true"></span>'+value[0].toUpperCase()+value.slice(1)+'</button>').join('')+'</div></fieldset>'
   ];
   el('welcome-content').innerHTML=pages[step];
@@ -102,5 +107,6 @@ const Preferences=(()=>{
  }
  document.addEventListener('DOMContentLoaded',init,{once:true});
  function cloudReload(){prefs=sanitize(JSON.parse(localStorage.getItem(key)||'null'));appearance();study();window.dispatchEvent(new Event('positioning-name-changed'));}
- return {cloudReload,cloudSnapshot:()=>({...prefs}),ready,autoLearn:()=>prefs.autoLearn,getName:()=>prefs.name,setName};
+ function setGuideSettings(value){prefs.guides=cleanGuides(value);persist();return !storageError;}
+ return {guideSettings:()=>cleanGuides(prefs.guides),setGuideSettings,cloudReload,cloudSnapshot:()=>({...prefs,guides:cleanGuides(prefs.guides)}),ready,autoLearn:()=>prefs.autoLearn,getName:()=>prefs.name,setName};
 })();

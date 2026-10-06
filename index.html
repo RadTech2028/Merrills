@@ -3,17 +3,17 @@
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="theme-color" content="#f5f7fb">
-<script src="./preferences.js?v=cloud-1"></script>
+<script src="./preferences.js?v=guides-polish-2"></script>
 <title>Positioning Lab | Radiography Practice</title>
 <meta name="description" content="Practice radiographic positioning by anatomy group, central ray, purpose, and image evaluation.">
 <link rel="icon" href="./favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="./styles.css">
-<link rel="stylesheet" href="./guides.css?v=guides-1">
 <link rel="stylesheet" href="./progress.css?v=subcategories-2">
 <link rel="stylesheet" href="./appearance.css?v=ranks-1">
 <script defer src="./app.js?v=guides-1"></script><script defer src="./catalog.js?v=2"></script><script defer src="./profile.js?v=guides-1"></script><script defer src="./progress.js?v=swift-sync-2"></script><script defer src="./builder.js?v=subcategories-2"></script>
 <link rel="stylesheet" href="./cloud-sync.css?v=swift-sync-2">
 <script defer src="./cloud-config.js?v=2"></script><script defer src="./cloud-model.js?v=1"></script><script defer src="./cloud-sync.js?v=guides-1"></script>
-<script defer src="./guides.js?v=guides-1"></script>
+<script defer src="./guides.js?v=guides-polish-2"></script>
+<link rel="stylesheet" href="./guides.css?v=guides-polish-2">
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
@@ -75,7 +75,7 @@
  <p class="small muted">Category totals include the program bank and your personal questions.</p>
  <div id="category-progress" class="category-progress-grid" aria-label="Progress by category"></div>
  <details class="panel progress-backup"><summary>Back up or restore progress</summary>
- <p>Progress saves automatically in this browser. It does not sync to another device. Export a backup before clearing browser data or changing devices. Anyone using this same browser profile shares this history.</p>
+ <p>Progress saves automatically in this browser and syncs across devices when connected to Google. Export a backup before clearing browser data or changing devices. Anyone using this same browser profile shares this history.</p>
  <div class="actions"><button id="progress-export">Export progress</button><label class="file-button" for="progress-import">Restore progress</label><input id="progress-import" type="file" accept=".json,application/json" hidden></div>
  <p class="small muted">Restoring merges histories and keeps the newer record for each card. Progress backups contain marks and statistics. Back up personal questions separately in My questions.</p>
  <p id="progress-storage" class="small muted"></p><p id="progress-status" role="status"></p>
@@ -153,14 +153,16 @@
   <div class="settings-grid"><div><label for="pref-text">Text size</label><select id="pref-text"><option value="standard">Standard</option><option value="large">Large</option><option value="extra">Extra large</option></select></div><div><label for="pref-density">Spacing</label><select id="pref-density"><option value="comfortable">Comfortable</option><option value="compact">Compact</option></select></div></div>
   <label class="checkline"><input id="pref-motion" type="checkbox"> Reduce motion</label>
  </div>
- <div class="settings-section"><h3>Personal</h3><label for="pref-name">Display name (optional)</label><input id="pref-name" maxlength="32" autocomplete="nickname" placeholder="What should we call you?"><p class="small muted">Your name stays in this browser. This does not create an account.</p></div>
- <div class="settings-section"><h3>Study defaults</h3>
+ <div class="settings-section"><h3>Personal</h3><label for="pref-name">Display name (optional)</label><input id="pref-name" maxlength="32" autocomplete="nickname" placeholder="What should we call you?"><p class="small muted">Your display name also appears on your progress profile and syncs when connected to Google.</p></div>
+ <div class="settings-section"><h3>Practice defaults</h3>
   <label for="pref-mode">Study mode</label><select id="pref-mode"><option value="practice">Practice</option><option value="exam">Test</option><option value="cards">Flashcards</option></select>
   <label for="pref-source">Question source</label><select id="pref-source"><option value="program">Program bank</option><option value="personal">My questions</option><option value="both">Program + my questions</option></select>
   <label for="pref-images">Image questions</label><select id="pref-images"><option value="all">Include all questions</option><option value="only">Image questions only</option><option value="none">No image questions</option></select>
+ </div>
+ <div class="settings-section"><h3>Practice & guide quick tests</h3><p class="small muted">These options apply to question sessions and guide quick tests. Read and Review modes have no timer or question limit.</p>
   <label class="checkline"><input id="pref-all" type="checkbox"> Use all matching questions</label>
   <div id="pref-count-field"><label for="pref-count">Default number of questions</label><input id="pref-count" type="number" min="1" step="1" inputmode="numeric"></div>
-  <label class="checkline"><input id="pref-autoLearn" type="checkbox"> Automatically mark correct answers as learned</label><p class="small muted">Includes “Got it” on flashcards. Turn this off to mark cards manually.</p>
+  <label class="checkline"><input id="pref-autoLearn" type="checkbox"> Automatically mark correct answers as learned</label><p class="small muted">Includes “Got it” on flashcards and guide quick tests. Showing an answer in Review mode does not mark it learned. Turn this off to mark cards manually.</p>
   <label class="checkline"><input id="pref-smart" type="checkbox"> Smart review</label>
   <label class="checkline"><input id="pref-shuffle" type="checkbox"> Shuffle answers and normal question order</label>
   <label class="checkline"><input id="pref-timer" type="checkbox"> Start sessions with a timer</label>
